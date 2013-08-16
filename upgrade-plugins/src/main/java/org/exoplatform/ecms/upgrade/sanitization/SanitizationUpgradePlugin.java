@@ -104,17 +104,18 @@ public class SanitizationUpgradePlugin extends UpgradeProductPlugin {
 
   /* Migrate data for all user views */
   private void migrateViews() {
+    SessionProvider sessionProvider =null;
     try {
-      Session session = WCMCoreUtils.getSystemSessionProvider().getSession(dmsConfiguration_.getConfig().getSystemWorkspace(),
+      sessionProvider = SessionProvider.createSystemProvider();
+      Session session = sessionProvider.getSession(dmsConfiguration_.getConfig().getSystemWorkspace(),
                                                                                   repoService_.getCurrentRepository());
       String[] oldViewTemplates = {"ListView", "ContentView", "ThumbnailsView", 
               "IconView", "TimelineView", "CoverFlow", "SystemView", "SlideShowView"};
       if (LOG.isInfoEnabled()) {
         LOG.info("=====Start migrate data for all user views=====");
       }
-      String statement = "SELECT * FROM exo:view ORDER BY exo:name DESC";
-      QueryResult result = session.getWorkspace().getQueryManager().createQuery(statement, Query.SQL).execute();
-      NodeIterator nodeIter = result.getNodes();
+      Node views = (Node)session.getItem("/exo:ecm/views/userviews");
+      NodeIterator nodeIter = views.getNodes();
       while(nodeIter.hasNext()) {
         Node viewNode = nodeIter.nextNode();
         String template = viewNode.getProperty("exo:template").getString();
@@ -153,6 +154,11 @@ public class SanitizationUpgradePlugin extends UpgradeProductPlugin {
         LOG.error("An unexpected error occurs when migrate views", e);
       }
     }
+    finally{
+      if (sessionProvider != null) {
+        sessionProvider.close();
+      }
+    }
   }
   
   private boolean isContainOldView(String viewName) {
@@ -166,11 +172,13 @@ public class SanitizationUpgradePlugin extends UpgradeProductPlugin {
 
   /* Migrate data for view templates */
   private void migrateViewTemplates() {
+    SessionProvider sessionProvider =null;   
     try {
       if (LOG.isInfoEnabled()) {
         LOG.info("=====Start migrate data for all user views template=====");
       }
-      Session session = WCMCoreUtils.getSystemSessionProvider().getSession(dmsConfiguration_.getConfig().getSystemWorkspace(),
+      sessionProvider = SessionProvider.createSystemProvider();
+      Session session = sessionProvider.getSession(dmsConfiguration_.getConfig().getSystemWorkspace(),
               repoService_.getCurrentRepository());
       String[] oldViewTemplates = {"ListView", "ContentView", "ThumbnailsView", 
               "IconView", "TimelineView", "CoverFlow", "SystemView", "SlideShowView"};
@@ -194,6 +202,10 @@ public class SanitizationUpgradePlugin extends UpgradeProductPlugin {
         LOG.error("An unexpected error occurs when migrate view templates", e);
       }
     }
+    finally{
+      if(sessionProvider!=null)
+        sessionProvider.close();
+    }
   }
 
   /* Migrate data for all drives */
@@ -201,12 +213,13 @@ public class SanitizationUpgradePlugin extends UpgradeProductPlugin {
     if (LOG.isInfoEnabled()) {
       LOG.info("=====Start migrate data for drives=====");
     }
+    SessionProvider sessionProvider=null;
     try {
-      Session session = WCMCoreUtils.getSystemSessionProvider().getSession(dmsConfiguration_.getConfig().getSystemWorkspace(),
+      sessionProvider=SessionProvider.createSystemProvider();
+      Session session = sessionProvider.getSession(dmsConfiguration_.getConfig().getSystemWorkspace(),
                                                                                   repoService_.getCurrentRepository());
-      String statement = "SELECT * FROM exo:drive ORDER BY exo:name DESC";
-      QueryResult result = session.getWorkspace().getQueryManager().createQuery(statement, Query.SQL).execute();
-      NodeIterator nodeIter = result.getNodes();
+      Node drives = (Node)session.getItem("/exo:ecm/exo:drives");
+      NodeIterator nodeIter = drives.getNodes();
       while(nodeIter.hasNext()) {
         Node drive = nodeIter.nextNode();
         if (LOG.isInfoEnabled()) {
@@ -276,6 +289,10 @@ public class SanitizationUpgradePlugin extends UpgradeProductPlugin {
           }
           drive.setProperty("exo:views", strViews.toString());
         }
+        
+        if(drive.getName().equals("Personal Documents")) {
+          drive.setProperty("exo:path", "/Users/${userId}/Private");
+        }
       }
       session.save();
       if (LOG.isInfoEnabled()) {
@@ -285,7 +302,13 @@ public class SanitizationUpgradePlugin extends UpgradeProductPlugin {
       if (LOG.isErrorEnabled()) {
         LOG.error("An unexpected error occurs when migrate drives", e);
       }
-    } 
+    }
+    finally{
+      if(sessionProvider!=null)
+      {
+        sessionProvider.close();
+      }
+    }
   }
 
   /**
@@ -295,8 +318,10 @@ public class SanitizationUpgradePlugin extends UpgradeProductPlugin {
     if (LOG.isInfoEnabled()) {
       LOG.info("Start " + this.getClass().getName() + ".............");
     }
+    SessionProvider sessionProvider=null;
     try {
-      Session session = WCMCoreUtils.getSystemSessionProvider().getSession("portal-system",
+      sessionProvider = SessionProvider.createSystemProvider();
+      Session session = sessionProvider.getSession("portal-system",
           repoService_.getCurrentRepository());
       if (LOG.isInfoEnabled()) {
         LOG.info("=====Start migrate old preferences=====");
@@ -320,6 +345,10 @@ public class SanitizationUpgradePlugin extends UpgradeProductPlugin {
         LOG.error("An unexpected error occurs when migrating old preferences: ", e);
       }
     }
+    finally{
+      if(sessionProvider!=null)
+        sessionProvider.close();
+    }
   }
 
   /**
@@ -329,8 +358,10 @@ public class SanitizationUpgradePlugin extends UpgradeProductPlugin {
     if (LOG.isInfoEnabled()) {
       LOG.info("Start " + this.getClass().getName() + ".............");
     }
+    SessionProvider sessionProvider=null;
     try {
-      Session session = WCMCoreUtils.getSystemSessionProvider().getSession("collaboration", repoService_.getCurrentRepository());
+      sessionProvider=SessionProvider.createSystemProvider();
+      Session session = sessionProvider.getSession("collaboration", repoService_.getCurrentRepository());
       if (LOG.isInfoEnabled()) {
         LOG.info("=====Start migrate old link in contents=====");
       }
@@ -357,6 +388,10 @@ public class SanitizationUpgradePlugin extends UpgradeProductPlugin {
       if (LOG.isErrorEnabled()) {
         LOG.error("An unexpected error occurs when migrating content links: ", e);
       }
+    }
+    finally{
+      if(sessionProvider!=null)
+        sessionProvider.close();
     }
   }
 

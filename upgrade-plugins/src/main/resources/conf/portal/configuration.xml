@@ -451,6 +451,143 @@
                 </value-param>
             </init-params>
         </component-plugin>
+        
+        
+        <!--config for 3.5.1 upgrade plugin-->
+        
+                
+        <component-plugin>
+          <name>UserDriveExtPlugin-351</name>
+          <set-method>addUpgradePlugin</set-method>
+          <type>org.exoplatform.ecms.upgrade35x.plf351.user_drive_ext.UserDriveExtPlugin</type>
+          <description>Upgrade User Personal Drive</description>
+          <init-params>
+            <value-param>
+              <name>product.group.id</name>
+              <description>The groupId of the product</description>
+              <value>org.exoplatform.ecms</value>
+            </value-param>
+          </init-params>
+        </component-plugin>
+        
+        <component-plugin>
+          <name>FavoriteActionUpgradePlugin-351</name>
+          <set-method>addUpgradePlugin</set-method>
+          <type>org.exoplatform.ecms.upgrade35x.plf351.favorite.FavoriteActionUpgradePlugin</type>
+          <description>Add exo:addToFavoriteAction upgrade plugin</description>
+          <init-params>
+           <value-param>
+                <name>product.group.id</name>
+                <description>The groupId of the product</description>
+                <value>org.exoplatform.ecms</value>
+           </value-param>   
+          </init-params>
+        </component-plugin>
+        
+        <component-plugin>
+          <name>UpgradeVotingNodeTypePlugin-351</name>
+          <set-method>addUpgradePlugin</set-method>
+          <type>org.exoplatform.ecms.upgrade35x.plf351.votingnodetype.UpgradeVotingNodeTypePlugin</type>
+          <description>Upgrade voting node type plugin</description>
+          <init-params>
+            <value-param>
+              <name>product.group.id</name>
+              <description>The groupId of the product</description>
+              <value>org.exoplatform.ecms</value>
+            </value-param>
+          </init-params>
+        </component-plugin>
+        
+        <component-plugin>
+          <name>ThumbnailNodeTypeUpgradePlugin-351</name>
+          <set-method>addUpgradePlugin</set-method>
+          <type>org.exoplatform.ecms.upgrade35x.plf351.thumbnails.ThumbnailNodeTypeUpgradePlugin</type>
+          <description>Add exo:thumbnail, exo:thumbnails upgrade plugin</description>
+          <init-params>
+          <value-param>
+              <name>product.group.id</name>
+              <description>The groupId of the product</description>
+              <value>org.exoplatform.ecms</value>
+          </value-param>
+          </init-params>
+        </component-plugin>
+        
+        
+        <!-- UP for PLF-3.5.2-->
+
+        <component-plugin>
+          <name>UpgradePortletPreferencesPlugin-352</name>
+          <set-method>addUpgradePlugin</set-method>
+          <type>org.exoplatform.ecms.upgrade35x.plf352.portletpreferences.UpgradePortletPreferencesPlugin</type>
+          <description>Upgrade portlet preferences plugin</description>
+          <init-params>
+            <value-param>
+              <name>product.group.id</name>
+              <description>The groupId of the product</description>
+              <value>org.exoplatform.ecms</value>
+            </value-param>
+          </init-params>
+        </component-plugin>
+        
+        <component-plugin>
+            <name>UpgradePublicationPublicationNodeTypePlugin-352</name>
+            <set-method>addUpgradePlugin</set-method>
+            <type>org.exoplatform.ecms.upgrade35x.plf352.publication_publication_nodetype.UpgradePublicationPublicationNodeTypePlugin</type>
+            <description>Upgrade publication:publication node type plugin</description>
+            <init-params>
+              <value-param>
+                <name>product.group.id</name>
+                <description>The groupId of the product</description>
+                <value>org.exoplatform.ecms</value>
+              </value-param>
+            </init-params>
+        </component-plugin>
+
+        <component-plugin>
+          <name>UpgradeUsersFolderPlugin-352</name>
+          <set-method>addUpgradePlugin</set-method>
+          <type>org.exoplatform.ecms.upgrade35x.plf352.users_folder_permission.UpgradeUsersFolderPlugin</type>
+          <description>Upgrade Users Folder Permission</description>
+          <init-params>
+            <value-param>
+              <name>product.group.id</name>
+              <description>The groupId of the product</description>
+              <value>org.exoplatform.ecms</value>
+            </value-param>
+          </init-params>
+        </component-plugin>
+        
+        
+        <!-- UP for PLF-3.5.5-->
+        <component-plugin>
+          <name>UpgradePortletPreferencesPlugin-355</name>
+          <set-method>addUpgradePlugin</set-method>
+          <type>org.exoplatform.ecms.upgrade35x.plf355.portlet_preferences.UpgradePortletPreferencesPlugin</type>
+          <description>Upgrade portlet preferences plugin</description>
+          <init-params>
+            <value-param>
+              <name>product.group.id</name>
+              <description>The groupId of the product</description>
+              <value>org.exoplatform.ecms</value>
+            </value-param>
+          </init-params>
+        </component-plugin>
+        
+        <component-plugin>
+          <name>DriveDataUpgradePlugin-355</name>
+          <set-method>addUpgradePlugin</set-method>
+          <type>org.exoplatform.ecms.upgrade35x.plf355.drive_data.DriveDataUpgradePlugin</type>
+          <description>Add mixin exo:driveMetadata and property exo:label for all drive nodes</description>
+          <init-params>
+          <value-param>
+              <name>product.group.id</name>
+              <description>The groupId of the product</description>
+              <value>org.exoplatform.ecms</value>
+          </value-param>
+          </init-params>
+        </component-plugin>    
+        
+        
     </external-component-plugins>
 </configuration>
 
