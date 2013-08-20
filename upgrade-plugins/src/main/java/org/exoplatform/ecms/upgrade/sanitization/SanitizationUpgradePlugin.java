@@ -437,41 +437,60 @@ public class SanitizationUpgradePlugin extends UpgradeProductPlugin {
    * Migrate taxonomy actions which contains some properties which still point to old path related to "/sites content/live"
    */
   private void migrateTaxonomyAction() {
-	  if (LOG.isInfoEnabled()) {
-		  LOG.info("Start " + this.getClass().getName() + ".............");
-	  }
-	  SessionProvider sessionProvider = null;
-	  try {
-		  sessionProvider = SessionProvider.createSystemProvider();
-		  String wsName = repoService_.getCurrentRepository().getConfiguration().getDefaultWorkspaceName();
-		  Session session = sessionProvider.getSession(wsName, repoService_.getCurrentRepository());
+    if (LOG.isInfoEnabled()) {
+      LOG.info("Start " + this.getClass().getName() + ".............");
+    }
+    SessionProvider sessionProvider = null;
+    try {
+      sessionProvider = SessionProvider.createSystemProvider();
+      String wsName = repoService_.getCurrentRepository().getConfiguration().getDefaultWorkspaceName();
+      Session session = sessionProvider.getSession(wsName, repoService_.getCurrentRepository());
 
-		  if (LOG.isInfoEnabled()) {
-			  LOG.info("=====Start to migrate taxonomy actions=====");
-		  }
-		  String statement = 
-				  "select * from exo:taxonomyAction where (exo:targetPath like '%/sites content/live/%' or exo:storeHomePath like '%/sites content/live/%')";
-		  QueryResult result = session.getWorkspace().getQueryManager().createQuery(statement, Query.SQL).execute();
-		  NodeIterator nodeIter = result.getNodes();
-		  while(nodeIter.hasNext()) {
-			  Node taxoAction = nodeIter.nextNode();
-			  String targetPath = taxoAction.getProperty("exo:targetPath").getString();
-			  String homePath = taxoAction.getProperty("exo:storeHomePath").getString();
-			  taxoAction.setProperty("exo:targetPath", StringUtils.replace(targetPath, "/sites content/live/", "/sites/"));
-			  taxoAction.setProperty("exo:storeHomePath", StringUtils.replace(homePath, "/sites content/live/", "/sites/"));
-		  }
-		  session.save();
-		  if (LOG.isInfoEnabled()) {
-			  LOG.info("=====Completed the migration for taxonomy action=====");
-		  }
-	  } catch (Exception e) {
-		  if (LOG.isErrorEnabled()) {
-			  LOG.error("An unexpected error occurs when migrating for taxonomy actions: ", e);
-		  }
-	  } finally {
-		  if (sessionProvider != null) {
-			  sessionProvider.close();
-		  }
-	  }
+      if (LOG.isInfoEnabled()) {
+        LOG.info("=====Start to migrate taxonomy actions=====");
+      }
+      String statement = 
+          "select * from exo:taxonomyAction where (exo:targetPath like '%/sites content/live/%' or exo:storeHomePath like '%/sites content/live/%')";
+      QueryResult result = session.getWorkspace().getQueryManager().createQuery(statement, Query.SQL).execute();
+      NodeIterator nodeIter = result.getNodes();
+      while(nodeIter.hasNext()) {
+        Node taxoAction = nodeIter.nextNode();
+        String targetPath = taxoAction.getProperty("exo:targetPath").getString();
+        String homePath = taxoAction.getProperty("exo:storeHomePath").getString();
+        targetPath = updateParam(taxoAction.getPath(), targetPath, "{portalName}");
+        targetPath = updateParam(taxoAction.getPath(), targetPath, "{treeName}");
+        taxoAction.setProperty("exo:targetPath", StringUtils.replace(targetPath, "/sites content/live/", "/sites/"));
+        homePath = updateParam(taxoAction.getPath(), homePath, "{portalName}");
+        homePath = updateParam(taxoAction.getPath(), homePath, "{treeName}");
+        taxoAction.setProperty("exo:storeHomePath", StringUtils.replace(homePath, "/sites content/live/", "/sites/"));
+        taxoAction.save();
+        LOG.info("\n update taxonomy action, set exo:storeHomePath = " + taxoAction.getProperty("exo:storeHomePath").getString());
+        LOG.info("\n update taxonomy action, set exo:targetPath = " + taxoAction.getProperty("exo:targetPath").getString());
+      }
+      session.save();
+      if (LOG.isInfoEnabled()) {
+        LOG.info("=====Completed the migration for taxonomy action=====");
+      }
+    } catch (Exception e) {
+      if (LOG.isErrorEnabled()) {
+        LOG.error("An unexpected error occurs when migrating for taxonomy actions: ", e);
+      }
+    } finally {
+      if (sessionProvider != null) {
+        sessionProvider.close();
+      }
+    }
+  }
+  
+  private String updateParam(String nodePath, String src, String param) {
+    if (src.contains(param)) {
+      int length = "/sites/".length();
+      String siteName = nodePath.substring(length);
+      int index = siteName.indexOf("/");
+      siteName = siteName.substring(0, index);
+      return src.replace(param, siteName);
+    } else {
+      return src;
+    }
   }
 }
