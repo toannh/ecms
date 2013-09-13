@@ -19,7 +19,7 @@
       <UIMetadataManager>Metadata</UIMetadataManager>
       <UINamespaceManager>Namespaces</UINamespaceManager>
       <UINodeTypeManager>Node Types</UINodeTypeManager>
-      <UITemplatesManager>Documents</UITemplatesManager>
+      <UITemplatesManager>Documentos</UITemplatesManager>
    <UICLVTemplatesManager>Lista</UICLVTemplatesManager>
       <UIViewManager>Views</UIViewManager>
       <UIDriveManager>Drives</UIDriveManager>
@@ -784,7 +784,7 @@
       <UIViewTab>View</UIViewTab>
       <UITemplateEditForm>Template</UITemplateEditForm>
       <UITemplateForm>Template</UITemplateForm>
-      <UITemplateContainer>Documents</UITemplateContainer>
+      <UITemplateContainer>Documentos</UITemplateContainer>
       <UIActionsTemplateContainer>Actions</UIActionsTemplateContainer>
       <UIOthersTemplateContainer>Others</UIOthersTemplateContainer>
   <UIActionScriptContainer>Ação</UIActionScriptContainer>
