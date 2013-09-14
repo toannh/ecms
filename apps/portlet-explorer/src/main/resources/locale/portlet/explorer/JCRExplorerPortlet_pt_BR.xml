@@ -1741,7 +1741,7 @@
     </msg>
     <action>
       <Close>#{word.close}</Close>
-      <View>View</View>
+      <View>Visualizar</View>
       <Edit>Editar</Edit>
       <Delete>Delete</Delete>
     </action>

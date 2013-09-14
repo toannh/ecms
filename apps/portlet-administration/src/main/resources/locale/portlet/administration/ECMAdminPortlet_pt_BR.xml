@@ -295,7 +295,7 @@
       <metadataName>Metadata Name:</metadataName>
       <viewPermission>Permission:</viewPermission>
       <permission>UIMetadataForm</permission>
-      <metadataLabel>Label:</metadataLabel>
+      <metadataLabel>Etiqueta:</metadataLabel>
     </label>
     <tab>
       <label>
@@ -807,7 +807,7 @@
   -->
   <UIViewList>
    <title>
-     <View>View</View>
+     <View>Visualizar</View>
      <EditInfo>Editar</EditInfo>
      <Delete>Delete</Delete>
    </title>
@@ -846,7 +846,7 @@
 
 <UITabList>
  <header>
-  <tabName>Tab</tabName>
+  <tabName>Aba</tabName>
   <localizeButtons>Description</localizeButtons>
 <action>Actions</action>
 </header>
@@ -1030,7 +1030,7 @@
   -->
   <UIECMTemplateList>
     <title>
-      <View>View</View>
+      <View>Visualizar</View>
       <EditInfo>Editar</EditInfo>
       <Delete>Delete</Delete>
     </title>

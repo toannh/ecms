@@ -248,7 +248,7 @@
     </header>
     <title>
       <Select>Select</Select>
-      <View>View</View>
+      <View>Visualizar</View>
     </title>
     <msg>
     <template-not-support>Cannot preview this content. The template is not supported</template-not-support>
