@@ -73,7 +73,7 @@
     <view>
       <label>
         <avg-rating>Avg. Rating</avg-rating>
-        <subscription>Votes</subscription>
+        <subscription>Votos</subscription>
       </label>
     </view>
   </Vote>

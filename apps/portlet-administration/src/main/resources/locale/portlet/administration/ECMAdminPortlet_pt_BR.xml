@@ -970,7 +970,7 @@
       <manageHidden>Hide/Show Content</manageHidden>
       <comment>Comment</comment>
       <vote>Vote</vote>  
-      <addCategory>Add Category</addCategory>
+      <addCategory>Adicionar Categoria</addCategory>
       <addLocalizationLink>Add Translation</addLocalizationLink>
       <publicationRequestApproval>Request Approval</publicationRequestApproval>
       <publicationApproveContent>Approve Content</publicationApproveContent>
@@ -1392,7 +1392,7 @@
    <PopupDrivePermission>
     <title>
       <AddDrivePermissionSelector>Add Permission</AddDrivePermissionSelector>
-      <UIPermissionSelector>Select Permission</UIPermissionSelector>
+      <UIPermissionSelector>Selecionar Permissão</UIPermissionSelector>
     </title>
   </PopupDrivePermission>
   
@@ -1501,7 +1501,7 @@
       <name>Type</name>
       <action>Action</action>
       <label>Modelo</label>
-      <icon>Icon</icon>
+      <icon>Ícone</icon>
     </header>
     <action>
       <AddNew>Add Template</AddNew>
@@ -1519,7 +1519,7 @@
       <name>Type</name>
       <action>Ação</action>
       <label>Modelo</label>
-      <icon>Icon</icon>
+      <icon>Ícone</icon>
     </header>
     <action>
       <AddNew>Adicionar modelo</AddNew>
@@ -1536,7 +1536,7 @@
     <header>
       <name>Type</name>
       <label>Modelo</label>
-      <icon>Icon</icon>
+      <icon>Ícone</icon>
       <action>Ação</action>
     </header>
     <action>
@@ -1941,7 +1941,7 @@
   </EditQueryForm>
 <PermissionPopup>
   <title>
-    <UIGroupMemberSelector>Select Permission</UIGroupMemberSelector>
+    <UIGroupMemberSelector>Selecionar Permissão</UIGroupMemberSelector>
   </title>
 </PermissionPopup>
   <!--
