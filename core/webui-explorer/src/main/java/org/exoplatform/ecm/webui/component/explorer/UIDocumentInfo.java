@@ -16,6 +16,47 @@
  */
 package org.exoplatform.ecm.webui.component.explorer;
 
+import java.awt.Image;
+import java.io.InputStream;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Calendar;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Locale;
+import java.util.Map;
+import java.util.Set;
+import java.util.regex.Matcher;
+
+import javax.imageio.ImageIO;
+import javax.jcr.AccessDeniedException;
+import javax.jcr.Item;
+import javax.jcr.ItemNotFoundException;
+import javax.jcr.Node;
+import javax.jcr.NodeIterator;
+import javax.jcr.PathNotFoundException;
+import javax.jcr.Property;
+import javax.jcr.PropertyType;
+import javax.jcr.ReferentialIntegrityException;
+import javax.jcr.RepositoryException;
+import javax.jcr.Session;
+import javax.jcr.Value;
+import javax.jcr.lock.LockException;
+import javax.jcr.nodetype.ConstraintViolationException;
+import javax.jcr.nodetype.NodeDefinition;
+import javax.jcr.nodetype.NodeType;
+import javax.jcr.query.Query;
+import javax.jcr.query.QueryManager;
+import javax.jcr.query.QueryResult;
+import javax.jcr.version.VersionException;
+
 import org.apache.commons.lang.StringUtils;
 import org.exoplatform.commons.utils.LazyPageList;
 import org.exoplatform.commons.utils.ListAccess;
@@ -82,24 +123,6 @@ import org.exoplatform.webui.event.Event;
 import org.exoplatform.webui.event.EventListener;
 import org.exoplatform.webui.exception.MessageException;
 import org.exoplatform.webui.ext.UIExtensionManager;
-
-import javax.imageio.ImageIO;
-import javax.jcr.*;
-import javax.jcr.lock.LockException;
-import javax.jcr.nodetype.ConstraintViolationException;
-import javax.jcr.nodetype.NodeDefinition;
-import javax.jcr.nodetype.NodeType;
-import javax.jcr.query.Query;
-import javax.jcr.query.QueryManager;
-import javax.jcr.query.QueryResult;
-import javax.jcr.version.VersionException;
-import java.awt.*;
-import java.io.InputStream;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.*;
-import java.util.List;
-import java.util.regex.Matcher;
 
 /**
  * Created by The eXo Platform SARL
@@ -1693,10 +1716,22 @@ public class UIDocumentInfo extends UIBaseNodePresentation {
     if (node == null || !PermissionUtil.canAddNode(node)) {
       return false;
     }
+    LinkManager linkManager = WCMCoreUtils.getService(LinkManager.class);
+    if(linkManager.isLink(node)) {
+      try {
+        linkManager.getTarget(node);
+      } catch(ItemNotFoundException ine) {
+        return false;
+      }
+    }
     List<NodeDefinition> defs = new ArrayList<NodeDefinition>();
-    defs.addAll(Arrays.asList(node.getPrimaryNodeType().getChildNodeDefinitions()));
+    if(node.getPrimaryNodeType().getChildNodeDefinitions() != null) {
+      defs.addAll(Arrays.asList(node.getPrimaryNodeType().getChildNodeDefinitions()));
+    }
     for (NodeType mix : node.getMixinNodeTypes()) {
-      defs.addAll(Arrays.asList(mix.getChildNodeDefinitions()));
+      if(mix.getChildNodeDefinitions() != null) {
+        defs.addAll(Arrays.asList(mix.getChildNodeDefinitions()));
+      }
     }
     for (NodeDefinition def : defs) {
       for (NodeType type : def.getRequiredPrimaryTypes()) {
@@ -1747,6 +1782,59 @@ public class UIDocumentInfo extends UIBaseNodePresentation {
   
   public List<Node> getChildrenFromNode(Node node) {
     return null;
+  }
+  
+  /** get node attribute in Icons View & Web View **/
+  public String getNodeAttributeInView(Node node) throws Exception {
+    String preferenceWS = node.getSession().getWorkspace().getName();
+    String attr = getNodeAttributeInCommon(node);
+    StringBuilder builder = new StringBuilder(attr);
+    String rightClickMenu = "";
+    // right click menu in Icon View
+    if(!isSystemWorkspace()) 
+        rightClickMenu = "" + getContextMenu().getJSOnclickShowPopup(preferenceWS + ":" + Utils.formatNodeName(node.getPath()), getActionsList(node));
+    
+    builder.append(rightClickMenu);
+    return builder.toString();
+  }
+  
+  /** get node attribute in Admin View **/
+  public String getNodeAttribute(Node node) throws Exception {
+    StringBuilder builder = new StringBuilder();
+    String preferenceWS = node.getSession().getWorkspace().getName();
+    
+    builder.append(getNodeAttributeInCommon(node));
+    
+    // right click menu in Admin View
+    if (!isSystemWorkspace()) {
+      builder.append(" onmousedown=\"eXo.ecm.UIFileView.clickRightMouse(event, this, 'ECMContextMenu','");
+      builder.append(preferenceWS + ":");
+      builder.append(Utils.formatNodeName(node.getPath()) + "','" );
+      builder.append(getActionsList(node) + "');\"");
+    }
+    return builder.toString();
+  }
+  
+  /** get Attribute in common. */
+  private String getNodeAttributeInCommon(Node node) throws Exception {
+    StringBuilder builder = new StringBuilder();
+    String preferenceWS = node.getSession().getWorkspace().getName();
+    
+    // drag and drop events
+    builder.append(" " + getDragAndDropEvents(node));
+    // in common
+    builder.append(" trashHome='" + Utils.isTrashHomeNode(node) + "' "); 
+    builder.append(" locked='" + node.isLocked() + "' ");
+    builder.append(" mediaType='" + isMediaType(node) + "' ");
+    builder.append(" removeFavourite='" + isFavouriter(node) + "' ");
+    builder.append(" inTrash='" + node.isNodeType("exo:restoreLocation") + "' ");
+    builder.append(" workspacename='" + preferenceWS + "' ");
+    builder.append(" objectId='" + org.exoplatform.services.cms.impl.Utils.getObjectId(node.getPath()) + "' ");
+    builder.append(" isFile='" + node.isNodeType("nt:file") + "' ");
+    builder.append(" isLinkWithTarget='" + Utils.targetNodeAndLinkInTrash(node) + "' ");
+    builder.append(" isExoAction='" + (Utils.EXO_ACTIONS.equals(node.getName()) && Utils.isInTrash(node)) + "' ");
+    
+    return builder.toString();
   }
 
 }
