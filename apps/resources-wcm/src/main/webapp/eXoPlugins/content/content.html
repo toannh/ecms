@@ -127,150 +127,137 @@
 		</div>
 	</div>
 
-	<div id="UploadContainer" style="display: none;">
+	<div id="UploadContainer" >
 		<div class="UploadForm" style="overflow: auto;">
-			<table border="0" bordercolor="red" class="ActionContainer">
-				<tr class="PathFolder">
-					<td colspan="2" style="width: 100%; overflow: hidden;">
-						<span class="PathFolder" userLanguage="UserLanguage.LabelFolder"> Folder </span>
-					</td>
-				</tr>
-				<tr class="UploadField">
-					<td width="280px">
-						<iframe name="iFrameUpload" class="iFrameUpload" frameborder="0px" border="0px" style="width: 100%; height: 23px;">
-						</iframe>
-						<xmp id="iContentUpLoad" style="display: none;">
-							<html style="padding: 0px; margin: 0px;">
-								<body style="margin: 0px; padding: 0px; overflow: hidden;">
-									<form enctype="multipart/form-data" method="post" target="iTarget">
-										<input type="file" name="file" class="file" style="width: 280px" />
-									</form>
-									<iframe name="iTarget" id="iTarget" style="display: none"></iframe>
-								</body>
-							</html>
-						</xmp>
-					</td>
-				</tr>
-				<tr class="UploadInfo Abort" style="display: none;">
-					<td width="238">
-						<div class="GraphProgress"></div>
-						<div class="NumberProgress">0%</div>
-					</td>
-					<td>
+			<div class="popupHeader ClearFix">
+				<a onclick="eXo.ecm.UploadForm.removeMask();" title="Close Window" class="uiIconClose pull-right"></a>
+				<span class="PopupTitle popupTitle">Upload File</span>
+			</div>
+			<div class="PopupContent popupContent">
+				<div class="resizable">
+					<div class="uploadButton">
+						<label class="btn">Select File</label> 
+						<label class="noFile" style="">No file selected</label>
+					</div>
+
+					<table border="0" bordercolor="red" class="ActionContainer">
+					<!--<tr class="PathFolder">
+						<td colspan="2" style="width: 100%; overflow: hidden;">
+							<span class="PathFolder" userLanguage="UserLanguage.LabelFolder"> Folder </span>
+						</td>
+					</tr>-->
+					<tr class="UploadField" style="display: none;">
+						<td width="280px">
+							<iframe name="iFrameUpload" class="iFrameUpload" frameborder="0px" border="0px" style="width: 100%; height: 23px;">
+							</iframe>
+							<xmp id="iContentUpLoad" style="display: none;">
+								<html style="padding: 0px; margin: 0px;">
+									<body style="margin: 0px; padding: 0px; overflow: hidden;">
+										<form enctype="multipart/form-data" method="post" target="iTarget">
+											<input id="fileUpload" type="file" name="file" class="file"/>
+										</form>
+										<iframe name="iTarget" id="iTarget" style="display: none"></iframe>
+									</body>
+								</html>
+							</xmp>
+						</td>
+					</tr>
+					
+					
+					
+					<tr class="UploadInfo Abort" style="display: none;">
+						<td width="238">
+							<div class="GraphProgress"></div>
+							<div class="NumberProgress">0%</div>
+						</td>
+						<td>
 
 
 
-						<div class="UIAction Abort">
-							<table class="ActionContainer">
-								<tbody>
-									<tr>
-										<td>
-											<div class="ActionButton LightBlueStyle" onclick="eXo.ecm.UploadForm.uploadFileAbort();">
-												<div class="ButtonLeft">
-													<div class="ButtonRight">
-														<div class="ButtonMiddle">
-															<a href="javascript:void(0);">Abort</a>
+							<div class="UIAction Abort">
+								<table class="ActionContainer">
+									<tbody>
+										<tr>
+											<td>
+												<div class="ActionButton LightBlueStyle" onclick="eXo.ecm.UploadForm.uploadFileAbort();">
+													<div class="ButtonLeft">
+														<div class="ButtonRight">
+															<div class="ButtonMiddle">
+																<a href="javascript:void(0);">Abort</a>
+															</div>
 														</div>
 													</div>
 												</div>
-											</div>
 
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-						<div class="ActionButton Delete LightBlueStyle" onclick="eXo.ecm.UploadForm.uploadFileDelete();">
-							<div class="ButtonLeft">
-								<div class="ButtonRight">
-									<div class="ButtonMiddle">
-										<a href="javascript:void(0);">Delete</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="ActionButton Delete LightBlueStyle" onclick="eXo.ecm.UploadForm.uploadFileDelete();">
+								<div class="ButtonLeft">
+									<div class="ButtonRight">
+										<div class="ButtonMiddle">
+											<a href="javascript:void(0);">Delete</a>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
 
-					</td>
-				</tr>
-				<tr class="UploadAction" style="display: none;">
-					<td colspan="2">
-						<div style="margin: 3px 0px 3px 0px">
-							<span userLanguage="UserLanguage.LabelName"> Name </span>:
-							<input type="text" name="fileName" style="width: 238px;" maxlength="128"/>
-						</div>
+						</td>
+					</tr>
+					<tr class="UploadAction" style="display: none;">
+						<td colspan="2">
+							<div style="margin: 3px 0px 3px 0px">
+								<span userLanguage="UserLanguage.LabelName"> Name </span>:
+								<input type="text" name="fileName" style="width: 238px;" maxlength="128"/>
+							</div>
 
-						<div class="UIAction">
-							<table class="ActionContainer">
-								<tbody>
-									<tr>
-										<td>
-											<div class="ActionButton LightBlueStyle" onclick="eXo.ecm.UploadForm.uploadFileSave();">
-												<div class="ButtonLeft">
-													<div class="ButtonRight">
-														<div class="ButtonMiddle">
-															<a href="javascript:void(0);">Save</a>
+							<div class="UIAction">
+								<table class="ActionContainer">
+									<tbody>
+										<tr>
+											<td>
+												<div class="ActionButton LightBlueStyle" onclick="eXo.ecm.UploadForm.uploadFileSave();">
+													<div class="ButtonLeft">
+														<div class="ButtonRight">
+															<div class="ButtonMiddle">
+																<a href="javascript:void(0);">Save</a>
+															</div>
 														</div>
 													</div>
 												</div>
-											</div>
-											<div class="ActionButton LightBlueStyle" onclick="eXo.ecm.UploadForm.uploadFileCancel();">
-												<div class="ButtonLeft">
-													<div class="ButtonRight">
-														<div class="ButtonMiddle">
-															<a href="javascript:void(0);">Cancel</a>
+												<div class="ActionButton LightBlueStyle" onclick="eXo.ecm.UploadForm.uploadFileCancel();">
+													<div class="ButtonLeft">
+														<div class="ButtonRight">
+															<div class="ButtonMiddle">
+																<a href="javascript:void(0);">Cancel</a>
+															</div>
 														</div>
 													</div>
 												</div>
-											</div>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
 
-					</td>
-				</tr>
-				<tr class="CancelAction">
-					<td colspan="2">
-
-						<div class="UIAction">
-							<table class="ActionContainer">
-								<tbody>
-									<tr>
-										<td>
-											<div class="ActionButton LightBlueStyle" onclick="eXo.ecm.UploadForm.uploadFile();" >
-												<div class="ButtonLeft">
-													<div class="ButtonRight">
-														<div class="ButtonMiddle">
-															<a href="javascript:void(0);">Upload</a>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="ActionButton LightBlueStyle" onclick="eXo.ecm.UploadForm.removeMask();" >
-												<div class="ButtonLeft">
-													<div class="ButtonRight">
-														<div class="ButtonMiddle">
-															<a href="javascript:void(0);">Cancel</a>
-														</div>
-													</div>
-												</div>
-											</div>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-
-					</td>
-				</tr>
-			</table>
-		</div>
+						</td>
+					</tr>
+					
+				</table>
+				</div>
+				<div class="uiAction uiActionBorder">
+					<button type="button" class="btn SaveAction" onclick="eXo.ecm.UploadForm.uploadFile();">Upload</button> 
+					<button type="button" class="btn CancelAction" onclick="eXo.ecm.UploadForm.removeMask();">Cancel</button>
+				</div>
+			</div>
+		</div>	
 	</div>
 </div>
 <!-- =================================END UPLOAD ======================================== -->
 <div class="Mask" id="Mask"></div>
-<div class="PopupContainer"  id="PopupContainer"></div>
+<div class="PopupContainer UIPopupWindow uiPopup UIDragObject NormalStyle" style="display: none; visibility: visible; z-index: 7; left: 266px;"  id="PopupContainer"></div>
 </body>
 
 
