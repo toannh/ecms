@@ -17,8 +17,8 @@
       <Page>Seite</Page>
       <Document>Dokument</Document>
       <DocumentAndPage>Dokument und Seite</DocumentAndPage>
-      <documentandpage>Dokument und Seite</documentandpage>
-      <resutlsCaption>Ergebnisse</resutlsCaption>
+      <documentandpage>Document and Page</documentandpage>
+      <resutlsCaption>Results</resutlsCaption>
       <ofAboutCaption>von ungefähr</ofAboutCaption>
       <forCaption>für</forCaption>
       <timeUnitCaption>Sekunden</timeUnitCaption>
@@ -26,7 +26,7 @@
       <editor>Editor</editor>
     </label>
     <action>
-      <edit>Bearbeiten</edit>
+      <edit>Edit</edit>
     </action>
     <msg>
       <your-search>Ihre Suche</your-search>
@@ -50,8 +50,8 @@
       </option>
     </label>
     <action>
-      <Save>Speichern</Save>
-      <Cancel>Abbrechen</Cancel>
+      <Save>Save</Save>
+      <Cancel>Cancel</Cancel>
     </action>
   </UISearchPageLayoutManager>
   <searchResultBasePathInputSetAction>
@@ -68,8 +68,8 @@
   </UISearchForm>
   <UIPaginatorDefault>
     <label>
-      <next>Weiter</next>
-      <previous>Zurück</previous>
+      <next>Next</next>
+      <previous>Previous</previous>
       <more>Mehr</more>
     </label>
   </UIPaginatorDefault>

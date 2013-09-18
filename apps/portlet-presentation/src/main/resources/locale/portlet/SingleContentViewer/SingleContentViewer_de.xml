@@ -40,16 +40,16 @@
   <UISCVPreferences>
     <action>
       <Save>Speichern</Save>
-      <Abort>Abbrechen</Abort>
+      <Abort>Abort</Abort>
       <Cancel>Abbrechen</Cancel>
-      <Print>Drucken</Print>
+      <Print>Print</Print>
       <Close>Schließen</Close>
     </action>
     <title>Einstellungen zu Details des Inhalts</title>
     <label>
       <Back>Zurück zur vorherigen Seite</Back>
-      <Edit>Bearbeiten</Edit>
-      <Preferences>Präferenzen</Preferences>
+      <Edit>Edit</Edit>
+      <Preferences>Preferences</Preferences>
       <Title>Einstellungen zu Details des Inhalts</Title>
       <UISCVShowTitleConfigurationCheckBox>Titel anzeigen</UISCVShowTitleConfigurationCheckBox>
       <UISCVShowDateConfigurationCheckBox>Datum anzeigen</UISCVShowDateConfigurationCheckBox>
@@ -65,7 +65,7 @@
       <PrintSettingBlock>Druckeinstellungen</PrintSettingBlock>
       <UISCVPrintPageParameter>mit</UISCVPrintPageParameter>
       <UISCVConfigPrintPageFormInputSet>In Seite anzeigen</UISCVConfigPrintPageFormInputSet>
-      <LockStatus>Sperren</LockStatus>
+      <LockStatus>Lock</LockStatus>
       <CacheManagement>Inhaltssichtbarkeit</CacheManagement>
       <UISCVCacheRadioBox>Inhalt teilen</UISCVCacheRadioBox>
     </label>
@@ -80,9 +80,9 @@
     </msg>
     <tab>
       <label>
-        <UISCVConfigContentFormInputSet>Inhaltsauswahl</UISCVConfigContentFormInputSet>
-        <UISCVConfigDisplayFormInputSet>Anzeigeeinstellungen</UISCVConfigDisplayFormInputSet>
-        <UISCVConfigPrintFormInputSet>Druckeinstellungen</UISCVConfigPrintFormInputSet>
+        <UISCVConfigContentFormInputSet>Content Selection</UISCVConfigContentFormInputSet>
+        <UISCVConfigDisplayFormInputSet>Display Settings</UISCVConfigDisplayFormInputSet>
+        <UISCVConfigPrintFormInputSet>Print Settings</UISCVConfigPrintFormInputSet>
         <UISCVConfigAdvancedFormInputSet>Erweitert</UISCVConfigAdvancedFormInputSet>
       </label>
     </tab>
@@ -90,25 +90,25 @@
   <UISCVConfigItemPathFormInputSet>
     <title>
       <SelectFolderPath>Einen Ordnerpfad auswählen</SelectFolderPath>
-      <AddPath>Pfad hinzufügen</AddPath>
+      <AddPath>Add Path</AddPath>
     </title>
   </UISCVConfigItemPathFormInputSet>
   <UISCVConfigPrintPageFormInputSet>
     <title>
-      <SelectTargetPage>In Seite anzeigen</SelectTargetPage>
+      <SelectTargetPage>Show in Page</SelectTargetPage>
     </title>
   </UISCVConfigPrintPageFormInputSet>
   <PublicationStates>
     <archived>Archiviert</archived>
     <obsolete>Veraltet</obsolete>
-    <unpublished>Unveröffentlicht</unpublished>
+    <unpublished>Unpublished</unpublished>
     <enrolled>Eingeschrieben</enrolled>
     <draft>Entwurf</draft>
-    <pending>Ausstehend</pending>
+    <pending>Pending</pending>
     <approved>Genehmigt</approved>
     <inreview>Unter Überprüfung</inreview>
     <staged>bereitgestellt</staged>
-    <published>Veröffentlicht</published>
+    <published>Published</published>
   </PublicationStates>
   <UISCVCacheRadioBox>
     <label>

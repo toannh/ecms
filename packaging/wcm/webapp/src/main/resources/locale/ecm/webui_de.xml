@@ -24,11 +24,11 @@
     <header>
       <categoryName>Kategoriename</categoryName>
       <categoryPath>Kategoriepfad</categoryPath>
-      <action>Aktion</action>
+      <action>Action</action>
     </header>
     <action>
-      <SaveCategories>Speichern</SaveCategories>
-      <Cancel>Abbrechen</Cancel>
+      <SaveCategories>Save</SaveCategories>
+      <Cancel>Cancel</Cancel>
     </action>
     <msg>
       <cannot-save>Kategorien wurden nicht gespeichert.</cannot-save>
@@ -51,13 +51,13 @@
   <UIPermissionUser>
     <label>
       <selectUser>Benutzer auswählen</selectUser>
-      <selectGroup>Durchsuchen und wählen Sie eine Gruppe</selectGroup>
+      <selectGroup>Browse and select a group</selectGroup>
     </label>
   </UIPermissionUser>
   <UIPermissionMembership>
     <label>
       <selectUser>Rolle auswählen</selectUser>
-      <selectGroup>Durchsuchen und wählen Sie eine Gruppe</selectGroup>
+      <selectGroup>Browse and select a group</selectGroup>
     </label>
   </UIPermissionMembership>
 </bundle>

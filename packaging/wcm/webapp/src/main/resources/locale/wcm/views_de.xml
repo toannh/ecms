@@ -32,25 +32,25 @@
   <SiteMetadata>
     <view>
       <label>
-        <title>Seitentitel</title>
-        <description>Seitenbeschreibung</description>
-        <keywords>Seiten-Schlüsselwörter</keywords>
+        <title>Site Title</title>
+        <description>Site Description</description>
+        <keywords>Site Keywords</keywords>
         <robots>Suchmaschine-Verhalten</robots>
       </label>
       <tooltip>
         <add-edit>Hinzufügen/Bearbeiten von Metadaten</add-edit>
-        <cancel>Abbrechen</cancel>
+        <cancel>Cancel</cancel>
       </tooltip>
       <action>
         <add-edit>Hinzufügen/Bearbeiten</add-edit>
-        <cancel>Abbrechen</cancel>
+        <cancel>Cancel</cancel>
       </action>
     </view>
   </SiteMetadata>
 
   <Category>
     <view>
-      <label>Kategorie</label>
+      <label>Category</label>
     </view>
   </Category>
 

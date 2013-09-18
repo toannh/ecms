@@ -8,7 +8,7 @@
       <label>
         <end-time>Endzeit</end-time>
         <start-time>Startzeit</start-time>
-        <lifecycle>Lebenszyklus</lifecycle>
+        <lifecycle>Lifecycle</lifecycle>
         <mimeType>MIME-Typ</mimeType>
         <repeat-count>Wiederholzahl</repeat-count>
         <time-interval>Zeitintervall</time-interval>
@@ -40,7 +40,7 @@
     <dialog>
       <label>
         <name>Name</name>
-        <content>Inhalt</content>
+        <content>Content</content>
       </label>
     </dialog>
   </HtmlFile>
@@ -65,7 +65,7 @@
       <description>#{word.description}</description>
       <port>Port</port>
       <userName>#{word.userName}</userName>
-      <password>Passwort</password>
+      <password>Password</password>
       <link>Link</link>
       <to>E-Mail senden an</to>
       <actionName>#{word.name}</actionName>
@@ -76,9 +76,9 @@
       <description>#{word.description}</description>
       <port>Port</port>
       <userName>#{word.userName}</userName>
-      <password>Passwort</password>
+      <password>Password</password>
       <link>Link</link>
-      <to>E-Mail senden an</to>
+      <to>Send Mail To</to>
       <actionName>#{word.name}</actionName>
     </label>
   </EditFormAction>
@@ -224,7 +224,7 @@
   <RssEnable>
     <dialog>
       <label>
-        <title>Titel</title>
+        <title>Title</title>
         <summary>#{word.summary}</summary>
       </label>
     </dialog>
@@ -237,7 +237,7 @@
     <dialog>
       <label>
         <version-history>Versionsverlauf</version-history>
-        <base-version>Basisversion</base-version>
+        <base-version>Base Version</base-version>
         <is-checked-out>Ist ausgecheckt</is-checked-out>
         <predecessors>Vorgänger</predecessors>
         <merge-failed>Fehler beim Zusammenführen</merge-failed>
@@ -255,7 +255,7 @@
         <name>Name</name>
         <autoload>automatisches Herunterladen</autoload>
         <minetype>MIME-Typ</minetype>
-        <content>Inhalt</content>
+        <content>Content</content>
       </label>
     </dialog>
   </ResouceContainer>
@@ -287,8 +287,8 @@
       <label>
         <id>Id</id>
         <name>Name</name>
-        <lifecycle>Lebenszyklus</lifecycle>
-        <homePath>Quellpfad</homePath>
+        <lifecycle>Lifecycle</lifecycle>
+        <homePath>Home Path</homePath>
         <targetWorkspace>Zielarbeitsbereich</targetWorkspace>
         <targetPath>Zielpfad</targetPath>
       </label>
@@ -312,28 +312,28 @@
 <Electronic>Elektronisch</Electronic>
 <Paper>Papier</Paper>
 <NONE>Keine</NONE>
-<CLASSIFIED>Klassifiziert</CLASSIFIED>
+<CLASSIFIED>Classified</CLASSIFIED>
 <UNCLASSIFIED>Unklassifiziert</UNCLASSIFIED>
-<NOCONTRACT>Kein Vertrag</NOCONTRACT>
-<one-minute>Eine Minute</one-minute>
+<NOCONTRACT>No Contract</NOCONTRACT>
+<one-minute>One Minute</one-minute>
 <hourly>Stündlich</hourly>
 <daily>Täglich</daily>
 <quarterly>Vierteljährlich</quarterly>
 <yearly>Jährlich</yearly>
 <ten-years>Zehn Jahre</ten-years>
-<read>Benutzeraktion</read>
-  <schedule>Planer</schedule>
-  <node_added>Inhaltshinzufügung</node_added>
-  <node_removed>Inhaltsentfernung</node_removed>
-  <property_added>Eigenschaftshinzufügung</property_added>
-  <property_removed>Eigenschaftsentfernung</property_removed>
-  <property_changed>Eigenschaftsbearbeitung</property_changed>
+<read>User Action</read>
+  <schedule>Scheduler</schedule>
+  <node_added>Content Addition</node_added>
+  <node_removed>Content Removal</node_removed>
+  <property_added>Property Addition</property_added>
+  <property_removed>Property Removal</property_removed>
+  <property_changed>Property Modification</property_changed>
 
   <ScriptAction>
     <dialog>
       <label>
         <isDeep>Ist rekursiv</isDeep>
-        <nodetypes>Knotentypen</nodetypes>
+        <nodetypes>Node Types</nodetypes>
         <affectedNodeTypeNames>Betroffenen Knotentypen</affectedNodeTypeNames>
       </label>
     </dialog>
@@ -343,7 +343,7 @@
     <dialog>
       <label>
         <isDeep>Ist rekursiv</isDeep>
-        <nodetypes>Knotentypen</nodetypes>
+        <nodetypes>Node Types</nodetypes>
         <affectedNodeTypeNames>Betroffenen Knotentypen</affectedNodeTypeNames>
       </label>
     </dialog>
@@ -353,7 +353,7 @@
     <dialog>
       <label>
         <isDeep>Ist rekursiv</isDeep>
-        <nodetypes>Knotentypen</nodetypes>
+        <nodetypes>Node Types</nodetypes>
         <affectedNodeTypeNames>Betroffenen Knotentypen</affectedNodeTypeNames>
       </label>
     </dialog>
@@ -363,7 +363,7 @@
     <dialog>
       <label>
         <isDeep>Ist rekursiv</isDeep>
-        <nodetypes>Knotentypen</nodetypes>
+        <nodetypes>Node Types</nodetypes>
         <affectedNodeTypeNames>Betroffenen Knotentypen</affectedNodeTypeNames>
       </label>
     </dialog>
