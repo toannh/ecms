@@ -47,7 +47,7 @@
       <thumbails-view>Thumbnails</thumbails-view>
       <list-view>List</list-view>
       <authoring-view>Authoring</authoring-view>
-      <wcm-category-view>Kategoriler</wcm-category-view>
+      <wcm-category-view>Categories</wcm-category-view>
       <file-view>File Management View</file-view>
     </label>
   </Views>
@@ -62,7 +62,7 @@
   <UIPageSelectorPanel>
     <header>
       <path>Path</path>
-      <action>Eylem</action>
+      <action>Action</action>
     </header>
     <msg>
       <child-not-found>No Page Found.</child-not-found>
@@ -136,9 +136,9 @@
 
   <UISelectedContentGrid>
     <label>
-      <name>Ad</name>
-      <add>Ekle</add>
-      <delete>Sil</delete>
+      <name>Name</name>
+      <add>Add</add>
+      <delete>Delete</delete>
     </label>
     <msg>
       <no-content-found>No content found.</no-content-found>
@@ -148,16 +148,16 @@
 
   <UICLVContentSelectedGrid>
     <action>
-      <SaveCategories>Kaydet</SaveCategories>
-      <Cancel>İptal</Cancel>
+      <SaveCategories>Save</SaveCategories>
+      <Cancel>Cancel</Cancel>
     </action>
   </UICLVContentSelectedGrid>
 
   <UIContentBrowsePathSelector>
     <header>
-      <name>Ad</name>
+      <name>Name</name>
       <publicationstate>Publication State</publicationstate>
-      <action>Eylem</action>
+      <action>Action</action>
     </header>
     <msg>
       <child-not-found>No Content Found</child-not-found>
@@ -166,9 +166,9 @@
 
   <UIContentBrowsePathSelectorFolder>
     <header>
-      <name>Ad</name>
+      <name>Name</name>
       <publicationstate>Publication State</publicationstate>
-      <action>Eylem</action>
+      <action>Action</action>
     </header>
     <msg>
       <child-not-found>No Folder Found</child-not-found>
@@ -178,7 +178,7 @@
   <UIContentSearchForm>
     <title>
       <Location>Site Name</Location>
-      <SearchByName>İsme göre arama</SearchByName>
+      <SearchByName>Search by Name</SearchByName>
       <Fulltext>A word or phrase in context</Fulltext>
       <Property>Property</Property>
       <Contain>Contain</Contain>
@@ -197,7 +197,7 @@
       </option>
     </label>
     <action>
-      <SearchWebContent>Arama</SearchWebContent>
+      <SearchWebContent>Search</SearchWebContent>
     </action>
     <msg>
       <time-to-late>The searching time is too long.</time-to-late>
@@ -217,8 +217,8 @@
 
   <UIContentPropertySelector>
     <action>
-      <Add>Ekle</Add>
-      <Cancel>İptal</Cancel>
+      <Add>Add</Add>
+      <Cancel>Cancel</Cancel>
     </action>
     <label>
       <metadataType>Metadata Type</metadataType>
@@ -234,17 +234,17 @@
 
   <UIContentNodeTypeSelector>
     <action>
-      <Save>Kaydet</Save>
-      <Cancel>İptal</Cancel>
+      <Save>Save</Save>
+      <Cancel>Cancel</Cancel>
     </action>
   </UIContentNodeTypeSelector>
 
   <UIContentSearchResult>
     <header>
-      <title>Başlık</title>
+      <title>Title</title>
       <score>Score</score>
       <publicationstate>Publication State</publicationstate>
-      <action>Eylem</action>
+      <action>Action</action>
     </header>
     <title>
       <Select>Select</Select>
@@ -260,7 +260,7 @@
       <SaveDraft>Save Draft</SaveDraft>
       <FastPublish>Fast Publish</FastPublish>
       <Preferences>Preferences</Preferences>
-      <Close>Kapat</Close>
+      <Close>Close</Close>
     </action>
     <msg>
       <access-denied>You do not have permission to add categories to this document.</access-denied>
@@ -277,11 +277,11 @@
       <UIEditableCheckboxInput>Edit Right</UIEditableCheckboxInput>
     </label>
     <action>
-      <Save>Kaydet</Save>
+      <Save>Save</Save>
       <Clear>Clear</Clear>
       <title>
-        <Edit>Düzenle</Edit>
-        <Delete>Sil</Delete>
+        <Edit>Edit</Edit>
+        <Delete>Delete</Delete>
       </title>
     </action>
   </UIPermissionManager>
@@ -291,7 +291,7 @@
       <owner>Permission</owner>
       <accessible>Accessible</accessible>
       <editable>Editable</editable>
-      <action>Eylem</action>
+      <action>Action</action>
     </header>
     <msg>
       <confirm-delete-permission>Are you sure you want to delete this permission?</confirm-delete-permission>
@@ -333,7 +333,7 @@
 
   <UIContentDialogPreference>
     <action>
-      <Back>Geri</Back>
+      <Back>Back</Back>
     </action>
   </UIContentDialogPreference>
 
@@ -357,7 +357,7 @@
     <label>
       <SingleContentViewer>Single Content Viewer</SingleContentViewer>
       <ContentListViewer>Content List Viewer</ContentListViewer>
-      <Search>Arama</Search>
+      <Search>Search</Search>
       <Sitemap>Site Map</Sitemap>
       <TwoColumnsLayout>Two-column Layout</TwoColumnsLayout>
       <ThreeColumnsLayout>Three-column Layout</ThreeColumnsLayout>
@@ -372,11 +372,11 @@
   </UIWizardPageSelectLayoutForm>
 
   <Signin>
-    <welcome>Hoş Geldiniz</welcome>
+    <welcome>Welcome</welcome>
     <login>Login</login>
     <logout>Logout</logout>
-    <language>Dili Değiştir</language>
-    <register>Kayıt Ol</register>
+    <language>Change Language</language>
+    <register>Register</register>
   </Signin>
   <UIDriveForm>
 <label>
@@ -391,7 +391,7 @@
       <GeneralDrives>General Drives</GeneralDrives>
       <GroupDrives>Group Drives</GroupDrives>
       <Private>Private</Private>
-      <Public>Genel</Public>
+      <Public>Public</Public>
       <BackupCenter>Backup Center</BackupCenter>
       <CategorizedDocumentsCenter>Categorized Documents Center</CategorizedDocumentsCenter>
       <CollaborationCenter>Collaboration Center</CollaborationCenter>
@@ -428,13 +428,13 @@
   
   <CategoryNavigationTemplate>
   <label>
-  <home>Ana sayfa</home>
+  <home>Home</home>
   </label>
   </CategoryNavigationTemplate>
   
   <Breadcrumb>
   <label>
-  <home>Ana sayfa</home>
+  <home>Home</home>
   </label>  
   </Breadcrumb>
 </bundle>

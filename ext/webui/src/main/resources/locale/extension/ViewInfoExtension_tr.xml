@@ -13,9 +13,9 @@
 </ECMContextMenu>
 <UIViewInfoContainer>
 <label>
-      <name>Ad</name>
-      <title>Başlık</title>
-      <type>Türü</type>
+      <name>Name</name>
+      <title>Title</title>
+      <type>Type</type>
       <size>Boyut</size>
       <owner>Owner</owner>
       <lastModifier>Son Değiştiricisi</lastModifier>
@@ -27,7 +27,7 @@
       <folder>Klasör</folder>
 </value>
 <action>
-<Close>Kapat</Close>
+<Close>Close</Close>
 </action>
 </UIViewInfoContainer>
 </bundle>

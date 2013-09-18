@@ -7,10 +7,10 @@
   -->
   <UICommentForm>
     <label>
-      <name>Ad</name>
-      <email>E-posta</email>
+      <name>Name</name>
+      <email>Email</email>
       <website>Website</website>
-      <comment>Yorum</comment>
+      <comment>Comment</comment>
     </label>
     <action>
       <Save>#{word.save}</Save>
@@ -93,12 +93,12 @@
       <driveWorkspace>Drive Workspace:</driveWorkspace>
       <backToJCR>Back to JCR Main Drives</backToJCR>
       <setUpBrowser>Set up your browsing preferences</setUpBrowser>
-      <refesh>Yenile</refesh>
+      <refesh>Refresh</refesh>
       <currentDrive>Current Drive</currentDrive>
       <selectView>Select View</selectView>
       <showSideBar>Show Sidebar</showSideBar>
-      <more>Daha</more>
-      <backTo>Geri</backTo>
+      <more>More</more>
+      <backTo>Back</backTo>
     </label>
   </UIViewBar>
 
@@ -174,8 +174,8 @@
   <UIRenameForm>
     <title>Rename</title>
     <label>
-      <nameField>Ad</nameField>
-      <titleField>Başlık</titleField>
+      <nameField>Name</nameField>
+      <titleField>Title</titleField>
     </label>
     <action>
       <Cancel>#{word.cancel}</Cancel>
@@ -217,11 +217,11 @@
       <UIDocumentFormController>Add New Document</UIDocumentFormController>
       <EditFormController>Edit Document</EditFormController>
       <UIRelationManager>Add Relation</UIRelationManager>
-      <UICategoryManager>Kategori Ekle</UICategoryManager>
+      <UICategoryManager>Add Category</UICategoryManager>
       <UIImportNode>Import</UIImportNode>
       <UIViewMetadataManager>View Metadata</UIViewMetadataManager>
       <UIVoteForm>Vote Document</UIVoteForm>
-      <UICommentForm>Yorum</UICommentForm>
+      <UICommentForm>Comment</UICommentForm>
       <UIPreferencesForm>Preferences</UIPreferencesForm>
       <UIPublicationManager>Manage Publication</UIPublicationManager>
       <UIConfirmMessage>Delete ?</UIConfirmMessage>
@@ -250,7 +250,7 @@
   <UIResourceForm>
     <title>Edit File Content</title>
     <label>
-      <name>Ad</name>
+      <name>Name</name>
       <textToModify>Text to modify</textToModify>
       <fileToUpload>Upload new content for that document (must be the same mime-type)</fileToUpload>
     </label>
@@ -264,20 +264,20 @@
     <tooltip>
       <AddFolder>New Folder</AddFolder>
       <AddDocument>New Content</AddDocument>
-      <EditDocument>Düzenle</EditDocument>
+      <EditDocument>Edit</EditDocument>
       <Upload>Upload</Upload>
       <Paste>Paste</Paste>
-      <Search>Arama</Search>
+      <Search>Search</Search>
       <WatchDocument>Watch/Unwatch</WatchDocument>
       <TaggingDocument>Tag</TaggingDocument>
       <Vote>Vote</Vote>
-      <Comment>Yorum</Comment>
+      <Comment>Comment</Comment>
       <ManageVersions>Versions</ManageVersions>
       <ManageAuditing>Audit</ManageAuditing>
       <ManagePublications>Publications</ManagePublications>
-      <ManageCategories>Kategoriler</ManageCategories>
+      <ManageCategories>Categories</ManageCategories>
       <ManageRelations>Relations</ManageRelations>
-      <ManageActions>Eylemler</ManageActions>
+      <ManageActions>Actions</ManageActions>
       <ExportNode>Export</ExportNode>
       <ImportNode>Import</ImportNode>
       <OverloadThumbnail>Overload Thumbnail</OverloadThumbnail>
@@ -424,7 +424,7 @@
   -->
   <UIWorkingArea>
     <title>
-      <Icon>Simge</Icon>
+      <Icon>Icon</Icon>
     </title>
     <msg>
       <!-- Delte one node is not in trash and have no relation -->
@@ -502,13 +502,13 @@
       <Rename>Rename</Rename>
       <Cut>Cut</Cut>
       <Copy>Copy</Copy>
-      <Save>Kaydet</Save>
-      <RemoveNode>Sil</RemoveNode>
+      <Save>Save</Save>
+      <RemoveNode>Delete</RemoveNode>
       <Checkin>Checkin</Checkin>
       <Checkout>Checkout</Checkout>
       <Lock>Lock</Lock>
       <Unlock>Unlock</Unlock>
-      <EditDocument>Düzenle</EditDocument>
+      <EditDocument>Edit</EditDocument>
       <Paste>Paste</Paste>
       <LockedBy>Locked by</LockedBy>
     </tooltip>
@@ -530,7 +530,7 @@
   <ListView>
     <view>
       <label>
-        <name>Ad</name>
+        <name>Name</name>
         <versionable>Versionable</versionable>
         <exo_owner>Owner</exo_owner>
         <auditing>Auditing</auditing>
@@ -548,11 +548,11 @@
     <event>
       <Lock>Lock</Lock>
       <Unlock>UnLock</Unlock>
-      <EditDocument>Düzenle</EditDocument>
+      <EditDocument>Edit</EditDocument>
       <Copy>Copy</Copy>
       <Rename>Rename</Rename>
-      <Delete>Sil</Delete>
-      <Save>Kaydet</Save>
+      <Delete>Delete</Delete>
+      <Save>Save</Save>
       <Cut>Cut</Cut>
       <Paste>Paste</Paste>
       <CheckOut>CheckOut</CheckOut>
@@ -591,7 +591,7 @@
       <path>Path</path>
     </header>
     <action>
-      <Close>Kapat</Close>
+      <Close>Close</Close>
     </action>
   </UIReferencesList>
   <!--
@@ -620,7 +620,7 @@
       <UICategoryManagerSearch>Add Category to Search</UICategoryManagerSearch>
       <UIConstraintsForm>Constraints Form</UIConstraintsForm>
       <UIViewSearchResult>View Content</UIViewSearchResult>
-      <UIContentNameSearch>İsme göre arama</UIContentNameSearch>
+      <UIContentNameSearch>Search by Name</UIContentNameSearch>
       <UINodeInfo>Version Info</UINodeInfo>
       <UINodeProperty>Node Property</UINodeProperty>
       <UIActionListContainer>Available Actions</UIActionListContainer>
@@ -651,10 +651,10 @@
     </confirm>
     <header>
       <icon/>
-      <name>Ad</name>
+      <name>Name</name>
       <multiValue>Multi Value</multiValue>
-      <value>Değer</value>
-      <action>Eylem</action>
+      <value>Value</value>
+      <action>Action</action>
     </header>
     <label>
       <binary>Binary Data</binary>
@@ -678,17 +678,17 @@
   <UIPropertyForm>
     <title>Add/Edit Property</title>
     <label>
-      <name>Adı:</name>
+      <name>Name:</name>
       <type>Type:</type>
       <value>Value:</value>
-      <upload>Yükle:</upload>
+      <upload>Upload:</upload>
       <namespace>Namespace:</namespace>
       <multiple>Multiple:</multiple>
       <property_select>Add New Property:</property_select>
     </label>
     <action>
       <Save>#{word.save}</Save>
-      <Cancel>İptal</Cancel>
+      <Cancel>Cancel</Cancel>
       <Reset>Reset</Reset>
     </action>
     <msg>
@@ -714,7 +714,7 @@
   <UIPermissionInfo>
     <action>
       <title>
-        <Edit>Düzenle</Edit>
+        <Edit>Edit</Edit>
         <Delete>Remove Permission</Delete>
       </title>
     </action>
@@ -722,8 +722,8 @@
       <usersOrGroups>User or Group</usersOrGroups>
       <read>Read</read>
       <addNode>Modify</addNode>
-      <remove>Kaldır</remove>
-      <action>Eylem</action>
+      <remove>Remove</remove>
+      <action>Action</action>
     </header>
     <msg>
       <confirm-delete-permission>Are you sure you want to remove this permission?</confirm-delete-permission>
@@ -791,14 +791,14 @@
   <UINodeTypeInfo>
     <label>
       <node-type>Node Type</node-type>
-      <name>Ad</name>
+      <name>Name</name>
       <item>Primary Item Name</item>
       <super-types>Parent Types</super-types>
       <mixin>Mixin Node Type</mixin>
       <orderable-children>Orderable Children</orderable-children>
       <property-def>Node Property Definition</property-def>
-      <prop-name>Ad</prop-name>
-      <prop-type>Türü</prop-type>
+      <prop-name>Name</prop-name>
+      <prop-type>Type</prop-type>
       <prop-multiple>Mul</prop-multiple>
       <prop-mandatory>Man</prop-mandatory>
       <prop-protected>Pr</prop-protected>
@@ -806,7 +806,7 @@
       <prop-default-values><![CDATA[<span title="Default Values">DV</span>]]></prop-default-values>
       <prop-constraints><![CDATA[<span title="Constraints Values">CV</span>]]></prop-constraints>
       <node-def>Child Node Definition</node-def>
-      <node-def-name>Ad</node-def-name>
+      <node-def-name>Name</node-def-name>
       <node-def-opv>OPV</node-def-opv>
       <node-def-ac>AC</node-def-ac>
       <node-def-man>MAN</node-def-man>
@@ -814,7 +814,7 @@
       <node-def-dnt>DNT</node-def-dnt>
     </label>
     <action>
-      <Close>Kapat</Close>
+      <Close>Close</Close>
     </action>
   </UINodeTypeInfo>
   <!--
@@ -829,7 +829,7 @@
       </label>
     </tab>
     <action>
-      <Close>Kapat</Close>
+      <Close>Close</Close>
     </action>
   </UICategoryManagerSearch>
   <UIContentNameSearch>
@@ -838,7 +838,7 @@
       <location>Search in this location:</location>
     </label>
     <action>
-      <Search>Arama</Search>
+      <Search>Search</Search>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
@@ -848,7 +848,7 @@
   <UISimpleSearch>
     <action>
       <MoreConstraints>Show/Hide Constraint Form</MoreConstraints>
-      <Search>Arama</Search>
+      <Search>Search</Search>
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
@@ -884,9 +884,9 @@
     <header>
       <name>#{word.name}</name>
       <path>Path</path>
-      <action>Eylem</action>
+      <action>Action</action>
       <shortcutPath>Path</shortcutPath>
-      <type>Türü</type>
+      <type>Type</type>
       <dateCreated>Date Created</dateCreated>
       <score>Score</score>
     </header>
@@ -915,9 +915,9 @@
     <header>
       <name>#{word.name}</name>
       <path>Path</path>
-      <action>Eylem</action>
+      <action>Action</action>
       <shortcutPath>Path</shortcutPath>
-      <type>Türü</type>
+      <type>Type</type>
       <dateCreated>Date Created</dateCreated>
       <score>Score</score>
     </header>
@@ -946,9 +946,9 @@
     <header>
       <name>#{word.name}</name>
       <path>Path</path>
-      <action>Eylem</action>
+      <action>Action</action>
       <shortcutPath>Path</shortcutPath>
-      <type>Türü</type>
+      <type>Type</type>
       <dateCreated>Date Created</dateCreated>
       <score>Score</score>
     </header>
@@ -977,9 +977,9 @@
     <header>
       <name>#{word.name}</name>
       <path>Path</path>
-      <action>Eylem</action>
+      <action>Action</action>
       <shortcutPath>Path</shortcutPath>
-      <type>Türü</type>
+      <type>Type</type>
       <dateCreated>Date Created</dateCreated>
       <score>Score</score>
       <AddRemoveFavourite>Add/Remove to Favorite</AddRemoveFavourite>
@@ -1010,9 +1010,9 @@
     <header>
       <name>#{word.name}</name>
       <path>Path</path>
-      <action>Eylem</action>
+      <action>Action</action>
       <shortcutPath>Path</shortcutPath>
-      <type>Türü</type>
+      <type>Type</type>
       <dateCreated>Date Created</dateCreated>
       <score>Score</score>
     </header>
@@ -1042,7 +1042,7 @@
       <notcontains>Not Contain Value</notcontains>
     </label>
     <action>
-      <Add>Ekle</Add>
+      <Add>Add</Add>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
@@ -1057,15 +1057,15 @@
       <toDate-invalid>Invalid type in the 'To' field. Please reselect or type correctly.</toDate-invalid>
     </msg>
     <button>
-      <label-Add>Ekle</label-Add>
-      <label-Cancel>İptal</label-Cancel>
+      <label-Add>Add</label-Add>
+      <label-Cancel>Cancel</label-Cancel>
     </button>
   </UIConstraintsForm>
   <UIConstraintForm>
     <tooltip>
       <AddMetadataType>Add Property</AddMetadataType>
       <AddNodeType>Add Node Type</AddNodeType>
-      <AddCategory>Kategori Ekle</AddCategory>
+      <AddCategory>Add Category</AddCategory>
       <FindExactly>Find Exactly</FindExactly>
     </tooltip>
     <label>
@@ -1080,7 +1080,7 @@
       <ConstraintOption-From>From</ConstraintOption-From>
       <ConstraintOption-To>To</ConstraintOption-To>
       <DocumentType-label>Document Type</DocumentType-label>
-      <Category-label>Kategori</Category-label>
+      <Category-label>Category</Category-label>
       <created>Created</created>
       <modified>Modified</modified>
       <and>And</and>
@@ -1105,21 +1105,21 @@
   </SaveQueryPopup>
   <UINodeTypeSelectForm>
     <action>
-      <Cancel>İptal</Cancel>
-      <Save>Kaydet</Save>
+      <Cancel>Cancel</Cancel>
+      <Save>Save</Save>
     </action>
   </UINodeTypeSelectForm>
   <UICompareExactlyForm>
     <label>
-      <filter>Süz:</filter>
+      <filter>Filter:</filter>
       <result>Results:</result>
     </label>
     <title>
-      <result>Süz</result>
+      <result>Filter</result>
     </title>
     <button>
       <label-Select>Select</label-Select>
-      <label-Cancel>İptal</label-Cancel>
+      <label-Cancel>Cancel</label-Cancel>
     </button>
     <msg>
       <not-result-found>No results found.</not-result-found>
@@ -1127,14 +1127,14 @@
   </UICompareExactlyForm>
   <UIJCRAdvancedSearch>
     <label>
-      <name>Adı:</name>
+      <name>Name:</name>
       <selectBox>Select Query Style:</selectBox>
       <query>Query:</query>
     </label>
     <action>
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
-      <Search>Arama</Search>
+      <Search>Search</Search>
     </action>
     <msg>
       <!--DMS 2.4.x ECM-3566-->
@@ -1148,7 +1148,7 @@
   </UIJCRAdvancedSearch>
   <EditQueryForm>
     <label>
-      <name>Ad</name>
+      <name>Name</name>
       <selectBox>Select Query Style</selectBox>
       <query>Query</query>
     </label>
@@ -1168,7 +1168,7 @@
     </label>
     <action>
       <Cancel>#{word.cancel}</Cancel>
-      <Add>Ekle</Add>
+      <Add>Add</Add>
     </action>
   </UIMetadataSelectForm>
   <property1MetadataPopup>
@@ -1192,8 +1192,8 @@
     </label>
     <pLabel>Properties:</pLabel>
     <action>
-      <Add>Ekle</Add>
-      <Cancel>İptal</Cancel>
+      <Add>Add</Add>
+      <Cancel>Cancel</Cancel>
     </action>
   </UISelectPropertyForm>
   <ExactlyFormPopup>
@@ -1203,10 +1203,10 @@
   </ExactlyFormPopup>
   <UIECMSearch>
     <header>
-      <name>Ad</name>
+      <name>Name</name>
       <language>Language</language>
       <query>Query</query>
-      <action>Eylemler</action>
+      <action>Actions</action>
       <path>Path</path>
     </header>
   </UIECMSearch>
@@ -1215,7 +1215,7 @@
       <not-found>Data not found.</not-found>
     </msg>
     <header>
-      <action>Eylem</action>
+      <action>Action</action>
     </header>
   </UIResult>
   <UISaveQueryForm>
@@ -1234,16 +1234,16 @@
   </UISaveQueryForm>
   <UISavedQuery>
     <header>
-      <name>Ad</name>
-      <type>Türü</type>
+      <name>Name</name>
+      <type>Type</type>
       <statement>Statement</statement>
       <permission>Permissions</permission>
-      <action>Eylemler</action>
+      <action>Actions</action>
     </header>
     <tooltip>
       <Execute>Execute</Execute>
-      <Edit>Düzenle</Edit>
-      <Delete>Sil</Delete>
+      <Edit>Edit</Edit>
+      <Delete>Delete</Delete>
     </tooltip>
     <label>
       <no-children>No query is saved.</no-children>
@@ -1317,7 +1317,7 @@
       <invalid-item-state>You cannot restore this version, either because one or more items were deleted or moved during another session.</invalid-item-state>
     </msg>
     <action>
-      <close>Kapat</close>
+      <close>Close</close>
       <close-view>Close View</close-view>
     </action>
   </UIVersionInfo>
@@ -1336,13 +1336,13 @@
       <e_4>Property Added</e_4>
       <e_16>Property Changed</e_16>
       <e_8>Property Removed</e_8>
-      <e_32>Kaydet</e_32>
+      <e_32>Save</e_32>
       <e_64>Move</e_64>
       <e_128>Copy</e_128>
       <e_256>Add Mixin</e_256>
       <e_512>Remove Mixin</e_512>
       <e_1024>Clone</e_1024>
-      <e_2048>Güncelleştirme</e_2048>
+      <e_2048>Update</e_2048>
       <e_4096>Import</e_4096>
       <e_8192>Check in</e_8192>
       <e_16384>Check out</e_16384>
@@ -1375,7 +1375,7 @@
       <note>Versioning has not been activated for this node.</note>
       <question>Are you sure you want to activate it?</question>
       <button-active>Activate</button-active>
-      <button-cancel>İptal</button-cancel>
+      <button-cancel>Cancel</button-cancel>
     </label>
     <msg>
       <access-denied>You do not have permission to activate versioning on this node</access-denied>
@@ -1388,12 +1388,12 @@
   -->
   <UIActivePublication>
     <header>
-      <LifecycleName>Ad</LifecycleName>
-      <LifecycleDesc>Açıklama</LifecycleDesc>
-      <action>Eylem</action>
+      <LifecycleName>Name</LifecycleName>
+      <LifecycleDesc>Description</LifecycleDesc>
+      <action>Action</action>
     </header>
     <action>
-      <Cancel>Kapat</Cancel>
+      <Cancel>Close</Cancel>
     </action>
     <grid>
       <msg>
@@ -1417,7 +1417,7 @@
     </label>
     <action>
       <activate>Activate</activate>
-      <cancel>İptal</cancel>
+      <cancel>Cancel</cancel>
     </action>
   </UIActivateAuditing>
   <!--
@@ -1472,7 +1472,7 @@
     </label>
     <action>
       <Save>#{word.save}</Save>
-      <Cancel>İptal</Cancel>
+      <Cancel>Cancel</Cancel>
     </action>
     <title>Add Label</title>
     <msg>
@@ -1491,7 +1491,7 @@
       <label>Select Label</label>
     </label>
     <action>
-      <Remove>Kaldır</Remove>
+      <Remove>Remove</Remove>
       <Cancel>#{word.cancel}</Cancel>
     </action>
   </UIRemoveLabelForm>
@@ -1527,7 +1527,7 @@
   -->
   <UICategoryManager>
     <action>
-      <Close>Kapat</Close>
+      <Close>Close</Close>
     </action>
     <tab>
       <label>
@@ -1538,8 +1538,8 @@
   </UICategoryManager>
   <UICategoriesAddedList>
     <header>
-      <path>Kategori</path>
-      <action>Eylemler</action>
+      <path>Category</path>
+      <action>Actions</action>
     </header>
     <msg>
       <access-denied>Access denied. You do not have access permission in this node.</access-denied>
@@ -1547,19 +1547,19 @@
     </msg>
     <action>
       <title>
-        <Delete>Sil</Delete>
+        <Delete>Delete</Delete>
       </title>
     </action>
     <label>
-      <category>Kategori</category>
-      <actions>Eylem</actions>
-      <delete>Sil</delete>
+      <category>Category</category>
+      <actions>Action</actions>
+      <delete>Delete</delete>
     </label>
   </UICategoriesAddedList>
   <UITreeList>
     <header>
-      <name>Ad</name>
-      <action>Eylem</action>
+      <name>Name</name>
+      <action>Action</action>
     </header>
     <info>
       <child-not-found>This node does not have any child nodes.</child-not-found>
@@ -1572,7 +1572,7 @@
   -->
   <UIRelationManager>
     <action>
-      <Close>Kapat</Close>
+      <Close>Close</Close>
     </action>
     <tab>
       <label>
@@ -1588,11 +1588,11 @@
   <UIRelationsAddedList>
     <header>
       <path>Relations</path>
-      <action>Eylemler</action>
+      <action>Actions</action>
     </header>
     <action>
       <title>
-        <Delete>Sil</Delete>
+        <Delete>Delete</Delete>
       </title>
     </action>
     <msg>
@@ -1609,7 +1609,7 @@
     <header>
       <path>Path</path>
       <command>Cm</command>
-      <action>Eylem</action>
+      <action>Action</action>
     </header>
     <label>
       <nocommand>There are no items in the clipboard.</nocommand>
@@ -1648,7 +1648,7 @@
   <UIDocumentForm>
     <title>Add New Document</title>
     <action>
-      <Save>Kaydet</Save>
+      <Save>Save</Save>
       <SaveAndClose>Save &amp; Close</SaveAndClose>
       <ChangeType>Change Content Type</ChangeType>
       <Fullscreen>Fullscreen</Fullscreen>
@@ -1726,11 +1726,11 @@
   <UIActionList>
     <header>
       <name>#{word.name}</name>
-      <description>Açıklama</description>
+      <description>Description</description>
   <lifecycle>Life Cycle</lifecycle>
   <triggeredaction>Triggered Action</triggeredaction>
       <instanceOf>Instance of Action Type</instanceOf>
-      <action>Eylem</action>
+      <action>Action</action>
     </header>
     <msg>
       <remove-popup-first>You must close the edit pop-up before deleting this node.</remove-popup-first>
@@ -1742,8 +1742,8 @@
     <action>
       <Close>#{word.close}</Close>
       <View>View</View>
-      <Edit>Düzenle</Edit>
-      <Delete>Sil</Delete>
+      <Edit>Edit</Edit>
+      <Delete>Delete</Delete>
     </action>
   </UIActionList>
   <UIActionForm>
@@ -1846,7 +1846,7 @@
       <tagSet>UITaggingForm</tagSet>
     </label>
     <action>
-      <AddTag>Ekle</AddTag>
+      <AddTag>Add</AddTag>
       <Cancel>#{word.close}</Cancel>
     </action>
     <msg>
@@ -1957,18 +1957,18 @@
     <label>
       <published>Published</published>
       <non-published>Unpublished</non-published>
-      <public>Genel</public>
+      <public>Public</public>
       <private>Private</private>
       <state>State</state>
-      <visibility>Görünürlük</visibility>
+      <visibility>Visibility</visibility>
       <nodeName>Node Name:</nodeName>
       <lifecycleName>Lifecycle Name</lifecycleName>
       <stateName>State Name</stateName>
     </label>
     <action>
-      <Save>Kaydet</Save>
+      <Save>Save</Save>
       <UnsubcriberLifeCycle>Unsubscriber</UnsubcriberLifeCycle>
-      <Cancel>İptal</Cancel>
+      <Cancel>Cancel</Cancel>
     </action>
   </UIPublicationForm>
   <!--
@@ -1995,7 +1995,7 @@
   -->
   <EmailAddressValidator>
     <msg>
-      <Invalid-input>E-posta adresi geçersizdir.</Invalid-input>
+      <Invalid-input>The email address is invalid.</Invalid-input>
     </msg>
   </EmailAddressValidator>
   <UIFormInputSetWithAction>
@@ -2057,12 +2057,12 @@
       <date>Date</date>
       <newState>New State</newState>
       <user>User</user>
-      <description>Açıklama</description>
+      <description>Description</description>
       <version>Version</version>
-      <visibility>Görünürlük</visibility>
+      <visibility>Visibility</visibility>
     </header>
     <action>
-      <Close>Kapat</Close>
+      <Close>Close</Close>
     </action>
   </UIPublicationLogList>
   <!--
@@ -2125,7 +2125,7 @@
   -->
   <UICategoriesSelector>
     <action>
-      <close>Kapat</close>
+      <close>Close</close>
     </action>
   </UICategoriesSelector>
   <!--
@@ -2155,9 +2155,9 @@
   <UIJcrExplorerEditForm>
     <title>Edit File Explorer</title>
     <action>
-      <Edit>Düzenle</Edit>
-      <Save>Kaydet</Save>
-      <Cancel>İptal</Cancel>
+      <Edit>Edit</Edit>
+      <Save>Save</Save>
+      <Cancel>Cancel</Cancel>
     </action>
     <label>
       <uploadFileSizeLimitMB>The size limit of the uploaded file (MB)</uploadFileSizeLimitMB>
@@ -2176,7 +2176,7 @@
   <UIDriveSelector>
     <label>
       <driveName>Drive Name</driveName>
-      <action>Eylem</action>
+      <action>Action</action>
       <adddrives>Add Drives</adddrives>
     </label>
   </UIDriveSelector>
@@ -2363,12 +2363,12 @@
 
   <UISimpleCategoryManager>
     <action>
-      <Close>Kapat</Close>
+      <Close>Close</Close>
     </action>
   </UISimpleCategoryManager>
   <UIPopupWindow>
     <title>
-      <UISimpleCategoryManager>Kategori Ekle</UISimpleCategoryManager>
+      <UISimpleCategoryManager>Add Category</UISimpleCategoryManager>
     </title>
   </UIPopupWindow>
   <UICategoriesAddedList>
@@ -2380,7 +2380,7 @@
   <UIConfirmMessage>
     <label>
       <Close>#{word.cancel}</Close>
-      <OK>Sil</OK>
+      <OK>Delete</OK>
       <ReplaceData>Replace Data</ReplaceData>
       <Back>Back to Rename</Back>
       <Keepfile>Keep both files</Keepfile>
@@ -2466,9 +2466,9 @@
     <obtion>
       <Admin>Admin</Admin>
       <Info>Info</Info>
-      <Actions>Eylemler</Actions>
+      <Actions>Actions</Actions>
       <Collaboration>Collaboration</Collaboration>
-      <Search>Arama</Search>
+      <Search>Search</Search>
     </obtion>
   </UIActionBar>
 
@@ -2552,7 +2552,7 @@
   </Comments>
   <UIDocumentInfo>
     <msg>
-      <confirm-deletecomment>Bu yorumu silmek istediğinizden emin misiniz?</confirm-deletecomment>
+      <confirm-deletecomment>Are you sure you want to delete this comment?</confirm-deletecomment>
     </msg>
   </UIDocumentInfo>
 
@@ -2590,7 +2590,7 @@
     <label>
       <OwnedByMe>Owned by me</OwnedByMe>
       <Favourites>Favorites</Favourites>
-      <Hidden>Gizli</Hidden>
+      <Hidden>Hidden</Hidden>
       <Trash>Trash</Trash>
       <Configuration>Set Up Preferences</Configuration>
     </label>
@@ -2602,7 +2602,7 @@
   <UIPreferencesForm>
       <label>
           <Alphabetic>Alphabetical</Alphabetic>
-          <Type>Türü</Type>
+          <Type>Type</Type>
           <CreatedDate>Created Date</CreatedDate>
           <ModifiedDate>Modified Date</ModifiedDate>
           <Ascending>Ascending</Ascending>
@@ -2621,7 +2621,7 @@
        <Video>Video</Video>
        <Music>Music</Music>
        <Documents>Document</Documents>
-       <Content>İçerik</Content>
+       <Content>Content</Content>
     </label>
   </DocumentType>
 
@@ -2631,7 +2631,7 @@
       <Video>Video</Video>
       <Music>Music</Music>
       <Documents>Document</Documents>
-      <Content>İçerik</Content>
+      <Content>Content</Content>
     </label>
     <title>Set Up Filter Preferences</title>
     <action>
@@ -2674,7 +2674,7 @@
     <label>
       <showOwnedByUser>Owned by me</showOwnedByUser>
       <showFavourites>Favorites</showFavourites>
-      <showHiddens>Gizli</showHiddens>
+      <showHiddens>Hidden</showHiddens>
       <showTrash>Trash</showTrash>
     </label>
     <action>
@@ -2693,24 +2693,24 @@
       <name>Category Name</name>
     </label>
     <action>
-      <Save>Kaydet</Save>
-      <Cancel>İptal</Cancel>
+      <Save>Save</Save>
+      <Cancel>Cancel</Cancel>
     </action>
   </UICategoryForm>
   <UIPopupWindow>
     <title>
-      <UICategoryForm>Kategori Ekle</UICategoryForm>
+      <UICategoryForm>Add Category</UICategoryForm>
     </title>
   </UIPopupWindow>
   <UIActionBar>
     <tooltip>
-      <AddCategory>Kategori Ekle</AddCategory>
+      <AddCategory>Add Category</AddCategory>
     </tooltip>
    </UIActionBar>
 
    <UITaggingForm>
     <label>
-      <Public>Genel</Public>
+      <Public>Public</Public>
       <Private>Private</Private>
       <tagScopes>Tag Scopes</tagScopes>
     </label>
@@ -2726,9 +2726,9 @@
 
   <UIEditingTagsForm>
     <header>
-      <name>Ad</name>
+      <name>Name</name>
       <relatedDocuments>Related Documents</relatedDocuments>
-      <action>Eylem</action>
+      <action>Action</action>
     </header>
     <action>
       <title>
@@ -2798,14 +2798,14 @@
     <UIActionForm>
     <title>
       <ShowComponent>Show Component</ShowComponent>
-      <removeReference>Kaldır</removeReference>
+      <removeReference>Remove</removeReference>
     </title>
   </UIActionForm>
 
   <EditFormAction>
     <title>
       <ShowComponent>Show Component</ShowComponent>
-      <removeReference>Kaldır</removeReference>
+      <removeReference>Remove</removeReference>
     </title>
   </EditFormAction>
 
@@ -2848,8 +2848,8 @@
 
   <UISelectRestorePath>
     <action>
-      <Save>Kaydet</Save>
-      <Cancel>İptal</Cancel>
+      <Save>Save</Save>
+      <Cancel>Cancel</Cancel>
     </action>
     <label>
       <formInput>The previous path was lost. Please select a new one.</formInput>
@@ -2857,7 +2857,7 @@
   </UISelectRestorePath>
   <PathNode>
     <title>
-      <Add>Ekle</Add>
+      <Add>Add</Add>
     </title>
   </PathNode>
   <UIPopupPathFoRestore>
@@ -2891,14 +2891,14 @@
 
   <UIPublicationPanel>
     <button>
-      <Close>Kapat</Close>
+      <Close>Close</Close>
     </button>
     <revisions>
       <version>Revisions</version>
       <date>Date</date>
       <author>Author</author>
       <status>Status</status>
-      <action>Eylem</action>
+      <action>Action</action>
       <label>Revision</label>
       <none>No revisions</none>
       <seeall>See all versions</seeall>
@@ -2913,7 +2913,7 @@
       <unpublished>Unpublished</unpublished>
       <enrolled>Enrolled</enrolled>
       <draft>Draft</draft>
-      <pending>Bekleyen</pending>
+      <pending>Pending</pending>
       <approved>Approved</approved>
       <inreview>In Review</inreview>
       <staged>Staged</staged>
@@ -2940,7 +2940,7 @@
       <versionName>Revision Name</versionName>
       <currentState>Current State</currentState>
       <user>Author</user>
-      <description>Açıklama</description>
+      <description>Description</description>
     </header>
   </UIPublicationHistory>
   
@@ -3098,7 +3098,7 @@
     <MaxFileSize>Maximum file size is</MaxFileSize>
     <InvalidCharacters>Invalid characters will be changed by '-'</InvalidCharacters>
     <DropFileMessage>Drop your files here in the current folder</DropFileMessage>
-    <Close>Kapat</Close>
+    <Close>Close</Close>
     <in>in</in>
     <MaxFileSizeAlert>The file size exceeds the size limit of</MaxFileSizeAlert>
     <Waiting>Waiting</Waiting>
@@ -3108,7 +3108,7 @@
     <Keep>Keep both</Keep>
     <Replace>Replace</Replace>
     <Canceled>Canceled</Canceled>
-    <Cancel>İptal</Cancel>
+    <Cancel>Cancel</Cancel>
     <AbortAllConfirmation>Do you want to abort all files in progress?</AbortAllConfirmation>
   </label>
   </UIMultiUpload>
@@ -3122,13 +3122,13 @@
   </UIDocumentNodeList>
   <FileView>
     <label>
-      <name>Ad</name>
+      <name>Name</name>
       <date>Date</date>
       <size>Size</size>
       <sortBy>Sort by:</sortBy>
       <filesAreSelected>Files are selected.</filesAreSelected>
       <ClearSelection>Clear selection</ClearSelection>
-      <more>Daha</more>
+      <more>More</more>
     </label>
   </FileView>
   <UIPropertyForm>

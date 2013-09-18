@@ -224,7 +224,7 @@
   <RssEnable>
     <dialog>
       <label>
-        <title>Başlık</title>
+        <title>Title</title>
         <summary>#{word.summary}</summary>
       </label>
     </dialog>
@@ -252,10 +252,10 @@
   <ResouceContainer>
     <dialog>
       <label>
-        <name>Ad</name>
+        <name>Name</name>
         <autoload>Auto Load</autoload>
         <minetype>MIME Type</minetype>
-        <content>İçerik</content>
+        <content>Content</content>
       </label>
     </dialog>
   </ResouceContainer>
@@ -264,7 +264,7 @@
   -->
   <EmailAddressValidator>
     <msg>
-      <Invalid-input>E-posta adresi geçersizdir.</Invalid-input>
+      <Invalid-input>The email address is invalid.</Invalid-input>
     </msg>
   </EmailAddressValidator>
   <EmptyFieldValidator>
@@ -286,7 +286,7 @@
     <dialog>
       <label>
         <id>Id</id>
-        <name>Ad</name>
+        <name>Name</name>
         <lifecycle>Lifecycle</lifecycle>
         <homePath>Home Path</homePath>
         <targetWorkspace>Target Workspace</targetWorkspace>

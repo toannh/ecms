@@ -45,13 +45,13 @@
       <pageMode>Page Mode</pageMode>
       <option>
         <none>None</none>
-        <more>Daha</more>
+        <more>More</more>
         <pagination>Pagination</pagination>
       </option>
     </label>
     <action>
-      <Save>Kaydet</Save>
-      <Cancel>İptal</Cancel>
+      <Save>Save</Save>
+      <Cancel>Cancel</Cancel>
     </action>
   </UISearchPageLayoutManager>
   <searchResultBasePathInputSetAction>
@@ -68,9 +68,9 @@
   </UISearchForm>
   <UIPaginatorDefault>
     <label>
-      <next>Sonraki</next>
+      <next>Next</next>
       <previous>Previous</previous>
-      <more>Daha</more>
+      <more>More</more>
     </label>
   </UIPaginatorDefault>
   <UISearchPageLayoutDefault>

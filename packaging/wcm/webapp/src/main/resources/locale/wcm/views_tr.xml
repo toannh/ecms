@@ -24,7 +24,7 @@
     <view>
       <label>
         <url>URL</url>
-        <description>Açıklama</description>
+        <description>Description</description>
       </label>
     </view>
   </WebLink>
@@ -39,18 +39,18 @@
       </label>
       <tooltip>
         <add-edit>Meta veriler Ekle/Düzenle</add-edit>
-        <cancel>İptal</cancel>
+        <cancel>Cancel</cancel>
       </tooltip>
       <action>
         <add-edit>Ekle/Düzenle</add-edit>
-        <cancel>İptal</cancel>
+        <cancel>Cancel</cancel>
       </action>
     </view>
   </SiteMetadata>
 
   <Category>
     <view>
-      <label>Kategori</label>
+      <label>Category</label>
     </view>
   </Category>
 

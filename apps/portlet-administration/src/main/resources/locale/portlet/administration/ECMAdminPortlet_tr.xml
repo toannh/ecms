@@ -15,7 +15,7 @@
       </label>
     </tab>    
     <label>     
-      <UITaxonomyManagerTrees>Kategoriler</UITaxonomyManagerTrees>
+      <UITaxonomyManagerTrees>Categories</UITaxonomyManagerTrees>
       <UIMetadataManager>Metadata</UIMetadataManager>
       <UINamespaceManager>Namespaces</UINamespaceManager>
       <UINodeTypeManager>Node Types</UINodeTypeManager>
@@ -24,7 +24,7 @@
       <UIViewManager>Views</UIViewManager>
       <UIDriveManager>Drives</UIDriveManager>
       <UIQueriesManager>Queries</UIQueriesManager>
-      <UIActionManager>Eylemler</UIActionManager>
+      <UIActionManager>Actions</UIActionManager>
       <UIScriptManager>Scripts</UIScriptManager>
       <UIUnLockManager>Locks</UIUnLockManager>
       <UIFolksonomyManager>Tags</UIFolksonomyManager>      
@@ -53,11 +53,11 @@
       <confirm-delete>Are you sure you want to delete this category?</confirm-delete>
     </msg>
     <title>
-      <add>Ekle</add>
+      <add>Add</add>
       <paste>Paste</paste>
       <cut>Cut</cut>
       <copy>Copy</copy>
-      <remove>Sil</remove>
+      <remove>Delete</remove>
     </title>
   </UITaxonomyManager>
   
@@ -100,7 +100,7 @@
 
   <TaxonomyTreeMainForm>
     <label>
-      <TaxoTreeName>Ad</TaxoTreeName>
+      <TaxoTreeName>Name</TaxoTreeName>
       <TaxoTreeWorkspace>Workspace</TaxoTreeWorkspace>
       <TaxoTreeHomePath>Home Path</TaxoTreeHomePath>
     </label>
@@ -120,17 +120,17 @@
 <UIPermissionTreeInfo>
 <action>
 <title>
-<Delete>Sil</Delete>
-<Edit>Düzenle</Edit>
+<Delete>Delete</Delete>
+<Edit>Edit</Edit>
 </title>
 </action>
 <header>
 <usersOrGroups>User or Group</usersOrGroups>
 <read>Read</read>
-<addNode>Düğüm Ekle</addNode>
+<addNode>Add Node</addNode>
 <setProperty>Set Property</setProperty>
-<remove>Kaldır</remove>
-<action>Eylem</action>
+<remove>Remove</remove>
+<action>Action</action>
 </header>
 </UIPermissionTreeInfo>
 
@@ -154,7 +154,7 @@
   <UIActionForm>
     <title>Add an action to the category tree</title>
     <action>
-      <Save>Kaydet</Save>
+      <Save>Save</Save>
     </action>
     <msg>
       <name-not-allowed>Empty name or special characters are not allowed in the action name.</name-not-allowed>
@@ -174,7 +174,7 @@
   <UITemplatesList>
     <header>
       <name>Template Name</name>
-      <action>Eylemler</action>
+      <action>Actions</action>
     </header>
   </UITemplatesList>
   <!--
@@ -212,10 +212,10 @@
     <header>
       <prefix>Prefix</prefix>
       <uri>Namespace URI</uri>
-      <action>Eylem</action>
+      <action>Action</action>
     </header>
     <action>
-      <AddNamespace>Kayıt Ol</AddNamespace>
+      <AddNamespace>Register</AddNamespace>
     </action>
   </UINamespaceList>
   <NamespacePopup>
@@ -237,15 +237,15 @@
     </label>
     <title>
       <view>View</view>
-      <edit>Düzenle</edit>
-      <delete>Sil</delete>
+      <edit>Edit</edit>
+      <delete>Delete</delete>
     </title>
     <header>
-      <icon>Simge</icon>
+      <icon>Icon</icon>
       <name>Metadata</name>
-      <type>Türü</type>
+      <type>Type</type>
       <internalUse>Internal Use</internalUse>
-      <action>Eylemler</action>
+      <action>Actions</action>
     </header>
     <msg>
       <confirm-delete>Are you sure you want to delete this metadata?</confirm-delete>
@@ -285,9 +285,9 @@
       <Save>Apply</Save>
     </action>
     <header>
-      <icon>Simge</icon>
+      <icon>Icon</icon>
       <label>Node name</label>
-      <input>Eylem</input>
+      <input>Action</input>
     </header>
     <label>
       <dialogTemplate>Dialog Template:</dialogTemplate>
@@ -313,20 +313,20 @@
   <UIMetadataView>
     <header>
       <name>Element Name</name>
-      <type>Türü</type>
-      <description>Açıklama</description>
+      <type>Type</type>
+      <description>Description</description>
       <isMixin>Is Mixin Type</isMixin>
       <orderable>Orderable children</orderable>
     </header>
     <info>
-      <description>Açıklama</description>
+      <description>Description</description>
     </info>
     <tab>
       <element>Elements</element>
       <metadataView>Metadata Information</metadataView>
     </tab>
     <action>
-      <Cancel>Kapat</Cancel>
+      <Cancel>Close</Cancel>
       <Back>#{word.back}</Back>
     </action>
   </UIMetadataView>
@@ -342,17 +342,17 @@
   -->
   <UIDriveList>
     <header>
-      <icon>Simge</icon>
-      <name>Ad</name>
+      <icon>Icon</icon>
+      <name>Name</name>
       <workspace>Workspace</workspace>
       <homePath>Home Path</homePath>
       <permissions>Permissions</permissions>
       <views>View</views>
-      <action>Eylem</action>
+      <action>Action</action>
     </header>
     <tooltip>
-      <Delete>Sil</Delete>
-      <EditInfo>Düzenle</EditInfo>
+      <Delete>Delete</Delete>
+      <EditInfo>Edit</EditInfo>
     </tooltip>
     <msg>
       <confirm-delete>Are you sure you want to delete this drive?</confirm-delete>
@@ -389,7 +389,7 @@
       </label>
     </tab>
     <label>
-      <name>Adı:</name>
+      <name>Name:</name>
       <workspace>Workspace:</workspace>
       <homePath>Home Path:</homePath>
       <icon>Workspace Icon:</icon>
@@ -421,8 +421,8 @@
       <child-not-found>Child node not found.</child-not-found>
     </info>
     <header>
-      <name>Ad</name>
-      <action>Eylem</action>
+      <name>Name</name>
+      <action>Action</action>
     </header>
   </UITreeList>
   
@@ -439,9 +439,9 @@
   -->
   <UINodeTypeManager>
     <header>
-      <icon>Simge</icon>
+      <icon>Icon</icon>
       <label>Node Name</label>
-      <input>Eylem</input>
+      <input>Action</input>
     </header>
     <action>
       <Save>#{word.save}</Save>
@@ -458,21 +458,21 @@
       <false>False</false>
     </label>
     <header>
-      <icon>Simge</icon>
+      <icon>Icon</icon>
       <nodeType>Node Type</nodeType>
       <mixinType>Mixin Type</mixinType>
       <orderable>Orderable Child Nodes</orderable>
-      <action>Eylem</action>
+      <action>Action</action>
     </header>
     <action>
       <Export>Export</Export>
       <Import>Import</Import>
-      <Add>Ekle</Add>
+      <Add>Add</Add>
     </action>
     <tooltip>
       <View>View</View>
-      <Edit>Düzenle</Edit>
-      <Delete>Sil</Delete>
+      <Edit>Edit</Edit>
+      <Delete>Delete</Delete>
     </tooltip>
     <msg>
       <confirm-delete>Are you sure you want to delete this node type?</confirm-delete>
@@ -486,12 +486,12 @@
   <UINodeTypeOptionList>
     <action>
       <Save>#{word.save}</Save>
-      <Add>Ekle</Add>
+      <Add>Add</Add>
     </action>
     <header>
-      <icon>Simge</icon>
+      <icon>Icon</icon>
       <label>Node Name</label>
-      <input>Eylem</input>
+      <input>Action</input>
     </header>
   </UINodeTypeOptionList>
   <!--
@@ -550,7 +550,7 @@
       <AddConstraints>Add Constraints</AddConstraints>
       <Back>#{word.back}</Back>
       <AddType>Add Type</AddType>
-      <AddValue>Ekle</AddValue>
+      <AddValue>Add</AddValue>
       <CancelConstraints>#{word.cancel}</CancelConstraints>
       <CancelTab>#{word.cancel}</CancelTab>
       <UpdateChild>#{word.update}</UpdateChild>
@@ -625,9 +625,9 @@
   -->
   <UINodeTypeExport>
     <header>
-      <icon>Simge</icon>
+      <icon>Icon</icon>
       <label>Node name</label>
-      <input>Eylem</input>
+      <input>Action</input>
     </header>
     <action>
       <Cancel>#{word.cancel}</Cancel>
@@ -684,9 +684,9 @@
       <Upload>Re-upload</Upload>
     </action>
     <header>
-      <icon>Simge</icon>
+      <icon>Icon</icon>
       <label>Node Name</label>
-      <input>Eylem</input>
+      <input>Action</input>
     </header>
     <title>Select Import Node Type</title>
     <msg>
@@ -725,8 +725,8 @@
   <UIActionTypeList>
     <header>
       <name>Script</name>
-      <label>Ad</label>
-<action>Eylemler</action>
+      <label>Name</label>
+<action>Actions</action>
     </header>
     <action>
       <AddAction>Add Action Type</AddAction>
@@ -750,7 +750,7 @@
     <title>Add Action Type</title>
     <label>
       <actionType>Extend Action Type:</actionType>
-      <name>Adı:</name>
+      <name>Name:</name>
       <isMove>is Action Move:</isMove>
       <variables>Variables:</variables>
       <exo_businessProcessAction>Business Processes:</exo_businessProcessAction>
@@ -785,9 +785,9 @@
       <UITemplateEditForm>Template</UITemplateEditForm>
       <UITemplateForm>Template</UITemplateForm>
       <UITemplateContainer>Documents</UITemplateContainer>
-      <UIActionsTemplateContainer>Eylemler</UIActionsTemplateContainer>
+      <UIActionsTemplateContainer>Actions</UIActionsTemplateContainer>
       <UIOthersTemplateContainer>Others</UIOthersTemplateContainer>
-  <UIActionScriptContainer>Eylem</UIActionScriptContainer>
+  <UIActionScriptContainer>Action</UIActionScriptContainer>
   <UIWidgetScriptContainer>Widgets</UIWidgetScriptContainer>
 <UIInterceptorScriptContainer>Interceptors</UIInterceptorScriptContainer>
 
@@ -808,15 +808,15 @@
   <UIViewList>
    <title>
      <View>View</View>
-     <EditInfo>Düzenle</EditInfo>
-     <Delete>Sil</Delete>
+     <EditInfo>Edit</EditInfo>
+     <Delete>Delete</Delete>
    </title>
     <header>
-      <name>Ad</name>
+      <name>Name</name>
       <permissions>Permissions</permissions>
       <tabList>Action Tab</tabList>
       <baseVersion>Base Version</baseVersion>
-      <action>Eylem</action>
+      <action>Action</action>
     </header>
     <action>
       <AddView>Add View</AddView>
@@ -847,11 +847,11 @@
 <UITabList>
  <header>
   <tabName>Tab</tabName>
-  <localizeButtons>Açıklama</localizeButtons>
-<action>Eylemler</action>
+  <localizeButtons>Description</localizeButtons>
+<action>Actions</action>
 </header>
 <action>
- <AddTab>Ekle</AddTab>
+ <AddTab>Add</AddTab>
 </action>
 <msg>
  <confirm-delete>Are you sure you want to delete this tab?</confirm-delete>
@@ -877,11 +877,11 @@
 <UIViewPermissionList>
  <header>
 <friendlyPermission>Permissions</friendlyPermission>
-     <action>Eylem</action>
+     <action>Action</action>
  </header>
 <action>
  <title>
-  <Delete>Sil</Delete>
+  <Delete>Delete</Delete>
  </title>
 </action>
 <grid>
@@ -893,7 +893,7 @@
 
 <UIViewPermissionForm>
 <action>
- <Add>Ekle</Add>
+ <Add>Add</Add>
 </action>
 <label>
  <userOrGroup>User or Group</userOrGroup>
@@ -922,7 +922,7 @@
       <view-exist>The view name already exists.</view-exist>
     </msg>
     <label>
-      <viewName>Ad</viewName>
+      <viewName>Name</viewName>
       <template>Template</template>
 <version>Restore Version</version>
       <enableVersion>Enable Version</enableVersion>
@@ -937,7 +937,7 @@
     </msg>
     <label>
       <version>Restore Version</version>
-      <viewName>Ad</viewName>
+      <viewName>Name</viewName>
       <tabName>Tab Name</tabName>
       <permission>Permission</permission>
       <tabs>Tabs</tabs>
@@ -948,7 +948,7 @@
       <editDocument>Edit Document</editDocument>
       <upload>Upload</upload>
       <paste>Paste</paste>
-      <search>Arama</search>
+      <search>Search</search>
       <viewReferences>View References</viewReferences>
       <viewNodeType>View Node Type</viewNodeType>
       <viewPermissions>View Permissions</viewPermissions>
@@ -968,9 +968,9 @@
       <viewMetadatas>View Metadata</viewMetadatas>
       <overloadThumbnail>Overload Thumbnail</overloadThumbnail>
       <manageHidden>Hide/Show Content</manageHidden>
-      <comment>Yorum</comment>
+      <comment>Comment</comment>
       <vote>Vote</vote>  
-      <addCategory>Kategori Ekle</addCategory>
+      <addCategory>Add Category</addCategory>
       <addLocalizationLink>Add Translation</addLocalizationLink>
       <publicationRequestApproval>Request Approval</publicationRequestApproval>
       <publicationApproveContent>Approve Content</publicationApproveContent>
@@ -991,7 +991,7 @@
   <UIViewFormTabPane>
     <tab>
       <label>
-        <UITabContainer>Eylem</UITabContainer>
+        <UITabContainer>Action</UITabContainer>
         <UIViewForm>View</UIViewForm>
         <UIViewPermissionContainer>Permission</UIViewPermissionContainer>    
       </label>
@@ -1031,17 +1031,17 @@
   <UIECMTemplateList>
     <title>
       <View>View</View>
-      <EditInfo>Düzenle</EditInfo>
-      <Delete>Sil</Delete>
+      <EditInfo>Edit</EditInfo>
+      <Delete>Delete</Delete>
     </title>
     <header>
-      <name>Ad</name>
-      <path>Değer</path>
+      <name>Name</name>
+      <path>Value</path>
       <baseVersion>Base Version</baseVersion>
-      <action>Eylem</action>
+      <action>Action</action>
     </header>
     <action>
-      <Add>Ekle</Add>
+      <Add>Add</Add>
     </action>
     <msg>
       <template-in-use>Cannot delete {0}. It is currently in use.</template-in-use>
@@ -1078,7 +1078,7 @@
       </label>
     </tab>
     <label>
-      <name>Adı:</name>
+      <name>Name:</name>
       <label>Label:</label>
       <isDocumentTemplate>is Document Template:</isDocumentTemplate>
       <dialog>Dialog Content</dialog>
@@ -1096,7 +1096,7 @@
     <label>
       <version>Select Version:</version>
       <content>Content:</content>
-      <name>Adı:</name>
+      <name>Name:</name>
       <homeTemplate>Template Type:</homeTemplate>
       <enableVersion>Enabled Version:</enableVersion>
     </label>
@@ -1148,14 +1148,14 @@
       <confirm-delete>Are you sure you want to delete this script?</confirm-delete>
     </msg>
     <header>
-      <scriptName>Ad</scriptName>
+      <scriptName>Name</scriptName>
       <path>Script</path>
       <baseVersion>Base Version</baseVersion>
-      <action>Eylemler</action>
+      <action>Actions</action>
     </header>
     <tooltip>
-      <Edit>Düzenle</Edit>
-      <Delete>Sil</Delete>
+      <Edit>Edit</Edit>
+      <Delete>Delete</Delete>
     </tooltip>
   </UIScriptList>
   <!--
@@ -1197,8 +1197,8 @@
   <UIScriptForm>
     <label>
       <selectVersion>Versions</selectVersion>
-      <scriptContent>İçerik</scriptContent>
-      <scriptLabel>Ad</scriptLabel>
+      <scriptContent>Content</scriptContent>
+      <scriptLabel>Name</scriptLabel>
       <scriptName>Script</scriptName>
       <enableVersion>Enable Versioning</enableVersion>
     </label>
@@ -1212,8 +1212,8 @@
   <ecmScriptForm>
     <label>
       <selectVersion>Versions</selectVersion>
-      <scriptContent>İçerik</scriptContent>
-      <scriptLabel>Ad</scriptLabel>
+      <scriptContent>Content</scriptContent>
+      <scriptLabel>Name</scriptLabel>
       <scriptName>Script</scriptName>
       <enableVersion>Enable Versioning</enableVersion>
     </label>
@@ -1228,7 +1228,7 @@
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
-    <title>Kategori Ekle</title>
+    <title>Add Category</title>
     <label>
       <taxonomyName>Category Name</taxonomyName>
       <parentPath>Parent</parentPath>
@@ -1319,7 +1319,7 @@
       <name>Category Tree</name>
       <workspace>Workspace</workspace>
       <homePath>Path</homePath>
-      <action>Eylem</action>
+      <action>Action</action>
     </header>
     <action>
       <AddTaxonomyTree>Add Category Tree</AddTaxonomyTree>
@@ -1343,7 +1343,7 @@
   -->
   <UITaxonomyTreeForm>
     <label>
-      <name>Ad</name>
+      <name>Name</name>
       <workspace>Workspace</workspace>
       <homePath>Path</homePath>
       <permissions>Permissions</permissions>
@@ -1366,7 +1366,7 @@
     <title>Add a permission to that node</title>
     <action>
       <Close>#{word.close}</Close>
-      <Save>Kaydet</Save>
+      <Save>Save</Save>
       <Reset>Reset</Reset>
     </action>
     <msg>
@@ -1411,7 +1411,7 @@
   <UIPermissionInfo>
     <action>
       <title>
-        <Edit>Düzenle</Edit>
+        <Edit>Edit</Edit>
         <Delete>Remove Permission</Delete>
       </title>
     </action>
@@ -1419,8 +1419,8 @@
       <usersOrGroups>User or Group</usersOrGroups>
       <read>Read</read>
       <addNode>Modify Node</addNode>
-      <remove>Kaldır</remove>
-      <action>Eylem</action>
+      <remove>Remove</remove>
+      <action>Action</action>
     </header>
     <msg>
       <confirm-delete-permission>Are you sure you want to remove this permission?</confirm-delete-permission>
@@ -1433,7 +1433,7 @@
     <title>
       <SelectUser>Select User</SelectUser>
       <SelectMember>Select Membership</SelectMember>
-      <AddAny>Herkes</AddAny>
+      <AddAny>Everyone</AddAny>
     </title>
   </permission>
   <!--
@@ -1464,7 +1464,7 @@
       <userOrGroup>User or Group</userOrGroup>
       <read>Read</read>
       <add_node>Modify</add_node>
-      <remove>Kaldır</remove>
+      <remove>Remove</remove>
     </label>
     <title>Add permission to that node</title>
     <action>
@@ -1482,7 +1482,7 @@
   
   <TaxonomyPopup>
     <title>
-      <UITaxonomyForm>Kategori Ekle</UITaxonomyForm>
+      <UITaxonomyForm>Add Category</UITaxonomyForm>
     </title>
   </TaxonomyPopup>
   
@@ -1498,10 +1498,10 @@
   -->
   <UITemplateList>
     <header>
-      <name>Türü</name>
-      <action>Eylem</action>
+      <name>Type</name>
+      <action>Action</action>
       <label>Template</label>
-      <icon>Simge</icon>
+      <icon>Icon</icon>
     </header>
     <action>
       <AddNew>Add Template</AddNew>
@@ -1516,10 +1516,10 @@
   
   <UIActionsTemplateList>
     <header>
-      <name>Türü</name>
-      <action>Eylem</action>
+      <name>Type</name>
+      <action>Action</action>
       <label>Template</label>
-      <icon>Simge</icon>
+      <icon>Icon</icon>
     </header>
     <action>
       <AddNew>Add Template</AddNew>
@@ -1534,10 +1534,10 @@
   
   <UIOthersTemplateList>
     <header>
-      <name>Türü</name>
+      <name>Type</name>
       <label>Template</label>
-      <icon>Simge</icon>
-      <action>Eylem</action>
+      <icon>Icon</icon>
+      <action>Action</action>
     </header>
     <action>
       <AddNew>Add Template</AddNew>
@@ -1558,7 +1558,7 @@
 
 <UITabPane>
  <title>
- <ContentTemplateContainer>İçerik</ContentTemplateContainer>
+ <ContentTemplateContainer>Content</ContentTemplateContainer>
 <CateTemplateContainer>Navigation</CateTemplateContainer>
 <PageTemplateContainer>Paginator</PageTemplateContainer>
  </title>
@@ -1566,14 +1566,14 @@
 
   <UICLVTemplateList>
     <header>
-      <title>Ad</title>
-      <action>Eylem</action>
+      <title>Name</title>
+      <action>Action</action>
       <template>Template</template>
     </header>
     <action>
       <AddTemplate>Add Template</AddTemplate>
-<Edit>Düzenle</Edit>
-<Delete>Sil</Delete>
+<Edit>Edit</Edit>
+<Delete>Delete</Delete>
     </action>
     <msg>
       <confirm-delete>Are you sure you want to delete this template?</confirm-delete>
@@ -1585,27 +1585,27 @@
 
 <CateTemplateList>
     <header>
-      <title>Ad</title>
-      <action>Eylem</action>
+      <title>Name</title>
+      <action>Action</action>
       <template>Template</template>
     </header>
     <action>
       <AddTemplate>Add Template</AddTemplate>
-<Edit>Düzenle</Edit>
-<Delete>Sil</Delete>
+<Edit>Edit</Edit>
+<Delete>Delete</Delete>
     </action>
 </CateTemplateList>
 
 <PageTemplateList>
     <header>
-      <title>Ad</title>
-      <action>Eylem</action>
+      <title>Name</title>
+      <action>Action</action>
       <template>Template</template>
     </header>
     <action>
       <AddTemplate>Add Template</AddTemplate>
-<Edit>Düzenle</Edit>
-<Delete>Sil</Delete>
+<Edit>Edit</Edit>
+<Delete>Delete</Delete>
     </action>
 </PageTemplateList>
 
@@ -1652,9 +1652,9 @@
 <Cancel>#{word.cancel}</Cancel>
  </action>
 <label>
- <title>Ad</title>
+ <title>Name</title>
 <template>Template Name</template>
-<content>İçerik</content>
+<content>Content</content>
 <type>Template Type</type>
 </label>
 </UICLVTemplateForm_ContentTemplateContainer>
@@ -1666,9 +1666,9 @@
 <Cancel>#{word.cancel}</Cancel>
  </action>
 <label>
- <title>Ad</title>
+ <title>Name</title>
 <template>Template Name</template>
-<content>İçerik</content>
+<content>Content</content>
 <type>Template Type</type>
 </label>
 </UICLVTemplateForm_PageTemplateContainer>
@@ -1680,16 +1680,16 @@
 <Cancel>#{word.cancel}</Cancel>
  </action>
 <label>
- <title>Ad</title>
+ <title>Name</title>
 <template>Template Name</template>
-<content>İçerik</content>
+<content>Content</content>
 <type>Template Type</type>
 </label>
 </UICLVTemplateForm_CateTemplateContainer>
 <UICLVTemplateForm>
   <label>
     <paginators>Paginator</paginators>
-<list>İçerik</list>
+<list>Content</list>
 <navigation>Navigation</navigation>
   </label>
   <msg>
@@ -1723,7 +1723,7 @@
       <UIPopupWindow>View Permission</UIPopupWindow>
       <selectVersion>Versions</selectVersion>
       <content>Content:</content>
-      <name>Adı:</name>
+      <name>Name:</name>
       <isDocumentTemplate>is Document Template</isDocumentTemplate>
       <viewPermission>Permission:</viewPermission>
       <enableVersion>Versioning activated</enableVersion>
@@ -1736,7 +1736,7 @@
       <UIPopupWindow>Dialog Permission</UIPopupWindow>
       <selectVersion>Versions</selectVersion>
       <content>Content:</content>
-      <name>Adı:</name>
+      <name>Name:</name>
       <isDocumentTemplate>is Document Template</isDocumentTemplate>
       <viewPermission>Permission:</viewPermission>
       <enableVersion>Enable Versioning</enableVersion>
@@ -1762,8 +1762,8 @@
   </TemplateContainerPopup>
   <UITemplatesManager>
     <title>
-      <Edit>Düzenle</Edit>
-      <Delete>Sil</Delete>
+      <Edit>Edit</Edit>
+      <Delete>Delete</Delete>
     </title>
   </UITemplatesManager>
   <!--
@@ -1778,7 +1778,7 @@
   -->
   <UITemplateEditForm>
     <label>
-      <name>Adı:</name>
+      <name>Name:</name>
       <label>Label:</label>
       <isDocumentTemplate>is Document Template:</isDocumentTemplate>
     </label>
@@ -1795,10 +1795,10 @@
   -->
   <UIDialogTab>
     <header>
-      <name>Ad</name>
+      <name>Name</name>
       <roles>Roles</roles>
       <baseVersion>Version</baseVersion>
-      <action>Eylemler</action>
+      <action>Actions</action>
     </header>
     <msg>
       <undeletable>You cannot delete '{0}' because it is the default one.</undeletable>
@@ -1806,8 +1806,8 @@
     </msg>
     <action>
       <title>
-        <Edit>Düzenle</Edit>
-        <Delete>Sil</Delete>
+        <Edit>Edit</Edit>
+        <Delete>Delete</Delete>
       </title>
     </action>
   </UIDialogTab>
@@ -1818,10 +1818,10 @@
   -->
   <UIViewTab>
     <header>
-      <name>Ad</name>
+      <name>Name</name>
       <roles>Roles</roles>
       <baseVersion>Version</baseVersion>
-      <action>Eylemler</action>
+      <action>Actions</action>
     </header>
     <msg>
       <undeletable>'{0}' cannot be deleted, it is the default one.</undeletable>
@@ -1829,8 +1829,8 @@
     </msg>
     <action>
       <title>
-        <Edit>Düzenle</Edit>
-        <Delete>Sil</Delete>
+        <Edit>Edit</Edit>
+        <Delete>Delete</Delete>
       </title>
     </action>
   </UIViewTab>
@@ -1889,11 +1889,11 @@
   -->
   <UIQueriesList>
     <header>
-      <name>Ad</name>
-      <type>Türü</type>
+      <name>Name</name>
+      <type>Type</type>
       <statement>Statement</statement>
       <permission>Permissions</permission>
-      <action>Eylemler</action>
+      <action>Actions</action>
     </header>
     <action>
       <AddQuery>Add Query</AddQuery>
@@ -1960,7 +1960,7 @@
       <name>Style Name</name>
       <documentRange>Number of Occurrences</documentRange>
       <tagHTML>Tag Style</tagHTML>
-      <action>Eylem</action>
+      <action>Action</action>
     </header>
     <action>
       <AddStyle>Add Style</AddStyle>
@@ -1973,7 +1973,7 @@
       <styleHTML>HTML Style:</styleHTML>
     </label>
     <action>
-      <UpdateStyle>Güncelleştirme</UpdateStyle>
+      <UpdateStyle>Update</UpdateStyle>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
@@ -2077,8 +2077,8 @@
   <UIViewContainer>
     <title>
       <View>View</View>
-      <EditInfo>Düzenle</EditInfo>
-      <Delete>Sil</Delete>
+      <EditInfo>Edit</EditInfo>
+      <Delete>Delete</Delete>
     </title>
 <label>
   <permission>{0} in {1}</permission>
@@ -2086,8 +2086,8 @@
   </UIViewContainer>
   <ECMTemplate>
     <title>
-      <EditInfo>Düzenle</EditInfo>
-      <Delete>Sil</Delete>
+      <EditInfo>Edit</EditInfo>
+      <Delete>Delete</Delete>
     </title>
   </ECMTemplate>
   <step1>
@@ -2203,7 +2203,7 @@
         <firstName>#{word.firstName}</firstName>
         <email>#{word.email}</email>
       </option>
-      <group>Grup</group>
+      <group>Group</group>
       <searchUser>User</searchUser>
       <userName>#{word.userName}</userName>
       <lastName>#{word.lastName}</lastName>
@@ -2264,7 +2264,7 @@
   <UILockHolderList>
   <header>
   <name>Groups or Users</name>
-  <action>Eylem</action>
+  <action>Action</action>
   </header>
   <tooltip>
 <DeleteLock>Delete Group</DeleteLock>
@@ -2275,9 +2275,9 @@
   </UILockHolderList>
   <UILockNodeList>
   <header>
-  <name>Başlık</name>
+  <name>Title</name>
   <hoderLock>Lock Owner</hoderLock>
-  <action>Eylem</action>
+  <action>Action</action>
   </header>
   <tooltip>
 <UnLock>UnLock</UnLock>
@@ -2293,7 +2293,7 @@
   </EditUnLockForm>  
   <UITabPane>
     <action>
-      <Close>Kapat</Close>
+      <Close>Close</Close>
     </action>
     <title>
     <UILockHolderContainer>Manage Lock</UILockHolderContainer>
@@ -2304,8 +2304,8 @@
   <UIViewFormTabPane>
     <action>
       <AddTabForm>Add Tab</AddTabForm>
-      <AddTab>Kaydet</AddTab>
-      <BackViewForm>Geri</BackViewForm>
+      <AddTab>Save</AddTab>
+      <BackViewForm>Back</BackViewForm>
     </action>
   </UIViewFormTabPane>
   
@@ -2325,10 +2325,10 @@
   
   <UISkinTab>
     <header>
-      <name>Ad</name>
+      <name>Name</name>
       <roles>Roles</roles>
       <baseVersion>Version</baseVersion>
-      <action>Eylemler</action>
+      <action>Actions</action>
     </header>
     <msg>
       <undeletable>You cannot delete '{0}' because it is the default one.</undeletable>
@@ -2336,8 +2336,8 @@
     </msg>
     <action>
       <title>
-        <Edit>Düzenle</Edit>
-        <Delete>Sil</Delete>
+        <Edit>Edit</Edit>
+        <Delete>Delete</Delete>
       </title>
     </action>
   </UISkinTab>
@@ -2348,7 +2348,7 @@
       <UIPopupWindow>Skin Permission</UIPopupWindow>
       <selectVersion>Versions</selectVersion>
       <content>Content:</content>
-      <name>Adı:</name>
+      <name>Name:</name>
       <isDocumentTemplate>is Document Template</isDocumentTemplate>
       <viewPermission>Permission:</viewPermission>
       <enableVersion>Enable Versioning</enableVersion>
@@ -2359,7 +2359,7 @@
  <UITagManager>
    <action>
      <title>
-       <RemoveStyle>Kaldır</RemoveStyle>
+       <RemoveStyle>Remove</RemoveStyle>
          <AddStyle>Add Style</AddStyle>
      </title>
    </action>
@@ -2370,12 +2370,12 @@
 
 <UITaxonomyTreeContainer>
 <action>
-<Cancel>Kapat</Cancel>
+<Cancel>Close</Cancel>
 </action>
 </UITaxonomyTreeContainer>
 <UITaxonomyTreeMainForm>
 <action>
-<NextViewPermission>Sonraki</NextViewPermission>
+<NextViewPermission>Next</NextViewPermission>
 <Reset>Reset</Reset>
 </action>
 </UITaxonomyTreeMainForm>
@@ -2384,7 +2384,7 @@
 <action>
 <Save>Save</Save>
 <Reset>Reset</Reset>
-<NextAddAction>Sonraki</NextAddAction>
+<NextAddAction>Next</NextAddAction>
 <Previous>Previous</Previous>
 </action>
 </UIPermissionTreeForm>
@@ -2392,7 +2392,7 @@
 <UIActionForm>
 <action>
 <PreviousViewPermission>Previous</PreviousViewPermission>
-<NextViewTree>Sonraki</NextViewTree>
+<NextViewTree>Next</NextViewTree>
 </action>
   <msg>
     <xss-vulnerability-character>Field '{0}' contains XSS vulnerability characters</xss-vulnerability-character>
@@ -2416,11 +2416,11 @@
   <UITagPermissionInfo>
     <header>
       <usersOrGroups>User or Group</usersOrGroups>
-      <action>Eylem</action>
+      <action>Action</action>
     </header>
     <action>
       <title>
-        <Delete>Sil</Delete>
+        <Delete>Delete</Delete>
       </title>
     </action>
     <msg>
@@ -2430,7 +2430,7 @@
   <UITagPermissionForm>
     <title>Add Permission</title>
     <action>
-      <Save>Kaydet</Save>
+      <Save>Save</Save>
     </action>
     <label>
       <userOrGroup>Memberships:</userOrGroup>
@@ -2461,7 +2461,7 @@
 <UIActionForm>
   <title>
   <ShowComponent>Open Window</ShowComponent>
-  <removeReference>Kaldır</removeReference>
+  <removeReference>Remove</removeReference>
   </title>
   </UIActionForm> 
   <NodeTypeNameValidator>
@@ -2489,7 +2489,7 @@
   
   <UIViewFormTabPane>
   <label>
-  <addCategory>Kategori Ekle</addCategory>
+  <addCategory>Add Category</addCategory>
           <addLocalizationLink>Add Translation</addLocalizationLink>
   </label>
   </UIViewFormTabPane>
@@ -2503,7 +2503,7 @@
 <title>
 <RemovePermission>Remove Permission</RemovePermission>
 <ChooseNodeType>Select Node Types</ChooseNodeType>
-<RemoveNodeType>Kaldır</RemoveNodeType>
+<RemoveNodeType>Remove</RemoveNodeType>
 </title>
 </DriveInputSet>
 <PopupNodeTypeSelector>

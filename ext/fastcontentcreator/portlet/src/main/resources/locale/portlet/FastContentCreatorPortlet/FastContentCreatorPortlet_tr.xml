@@ -16,8 +16,8 @@
       <new-jcr-template>An error occurred while creating a new template.</new-jcr-template>
     </msg>
     <action>
-      <Save>Kaydet</Save>
-      <Cancel>İptal</Cancel>
+      <Save>Save</Save>
+      <Cancel>Cancel</Cancel>
     </action>
   </UIFCCForm>
 
@@ -33,7 +33,7 @@
       <UIFCCMessageFormTextareaInput>Custom Save Message</UIFCCMessageFormTextareaInput>
       <UIFCCRedirectFormCheckboxInput>Redirect:</UIFCCRedirectFormCheckboxInput>
       <UIFCCRedirectPathFormStringInput>Redirect Path:</UIFCCRedirectPathFormStringInput>
-      <UIFCCActionField>Eylemler</UIFCCActionField>
+      <UIFCCActionField>Actions</UIFCCActionField>
       <UIFCCActionList/>
     </label>
     <msg>
@@ -48,7 +48,7 @@
       <do-select>An error occurred while selecting the location.</do-select>
       </msg>
     <action>
-      <Save>Kaydet</Save>
+      <Save>Save</Save>
     </action>
   </UIFCCConfig>
 
@@ -60,13 +60,13 @@
 
   <UIFCCActionList>
     <header>
-      <name>Ad</name>
-      <description>Açıklama</description>
+      <name>Name</name>
+      <description>Description</description>
       <instanceOf>Instance of</instanceOf>
-      <action>Eylem</action>
+      <action>Action</action>
     </header>
     <action>
-      <Add>Ekle</Add>
+      <Add>Add</Add>
     </action>
     <msg>
       <empty>No actions</empty>
@@ -103,8 +103,8 @@
       <child-not-found>This node does not have any child ones.</child-not-found>
     </info>
     <header>
-      <name>Ad</name>
-      <action>Eylem</action>
+      <name>Name</name>
+      <action>Action</action>
     </header>
   </UITreeList>
 
@@ -117,8 +117,8 @@
   <UIFCCActionForm>
     <title>Add/Edit Action</title>
     <action>
-      <Save>Kaydet</Save>
-      <Close>Kapat</Close>
+      <Save>Save</Save>
+      <Close>Close</Close>
     </action>
     <msg>
       <repository-exception>Cannot save this action. The name provided must not have an index as its final element.</repository-exception>
@@ -175,7 +175,7 @@
 
   <UICategoriesSelector>
     <action>
-      <close>Kapat</close>
+      <close>Close</close>
     </action>
   </UICategoriesSelector>
 

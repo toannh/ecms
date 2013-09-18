@@ -3,7 +3,7 @@
   <UISEOForm>
     <label>  
       <title>Title:</title>
-      <description>Açıklama:</description>
+      <description>Description:</description>
       <keywords>Keywords:</keywords>
       <language>Language:</language>
       <robots>Robots:</robots>
@@ -27,15 +27,15 @@
   <priority>Valid values range from 0.0 to 1.0</priority>
   </tip>   
     <action>
-      <Save>Kaydet</Save>
-      <Cancel>İptal</Cancel>
+      <Save>Save</Save>
+      <Cancel>Cancel</Cancel>
     </action>
     <msg>
       <repository-exception>An unexpected error occurred while saving the page metadata.</repository-exception>
       <confirm-delete>Are you sure you want to delete these SEO data?</confirm-delete>      
     </msg>
     <title>
-    <seo-delete>Sil</seo-delete>
+    <seo-delete>Delete</seo-delete>
     </title>
   <help> 
   <priority>Valid values range from 0.0 to 1.0.</priority>
