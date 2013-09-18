@@ -62,7 +62,7 @@
   <UIPageSelectorPanel>
     <header>
       <path>Path</path>
-      <action>Действие</action>
+      <action>Action</action>
     </header>
     <msg>
       <child-not-found>No Page Found.</child-not-found>
@@ -157,7 +157,7 @@
     <header>
       <name>Name</name>
       <publicationstate>Publication State</publicationstate>
-      <action>Действие</action>
+      <action>Action</action>
     </header>
     <msg>
       <child-not-found>No Content Found</child-not-found>
@@ -168,7 +168,7 @@
     <header>
       <name>Name</name>
       <publicationstate>Publication State</publicationstate>
-      <action>Действие</action>
+      <action>Action</action>
     </header>
     <msg>
       <child-not-found>No Folder Found</child-not-found>
@@ -241,10 +241,10 @@
 
   <UIContentSearchResult>
     <header>
-      <title>Титул</title>
+      <title>Title</title>
       <score>Score</score>
       <publicationstate>Publication State</publicationstate>
-      <action>Действие</action>
+      <action>Action</action>
     </header>
     <title>
       <Select>Select</Select>
@@ -291,7 +291,7 @@
       <owner>Permission</owner>
       <accessible>Accessible</accessible>
       <editable>Editable</editable>
-      <action>Действие</action>
+      <action>Action</action>
     </header>
     <msg>
       <confirm-delete-permission>Are you sure you want to delete this permission?</confirm-delete-permission>
@@ -320,7 +320,7 @@
 
   <UIGroupSelectorPopupWindow>
     <title>
-      <UIGroupMemberSelector>Группы</UIGroupMemberSelector>
+      <UIGroupMemberSelector>Group Selector</UIGroupMemberSelector>
     </title>
   </UIGroupSelectorPopupWindow>
 

@@ -63,7 +63,7 @@
       <name>Name</name>
       <description>Description</description>
       <instanceOf>Instance of</instanceOf>
-      <action>Действие</action>
+      <action>Action</action>
     </header>
     <action>
       <Add>Add</Add>
@@ -104,7 +104,7 @@
     </info>
     <header>
       <name>Name</name>
-      <action>Действие</action>
+      <action>Action</action>
     </header>
   </UITreeList>
 

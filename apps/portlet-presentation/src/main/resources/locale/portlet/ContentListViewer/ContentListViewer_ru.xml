@@ -27,7 +27,7 @@
     <UICLVConfigItemPathFormStringInput>Folder Path</UICLVConfigItemPathFormStringInput>
       <UICLVConfigOrderByFormSelectBox>Order by</UICLVConfigOrderByFormSelectBox>
       <option>
-        <exo:title>Титул</exo:title>
+        <exo:title>Title</exo:title>
         <exo:dateCreated>Created Date</exo:dateCreated>
         <exo:lastModifiedDate>Modified Date</exo:lastModifiedDate>
         <publication:liveDate>Published Date</publication:liveDate>

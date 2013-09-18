@@ -24,7 +24,7 @@
     <header>
       <categoryName>Category name</categoryName>
       <categoryPath>Category path</categoryPath>
-      <action>Действие</action>
+      <action>Action</action>
     </header>
     <action>
       <SaveCategories>Save</SaveCategories>

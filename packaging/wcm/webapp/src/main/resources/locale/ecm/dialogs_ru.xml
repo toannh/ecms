@@ -24,7 +24,7 @@
   <UIDocumentForm>
     <label>
       <title>#{word.title}</title>
-      <link>Ссылки</link>
+      <link>Link</link>
       <contentHtml>#{word.content}</contentHtml>
       <content>#{word.content}</content>
       <contentPlain>#{word.content}</contentPlain>
@@ -66,7 +66,7 @@
       <port>Port</port>
       <userName>#{word.userName}</userName>
       <password>Password</password>
-      <link>Ссылки</link>
+      <link>Link</link>
       <to>Send Mail To</to>
       <actionName>#{word.name}</actionName>
     </label>
@@ -77,7 +77,7 @@
       <port>Port</port>
       <userName>#{word.userName}</userName>
       <password>Password</password>
-      <link>Ссылки</link>
+      <link>Link</link>
       <to>Send Mail To</to>
       <actionName>#{word.name}</actionName>
     </label>
@@ -224,7 +224,7 @@
   <RssEnable>
     <dialog>
       <label>
-        <title>Титул</title>
+        <title>Title</title>
         <summary>#{word.summary}</summary>
       </label>
     </dialog>
