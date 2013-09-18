@@ -40,7 +40,7 @@
   <UISCVPreferences>
     <action>
       <Save>Spara</Save>
-      <Abort>Avbryt</Abort>
+      <Abort>Abort</Abort>
       <Cancel>Avbryt</Cancel>
       <Print>Skriv ut</Print>
       <Close>Stäng</Close>
@@ -90,12 +90,12 @@
   <UISCVConfigItemPathFormInputSet>
     <title>
       <SelectFolderPath>Välj sökväg</SelectFolderPath>
-      <AddPath>Lägga till sökväg</AddPath>
+      <AddPath>Add Path</AddPath>
     </title>
   </UISCVConfigItemPathFormInputSet>
   <UISCVConfigPrintPageFormInputSet>
     <title>
-      <SelectTargetPage>Visa i sidan</SelectTargetPage>
+      <SelectTargetPage>Show in Page</SelectTargetPage>
     </title>
   </UISCVConfigPrintPageFormInputSet>
   <PublicationStates>

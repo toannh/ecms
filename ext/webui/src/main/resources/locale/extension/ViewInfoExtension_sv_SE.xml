@@ -13,11 +13,11 @@
 </ECMContextMenu>
 <UIViewInfoContainer>
 <label>
-      <name>Namn</name>
-      <title>Titel</title>
-      <type>Typ</type>
+      <name>Name</name>
+      <title>Title</title>
+      <type>Type</type>
       <size>Storlek</size>
-      <owner>Ägare</owner>
+      <owner>Owner</owner>
       <lastModifier>Senaste person att ändra</lastModifier>
       <created>Skapad</created>
       <lastModified>Senaste ändringsdatum</lastModified>

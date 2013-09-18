@@ -29,7 +29,7 @@
       <option>
         <exo:title>Titel</exo:title>
         <exo:dateCreated>Skapad</exo:dateCreated>
-        <exo:lastModifiedDate>Ändrade datum</exo:lastModifiedDate>
+        <exo:lastModifiedDate>Modified Date</exo:lastModifiedDate>
         <publication:liveDate>Publicerad</publication:liveDate>
         <exo:startEvent>Händelsedatum</exo:startEvent>
         <exo:index>Index</exo:index>
@@ -41,7 +41,7 @@
       <UICLVConfigDisplayTemplateFormSelectBox>Mall</UICLVConfigDisplayTemplateFormSelectBox>
       <UICLVConfigPaginatorTemplateFormSelectBox>Sidnumrering</UICLVConfigPaginatorTemplateFormSelectBox>
       <UICLVConfigTargetPageFormStringInput/>
-      <UICLVConfigItemsPerPageFormStringInput>Poster per sida</UICLVConfigItemsPerPageFormStringInput>
+      <UICLVConfigItemsPerPageFormStringInput>Items per Page</UICLVConfigItemsPerPageFormStringInput>
       <UICLVConfigShowIllustrationFormCheckboxInput>Visa bild</UICLVConfigShowIllustrationFormCheckboxInput>
       <UICLVConfigShowSummaryFormCheckboxInput>Visa sammanfattning</UICLVConfigShowSummaryFormCheckboxInput>
       <UICLVConfigShowHeaderFormCheckboxInput>Visa sidhuvud</UICLVConfigShowHeaderFormCheckboxInput>
@@ -107,7 +107,7 @@
   <UICLVConfigItemPathFormInputSet>
     <title>
       <SelectFolderPath>Välj sökväg</SelectFolderPath>
-      <AddPath>Lägga till sökväg</AddPath>
+      <AddPath>Add Path</AddPath>
     </title>
   </UICLVConfigItemPathFormInputSet>
   <FolderPathSelectorPopupWindow>
@@ -118,15 +118,15 @@
   <UICLVConfigOrderTypeFormSelectBox>
     <label>
       <option>
-        <OrderDesc>Fallande</OrderDesc>
-        <OrderAsc>Stigande</OrderAsc>
+        <OrderDesc>Descendant</OrderDesc>
+        <OrderAsc>Ascendant</OrderAsc>
       </option>
     </label>
   </UICLVConfigOrderTypeFormSelectBox>
   <UICLVConfigTargetPageFormInputSet>
     <title>
-      <SelectBasePath>Välj rotkatalog</SelectBasePath>
-      <SelectTargetPage>Välj rotkatalog</SelectTargetPage>
+      <SelectBasePath>Select Base Path</SelectBasePath>
+      <SelectTargetPage>Select Base Path</SelectTargetPage>
     </title>
   </UICLVConfigTargetPageFormInputSet>
   <UICLVBasePathPopupWindow>
@@ -141,7 +141,7 @@
     </label>
     <action>
       <refresh>Uppdatera</refresh>
-      <edit>Redigera innehåll i utforskaren</edit>
+      <edit>Edit in Content Explorer</edit>
       <delete>Ta bort</delete>
       <publish>Publicera</publish>
     </action>

@@ -45,9 +45,9 @@
       <admin-view>Admin</admin-view>
       <icon-view>Ikoner</icon-view>
       <thumbails-view>Miniatyrer</thumbails-view>
-      <list-view>Listvy</list-view>
+      <list-view>List</list-view>
       <authoring-view>Författande</authoring-view>
-      <wcm-category-view>Kategorier</wcm-category-view>
+      <wcm-category-view>Categories</wcm-category-view>
       <file-view>Fil management vy</file-view>
     </label>
   </Views>
@@ -61,14 +61,14 @@
 
   <UIPageSelectorPanel>
     <header>
-      <path>Sökväg</path>
-      <action>Åtgärd</action>
+      <path>Path</path>
+      <action>Action</action>
     </header>
     <msg>
       <child-not-found>Hittade ingen sida.</child-not-found>
     </msg>
     <title>
-      <select>Välj</select>
+      <select>Select</select>
     </title>
   </UIPageSelectorPanel>
 
@@ -96,7 +96,7 @@
     <selectBoxValues>
       <FilterBy>Filtrera</FilterBy>
       <WebContent>Webbinnehåll</WebContent>
-      <DMSDocument>Dokument</DMSDocument>
+      <DMSDocument>Document</DMSDocument>
       <Media>Media</Media>
     </selectBoxValues>
     <msg>
@@ -108,7 +108,7 @@
     <selectBoxValues>
       <FilterBy>Filtrera</FilterBy>
       <WebContent>Webbinnehåll</WebContent>
-      <DMSDocument>Dokument</DMSDocument>
+      <DMSDocument>Document</DMSDocument>
       <Media>Media</Media>
     </selectBoxValues>
   </UIContentBrowsePanelMulti>
@@ -136,9 +136,9 @@
 
   <UISelectedContentGrid>
     <label>
-      <name>Namn</name>
-      <add>Lägg till</add>
-      <delete>Ta bort</delete>
+      <name>Name</name>
+      <add>Add</add>
+      <delete>Delete</delete>
     </label>
     <msg>
       <no-content-found>Inget innehåll funnet.</no-content-found>
@@ -148,16 +148,16 @@
 
   <UICLVContentSelectedGrid>
     <action>
-      <SaveCategories>Spara</SaveCategories>
-      <Cancel>Avbryt</Cancel>
+      <SaveCategories>Save</SaveCategories>
+      <Cancel>Cancel</Cancel>
     </action>
   </UICLVContentSelectedGrid>
 
   <UIContentBrowsePathSelector>
     <header>
-      <name>Namn</name>
+      <name>Name</name>
       <publicationstate>Publiceringsstatus</publicationstate>
-      <action>Åtgärd</action>
+      <action>Action</action>
     </header>
     <msg>
       <child-not-found>Inget innehåll</child-not-found>
@@ -166,9 +166,9 @@
 
   <UIContentBrowsePathSelectorFolder>
     <header>
-      <name>Namn</name>
+      <name>Name</name>
       <publicationstate>Publiceringsstatus</publicationstate>
-      <action>Åtgärd</action>
+      <action>Action</action>
     </header>
     <msg>
       <child-not-found>Ingen mapp hittade</child-not-found>
@@ -177,27 +177,27 @@
 
   <UIContentSearchForm>
     <title>
-      <Location>Webbplatsens namn</Location>
-      <SearchByName>Sök efter namn</SearchByName>
+      <Location>Site Name</Location>
+      <SearchByName>Search by Name</SearchByName>
       <Fulltext>Ett ord eller en fras i innehållet</Fulltext>
-      <Property>Rättigheter</Property>
-      <Contain>Innehåller</Contain>
+      <Property>Property</Property>
+      <Contain>Contain</Contain>
       <FromDate>Från datum</FromDate>
       <ToDate>Till Datum</ToDate>
-      <DocumentType>Dokumenttyp</DocumentType>
+      <DocumentType>Document Type</DocumentType>
     </title>
     <tooltip>
-      <AddMetadataType>Lägg till egenskap</AddMetadataType>
-      <AddNodeType>Lägg till nodtyp</AddNodeType>
+      <AddMetadataType>Add Property</AddMetadataType>
+      <AddNodeType>Add Node Type</AddNodeType>
     </tooltip>    
     <label>
       <option>
-        <CREATED>Skapad</CREATED>
-        <MODIFIED>Ändrad</MODIFIED>
+        <CREATED>Created</CREATED>
+        <MODIFIED>Modified</MODIFIED>
       </option>
     </label>
     <action>
-      <SearchWebContent>Sök</SearchWebContent>
+      <SearchWebContent>Search</SearchWebContent>
     </action>
     <msg>
       <time-to-late>Sökningen tog för lång tid</time-to-late>
@@ -205,50 +205,50 @@
       <invalid-format>Ogiltigt datum/tid-format i fältet {0}.</invalid-format>
       <invalid-date>"Till datum" måste vara senare än "Från datum"</invalid-date>
       <invalid-nodeType>Nodtypen {0} är ogiltig. Kontrollera igen.</invalid-nodeType>
-      <invalid-keyword>Nyckelordet är ogiltig. Vissa tecken stöds inte.</invalid-keyword>
+      <invalid-keyword>The keyword is invalid. Some characters are not supported.</invalid-keyword>
     </msg>
   </UIContentSearchForm>
 
   <WebContentMetadataPopup>
     <title>
-      <UIContentPropertySelector>Val av Egenskapen</UIContentPropertySelector>
+      <UIContentPropertySelector>Property Selector</UIContentPropertySelector>
     </title>
   </WebContentMetadataPopup>
 
   <UIContentPropertySelector>
     <action>
-      <Add>Lägg till</Add>
-      <Cancel>Avbryt</Cancel>
+      <Add>Add</Add>
+      <Cancel>Cancel</Cancel>
     </action>
     <label>
-      <metadataType>Metadatatyp</metadataType>
-      <property_select>Rättigheter</property_select>
+      <metadataType>Metadata Type</metadataType>
+      <property_select>Property</property_select>
     </label>
   </UIContentPropertySelector>
 
   <WebContentNodeTypePopup>
     <title>
-      <UIContentNodeTypeSelector>Nod typ väljare</UIContentNodeTypeSelector>
+      <UIContentNodeTypeSelector>Node Type Selector</UIContentNodeTypeSelector>
     </title>
   </WebContentNodeTypePopup>
 
   <UIContentNodeTypeSelector>
     <action>
-      <Save>Spara</Save>
-      <Cancel>Avbryt</Cancel>
+      <Save>Save</Save>
+      <Cancel>Cancel</Cancel>
     </action>
   </UIContentNodeTypeSelector>
 
   <UIContentSearchResult>
     <header>
-      <title>Titel</title>
-      <score>Poäng</score>
-      <publicationstate>Publiceringsstatus</publicationstate>
-      <action>Åtgärd</action>
+      <title>Title</title>
+      <score>Score</score>
+      <publicationstate>Publication State</publicationstate>
+      <action>Action</action>
     </header>
     <title>
-      <Select>Välj</Select>
-      <View>Visa</View>
+      <Select>Select</Select>
+      <View>View</View>
     </title>
     <msg>
     <template-not-support>Kan inte förhandsgranska innehållet. Mallen stöds inte</template-not-support>
@@ -259,7 +259,7 @@
     <action>
       <SaveDraft>Spara utkast</SaveDraft>
       <FastPublish>Snabbt publicera</FastPublish>
-      <Preferences>Inställningar</Preferences>
+      <Preferences>Preferences</Preferences>
       <Close>Stäng</Close>
     </action>
     <msg>
@@ -271,43 +271,43 @@
 
   <UIPermissionManager>
     <label>
-      <UIPermissionInputSetWithAction>Rättigheter</UIPermissionInputSetWithAction>
+      <UIPermissionInputSetWithAction>Permission</UIPermissionInputSetWithAction>
       <UIPermissionStringInput/>
       <UIAccessibleCheckboxInput>Rättigheter för tillgång</UIAccessibleCheckboxInput>
       <UIEditableCheckboxInput>Redigera höger</UIEditableCheckboxInput>
     </label>
     <action>
-      <Save>Spara</Save>
+      <Save>Save</Save>
       <Clear>Rensa</Clear>
       <title>
-        <Edit>Redigera</Edit>
-        <Delete>Ta bort</Delete>
+        <Edit>Edit</Edit>
+        <Delete>Delete</Delete>
       </title>
     </action>
   </UIPermissionManager>
 
   <UIPermissionManagerGrid>
     <header>
-      <owner>Rättigheter</owner>
+      <owner>Permission</owner>
       <accessible>Tillgänglig</accessible>
       <editable>Redigerbara</editable>
-      <action>Åtgärd</action>
+      <action>Action</action>
     </header>
     <msg>
-      <confirm-delete-permission>Är du säker på att du vill ta bort denna rättighet?</confirm-delete-permission>
+      <confirm-delete-permission>Are you sure you want to delete this permission?</confirm-delete-permission>
       <no-permission-remove>Du har inte behörighet.</no-permission-remove>
-      <access-denied>Åtkomst nekad.</access-denied>
+      <access-denied>Access denied.</access-denied>
       <node-locked>Sökvägen för elementet {0} eller någon av dess föräldrar är låst.</node-locked>
       <userOrGroup-required>Du måste välja en användare eller grupp.</userOrGroup-required>
       <checkbox-require>Du måste ställa in rättigheter.</checkbox-require>
-      <node-checkedin>Du måste checka ut först.</node-checkedin>
+      <node-checkedin>You must check out first.</node-checkedin>
     </msg>
   </UIPermissionManagerGrid>
 
   <UIPermissionInputSetWithAction>
     <title>
-      <SelectUser>Välj användare</SelectUser>
-      <SelectMember>Välj medlem</SelectMember>
+      <SelectUser>Select User</SelectUser>
+      <SelectMember>Select Member</SelectMember>
       <AddAny>Lägg till alla behörighetsgrupper</AddAny>
     </title>
   </UIPermissionInputSetWithAction>
@@ -326,14 +326,14 @@
 
   <UIGroupMemberSelector>
     <label>
-      <selectGroup>Välj grupp</selectGroup>
-      <selectMembership>Välj medlemskap</selectMembership>
+      <selectGroup>Select Group</selectGroup>
+      <selectMembership>Select Membership</selectMembership>
     </label>
   </UIGroupMemberSelector>
 
   <UIContentDialogPreference>
     <action>
-      <Back>Tillbaka</Back>
+      <Back>Back</Back>
     </action>
   </UIContentDialogPreference>
 
@@ -357,7 +357,7 @@
     <label>
       <SingleContentViewer>Vy för ett innehåll</SingleContentViewer>
       <ContentListViewer>Vy på Innehållslista</ContentListViewer>
-      <Search>Sök</Search>
+      <Search>Search</Search>
       <Sitemap>Webbplatsens karta</Sitemap>
       <TwoColumnsLayout>Layout med två kolumner</TwoColumnsLayout>
       <ThreeColumnsLayout>Tre-kolumn Layout</ThreeColumnsLayout>
@@ -372,10 +372,10 @@
   </UIWizardPageSelectLayoutForm>
 
   <Signin>
-    <welcome>Välkommen</welcome>
-    <login>Logga in</login>
+    <welcome>Welcome</welcome>
+    <login>Login</login>
     <logout>Logga ut</logout>
-    <language>Ändra språk</language>
+    <language>Change Language</language>
     <register>Registrera dig</register>
   </Signin>
   <UIDriveForm>
@@ -390,8 +390,8 @@
       <PersonalDrives>Personliga enheter</PersonalDrives>
       <GeneralDrives>Allmänna enheter</GeneralDrives>
       <GroupDrives>Grupp enheter</GroupDrives>
-      <Private>Privat</Private>
-      <Public>Offentlig</Public>
+      <Private>Private</Private>
+      <Public>Public</Public>
       <BackupCenter>Backup Center</BackupCenter>
       <CategorizedDocumentsCenter>Kategoriserade dokument Center</CategorizedDocumentsCenter>
       <CollaborationCenter>Samarbetes Center</CollaborationCenter>
@@ -404,14 +404,14 @@
       <SharedUsersSpace>Delade användares webb-yta</SharedUsersSpace>
       <Systemfiles>Systemfiler</Systemfiles>
       <ValidationRequestsDocumentsCenter>Validering begäran om dokument Center</ValidationRequestsDocumentsCenter>
-      <ManagedSites>Hantering av webbplatser</ManagedSites>
-      <SharedSite>Delad webbplats</SharedSite>
+      <ManagedSites>Sites Management</ManagedSites>
+      <SharedSite>Shared Site</SharedSite>
     </title>
   </ContentSelector>
   
   <UICategoryNavigationTargetPathPopupWindow>
     <title>
-      <UIPageSelector>Sidväljare</UIPageSelector>
+      <UIPageSelector>Page Selector</UIPageSelector>
     </title>
   </UICategoryNavigationTargetPathPopupWindow>
   
@@ -422,7 +422,7 @@
   </UIDocumentInfo>
   <UIPortalApplication>
     <title>
-      <abort>Avbryt</abort>
+      <abort>Abort</abort>
     </title>
   </UIPortalApplication>    
   

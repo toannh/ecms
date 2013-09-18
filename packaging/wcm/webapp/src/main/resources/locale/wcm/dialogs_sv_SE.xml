@@ -27,9 +27,9 @@
         <cssFile>default.CSS</cssFile>
         <jsFile>default.js</jsFile>
         <Advanced>Avancerad</Advanced>
-        <Summary>Sammanfattning</Summary>
-        <name>Namn</name>
-        <title>Titel</title>
+        <Summary>Summary</Summary>
+        <name>Name</name>
+        <title>Title</title>
         <ContentCSS>CSS Data</ContentCSS>
         <hintCSS>Du kan ange huvud formatmallen för webbinnehållet. Denna mall åsidosätter de formatmallar som anges på platsnivå och på delad nivå.</hintCSS>
         <ContentJS>JS Data</ContentJS>
@@ -51,7 +51,7 @@
   <CSSFile>
     <dialog>
       <label>
-        <name>Namn</name>
+        <name>Name</name>
         <active>Aktiv</active>
         <priority>Prioritet</priority>
         <content>CSS Data</content>
@@ -62,7 +62,7 @@
   <JSFile>
     <dialog>
       <label>
-        <name>Namn</name>
+        <name>Name</name>
         <active>Aktiv</active>
         <priority>Prioritet</priority>
         <content>JS Data</content>
@@ -73,9 +73,9 @@
   <WebLink>
     <dialog>
       <label>
-        <name>Namn</name>
+        <name>Name</name>
         <url>URI</url>
-        <description>Beskrivning</description>
+        <description>Description</description>
       </label>
     </dialog>
   </WebLink>

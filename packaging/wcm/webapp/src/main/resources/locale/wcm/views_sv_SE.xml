@@ -24,7 +24,7 @@
     <view>
       <label>
         <url>URL</url>
-        <description>Beskrivning</description>
+        <description>Description</description>
       </label>
     </view>
   </WebLink>
@@ -32,25 +32,25 @@
   <SiteMetadata>
     <view>
       <label>
-        <title>Webbplatsens titel</title>
-        <description>Webbplatsens Beskrivning</description>
-        <keywords>Webbplats sökord</keywords>
-        <robots>Sökmotor beteende</robots>
+        <title>Site Title</title>
+        <description>Site Description</description>
+        <keywords>Site Keywords</keywords>
+        <robots>Search Engine Behavior</robots>
       </label>
       <tooltip>
         <add-edit>Lägg till/redigera Metadata</add-edit>
-        <cancel>Avbryt</cancel>
+        <cancel>Cancel</cancel>
       </tooltip>
       <action>
         <add-edit>Lägg till/redigera</add-edit>
-        <cancel>Avbryt</cancel>
+        <cancel>Cancel</cancel>
       </action>
     </view>
   </SiteMetadata>
 
   <Category>
     <view>
-      <label>Kategori</label>
+      <label>Category</label>
     </view>
   </Category>
 
