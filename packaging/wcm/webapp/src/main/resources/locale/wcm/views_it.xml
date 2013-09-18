@@ -56,7 +56,7 @@
 
   <Tag>
     <view>
-      <label>Tagga Documento</label>
+      <label>Tag</label>
     </view>
   </Tag>
 </bundle>

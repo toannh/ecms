@@ -24,12 +24,12 @@
       <ContentSelectionBlock>Selezione Contenuti</ContentSelectionBlock>
       <UICLVConfigDisplayModeFormRadioBoxInput>Modo</UICLVConfigDisplayModeFormRadioBoxInput>
       <UICLVConfigItemPathFormInputSet>Percorso Cartella</UICLVConfigItemPathFormInputSet>
-    <UICLVConfigItemPathFormStringInput>Percorso Cartella</UICLVConfigItemPathFormStringInput>
+    <UICLVConfigItemPathFormStringInput>Folder Path</UICLVConfigItemPathFormStringInput>
       <UICLVConfigOrderByFormSelectBox>Ordina per</UICLVConfigOrderByFormSelectBox>
       <option>
         <exo:title>Titolo</exo:title>
         <exo:dateCreated>Data di Creazione</exo:dateCreated>
-        <exo:lastModifiedDate>Data di Modifica</exo:lastModifiedDate>
+        <exo:lastModifiedDate>Modified Date</exo:lastModifiedDate>
         <publication:liveDate>Published Date</publication:liveDate>
         <exo:startEvent>Data Evento</exo:startEvent>
         <exo:index>Indice</exo:index>
@@ -92,9 +92,9 @@
     </msg>
     <tab>
       <label>
-        <clvContentTab>Seleziona Contenuto</clvContentTab>
-        <clvDisplayTab>Impostazioni di Visualizzazione</clvDisplayTab>
-        <clvAdvancedTab>Avanzate</clvAdvancedTab>
+        <clvContentTab>Content Selection</clvContentTab>
+        <clvDisplayTab>Display Settings</clvDisplayTab>
+        <clvAdvancedTab>Advanced</clvAdvancedTab>
       </label>
     </tab>
   </UICLVConfig>
@@ -107,7 +107,7 @@
   <UICLVConfigItemPathFormInputSet>
     <title>
       <SelectFolderPath>Seleziona Percorso Cartella</SelectFolderPath>
-      <AddPath>Aggiungi Percorso</AddPath>
+      <AddPath>Add Path</AddPath>
     </title>
   </UICLVConfigItemPathFormInputSet>
   <FolderPathSelectorPopupWindow>

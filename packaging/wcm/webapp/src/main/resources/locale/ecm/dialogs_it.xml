@@ -24,7 +24,7 @@
   <UIDocumentForm>
     <label>
       <title>#{word.title}</title>
-      <link>Collegamento</link>
+      <link>Link</link>
       <contentHtml>#{word.content}</contentHtml>
       <content>#{word.content}</content>
       <contentPlain>#{word.content}</contentPlain>
@@ -66,7 +66,7 @@
       <port>Porta</port>
       <userName>#{word.userName}</userName>
       <password>Password</password>
-      <link>Collegamento</link>
+      <link>Link</link>
       <to>Invia Mail A</to>
       <actionName>#{word.name}</actionName>
     </label>
@@ -77,7 +77,7 @@
       <port>Porta</port>
       <userName>#{word.userName}</userName>
       <password>Password</password>
-      <link>Collegamento</link>
+      <link>Link</link>
       <to>Manda Mail A</to>
       <actionName>#{word.name}</actionName>
     </label>
@@ -92,7 +92,7 @@
         <id>ID</id>
         <name>#{word.name}</name>
         <lifecycle>#{Ecm.dialog.label.lifecycle}</lifecycle>
-        <metadata>Vedi Metadati</metadata>
+        <metadata>Metadata</metadata>
         <description>#{word.description}</description>
       </label>
     </dialog>

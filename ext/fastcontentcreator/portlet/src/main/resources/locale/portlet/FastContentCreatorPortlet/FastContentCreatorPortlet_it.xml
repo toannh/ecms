@@ -86,8 +86,8 @@
 
   <UIWorkspaceList>
     <label>
-      <workspaceName>Workspace</workspaceName>
-      <rootNodePath>Percorso Root</rootNodePath>
+      <workspaceName>Workspace:</workspaceName>
+      <rootNodePath>Root Path:</rootNodePath>
       <rootNodeInfo>Root node</rootNodeInfo>
     </label>
   </UIWorkspaceList>
@@ -175,7 +175,7 @@
 
   <UICategoriesSelector>
     <action>
-      <close>Chiuso</close>
+      <close>Close</close>
     </action>
   </UICategoriesSelector>
 
