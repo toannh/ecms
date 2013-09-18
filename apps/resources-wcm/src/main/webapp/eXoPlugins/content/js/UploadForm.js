@@ -32,11 +32,11 @@ UploadForm.prototype.showUploadForm = function() {
 	var uploadForm = gj(popupContainer).find("div.UploadForm:first")[0];
 	var maskLayer = gj(popupContainer).find("div.MaskLayer:first")[0];
 	if (maskLayer!=null) maskLayer.style.zIndex = uploadForm.style.zIndex++;
-	uploadForm.style.position = 'absolute';
+	//uploadForm.style.position = 'absolute';
 	var widthUploadForm = (gj(window).width() - uploadForm.offsetWidth)/2;
 	var heightUploadForm = (gj(window).height() - uploadForm.offsetHeight)/2;
-	uploadForm.style.left = widthUploadForm + "px";
-	uploadForm.style.top = heightUploadForm + "px";
+	//uploadForm.style.left = widthUploadForm + "px";
+	//uploadForm.style.top = heightUploadForm + "px";
 	
 	//var tblActionContainer =  gj(uploadForm).find("table.ActionContainer:first")[0];
 	//var trFolder =  gj(tblActionContainer).find("tr.PathFolder:first")[0];
