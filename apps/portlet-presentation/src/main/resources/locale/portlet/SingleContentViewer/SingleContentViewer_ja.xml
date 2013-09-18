@@ -80,17 +80,17 @@
     </msg>
     <tab>
       <label>
-        <UISCVConfigContentFormInputSet>コンテンツ選択</UISCVConfigContentFormInputSet>
-        <UISCVConfigDisplayFormInputSet>表示設定</UISCVConfigDisplayFormInputSet>
-        <UISCVConfigPrintFormInputSet>印刷設定</UISCVConfigPrintFormInputSet>
-        <UISCVConfigAdvancedFormInputSet>詳細設定</UISCVConfigAdvancedFormInputSet>
+        <UISCVConfigContentFormInputSet>Content Selection</UISCVConfigContentFormInputSet>
+        <UISCVConfigDisplayFormInputSet>Display Settings</UISCVConfigDisplayFormInputSet>
+        <UISCVConfigPrintFormInputSet>Print Settings</UISCVConfigPrintFormInputSet>
+        <UISCVConfigAdvancedFormInputSet>Advanced</UISCVConfigAdvancedFormInputSet>
       </label>
     </tab>
   </UISCVPreferences>
   <UISCVConfigItemPathFormInputSet>
     <title>
       <SelectFolderPath>フォルダパスの選択</SelectFolderPath>
-      <AddPath>パスの追加</AddPath>
+      <AddPath>Add Path</AddPath>
     </title>
   </UISCVConfigItemPathFormInputSet>
   <UISCVConfigPrintPageFormInputSet>

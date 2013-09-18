@@ -3,7 +3,7 @@
   <UISEOForm>
     <label>  
       <title>タイトル</title>
-      <description>説明:</description>
+      <description>Description:</description>
       <keywords>キーワード:</keywords>
       <language>言語:</language>
       <robots>ロボット:</robots>
@@ -12,14 +12,14 @@
     <isInherited>親ページから継承</isInherited>
       <priority>優先順位：</priority>
       <frequency>頻度:</frequency>
-      <select-language>言語を選択</select-language>
+      <select-language>Select a language</select-language>
       <option>
         <Always>常に表示</Always>
-        <Hourly>毎時</Hourly>
-        <Daily>毎日</Daily>
+        <Hourly>Hourly</Hourly>
+        <Daily>Daily</Daily>
         <Weekly>毎週</Weekly>
         <Monthly>毎月</Monthly>
-        <Yearly>毎年</Yearly>
+        <Yearly>Yearly</Yearly>
         <Never>表示しない</Never>
       </option> 
     </label>

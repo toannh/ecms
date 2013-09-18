@@ -9,14 +9,14 @@
     <tab>
       <label>
         <Templates>テンプレート</Templates>
-        <Explorer>エクスプローラー</Explorer>
+        <Explorer>Explorer</Explorer>
         <Repository>レポジトリ</Repository>
-        <Advanced>詳細設定</Advanced>
+        <Advanced>Advanced</Advanced>
       </label>
     </tab>    
     <label>     
       <UITaxonomyManagerTrees>カテゴリー</UITaxonomyManagerTrees>
-      <UIMetadataManager>メタデータ観覧</UIMetadataManager>
+      <UIMetadataManager>Metadata</UIMetadataManager>
       <UINamespaceManager>名前空間</UINamespaceManager>
       <UINodeTypeManager>ノードタイプ</UINodeTypeManager>
       <UITemplatesManager>ドキュメント</UITemplatesManager>
@@ -27,7 +27,7 @@
       <UIActionManager>アクション</UIActionManager>
       <UIScriptManager>スクリプト</UIScriptManager>
       <UIUnLockManager>ロックの管理</UIUnLockManager>
-      <UIFolksonomyManager>パブリックタグ</UIFolksonomyManager>      
+      <UIFolksonomyManager>Tags</UIFolksonomyManager>      
     </label>
     <msg>
       <access-denied>アクセスできません！権限がありません</access-denied>
@@ -242,7 +242,7 @@
     </title>
     <header>
       <icon>アイコン</icon>
-      <name>メタデータ観覧</name>
+      <name>Metadata</name>
       <type>タイプ</type>
       <internalUse>内部利用</internalUse>
       <action>Action</action>
@@ -295,7 +295,7 @@
       <metadataName>メタデータ名</metadataName>
       <viewPermission>権限</viewPermission>
       <permission>UIMetadataForm</permission>
-      <metadataLabel>ラベル:</metadataLabel>
+      <metadataLabel>Label:</metadataLabel>
     </label>
     <tab>
       <label>
@@ -400,7 +400,7 @@
       <showHiddenNode>隠しノードの表示</showHiddenNode>
       <allowCreateFolders>Allow Folder Creation:</allowCreateFolders>
       <Admin>管理者：</Admin>
-      <Categories>カテゴリー:</Categories>
+      <Categories>Categories:</Categories>
       <Icons>アイコン</Icons>
       <List>一覧：</List>
       <Web>Web:</Web>
@@ -787,17 +787,17 @@
       <UITemplateContainer>ドキュメント</UITemplateContainer>
       <UIActionsTemplateContainer>アクション</UIActionsTemplateContainer>
       <UIOthersTemplateContainer>その他</UIOthersTemplateContainer>
-  <UIActionScriptContainer>アクション</UIActionScriptContainer>
+  <UIActionScriptContainer>Action</UIActionScriptContainer>
   <UIWidgetScriptContainer>ウィジェット</UIWidgetScriptContainer>
 <UIInterceptorScriptContainer>インターセプター</UIInterceptorScriptContainer>
 
-<nodeTypeDefinition>ノードタイプ</nodeTypeDefinition>
-      <propertyDefinition>プロパティ</propertyDefinition>
-      <childNodeDefinition>子ノード</childNodeDefinition>
-      <SuperTypeTab>Superタイプ</SuperTypeTab>
-      <DefaultTypeTab>デフォルトプライマリ</DefaultTypeTab>
-      <RequiredTypeTab>必須プライマリ</RequiredTypeTab>
-      <Contraints>制約</Contraints>
+<nodeTypeDefinition>Node Type</nodeTypeDefinition>
+      <propertyDefinition>Property</propertyDefinition>
+      <childNodeDefinition>Child Node</childNodeDefinition>
+      <SuperTypeTab>Super Types</SuperTypeTab>
+      <DefaultTypeTab>Default Primary</DefaultTypeTab>
+      <RequiredTypeTab>Required Primary</RequiredTypeTab>
+      <Contraints>Constraints</Contraints>
     </title>
   </UITabPane>
   <!--
@@ -807,8 +807,8 @@
   -->
   <UIViewList>
    <title>
-     <View>ビュー</View>
-     <EditInfo>編集</EditInfo>
+     <View>View</View>
+     <EditInfo>Edit</EditInfo>
      <Delete>削除</Delete>
    </title>
     <header>
@@ -846,7 +846,7 @@
 
 <UITabList>
  <header>
-  <tabName>タブ</tabName>
+  <tabName>Tab</tabName>
   <localizeButtons>説明:</localizeButtons>
 <action>アクション</action>
 </header>
@@ -866,7 +866,7 @@
 <UIViewPermissionList>
  <title>このビューに対する権限を持つ所有者を選択します。</title>
 <label>
- <permission>{1} に {0} があります</permission>
+ <permission>{0} in {1}</permission>
 </label>
 <msg>
  <confirm-delete>本当にこの権限を削除しますか？</confirm-delete>
@@ -876,8 +876,8 @@
 
 <UIViewPermissionList>
  <header>
-<friendlyPermission>権限観覧</friendlyPermission>
-     <action>アクション</action>
+<friendlyPermission>Permissions</friendlyPermission>
+     <action>Action</action>
  </header>
 <action>
  <title>
@@ -896,7 +896,7 @@
  <Add>追加</Add>
 </action>
 <label>
- <userOrGroup>ユーザorグループ</userOrGroup>
+ <userOrGroup>User or Group</userOrGroup>
 </label>
 <msg>
  <permission-exist>アクセス権限 '{0}' は、既に存在しています。</permission-exist>
@@ -911,7 +911,7 @@
   <UIViewForm>
     <title>
       <AddPermission>権限の追加</AddPermission>
-      <RemovePermission>権限の削除</RemovePermission>
+      <RemovePermission>Remove Permission</RemovePermission>
     </title>
     <msg>
       <view-name-invalid>名前を入力する必要があります。</view-name-invalid>
@@ -923,8 +923,8 @@
     </msg>
     <label>
       <viewName>名前</viewName>
-      <template>テンプレート</template>
-<version>バージョンのリストア</version>
+      <template>Template</template>
+<version>Restore Version</version>
       <enableVersion>バージョンの許可</enableVersion>
       <hideExplorerPanel>サイド ・ バーにあるエクスプ ローラー パネルを非表示にしてください。</hideExplorerPanel>
     </label>
@@ -936,47 +936,47 @@
       <fileName-invalid>名前の中に無効な文字があります。</fileName-invalid>
     </msg>
     <label>
-      <version>バージョンのリストア</version>
+      <version>Restore Version</version>
       <viewName>名前</viewName>
       <tabName>タブ名</tabName>
-      <permission>パーミッション</permission>
+      <permission>Permission</permission>
       <tabs>タブ</tabs>
-      <template>テンプレート</template>
+      <template>Templates</template>
       <enableVersion>バージョンの許可化</enableVersion>
       <addFolder>フォルダの追加</addFolder>
       <addDocument>ドキュメントの追加</addDocument>
-      <editDocument>ドキュメントの編集</editDocument>
-      <upload>アップロード</upload>
-      <paste>貼り付け</paste>
+      <editDocument>Edit Document</editDocument>
+      <upload>Upload</upload>
+      <paste>Paste</paste>
       <search>検索</search>
       <viewReferences>リファレンスの表示</viewReferences>
       <viewNodeType>ノードタイプの表示</viewNodeType>
       <viewPermissions>権限の表示</viewPermissions>
-      <viewProperties>プロパティの観覧</viewProperties>
+      <viewProperties>View Properties</viewProperties>
       <manageVersions>バージョン管理</manageVersions>
       <manageAuditing>監査管理</manageAuditing>
-      <managePublications>公開管理</managePublications>
+      <managePublications>Manage Publication</managePublications>
       <manageCategories>カテゴリー管理</manageCategories>
       <manageRelations>関連管理</manageRelations>
-      <manageActions>アクションの管理</manageActions>
-      <exportNode>ノードエクスポート</exportNode>
-      <importNode>ノードインポート</importNode>
+      <manageActions>Manage Actions</manageActions>
+      <exportNode>Export Node</exportNode>
+      <importNode>Import Node</importNode>
       <viewRelations>リレーションの参照</viewRelations>
       <showJCRStructure>JCR 構造を表示</showJCRStructure>
-      <watchDocument>ドキュメント観覧</watchDocument>
-      <taggingDocument>ドキュメントにタグ付け</taggingDocument>
-      <viewMetadatas>メタデータ観覧</viewMetadatas>
-      <overloadThumbnail>オーバーロード サムネイル</overloadThumbnail>
+      <watchDocument>Watch Document</watchDocument>
+      <taggingDocument>Tag Document</taggingDocument>
+      <viewMetadatas>View Metadata</viewMetadatas>
+      <overloadThumbnail>Overload Thumbnail</overloadThumbnail>
       <manageHidden>コンテンツの表示/非表示</manageHidden>
       <comment>コメント</comment>
-      <vote>ドキュメントに投票</vote>  
-      <addCategory>カテゴリーを追加</addCategory>
-      <addLocalizationLink>Translationの追加</addLocalizationLink>
+      <vote>Vote</vote>  
+      <addCategory>Add Category</addCategory>
+      <addLocalizationLink>Add Translation</addLocalizationLink>
       <publicationRequestApproval>リクエストの承認</publicationRequestApproval>
       <publicationApproveContent>コンテンツの承認</publicationApproveContent>
       <publicationPublish>公開</publicationPublish>
 <contentNavigation>コンテンツ ナビゲーション</contentNavigation>
-<addSymLink>Symリンクの追加</addSymLink>
+<addSymLink>Add Symlink</addSymLink>
     </label>
     <action>
       <Save>#{word.save}</Save>      
@@ -991,9 +991,9 @@
   <UIViewFormTabPane>
     <tab>
       <label>
-        <UITabContainer>アクション</UITabContainer>
-        <UIViewForm>ビュー</UIViewForm>
-        <UIViewPermissionContainer>パーミッション</UIViewPermissionContainer>    
+        <UITabContainer>Action</UITabContainer>
+        <UIViewForm>View</UIViewForm>
+        <UIViewPermissionContainer>Permission</UIViewPermissionContainer>    
       </label>
     </tab>
     <action>
@@ -1018,8 +1018,8 @@
 
 <tab_permission>
  <title>
-  <SelectUser>ユーザの選択</SelectUser>
-<SelectMember>メンバの選択</SelectMember>
+  <SelectUser>Select User</SelectUser>
+<SelectMember>Select Member</SelectMember>
 <AddAny>任意の</AddAny>
  </title>
 </tab_permission>
@@ -1030,8 +1030,8 @@
   -->
   <UIECMTemplateList>
     <title>
-      <View>ビュー</View>
-      <EditInfo>編集</EditInfo>
+      <View>View</View>
+      <EditInfo>Edit</EditInfo>
       <Delete>削除</Delete>
     </title>
     <header>
@@ -1196,10 +1196,10 @@
   </ScriptContainerPopup>
   <UIScriptForm>
     <label>
-      <selectVersion>バージョン管理</selectVersion>
-      <scriptContent>コンテンツ</scriptContent>
+      <selectVersion>Versions</selectVersion>
+      <scriptContent>Content</scriptContent>
       <scriptLabel>名前</scriptLabel>
-      <scriptName>名前</scriptName>
+      <scriptName>Script</scriptName>
       <enableVersion>Enable Versioning</enableVersion>
     </label>
   </UIScriptForm>
@@ -1230,7 +1230,7 @@
     </action>
     <title>分類の追加</title>
     <label>
-      <taxonomyName>カテゴリ名</taxonomyName>
+      <taxonomyName>Category Name</taxonomyName>
       <parentPath>親</parentPath>
     </label>
     <msg>
@@ -1433,7 +1433,7 @@
     <title>
       <SelectUser>ユーザの選択</SelectUser>
       <SelectMember>メンバーシップの選択</SelectMember>
-      <AddAny>みんな</AddAny>
+      <AddAny>Everyone</AddAny>
     </title>
   </permission>
   <!--
@@ -1463,7 +1463,7 @@
       <permission>UIPermissionForm</permission>
       <userOrGroup>ユーザorグループ</userOrGroup>
       <read>読み込み権限</read>
-      <add_node>変更</add_node>
+      <add_node>Modify</add_node>
       <remove>削除権限</remove>
     </label>
     <title>ノードへ権限の追加</title>
@@ -1500,8 +1500,8 @@
     <header>
       <name>テンプレート名</name>
       <action>アクション</action>
-      <label>テンプレート</label>
-      <icon>アイコン</icon>
+      <label>Template</label>
+      <icon>Icon</icon>
     </header>
     <action>
       <AddNew>追加</AddNew>
@@ -1517,15 +1517,15 @@
   <UIActionsTemplateList>
     <header>
       <name>Template Name</name>
-      <action>アクション</action>
-      <label>テンプレート</label>
-      <icon>アイコン</icon>
+      <action>Action</action>
+      <label>Template</label>
+      <icon>Icon</icon>
     </header>
     <action>
-      <AddNew>テンプレートの追加</AddNew>
+      <AddNew>Add Template</AddNew>
     </action>
     <msg>
-      <confirm-delete>本当に削除したいですか?</confirm-delete>
+      <confirm-delete>Do you really want to delete?</confirm-delete>
       <access-denied>Access denied! You haven't got permission to use this function.</access-denied>
       <editing-template>Access denied! You can't delete and edit template simultaneously.</editing-template>
       <template-not-exist>The template that you attempt to delete doesn't exist.</template-not-exist>
@@ -1535,15 +1535,15 @@
   <UIOthersTemplateList>
     <header>
       <name>Template Name</name>
-      <label>テンプレート</label>
-      <icon>アイコン</icon>
-      <action>アクション</action>
+      <label>Template</label>
+      <icon>Icon</icon>
+      <action>Action</action>
     </header>
     <action>
-      <AddNew>テンプレートの追加</AddNew>
+      <AddNew>Add Template</AddNew>
     </action>
     <msg>
-      <confirm-delete>本当に削除したいですか?</confirm-delete>
+      <confirm-delete>Do you really want to delete?</confirm-delete>
       <access-denied>Access denied! You haven't got permission to use this function.</access-denied>
       <editing-template>Access denied! You can't delete and edit template simultaneously.</editing-template>
       <template-not-exist>The template that you attempt to delete doesn't exist.</template-not-exist>
@@ -1558,7 +1558,7 @@
 
 <UITabPane>
  <title>
- <ContentTemplateContainer>コンテンツ</ContentTemplateContainer>
+ <ContentTemplateContainer>Content</ContentTemplateContainer>
 <CateTemplateContainer>ナビゲーション</CateTemplateContainer>
 <PageTemplateContainer>改ページ</PageTemplateContainer>
  </title>
@@ -1567,31 +1567,31 @@
   <UICLVTemplateList>
     <header>
       <title>名前</title>
-      <action>アクション</action>
-      <template>テンプレート</template>
+      <action>Action</action>
+      <template>Template</template>
     </header>
     <action>
-      <AddTemplate>テンプレートの追加</AddTemplate>
-<Edit>編集</Edit>
+      <AddTemplate>Add Template</AddTemplate>
+<Edit>Edit</Edit>
 <Delete>削除</Delete>
     </action>
     <msg>
-      <confirm-delete>本当に削除したいですか?</confirm-delete>
-      <access-denied>アクセスできません！この機能を使うための権限がありません。</access-denied>
-      <editing-template>Access denied! You can't delete and edit template simultaneously.</editing-template>
-      <template-not-exist>The template that you attempt to delete doesn't exist.</template-not-exist>
+      <confirm-delete>Are you sure you want to delete this template?</confirm-delete>
+      <access-denied>Access denied. You do not have permission to use this function.</access-denied>
+      <editing-template>Access denied. You cannot delete and edit this template simultaneously.</editing-template>
+      <template-not-exist>The template that you are trying to delete doesn't exist.</template-not-exist>
     </msg>
   </UICLVTemplateList>
 
 <CateTemplateList>
     <header>
       <title>名前</title>
-      <action>アクション</action>
-      <template>テンプレート</template>
+      <action>Action</action>
+      <template>Template</template>
     </header>
     <action>
-      <AddTemplate>テンプレートの追加</AddTemplate>
-<Edit>編集</Edit>
+      <AddTemplate>Add Template</AddTemplate>
+<Edit>Edit</Edit>
 <Delete>削除</Delete>
     </action>
 </CateTemplateList>
@@ -1599,12 +1599,12 @@
 <PageTemplateList>
     <header>
       <title>名前</title>
-      <action>アクション</action>
-      <template>テンプレート</template>
+      <action>Action</action>
+      <template>Template</template>
     </header>
     <action>
-      <AddTemplate>テンプレートの追加</AddTemplate>
-<Edit>編集</Edit>
+      <AddTemplate>Add Template</AddTemplate>
+<Edit>Edit</Edit>
 <Delete>削除</Delete>
     </action>
 </PageTemplateList>
@@ -1648,13 +1648,13 @@
 <UICLVTemplateForm_ContentTemplateContainer>
  <action>
   <Save>#{word.save}</Save>
-<Reset>リセット</Reset>
+<Reset>Reset</Reset>
 <Cancel>#{word.cancel}</Cancel>
  </action>
 <label>
  <title>名前</title>
-<template>テンプレート名</template>
-<content>コンテンツ</content>
+<template>Template Name</template>
+<content>Content</content>
 <type>テンプレート タイプ</type>
 </label>
 </UICLVTemplateForm_ContentTemplateContainer>
@@ -1662,13 +1662,13 @@
 <UICLVTemplateForm_PageTemplateContainer>
  <action>
   <Save>#{word.save}</Save>
-<Reset>リセット</Reset>
+<Reset>Reset</Reset>
 <Cancel>#{word.cancel}</Cancel>
  </action>
 <label>
  <title>名前</title>
-<template>テンプレート名</template>
-<content>コンテンツ</content>
+<template>Template Name</template>
+<content>Content</content>
 <type>テンプレート タイプ</type>
 </label>
 </UICLVTemplateForm_PageTemplateContainer>
@@ -1676,21 +1676,21 @@
 <UICLVTemplateForm_CateTemplateContainer>
  <action>
   <Save>#{word.save}</Save>
-<Reset>リセット</Reset>
+<Reset>Reset</Reset>
 <Cancel>#{word.cancel}</Cancel>
  </action>
 <label>
  <title>名前</title>
-<template>テンプレート名</template>
-<content>コンテンツ</content>
+<template>Template Name</template>
+<content>Content</content>
 <type>テンプレート タイプ</type>
 </label>
 </UICLVTemplateForm_CateTemplateContainer>
 <UICLVTemplateForm>
   <label>
     <paginators>改ページ</paginators>
-<list>コンテンツ</list>
-<navigation>ナビゲーション</navigation>
+<list>Content</list>
+<navigation>Navigation</navigation>
   </label>
   <msg>
   <template-existing>このテンプレート名は既に存在します。他の名称を選択してください。</template-existing>
@@ -1709,7 +1709,7 @@
   </AddNewTemplatePermission>
   <TemplatePermission>
     <title>
-      <UIPermissionSelector>権限の選択</UIPermissionSelector>
+      <UIPermissionSelector>Select Permission</UIPermissionSelector>
     </title>
   </TemplatePermission>
   <TemplateContainerPopup>
@@ -1854,7 +1854,7 @@
     </msg>
     <title>
       <AddPermission>権限の追加</AddPermission>
-      <RemovePermission>権限の削除</RemovePermission>
+      <RemovePermission>Remove Permission</RemovePermission>
     </title>
   </UITemplateContent>
   <!--
@@ -1941,7 +1941,7 @@
   </EditQueryForm>
 <PermissionPopup>
   <title>
-    <UIGroupMemberSelector>権限の選択</UIGroupMemberSelector>
+    <UIGroupMemberSelector>Select Permission</UIGroupMemberSelector>
   </title>
 </PermissionPopup>
   <!--
@@ -2081,7 +2081,7 @@
       <Delete>削除</Delete>
     </title>
 <label>
-  <permission>{1} に {0} があります</permission>
+  <permission>{0} in {1}</permission>
 </label>
   </UIViewContainer>
   <ECMTemplate>
@@ -2108,9 +2108,9 @@
   </step3>
   <UIDrivePermissionSelector>
     <label>
-      <selectGroup>グループの選択</selectGroup>
-      <selectUser>ユーザの選択</selectUser>
-      <selectMembership>メンバシップの選択</selectMembership>
+      <selectGroup>Select Group</selectGroup>
+      <selectUser>Select User</selectUser>
+      <selectMembership>Select Membership</selectMembership>
     </label>
   </UIDrivePermissionSelector>
   
@@ -2130,13 +2130,13 @@
   
   <UIMDriveAnyPermission>
     <label>
-      <anyPermission>権限</anyPermission>
+      <anyPermission>Any Permission</anyPermission>
     </label>
   </UIMDriveAnyPermission>
   
   <UIQueriesAnyPermission>
     <label>
-      <anyPermission>権限</anyPermission>
+      <anyPermission>Any Permission</anyPermission>
     </label>
   </UIQueriesAnyPermission>
   
@@ -2204,7 +2204,7 @@
         <email>#{word.email}</email>
       </option>
       <group>グループ</group>
-      <searchUser>ユーザー</searchUser>
+      <searchUser>User</searchUser>
       <userName>#{word.userName}</userName>
       <lastName>#{word.lastName}</lastName>
       <firstName>#{word.firstName}</firstName>
@@ -2222,8 +2222,8 @@
     <label>
       <nt_folder>フォルダ</nt_folder>
       <nt_unstructured>体系化されていないフォルダ</nt_unstructured>
-      <exo_cssFolder>CSS フォルダー</exo_cssFolder>
-      <exo_jsFolder>Java スクリプトフォルダー</exo_jsFolder>
+      <exo_cssFolder>CSS Folder</exo_cssFolder>
+      <exo_jsFolder>Javascript Folder</exo_jsFolder>
       <exo_linkFolder>リンク フォルダー</exo_linkFolder>
       <exo_webFolder>Web コンテンツ フォルダー</exo_webFolder>
    </label>
@@ -2395,7 +2395,7 @@
 <NextViewTree>次へ</NextViewTree>
 </action>
   <msg>
-    <xss-vulnerability-character>フィールド'{0}'は、クロスサイトスクリプティングの脆弱性文字が含まれています。</xss-vulnerability-character>
+    <xss-vulnerability-character>Field '{0}' contains XSS vulnerability characters</xss-vulnerability-character>
 <xss-vulnerability-character-wo-label>Your input may contain XSS vulnerability characters</xss-vulnerability-character-wo-label>
   </msg>
 </UIActionForm>
@@ -2415,7 +2415,7 @@
   
   <UITagPermissionInfo>
     <header>
-      <usersOrGroups>ユーザorグループ</usersOrGroups>
+      <usersOrGroups>User or Group</usersOrGroups>
       <action>アクション</action>
     </header>
     <action>
