@@ -14,8 +14,8 @@
         <time-interval>Intervalo de tiempo</time-interval>
         <query-items>Elementos de Consulta</query-items>
         <schedule-type>Tipo de Programa</schedule-type>
-        <remove>Eliminar Item</remove>
-        <add>Añadir Item</add>
+        <remove>Remove Item</remove>
+        <add>Add Item</add>
         <expand>Extender este</expand>
       </label>
     </dialog>
@@ -24,12 +24,12 @@
   <UIDocumentForm>
     <label>
       <title>#{word.title}</title>
-      <link>Enlace</link>
+      <link>Link</link>
       <contentHtml>#{word.content}</contentHtml>
       <content>#{word.content}</content>
       <contentPlain>#{word.content}</contentPlain>
       <name>Nombre</name>
-    <categories>Categorías</categories>
+    <categories>Categories</categories>
     </label>
   </UIDocumentForm>
  
@@ -40,7 +40,7 @@
     <dialog>
       <label>
         <name>Nombre</name>
-        <content>Contenido</content>
+        <content>Content</content>
       </label>
     </dialog>
   </HtmlFile>
@@ -52,7 +52,7 @@
     <dialog>
       <label>
         <name>#{word.name}</name>
-        <categories>Categorías</categories>
+        <categories>Categories</categories>
         <mimeType>#{Ecm.dialog.label.mimeType}</mimeType>
         <content>#{word.content}</content>
         <re-upload>El archivo ya existe. Puede eliminarlo y cargar otro archivo.</re-upload>
@@ -65,8 +65,8 @@
       <description>#{word.description}</description>
       <port>Puerto</port>
       <userName>#{word.userName}</userName>
-      <password>Contraseña</password>
-      <link>Enlace</link>
+      <password>Password</password>
+      <link>Link</link>
       <to>Enviar correo a</to>
       <actionName>#{word.name}</actionName>
     </label>
@@ -74,11 +74,11 @@
   <EditFormAction>
     <label>
       <description>#{word.description}</description>
-      <port>Puerto</port>
+      <port>Port</port>
       <userName>#{word.userName}</userName>
-      <password>Contraseña</password>
-      <link>Enlace</link>
-      <to>Enviar correo a</to>
+      <password>Password</password>
+      <link>Link</link>
+      <to>Send Mail To</to>
       <actionName>#{word.name}</actionName>
     </label>
   </EditFormAction>
@@ -92,7 +92,7 @@
         <id>ID</id>
         <name>#{word.name}</name>
         <lifecycle>#{Ecm.dialog.label.lifecycle}</lifecycle>
-        <metadata>Metadatos</metadata>
+        <metadata>Metadata</metadata>
         <description>#{word.description}</description>
       </label>
     </dialog>
@@ -104,7 +104,7 @@
   <AutoVersioning>
     <dialog>
       <label>
-        <id>ID</id>
+        <id>Id</id>
         <name>#{word.name}</name>
         <lifecycle>#{Ecm.dialog.label.lifecycle}</lifecycle>
         <schedule-type>#{Ecm.dialog.label.schedule-type}</schedule-type>
@@ -123,7 +123,7 @@
   <EnableVersioning>
     <dialog>
       <label>
-        <id>ID</id>
+        <id>Id</id>
         <name>#{word.name}</name>
         <lifecycle>#{Ecm.dialog.label.lifecycle}</lifecycle>
         <schedule-type>#{Ecm.dialog.label.schedule-type}</schedule-type>
@@ -181,8 +181,8 @@
       <label>
         <destination-workpsace>Destinación del espacio de trabajo</destination-workpsace>
         <destination-path>Ruta de destino</destination-path>
-        <primary-type>Tipo primario</primary-type>
-        <mixin-types>Tipos Mixin</mixin-types>
+        <primary-type>Primary Type</primary-type>
+        <mixin-types>Mixin Types</mixin-types>
       </label>
     </dialog>
   </Move>
@@ -192,8 +192,8 @@
   <Published>
     <dialog>
       <label>
-        <start-publication>Comenzar la publicación</start-publication>
-        <end-publication>Publicación final</end-publication>
+        <start-publication>Start Publication</start-publication>
+        <end-publication>End Publication</end-publication>
       </label>
     </dialog>
   </Published>
@@ -214,7 +214,7 @@
   <Relationable>
     <dialog>
       <label>
-        <relation>Relación</relation>
+        <relation>Relation</relation>
       </label>
     </dialog>
   </Relationable>
@@ -224,7 +224,7 @@
   <RssEnable>
     <dialog>
       <label>
-        <title>Título</title>
+        <title>Title</title>
         <summary>#{word.summary}</summary>
       </label>
     </dialog>
@@ -236,8 +236,8 @@
   <Versionable>
     <dialog>
       <label>
-        <version-history>Historia de la versión</version-history>
-        <base-version>Versión base</base-version>
+        <version-history>Version History</version-history>
+        <base-version>Base Version</base-version>
         <is-checked-out>Está retirado</is-checked-out>
         <predecessors>Antecesores</predecessors>
         <merge-failed>La unión falló</merge-failed>
@@ -255,7 +255,7 @@
         <name>Nombre</name>
         <autoload>Carga automática</autoload>
         <minetype>Tipo MIME</minetype>
-        <content>Contenido</content>
+        <content>Content</content>
       </label>
     </dialog>
   </ResouceContainer>
@@ -285,10 +285,10 @@
   <ScriptAction>
     <dialog>
       <label>
-        <id>ID</id>
+        <id>Id</id>
         <name>Nombre</name>
         <lifecycle>Ciclo de vida</lifecycle>
-        <homePath>Ruta de Inicio</homePath>
+        <homePath>Home Path</homePath>
         <targetWorkspace>El espacio de trabajo meta</targetWorkspace>
         <targetPath>Ruta de destino</targetPath>
       </label>
@@ -307,34 +307,34 @@
   -->
 <no>No</no>
 <yes>Si</yes>
-<true>Cierto</true>
-<false>Falso</false>
-<Electronic>Electrónico</Electronic>
-<Paper>Papel</Paper>
-<NONE>Ninguno</NONE>
-<CLASSIFIED>Clasificado</CLASSIFIED>
-<UNCLASSIFIED>Sin clasificar</UNCLASSIFIED>
-<NOCONTRACT>Ningún Contrato</NOCONTRACT>
-<one-minute>Un Minuto</one-minute>
-<hourly>Por hora</hourly>
-<daily>Diario</daily>
-<quarterly>Trimestral</quarterly>
-<yearly>Anualmente</yearly>
-<ten-years>Diez Años</ten-years>
-<read>Acción de Usuario</read>
-  <schedule>Planificador</schedule>
-  <node_added>Adición del Contenido</node_added>
-  <node_removed>Eliminación del Contenido</node_removed>
-  <property_added>Añadir Propiedades</property_added>
-  <property_removed>Eliminación de la propiedad</property_removed>
-  <property_changed>Modificación de Propiedades</property_changed>
+<true>True</true>
+<false>False</false>
+<Electronic>Electronic</Electronic>
+<Paper>Paper</Paper>
+<NONE>None</NONE>
+<CLASSIFIED>Classified</CLASSIFIED>
+<UNCLASSIFIED>Unclassified</UNCLASSIFIED>
+<NOCONTRACT>No Contract</NOCONTRACT>
+<one-minute>One Minute</one-minute>
+<hourly>Hourly</hourly>
+<daily>Daily</daily>
+<quarterly>Quarterly</quarterly>
+<yearly>Yearly</yearly>
+<ten-years>Ten Years</ten-years>
+<read>User Action</read>
+  <schedule>Scheduler</schedule>
+  <node_added>Content Addition</node_added>
+  <node_removed>Content Removal</node_removed>
+  <property_added>Property Addition</property_added>
+  <property_removed>Property Removal</property_removed>
+  <property_changed>Property Modification</property_changed>
 
   <ScriptAction>
     <dialog>
       <label>
-        <isDeep>Es profundo</isDeep>
-        <nodetypes>Tipos de nodo</nodetypes>
-        <affectedNodeTypeNames>Tipos de nodo afectados</affectedNodeTypeNames>
+        <isDeep>Is Deep</isDeep>
+        <nodetypes>Node Types</nodetypes>
+        <affectedNodeTypeNames>Affected Node Types</affectedNodeTypeNames>
       </label>
     </dialog>
   </ScriptAction>
@@ -342,9 +342,9 @@
   <AddMetadata>
     <dialog>
       <label>
-        <isDeep>Es profundo</isDeep>
-        <nodetypes>Tipos de nodo</nodetypes>
-        <affectedNodeTypeNames>Tipos de nodo afectados</affectedNodeTypeNames>
+        <isDeep>Is Deep</isDeep>
+        <nodetypes>Node Types</nodetypes>
+        <affectedNodeTypeNames>Affected Node Types</affectedNodeTypeNames>
       </label>
     </dialog>
   </AddMetadata>
@@ -352,9 +352,9 @@
   <EnableVersioning>
     <dialog>
       <label>
-        <isDeep>Es profundo</isDeep>
-        <nodetypes>Tipos de nodo</nodetypes>
-        <affectedNodeTypeNames>Tipos de nodo afectados</affectedNodeTypeNames>
+        <isDeep>Is Deep</isDeep>
+        <nodetypes>Node Types</nodetypes>
+        <affectedNodeTypeNames>Affected Node Types</affectedNodeTypeNames>
       </label>
     </dialog>
   </EnableVersioning>
@@ -362,9 +362,9 @@
   <AutoVersioning>
     <dialog>
       <label>
-        <isDeep>Es profundo</isDeep>
-        <nodetypes>Tipos de nodo</nodetypes>
-        <affectedNodeTypeNames>Tipos de nodo afectados</affectedNodeTypeNames>
+        <isDeep>Is Deep</isDeep>
+        <nodetypes>Node Types</nodetypes>
+        <affectedNodeTypeNames>Affected Node Types</affectedNodeTypeNames>
       </label>
     </dialog>
   </AutoVersioning>

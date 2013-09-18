@@ -85,10 +85,10 @@
       <label>
         <name>Nombre</name>
         <versionable>Versionable</versionable>
-        <exo_owner>Propietario</exo_owner>
-        <exo_dateCreated>Fecha de creación</exo_dateCreated>
+        <exo_owner>Owner</exo_owner>
+        <exo_dateCreated>Date Created</exo_dateCreated>
         <exo_dateModified>Fecha Modificada</exo_dateModified>
-        <auditing>Auditoría</auditing>
+        <auditing>Auditing</auditing>
       </label>
     </view>
   </ListView>
@@ -101,8 +101,8 @@
       <label>
         <action-name>Nombre de la acción</action-name>
         <lifecycle>Ciclo de vida</lifecycle>
-        <metadata>Metadatos</metadata>
-        <description>Descripción</description>
+        <metadata>Metadata</metadata>
+        <description>Description</description>
       </label>
     </view>
   </AddMetadata>
@@ -113,9 +113,9 @@
   <AutoVersioning>
     <view>
       <label>
-        <action-name>Nombre de la acción</action-name>
-        <lifecycle>Ciclo de vida</lifecycle>
-        <description>Descripción</description>
+        <action-name>Action Name</action-name>
+        <lifecycle>Lifecycle</lifecycle>
+        <description>Description</description>
       </label>
     </view>
   </AutoVersioning>
@@ -126,8 +126,8 @@
     <view>
       <label>
         <action-name>Nombre</action-name>
-        <lifecycle>Ciclo de vida</lifecycle>
-        <description>Descripción</description>
+        <lifecycle>Lifecycle</lifecycle>
+        <description>Description</description>
       </label>
     </view>
   </EnableVersioning>
@@ -138,29 +138,29 @@
     <view>
       <label>
         <not-avaliable>N/A</not-avaliable>
-        <title>Título</title>
-        <creator>Creador</creator>
-        <subject>Asunto</subject>
-        <source>Fuente</source>
+        <title>Title</title>
+        <creator>Creator</creator>
+        <subject>Subject</subject>
+        <source>Source</source>
         <contributor>Contribuyente</contributor>
         <resource-type>Tipo de Recursos</resource-type>
-        <date>Fecha</date>
+        <date>Date</date>
         <publisher>Editor</publisher>
-        <description>Descripción</description>
+        <description>Description</description>
         <rights>Derechos</rights>
-        <relation>Relación</relation>
-        <format>Formato</format>
+        <relation>Relation</relation>
+        <format>Format</format>
         <coverage>Cobertura</coverage>
         <identifier>Identificador</identifier>
         <languages>Idiomas</languages>
       </label>
       <action>
-        <add-edit>Agregar/Editar</add-edit>
-        <cancel>Cancelar</cancel>
+        <add-edit>Add/Edit</add-edit>
+        <cancel>Cancel</cancel>
       </action>
       <tooltip>
-        <cancel>Cancelar</cancel>
-        <add-edit>Añadir/Editar Propiedades</add-edit>
+        <cancel>Cancel</cancel>
+        <add-edit>Add/Edit Properties</add-edit>
       </tooltip>
     </view>
   </ElementSet>
@@ -179,8 +179,8 @@
   <AddMetadata>
     <view>
       <label>
-        <isDeep>Es profundo</isDeep>
-        <nodetypes>Tipos de nodo</nodetypes>
+        <isDeep>Is Deep</isDeep>
+        <nodetypes>Node Types</nodetypes>
         <affectedNodeTypeNames>Tipos de nodo afectados</affectedNodeTypeNames>
         <nodeTypeName>Nombres de tipos de nodo</nodeTypeName>
       </label> 
@@ -190,10 +190,10 @@
   <EnableVersioning>
     <view>
       <label>
-        <isDeep>Es profundo</isDeep>
-        <nodetypes>Tipos de nodo</nodetypes> 
-        <affectedNodeTypeNames>Tipos de nodo afectados</affectedNodeTypeNames>
-        <nodeTypeName>Nombres de tipos de nodo</nodeTypeName>
+        <isDeep>Is Deep</isDeep>
+        <nodetypes>Node Types</nodetypes> 
+        <affectedNodeTypeNames>Affected Node Types</affectedNodeTypeNames>
+        <nodeTypeName>Node Type Names</nodeTypeName>
       </label> 
     </view>
   </EnableVersioning>
@@ -201,10 +201,10 @@
   <AutoVersioning>
     <view>
       <label>
-        <isDeep>Es profundo</isDeep>
-        <nodetypes>Tipos de nodo</nodetypes>
-        <affectedNodeTypeNames>Tipos de nodo afectados</affectedNodeTypeNames>
-        <nodeTypeName>Nombres de tipos de nodo</nodeTypeName>
+        <isDeep>Is Deep</isDeep>
+        <nodetypes>Node Types</nodetypes>
+        <affectedNodeTypeNames>Affected Node Types</affectedNodeTypeNames>
+        <nodeTypeName>Node Type Names</nodeTypeName>
       </label> 
     </view>
   </AutoVersioning>
@@ -213,7 +213,7 @@
     <view>
       <label>
       <Play-audio-description-of-this-video>Descripción audio</Play-audio-description-of-this-video>
-      <Read-more>Leer más</Read-more>
+      <Read-more>Read more</Read-more>
       <Read-less>Leer menos</Read-less>
       <Switch-back-to-original-video>Video original</Switch-back-to-original-video>
       </label>

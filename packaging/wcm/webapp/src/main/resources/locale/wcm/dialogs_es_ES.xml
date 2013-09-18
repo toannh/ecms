@@ -26,10 +26,10 @@
         <MainContent>Contenido principal</MainContent>
         <cssFile>default.css</cssFile>
         <jsFile>default.js</jsFile>
-        <Advanced>Avanzado</Advanced>
-        <Summary>Sumario</Summary>
+        <Advanced>Advanced</Advanced>
+        <Summary>Summary</Summary>
         <name>Nombre</name>
-        <title>Título</title>
+        <title>Title</title>
         <ContentCSS>Datos CSS</ContentCSS>
         <hintCSS>En este panel, puede especificar la hoja de estilo principal para su contenido web. Este estilo se superpondrá a la hoja de estilo a nivel del sitio y del nivel compartido.</hintCSS>
         <ContentJS>Datos JS</ContentJS>
@@ -75,7 +75,7 @@
       <label>
         <name>Nombre</name>
         <url>URL</url>
-        <description>Descripción</description>
+        <description>Description</description>
       </label>
     </dialog>
   </WebLink>

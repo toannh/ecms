@@ -8,7 +8,7 @@
   <UITreeList>
     <header>
       <name>Nombre</name>
-      <action>Añadir</action>
+      <action>Add</action>
     </header>
     <action/>
     <info>
@@ -24,11 +24,11 @@
     <header>
       <categoryName>Nombre de la Categoría</categoryName>
       <categoryPath>Ruta de la Categoría</categoryPath>
-      <action>Acción</action>
+      <action>Action</action>
     </header>
     <action>
-      <SaveCategories>Guardar</SaveCategories>
-      <Cancel>Cancelar</Cancel>
+      <SaveCategories>Save</SaveCategories>
+      <Cancel>Cancel</Cancel>
     </action>
     <msg>
       <cannot-save>Las categorías no fueron guardadas.</cannot-save>
@@ -44,20 +44,20 @@
   -->
   <SelectUserOrGroup>
     <title>
-      <UIPermissionUser>Seleccionar Usuario</UIPermissionUser>
-      <UIPermissionMembership>Seleccione la membresía</UIPermissionMembership>
+      <UIPermissionUser>Select User</UIPermissionUser>
+      <UIPermissionMembership>Select Membership</UIPermissionMembership>
     </title>
   </SelectUserOrGroup>
   <UIPermissionUser>
     <label>
-      <selectUser>Seleccionar Usuario</selectUser>
-      <selectGroup>Navega y selecciona un Grupo</selectGroup>
+      <selectUser>Select User</selectUser>
+      <selectGroup>Browse and select a group</selectGroup>
     </label>
   </UIPermissionUser>
   <UIPermissionMembership>
     <label>
-      <selectUser>Seleccione la membresía</selectUser>
-      <selectGroup>Navega y selecciona un Grupo</selectGroup>
+      <selectUser>Select Membership</selectUser>
+      <selectGroup>Browse and select a group</selectGroup>
     </label>
   </UIPermissionMembership>
 </bundle>

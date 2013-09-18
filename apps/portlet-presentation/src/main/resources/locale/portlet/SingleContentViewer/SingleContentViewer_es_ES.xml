@@ -7,7 +7,7 @@
       <FastPublish>Publicar</FastPublish>
     </title>
     <label>
-      <draft>Borrador</draft>
+      <draft>Draft</draft>
       <print>Imprimir</print>
     </label>
     <msg>
@@ -39,18 +39,18 @@
   </UIPreferencesPopupWindows>
   <UISCVPreferences>
     <action>
-      <Save>Guardar</Save>
-      <Abort>Anular</Abort>
-      <Cancel>Cancelar</Cancel>
+      <Save>Save</Save>
+      <Abort>Abort</Abort>
+      <Cancel>Cancel</Cancel>
       <Print>Imprimir</Print>
-      <Close>Cerrar</Close>
+      <Close>Close</Close>
     </action>
-    <title>Preferencias del detalle de contenido</title>
+    <title>Content Detail Preferences</title>
     <label>
       <Back>Volver a la página anterior</Back>
-      <Edit>Editar</Edit>
-      <Preferences>Preferencias</Preferences>
-      <Title>Preferencias del detalle de contenido</Title>
+      <Edit>Edit</Edit>
+      <Preferences>Preferences</Preferences>
+      <Title>Content Detail Preferences</Title>
       <UISCVShowTitleConfigurationCheckBox>Mostrar título</UISCVShowTitleConfigurationCheckBox>
       <UISCVShowDateConfigurationCheckBox>Mostrar fecha</UISCVShowDateConfigurationCheckBox>
       <UISCVShowOptionBarConfigurationCheckBox>Mostrar barra de opción</UISCVShowOptionBarConfigurationCheckBox>
@@ -58,14 +58,14 @@
       <ContentPathBlock>Selección de contenido</ContentPathBlock>
       <UISCVConfigItemPathFormInputSet>Ruta del contenido</UISCVConfigItemPathFormInputSet>
     <UISCVContentPathConfigurationInputBox>Ruta del contenido</UISCVContentPathConfigurationInputBox>
-      <Advance>Avanzado</Advance>
+      <Advance>Advanced</Advance>
       <ContextCaption>Navegación dinámica</ContextCaption>
       <UISCVContextualRadioBox>Contenido contextual</UISCVContextualRadioBox>
       <UISCVParameterInputBox>por</UISCVParameterInputBox>
       <PrintSettingBlock>Configuración de impresión</PrintSettingBlock>
       <UISCVPrintPageParameter>con</UISCVPrintPageParameter>
       <UISCVConfigPrintPageFormInputSet>Mostrar en la página</UISCVConfigPrintPageFormInputSet>
-      <LockStatus>Bloqueo</LockStatus>
+      <LockStatus>Lock</LockStatus>
       <CacheManagement>Visibilidad de contenido</CacheManagement>
       <UISCVCacheRadioBox>Compartir contenido</UISCVCacheRadioBox>
     </label>
@@ -83,32 +83,32 @@
         <UISCVConfigContentFormInputSet>Selección de contenido</UISCVConfigContentFormInputSet>
         <UISCVConfigDisplayFormInputSet>Mostrar ajustes</UISCVConfigDisplayFormInputSet>
         <UISCVConfigPrintFormInputSet>Configuración de impresión</UISCVConfigPrintFormInputSet>
-        <UISCVConfigAdvancedFormInputSet>Avanzado</UISCVConfigAdvancedFormInputSet>
+        <UISCVConfigAdvancedFormInputSet>Advanced</UISCVConfigAdvancedFormInputSet>
       </label>
     </tab>
   </UISCVPreferences>
   <UISCVConfigItemPathFormInputSet>
     <title>
       <SelectFolderPath>Seleccione la ruta de la carpeta</SelectFolderPath>
-      <AddPath>Agregar Ruta</AddPath>
+      <AddPath>Add Path</AddPath>
     </title>
   </UISCVConfigItemPathFormInputSet>
   <UISCVConfigPrintPageFormInputSet>
     <title>
-      <SelectTargetPage>Mostrar en la página</SelectTargetPage>
+      <SelectTargetPage>Show in Page</SelectTargetPage>
     </title>
   </UISCVConfigPrintPageFormInputSet>
   <PublicationStates>
-    <archived>Archivado</archived>
-    <obsolete>Obsoleto</obsolete>
+    <archived>Archived</archived>
+    <obsolete>Obsolete</obsolete>
     <unpublished>No Publicado</unpublished>
-    <enrolled>Inscrito</enrolled>
+    <enrolled>Enrolled</enrolled>
     <draft>Borrador</draft>
-    <pending>Pendiente</pending>
-    <approved>Aprobado</approved>
+    <pending>Pending</pending>
+    <approved>Approved</approved>
     <inreview>En Revisión</inreview>
-    <staged>Escenificado</staged>
-    <published>Publicado</published>
+    <staged>Staged</staged>
+    <published>Published</published>
   </PublicationStates>
   <UISCVCacheRadioBox>
     <label>
