@@ -87,7 +87,7 @@
   <UIWorkspaceList>
     <label>
       <workspaceName>Không gian lưu trữ</workspaceName>
-      <rootNodePath>Đường dẫn Gốc:</rootNodePath>
+      <rootNodePath>Root Path:</rootNodePath>
       <rootNodeInfo>Nút gốc</rootNodeInfo>
     </label>
   </UIWorkspaceList>
@@ -175,7 +175,7 @@
 
   <UICategoriesSelector>
     <action>
-      <close>Đóng</close>
+      <close>Close</close>
     </action>
   </UICategoriesSelector>
 

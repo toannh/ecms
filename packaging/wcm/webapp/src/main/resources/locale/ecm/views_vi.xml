@@ -88,7 +88,7 @@
         <exo_owner>Người sở hữu</exo_owner>
         <exo_dateCreated>Ngày Tạo</exo_dateCreated>
         <exo_dateModified>Ngày Sửa đổi</exo_dateModified>
-        <auditing>Kiểm định</auditing>
+        <auditing>Auditing</auditing>
       </label>
     </view>
   </ListView>
@@ -101,7 +101,7 @@
       <label>
         <action-name>Tên Hành động</action-name>
         <lifecycle>Chu kỳ</lifecycle>
-        <metadata>Siêu dữ liệu</metadata>
+        <metadata>Metadata</metadata>
         <description>Mô tả</description>
       </label>
     </view>

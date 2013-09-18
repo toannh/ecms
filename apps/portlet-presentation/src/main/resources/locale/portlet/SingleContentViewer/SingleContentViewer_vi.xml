@@ -42,8 +42,8 @@
       <Save>Lưu</Save>
       <Abort>Hủy bỏ</Abort>
       <Cancel>Hủy bỏ</Cancel>
-      <Print>In</Print>
-      <Close>Đóng</Close>
+      <Print>Print</Print>
+      <Close>Close</Close>
     </action>
     <title>Tùy chọn Nội dung Chi Tiết</title>
     <label>
@@ -80,9 +80,9 @@
     </msg>
     <tab>
       <label>
-        <UISCVConfigContentFormInputSet>Lựa chọn nội dung</UISCVConfigContentFormInputSet>
-        <UISCVConfigDisplayFormInputSet>Thiết lập Hiển thị</UISCVConfigDisplayFormInputSet>
-        <UISCVConfigPrintFormInputSet>Thiết lập In ấn</UISCVConfigPrintFormInputSet>
+        <UISCVConfigContentFormInputSet>Content Selection</UISCVConfigContentFormInputSet>
+        <UISCVConfigDisplayFormInputSet>Display Settings</UISCVConfigDisplayFormInputSet>
+        <UISCVConfigPrintFormInputSet>Print Settings</UISCVConfigPrintFormInputSet>
         <UISCVConfigAdvancedFormInputSet>Nâng cao</UISCVConfigAdvancedFormInputSet>
       </label>
     </tab>
@@ -90,7 +90,7 @@
   <UISCVConfigItemPathFormInputSet>
     <title>
       <SelectFolderPath>Lựa chọn Đường dẫn Thư mục</SelectFolderPath>
-      <AddPath>Thêm Đường dẫn</AddPath>
+      <AddPath>Add Path</AddPath>
     </title>
   </UISCVConfigItemPathFormInputSet>
   <UISCVConfigPrintPageFormInputSet>
@@ -108,7 +108,7 @@
     <approved>Đã duyệt</approved>
     <inreview>Đang duyệt</inreview>
     <staged>Chờ xuất bản</staged>
-    <published>Xuất bản</published>
+    <published>Published</published>
   </PublicationStates>
   <UISCVCacheRadioBox>
     <label>
