@@ -98,7 +98,7 @@
       <selectView>اختيار المشهد</selectView>
       <showSideBar>عرض المحتوى الجانبي</showSideBar>
       <more>المزيد</more>
-      <backTo>رجوع</backTo>
+      <backTo>Back</backTo>
     </label>
   </UIViewBar>
 
@@ -919,7 +919,7 @@
       <shortcutPath>المسار</shortcutPath>
       <type>النّوع</type>
       <dateCreated>تاريخ الانشاء</dateCreated>
-      <score>المجموع</score>
+      <score>Score</score>
     </header>
     <title>
       <typeASC>فرز بحسب نوع الوثيقة ترتيبا تصاعديّا</typeASC>
@@ -932,7 +932,7 @@
       <datecreatedDESC>الترتيب حسب تاريخ الصنع  ترتيبا تنازليّا</datecreatedDESC>
     </title>
     <tooltip>
-      <View>مشاهدة العقدة</View>
+      <View>View this node</View>
       <OpenFolder>انتقل إلى المجلد</OpenFolder>
     </tooltip>
   </UIShowAllOwnedByUserResult>
@@ -945,22 +945,22 @@
     </msg>
     <header>
       <name>#{word.name}</name>
-      <path>مسار</path>
+      <path>Path</path>
       <action>اجراء</action>
-      <shortcutPath>مسار</shortcutPath>
+      <shortcutPath>Path</shortcutPath>
       <type>النوع</type>
       <dateCreated>تاريخ الانشاء</dateCreated>
-      <score>المجموع</score>
+      <score>Score</score>
     </header>
     <title>
-      <typeASC>الترتيب حسب نوع الوثيقة بشكل تصاعدي</typeASC>
-      <typeDESC>الترتيب حسب نوع الوثيقة بشكل تنازلي</typeDESC>
-      <scoreASC>الترتيب حسب المجموع بشكل تصاعدي</scoreASC>
-      <scoreDESC>الترتيب حسب المجموع بشكل تنازلي</scoreDESC>
-      <nameASC>الترتيب حسب الاسم بشكل تصاعدي</nameASC>
-      <nameDESC>الترتيب حسب الاسم بشكل تنازلي</nameDESC>
-      <datecreatedASC>الترتيب حسب تاريخ الصنع  بشكل تصاعدي</datecreatedASC>
-      <datecreatedDESC>الترتيب حسب تاريخ الصنع بشكل تنازلي</datecreatedDESC>
+      <typeASC>Sort by document type in ascending order</typeASC>
+      <typeDESC>Sort by document type in descending order</typeDESC>
+      <scoreASC>Sort by score in ascending order</scoreASC>
+      <scoreDESC>Sort by score in descending order</scoreDESC>
+      <nameASC>Sort by name in ascending order</nameASC>
+      <nameDESC>Sort by name in descending order</nameDESC>
+      <datecreatedASC>Sort by created date in ascending order</datecreatedASC>
+      <datecreatedDESC>Sort by created date in descending order</datecreatedDESC>
     </title>
     <tooltip>
       <View>عرض هذه العقدة</View>
@@ -969,68 +969,68 @@
   </UIShowAllFavouriteResult>
   <UIShowAllHiddenResult>
     <msg>
-      <not-support>لا يوجد نموذج لمشاهدة هذه العقدة.</not-support>
-      <empty>لم يتمّ العثور على أي نتيجة.</empty>
+      <not-support>There is no View template for this node.</not-support>
+      <empty>No results found.</empty>
       <access-denied>لا يمكنك عرض هذه العقدة، إمّا لأن هذا القالب غير معتمد، أو لأنه تمّ رفض الوصول اليه.</access-denied>
-      <query-invalid>صيغة الاستبيان غير صحيحة.</query-invalid>
+      <query-invalid>The query is invalid.</query-invalid>
     </msg>
     <header>
       <name>#{word.name}</name>
-      <path>مسار</path>
-      <action>اجراء</action>
-      <shortcutPath>مسار</shortcutPath>
+      <path>Path</path>
+      <action>Action</action>
+      <shortcutPath>Path</shortcutPath>
       <type>النوع</type>
-      <dateCreated>تاريخ الإضافة</dateCreated>
-      <score>المجموع</score>
+      <dateCreated>Date Created</dateCreated>
+      <score>Score</score>
       <AddRemoveFavourite>إضافة/إزالة إلى قائمة المفضلات</AddRemoveFavourite>
     </header>
     <title>
-      <typeASC>الترتيب حسب نوع الوثيقة بشكل تصاعدي</typeASC>
-      <typeDESC>الترتيب حسب نوع الوثيقة بشكل تنازلي</typeDESC>
-      <scoreASC>الترتيب حسب المجموع بشكل تصاعدي</scoreASC>
-      <scoreDESC>الترتيب حسب المجموع بشكل تنازلي</scoreDESC>
-      <nameASC>الترتيب حسب الاسم بشكل تصاعدي</nameASC>
-      <nameDESC>الترتيب حسب الاسم بشكل تنازلي</nameDESC>
-      <datecreatedASC>الترتيب حسب تاريخ الصنع  بشكل تصاعدي</datecreatedASC>
-      <datecreatedDESC>الترتيب حسب تاريخ الصنع بشكل تنازلي</datecreatedDESC>
+      <typeASC>Sort by document type in ascending order</typeASC>
+      <typeDESC>Sort by document type in descending order</typeDESC>
+      <scoreASC>Sort by score in ascending order</scoreASC>
+      <scoreDESC>Sort by score in descending order</scoreDESC>
+      <nameASC>Sort by name in ascending order</nameASC>
+      <nameDESC>Sort by name in descending order</nameDESC>
+      <datecreatedASC>Sort by created date in ascending order</datecreatedASC>
+      <datecreatedDESC>Sort by created date in descending order</datecreatedDESC>
     </title>
     <tooltip>
-      <View>عرض هذه العقدة</View>
-      <OpenFolder>انتقل إلى المجلد</OpenFolder>
+      <View>View this Node</View>
+      <OpenFolder>Go to Folder</OpenFolder>
       <RemoveHiddenAttribute>إزالة السّمة المخفية</RemoveHiddenAttribute>
     </tooltip>
   </UIShowAllHiddenResult>
   <UIShowAllTrashResult>
     <msg>
-      <not-support>لا يوجد نموذج لمشاهدة هذه العقدة.</not-support>
-      <empty>لم يتم العثور على نتائج</empty>
-      <access-denied>لا يمكنك عرض هذه العقدة، إمّا لأن هذا القالب غير معتمد، أو لأنه تمّ رفض الوصول اليه.</access-denied>
-      <query-invalid>صيغة الاستبيان غير صحيحة.</query-invalid>
+      <not-support>There is no View template for this node.</not-support>
+      <empty>No results found</empty>
+      <access-denied>You cannot view this node, either because this template is not supported or because access is denied.</access-denied>
+      <query-invalid>The query is invalid.</query-invalid>
     </msg>
     <header>
       <name>#{word.name}</name>
-      <path>مسار</path>
-      <action>اجراء</action>
-      <shortcutPath>مسار</shortcutPath>
-      <type>نوع</type>
-      <dateCreated>تاريخ الإضافة</dateCreated>
-      <score>المجموع</score>
+      <path>Path</path>
+      <action>Action</action>
+      <shortcutPath>Path</shortcutPath>
+      <type>Type</type>
+      <dateCreated>Date Created</dateCreated>
+      <score>Score</score>
     </header>
     <title>
-      <typeASC>الترتيب حسب نوع الوثيقة بشكل تصاعدي</typeASC>
-      <typeDESC>الترتيب حسب نوع الوثيقة بشكل تنازلي</typeDESC>
-      <scoreASC>الترتيب حسب المجموع بشكل تصاعدي</scoreASC>
-      <scoreDESC>الترتيب حسب المجموع بشكل تنازلي</scoreDESC>
-      <nameASC>الترتيب حسب الاسم بشكل تصاعدي</nameASC>
-      <nameDESC>الترتيب حسب الاسم بشكل تنازلي</nameDESC>
-      <datecreatedASC>الترتيب حسب تاريخ الصنع  بشكل تصاعدي</datecreatedASC>
-      <datecreatedDESC>الترتيب حسب تاريخ الصنع بشكل تنازلي</datecreatedDESC>
+      <typeASC>Sort by document type in ascending order</typeASC>
+      <typeDESC>Sort by document type in descending order</typeDESC>
+      <scoreASC>Sort by score in ascending order</scoreASC>
+      <scoreDESC>Sort by score in descending order</scoreDESC>
+      <nameASC>Sort by name in ascending order</nameASC>
+      <nameDESC>Sort by name in descending order</nameDESC>
+      <datecreatedASC>Sort by created date in ascending order</datecreatedASC>
+      <datecreatedDESC>Sort by created date in descending order</datecreatedDESC>
     </title>
     <tooltip>
-      <View>عرض هذه العقدة</View>
-      <OpenFolder>انتقل إلى المجلد</OpenFolder>
+      <View>View this Node</View>
+      <OpenFolder>Go to Folder</OpenFolder>
       <DeletePermanently>حذف بشكل نهائي</DeletePermanently>
-      <RestoreFromTrash>الاستعادة من سلّة المهملات</RestoreFromTrash>
+      <RestoreFromTrash>Restore from Trash</RestoreFromTrash>
     </tooltip>
   </UIShowAllTrashResult>
   <UIConstraintsForm>
@@ -1192,8 +1192,8 @@
     </label>
     <pLabel>الخاصيّات:</pLabel>
     <action>
-      <Add>إضافة</Add>
-      <Cancel>الغاء</Cancel>
+      <Add>Add</Add>
+      <Cancel>Cancel</Cancel>
     </action>
   </UISelectPropertyForm>
   <ExactlyFormPopup>
@@ -1648,7 +1648,7 @@
   <UIDocumentForm>
     <title>إضافة وثيقة</title>
     <action>
-      <Save>حفظ</Save>
+      <Save>Save</Save>
       <SaveAndClose>حفظ و غلق</SaveAndClose>
       <ChangeType>تغيير نوع المحتوى</ChangeType>
       <Fullscreen>شاشة كاملة</Fullscreen>
@@ -1742,8 +1742,8 @@
     <action>
       <Close>#{word.close}</Close>
       <View>عرض</View>
-      <Edit>تغيير</Edit>
-      <Delete>حذف</Delete>
+      <Edit>Edit</Edit>
+      <Delete>Delete</Delete>
     </action>
   </UIActionList>
   <UIActionForm>
@@ -2255,7 +2255,7 @@
   
   <UIAddTranslationForm>
     <label>
-      <symLinkName>اسم الوصلة الرمزيّة</symLinkName>
+      <symLinkName>Symlink Name</symLinkName>
       <pathNode>مسار الوثيفة:</pathNode>
       <note>اختيار وثيقة أخرى سيكون بمثابة الترجمة.</note>
     </label>
@@ -2266,19 +2266,19 @@
     </action>
     <msg>
       <addFolder-successful>تمّ اضافة الوصلة الرمزية '{0}' بنجاح.</addFolder-successful>
-      <name-invalid>الرجاء إدخال اسم الوصلة الرمزيّة</name-invalid>
-      <name-not-allowed>هذا الاسم غير متاح.</name-not-allowed>
-      <fileName-error>صيغة اسم الملف غير صحيحة.</fileName-error>
-      <constraint-violation>العقدة الحالية لا تسمح بإضافة عقدة من نوع '{0}'.</constraint-violation>
-      <repository-exception>رفض الوصول. ليس لديك صلاحيّة لإضافة الوصلة الرمزيّة لهذه العقدة.</repository-exception>
-      <numberformat-exception>لا يمكن حفظ هذا المجلد. يجب أن يكون الاسم عدديّـا.</numberformat-exception>
-      <path-node-invalid>يُرجى ادخال مسار العقدة.</path-node-invalid>
-      <path-node-not-allowed>هذا الاسم غير متاح.</path-node-not-allowed>
-      <non-node>الرجاء اختيار العقدة الهدف الصحيحة،  أو ربّما لم يكن لديك ما يكفي من حقوق لقراءة هذه العقدة.</non-node>
+      <name-invalid>Please enter the symlink name.</name-invalid>
+      <name-not-allowed>This name is not allowed.</name-not-allowed>
+      <fileName-error>The file name is invalid.</fileName-error>
+      <constraint-violation>You cannot add the'{0}' node type to the current node.</constraint-violation>
+      <repository-exception>Access denied. You do not have permission to add symlink to this node.</repository-exception>
+      <numberformat-exception>You cannot save this folder. The name provided must be in numerical format.</numberformat-exception>
+      <path-node-invalid>Please enter the path node.</path-node-invalid>
+      <path-node-not-allowed>This name is not allowed.</path-node-not-allowed>
+      <non-node>Please select the trust target node; you may not have the right to read this node.</non-node>
       <cannot-save>طرأ خطأ أثناء انشاء الوصلة الرمزيّة.</cannot-save>
-      <item-exists-exception>نفس اسم العقدة موجود مسبقا.</item-exists-exception>
-      <translation-node-same-language-default>هذه الترجمة لها نفس اللّغة مع اللغة الافتراضيّة للغقدة  الحاليّة.</translation-node-same-language-default>
-      <UnsupportedRepositoryOperationException>هذا ليس الهدف المشار إليه.</UnsupportedRepositoryOperationException>
+      <item-exists-exception>The node name already exists.</item-exists-exception>
+      <translation-node-same-language-default>The translation node has the same language as the default language of current node.</translation-node-same-language-default>
+      <UnsupportedRepositoryOperationException>This target node is not referred.</UnsupportedRepositoryOperationException>
     </msg>
   </UIAddTranslationForm>
 
@@ -2390,10 +2390,10 @@
   <UIRestoreConfirmMessage>
     <label>
       <Close>#{word.close}</Close>
-      <OK>موافق</OK>
-      <ReplaceData>تعويض البيانات</ReplaceData>
-      <Back>مرة أخرى لإعادة تسمية</Back>
-      <Keepfile>ابقاء جميع الملفات</Keepfile>
+      <OK>OK</OK>
+      <ReplaceData>Replace Data</ReplaceData>
+      <Back>Back to Rename</Back>
+      <Keepfile>Keep both files</Keepfile>
     </label>
   </UIRestoreConfirmMessage>
 
@@ -2612,7 +2612,7 @@
 
   <UISavedSearches>
     <title>
-      <savedSearches>عمليات البحث المحفوظة </savedSearches>
+      <savedSearches>Saved Searches</savedSearches>
     </title>
   </UISavedSearches>
   <DocumentType>
@@ -2621,7 +2621,7 @@
        <Video>فيديو</Video>
        <Music>موسيقى</Music>
        <Documents>وثائق</Documents>
-       <Content>المحتوى</Content>
+       <Content>Content</Content>
     </label>
   </DocumentType>
 
@@ -2629,9 +2629,9 @@
     <label>
       <Images>صورة</Images>
       <Video>فيديو</Video>
-      <Music>موسيقى</Music>
-      <Documents>وثائق</Documents>
-      <Content>المحتوى</Content>
+      <Music>Music</Music>
+      <Documents>Document</Documents>
+      <Content>Content</Content>
     </label>
     <title>تعيين اعدادات الفرز</title>
     <action>
@@ -2672,10 +2672,10 @@
 
   <UIAllItemsPreferenceForm>
     <label>
-      <showOwnedByUser>تمّ انشاؤها بواسطتي</showOwnedByUser>
-      <showFavourites>المفضلة</showFavourites>
-      <showHiddens>مخفي</showHiddens>
-      <showTrash>سلّة المهملات</showTrash>
+      <showOwnedByUser>Owned by me</showOwnedByUser>
+      <showFavourites>Favorites</showFavourites>
+      <showHiddens>Hidden</showHiddens>
+      <showTrash>Trash</showTrash>
     </label>
     <action>
       <Save>#{word.save}</Save>
@@ -2710,8 +2710,8 @@
 
    <UITaggingForm>
     <label>
-      <Public>عمومي</Public>
-      <Private>شخصي</Private>
+      <Public>Public</Public>
+      <Private>Private</Private>
       <tagScopes>نطاقات العلامات</tagScopes>
     </label>
    </UITaggingForm>
@@ -2720,15 +2720,15 @@
     <title>
       <PublicTags>العلامات</PublicTags>
       <EditPublicTags>تغيير العلامات</EditPublicTags>
-      <PrivateTags>العلامات</PrivateTags>
+      <PrivateTags>Tags</PrivateTags>
     </title>
   </UITagExplorer>
 
   <UIEditingTagsForm>
     <header>
       <name>الاسم</name>
-      <relatedDocuments>الوثائق ذات صلة</relatedDocuments>
-      <action>اجراء</action>
+      <relatedDocuments>Related Documents</relatedDocuments>
+      <action>Action</action>
     </header>
     <action>
       <title>
@@ -2756,13 +2756,13 @@
     </action>
     <label>
       <tagName>اسم العلامة:</tagName>
-      <relatedDocuments>الوثائق ذات صلة</relatedDocuments>
+      <relatedDocuments>Related Documents</relatedDocuments>
     </label>
   </UITagForm>
 
   <TagPopup>
     <title>
-      <UITagForm>علامة</UITagForm>
+      <UITagForm>Tag</UITagForm>
     </title>
   </TagPopup>
 
@@ -2779,7 +2779,7 @@
 
   <UIPopupMenu>
     <msg>
-      <editTagAccessDenied>غير مسموح بالدخول.</editTagAccessDenied>
+      <editTagAccessDenied>Access denied.</editTagAccessDenied>
     </msg>
   </UIPopupMenu>
 
@@ -2832,7 +2832,7 @@
 
   <UITreeExplorer>
     <msg>
-      <repository-error>حدث خطأ. تم فقدان المعلومات حول المخزون.</repository-error>
+      <repository-error>An error occurred. The information about the repository was lost.</repository-error>
     </msg>
   </UITreeExplorer>
   <UIDocumentForm>
@@ -2848,7 +2848,7 @@
 
   <UISelectRestorePath>
     <action>
-      <Save>حفظ</Save>
+      <Save>Save</Save>
       <Cancel>الغاء</Cancel>
     </action>
     <label>
@@ -2917,7 +2917,7 @@
       <approved>موافق عليه</approved>
       <inreview>بحالة مُراجعة</inreview>
       <staged>جاهز للنّشر</staged>
-      <published>تم نشره</published>
+      <published>Published</published>
       <live>منشور</live>
     </status>
     <scheduled>
@@ -2954,7 +2954,7 @@
     </msg>
     <action>
       <Save>#{word.save}</Save>
-      <Reset>إعادة تعيين</Reset>
+      <Reset>Reset</Reset>
     </action>
   </UIPublicationSchedule>
 
@@ -2977,8 +2977,8 @@
   </UIPopupWindow>
   <WCMContentView>
     <header>
-      <status>الحالة</status>
-      <author>المؤلف</author>
+      <status>Status</status>
+      <author>Author</author>
       <date>تاريخ الانشاء</date>
       <title>عنوان الوثيقة</title>
       <lastUser>آخر مُستخدم</lastUser>
@@ -3102,7 +3102,7 @@
     <in>في</in>
     <MaxFileSizeAlert>حجم الملف يتجاوز الحدّ الأقصى بحوالي</MaxFileSizeAlert>
     <Waiting>في الانتظار</Waiting>
-    <Error>خطأ</Error>
+    <Error>Error</Error>
     <or>أو</or>
     <AlreadyInUse>تمّ استخدامه مُسبقـًا</AlreadyInUse>
     <Keep>الاحتفاظ بكليهما</Keep>
@@ -3123,9 +3123,9 @@
   <FileView>
     <label>
       <name>الاسم</name>
-      <date>تاريخ</date>
+      <date>Date</date>
       <size>الحجم</size>
-      <sortBy>الترتيب بحسب:</sortBy>
+      <sortBy>Sort by:</sortBy>
       <filesAreSelected>تمّ تحديد الملفّات.</filesAreSelected>
       <ClearSelection>الغاء الاختيار</ClearSelection>
       <more>المزيد</more>

@@ -44,7 +44,7 @@
       <searchResultBasePathInputSetAction>المسار الأساسي</searchResultBasePathInputSetAction>
       <pageMode>نمط الصفحة</pageMode>
       <option>
-        <none>لا شيء</none>
+        <none>None</none>
         <more>المزيد</more>
         <pagination>ترقيم الصفحات</pagination>
       </option>

@@ -14,8 +14,8 @@
         <time-interval>الفترة الزمنية</time-interval>
         <query-items>عناصر الاستبيان</query-items>
         <schedule-type>نوع التخطيط</schedule-type>
-        <remove>إزالة العنصر</remove>
-        <add>إضافة عنصر</add>
+        <remove>Remove Item</remove>
+        <add>Add Item</add>
         <expand>قُم بتمديد هذا</expand>
       </label>
     </dialog>
@@ -362,9 +362,9 @@
   <AutoVersioning>
     <dialog>
       <label>
-        <isDeep>عميق</isDeep>
-        <nodetypes>أنواع العقد</nodetypes>
-        <affectedNodeTypeNames>أنواع العقد المعنية بالأمر</affectedNodeTypeNames>
+        <isDeep>Is Deep</isDeep>
+        <nodetypes>Node Types</nodetypes>
+        <affectedNodeTypeNames>Affected Node Types</affectedNodeTypeNames>
       </label>
     </dialog>
   </AutoVersioning>

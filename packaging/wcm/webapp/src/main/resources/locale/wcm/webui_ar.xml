@@ -42,10 +42,10 @@
   <Views>
     <label>
       <wcm-view>الواب</wcm-view>
-      <admin-view>إدارة</admin-view>
+      <admin-view>Admin</admin-view>
       <icon-view>أيقونات</icon-view>
       <thumbails-view>صور مصغرة</thumbails-view>
-      <list-view>قائمة</list-view>
+      <list-view>List</list-view>
       <authoring-view>التأليف</authoring-view>
       <wcm-category-view>الفئات</wcm-category-view>
       <file-view>عرض ادارة الملفات</file-view>
@@ -61,14 +61,14 @@
 
   <UIPageSelectorPanel>
     <header>
-      <path>مسار</path>
-      <action>اجراء</action>
+      <path>Path</path>
+      <action>Action</action>
     </header>
     <msg>
       <child-not-found>لا توجد أي صفحة.</child-not-found>
     </msg>
     <title>
-      <select>اختيار</select>
+      <select>Select</select>
     </title>
   </UIPageSelectorPanel>
 
@@ -108,7 +108,7 @@
     <selectBoxValues>
       <FilterBy>تصنيف بحسب</FilterBy>
       <WebContent>محتوى الواب</WebContent>
-      <DMSDocument>وثائق</DMSDocument>
+      <DMSDocument>Document</DMSDocument>
       <Media>وسائل الاعلام</Media>
     </selectBoxValues>
   </UIContentBrowsePanelMulti>
@@ -157,7 +157,7 @@
     <header>
       <name>الاسم</name>
       <publicationstate>حالة النشر</publicationstate>
-      <action>اجراء</action>
+      <action>Action</action>
     </header>
     <msg>
       <child-not-found>لم يتمّ العثور على أيّ محتوى</child-not-found>
@@ -167,7 +167,7 @@
   <UIContentBrowsePathSelectorFolder>
     <header>
       <name>الاسم</name>
-      <publicationstate>حالة النشر</publicationstate>
+      <publicationstate>Publication State</publicationstate>
       <action>اجراء</action>
     </header>
     <msg>
@@ -181,14 +181,14 @@
       <SearchByName>البحث حسب الاسم</SearchByName>
       <Fulltext>عبارة أو جُملة في نفس السّياق</Fulltext>
       <Property>الخاصية</Property>
-      <Contain>تحتوي على</Contain>
+      <Contain>Contain</Contain>
       <FromDate>من تاريخ</FromDate>
       <ToDate>الى تاريخ</ToDate>
-      <DocumentType>نوع الوثيقة</DocumentType>
+      <DocumentType>Document Type</DocumentType>
     </title>
     <tooltip>
-      <AddMetadataType>اضافة خاصيّة</AddMetadataType>
-      <AddNodeType>اضافة نوع عقدة</AddNodeType>
+      <AddMetadataType>Add Property</AddMetadataType>
+      <AddNodeType>Add Node Type</AddNodeType>
     </tooltip>    
     <label>
       <option>
@@ -211,7 +211,7 @@
 
   <WebContentMetadataPopup>
     <title>
-      <UIContentPropertySelector>مُنتق الخاصيات</UIContentPropertySelector>
+      <UIContentPropertySelector>Property Selector</UIContentPropertySelector>
     </title>
   </WebContentMetadataPopup>
 
@@ -221,8 +221,8 @@
       <Cancel>الغاء</Cancel>
     </action>
     <label>
-      <metadataType>نوع قالب المعلومات القياسية</metadataType>
-      <property_select>خاصيّة</property_select>
+      <metadataType>Metadata Type</metadataType>
+      <property_select>Property</property_select>
     </label>
   </UIContentPropertySelector>
 
@@ -241,14 +241,14 @@
 
   <UIContentSearchResult>
     <header>
-      <title>عنوان</title>
-      <score>المجموع</score>
+      <title>Title</title>
+      <score>Score</score>
       <publicationstate>حالة النشر</publicationstate>
-      <action>اجراء</action>
+      <action>Action</action>
     </header>
     <title>
-      <Select>اختيار</Select>
-      <View>رأي</View>
+      <Select>Select</Select>
+      <View>View</View>
     </title>
     <msg>
     <template-not-support>لا يمكن معاينة هذا المحتوى. القالب غير معتمد</template-not-support>
@@ -259,7 +259,7 @@
     <action>
       <SaveDraft>حفظ المُسوّدة</SaveDraft>
       <FastPublish>نشر سريع</FastPublish>
-      <Preferences>تفضيلات</Preferences>
+      <Preferences>Preferences</Preferences>
       <Close>غلق</Close>
     </action>
     <msg>
@@ -291,23 +291,23 @@
       <owner>صلاحيّة</owner>
       <accessible>يمكن الوصول إليه/ها</accessible>
       <editable>قابلة للتغيير</editable>
-      <action>اجراء</action>
+      <action>Action</action>
     </header>
     <msg>
-      <confirm-delete-permission>هل ترغب حقّا في حذف هذه الصلاحيّة؟</confirm-delete-permission>
+      <confirm-delete-permission>Are you sure you want to delete this permission?</confirm-delete-permission>
       <no-permission-remove>ليس لديك الصلاحيّات الكافية.</no-permission-remove>
       <access-denied>تم رفض الوصول.</access-denied>
       <node-locked>يتم تأمين مسار العنصر {0} أو أحد العناصر الأصل.</node-locked>
       <userOrGroup-required>يجب اختيار مستخدم أو مجموعة.</userOrGroup-required>
       <checkbox-require>يجب عليك تعيين الحقوق.</checkbox-require>
-      <node-checkedin>يجب عليك انهاء المراجعة أوّلا.</node-checkedin>
+      <node-checkedin>You must check out first.</node-checkedin>
     </msg>
   </UIPermissionManagerGrid>
 
   <UIPermissionInputSetWithAction>
     <title>
-      <SelectUser>اختيارمستخدم</SelectUser>
-      <SelectMember>اختيار عضو</SelectMember>
+      <SelectUser>Select User</SelectUser>
+      <SelectMember>Select Member</SelectMember>
       <AddAny>أضف أي صلاحيّة</AddAny>
     </title>
   </UIPermissionInputSetWithAction>
@@ -320,20 +320,20 @@
 
   <UIGroupSelectorPopupWindow>
     <title>
-      <UIGroupMemberSelector>مُنتق المجموعات</UIGroupMemberSelector>
+      <UIGroupMemberSelector>Group Selector</UIGroupMemberSelector>
     </title>
   </UIGroupSelectorPopupWindow>
 
   <UIGroupMemberSelector>
     <label>
       <selectGroup>اختيار مجموعة</selectGroup>
-      <selectMembership>اختيار العضوية</selectMembership>
+      <selectMembership>Select Membership</selectMembership>
     </label>
   </UIGroupMemberSelector>
 
   <UIContentDialogPreference>
     <action>
-      <Back>رجوع</Back>
+      <Back>Back</Back>
     </action>
   </UIContentDialogPreference>
 
@@ -372,10 +372,10 @@
   </UIWizardPageSelectLayoutForm>
 
   <Signin>
-    <welcome>أهلا وسهلا بكم</welcome>
-    <login>دخول</login>
-    <logout>خروج</logout>
-    <language>تغيير اللغة</language>
+    <welcome>Welcome</welcome>
+    <login>Login</login>
+    <logout>Logout</logout>
+    <language>Change Language</language>
     <register>تسجيل</register>
   </Signin>
   <UIDriveForm>
@@ -390,7 +390,7 @@
       <PersonalDrives>الأقراص الشخصية</PersonalDrives>
       <GeneralDrives>الأقراص العامّة</GeneralDrives>
       <GroupDrives>أقراص المجموعة</GroupDrives>
-      <Private>شخصي</Private>
+      <Private>Private</Private>
       <Public>عام</Public>
       <BackupCenter>مركز النُّسخ الاحتياطية</BackupCenter>
       <CategorizedDocumentsCenter>مركز تصنيف الوثائق</CategorizedDocumentsCenter>
@@ -404,14 +404,14 @@
       <SharedUsersSpace>فضاء مشترك للمستخدمين</SharedUsersSpace>
       <Systemfiles>ملفات النظام</Systemfiles>
       <ValidationRequestsDocumentsCenter>مركز طلبات المصادقة على الوثائق</ValidationRequestsDocumentsCenter>
-      <ManagedSites>ادارة المواقع</ManagedSites>
-      <SharedSite>المواقع المشتركة</SharedSite>
+      <ManagedSites>Sites Management</ManagedSites>
+      <SharedSite>Shared Site</SharedSite>
     </title>
   </ContentSelector>
   
   <UICategoryNavigationTargetPathPopupWindow>
     <title>
-      <UIPageSelector>مُنتق الصفحات</UIPageSelector>
+      <UIPageSelector>Page Selector</UIPageSelector>
     </title>
   </UICategoryNavigationTargetPathPopupWindow>
   
@@ -422,7 +422,7 @@
   </UIDocumentInfo>
   <UIPortalApplication>
     <title>
-      <abort>إلغاء</abort>
+      <abort>Abort</abort>
     </title>
   </UIPortalApplication>    
   

@@ -86,8 +86,8 @@
 
   <UIWorkspaceList>
     <label>
-      <workspaceName>مساحة العمل</workspaceName>
-      <rootNodePath>المسار الجذر:</rootNodePath>
+      <workspaceName>Workspace:</workspaceName>
+      <rootNodePath>Root Path:</rootNodePath>
       <rootNodeInfo>العقدة الجذر</rootNodeInfo>
     </label>
   </UIWorkspaceList>

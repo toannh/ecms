@@ -2,29 +2,29 @@
 <bundle>
 <UIPopupWindow>
 <title>
-<UIViewInfoManager>عرض المعلومات</UIViewInfoManager>
+<UIViewInfoManager>View Information</UIViewInfoManager>
 </title>
 </UIPopupWindow>
     
 <ECMContextMenu>
 <event>
-<ViewInfo>عرض المعلومات</ViewInfo>
+<ViewInfo>View Information</ViewInfo>
 </event>
 </ECMContextMenu>
 <UIViewInfoContainer>
 <label>
       <name>الاسم</name>
-      <title>عنوان</title>
+      <title>Title</title>
       <type>النّوع</type>
       <size>الحجم</size>
       <owner>صاحب الشيء</owner>
       <lastModifier>آخر تعديل</lastModifier>
-      <created>تاريخ الانشاء</created>
+      <created>Created Date</created>
       <lastModified>تاريخ آخر تعديل</lastModified>
       <publicationState>حالة النّشر</publicationState>
 </label>
 <value>
-      <folder>المجلد</folder>
+      <folder>Folder</folder>
 </value>
 <action>
 <Close>غلق</Close>

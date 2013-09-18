@@ -9,7 +9,7 @@
     <tab>
       <label>
         <Templates>النماذج</Templates>
-        <Explorer>المستكشف</Explorer>
+        <Explorer>Explorer</Explorer>
         <Repository>مُستودع البيانات</Repository>
         <Advanced>متطور/ة</Advanced>
       </label>
@@ -779,25 +779,25 @@
     <title>
       <UIViewContainer>المشاهد</UIViewContainer>
       <ECMTemplate>قوالب الـ 'ECM'</ECMTemplate>
-      <UIScriptForm>سكريبتات</UIScriptForm>
+      <UIScriptForm>Scripts</UIScriptForm>
       <UIDialogTab>واجهة المستخدم</UIDialogTab>
       <UIViewTab>عرض</UIViewTab>
       <UITemplateEditForm>القالب</UITemplateEditForm>
       <UITemplateForm>القالب</UITemplateForm>
-      <UITemplateContainer>وثائق</UITemplateContainer>
+      <UITemplateContainer>Documents</UITemplateContainer>
       <UIActionsTemplateContainer>الإجراءات</UIActionsTemplateContainer>
       <UIOthersTemplateContainer>الآخرين</UIOthersTemplateContainer>
   <UIActionScriptContainer>اجراء</UIActionScriptContainer>
   <UIWidgetScriptContainer>تطبيقات مصغّرة</UIWidgetScriptContainer>
 <UIInterceptorScriptContainer>الحواجز</UIInterceptorScriptContainer>
 
-<nodeTypeDefinition>نوع العقدة</nodeTypeDefinition>
+<nodeTypeDefinition>Node Type</nodeTypeDefinition>
       <propertyDefinition>الخاصية</propertyDefinition>
-      <childNodeDefinition>الفروع</childNodeDefinition>
+      <childNodeDefinition>Child Node</childNodeDefinition>
       <SuperTypeTab>أنواع السوبر</SuperTypeTab>
-      <DefaultTypeTab>النوع الرئيسي الافتراضي</DefaultTypeTab>
+      <DefaultTypeTab>Default Primary</DefaultTypeTab>
       <RequiredTypeTab>النوع الرئيسي ضروري</RequiredTypeTab>
-      <Contraints>القيود</Contraints>
+      <Contraints>Constraints</Contraints>
     </title>
   </UITabPane>
   <!--
@@ -846,7 +846,7 @@
 
 <UITabList>
  <header>
-  <tabName>التبويب</tabName>
+  <tabName>Tab</tabName>
   <localizeButtons>الوصف</localizeButtons>
 <action>الإجراءات</action>
 </header>
@@ -866,7 +866,7 @@
 <UIViewPermissionList>
  <title>حدد صاحب الصلاحيّات على هذا المشهد:</title>
 <label>
- <permission>{0} في {1}</permission>
+ <permission>{0} in {1}</permission>
 </label>
 <msg>
  <confirm-delete>هل ترغب حقّا في حذف هذه الصلاحيّة؟</confirm-delete>
@@ -896,7 +896,7 @@
  <Add>اضافة</Add>
 </action>
 <label>
- <userOrGroup>مستخدم أو مجموعة</userOrGroup>
+ <userOrGroup>User or Group</userOrGroup>
 </label>
 <msg>
  <permission-exist>الصلاحيّة '{0}' موجودة مُسبقـا في القائمة.</permission-exist>
@@ -911,7 +911,7 @@
   <UIViewForm>
     <title>
       <AddPermission>إضافة صلاحيّة</AddPermission>
-      <RemovePermission>حذف الصلاحية</RemovePermission>
+      <RemovePermission>Remove Permission</RemovePermission>
     </title>
     <msg>
       <view-name-invalid>يرجى ادخال الاسم</view-name-invalid>
@@ -923,8 +923,8 @@
     </msg>
     <label>
       <viewName>الاسم</viewName>
-      <template>قالب</template>
-<version>استعادة الإصدار</version>
+      <template>Template</template>
+<version>Restore Version</version>
       <enableVersion>تفعييل الإصدار</enableVersion>
       <hideExplorerPanel>إخفاء لوحة المستكشف الموجود في الشريط الجانبي</hideExplorerPanel>
     </label>
@@ -936,18 +936,18 @@
       <fileName-invalid>هناك بعض الأحرف الغير متاحة في هذا الاسم.</fileName-invalid>
     </msg>
     <label>
-      <version>استعادة الإصدار</version>
+      <version>Restore Version</version>
       <viewName>الاسم</viewName>
       <tabName>اسم علامة التبويب</tabName>
       <permission>صلاحيّة</permission>
       <tabs>تبويبات</tabs>
-      <template>النماذج</template>
-      <enableVersion>تفعييل الإصدار</enableVersion>
+      <template>Templates</template>
+      <enableVersion>Enable Version</enableVersion>
       <addFolder>إضافة مجلد</addFolder>
       <addDocument>إضافة وثيقة</addDocument>
       <editDocument>تغيير الوثيقة</editDocument>
-      <upload>تحميل</upload>
-      <paste>ألصق</paste>
+      <upload>Upload</upload>
+      <paste>Paste</paste>
       <search>البحث</search>
       <viewReferences>عرض الوصلات</viewReferences>
       <viewNodeType>مشاهدة أنواع العقد</viewNodeType>
@@ -955,18 +955,18 @@
       <viewProperties>عرض الخاصيّات</viewProperties>
       <manageVersions>ادارة الإصدارات</manageVersions>
       <manageAuditing>ادارة التدقيقات</manageAuditing>
-      <managePublications>إدارة النشر</managePublications>
+      <managePublications>Manage Publication</managePublications>
       <manageCategories>ادارة الفئات</manageCategories>
       <manageRelations>إدارة العلاقات</manageRelations>
       <manageActions>إدارة الاجراءات</manageActions>
-      <exportNode>تصدير العقدة</exportNode>
+      <exportNode>Export Node</exportNode>
       <importNode>استيراد العقدة</importNode>
       <viewRelations>عرض العلاقات</viewRelations>
       <showJCRStructure>عرض هيكلة الـJCR</showJCRStructure>
       <watchDocument>تتبّع الوثيقة</watchDocument>
-      <taggingDocument>إضافة علامات لهذه الوثيقة</taggingDocument>
+      <taggingDocument>Tag Document</taggingDocument>
       <viewMetadatas>عرض دليل المعلومات</viewMetadatas>
-      <overloadThumbnail>زيادة صورة مصغرة</overloadThumbnail>
+      <overloadThumbnail>Overload Thumbnail</overloadThumbnail>
       <manageHidden>إخفاء/عرض المحتوى</manageHidden>
       <comment>تعليق</comment>
       <vote>تصويت</vote>  
@@ -992,7 +992,7 @@
     <tab>
       <label>
         <UITabContainer>اجراء</UITabContainer>
-        <UIViewForm>رأي</UIViewForm>
+        <UIViewForm>View</UIViewForm>
         <UIViewPermissionContainer>صلاحيّة</UIViewPermissionContainer>    
       </label>
     </tab>
@@ -1018,8 +1018,8 @@
 
 <tab_permission>
  <title>
-  <SelectUser>اختيارمستخدم</SelectUser>
-<SelectMember>اختيار عضو</SelectMember>
+  <SelectUser>Select User</SelectUser>
+<SelectMember>Select Member</SelectMember>
 <AddAny>أيّما</AddAny>
  </title>
 </tab_permission>
@@ -1197,7 +1197,7 @@
   <UIScriptForm>
     <label>
       <selectVersion>الإصدارات</selectVersion>
-      <scriptContent>المحتوى</scriptContent>
+      <scriptContent>Content</scriptContent>
       <scriptLabel>الاسم</scriptLabel>
       <scriptName>السكريبت</scriptName>
       <enableVersion>تفعيل عمليّة الإصدار</enableVersion>
@@ -1215,7 +1215,7 @@
       <scriptContent>محتوى السكريبت</scriptContent>
       <scriptLabel>الاسم</scriptLabel>
       <scriptName>اسم السكريبت</scriptName>
-      <enableVersion>تفعيل عمليّة الإصدار</enableVersion>
+      <enableVersion>Enable Versioning</enableVersion>
     </label>
   </ecmScriptForm>
   <!--
@@ -1230,7 +1230,7 @@
     </action>
     <title>إضافة فئة</title>
     <label>
-      <taxonomyName>اسم الفئة</taxonomyName>
+      <taxonomyName>Category Name</taxonomyName>
       <parentPath>الأصل</parentPath>
     </label>
     <msg>
@@ -1433,7 +1433,7 @@
     <title>
       <SelectUser>اختيار مستخدم</SelectUser>
       <SelectMember>اختيار عضوية</SelectMember>
-      <AddAny>الجميع</AddAny>
+      <AddAny>Everyone</AddAny>
     </title>
   </permission>
   <!--
@@ -1500,8 +1500,8 @@
     <header>
       <name>النوع</name>
       <action>اجراء</action>
-      <label>قالب</label>
-      <icon>أيقونة</icon>
+      <label>Template</label>
+      <icon>Icon</icon>
     </header>
     <action>
       <AddNew>اضافة قالب</AddNew>
@@ -1519,13 +1519,13 @@
       <name>النوع</name>
       <action>اجراء</action>
       <label>قالب</label>
-      <icon>أيقونة</icon>
+      <icon>Icon</icon>
     </header>
     <action>
       <AddNew>اضافة قالب</AddNew>
     </action>
     <msg>
-      <confirm-delete>هل تريد حقا أن تحذف؟</confirm-delete>
+      <confirm-delete>Do you really want to delete?</confirm-delete>
       <access-denied>غير مسموح بالدّخول. ليس لديك الصلاحيّة الكافية لاستخدام هذه الوظيفة.</access-denied>
       <editing-template>غير مسموح بالدّخول. لا يمكن القيام بحذف و تغيير النموذج في نفس الوقت.</editing-template>
       <template-not-exist>النموذج الذي أنت بصدد محاولة حذفه لم يعُد موجودا.</template-not-exist>
@@ -1535,15 +1535,15 @@
   <UIOthersTemplateList>
     <header>
       <name>النوع</name>
-      <label>قالب</label>
-      <icon>أيقونة</icon>
-      <action>اجراء</action>
+      <label>Template</label>
+      <icon>Icon</icon>
+      <action>Action</action>
     </header>
     <action>
-      <AddNew>اضافة قالب</AddNew>
+      <AddNew>Add Template</AddNew>
     </action>
     <msg>
-      <confirm-delete>هل تريد حقا أن تحذف؟</confirm-delete>
+      <confirm-delete>Do you really want to delete?</confirm-delete>
       <access-denied>غير مسموح بالدخول. ليس لديك الصلاحيات الكافية لاستخدام هذه الوظيفة.</access-denied>
       <editing-template>غير مسموح بالدّخول. لا يمكن القيام بحذف و تغيير النموذج في نفس الوقت.</editing-template>
       <template-not-exist>النموذج الذي أنت بصدد محاولة حذفه لم يعُد موجودا.</template-not-exist>
@@ -1558,7 +1558,7 @@
 
 <UITabPane>
  <title>
- <ContentTemplateContainer>المحتوى</ContentTemplateContainer>
+ <ContentTemplateContainer>Content</ContentTemplateContainer>
 <CateTemplateContainer>التصفح</CateTemplateContainer>
 <PageTemplateContainer>ترقيم الصّفحات</PageTemplateContainer>
  </title>
@@ -1567,8 +1567,8 @@
   <UICLVTemplateList>
     <header>
       <title>الاسم</title>
-      <action>اجراء</action>
-      <template>قالب</template>
+      <action>Action</action>
+      <template>Template</template>
     </header>
     <action>
       <AddTemplate>إضافة قالب</AddTemplate>
@@ -1587,7 +1587,7 @@
     <header>
       <title>الاسم</title>
       <action>اجراء</action>
-      <template>قالب</template>
+      <template>Template</template>
     </header>
     <action>
       <AddTemplate>إضافة قالب</AddTemplate>
@@ -1600,7 +1600,7 @@
     <header>
       <title>الاسم</title>
       <action>اجراء</action>
-      <template>قالب</template>
+      <template>Template</template>
     </header>
     <action>
       <AddTemplate>إضافة قالب</AddTemplate>
@@ -1617,13 +1617,13 @@
 
 <EditCLVTemplatePopup_CateTemplateContainer>
  <title>
-   <UICLVTemplateForm_CateTemplateContainer>تغيير قائمة النماذج</UICLVTemplateForm_CateTemplateContainer>   
+   <UICLVTemplateForm_CateTemplateContainer>Edit List Template</UICLVTemplateForm_CateTemplateContainer>   
  </title>
 </EditCLVTemplatePopup_CateTemplateContainer>
 
 <EditCLVTemplatePopup_PageTemplateContainer>
  <title>
-   <UICLVTemplateForm_PageTemplateContainer>تغيير قائمة النماذج</UICLVTemplateForm_PageTemplateContainer>   
+   <UICLVTemplateForm_PageTemplateContainer>Edit List Template</UICLVTemplateForm_PageTemplateContainer>   
  </title>
 </EditCLVTemplatePopup_PageTemplateContainer>
 
@@ -1654,7 +1654,7 @@
 <label>
  <title>اسم</title>
 <template>اسم النموذج</template>
-<content>المحتوى</content>
+<content>Content</content>
 <type>نوع النموذج</type>
 </label>
 </UICLVTemplateForm_ContentTemplateContainer>
@@ -1668,8 +1668,8 @@
 <label>
  <title>الاسم</title>
 <template>اسم النموذج</template>
-<content>المحتوى</content>
-<type>نوع النموذج</type>
+<content>Content</content>
+<type>Template Type</type>
 </label>
 </UICLVTemplateForm_PageTemplateContainer>
 
@@ -1682,15 +1682,15 @@
 <label>
  <title>الاسم</title>
 <template>اسم النموذج</template>
-<content>المحتوى</content>
+<content>Content</content>
 <type>نوع النموذج</type>
 </label>
 </UICLVTemplateForm_CateTemplateContainer>
 <UICLVTemplateForm>
   <label>
-    <paginators>ترقيم الصّفحات</paginators>
-<list>المحتوى</list>
-<navigation>التصفح</navigation>
+    <paginators>Paginator</paginators>
+<list>Content</list>
+<navigation>Navigation</navigation>
   </label>
   <msg>
   <template-existing>اسم القالب هذا موجود مُسبقــا. الرجاء اختيار اسما آخرا.</template-existing>
@@ -1739,7 +1739,7 @@
       <name>الاسم:</name>
       <isDocumentTemplate>هو نموذج لوثيقة</isDocumentTemplate>
       <viewPermission>الصلاحية:</viewPermission>
-      <enableVersion>تفعيل عمليّة الإصدار</enableVersion>
+      <enableVersion>Enable Versioning</enableVersion>
     </label>
     <title>اضافة / تغيير واجهة المُــستخدم</title>
   </DialogForm>
@@ -1854,7 +1854,7 @@
     </msg>
     <title>
       <AddPermission>اضافة صلاحية</AddPermission>
-      <RemovePermission>حذف الصلاحية</RemovePermission>
+      <RemovePermission>Remove Permission</RemovePermission>
     </title>
   </UITemplateContent>
   <!--
@@ -1941,7 +1941,7 @@
   </EditQueryForm>
 <PermissionPopup>
   <title>
-    <UIGroupMemberSelector>حدد إذن</UIGroupMemberSelector>
+    <UIGroupMemberSelector>Select Permission</UIGroupMemberSelector>
   </title>
 </PermissionPopup>
   <!--
@@ -1960,7 +1960,7 @@
       <name>اسم النّمط</name>
       <documentRange>ترتيب الوثيقة</documentRange>
       <tagHTML>نمط العلامة</tagHTML>
-      <action>اجراء</action>
+      <action>Action</action>
     </header>
     <action>
       <AddStyle>اضافة نمط</AddStyle>
@@ -2081,7 +2081,7 @@
       <Delete>حذف</Delete>
     </title>
 <label>
-  <permission>{0} في {1}</permission>
+  <permission>{0} in {1}</permission>
 </label>
   </UIViewContainer>
   <ECMTemplate>
@@ -2109,8 +2109,8 @@
   <UIDrivePermissionSelector>
     <label>
       <selectGroup>اختيار مجموعة</selectGroup>
-      <selectUser>اختيارمستخدم</selectUser>
-      <selectMembership>اختيار العضوية</selectMembership>
+      <selectUser>Select User</selectUser>
+      <selectMembership>Select Membership</selectMembership>
     </label>
   </UIDrivePermissionSelector>
   
@@ -2186,7 +2186,7 @@
   <UITaxonomyTreeMainForm>
     <msg>
       <homepath-emty>مسار الصفحة الرئيسية أمر ضروري.</homepath-emty>
-      <targetpath-emty>المسار الهدف ضروري</targetpath-emty>
+      <targetpath-emty>The target path is required.</targetpath-emty>
     </msg>
   </UITaxonomyTreeMainForm>
   <UITaxonomyWorkingArea>
@@ -2204,7 +2204,7 @@
         <email>#{word.email}</email>
       </option>
       <group>مجموعة</group>
-      <searchUser>المستخدم</searchUser>
+      <searchUser>User</searchUser>
       <userName>#{word.userName}</userName>
       <lastName>#{word.lastName}</lastName>
       <firstName>#{word.firstName}</firstName>
@@ -2351,7 +2351,7 @@
       <name>الاسم:</name>
       <isDocumentTemplate>هو نموذج للوثيقة</isDocumentTemplate>
       <viewPermission>صلاحيّة:</viewPermission>
-      <enableVersion>تفعيل عمليّة الإصدار</enableVersion>
+      <enableVersion>Enable Versioning</enableVersion>
     </label>
     <title>إضافة / تغيير المظهر</title>
   </SkinForm>
@@ -2415,7 +2415,7 @@
   
   <UITagPermissionInfo>
     <header>
-      <usersOrGroups>مستخدم أو مجموعة</usersOrGroups>
+      <usersOrGroups>User or Group</usersOrGroups>
       <action>اجراء</action>
     </header>
     <action>
@@ -2424,7 +2424,7 @@
       </title>
     </action>
     <msg>
-      <confirm-delete-permission>هل ترغب حقّا في حذف هذه الصلاحيّة؟</confirm-delete-permission>
+      <confirm-delete-permission>Are you sure you want to delete this permission?</confirm-delete-permission>
     </msg>   
   </UITagPermissionInfo>
   <UITagPermissionForm>
@@ -2444,7 +2444,7 @@
   <UIGroupMemberSelector>
     <label>
       <selectGroup>اختيار مجموعة</selectGroup>
-      <selectMembership>اختيار العضوية</selectMembership>
+      <selectMembership>Select Membership</selectMembership>
     </label>
   </UIGroupMemberSelector>
   
@@ -2454,7 +2454,7 @@
   </msg>
     <action>
       <title>
-        <AddStyle>اضافة نمط</AddStyle>
+        <AddStyle>Add Style</AddStyle>
       </title>
     </action>
   </UIFolksonomyManager>  
@@ -2478,7 +2478,7 @@
   
   <UIWorkspaceWizard>
     <msg>
-      <name-not-allowed>اسم محظور</name-not-allowed>
+      <name-not-allowed>Forbidden Name</name-not-allowed>
     </msg>
   </UIWorkspaceWizard>
   <UIRepositoryForm>
