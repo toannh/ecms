@@ -14,8 +14,8 @@
         <time-interval>Time Interval</time-interval>
         <query-items>Query Items</query-items>
         <schedule-type>Schedule Type</schedule-type>
-        <remove>Remover Item</remove>
-        <add>Adicionar Item</add>
+        <remove>Remove Item</remove>
+        <add>Add Item</add>
         <expand>Expand This</expand>
       </label>
     </dialog>

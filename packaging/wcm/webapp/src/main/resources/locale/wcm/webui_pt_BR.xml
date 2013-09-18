@@ -68,7 +68,7 @@
       <child-not-found>No Page Found.</child-not-found>
     </msg>
     <title>
-      <select>Selecionar</select>
+      <select>Select</select>
     </title>
   </UIPageSelectorPanel>
 
@@ -248,7 +248,7 @@
     </header>
     <title>
       <Select>Select</Select>
-      <View>Visualizar</View>
+      <View>View</View>
     </title>
     <msg>
     <template-not-support>Cannot preview this content. The template is not supported</template-not-support>
@@ -422,19 +422,19 @@
   </UIDocumentInfo>
   <UIPortalApplication>
     <title>
-      <abort>Cancelar</abort>
+      <abort>Abort</abort>
     </title>
   </UIPortalApplication>    
   
   <CategoryNavigationTemplate>
   <label>
-  <home>Principal</home>
+  <home>Home</home>
   </label>
   </CategoryNavigationTemplate>
   
   <Breadcrumb>
   <label>
-  <home>Principal</home>
+  <home>Home</home>
   </label>  
   </Breadcrumb>
 </bundle>

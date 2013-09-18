@@ -98,7 +98,7 @@
       <selectView>Select View</selectView>
       <showSideBar>Show Sidebar</showSideBar>
       <more>More</more>
-      <backTo>Voltar</backTo>
+      <backTo>Back</backTo>
     </label>
   </UIViewBar>
 
@@ -773,7 +773,7 @@
     <action>
       <Close>#{word.close}</Close>
       <Save>#{word.save}</Save>
-      <Reset>Limpar</Reset>
+      <Reset>Reset</Reset>
     </action>
     <msg>
       <checkbox-require>Please select at least one permission.</checkbox-require>
@@ -1192,8 +1192,8 @@
     </label>
     <pLabel>Properties:</pLabel>
     <action>
-      <Add>Adicionar</Add>
-      <Cancel>Cancelar</Cancel>
+      <Add>Add</Add>
+      <Cancel>Cancel</Cancel>
     </action>
   </UISelectPropertyForm>
   <ExactlyFormPopup>
@@ -1552,7 +1552,7 @@
     </action>
     <label>
       <category>Category</category>
-      <actions>Ação</actions>
+      <actions>Action</actions>
       <delete>Delete</delete>
     </label>
   </UICategoriesAddedList>
@@ -1741,8 +1741,8 @@
     </msg>
     <action>
       <Close>#{word.close}</Close>
-      <View>Visualizar</View>
-      <Edit>Editar</Edit>
+      <View>View</View>
+      <Edit>Edit</Edit>
       <Delete>Delete</Delete>
     </action>
   </UIActionList>
@@ -2621,7 +2621,7 @@
        <Video>Video</Video>
        <Music>Music</Music>
        <Documents>Document</Documents>
-       <Content>Conteúdo</Content>
+       <Content>Content</Content>
     </label>
   </DocumentType>
 
@@ -2631,7 +2631,7 @@
       <Video>Video</Video>
       <Music>Music</Music>
       <Documents>Document</Documents>
-      <Content>Conteúdo</Content>
+      <Content>Content</Content>
     </label>
     <title>Set Up Filter Preferences</title>
     <action>
@@ -2954,7 +2954,7 @@
     </msg>
     <action>
       <Save>#{word.save}</Save>
-      <Reset>Limpar</Reset>
+      <Reset>Reset</Reset>
     </action>
   </UIPublicationSchedule>
 
@@ -3043,7 +3043,7 @@
   </UploadFileMimeTypesValidator>
   <lifecyclePhase>
     <label>
-    <no>Não</no>
+    <no>No</no>
   <yes>Yes</yes>
   <true>True</true>
   <false>False</false>
@@ -3098,17 +3098,17 @@
     <MaxFileSize>Maximum file size is</MaxFileSize>
     <InvalidCharacters>Invalid characters will be changed by '-'</InvalidCharacters>
     <DropFileMessage>Drop your files here in the current folder</DropFileMessage>
-    <Close>Fechar</Close>
+    <Close>Close</Close>
     <in>in</in>
     <MaxFileSizeAlert>The file size exceeds the size limit of</MaxFileSizeAlert>
     <Waiting>Waiting</Waiting>
-    <Error>Erro</Error>
+    <Error>Error</Error>
     <or>or</or>
     <AlreadyInUse>Already in use</AlreadyInUse>
     <Keep>Keep both</Keep>
     <Replace>Replace</Replace>
     <Canceled>Canceled</Canceled>
-    <Cancel>Cancelar</Cancel>
+    <Cancel>Cancel</Cancel>
     <AbortAllConfirmation>Do you want to abort all files in progress?</AbortAllConfirmation>
   </label>
   </UIMultiUpload>
@@ -3122,8 +3122,8 @@
   </UIDocumentNodeList>
   <FileView>
     <label>
-      <name>Nome</name>
-      <date>Data</date>
+      <name>Name</name>
+      <date>Date</date>
       <size>Size</size>
       <sortBy>Sort by:</sortBy>
       <filesAreSelected>Files are selected.</filesAreSelected>
