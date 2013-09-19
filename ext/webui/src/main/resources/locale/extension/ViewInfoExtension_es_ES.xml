@@ -14,20 +14,20 @@
 <UIViewInfoContainer>
 <label>
       <name>Nombre</name>
-      <title>Title</title>
-      <type>Type</type>
-      <size>Size</size>
-      <owner>Owner</owner>
+      <title>Título</title>
+      <type>Tipo</type>
+      <size>Tamaño</size>
+      <owner>Propietario</owner>
       <lastModifier>Último modificador</lastModifier>
       <created>Fecha de Creación</created>
       <lastModified>Fecha de última modificación</lastModified>
       <publicationState>Estado de publicación</publicationState>
 </label>
 <value>
-      <folder>Folder</folder>
+      <folder>Carpeta</folder>
 </value>
 <action>
-<Close>Close</Close>
+<Close>Cerrar</Close>
 </action>
 </UIViewInfoContainer>
 </bundle>

@@ -98,7 +98,7 @@
       <selectView>Seleccione Vista</selectView>
       <showSideBar>Mostrar barra lateral</showSideBar>
       <more>Más</more>
-      <backTo>Back</backTo>
+      <backTo>Atrás</backTo>
     </label>
   </UIViewBar>
 
@@ -215,7 +215,7 @@
       <UIActionManager>Gestionar las acciones</UIActionManager>
       <UIDocumentForm>Editar Documento</UIDocumentForm>
       <UIDocumentFormController>Añadir Nuevo Documento</UIDocumentFormController>
-      <EditFormController>Edit Document</EditFormController>
+      <EditFormController>Editar Documento</EditFormController>
       <UIRelationManager>Añadir Relación</UIRelationManager>
       <UICategoryManager>Añadir Categoría</UICategoryManager>
       <UIImportNode>Importar</UIImportNode>
@@ -1552,7 +1552,7 @@
     </action>
     <label>
       <category>Categoría</category>
-      <actions>Action</actions>
+      <actions>Acción</actions>
       <delete>Borrar</delete>
     </label>
   </UICategoriesAddedList>
@@ -1788,7 +1788,7 @@
       <validator>Validador</validator>
       <destPath>Con Ruta</destPath>
     </validator>
-    <title>Action Form</title>
+    <title>Formulario de acción</title>
   </EditFormAction>
   <!--
   #############################################################################
@@ -2222,7 +2222,7 @@
   <UIPopupWindow>
     <title>
       <UISymLinkManager>Administrador de Symlink</UISymLinkManager>
-      <UIAddTranslationManager>Add Translation</UIAddTranslationManager>
+      <UIAddTranslationManager>Añadir traducción</UIAddTranslationManager>
     </title>
   </UIPopupWindow>
 
@@ -2255,7 +2255,7 @@
   
   <UIAddTranslationForm>
     <label>
-      <symLinkName>Symlink Name</symLinkName>
+      <symLinkName>Nombre de Symlink</symLinkName>
       <pathNode>Ruta del documento</pathNode>
       <note>Seleccione otro documento que servirá como la traducción</note>
     </label>
@@ -2266,19 +2266,19 @@
     </action>
     <msg>
       <addFolder-successful>El symlink '{0}' se agregó correctamente.</addFolder-successful>
-      <name-invalid>Please enter the symlink name.</name-invalid>
-      <name-not-allowed>This name is not allowed.</name-not-allowed>
-      <fileName-error>The file name is invalid.</fileName-error>
-      <constraint-violation>You cannot add the'{0}' node type to the current node.</constraint-violation>
+      <name-invalid>Por favor, introduzca el nombre del symlink.</name-invalid>
+      <name-not-allowed>Este nombre no está permitido.</name-not-allowed>
+      <fileName-error>El nombre del archivo no es válido.</fileName-error>
+      <constraint-violation>No se puede agregar el tipo de nodo '{0}' al nodo actual.</constraint-violation>
       <repository-exception>¡Acceso denegado! No tiene permiso para añadir un symlink a este nodo.</repository-exception>
-      <numberformat-exception>You cannot save this folder. The name provided must be in numerical format.</numberformat-exception>
-      <path-node-invalid>Please enter the path node.</path-node-invalid>
-      <path-node-not-allowed>This name is not allowed.</path-node-not-allowed>
+      <numberformat-exception>No se puede guardar esta carpeta. El nombre proporcionado debe estar en formato numérico.</numberformat-exception>
+      <path-node-invalid>Por favor ingrese el nodo de la ruta.</path-node-invalid>
+      <path-node-not-allowed>Este nombre no está permitido.</path-node-not-allowed>
       <non-node>Por favor, seleccione el nodo de destino de confianza; es posible que no tenga derecho a leer este nodo.</non-node>
       <cannot-save>Error al crear el symlink.</cannot-save>
-      <item-exists-exception>The node name already exists.</item-exists-exception>
-      <translation-node-same-language-default>The translation node has the same language as the default language of current node.</translation-node-same-language-default>
-      <UnsupportedRepositoryOperationException>This target node is not referred.</UnsupportedRepositoryOperationException>
+      <item-exists-exception>Este nombre de nodo ya existe.</item-exists-exception>
+      <translation-node-same-language-default>El nodo de traducción tiene el mismo idioma que aquél predeterminado del nodo actual.</translation-node-same-language-default>
+      <UnsupportedRepositoryOperationException>Este nodo de destino no es referido.</UnsupportedRepositoryOperationException>
     </msg>
   </UIAddTranslationForm>
 
@@ -2621,7 +2621,7 @@
        <Video>Vídeo</Video>
        <Music>Música</Music>
        <Documents>Documento</Documents>
-       <Content>Content</Content>
+       <Content>Contenido</Content>
     </label>
   </DocumentType>
 
@@ -2631,7 +2631,7 @@
       <Video>Vídeo</Video>
       <Music>Música</Music>
       <Documents>Documento</Documents>
-      <Content>Content</Content>
+      <Content>Contenido</Content>
     </label>
     <title>Configurar preferencias de filtro</title>
     <action>
@@ -2848,7 +2848,7 @@
 
   <UISelectRestorePath>
     <action>
-      <Save>Save</Save>
+      <Save>Guardar</Save>
       <Cancel>Cancelar</Cancel>
     </action>
     <label>
@@ -2857,7 +2857,7 @@
   </UISelectRestorePath>
   <PathNode>
     <title>
-      <Add>Add</Add>
+      <Add>Añadir</Add>
     </title>
   </PathNode>
   <UIPopupPathFoRestore>
@@ -2895,7 +2895,7 @@
     </button>
     <revisions>
       <version>Revisiones</version>
-      <date>Date</date>
+      <date>Fecha</date>
       <author>Autor</author>
       <status>Estado</status>
       <action>Acción</action>
@@ -2954,7 +2954,7 @@
     </msg>
     <action>
       <Save>#{word.save}</Save>
-      <Reset>Reset</Reset>
+      <Reset>Resetear</Reset>
     </action>
   </UIPublicationSchedule>
 
@@ -3108,7 +3108,7 @@
     <Keep>Mantenga ambas</Keep>
     <Replace>Reemplazar</Replace>
     <Canceled>Cancelado</Canceled>
-    <Cancel>Cancel</Cancel>
+    <Cancel>Cancelar</Cancel>
     <AbortAllConfirmation>¿Quieres abortar todos los archivos en progreso?</AbortAllConfirmation>
   </label>
   </UIMultiUpload>
@@ -3123,9 +3123,9 @@
   <FileView>
     <label>
       <name>Nombre</name>
-      <date>Date</date>
+      <date>Fecha</date>
       <size>Tamaño</size>
-      <sortBy>Sort by:</sortBy>
+      <sortBy>Clasificar por:</sortBy>
       <filesAreSelected>Los archivos han sido seleccionados.</filesAreSelected>
       <ClearSelection>Selección clara</ClearSelection>
       <more>Más</more>

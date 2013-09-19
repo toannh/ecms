@@ -2,11 +2,11 @@
 <bundle>
   <UIFCCForm>
     <msg>
-      <name-not-allowed>This name is not allowed.</name-not-allowed>
+      <name-not-allowed>Este nombre no está permitido.</name-not-allowed>
       <in-versioning>Por favor revise el nodo actual antes de agregar un nuevo nodo.</in-versioning>
       <cannot-save>Error al guardar el nodo.</cannot-save>
       <saved-successfully>{0}</saved-successfully>
-      <not-support>Cannot load the template of '{0}'.</not-support>
+      <not-support>No se puede cargar la plantilla de '{0}'.</not-support>
       <not-add-folder>Solo se pueden agregar archivos en esta carpeta.</not-add-folder>
       <access-denied>Acceso denegado. No tiene permiso para agregar a {0}.</access-denied>
       <path-not-found>La ruta {0} fue eliminada o no es válida.</path-not-found>
@@ -16,8 +16,8 @@
       <new-jcr-template>Error al crear una nueva plantilla.</new-jcr-template>
     </msg>
     <action>
-      <Save>Save</Save>
-      <Cancel>Cancel</Cancel>
+      <Save>Guardar</Save>
+      <Cancel>Cancelar</Cancel>
     </action>
   </UIFCCForm>
 
@@ -48,30 +48,30 @@
       <do-select>Error al seleccionar la ubicación.</do-select>
       </msg>
     <action>
-      <Save>Save</Save>
+      <Save>Guardar</Save>
     </action>
   </UIFCCConfig>
 
   <UIFCCLocationFormInputAction>
     <title>
-      <SelectPath>Select Path</SelectPath>
+      <SelectPath>Seleccione la ruta</SelectPath>
     </title>
   </UIFCCLocationFormInputAction>
 
   <UIFCCActionList>
     <header>
       <name>Nombre</name>
-      <description>Description</description>
+      <description>Descripción</description>
       <instanceOf>Instancia de</instanceOf>
-      <action>Action</action>
+      <action>Acción</action>
     </header>
     <action>
-      <Add>Add</Add>
+      <Add>Añadir</Add>
     </action>
     <msg>
       <empty>No hay acciones</empty>
-      <remove-popup-first>You must close the edit pop-up before deleting this node.</remove-popup-first>
-      <confirm-delete-action>Are you sure you want to delete this action?</confirm-delete-action>
+      <remove-popup-first>Debe cerrar la ventana emergente antes de eliminar este nodo.</remove-popup-first>
+      <confirm-delete-action>¿Estás seguro de eliminar esta acción?</confirm-delete-action>
       <template-empty>La plantilla de '{0}' es nula o está vacía.</template-empty>
       <template-null>La plantilla es nula o vacía; o no tiene permiso para acceder a esta plantilla.</template-null>
       <access-denied>Acceso denegado. No tiene suficientes permisos para realizar esta acción.</access-denied>
@@ -80,14 +80,14 @@
 
   <UIFCCSelectorPopupWindow>
     <title>
-      <UIOneNodePathSelector>Select Location</UIOneNodePathSelector>
+      <UIOneNodePathSelector>Seleccione ubicación</UIOneNodePathSelector>
     </title>
   </UIFCCSelectorPopupWindow>
 
   <UIWorkspaceList>
     <label>
-      <workspaceName>Workspace:</workspaceName>
-      <rootNodePath>Root Path:</rootNodePath>
+      <workspaceName>Espacio de Trabajo</workspaceName>
+      <rootNodePath>Ruta de Raíz</rootNodePath>
       <rootNodeInfo>Nodo raíz</rootNodeInfo>
     </label>
   </UIWorkspaceList>
@@ -104,21 +104,21 @@
     </info>
     <header>
       <name>Nombre</name>
-      <action>Action</action>
+      <action>Acción</action>
     </header>
   </UITreeList>
 
   <UIFCCActionPopupWindow>
     <title>
-      <UIFCCActionContainer>Add Action</UIFCCActionContainer>
+      <UIFCCActionContainer>Añadir Acción</UIFCCActionContainer>
     </title>
   </UIFCCActionPopupWindow>
 
   <UIFCCActionForm>
     <title>Agregar/ Editar la Acción</title>
     <action>
-      <Save>Save</Save>
-      <Close>Close</Close>
+      <Save>Guardar</Save>
+      <Close>Cerrar</Close>
     </action>
     <msg>
       <repository-exception>No se puede guardar esta acción  El nombre provisto no puede tener un índice en su elemento final.</repository-exception>
@@ -131,8 +131,8 @@
       <access-denied>Acceso denegado. No tiene permiso para acceder a esta plantilla.</access-denied>
     </msg>
     <validator>
-      <validator>Validator</validator>
-      <destPath>With Path</destPath>
+      <validator>Validador</validator>
+      <destPath>Con Ruta</destPath>
     </validator>
   </UIFCCActionForm>
 
@@ -141,16 +141,16 @@
       <actionType>Crear una acción de tipo</actionType>
     </label>
     <msg>
-      <not-support>Cannot load the template of '{0}'.</not-support>
+      <not-support>No se puede cargar la plantilla de '{0}'.</not-support>
       <do-not-permission>No tiene permiso para cargar la plantilla de '{0}'.</do-not-permission>
     </msg>
   </UIFCCActionTypeForm>
 
   <PopupComponent>
     <title>
-      <UIOneNodePathSelector>Select Location</UIOneNodePathSelector>
-      <UIPermissionSelector>Permission Browser</UIPermissionSelector>
-      <UICategoriesSelector>Add Categories</UICategoriesSelector>
+      <UIOneNodePathSelector>Seleccione ubicación</UIOneNodePathSelector>
+      <UIPermissionSelector>Navegador de permiso</UIPermissionSelector>
+      <UICategoriesSelector>Añadir Categorías</UICategoriesSelector>
     </title>
   </PopupComponent>
 
@@ -162,8 +162,8 @@
 
   <UITabPane>
     <title>
-      <UICategoriesSelectPanel>Select Categories</UICategoriesSelectPanel>
-      <UISelectedCategoriesGrid>Referenced Categories</UISelectedCategoriesGrid>
+      <UICategoriesSelectPanel>Seleccionar categorías</UICategoriesSelectPanel>
+      <UISelectedCategoriesGrid>Categorías referenciadas</UISelectedCategoriesGrid>
     </title>
   </UITabPane>
 
@@ -175,19 +175,19 @@
 
   <UICategoriesSelector>
     <action>
-      <close>Close</close>
+      <close>Cerrar</close>
     </action>
   </UICategoriesSelector>
 
   <PopupComponent>
     <title>
-      <UIOneTaxonomySelector>Add Categories</UIOneTaxonomySelector>
+      <UIOneTaxonomySelector>Añadir Categorías</UIOneTaxonomySelector>
     </title>
   </PopupComponent>
 
   <UITreeTaxonomyList>
     <label>
-      <taxonomyTree>Category Tree</taxonomyTree>
+      <taxonomyTree>Árbol de categorías</taxonomyTree>
     </label>
   </UITreeTaxonomyList>
 
