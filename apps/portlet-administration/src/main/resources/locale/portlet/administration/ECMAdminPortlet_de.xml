@@ -87,7 +87,7 @@
 -->
   <UITaxonomyTreeMainForm>
     <action>
-      <Reset>Reset</Reset>
+      <Reset>Zurücksetzen</Reset>
     </action>
     <msg>
       <name-not-allowed>Dieser Name ist nicht erlaubt.</name-not-allowed>
@@ -400,7 +400,7 @@
       <showHiddenNode>Ausgeblendeten Knoten anzeigen:</showHiddenNode>
       <allowCreateFolders>Allow Folder Creation:</allowCreateFolders>
       <Admin>Admin:</Admin>
-      <Categories>Categories:</Categories>
+      <Categories>Kategorien:</Categories>
       <Icons>Piktogramme:</Icons>
       <List>Liste:</List>
       <Web>Web:</Web>
@@ -779,25 +779,25 @@
     <title>
       <UIViewContainer>Ansichten</UIViewContainer>
       <ECMTemplate>Explorer-Vorlagen</ECMTemplate>
-      <UIScriptForm>Scripts</UIScriptForm>
+      <UIScriptForm>Skripte</UIScriptForm>
       <UIDialogTab>Dialog</UIDialogTab>
       <UIViewTab>Ansehen</UIViewTab>
       <UITemplateEditForm>Vorlage</UITemplateEditForm>
       <UITemplateForm>Vorlage</UITemplateForm>
-      <UITemplateContainer>Documents</UITemplateContainer>
+      <UITemplateContainer>Dokumente</UITemplateContainer>
       <UIActionsTemplateContainer>Aktionen</UIActionsTemplateContainer>
       <UIOthersTemplateContainer>Andere</UIOthersTemplateContainer>
-  <UIActionScriptContainer>Action</UIActionScriptContainer>
+  <UIActionScriptContainer>Aktion</UIActionScriptContainer>
   <UIWidgetScriptContainer>Widgets</UIWidgetScriptContainer>
 <UIInterceptorScriptContainer>Interceptors</UIInterceptorScriptContainer>
 
 <nodeTypeDefinition>Knotentyp</nodeTypeDefinition>
-      <propertyDefinition>Property</propertyDefinition>
-      <childNodeDefinition>Child Node</childNodeDefinition>
-      <SuperTypeTab>Super Types</SuperTypeTab>
+      <propertyDefinition>Eigenschaft</propertyDefinition>
+      <childNodeDefinition>Unterknoten</childNodeDefinition>
+      <SuperTypeTab>Supertypen</SuperTypeTab>
       <DefaultTypeTab>Standard-Primärtyp</DefaultTypeTab>
       <RequiredTypeTab>Benötigter Primärtyp</RequiredTypeTab>
-      <Contraints>Constraints</Contraints>
+      <Contraints>Einschränkungen</Contraints>
     </title>
   </UITabPane>
   <!--
@@ -807,8 +807,8 @@
   -->
   <UIViewList>
    <title>
-     <View>View</View>
-     <EditInfo>Edit</EditInfo>
+     <View>Sehen</View>
+     <EditInfo>Bearbeiten</EditInfo>
      <Delete>Löschen</Delete>
    </title>
     <header>
@@ -877,7 +877,7 @@
 <UIViewPermissionList>
  <header>
 <friendlyPermission>Berechtigungen</friendlyPermission>
-     <action>Action</action>
+     <action>Aktion</action>
  </header>
 <action>
  <title>
@@ -896,7 +896,7 @@
  <Add>Hinzufügen</Add>
 </action>
 <label>
- <userOrGroup>User or Group</userOrGroup>
+ <userOrGroup>Benutzer oder Gruppe</userOrGroup>
 </label>
 <msg>
  <permission-exist>Die Berechtigung "{0}" ist in der Liste bereits vorhanden.</permission-exist>
@@ -923,8 +923,8 @@
     </msg>
     <label>
       <viewName>Name</viewName>
-      <template>Template</template>
-<version>Restore Version</version>
+      <template>Vorlage</template>
+<version>Version wiederherstellen</version>
       <enableVersion>Version aktivieren</enableVersion>
       <hideExplorerPanel>Explorerbereich in Seitenleiste ausblenden</hideExplorerPanel>
     </label>
@@ -936,17 +936,17 @@
       <fileName-invalid>Der Reitername enthält ungültige Zeichen.</fileName-invalid>
     </msg>
     <label>
-      <version>Restore Version</version>
+      <version>Version wiederherstellen</version>
       <viewName>Name</viewName>
       <tabName>Reitername</tabName>
-      <permission>Permission</permission>
+      <permission>Berechtigung</permission>
       <tabs>Reiter</tabs>
-      <template>Templates</template>
-      <enableVersion>Enable Version</enableVersion>
+      <template>Vorlagen</template>
+      <enableVersion>Version aktivieren</enableVersion>
       <addFolder>Ordner hinzufügen</addFolder>
       <addDocument>Dokument hinzufügen</addDocument>
       <editDocument>Dokument bearbeiten</editDocument>
-      <upload>Upload</upload>
+      <upload>Hochladen</upload>
       <paste>Einfügen</paste>
       <search>Suchen</search>
       <viewReferences>Referenzen ansehen</viewReferences>
@@ -958,18 +958,18 @@
       <managePublications>Verwalten der Veröffentlichung</managePublications>
       <manageCategories>Kategorien verwalten</manageCategories>
       <manageRelations>Beziehungen verwalten</manageRelations>
-      <manageActions>Manage Actions</manageActions>
-      <exportNode>Export Node</exportNode>
-      <importNode>Import Node</importNode>
+      <manageActions>Aktionen verwalten</manageActions>
+      <exportNode>Knoten exportienen</exportNode>
+      <importNode>Knoten importieren</importNode>
       <viewRelations>Beziehungen ansehen</viewRelations>
       <showJCRStructure>JCR Struktur anzeigen</showJCRStructure>
-      <watchDocument>Watch Document</watchDocument>
-      <taggingDocument>Tag Document</taggingDocument>
+      <watchDocument>Dokument folgen</watchDocument>
+      <taggingDocument>Dokument taggen</taggingDocument>
       <viewMetadatas>Metadaten</viewMetadatas>
       <overloadThumbnail>Overload Thumbnail</overloadThumbnail>
       <manageHidden>Inhalt ein-/ausblenden</manageHidden>
       <comment>Kommentar</comment>
-      <vote>Vote</vote>  
+      <vote>Abstimmen</vote>  
       <addCategory>eine Kategorie hinzufügen</addCategory>
       <addLocalizationLink>Übersetzung hinzufügen</addLocalizationLink>
       <publicationRequestApproval>Genehmigung anfordern</publicationRequestApproval>
@@ -991,9 +991,9 @@
   <UIViewFormTabPane>
     <tab>
       <label>
-        <UITabContainer>Action</UITabContainer>
-        <UIViewForm>View</UIViewForm>
-        <UIViewPermissionContainer>Permission</UIViewPermissionContainer>    
+        <UITabContainer>Aktion</UITabContainer>
+        <UIViewForm>Sehen</UIViewForm>
+        <UIViewPermissionContainer>Berechtigung</UIViewPermissionContainer>    
       </label>
     </tab>
     <action>
@@ -1030,8 +1030,8 @@
   -->
   <UIECMTemplateList>
     <title>
-      <View>View</View>
-      <EditInfo>Edit</EditInfo>
+      <View>Sehen</View>
+      <EditInfo>Bearbeiten</EditInfo>
       <Delete>Löschen</Delete>
     </title>
     <header>
@@ -1196,8 +1196,8 @@
   </ScriptContainerPopup>
   <UIScriptForm>
     <label>
-      <selectVersion>Versions</selectVersion>
-      <scriptContent>Content</scriptContent>
+      <selectVersion>Versionen</selectVersion>
+      <scriptContent>Inhalt</scriptContent>
       <scriptLabel>Name</scriptLabel>
       <scriptName>Skript</scriptName>
       <enableVersion>Enable Versioning</enableVersion>
@@ -1230,7 +1230,7 @@
     </action>
     <title>Kategorie hinzufügen</title>
     <label>
-      <taxonomyName>Category Name</taxonomyName>
+      <taxonomyName>Kategoriename</taxonomyName>
       <parentPath>Überordner</parentPath>
     </label>
     <msg>
@@ -1366,8 +1366,8 @@
     <title>Eine Berechtigung auf diesen Knoten hinzufügen</title>
     <action>
       <Close>#{word.close}</Close>
-      <Save>Save</Save>
-      <Reset>Reset</Reset>
+      <Save>Speichern</Save>
+      <Reset>Zurücksetzen</Reset>
     </action>
     <msg>
       <checkbox-require>Bitte wählen Sie mindestens eine Berechtigung.</checkbox-require>
@@ -1433,7 +1433,7 @@
     <title>
       <SelectUser>Benutzer auswählen</SelectUser>
       <SelectMember>Rolle auswählen</SelectMember>
-      <AddAny>Everyone</AddAny>
+      <AddAny>Jeder</AddAny>
     </title>
   </permission>
   <!--
@@ -1470,7 +1470,7 @@
     <action>
       <Close>#{word.close}</Close>
       <Save>#{word.save}</Save>
-      <Reset>Reset</Reset>
+      <Reset>Zurücksetzen</Reset>
     </action>
     <msg>
       <checkbox-require>Bitte wählen Sie mindestens eine Berechtigung aus.</checkbox-require>
@@ -1501,7 +1501,7 @@
       <name>Typ</name>
       <action>Aktion</action>
       <label>Vorlage</label>
-      <icon>Icon</icon>
+      <icon>Piktogramm</icon>
     </header>
     <action>
       <AddNew>Vorlage hinzufügen</AddNew>
@@ -1517,15 +1517,15 @@
   <UIActionsTemplateList>
     <header>
       <name>Typ</name>
-      <action>Action</action>
+      <action>Aktion</action>
       <label>Vorlage</label>
-      <icon>Icon</icon>
+      <icon>Piktogramm</icon>
     </header>
     <action>
       <AddNew>Vorlage hinzufügen</AddNew>
     </action>
     <msg>
-      <confirm-delete>Do you really want to delete?</confirm-delete>
+      <confirm-delete>Möchten Sie wirklich löschen?</confirm-delete>
       <access-denied>Zugriff verweigert. Ihnen fehlt die Berechtigung, diese Funktion zu verwenden.</access-denied>
       <editing-template>Zugriff verweigert. Sie können diese Vorlage nicht gleichzeitig löschen und bearbeiten.</editing-template>
       <template-not-exist>Die Vorlage, die Sie löschen möchten, existiert nicht.</template-not-exist>
@@ -1535,9 +1535,9 @@
   <UIOthersTemplateList>
     <header>
       <name>Typ</name>
-      <label>Template</label>
-      <icon>Icon</icon>
-      <action>Action</action>
+      <label>Vorlage</label>
+      <icon>Piktogramm</icon>
+      <action>Aktion</action>
     </header>
     <action>
       <AddNew>Vorlage hinzufügen</AddNew>
@@ -1558,7 +1558,7 @@
 
 <UITabPane>
  <title>
- <ContentTemplateContainer>Content</ContentTemplateContainer>
+ <ContentTemplateContainer>Inhalt</ContentTemplateContainer>
 <CateTemplateContainer>Navigation</CateTemplateContainer>
 <PageTemplateContainer>Paginierung</PageTemplateContainer>
  </title>
@@ -1567,12 +1567,12 @@
   <UICLVTemplateList>
     <header>
       <title>Name</title>
-      <action>Action</action>
-      <template>Template</template>
+      <action>Aktion</action>
+      <template>Vorlage</template>
     </header>
     <action>
-      <AddTemplate>Add Template</AddTemplate>
-<Edit>Edit</Edit>
+      <AddTemplate>Vorlage hinzufügen</AddTemplate>
+<Edit>Bearbeiten</Edit>
 <Delete>Löschen</Delete>
     </action>
     <msg>
@@ -1586,12 +1586,12 @@
 <CateTemplateList>
     <header>
       <title>Name</title>
-      <action>Action</action>
-      <template>Template</template>
+      <action>Aktion</action>
+      <template>Vorlage</template>
     </header>
     <action>
-      <AddTemplate>Add Template</AddTemplate>
-<Edit>Edit</Edit>
+      <AddTemplate>Vorlage hinzufügen</AddTemplate>
+<Edit>Bearbeiten</Edit>
 <Delete>Löschen</Delete>
     </action>
 </CateTemplateList>
@@ -1599,12 +1599,12 @@
 <PageTemplateList>
     <header>
       <title>Name</title>
-      <action>Action</action>
-      <template>Template</template>
+      <action>Aktion</action>
+      <template>Vorlage</template>
     </header>
     <action>
-      <AddTemplate>Add Template</AddTemplate>
-<Edit>Edit</Edit>
+      <AddTemplate>Vorlage hinzufügen</AddTemplate>
+<Edit>Bearbeiten</Edit>
 <Delete>Löschen</Delete>
     </action>
 </PageTemplateList>
@@ -1617,13 +1617,13 @@
 
 <EditCLVTemplatePopup_CateTemplateContainer>
  <title>
-   <UICLVTemplateForm_CateTemplateContainer>Edit List Template</UICLVTemplateForm_CateTemplateContainer>   
+   <UICLVTemplateForm_CateTemplateContainer>Listenvorlage bearbeiten</UICLVTemplateForm_CateTemplateContainer>   
  </title>
 </EditCLVTemplatePopup_CateTemplateContainer>
 
 <EditCLVTemplatePopup_PageTemplateContainer>
  <title>
-   <UICLVTemplateForm_PageTemplateContainer>Edit List Template</UICLVTemplateForm_PageTemplateContainer>   
+   <UICLVTemplateForm_PageTemplateContainer>Listenvorlage bearbeiten</UICLVTemplateForm_PageTemplateContainer>   
  </title>
 </EditCLVTemplatePopup_PageTemplateContainer>
 
@@ -1635,26 +1635,26 @@
 
 <CLVTemplatePopup_CateTemplateContainer>
  <title>
-   <UICLVTemplateForm_CateTemplateContainer>Add List Template</UICLVTemplateForm_CateTemplateContainer>   
+   <UICLVTemplateForm_CateTemplateContainer>Listenvorlage hinzufügen</UICLVTemplateForm_CateTemplateContainer>   
  </title>
 </CLVTemplatePopup_CateTemplateContainer>
 
 <CLVTemplatePopup_PageTemplateContainer>
  <title>
-   <UICLVTemplateForm_PageTemplateContainer>Add List Template</UICLVTemplateForm_PageTemplateContainer>   
+   <UICLVTemplateForm_PageTemplateContainer>Listenvorlage hinzufügen</UICLVTemplateForm_PageTemplateContainer>   
  </title>
 </CLVTemplatePopup_PageTemplateContainer>
 
 <UICLVTemplateForm_ContentTemplateContainer>
  <action>
   <Save>#{word.save}</Save>
-<Reset>Reset</Reset>
+<Reset>Zurücksetzen</Reset>
 <Cancel>#{word.cancel}</Cancel>
  </action>
 <label>
  <title>Name</title>
-<template>Template Name</template>
-<content>Content</content>
+<template>Vorlagenname</template>
+<content>Inhalt</content>
 <type>Vorlagentyp</type>
 </label>
 </UICLVTemplateForm_ContentTemplateContainer>
@@ -1662,13 +1662,13 @@
 <UICLVTemplateForm_PageTemplateContainer>
  <action>
   <Save>#{word.save}</Save>
-<Reset>Reset</Reset>
+<Reset>Zurücksetzen</Reset>
 <Cancel>#{word.cancel}</Cancel>
  </action>
 <label>
  <title>Name</title>
-<template>Template Name</template>
-<content>Content</content>
+<template>Vorlagenname</template>
+<content>Inhalt</content>
 <type>Vorlagentyp</type>
 </label>
 </UICLVTemplateForm_PageTemplateContainer>
@@ -1676,20 +1676,20 @@
 <UICLVTemplateForm_CateTemplateContainer>
  <action>
   <Save>#{word.save}</Save>
-<Reset>Reset</Reset>
+<Reset>Zurücksetzen</Reset>
 <Cancel>#{word.cancel}</Cancel>
  </action>
 <label>
  <title>Name</title>
-<template>Template Name</template>
-<content>Content</content>
-<type>Template Type</type>
+<template>Vorlagenname</template>
+<content>Inhalt</content>
+<type>Vorlagentyp</type>
 </label>
 </UICLVTemplateForm_CateTemplateContainer>
 <UICLVTemplateForm>
   <label>
     <paginators>Paginierung</paginators>
-<list>Content</list>
+<list>Inhalt</list>
 <navigation>Navigation</navigation>
   </label>
   <msg>
@@ -1709,7 +1709,7 @@
   </AddNewTemplatePermission>
   <TemplatePermission>
     <title>
-      <UIPermissionSelector>Select Permission</UIPermissionSelector>
+      <UIPermissionSelector>Berechtigung auswählen</UIPermissionSelector>
     </title>
   </TemplatePermission>
   <TemplateContainerPopup>
@@ -1941,7 +1941,7 @@
   </EditQueryForm>
 <PermissionPopup>
   <title>
-    <UIGroupMemberSelector>Select Permission</UIGroupMemberSelector>
+    <UIGroupMemberSelector>Berechtigung auswählen</UIGroupMemberSelector>
   </title>
 </PermissionPopup>
   <!--
@@ -1973,7 +1973,7 @@
       <styleHTML>HTML Style:</styleHTML>
     </label>
     <action>
-      <UpdateStyle>Update</UpdateStyle>
+      <UpdateStyle>Aktualisieren</UpdateStyle>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
@@ -2109,8 +2109,8 @@
   <UIDrivePermissionSelector>
     <label>
       <selectGroup>Gruppe auswählen</selectGroup>
-      <selectUser>Select User</selectUser>
-      <selectMembership>Select Membership</selectMembership>
+      <selectUser>Benutzer auswählen</selectUser>
+      <selectMembership>Rolle auswählen</selectMembership>
     </label>
   </UIDrivePermissionSelector>
   
@@ -2130,13 +2130,13 @@
   
   <UIMDriveAnyPermission>
     <label>
-      <anyPermission>Any Permission</anyPermission>
+      <anyPermission>Jede Berechtigung</anyPermission>
     </label>
   </UIMDriveAnyPermission>
   
   <UIQueriesAnyPermission>
     <label>
-      <anyPermission>Any Permission</anyPermission>
+      <anyPermission>Jede Berechtigung</anyPermission>
     </label>
   </UIQueriesAnyPermission>
   
@@ -2186,7 +2186,7 @@
   <UITaxonomyTreeMainForm>
     <msg>
       <homepath-emty>Der Quellpfad ist erforderlich.</homepath-emty>
-      <targetpath-emty>The target path is required.</targetpath-emty>
+      <targetpath-emty>Der Zielpfad ist erforderlich.</targetpath-emty>
     </msg>
   </UITaxonomyTreeMainForm>
   <UITaxonomyWorkingArea>
@@ -2204,7 +2204,7 @@
         <email>#{word.email}</email>
       </option>
       <group>Gruppe</group>
-      <searchUser>User</searchUser>
+      <searchUser>Benutzer</searchUser>
       <userName>#{word.userName}</userName>
       <lastName>#{word.lastName}</lastName>
       <firstName>#{word.firstName}</firstName>
@@ -2220,8 +2220,8 @@
   -->   
   <DriveInputSet>
     <label>
-      <nt_folder>Document Folder</nt_folder>
-      <nt_unstructured>Content Folder</nt_unstructured>
+      <nt_folder>Dokumentenordner</nt_folder>
+      <nt_unstructured>Inhaltsordner</nt_unstructured>
       <exo_cssFolder>CSS-Ordner</exo_cssFolder>
       <exo_jsFolder>JavaScript Ordner</exo_jsFolder>
       <exo_linkFolder>Link-Ordner</exo_linkFolder>
@@ -2250,7 +2250,7 @@
 <UIUnLockForm>
     <label>
       <name>Path Node</name>      
-      <permissions>Permissions</permissions>
+      <permissions>Berechtigungen</permissions>
       <PermissionButton>UI Unlock Form</PermissionButton>
     </label>
     <action>
@@ -2264,7 +2264,7 @@
   <UILockHolderList>
   <header>
   <name>Gruppen oder Benutzer</name>
-  <action>Action</action>
+  <action>Aktion</action>
   </header>
   <tooltip>
 <DeleteLock>Gruppe löschen</DeleteLock>
@@ -2277,10 +2277,10 @@
   <header>
   <name>Titel</name>
   <hoderLock>Sperrenbesitzer</hoderLock>
-  <action>Action</action>
+  <action>Aktion</action>
   </header>
   <tooltip>
-<UnLock>UnLock</UnLock>
+<UnLock>Entsperren</UnLock>
   </tooltip>
   <msg>
   <access-denied-exception>Ihnen fehlt die Berechtigung, den Knoten mit dem Pfad {0} zuzugreifen oder dieser Knoten wurde gelöscht.</access-denied-exception>
@@ -2293,7 +2293,7 @@
   </EditUnLockForm>  
   <UITabPane>
     <action>
-      <Close>Close</Close>
+      <Close>Schließen</Close>
     </action>
     <title>
     <UILockHolderContainer>Sperren verwalten</UILockHolderContainer>
@@ -2304,8 +2304,8 @@
   <UIViewFormTabPane>
     <action>
       <AddTabForm>Reiter hinzufügen</AddTabForm>
-      <AddTab>Save</AddTab>
-      <BackViewForm>Back</BackViewForm>
+      <AddTab>Speichern</AddTab>
+      <BackViewForm>Zurück</BackViewForm>
     </action>
   </UIViewFormTabPane>
   
@@ -2326,7 +2326,7 @@
   <UISkinTab>
     <header>
       <name>Name</name>
-      <roles>Roles</roles>
+      <roles>Rollen</roles>
       <baseVersion>Version</baseVersion>
       <action>Aktionen</action>
     </header>
@@ -2336,7 +2336,7 @@
     </msg>
     <action>
       <title>
-        <Edit>Edit</Edit>
+        <Edit>Bearbeiten</Edit>
         <Delete>Löschen</Delete>
       </title>
     </action>
@@ -2346,10 +2346,10 @@
     <label>
       <UITemplateContent>SkinForm</UITemplateContent>
       <UIPopupWindow>Skin Berechtigungen</UIPopupWindow>
-      <selectVersion>Versions</selectVersion>
+      <selectVersion>Versionen</selectVersion>
       <content>Inhalt:</content>
       <name>Name:</name>
-      <isDocumentTemplate>is Document Template</isDocumentTemplate>
+      <isDocumentTemplate>ist Dokumentvorlage</isDocumentTemplate>
       <viewPermission>Berechtigung:</viewPermission>
       <enableVersion>Enable Versioning</enableVersion>
     </label>
@@ -2375,7 +2375,7 @@
 </UITaxonomyTreeContainer>
 <UITaxonomyTreeMainForm>
 <action>
-<NextViewPermission>Next</NextViewPermission>
+<NextViewPermission>Weiter</NextViewPermission>
 <Reset>Reset</Reset>
 </action>
 </UITaxonomyTreeMainForm>
@@ -2384,15 +2384,15 @@
 <action>
 <Save>Save</Save>
 <Reset>Reset</Reset>
-<NextAddAction>Next</NextAddAction>
-<Previous>Previous</Previous>
+<NextAddAction>Weiter</NextAddAction>
+<Previous>Zurück</Previous>
 </action>
 </UIPermissionTreeForm>
 
 <UIActionForm>
 <action>
-<PreviousViewPermission>Previous</PreviousViewPermission>
-<NextViewTree>Next</NextViewTree>
+<PreviousViewPermission>Zurück</PreviousViewPermission>
+<NextViewTree>Weiter</NextViewTree>
 </action>
   <msg>
     <xss-vulnerability-character>Feld "{0}" enthält Zeichen, die XSS-Sicherheitslücken öffnen</xss-vulnerability-character>
@@ -2402,7 +2402,7 @@
 
 <UITaxonomyTreeWorkingArea>
 <action>
-<Previous>Previous</Previous>
+<Previous>Zurück</Previous>
 </action>
 </UITaxonomyTreeWorkingArea>
 
@@ -2415,8 +2415,8 @@
   
   <UITagPermissionInfo>
     <header>
-      <usersOrGroups>User or Group</usersOrGroups>
-      <action>Action</action>
+      <usersOrGroups>Benutzer oder Gruppe</usersOrGroups>
+      <action>Aktion</action>
     </header>
     <action>
       <title>
@@ -2430,7 +2430,7 @@
   <UITagPermissionForm>
     <title>Berechtigung hinzufügen</title>
     <action>
-      <Save>Save</Save>
+      <Save>Speichern</Save>
     </action>
     <label>
       <userOrGroup>Rollen:</userOrGroup>
@@ -2478,7 +2478,7 @@
   
   <UIWorkspaceWizard>
     <msg>
-      <name-not-allowed>Forbidden Name</name-not-allowed>
+      <name-not-allowed>Dieser Name ist nicht erlaubt.</name-not-allowed>
     </msg>
   </UIWorkspaceWizard>
   <UIRepositoryForm>
@@ -2489,7 +2489,7 @@
   
   <UIViewFormTabPane>
   <label>
-  <addCategory>Add Category</addCategory>
+  <addCategory>Kategorie hinzufügen</addCategory>
           <addLocalizationLink>Übersetzung hinzufügen</addLocalizationLink>
   </label>
   </UIViewFormTabPane>

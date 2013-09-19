@@ -27,9 +27,9 @@
         <cssFile>default.CSS</cssFile>
         <jsFile>default.js</jsFile>
         <Advanced>Erweitert</Advanced>
-        <Summary>Summary</Summary>
+        <Summary>Zusammenfassung</Summary>
         <name>Name</name>
-        <title>Title</title>
+        <title>Titel</title>
         <ContentCSS>CSS-Daten</ContentCSS>
         <hintCSS>You can specify the main style sheet for your web content. This style will override the style sheets defined at the site level and at the shared level.</hintCSS>
         <ContentJS>JS-Daten</ContentJS>
@@ -63,7 +63,7 @@
     <dialog>
       <label>
         <name>Name</name>
-        <active>Active</active>
+        <active>Aktiv</active>
         <priority>Priorität</priority>
         <content>JS-Daten</content>
       </label>

@@ -2,7 +2,7 @@
 <bundle>
   <UICLVContainer>
     <label>
-      <Preferences>Preferences</Preferences>
+      <Preferences>Präferenzen</Preferences>
       <AddContent>Inhalt hinzufügen</AddContent>
       <ManageContent>Inhalte verwalten</ManageContent>
     </label>
@@ -20,50 +20,50 @@
   </UIViewerManagementPopupWindow>
   <UICLVConfig>
     <label>
-      <Title>Content List Preferences</Title>
-      <ContentSelectionBlock>Content Selection</ContentSelectionBlock>
+      <Title>Inhaltsliste Voreinstellungen</Title>
+      <ContentSelectionBlock>Inhaltsauswahl</ContentSelectionBlock>
       <UICLVConfigDisplayModeFormRadioBoxInput>Modus</UICLVConfigDisplayModeFormRadioBoxInput>
       <UICLVConfigItemPathFormInputSet>Ordnerpfad</UICLVConfigItemPathFormInputSet>
-    <UICLVConfigItemPathFormStringInput>Folder Path</UICLVConfigItemPathFormStringInput>
+    <UICLVConfigItemPathFormStringInput>Ordnerpfad</UICLVConfigItemPathFormStringInput>
       <UICLVConfigOrderByFormSelectBox>Sortieren nach</UICLVConfigOrderByFormSelectBox>
       <option>
-        <exo:title>Title</exo:title>
+        <exo:title>Titel</exo:title>
         <exo:dateCreated>Erstellungsdatum</exo:dateCreated>
-        <exo:lastModifiedDate>Modified Date</exo:lastModifiedDate>
+        <exo:lastModifiedDate>Bearbeitungsdatum</exo:lastModifiedDate>
         <publication:liveDate>Veröffentlichungsdatum</publication:liveDate>
         <exo:startEvent>Veranstaltungsdatum</exo:startEvent>
         <exo:index>Index</exo:index>
         <DESC>Absteigend</DESC>
         <ASC>Aufsteigend</ASC>
       </option>
-      <DisplaySettingBlock>Display Settings</DisplaySettingBlock>
+      <DisplaySettingBlock>Anzeigeeinstellungen</DisplaySettingBlock>
       <UICLVConfigHeaderFormStringInput>Kopfzeile</UICLVConfigHeaderFormStringInput>
       <UICLVConfigDisplayTemplateFormSelectBox>Vorlage</UICLVConfigDisplayTemplateFormSelectBox>
       <UICLVConfigPaginatorTemplateFormSelectBox>Paginierung</UICLVConfigPaginatorTemplateFormSelectBox>
       <UICLVConfigTargetPageFormStringInput/>
-      <UICLVConfigItemsPerPageFormStringInput>Items per Page</UICLVConfigItemsPerPageFormStringInput>
+      <UICLVConfigItemsPerPageFormStringInput>Elemente pro Seite</UICLVConfigItemsPerPageFormStringInput>
       <UICLVConfigShowIllustrationFormCheckboxInput>Bild anzeigen</UICLVConfigShowIllustrationFormCheckboxInput>
       <UICLVConfigShowSummaryFormCheckboxInput>Zusammenfassung anzeigen</UICLVConfigShowSummaryFormCheckboxInput>
       <UICLVConfigShowHeaderFormCheckboxInput>Kopfzeile anzeigen</UICLVConfigShowHeaderFormCheckboxInput>
       <UICLVConfigShowRefreshFormCheckboxInput>den Knopf "Aktualisieren" anzeigen</UICLVConfigShowRefreshFormCheckboxInput>
-      <UICLVConfigShowTitleFormCheckboxInput>Show Title</UICLVConfigShowTitleFormCheckboxInput>
-      <UICLVConfigShowDateCreatedFormCheckboxInput>Show Date</UICLVConfigShowDateCreatedFormCheckboxInput>
+      <UICLVConfigShowTitleFormCheckboxInput>Titel anzeigen</UICLVConfigShowTitleFormCheckboxInput>
+      <UICLVConfigShowDateCreatedFormCheckboxInput>Datum anzeigen</UICLVConfigShowDateCreatedFormCheckboxInput>
       <UICLVConfigShowLinkFormCheckboxInput>Link anzeigen</UICLVConfigShowLinkFormCheckboxInput>
       <UICLVConfigShowReadmoreFormCheckboxInput>Weitere Links anzeigen</UICLVConfigShowReadmoreFormCheckboxInput>
       <UICLVConfigAllowDynamicUrlStringInput>Dynamische URL zulassen</UICLVConfigAllowDynamicUrlStringInput>
       <UICLVConfigShowRssLinkFormCheckboxInput>RSS-Feeds anzeigen</UICLVConfigShowRssLinkFormCheckboxInput>
       <UICLVConfigShowAutomaticDetectionCheckboxInput>Automatische Erkennung</UICLVConfigShowAutomaticDetectionCheckboxInput>
       <AdvancedBlock>Erweitert</AdvancedBlock>
-      <UICLVConfigDynamicNavigationLabel>Dynamic Navigation</UICLVConfigDynamicNavigationLabel>
+      <UICLVConfigDynamicNavigationLabel>Dynamische Navigation</UICLVConfigDynamicNavigationLabel>
       <UICLVConfigContextualFolderRadioBoxInput>Kontextueller Ordner</UICLVConfigContextualFolderRadioBoxInput>
       <UICLVConfigShowCLVByStringInput>von</UICLVConfigShowCLVByStringInput>
-      <UICLVConfigshowSCVWithStringInput>with</UICLVConfigshowSCVWithStringInput>
-      <UICLVConfigTargetPageFormInputSet>Show in Page</UICLVConfigTargetPageFormInputSet>
+      <UICLVConfigshowSCVWithStringInput>mit</UICLVConfigshowSCVWithStringInput>
+      <UICLVConfigTargetPageFormInputSet>In Seite anzeigen</UICLVConfigTargetPageFormInputSet>
       <content-not-found>Inhalt nicht gefunden.</content-not-found>
-      <ContentPath>Content Path</ContentPath>
+      <ContentPath>Inhaltspfad</ContentPath>
       <Up>Aufwärts</Up>
       <Down>Abwärts</Down>
-      <UICLVConfigCacheManagementLabel>Content Visibility</UICLVConfigCacheManagementLabel>
+      <UICLVConfigCacheManagementLabel>Inhaltssichtbarkeit</UICLVConfigCacheManagementLabel>
       <UICLVContentByQueryLabel>Inhalt nach Abfrage</UICLVContentByQueryLabel>
       <UICLVConfigWorkspaceFormSelectBox>Arbeitsbereich</UICLVConfigWorkspaceFormSelectBox>
       <UICLVConfigContentByQueryTextArea>nach Abfrage</UICLVConfigContentByQueryTextArea>
@@ -93,7 +93,7 @@
     <tab>
       <label>
         <clvContentTab>Inhaltsauswahl</clvContentTab>
-        <clvDisplayTab>Display Settings</clvDisplayTab>
+        <clvDisplayTab>Anzeigeeinstellungen</clvDisplayTab>
         <clvAdvancedTab>Erweitert</clvAdvancedTab>
       </label>
     </tab>
@@ -107,7 +107,7 @@
   <UICLVConfigItemPathFormInputSet>
     <title>
       <SelectFolderPath>einen Ordnerpfad auswählen</SelectFolderPath>
-      <AddPath>Add Path</AddPath>
+      <AddPath>Pfad hinzufügen</AddPath>
     </title>
   </UICLVConfigItemPathFormInputSet>
   <FolderPathSelectorPopupWindow>
@@ -118,20 +118,20 @@
   <UICLVConfigOrderTypeFormSelectBox>
     <label>
       <option>
-        <OrderDesc>Descendant</OrderDesc>
-        <OrderAsc>Ascendant</OrderAsc>
+        <OrderDesc>Absteigend</OrderDesc>
+        <OrderAsc>Aufsteigend</OrderAsc>
       </option>
     </label>
   </UICLVConfigOrderTypeFormSelectBox>
   <UICLVConfigTargetPageFormInputSet>
     <title>
-      <SelectBasePath>Select Base Path</SelectBasePath>
-      <SelectTargetPage>Select Base Path</SelectTargetPage>
+      <SelectBasePath>einen Basispfad auswählen</SelectBasePath>
+      <SelectTargetPage>einen Basispfad auswählen</SelectTargetPage>
     </title>
   </UICLVConfigTargetPageFormInputSet>
   <UICLVBasePathPopupWindow>
     <title>
-      <UIPageSelector>Page Selector</UIPageSelector>
+      <UIPageSelector>Seitenauswahl</UIPageSelector>
     </title>
   </UICLVBasePathPopupWindow>
   <UICLVPresentation>
@@ -171,11 +171,11 @@
     <unpublished>Unveröffentlicht</unpublished>
     <enrolled>Eingeschrieben</enrolled>
     <draft>Entwurf</draft>
-    <pending>Pending</pending>
+    <pending>Ausstehend</pending>
     <approved>Genehmigt</approved>
     <inreview>Unter Überprüfung</inreview>
     <staged>Bereitgestellt</staged>
-    <published>Published</published>
+    <published>Veröffentlicht</published>
   </PublicationStates>
   <UICLVConfigCacheEnableRadioBoxInput>
     <label>

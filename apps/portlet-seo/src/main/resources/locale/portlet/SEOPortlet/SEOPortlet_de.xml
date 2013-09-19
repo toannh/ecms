@@ -3,7 +3,7 @@
   <UISEOForm>
     <label>  
       <title>Titel:</title>
-      <description>Description:</description>
+      <description>Beschreibung:</description>
       <keywords>Schlüsselwörter:</keywords>
       <language>Sprache:</language>
       <robots>Robots:</robots>
@@ -12,23 +12,23 @@
     <isInherited>Geerbt von übergeordneter Seite</isInherited>
       <priority>Priorität:</priority>
       <frequency>Häufigkeit:</frequency>
-      <select-language>Select a language</select-language>
+      <select-language>Sprache auswählen</select-language>
       <option>
-        <Always>Always</Always>
+        <Always>Immer</Always>
         <Hourly>Stündlich</Hourly>
         <Daily>Täglich</Daily>
         <Weekly>Wöchentlich</Weekly>
         <Monthly>Monatlich</Monthly>
         <Yearly>Jährlich</Yearly>
-        <Never>Never</Never>
+        <Never>Niemals</Never>
       </option> 
     </label>
     <tip>
   <priority>Gültige Werte liegen zwischen 0.0 und 1.0</priority>
   </tip>   
     <action>
-      <Save>Save</Save>
-      <Cancel>Cancel</Cancel>
+      <Save>Speichern</Save>
+      <Cancel>Abbrechen</Cancel>
     </action>
     <msg>
       <repository-exception>Unerwarteter Fehler beim Speichern der Seitenmetadaten.</repository-exception>

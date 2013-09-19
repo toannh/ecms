@@ -2,7 +2,7 @@
 <bundle>
   <UIFCCForm>
     <msg>
-      <name-not-allowed>This name is not allowed.</name-not-allowed>
+      <name-not-allowed>Dieser Name ist nicht erlaubt.</name-not-allowed>
       <in-versioning>Überprüfen Sie den aktuellen Knoten, bevor Sie einen neuen Knoten hinzufügen.</in-versioning>
       <cannot-save>Fehler beim Speichern des Knotens.</cannot-save>
       <saved-successfully>{0}</saved-successfully>
@@ -16,8 +16,8 @@
       <new-jcr-template>Fehler beim Erstellen einer neuen Vorlage.</new-jcr-template>
     </msg>
     <action>
-      <Save>Save</Save>
-      <Cancel>Cancel</Cancel>
+      <Save>Speichern</Save>
+      <Cancel>Abbrechen</Cancel>
     </action>
   </UIFCCForm>
 
@@ -48,7 +48,7 @@
       <do-select>Fehler beim Auswählen des Speicherortes.</do-select>
       </msg>
     <action>
-      <Save>Save</Save>
+      <Save>Speichern</Save>
     </action>
   </UIFCCConfig>
 
@@ -63,7 +63,7 @@
       <name>Name</name>
       <description>Beschreibung</description>
       <instanceOf>Instanz von</instanceOf>
-      <action>Action</action>
+      <action>Aktion</action>
     </header>
     <action>
       <Add>Hinzufügen</Add>
@@ -104,7 +104,7 @@
     </info>
     <header>
       <name>Name</name>
-      <action>Action</action>
+      <action>Aktion</action>
     </header>
   </UITreeList>
 
@@ -117,8 +117,8 @@
   <UIFCCActionForm>
     <title>Aktion hinzufügen/bearbeiten</title>
     <action>
-      <Save>Save</Save>
-      <Close>Close</Close>
+      <Save>Speichern</Save>
+      <Close>Schließen</Close>
     </action>
     <msg>
       <repository-exception>Diese Aktion kann nicht gespeichert werden. Der angegebene Name darf keinen Index als sein letztes Element besitzen.</repository-exception>
@@ -132,7 +132,7 @@
     </msg>
     <validator>
       <validator>Genehmiger</validator>
-      <destPath>With Path</destPath>
+      <destPath>Mit Pfad</destPath>
     </validator>
   </UIFCCActionForm>
 
@@ -150,7 +150,7 @@
     <title>
       <UIOneNodePathSelector>Ort auswählen</UIOneNodePathSelector>
       <UIPermissionSelector>Berechtigungsbrowser</UIPermissionSelector>
-      <UICategoriesSelector>Add Categories</UICategoriesSelector>
+      <UICategoriesSelector>Kategorien hinzufügen</UICategoriesSelector>
     </title>
   </PopupComponent>
 
@@ -163,7 +163,7 @@
   <UITabPane>
     <title>
       <UICategoriesSelectPanel>Kategorien auswählen</UICategoriesSelectPanel>
-      <UISelectedCategoriesGrid>Referenced Categories</UISelectedCategoriesGrid>
+      <UISelectedCategoriesGrid>Referenzierte Kategorien</UISelectedCategoriesGrid>
     </title>
   </UITabPane>
 
@@ -175,13 +175,13 @@
 
   <UICategoriesSelector>
     <action>
-      <close>Close</close>
+      <close>Schließen</close>
     </action>
   </UICategoriesSelector>
 
   <PopupComponent>
     <title>
-      <UIOneTaxonomySelector>Add Categories</UIOneTaxonomySelector>
+      <UIOneTaxonomySelector>Kategorien hinzufügen</UIOneTaxonomySelector>
     </title>
   </PopupComponent>
 

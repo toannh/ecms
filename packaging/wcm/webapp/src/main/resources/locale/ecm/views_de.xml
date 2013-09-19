@@ -84,9 +84,9 @@
     <view>
       <label>
         <name>Name</name>
-        <versionable>Versionable</versionable>
-        <exo_owner>Owner</exo_owner>
-        <exo_dateCreated>Date Created</exo_dateCreated>
+        <versionable>Versionierbar</versionable>
+        <exo_owner>Eigentümer</exo_owner>
+        <exo_dateCreated>Erstellungsdatum</exo_dateCreated>
         <exo_dateModified>Bearbeitungsdatum</exo_dateModified>
         <auditing>Audit</auditing>
       </label>
@@ -101,7 +101,7 @@
       <label>
         <action-name>Aktionname</action-name>
         <lifecycle>Lebenszyklus</lifecycle>
-        <metadata>Metadata</metadata>
+        <metadata>Metadaten</metadata>
         <description>Beschreibung</description>
       </label>
     </view>
@@ -114,7 +114,7 @@
     <view>
       <label>
         <action-name>Aktionname</action-name>
-        <lifecycle>Lifecycle</lifecycle>
+        <lifecycle>Lebenszyklus</lifecycle>
         <description>Beschreibung</description>
       </label>
     </view>
@@ -126,7 +126,7 @@
     <view>
       <label>
         <action-name>Name</action-name>
-        <lifecycle>Lifecycle</lifecycle>
+        <lifecycle>Lebenszyklus</lifecycle>
         <description>Beschreibung</description>
       </label>
     </view>
@@ -138,28 +138,28 @@
     <view>
       <label>
         <not-avaliable>N/V</not-avaliable>
-        <title>Title</title>
-        <creator>Creator</creator>
-        <subject>Subject</subject>
+        <title>Titel</title>
+        <creator>Ersteller</creator>
+        <subject>Betreff</subject>
         <source>Quelle</source>
         <contributor>Beiträger</contributor>
         <resource-type>Ressourcentyp</resource-type>
-        <date>Date</date>
+        <date>Datum</date>
         <publisher>Veröffentlicher</publisher>
         <description>Beschreibung</description>
         <rights>Rechte</rights>
-        <relation>Relation</relation>
+        <relation>Beziehung</relation>
         <format>Format</format>
         <coverage>Abdeckung</coverage>
         <identifier>Identifikator</identifier>
         <languages>Sprachen</languages>
       </label>
       <action>
-        <add-edit>Add/Edit</add-edit>
-        <cancel>Cancel</cancel>
+        <add-edit>Hinzufügen/Bearbeiten</add-edit>
+        <cancel>Abbrechen</cancel>
       </action>
       <tooltip>
-        <cancel>Cancel</cancel>
+        <cancel>Abbrechen</cancel>
         <add-edit>Eigenschaften hinzufügen/bearbeiten</add-edit>
       </tooltip>
     </view>
@@ -180,7 +180,7 @@
     <view>
       <label>
         <isDeep>Ist rekursiv</isDeep>
-        <nodetypes>Node Types</nodetypes>
+        <nodetypes>Knotentypen</nodetypes>
         <affectedNodeTypeNames>Betroffenen Knotentypen</affectedNodeTypeNames>
         <nodeTypeName>Knotentypnamen</nodeTypeName>
       </label> 
@@ -191,9 +191,9 @@
     <view>
       <label>
         <isDeep>Ist rekursiv</isDeep>
-        <nodetypes>Node Types</nodetypes> 
+        <nodetypes>Knotentypen</nodetypes> 
         <affectedNodeTypeNames>Betroffenen Knotentypen</affectedNodeTypeNames>
-        <nodeTypeName>Node Type Names</nodeTypeName>
+        <nodeTypeName>Knotentypnamen</nodeTypeName>
       </label> 
     </view>
   </EnableVersioning>
@@ -202,9 +202,9 @@
     <view>
       <label>
         <isDeep>Ist rekursiv</isDeep>
-        <nodetypes>Node Types</nodetypes>
+        <nodetypes>Knotentypen</nodetypes>
         <affectedNodeTypeNames>Betroffenen Knotentypen</affectedNodeTypeNames>
-        <nodeTypeName>Node Type Names</nodeTypeName>
+        <nodeTypeName>Knotentypnamen</nodeTypeName>
       </label> 
     </view>
   </AutoVersioning>
@@ -213,7 +213,7 @@
     <view>
       <label>
       <Play-audio-description-of-this-video>Audio-Beschreibung</Play-audio-description-of-this-video>
-      <Read-more>Read more</Read-more>
+      <Read-more>Mehr lesen</Read-more>
       <Read-less>Weniger lesen</Read-less>
       <Switch-back-to-original-video>Originalvideo</Switch-back-to-original-video>
       </label>

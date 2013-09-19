@@ -98,7 +98,7 @@
       <selectView>Ansicht auswählen</selectView>
       <showSideBar>Seitenleiste anzeigen</showSideBar>
       <more>Mehr</more>
-      <backTo>Back</backTo>
+      <backTo>Zurück</backTo>
     </label>
   </UIViewBar>
 
@@ -175,7 +175,7 @@
     <title>Umbenennen</title>
     <label>
       <nameField>Name</nameField>
-      <titleField>Title</titleField>
+      <titleField>Titel</titleField>
     </label>
     <action>
       <Cancel>#{word.cancel}</Cancel>
@@ -235,7 +235,7 @@
       <UIAllItemsPreferenceForm>Präferenzeneinstellungen</UIAllItemsPreferenceForm>
       <UISelectRestorePath>Wiederherstellungspfad auswählen</UISelectRestorePath>
       <UISEOForm>SEO verwalten</UISEOForm>
-      <UISEOToolbarForm>Manage SEO</UISEOToolbarForm>
+      <UISEOToolbarForm>SEO verwalten</UISEOToolbarForm>
     </title>
     <header>
       <workspace>Arbeitsbereich</workspace>
@@ -829,7 +829,7 @@
       </label>
     </tab>
     <action>
-      <Close>Close</Close>
+      <Close>Schließen</Close>
     </action>
   </UICategoryManagerSearch>
   <UIContentNameSearch>
@@ -914,9 +914,9 @@
     </msg>
     <header>
       <name>#{word.name}</name>
-      <path>Path</path>
-      <action>Action</action>
-      <shortcutPath>Path</shortcutPath>
+      <path>Pfad</path>
+      <action>Aktion</action>
+      <shortcutPath>Pfad</shortcutPath>
       <type>Typ</type>
       <dateCreated>Erstellungsdatum</dateCreated>
       <score>Bewertung</score>
@@ -938,19 +938,19 @@
   </UIShowAllOwnedByUserResult>
   <UIShowAllFavouriteResult>
     <msg>
-      <not-support>There is no View template for this node</not-support>
+      <not-support>Es gibt keine Ansichtsvorlage für diesen Knoten</not-support>
       <empty>Keine Ergebnisse gefunden</empty>
       <access-denied>Sie können diesen Knoten nicht anzeigen, weil diese Vorlage nicht unterstützt wird oder weil der Zugriff verweigert wird.</access-denied>
-      <query-invalid>The query is invalid</query-invalid>
+      <query-invalid>Die Abfrage ist ungültig</query-invalid>
     </msg>
     <header>
       <name>#{word.name}</name>
-      <path>Path</path>
-      <action>Action</action>
-      <shortcutPath>Path</shortcutPath>
+      <path>Pfad</path>
+      <action>Aktion</action>
+      <shortcutPath>Pfad</shortcutPath>
       <type>Typ</type>
       <dateCreated>Erstellungsdatum</dateCreated>
-      <score>Score</score>
+      <score>Ergebnis</score>
     </header>
     <title>
       <typeASC>Nach Dokumenttyp in aufsteigender Reihenfolge sortieren</typeASC>
@@ -976,12 +976,12 @@
     </msg>
     <header>
       <name>#{word.name}</name>
-      <path>Path</path>
-      <action>Action</action>
-      <shortcutPath>Path</shortcutPath>
+      <path>Pfad</path>
+      <action>Aktion</action>
+      <shortcutPath>Pfad</shortcutPath>
       <type>Typ</type>
       <dateCreated>Erstellungsdatum</dateCreated>
-      <score>Score</score>
+      <score>Ergebnis</score>
       <AddRemoveFavourite>Zu Favoriten hinzufügen/entfernen</AddRemoveFavourite>
     </header>
     <title>
@@ -1009,12 +1009,12 @@
     </msg>
     <header>
       <name>#{word.name}</name>
-      <path>Path</path>
-      <action>Action</action>
-      <shortcutPath>Path</shortcutPath>
+      <path>Pfad</path>
+      <action>Aktion</action>
+      <shortcutPath>Pfad</shortcutPath>
       <type>Typ</type>
       <dateCreated>Erstellungsdatum</dateCreated>
-      <score>Score</score>
+      <score>Ergebnis</score>
     </header>
     <title>
       <typeASC>Nach Dokumenttyp in aufsteigender Reihenfolge sortieren</typeASC>
@@ -1193,7 +1193,7 @@
     <pLabel>Eigenschaften:</pLabel>
     <action>
       <Add>Hinzufügen</Add>
-      <Cancel>Cancel</Cancel>
+      <Cancel>Abbrechen</Cancel>
     </action>
   </UISelectPropertyForm>
   <ExactlyFormPopup>
@@ -1353,7 +1353,7 @@
       <e_524288>Versionsbezeichnung hinzufügen</e_524288>
       <e_1048576>Versionsbezeichnung entfernen</e_1048576>
       <e_2097152>Version entfernen</e_2097152>
-      <e_4194304>Lock</e_4194304>
+      <e_4194304>Sperren</e_4194304>
       <e_8388608>Entsperren</e_8388608>
       <e_16777216>Lesen</e_16777216>
     </eventName>
@@ -1552,7 +1552,7 @@
     </action>
     <label>
       <category>Kategorie</category>
-      <actions>Action</actions>
+      <actions>Aktion</actions>
       <delete>Löschen</delete>
     </label>
   </UICategoriesAddedList>
@@ -1648,7 +1648,7 @@
   <UIDocumentForm>
     <title>Neues Dokument hinzufügen</title>
     <action>
-      <Save>Save</Save>
+      <Save>Speichern</Save>
       <SaveAndClose>Speichern &amp; Schließen</SaveAndClose>
       <ChangeType>Inhaltstyp ändern</ChangeType>
       <Fullscreen>Vollbild</Fullscreen>
@@ -1741,8 +1741,8 @@
     </msg>
     <action>
       <Close>#{word.close}</Close>
-      <View>View</View>
-      <Edit>Edit</Edit>
+      <View>Sehen</View>
+      <Edit>Bearbeiten</Edit>
       <Delete>Löschen</Delete>
     </action>
   </UIActionList>
@@ -1785,7 +1785,7 @@
   </PopupComponent>
   <EditFormAction>
     <validator>
-      <validator>Validator</validator>
+      <validator>Genehmiger</validator>
       <destPath>Mit Pfad</destPath>
     </validator>
     <title>Aktionsformular</title>
@@ -2056,7 +2056,7 @@
     <header>
       <date>Datum</date>
       <newState>Neuer Zustand</newState>
-      <user>User</user>
+      <user>Benutzer</user>
       <description>Beschreibung</description>
       <version>Version</version>
       <visibility>Sichtbarkeit</visibility>
@@ -2222,7 +2222,7 @@
   <UIPopupWindow>
     <title>
       <UISymLinkManager>Symlink Manager</UISymLinkManager>
-      <UIAddTranslationManager>Add Translation</UIAddTranslationManager>
+      <UIAddTranslationManager>Übersetzung hinzufügen</UIAddTranslationManager>
     </title>
   </UIPopupWindow>
 
@@ -2267,16 +2267,16 @@
     <msg>
       <addFolder-successful>The symlink '{0}' is added successfully.</addFolder-successful>
       <name-invalid>Bitte geben Sie den symbolischen Verknüpfungsname (Symlink) ein.</name-invalid>
-      <name-not-allowed>This name is not allowed.</name-not-allowed>
-      <fileName-error>The file name is invalid.</fileName-error>
+      <name-not-allowed>Dieser Name ist nicht erlaubt.</name-not-allowed>
+      <fileName-error>Der Dateiname ist ungültig.</fileName-error>
       <constraint-violation>Sie können nicht zu dem aktuellen Knoten den Knotentyp "{0}" hinzufügen.</constraint-violation>
       <repository-exception>Access denied. You do not have permission to add symlink to this node.</repository-exception>
-      <numberformat-exception>You cannot save this folder. The name provided must be in numerical format.</numberformat-exception>
+      <numberformat-exception>Dieser Ordner kann nicht gespeichert werden. Der angegebene Name muss im numerischen Format sein.</numberformat-exception>
       <path-node-invalid>Please enter the path node.</path-node-invalid>
-      <path-node-not-allowed>This name is not allowed.</path-node-not-allowed>
+      <path-node-not-allowed>Dieser Name ist nicht erlaubt.</path-node-not-allowed>
       <non-node>Please select the trust target node; you may not have the right to read this node.</non-node>
       <cannot-save>An error occurred while creating the symlink.</cannot-save>
-      <item-exists-exception>The node name already exists.</item-exists-exception>
+      <item-exists-exception>Der Knotenname ist bereits vorhanden.</item-exists-exception>
       <translation-node-same-language-default>The translation node has the same language as the default language of current node.</translation-node-same-language-default>
       <UnsupportedRepositoryOperationException>This target node is not referred.</UnsupportedRepositoryOperationException>
     </msg>
@@ -2289,14 +2289,14 @@
   </UIPopupSymLink>
   <UIPopupSymLink>
     <title>
-      <UIContentSelectorOne>Select Document</UIContentSelectorOne>
+      <UIContentSelectorOne>Dokument auswählen</UIContentSelectorOne>
     </title>
   </UIPopupSymLink>
 
   <ECMContextMenu>
     <event>
       <AddSymLink>Add Symlink</AddSymLink>
-      <AddLocalizationLink>Add Translation</AddLocalizationLink>
+      <AddLocalizationLink>Übersetzung hinzufügen</AddLocalizationLink>
     </event>
   </ECMContextMenu>
 
@@ -2390,10 +2390,10 @@
   <UIRestoreConfirmMessage>
     <label>
       <Close>#{word.close}</Close>
-      <OK>OK</OK>
+      <OK>Ok</OK>
       <ReplaceData>Replace Data</ReplaceData>
       <Back>Back to Rename</Back>
-      <Keepfile>Keep both files</Keepfile>
+      <Keepfile>Beide Dateien behalten</Keepfile>
     </label>
   </UIRestoreConfirmMessage>
 
@@ -2590,7 +2590,7 @@
     <label>
       <OwnedByMe>Im Besitz von mir</OwnedByMe>
       <Favourites>Favoriten</Favourites>
-      <Hidden>Hidden</Hidden>
+      <Hidden>Ausgeblendet</Hidden>
       <Trash>Papierkorb</Trash>
       <Configuration>Präferenzen einstellen</Configuration>
     </label>
@@ -2612,7 +2612,7 @@
 
   <UISavedSearches>
     <title>
-      <savedSearches>Saved Searches</savedSearches>
+      <savedSearches>Gespeicherte Suchen</savedSearches>
     </title>
   </UISavedSearches>
   <DocumentType>
@@ -2621,7 +2621,7 @@
        <Video>Video</Video>
        <Music>Musik</Music>
        <Documents>Documents</Documents>
-       <Content>Content</Content>
+       <Content>Inhalt</Content>
     </label>
   </DocumentType>
 
@@ -2629,9 +2629,9 @@
     <label>
       <Images>Bild</Images>
       <Video>Video</Video>
-      <Music>Music</Music>
-      <Documents>Document</Documents>
-      <Content>Content</Content>
+      <Music>Musik</Music>
+      <Documents>Documents</Documents>
+      <Content>Inhalt</Content>
     </label>
     <title>Set Up Filter Preferences</title>
     <action>
@@ -2672,10 +2672,10 @@
 
   <UIAllItemsPreferenceForm>
     <label>
-      <showOwnedByUser>Owned by me</showOwnedByUser>
-      <showFavourites>Favorites</showFavourites>
-      <showHiddens>Hidden</showHiddens>
-      <showTrash>Trash</showTrash>
+      <showOwnedByUser>Im Besitz von mir</showOwnedByUser>
+      <showFavourites>Favoriten</showFavourites>
+      <showHiddens>Ausgeblendet</showHiddens>
+      <showTrash>Papierkorb</showTrash>
     </label>
     <action>
       <Save>#{word.save}</Save>
@@ -2693,8 +2693,8 @@
       <name>Kategoriename</name>
     </label>
     <action>
-      <Save>Save</Save>
-      <Cancel>Cancel</Cancel>
+      <Save>Speichern</Save>
+      <Cancel>Abbrechen</Cancel>
     </action>
   </UICategoryForm>
   <UIPopupWindow>
@@ -2710,7 +2710,7 @@
 
    <UITaggingForm>
     <label>
-      <Public>Public</Public>
+      <Public>Öffentlich</Public>
       <Private>Privat</Private>
       <tagScopes>Tag Scopes</tagScopes>
     </label>
@@ -2728,7 +2728,7 @@
     <header>
       <name>Name</name>
       <relatedDocuments>Bezogene Dokumente</relatedDocuments>
-      <action>Action</action>
+      <action>Aktion</action>
     </header>
     <action>
       <title>
@@ -2798,14 +2798,14 @@
     <UIActionForm>
     <title>
       <ShowComponent>Komponente anzeigen</ShowComponent>
-      <removeReference>Remove</removeReference>
+      <removeReference>Entfernen</removeReference>
     </title>
   </UIActionForm>
 
   <EditFormAction>
     <title>
       <ShowComponent>Komponente anzeigen</ShowComponent>
-      <removeReference>Remove</removeReference>
+      <removeReference>Entfernen</removeReference>
     </title>
   </EditFormAction>
 
@@ -2848,8 +2848,8 @@
 
   <UISelectRestorePath>
     <action>
-      <Save>Save</Save>
-      <Cancel>Cancel</Cancel>
+      <Save>Speichern</Save>
+      <Cancel>Abbrechen</Cancel>
     </action>
     <label>
       <formInput>The previous path was lost. Please select a new one.</formInput>
@@ -2857,7 +2857,7 @@
   </UISelectRestorePath>
   <PathNode>
     <title>
-      <Add>Add</Add>
+      <Add>Hinzufügen</Add>
     </title>
   </PathNode>
   <UIPopupPathFoRestore>
@@ -2891,14 +2891,14 @@
 
 <UIPublicationPanel>
     <button>
-      <Close>Close</Close>
+      <Close>Schließen</Close>
     </button>
     <revisions>
       <version>Überarbeitungen</version>
-      <date>Date</date>
+      <date>Datum</date>
       <author>Autor</author>
       <status>Status</status>
-      <action>Action</action>
+      <action>Aktion</action>
       <label>Überarbeitung</label>
       <none>No revisions</none>
       <seeall>Alle Versionen ansehen</seeall>
@@ -2913,12 +2913,12 @@
       <unpublished>Unveröffentlicht</unpublished>
       <enrolled>Enrolled</enrolled>
       <draft>Entwurf</draft>
-      <pending>Pending</pending>
+      <pending>Ausstehend</pending>
       <approved>Genehmigt</approved>
       <inreview>Unter Überprüfung</inreview>
       <staged>bereitgestellt</staged>
-      <published>Published</published>
-      <live>Published</live>
+      <published>Veröffentlicht</published>
+      <live>Veröffentlicht</live>
     </status>
     <scheduled>
       <title>Geplant</title>
@@ -2927,7 +2927,7 @@
     </scheduled>
     <title>
       <preview>Vorschau</preview>
-      <restore>Restore</restore>
+      <restore>Wiederherstellen</restore>
     </title>
     <msg>
       <have-no-view-template>The View template is not supported.</have-no-view-template>
@@ -2936,11 +2936,11 @@
   </UIPublicationPanel>
   <UIPublicationHistory>
     <header>
-      <date>Date</date>
+      <date>Datum</date>
       <versionName>Revision Name</versionName>
       <currentState>Current State</currentState>
-      <user>Author</user>
-      <description>Description</description>
+      <user>Autor</user>
+      <description>Beschreibung</description>
     </header>
   </UIPublicationHistory>
   
@@ -2954,7 +2954,7 @@
     </msg>
     <action>
       <Save>#{word.save}</Save>
-      <Reset>Reset</Reset>
+      <Reset>Zurücksetzen</Reset>
     </action>
   </UIPublicationSchedule>
 
@@ -3098,17 +3098,17 @@
     <MaxFileSize>Maximale Dateigröße beträgt</MaxFileSize>
     <InvalidCharacters>Ungültige Zeichen werden in "-" geändert werden</InvalidCharacters>
     <DropFileMessage>Legen Sie Ihre Dateien hier in den aktuellen Ordner</DropFileMessage>
-    <Close>Close</Close>
+    <Close>Schließen</Close>
     <in>in</in>
     <MaxFileSizeAlert>Die Dateigröße überschreitet die maximale Größe von</MaxFileSizeAlert>
     <Waiting>Waiting</Waiting>
-    <Error>Error</Error>
+    <Error>Fehler</Error>
     <or>oder</or>
     <AlreadyInUse>Bereits in Benutzung</AlreadyInUse>
     <Keep>Beide behalten</Keep>
     <Replace>Ersetzen</Replace>
     <Canceled>Abgebrochen</Canceled>
-    <Cancel>Cancel</Cancel>
+    <Cancel>Abbrechen</Cancel>
     <AbortAllConfirmation>Möchten Sie alle Dateien in Bearbeitung abbrechen?</AbortAllConfirmation>
   </label>
   </UIMultiUpload>
@@ -3123,12 +3123,12 @@
   <FileView>
     <label>
       <name>Name</name>
-      <date>Date</date>
+      <date>Datum</date>
       <size>Größe</size>
       <sortBy>Sortieren nach:</sortBy>
       <filesAreSelected>Dateien werden ausgewählt.</filesAreSelected>
       <ClearSelection>Auswahl leeren</ClearSelection>
-      <more>More</more>
+      <more>Mehr</more>
     </label>
   </FileView>
   <UIPropertyForm>
