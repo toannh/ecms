@@ -2621,7 +2621,7 @@
     	 <Video>Vidéo</Video>
     	 <Music>Musique</Music>
     	 <Documents>Document</Documents>
-       <Content>Content</Content>
+       <Content>Contenu</Content>
     </label>
   </DocumentType>
 
@@ -2631,7 +2631,7 @@
     	<Video>Vidéo</Video>
     	<Music>Musique</Music>
     	<Documents>Document</Documents>
-      <Content>Content</Content>
+      <Content>Contenu</Content>
     </label>
     <title>Configurer les Filtres</title>
     <action>
@@ -2954,7 +2954,7 @@
     </msg>
     <action>
       <Save>#{word.save}</Save>
-      <Reset>Reset</Reset>
+      <Reset>Réinitialiser</Reset>
     </action>
   </UIPublicationSchedule>
 

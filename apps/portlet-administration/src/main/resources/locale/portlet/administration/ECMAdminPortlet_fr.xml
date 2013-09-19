@@ -807,9 +807,9 @@
   -->
   <UIViewList>
    <title>
-     <View>View</View>
-     <EditInfo>Edit</EditInfo>
-     <Delete>Delete</Delete>
+     <View>Aperçu</View>
+     <EditInfo>Modifier</EditInfo>
+     <Delete>Supprimer</Delete>
    </title>
     <header>
       <name>Nom</name>
@@ -923,7 +923,7 @@
     </msg>
     <label>
       <viewName>Nom</viewName>
-      <template>Template</template>
+      <template>Modèle</template>
 <version>Restaurer cette version</version>
       <enableVersion>Activer les Versions</enableVersion>
       <hideExplorerPanel>Masquez l'arbre dans le panneau latéral</hideExplorerPanel>
@@ -992,7 +992,7 @@
     <tab>
       <label>
         <UITabContainer>Barre d'Outils</UITabContainer>
-        <UIViewForm>View</UIViewForm>
+        <UIViewForm>Aperçu</UIViewForm>
 								<UIViewPermissionContainer>Permission</UIViewPermissionContainer>
       </label>
     </tab>
@@ -1030,9 +1030,9 @@
   -->
   <UIECMTemplateList>
     <title>
-      <View>View</View>
-      <EditInfo>Edit</EditInfo>
-      <Delete>Delete</Delete>
+      <View>Aperçu</View>
+      <EditInfo>Modifier</EditInfo>
+      <Delete>Supprimer</Delete>
     </title>
     <header>
       <name>Nom</name>
@@ -1215,7 +1215,7 @@
       <scriptContent>Script</scriptContent>
       <scriptLabel>Nom</scriptLabel>
       <scriptName>Script</scriptName>
-      <enableVersion>Enable Versioning</enableVersion>
+      <enableVersion>Activer le Versioning</enableVersion>
     </label>
   </ecmScriptForm>
   <!--
@@ -1230,7 +1230,7 @@
     </action>
     <title>Ajout de catégorie</title>
     <label>
-      <taxonomyName>Category Name</taxonomyName>
+      <taxonomyName>Nom de la catégorie</taxonomyName>
       <parentPath>Dossier parent</parentPath>
     </label>
     <msg>
@@ -1433,7 +1433,7 @@
     <title>
       <SelectUser>Sélectionner un utilisateur</SelectUser>
       <SelectMember>Rôle</SelectMember>
-      <AddAny>Everyone</AddAny>
+      <AddAny>Tout le monde</AddAny>
     </title>
   </permission>
   <!--
@@ -1739,7 +1739,7 @@
       <name>Nom</name>
       <isDocumentTemplate>Marquer comme Document</isDocumentTemplate>
       <viewPermission>Permission</viewPermission>
-      <enableVersion>Enable Versioning</enableVersion>
+      <enableVersion>Activer le Versioning</enableVersion>
     </label>
     <title>Ajout/Modification d'un formulaire d'édition</title>
   </DialogForm>
@@ -2204,7 +2204,7 @@
         <email>#{word.email}</email>
       </option>
       <group>Groupe</group>
-      <searchUser>User</searchUser>
+      <searchUser>Utilisateur</searchUser>
       <userName>#{word.userName}</userName>
       <lastName>#{word.lastName}</lastName>
       <firstName>#{word.firstName}</firstName>
@@ -2351,7 +2351,7 @@
       <name>Nom</name>
       <isDocumentTemplate>Marquer comme Document</isDocumentTemplate>
       <viewPermission>Permission</viewPermission>
-      <enableVersion>Enable Versioning</enableVersion>
+      <enableVersion>Activer le Versioning</enableVersion>
     </label>
     <title>Ajouter/Modifier un Style</title>
   </SkinForm>
@@ -2415,7 +2415,7 @@
     
   <UITagPermissionInfo>
     <header>
-      <usersOrGroups>User or Group</usersOrGroups>
+      <usersOrGroups>Utilisateur ou Groupe</usersOrGroups>
       <action>Action</action>
     </header>
       <action>
