@@ -138,7 +138,7 @@
     <view>
       <label>
         <not-avaliable>N/A</not-avaliable>
-        <title>Title</title>
+        <title>Титул</title>
         <creator>Creator</creator>
         <subject>Subject</subject>
         <source>Source</source>
@@ -149,7 +149,7 @@
         <description>Description</description>
         <rights>Rights</rights>
         <relation>Relation</relation>
-        <format>Format</format>
+        <format>Формат</format>
         <coverage>Coverage</coverage>
         <identifier>Identifier</identifier>
         <languages>Languages</languages>

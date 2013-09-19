@@ -14,7 +14,7 @@
 <UIViewInfoContainer>
 <label>
       <name>Name</name>
-      <title>Title</title>
+      <title>Титул</title>
       <type>Type</type>
       <size>Size</size>
       <owner>Owner</owner>

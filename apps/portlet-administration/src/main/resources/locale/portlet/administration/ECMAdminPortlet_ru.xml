@@ -87,7 +87,7 @@
 -->
   <UITaxonomyTreeMainForm>
     <action>
-      <Reset>Reset</Reset>
+      <Reset>Очистить</Reset>
     </action>
     <msg>
       <name-not-allowed>Forbidden Name</name-not-allowed>
@@ -130,7 +130,7 @@
 <addNode>Add Node</addNode>
 <setProperty>Set Property</setProperty>
 <remove>Remove</remove>
-<action>Action</action>
+<action>Действие</action>
 </header>
 </UIPermissionTreeInfo>
 
@@ -212,7 +212,7 @@
     <header>
       <prefix>Prefix</prefix>
       <uri>Namespace URI</uri>
-      <action>Action</action>
+      <action>Действие</action>
     </header>
     <action>
       <AddNamespace>Register</AddNamespace>
@@ -287,7 +287,7 @@
     <header>
       <icon>Icon</icon>
       <label>Node name</label>
-      <input>Action</input>
+      <input>Действие</input>
     </header>
     <label>
       <dialogTemplate>Dialog Template:</dialogTemplate>
@@ -348,7 +348,7 @@
       <homePath>Home Path</homePath>
       <permissions>Permissions</permissions>
       <views>View</views>
-      <action>Action</action>
+      <action>Действие</action>
     </header>
     <tooltip>
       <Delete>Delete</Delete>
@@ -422,7 +422,7 @@
     </info>
     <header>
       <name>Name</name>
-      <action>Action</action>
+      <action>Действие</action>
     </header>
   </UITreeList>
   
@@ -441,7 +441,7 @@
     <header>
       <icon>Icon</icon>
       <label>Node Name</label>
-      <input>Action</input>
+      <input>Действие</input>
     </header>
     <action>
       <Save>#{word.save}</Save>
@@ -462,7 +462,7 @@
       <nodeType>Node Type</nodeType>
       <mixinType>Mixin Type</mixinType>
       <orderable>Orderable Child Nodes</orderable>
-      <action>Action</action>
+      <action>Действие</action>
     </header>
     <action>
       <Export>Export</Export>
@@ -491,7 +491,7 @@
     <header>
       <icon>Icon</icon>
       <label>Node Name</label>
-      <input>Action</input>
+      <input>Действие</input>
     </header>
   </UINodeTypeOptionList>
   <!--
@@ -627,7 +627,7 @@
     <header>
       <icon>Icon</icon>
       <label>Node name</label>
-      <input>Action</input>
+      <input>Действие</input>
     </header>
     <action>
       <Cancel>#{word.cancel}</Cancel>
@@ -686,7 +686,7 @@
     <header>
       <icon>Icon</icon>
       <label>Node Name</label>
-      <input>Action</input>
+      <input>Действие</input>
     </header>
     <title>Select Import Node Type</title>
     <msg>
@@ -787,7 +787,7 @@
       <UITemplateContainer>Documents</UITemplateContainer>
       <UIActionsTemplateContainer>Actions</UIActionsTemplateContainer>
       <UIOthersTemplateContainer>Others</UIOthersTemplateContainer>
-  <UIActionScriptContainer>Action</UIActionScriptContainer>
+  <UIActionScriptContainer>Действие</UIActionScriptContainer>
   <UIWidgetScriptContainer>Widgets</UIWidgetScriptContainer>
 <UIInterceptorScriptContainer>Interceptors</UIInterceptorScriptContainer>
 
@@ -816,7 +816,7 @@
       <permissions>Permissions</permissions>
       <tabList>Action Tab</tabList>
       <baseVersion>Base Version</baseVersion>
-      <action>Action</action>
+      <action>Действие</action>
     </header>
     <action>
       <AddView>Add View</AddView>
@@ -877,7 +877,7 @@
 <UIViewPermissionList>
  <header>
 <friendlyPermission>Permissions</friendlyPermission>
-     <action>Action</action>
+     <action>Действие</action>
  </header>
 <action>
  <title>
@@ -991,14 +991,14 @@
   <UIViewFormTabPane>
     <tab>
       <label>
-        <UITabContainer>Action</UITabContainer>
+        <UITabContainer>Действие</UITabContainer>
         <UIViewForm>View</UIViewForm>
         <UIViewPermissionContainer>Permission</UIViewPermissionContainer>    
       </label>
     </tab>
     <action>
       <Save>#{word.save}</Save>
-      <Reset>Reset</Reset>
+      <Reset>Очистить</Reset>
       <Cancel>#{word.cancel}</Cancel>
       <Close>#{word.close}</Close>
       <Restore>Restore</Restore>
@@ -1038,7 +1038,7 @@
       <name>Name</name>
       <path>Value</path>
       <baseVersion>Base Version</baseVersion>
-      <action>Action</action>
+      <action>Действие</action>
     </header>
     <action>
       <Add>Add</Add>
@@ -1059,7 +1059,7 @@
     <action>
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
-      <Reset>Reset</Reset>
+      <Reset>Очистить</Reset>
       <Restore>Restore</Restore>
       <Refresh>#{word.refresh}</Refresh>
     </action>
@@ -1319,7 +1319,7 @@
       <name>Category Tree</name>
       <workspace>Workspace</workspace>
       <homePath>Path</homePath>
-      <action>Action</action>
+      <action>Действие</action>
     </header>
     <action>
       <AddTaxonomyTree>Add Category Tree</AddTaxonomyTree>
@@ -1367,7 +1367,7 @@
     <action>
       <Close>#{word.close}</Close>
       <Save>Save</Save>
-      <Reset>Reset</Reset>
+      <Reset>Очистить</Reset>
     </action>
     <msg>
       <checkbox-require>Please select at least one permission.</checkbox-require>
@@ -1420,7 +1420,7 @@
       <read>Read</read>
       <addNode>Modify Node</addNode>
       <remove>Remove</remove>
-      <action>Action</action>
+      <action>Действие</action>
     </header>
     <msg>
       <confirm-delete-permission>Are you sure you want to remove this permission?</confirm-delete-permission>
@@ -1470,7 +1470,7 @@
     <action>
       <Close>#{word.close}</Close>
       <Save>#{word.save}</Save>
-      <Reset>Reset</Reset>
+      <Reset>Очистить</Reset>
     </action>
     <msg>
       <checkbox-require>Please select at least one permission.</checkbox-require>
@@ -1499,7 +1499,7 @@
   <UITemplateList>
     <header>
       <name>Type</name>
-      <action>Action</action>
+      <action>Действие</action>
       <label>Template</label>
       <icon>Icon</icon>
     </header>
@@ -1517,7 +1517,7 @@
   <UIActionsTemplateList>
     <header>
       <name>Type</name>
-      <action>Action</action>
+      <action>Действие</action>
       <label>Template</label>
       <icon>Icon</icon>
     </header>
@@ -1537,7 +1537,7 @@
       <name>Type</name>
       <label>Template</label>
       <icon>Icon</icon>
-      <action>Action</action>
+      <action>Действие</action>
     </header>
     <action>
       <AddNew>Add Template</AddNew>
@@ -1567,7 +1567,7 @@
   <UICLVTemplateList>
     <header>
       <title>Name</title>
-      <action>Action</action>
+      <action>Действие</action>
       <template>Template</template>
     </header>
     <action>
@@ -1586,7 +1586,7 @@
 <CateTemplateList>
     <header>
       <title>Name</title>
-      <action>Action</action>
+      <action>Действие</action>
       <template>Template</template>
     </header>
     <action>
@@ -1599,7 +1599,7 @@
 <PageTemplateList>
     <header>
       <title>Name</title>
-      <action>Action</action>
+      <action>Действие</action>
       <template>Template</template>
     </header>
     <action>
@@ -1648,7 +1648,7 @@
 <UICLVTemplateForm_ContentTemplateContainer>
  <action>
   <Save>#{word.save}</Save>
-<Reset>Reset</Reset>
+<Reset>Очистить</Reset>
 <Cancel>#{word.cancel}</Cancel>
  </action>
 <label>
@@ -1662,7 +1662,7 @@
 <UICLVTemplateForm_PageTemplateContainer>
  <action>
   <Save>#{word.save}</Save>
-<Reset>Reset</Reset>
+<Reset>Очистить</Reset>
 <Cancel>#{word.cancel}</Cancel>
  </action>
 <label>
@@ -1676,7 +1676,7 @@
 <UICLVTemplateForm_CateTemplateContainer>
  <action>
   <Save>#{word.save}</Save>
-<Reset>Reset</Reset>
+<Reset>Очистить</Reset>
 <Cancel>#{word.cancel}</Cancel>
  </action>
 <label>
@@ -1960,7 +1960,7 @@
       <name>Style Name</name>
       <documentRange>Number of Occurrences</documentRange>
       <tagHTML>Tag Style</tagHTML>
-      <action>Action</action>
+      <action>Действие</action>
     </header>
     <action>
       <AddStyle>Add Style</AddStyle>
@@ -1973,7 +1973,7 @@
       <styleHTML>HTML Style:</styleHTML>
     </label>
     <action>
-      <UpdateStyle>Update</UpdateStyle>
+      <UpdateStyle>Обновить</UpdateStyle>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
@@ -2203,8 +2203,8 @@
         <firstName>#{word.firstName}</firstName>
         <email>#{word.email}</email>
       </option>
-      <group>Group</group>
-      <searchUser>User</searchUser>
+      <group>Группа</group>
+      <searchUser>Пользователь</searchUser>
       <userName>#{word.userName}</userName>
       <lastName>#{word.lastName}</lastName>
       <firstName>#{word.firstName}</firstName>
@@ -2264,7 +2264,7 @@
   <UILockHolderList>
   <header>
   <name>Groups or Users</name>
-  <action>Action</action>
+  <action>Действие</action>
   </header>
   <tooltip>
 <DeleteLock>Delete Group</DeleteLock>
@@ -2275,9 +2275,9 @@
   </UILockHolderList>
   <UILockNodeList>
   <header>
-  <name>Title</name>
+  <name>Титул</name>
   <hoderLock>Lock Owner</hoderLock>
-  <action>Action</action>
+  <action>Действие</action>
   </header>
   <tooltip>
 <UnLock>UnLock</UnLock>
@@ -2416,7 +2416,7 @@
   <UITagPermissionInfo>
     <header>
       <usersOrGroups>User or Group</usersOrGroups>
-      <action>Action</action>
+      <action>Действие</action>
     </header>
     <action>
       <title>

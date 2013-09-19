@@ -175,7 +175,7 @@
     <title>Rename</title>
     <label>
       <nameField>Name</nameField>
-      <titleField>Title</titleField>
+      <titleField>Титул</titleField>
     </label>
     <action>
       <Cancel>#{word.cancel}</Cancel>
@@ -209,7 +209,7 @@
       <UIActivateAuditing>Activate Auditing</UIActivateAuditing>
       <UIPermissionManager>Permission Management</UIPermissionManager>
       <UIPropertiesManager>Properties Management</UIPropertiesManager>
-      <UIECMSearch>Advanced Search</UIECMSearch>
+      <UIECMSearch>Расширенный поиск</UIECMSearch>
       <UISavedQuery>Saved Queries List</UISavedQuery>
       <UIWatchDocumentForm>Watch Document</UIWatchDocumentForm>
       <UIActionManager>Manage Actions</UIActionManager>
@@ -329,7 +329,7 @@
     <title>
       <select-tab>Select Tab</select-tab>
       <SimpleSearch>Quick Search</SimpleSearch>
-      <AdvanceSearch>Advanced Search</AdvanceSearch>
+      <AdvanceSearch>Расширенный поиск</AdvanceSearch>
       <SavedQueries>Saved Queries</SavedQueries>
       <ShowAllOwnedByUser>Show All My Items</ShowAllOwnedByUser>
       <ShowAllFavourite>Show All Favorite Items</ShowAllFavourite>
@@ -616,7 +616,7 @@
       <UISavedQuery>Saved Query</UISavedQuery>
       <AdvancedSearchResult>Search Results</AdvancedSearchResult>
       <UISimpleSearch>Simple Search</UISimpleSearch>
-      <UISearchContainer>Advanced Search</UISearchContainer>
+      <UISearchContainer>Расширенный поиск</UISearchContainer>
       <UICategoryManagerSearch>Add Category to Search</UICategoryManagerSearch>
       <UIConstraintsForm>Constraints Form</UIConstraintsForm>
       <UIViewSearchResult>View Content</UIViewSearchResult>
@@ -654,7 +654,7 @@
       <name>Name</name>
       <multiValue>Multi Value</multiValue>
       <value>Value</value>
-      <action>Action</action>
+      <action>Действие</action>
     </header>
     <label>
       <binary>Binary Data</binary>
@@ -689,7 +689,7 @@
     <action>
       <Save>#{word.save}</Save>
       <Cancel>Cancel</Cancel>
-      <Reset>Reset</Reset>
+      <Reset>Очистить</Reset>
     </action>
     <msg>
       <name-invalid>Please enter the property name.</name-invalid>
@@ -723,7 +723,7 @@
       <read>Read</read>
       <addNode>Modify</addNode>
       <remove>Remove</remove>
-      <action>Action</action>
+      <action>Действие</action>
     </header>
     <msg>
       <confirm-delete-permission>Are you sure you want to remove this permission?</confirm-delete-permission>
@@ -773,7 +773,7 @@
     <action>
       <Close>#{word.close}</Close>
       <Save>#{word.save}</Save>
-      <Reset>Reset</Reset>
+      <Reset>Очистить</Reset>
     </action>
     <msg>
       <checkbox-require>Please select at least one permission.</checkbox-require>
@@ -884,7 +884,7 @@
     <header>
       <name>#{word.name}</name>
       <path>Path</path>
-      <action>Action</action>
+      <action>Действие</action>
       <shortcutPath>Path</shortcutPath>
       <type>Type</type>
       <dateCreated>Date Created</dateCreated>
@@ -915,7 +915,7 @@
     <header>
       <name>#{word.name}</name>
       <path>Path</path>
-      <action>Action</action>
+      <action>Действие</action>
       <shortcutPath>Path</shortcutPath>
       <type>Type</type>
       <dateCreated>Date Created</dateCreated>
@@ -946,7 +946,7 @@
     <header>
       <name>#{word.name}</name>
       <path>Path</path>
-      <action>Action</action>
+      <action>Действие</action>
       <shortcutPath>Path</shortcutPath>
       <type>Type</type>
       <dateCreated>Date Created</dateCreated>
@@ -977,7 +977,7 @@
     <header>
       <name>#{word.name}</name>
       <path>Path</path>
-      <action>Action</action>
+      <action>Действие</action>
       <shortcutPath>Path</shortcutPath>
       <type>Type</type>
       <dateCreated>Date Created</dateCreated>
@@ -1010,7 +1010,7 @@
     <header>
       <name>#{word.name}</name>
       <path>Path</path>
-      <action>Action</action>
+      <action>Действие</action>
       <shortcutPath>Path</shortcutPath>
       <type>Type</type>
       <dateCreated>Date Created</dateCreated>
@@ -1080,7 +1080,7 @@
       <ConstraintOption-From>From</ConstraintOption-From>
       <ConstraintOption-To>To</ConstraintOption-To>
       <DocumentType-label>Document Type</DocumentType-label>
-      <Category-label>Category</Category-label>
+      <Category-label>Категория</Category-label>
       <created>Created</created>
       <modified>Modified</modified>
       <and>And</and>
@@ -1215,7 +1215,7 @@
       <not-found>Data not found.</not-found>
     </msg>
     <header>
-      <action>Action</action>
+      <action>Действие</action>
     </header>
   </UIResult>
   <UISaveQueryForm>
@@ -1267,7 +1267,7 @@
   -->
   <UIExportNode>
     <label>
-      <format>Format</format>
+      <format>Формат</format>
       <nodePath>Path to Export</nodePath>
       <zip>Zip</zip>
       <systemView>System View</systemView>
@@ -1342,7 +1342,7 @@
       <e_256>Add Mixin</e_256>
       <e_512>Remove Mixin</e_512>
       <e_1024>Clone</e_1024>
-      <e_2048>Update</e_2048>
+      <e_2048>Обновить</e_2048>
       <e_4096>Import</e_4096>
       <e_8192>Check in</e_8192>
       <e_16384>Check out</e_16384>
@@ -1390,7 +1390,7 @@
     <header>
       <LifecycleName>Name</LifecycleName>
       <LifecycleDesc>Description</LifecycleDesc>
-      <action>Action</action>
+      <action>Действие</action>
     </header>
     <action>
       <Cancel>Close</Cancel>
@@ -1441,7 +1441,7 @@
   -->
   <UIImportNode>
     <label>
-      <format>Format</format>
+      <format>Формат</format>
       <systemView>System View</systemView>
       <documentView>Document View</documentView>
       <upload>Upload File</upload>
@@ -1538,7 +1538,7 @@
   </UICategoryManager>
   <UICategoriesAddedList>
     <header>
-      <path>Category</path>
+      <path>Категория</path>
       <action>Actions</action>
     </header>
     <msg>
@@ -1551,15 +1551,15 @@
       </title>
     </action>
     <label>
-      <category>Category</category>
-      <actions>Action</actions>
+      <category>Категория</category>
+      <actions>Действие</actions>
       <delete>Delete</delete>
     </label>
   </UICategoriesAddedList>
   <UITreeList>
     <header>
       <name>Name</name>
-      <action>Action</action>
+      <action>Действие</action>
     </header>
     <info>
       <child-not-found>This node does not have any child nodes.</child-not-found>
@@ -1609,7 +1609,7 @@
     <header>
       <path>Path</path>
       <command>Cm</command>
-      <action>Action</action>
+      <action>Действие</action>
     </header>
     <label>
       <nocommand>There are no items in the clipboard.</nocommand>
@@ -1730,7 +1730,7 @@
   <lifecycle>Life Cycle</lifecycle>
   <triggeredaction>Triggered Action</triggeredaction>
       <instanceOf>Instance of Action Type</instanceOf>
-      <action>Action</action>
+      <action>Действие</action>
     </header>
     <msg>
       <remove-popup-first>You must close the edit pop-up before deleting this node.</remove-popup-first>
@@ -2056,7 +2056,7 @@
     <header>
       <date>Date</date>
       <newState>New State</newState>
-      <user>User</user>
+      <user>Пользователь</user>
       <description>Description</description>
       <version>Version</version>
       <visibility>Visibility</visibility>
@@ -2176,7 +2176,7 @@
   <UIDriveSelector>
     <label>
       <driveName>Drive Name</driveName>
-      <action>Action</action>
+      <action>Действие</action>
       <adddrives>Add Drives</adddrives>
     </label>
   </UIDriveSelector>
@@ -2728,7 +2728,7 @@
     <header>
       <name>Name</name>
       <relatedDocuments>Related Documents</relatedDocuments>
-      <action>Action</action>
+      <action>Действие</action>
     </header>
     <action>
       <title>
@@ -2898,7 +2898,7 @@
       <date>Date</date>
       <author>Author</author>
       <status>Status</status>
-      <action>Action</action>
+      <action>Действие</action>
       <label>Revision</label>
       <none>No revisions</none>
       <seeall>See all versions</seeall>
@@ -2954,7 +2954,7 @@
     </msg>
     <action>
       <Save>#{word.save}</Save>
-      <Reset>Reset</Reset>
+      <Reset>Очистить</Reset>
     </action>
   </UIPublicationSchedule>
 
