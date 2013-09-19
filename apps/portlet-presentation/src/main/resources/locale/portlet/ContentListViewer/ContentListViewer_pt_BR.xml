@@ -25,10 +25,10 @@
       <UICLVConfigDisplayModeFormRadioBoxInput>Mode</UICLVConfigDisplayModeFormRadioBoxInput>
       <UICLVConfigItemPathFormInputSet>Folder Path</UICLVConfigItemPathFormInputSet>
     <UICLVConfigItemPathFormStringInput>Folder Path</UICLVConfigItemPathFormStringInput>
-      <UICLVConfigOrderByFormSelectBox>Order by</UICLVConfigOrderByFormSelectBox>
+      <UICLVConfigOrderByFormSelectBox>Ordenar por</UICLVConfigOrderByFormSelectBox>
       <option>
-        <exo:title>Title</exo:title>
-        <exo:dateCreated>Created Date</exo:dateCreated>
+        <exo:title>Título</exo:title>
+        <exo:dateCreated>Data de Criação</exo:dateCreated>
         <exo:lastModifiedDate>Modified Date</exo:lastModifiedDate>
         <publication:liveDate>Published Date</publication:liveDate>
         <exo:startEvent>Event Date</exo:startEvent>
@@ -61,7 +61,7 @@
       <UICLVConfigTargetPageFormInputSet>Show in Page</UICLVConfigTargetPageFormInputSet>
       <content-not-found>Content not found.</content-not-found>
       <ContentPath>Content Path</ContentPath>
-      <Up>Up</Up>
+      <Up>Para cima</Up>
       <Down>Down</Down>
       <UICLVConfigCacheManagementLabel>Content Visibility</UICLVConfigCacheManagementLabel>
       <UICLVContentByQueryLabel>Content by Query</UICLVContentByQueryLabel>
@@ -126,7 +126,7 @@
   <UICLVConfigTargetPageFormInputSet>
     <title>
       <SelectBasePath>Select Base Path</SelectBasePath>
-      <SelectTargetPage>Select Base Path</SelectTargetPage>
+      <SelectTargetPage>Selecione o caminho de Base</SelectTargetPage>
     </title>
   </UICLVConfigTargetPageFormInputSet>
   <UICLVBasePathPopupWindow>
@@ -136,7 +136,7 @@
   </UICLVBasePathPopupWindow>
   <UICLVPresentation>
     <label>
-      <readmore>Read more</readmore>
+      <readmore>Ler mais</readmore>
       <rssFeed>RSS Feed</rssFeed>
     </label>
     <action>
