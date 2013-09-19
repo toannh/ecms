@@ -7,7 +7,7 @@
   </ContentSelector>
   <RenameConnector>
     <label>
-      <rename>Rename</rename>
+      <rename>إعادة تسمية</rename>
       <cancel>الغاء</cancel>
     </label>
     <msg>

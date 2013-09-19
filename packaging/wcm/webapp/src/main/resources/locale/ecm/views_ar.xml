@@ -201,10 +201,10 @@
   <AutoVersioning>
     <view>
       <label>
-        <isDeep>Is Deep</isDeep>
-        <nodetypes>Node Types</nodetypes>
-        <affectedNodeTypeNames>Affected Node Types</affectedNodeTypeNames>
-        <nodeTypeName>Node Type Names</nodeTypeName>
+        <isDeep>عميق</isDeep>
+        <nodetypes>أنواع العقد</nodetypes>
+        <affectedNodeTypeNames>أنواع العقد المعنية بالأمر</affectedNodeTypeNames>
+        <nodeTypeName>Node type names</nodeTypeName>
       </label> 
     </view>
   </AutoVersioning>

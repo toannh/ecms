@@ -4,7 +4,7 @@
     <title>
       <QuickEdit>تغيير في مستكشف المحتوى</QuickEdit>
       <print>طباعة هذه الصفحة</print>
-      <FastPublish>Publish</FastPublish>
+      <FastPublish>نشر</FastPublish>
     </title>
     <label>
       <draft>مسودة</draft>
@@ -42,14 +42,14 @@
       <Save>حفظ</Save>
       <Abort>الغاء</Abort>
       <Cancel>الغاء</Cancel>
-      <Print>Print</Print>
+      <Print>طباعة</Print>
       <Close>غلق</Close>
     </action>
     <title>التفاصيل الخاصة بخيارات المحتوى</title>
     <label>
       <Back>العودة إلى الصفحة السابقة</Back>
       <Edit>تغيير</Edit>
-      <Preferences>Preferences</Preferences>
+      <Preferences>تفضيلات</Preferences>
       <Title>التفاصيل الخاصة بخيارات المحتوى</Title>
       <UISCVShowTitleConfigurationCheckBox>إظهار العنوان</UISCVShowTitleConfigurationCheckBox>
       <UISCVShowDateConfigurationCheckBox>اظهار تاريخ</UISCVShowDateConfigurationCheckBox>
@@ -90,7 +90,7 @@
   <UISCVConfigItemPathFormInputSet>
     <title>
       <SelectFolderPath>حدد مسار المجلد</SelectFolderPath>
-      <AddPath>Add Path</AddPath>
+      <AddPath>اضافة مسار</AddPath>
     </title>
   </UISCVConfigItemPathFormInputSet>
   <UISCVConfigPrintPageFormInputSet>
@@ -100,15 +100,15 @@
   </UISCVConfigPrintPageFormInputSet>
   <PublicationStates>
     <archived>محفوظة</archived>
-    <obsolete>Obsolete</obsolete>
+    <obsolete>عفا عليها الزمن</obsolete>
     <unpublished>غير منشورة</unpublished>
     <enrolled>مُسَجّل</enrolled>
-    <draft>Draft</draft>
+    <draft>مسودة</draft>
     <pending>معلّقة</pending>
-    <approved>Approved</approved>
+    <approved>موافق عليه</approved>
     <inreview>قيد المراجعة</inreview>
     <staged>جاهز للنشر</staged>
-    <published>Published</published>
+    <published>تم نشره</published>
   </PublicationStates>
   <UISCVCacheRadioBox>
     <label>

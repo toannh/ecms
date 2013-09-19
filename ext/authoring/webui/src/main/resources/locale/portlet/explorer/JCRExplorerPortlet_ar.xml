@@ -8,8 +8,8 @@
   <UIActionBar>
     <tooltip>
       <PublicationRequestApproval>طلب الموافقة</PublicationRequestApproval>
-      <PublicationApproveContent>Approve Content</PublicationApproveContent>
-      <PublicationPublish>Publish</PublicationPublish>
+      <PublicationApproveContent>المصادقة على المحتوى</PublicationApproveContent>
+      <PublicationPublish>نشر</PublicationPublish>
     </tooltip>
   </UIActionBar>
 </bundle>

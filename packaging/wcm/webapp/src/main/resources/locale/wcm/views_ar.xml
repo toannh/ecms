@@ -32,10 +32,10 @@
   <SiteMetadata>
     <view>
       <label>
-        <title>Site Title</title>
-        <description>Site Description</description>
-        <keywords>Site Keywords</keywords>
-        <robots>Search Engine Behavior</robots>
+        <title>عنوان الموقع</title>
+        <description>وصف الموقع</description>
+        <keywords>كلمات البحث للموقع</keywords>
+        <robots>سلوكيات محركات البحث</robots>
       </label>
       <tooltip>
         <add-edit>إضافة/تغيير البيانات الوصفية</add-edit>
@@ -50,13 +50,13 @@
 
   <Category>
     <view>
-      <label>Category</label>
+      <label>فئة</label>
     </view>
   </Category>
 
   <Tag>
     <view>
-      <label>Tag</label>
+      <label>علامة</label>
     </view>
   </Tag>
 </bundle>

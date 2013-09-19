@@ -3,7 +3,7 @@
   <UISEOForm>
     <label>  
       <title>العنوان:</title>
-      <description>Description:</description>
+      <description>الوصف</description>
       <keywords>الكلمات المفاتيح:</keywords>
       <language>اللغة:</language>
       <robots>الروبوتات:</robots>
@@ -12,15 +12,15 @@
     <isInherited>الموروثة من الصفحة الأم</isInherited>
       <priority>الأولوية:</priority>
       <frequency>التردد:</frequency>
-      <select-language>Select a language</select-language>
+      <select-language>اختيار اللغة</select-language>
       <option>
-        <Always>Always</Always>
-        <Hourly>Hourly</Hourly>
-        <Daily>Daily</Daily>
+        <Always>دائما</Always>
+        <Hourly>كل ساعة</Hourly>
+        <Daily>يوميا</Daily>
         <Weekly>أسبوعي</Weekly>
         <Monthly>كل شهر</Monthly>
-        <Yearly>Yearly</Yearly>
-        <Never>Never</Never>
+        <Yearly>سنويا</Yearly>
+        <Never>أبدا</Never>
       </option> 
     </label>
     <tip>
