@@ -97,8 +97,8 @@
       <currentDrive>Ổ đĩa Hiện tại</currentDrive>
       <selectView>Chọn Giao diện xem</selectView>
       <showSideBar>Hiện Cây thư mục</showSideBar>
-      <more>More</more>
-      <backTo>Back</backTo>
+      <more>Thêm</more>
+      <backTo>Trở lại</backTo>
     </label>
   </UIViewBar>
 
@@ -235,7 +235,7 @@
       <UIAllItemsPreferenceForm>Thiết lập Tùy chọn</UIAllItemsPreferenceForm>
       <UISelectRestorePath>Chọn Đường dẫn Khôi phục</UISelectRestorePath>
       <UISEOForm>Quản lý SEO</UISEOForm>
-      <UISEOToolbarForm>Manage SEO</UISEOToolbarForm>
+      <UISEOToolbarForm>Quản lý SEO</UISEOToolbarForm>
     </title>
     <header>
       <workspace>Không gian làm việc</workspace>
@@ -520,7 +520,7 @@
       <confirm-deleteattachment>Bạn có chắc chắn muốn gỡ bỏ tệp đính kèm này không?</confirm-deleteattachment>
       <confirm-deleteattcomment>Bạn có chắc chắn muốn gỡ bỏ bình luận này không?</confirm-deleteattcomment>
       <access-denied-exception>Truy cập bị từ chối. Bạn có thể không có quyền đọc hoặc nút này có thể đã bị gỡ bỏ hoặc thay đổi.</access-denied-exception>
-      <path-not-found>This element was deleted or changed. Please click the Refresh button.</path-not-found>
+      <path-not-found>Thành phần này đã bị xóa hoặc thay đổi. Hãy nhấp nút Làm mới.</path-not-found>
     </msg>
     <tooltip>
       <remove-attachment>Gỡ bỏ tệp đính kèm này</remove-attachment>
@@ -1192,8 +1192,8 @@
     </label>
     <pLabel>Thuộc tính:</pLabel>
     <action>
-      <Add>Add</Add>
-      <Cancel>Cancel</Cancel>
+      <Add>Thêm</Add>
+      <Cancel>Hủy bỏ</Cancel>
     </action>
   </UISelectPropertyForm>
   <ExactlyFormPopup>
@@ -1552,7 +1552,7 @@
     </action>
     <label>
       <category>Loại</category>
-      <actions>Action</actions>
+      <actions>Tác vụ</actions>
       <delete>Xóa</delete>
     </label>
   </UICategoriesAddedList>
@@ -1741,9 +1741,9 @@
     </msg>
     <action>
       <Close>#{word.close}</Close>
-      <View>View</View>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
+      <View>Xem</View>
+      <Edit>Chỉnh sửa</Edit>
+      <Delete>Xóa</Delete>
     </action>
   </UIActionList>
   <UIActionForm>
@@ -1802,11 +1802,11 @@
       <keyword-not-support>Từ khóa không hợp lệ. Một số ký tự không được hỗ trợ.</keyword-not-support>
     </msg>
     <label>
-      <exeButton>Go</exeButton>
+      <exeButton>Chuyển</exeButton>
       <address>Địa chỉ:</address>
     </label>
     <title>
-      <exeButton>Go</exeButton>
+      <exeButton>Chuyển</exeButton>
       <backButton>Trở về nút trước</backButton>
       <showHistory>Hiện địa chỉ lược sử</showHistory>
       <changeNode>Thay đổi nút</changeNode>
@@ -2222,7 +2222,7 @@
   <UIPopupWindow>
     <title>
       <UISymLinkManager>Quản lý Symlink</UISymLinkManager>
-      <UIAddTranslationManager>Add Translation</UIAddTranslationManager>
+      <UIAddTranslationManager>Thêm bản dịch</UIAddTranslationManager>
     </title>
   </UIPopupWindow>
 
@@ -2255,7 +2255,7 @@
   
   <UIAddTranslationForm>
     <label>
-      <symLinkName>Symlink Name</symLinkName>
+      <symLinkName>Tên Symlink</symLinkName>
       <pathNode>Đường dẫn tài liệu:</pathNode>
       <note>Chọn một tài liệu khác để làm bản dịch</note>
     </label>
@@ -2266,17 +2266,17 @@
     </action>
     <msg>
       <addFolder-successful>Thêm thành công symlink '{0}'.</addFolder-successful>
-      <name-invalid>Please enter the symlink name.</name-invalid>
-      <name-not-allowed>This name is not allowed.</name-not-allowed>
-      <fileName-error>The file name is invalid.</fileName-error>
+      <name-invalid>Vui lòng nhập tên symlink.</name-invalid>
+      <name-not-allowed>Tên này không được phép.</name-not-allowed>
+      <fileName-error>Tên tệp không hợp lệ.</fileName-error>
       <constraint-violation>Không thể thêm kiểu nút '{0}' vào nút hiện tại.</constraint-violation>
       <repository-exception>Truy cập bị từ chối. Bạn không được phân quyền để thêm symlink vào nút này.</repository-exception>
       <numberformat-exception>Bạn không thể lưu thư mục này. Tên cung cấp phải ở định dạng số.</numberformat-exception>
-      <path-node-invalid>Please enter the path node.</path-node-invalid>
-      <path-node-not-allowed>This name is not allowed.</path-node-not-allowed>
+      <path-node-invalid>Vui lòng nhập đường dẫn.</path-node-invalid>
+      <path-node-not-allowed>Tên này không được phép.</path-node-not-allowed>
       <non-node>Vui lòng chọn nút đích tin cậy. có thể bạn không có quyền để đọc nút này.</non-node>
       <cannot-save>Một lỗi đã xảy ra khi đang tạo symlink.</cannot-save>
-      <item-exists-exception>The node name already exists.</item-exists-exception>
+      <item-exists-exception>Tên nút này đã tồn tại.</item-exists-exception>
       <translation-node-same-language-default>Nút dịch có cùng ngôn ngữ với ngôn ngữ mặc định của nút hiện tại.</translation-node-same-language-default>
       <UnsupportedRepositoryOperationException>Nút được liên kết không thể tham chiếu đến (có thể do bị khóa).</UnsupportedRepositoryOperationException>
     </msg>
@@ -2289,14 +2289,14 @@
   </UIPopupSymLink>
   <UIPopupSymLink>
     <title>
-      <UIContentSelectorOne>Select Document</UIContentSelectorOne>
+      <UIContentSelectorOne>Chọn Tài liệu</UIContentSelectorOne>
     </title>
   </UIPopupSymLink>
 
   <ECMContextMenu>
     <event>
       <AddSymLink>Thêm Symlink</AddSymLink>
-      <AddLocalizationLink>Add Translation</AddLocalizationLink>
+      <AddLocalizationLink>Thêm bản dịch</AddLocalizationLink>
     </event>
   </ECMContextMenu>
 
@@ -2391,9 +2391,9 @@
     <label>
       <Close>#{word.close}</Close>
       <OK>Đồng ý</OK>
-      <ReplaceData>Replace Data</ReplaceData>
-      <Back>Back to Rename</Back>
-      <Keepfile>Keep both files</Keepfile>
+      <ReplaceData>Ghi đè dữ liệu</ReplaceData>
+      <Back>Quay lại đổi tên</Back>
+      <Keepfile>Giữ cả hai tệp</Keepfile>
     </label>
   </UIRestoreConfirmMessage>
 
@@ -2621,7 +2621,7 @@
        <Video>Phim</Video>
        <Music>Âm thanh</Music>
        <Documents>Tài liệu</Documents>
-       <Content>Content</Content>
+       <Content>Nội dung</Content>
     </label>
   </DocumentType>
 
@@ -2629,9 +2629,9 @@
     <label>
       <Images>Ảnh</Images>
       <Video>Phim</Video>
-      <Music>Music</Music>
-      <Documents>Document</Documents>
-      <Content>Content</Content>
+      <Music>Âm thanh</Music>
+      <Documents>Tài liệu</Documents>
+      <Content>Nội dung</Content>
     </label>
     <title>Thiết lập hiển thị</title>
     <action>
@@ -2910,15 +2910,15 @@
       <title>Trạng thái</title>
       <archived>Đã lưu trữ</archived>
       <obsolete>Cũ</obsolete>
-      <unpublished>Unpublished</unpublished>
+      <unpublished>Chưa xuất bản</unpublished>
       <enrolled>Đã đăng ký</enrolled>
       <draft>Dự thảo</draft>
-      <pending>Pending</pending>
+      <pending>Đang chờ duyệt</pending>
       <approved>Phê duyệt</approved>
       <inreview>Đang đánh giá</inreview>
       <staged>Chờ xuất bản</staged>
-      <published>Published</published>
-      <live>Published</live>
+      <published>Xuất bản</published>
+      <live>Xuất bản</live>
     </status>
     <scheduled>
       <title>Đã xếp lịch</title>
@@ -2954,7 +2954,7 @@
     </msg>
     <action>
       <Save>#{word.save}</Save>
-      <Reset>Reset</Reset>
+      <Reset>Làm lại</Reset>
     </action>
   </UIPublicationSchedule>
 

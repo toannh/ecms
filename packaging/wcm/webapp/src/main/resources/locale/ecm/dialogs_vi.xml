@@ -14,8 +14,8 @@
         <time-interval>Khoảng Thời gian</time-interval>
         <query-items>Mục Truy vấn</query-items>
         <schedule-type>Kiểu Lịch trình</schedule-type>
-        <remove>Remove Item</remove>
-        <add>Add Item</add>
+        <remove>Xóa Mục</remove>
+        <add>Thêm Mục</add>
         <expand>Mở rộng</expand>
       </label>
     </dialog>
@@ -24,11 +24,11 @@
   <UIDocumentForm>
     <label>
       <title>#{word.title}</title>
-      <link>Link</link>
+      <link>Liên kết</link>
       <contentHtml>#{word.content}</contentHtml>
       <content>#{word.content}</content>
       <contentPlain>#{word.content}</contentPlain>
-      <name>Name</name>
+      <name>Tên</name>
     <categories>Danh mục</categories>
     </label>
   </UIDocumentForm>
@@ -65,8 +65,8 @@
       <description>#{word.description}</description>
       <port>Cổng</port>
       <userName>#{word.userName}</userName>
-      <password>Password</password>
-      <link>Link</link>
+      <password>Mật khẩu</password>
+      <link>Liên kết</link>
       <to>Gửi Thư Đến</to>
       <actionName>#{word.name}</actionName>
     </label>
@@ -74,10 +74,10 @@
   <EditFormAction>
     <label>
       <description>#{word.description}</description>
-      <port>Port</port>
+      <port>Cổng</port>
       <userName>#{word.userName}</userName>
-      <password>Password</password>
-      <link>Link</link>
+      <password>Mật khẩu</password>
+      <link>Liên kết</link>
       <to>Gửi Thư Đến</to>
       <actionName>#{word.name}</actionName>
     </label>
@@ -92,7 +92,7 @@
         <id>Mã</id>
         <name>#{word.name}</name>
         <lifecycle>Chu kỳ</lifecycle>
-        <metadata>Metadata</metadata>
+        <metadata>Siêu dữ liệu</metadata>
         <description>#{word.description}</description>
       </label>
     </dialog>
@@ -104,7 +104,7 @@
   <AutoVersioning>
     <dialog>
       <label>
-        <id>Id</id>
+        <id>Mã</id>
         <name>#{word.name}</name>
         <lifecycle>#{Ecm.dialog.label.lifecycle}</lifecycle>
         <schedule-type>#{Ecm.dialog.label.schedule-type}</schedule-type>
@@ -123,7 +123,7 @@
   <EnableVersioning>
     <dialog>
       <label>
-        <id>Id</id>
+        <id>Mã</id>
         <name>#{word.name}</name>
         <lifecycle>#{Ecm.dialog.label.lifecycle}</lifecycle>
         <schedule-type>#{Ecm.dialog.label.schedule-type}</schedule-type>
@@ -252,10 +252,10 @@
   <ResouceContainer>
     <dialog>
       <label>
-        <name>Name</name>
+        <name>Tên</name>
         <autoload>Tự động Tải</autoload>
         <minetype>Định dạng</minetype>
-        <content>Content</content>
+        <content>Nội dung</content>
       </label>
     </dialog>
   </ResouceContainer>
@@ -285,7 +285,7 @@
   <ScriptAction>
     <dialog>
       <label>
-        <id>Id</id>
+        <id>Mã</id>
         <name>Tên</name>
         <lifecycle>Chu kỳ</lifecycle>
         <homePath>Đường dẫn Nguồn</homePath>

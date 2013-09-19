@@ -45,7 +45,7 @@
       <admin-view>Quản trị</admin-view>
       <icon-view>Biểu tượng</icon-view>
       <thumbails-view>Hình nhỏ</thumbails-view>
-      <list-view>List</list-view>
+      <list-view>Danh sách</list-view>
       <authoring-view>Tác giả</authoring-view>
       <wcm-category-view>Danh mục</wcm-category-view>
       <file-view>Chế độ Quản lý Tệp</file-view>
@@ -68,7 +68,7 @@
       <child-not-found>Không có Trang nào được tìm thấy</child-not-found>
     </msg>
     <title>
-      <select>Select</select>
+      <select>Chọn</select>
     </title>
   </UIPageSelectorPanel>
 
@@ -180,7 +180,7 @@
       <Location>Tên Site</Location>
       <SearchByName>Tìm theo Tên</SearchByName>
       <Fulltext>Một từ hoặc đoạn trong ngữ cảnh</Fulltext>
-      <Property>Property</Property>
+      <Property>Thuộc tính</Property>
       <Contain>Chứa</Contain>
       <FromDate>Ngày Bắt đầu</FromDate>
       <ToDate>Ngày Kết thúc</ToDate>
@@ -222,7 +222,7 @@
     </action>
     <label>
       <metadataType>Kiểu Siêu dữ liệu</metadataType>
-      <property_select>Property</property_select>
+      <property_select>Thuộc tính</property_select>
     </label>
   </UIContentPropertySelector>
 
@@ -422,7 +422,7 @@
   </UIDocumentInfo>
   <UIPortalApplication>
     <title>
-      <abort>Abort</abort>
+      <abort>Thoát</abort>
     </title>
   </UIPortalApplication>    
   
