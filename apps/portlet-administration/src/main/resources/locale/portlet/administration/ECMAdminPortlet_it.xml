@@ -11,12 +11,12 @@
         <Templates>Template</Templates>
         <Explorer>Explorer</Explorer>
         <Repository>Repository</Repository>
-        <Advanced>Advanced</Advanced>
+        <Advanced>Avanzate</Advanced>
       </label>
     </tab>    
     <label>     
       <UITaxonomyManagerTrees>Categories</UITaxonomyManagerTrees>
-      <UIMetadataManager>Metadata</UIMetadataManager>
+      <UIMetadataManager>Vedi Metadati</UIMetadataManager>
       <UINamespaceManager>Namespaces</UINamespaceManager>
       <UINodeTypeManager>Node Types</UINodeTypeManager>
       <UITemplatesManager>Documenti</UITemplatesManager>
@@ -27,7 +27,7 @@
       <UIActionManager>Actions</UIActionManager>
       <UIScriptManager>Script</UIScriptManager>
       <UIUnLockManager>Gestisci Blocchi</UIUnLockManager>
-      <UIFolksonomyManager>Tags</UIFolksonomyManager>      
+      <UIFolksonomyManager>Tag Pubblici</UIFolksonomyManager>      
     </label>
     <msg>
       <access-denied>Accesso negato. Non hai il permesso di eseguire questa funzione.</access-denied>
@@ -154,7 +154,7 @@
   <UIActionForm>
     <title>Aggiungi un'azione per l'albero delle categorie</title>
     <action>
-      <Save>Save</Save>
+      <Save>Salva</Save>
     </action>
     <msg>
       <name-not-allowed>Nome vietato.</name-not-allowed>
@@ -242,7 +242,7 @@
     </title>
     <header>
       <icon>Icona</icon>
-      <name>Metadata</name>
+      <name>Vedi Metadati</name>
       <type>Type</type>
       <internalUse>Uso interno</internalUse>
       <action>Action</action>
@@ -400,7 +400,7 @@
       <showHiddenNode>Mostra Nodi Nascosti</showHiddenNode>
       <allowCreateFolders>Consentire la creazione di cartelle:</allowCreateFolders>
       <Admin>Admin:</Admin>
-      <Categories>Categories:</Categories>
+      <Categories>Categorie:</Categories>
       <Icons>Icone:</Icons>
       <List>Elenco:</List>
       <Web>Web:</Web>
@@ -460,7 +460,7 @@
     <header>
       <icon>Icona</icon>
       <nodeType>Tipo Nodo</nodeType>
-      <mixinType>Mixin Type</mixinType>
+      <mixinType>Tipo Mixin</mixinType>
       <orderable>Nodi Figlio Ordinabile</orderable>
       <action>Azione</action>
     </header>
@@ -779,25 +779,25 @@
     <title>
       <UIViewContainer>Viste</UIViewContainer>
       <ECMTemplate>Template ECM</ECMTemplate>
-      <UIScriptForm>Scripts</UIScriptForm>
+      <UIScriptForm>Script</UIScriptForm>
       <UIDialogTab>Dialogo</UIDialogTab>
       <UIViewTab>Vista</UIViewTab>
       <UITemplateEditForm>Template</UITemplateEditForm>
       <UITemplateForm>Template</UITemplateForm>
-      <UITemplateContainer>Documents</UITemplateContainer>
+      <UITemplateContainer>Documenti</UITemplateContainer>
       <UIActionsTemplateContainer>Actions</UIActionsTemplateContainer>
       <UIOthersTemplateContainer>Others</UIOthersTemplateContainer>
-  <UIActionScriptContainer>Action</UIActionScriptContainer>
+  <UIActionScriptContainer>Azione</UIActionScriptContainer>
   <UIWidgetScriptContainer>Widgets</UIWidgetScriptContainer>
 <UIInterceptorScriptContainer>Interceptors</UIInterceptorScriptContainer>
 
-<nodeTypeDefinition>Node Type</nodeTypeDefinition>
-      <propertyDefinition>Property</propertyDefinition>
-      <childNodeDefinition>Child Node</childNodeDefinition>
-      <SuperTypeTab>Super Types</SuperTypeTab>
-      <DefaultTypeTab>Default Primary</DefaultTypeTab>
-      <RequiredTypeTab>Required Primary</RequiredTypeTab>
-      <Contraints>Constraints</Contraints>
+<nodeTypeDefinition>Tipo Nodo</nodeTypeDefinition>
+      <propertyDefinition>ProprietÃ </propertyDefinition>
+      <childNodeDefinition>Nodo Figlio</childNodeDefinition>
+      <SuperTypeTab>Super Tipi</SuperTypeTab>
+      <DefaultTypeTab>Primary Predefinita</DefaultTypeTab>
+      <RequiredTypeTab>Primary Richiesta</RequiredTypeTab>
+      <Contraints>Costanti</Contraints>
     </title>
   </UITabPane>
   <!--
@@ -808,7 +808,7 @@
   <UIViewList>
    <title>
      <View>View</View>
-     <EditInfo>Edit</EditInfo>
+     <EditInfo>Modifica</EditInfo>
      <Delete>Delete</Delete>
    </title>
     <header>
@@ -866,7 +866,7 @@
 <UIViewPermissionList>
  <title>Selezionare proprietario con autorizzazioni su questo punto di vista:</title>
 <label>
- <permission>{0} in {1}</permission>
+ <permission>{0} in {1}.</permission>
 </label>
 <msg>
  <confirm-delete>Sei sicuro di voler eliminare questo permesso?</confirm-delete>
@@ -876,8 +876,8 @@
 
 <UIViewPermissionList>
  <header>
-<friendlyPermission>Permissions</friendlyPermission>
-     <action>Action</action>
+<friendlyPermission>Vedi Permessi</friendlyPermission>
+     <action>Azione</action>
  </header>
 <action>
  <title>
@@ -896,7 +896,7 @@
  <Add>Add</Add>
 </action>
 <label>
- <userOrGroup>User or Group</userOrGroup>
+ <userOrGroup>Utente O Gruppo</userOrGroup>
 </label>
 <msg>
  <permission-exist>The permission '{0}' already exists in the list.</permission-exist>
@@ -924,7 +924,7 @@
     <label>
       <viewName>Name</viewName>
       <template>Template</template>
-<version>Restore Version</version>
+<version>Ripristina Versione</version>
       <enableVersion>Abilita Versione</enableVersion>
       <hideExplorerPanel>Nascondi Pannello explorer nella barra laterale</hideExplorerPanel>
     </label>
@@ -936,47 +936,47 @@
       <fileName-invalid>Il nome tab contiene caratteri non validi.</fileName-invalid>
     </msg>
     <label>
-      <version>Restore Version</version>
+      <version>Ripristina Versione</version>
       <viewName>Name</viewName>
       <tabName>Nome della scheda</tabName>
       <permission>Permission</permission>
       <tabs>Schede</tabs>
-      <template>Templates</template>
+      <template>Template</template>
       <enableVersion>Abilita Versione</enableVersion>
       <addFolder>Aggiungi Cartella</addFolder>
       <addDocument>Aggiungi Documento</addDocument>
-      <editDocument>Edit Document</editDocument>
-      <upload>Upload</upload>
-      <paste>Paste</paste>
+      <editDocument>Modifica Documento</editDocument>
+      <upload>Carica File</upload>
+      <paste>Incolla</paste>
       <search>Search</search>
       <viewReferences>Visualizza Referenze</viewReferences>
       <viewNodeType>Visualizza Tipo Nodo</viewNodeType>
       <viewPermissions>Visualizza Permessi</viewPermissions>
-      <viewProperties>View Properties</viewProperties>
+      <viewProperties>Visualizza ProprietÃ </viewProperties>
       <manageVersions>Gestisci versioni</manageVersions>
       <manageAuditing>Gestione Revisioni</manageAuditing>
-      <managePublications>Manage Publication</managePublications>
+      <managePublications>Gestione Pubblicazioni</managePublications>
       <manageCategories>Manage Categories</manageCategories>
       <manageRelations>Manage Relations</manageRelations>
-      <manageActions>Manage Actions</manageActions>
-      <exportNode>Export Node</exportNode>
-      <importNode>Import Node</importNode>
+      <manageActions>Gestisci Azioni</manageActions>
+      <exportNode>Esporta Nodo</exportNode>
+      <importNode>Importa Nodo</importNode>
       <viewRelations>View Relations</viewRelations>
       <showJCRStructure>Show JCR Structure</showJCRStructure>
-      <watchDocument>Watch Document</watchDocument>
-      <taggingDocument>Tag Document</taggingDocument>
-      <viewMetadatas>View Metadata</viewMetadatas>
-      <overloadThumbnail>Overload Thumbnail</overloadThumbnail>
+      <watchDocument>Controlla Documento</watchDocument>
+      <taggingDocument>Tagga Documento</taggingDocument>
+      <viewMetadatas>Visualizza Metadati</viewMetadatas>
+      <overloadThumbnail>Carica Anteprima</overloadThumbnail>
       <manageHidden>Hide/Show Content</manageHidden>
       <comment>Comment</comment>
-      <vote>Vote</vote>  
-      <addCategory>Add Category</addCategory>
-      <addLocalizationLink>Add Translation</addLocalizationLink>
+      <vote>Vota Documento</vote>  
+      <addCategory>Aggiungi Categoria</addCategory>
+      <addLocalizationLink>Aggiungi Traduzione</addLocalizationLink>
       <publicationRequestApproval>Request Approval</publicationRequestApproval>
       <publicationApproveContent>Approve Content</publicationApproveContent>
       <publicationPublish>Publish</publicationPublish>
 <contentNavigation>Navigazione Contenuti</contentNavigation>
-<addSymLink>Add Symlink</addSymLink>
+<addSymLink>Aggiungi Collegamento Simbolico</addSymLink>
     </label>
     <action>
       <Save>#{word.save}</Save>      
@@ -991,7 +991,7 @@
   <UIViewFormTabPane>
     <tab>
       <label>
-        <UITabContainer>Action</UITabContainer>
+        <UITabContainer>Azione</UITabContainer>
         <UIViewForm>View</UIViewForm>
         <UIViewPermissionContainer>Permission</UIViewPermissionContainer>    
       </label>
@@ -1018,8 +1018,8 @@
 
 <tab_permission>
  <title>
-  <SelectUser>Select User</SelectUser>
-<SelectMember>Select Member</SelectMember>
+  <SelectUser>Seleziona Utente</SelectUser>
+<SelectMember>Seleziona Membro</SelectMember>
 <AddAny>Qualsiasi</AddAny>
  </title>
 </tab_permission>
@@ -1031,7 +1031,7 @@
   <UIECMTemplateList>
     <title>
       <View>View</View>
-      <EditInfo>Edit</EditInfo>
+      <EditInfo>Modifica</EditInfo>
       <Delete>Delete</Delete>
     </title>
     <header>
@@ -1196,10 +1196,10 @@
   </ScriptContainerPopup>
   <UIScriptForm>
     <label>
-      <selectVersion>Versions</selectVersion>
-      <scriptContent>Content</scriptContent>
+      <selectVersion>Gestisci Versioni</selectVersion>
+      <scriptContent>Contenuto</scriptContent>
       <scriptLabel>Name</scriptLabel>
-      <scriptName>Script</scriptName>
+      <scriptName>Nome</scriptName>
       <enableVersion>Abilitare il controllo delle versioni</enableVersion>
     </label>
   </UIScriptForm>
@@ -1230,7 +1230,7 @@
     </action>
     <title>Aggiungi Categoria</title>
     <label>
-      <taxonomyName>Category Name</taxonomyName>
+      <taxonomyName>Nome Categoria</taxonomyName>
       <parentPath>Percorso Padre</parentPath>
     </label>
     <msg>
@@ -1501,7 +1501,7 @@
       <name>Nome Template</name>
       <action>Azione</action>
       <label>Template</label>
-      <icon>Icon</icon>
+      <icon>Icona</icon>
     </header>
     <action>
       <AddNew>Aggiungi</AddNew>
@@ -1517,15 +1517,15 @@
   <UIActionsTemplateList>
     <header>
       <name>Template Name</name>
-      <action>Action</action>
+      <action>Azione</action>
       <label>Template</label>
-      <icon>Icon</icon>
+      <icon>Icona</icon>
     </header>
     <action>
-      <AddNew>Add Template</AddNew>
+      <AddNew>Aggiungi Template</AddNew>
     </action>
     <msg>
-      <confirm-delete>Do you really want to delete?</confirm-delete>
+      <confirm-delete>Vuoi davvero eliminare?</confirm-delete>
       <access-denied>Access denied! You haven't got permission to use this function.</access-denied>
       <editing-template>Access denied! You can't delete and edit template simultaneously.</editing-template>
       <template-not-exist>The template that you attempt to delete doesn't exist.</template-not-exist>
@@ -1536,14 +1536,14 @@
     <header>
       <name>Template Name</name>
       <label>Template</label>
-      <icon>Icon</icon>
-      <action>Action</action>
+      <icon>Icona</icon>
+      <action>Azione</action>
     </header>
     <action>
-      <AddNew>Add Template</AddNew>
+      <AddNew>Aggiungi Template</AddNew>
     </action>
     <msg>
-      <confirm-delete>Do you really want to delete?</confirm-delete>
+      <confirm-delete>Vuoi davvero eliminare?</confirm-delete>
       <access-denied>Access denied! You haven't got permission to use this function.</access-denied>
       <editing-template>Access denied! You can't delete and edit template simultaneously.</editing-template>
       <template-not-exist>The template that you attempt to delete doesn't exist.</template-not-exist>
@@ -1558,7 +1558,7 @@
 
 <UITabPane>
  <title>
- <ContentTemplateContainer>Content</ContentTemplateContainer>
+ <ContentTemplateContainer>Contenuto</ContentTemplateContainer>
 <CateTemplateContainer>Navigation</CateTemplateContainer>
 <PageTemplateContainer>Paginator</PageTemplateContainer>
  </title>
@@ -1567,18 +1567,18 @@
   <UICLVTemplateList>
     <header>
       <title>Name</title>
-      <action>Action</action>
+      <action>Azione</action>
       <template>Template</template>
     </header>
     <action>
-      <AddTemplate>Add Template</AddTemplate>
-<Edit>Edit</Edit>
+      <AddTemplate>Aggiungi Template</AddTemplate>
+<Edit>Modifica</Edit>
 <Delete>Delete</Delete>
     </action>
     <msg>
-      <confirm-delete>Are you sure you want to delete this template?</confirm-delete>
-      <access-denied>Access denied. You do not have permission to use this function.</access-denied>
-      <editing-template>Access denied. You cannot delete and edit this template simultaneously.</editing-template>
+      <confirm-delete>Sei sicuro di voler eliminare questo template?</confirm-delete>
+      <access-denied>Accesso negato. Non hai il permesso di usare questa funzione.</access-denied>
+      <editing-template>Access denied! You can't delete and edit template simultaneously.</editing-template>
       <template-not-exist>The template that you are trying to delete doesn't exist.</template-not-exist>
     </msg>
   </UICLVTemplateList>
@@ -1586,12 +1586,12 @@
 <CateTemplateList>
     <header>
       <title>Name</title>
-      <action>Action</action>
+      <action>Azione</action>
       <template>Template</template>
     </header>
     <action>
-      <AddTemplate>Add Template</AddTemplate>
-<Edit>Edit</Edit>
+      <AddTemplate>Aggiungi Template</AddTemplate>
+<Edit>Modifica</Edit>
 <Delete>Delete</Delete>
     </action>
 </CateTemplateList>
@@ -1599,12 +1599,12 @@
 <PageTemplateList>
     <header>
       <title>Name</title>
-      <action>Action</action>
+      <action>Azione</action>
       <template>Template</template>
     </header>
     <action>
-      <AddTemplate>Add Template</AddTemplate>
-<Edit>Edit</Edit>
+      <AddTemplate>Aggiungi Template</AddTemplate>
+<Edit>Modifica</Edit>
 <Delete>Delete</Delete>
     </action>
 </PageTemplateList>
@@ -1653,8 +1653,8 @@
  </action>
 <label>
  <title>Name</title>
-<template>Template Name</template>
-<content>Content</content>
+<template>Nome Template</template>
+<content>Contenuto</content>
 <type>Template Type</type>
 </label>
 </UICLVTemplateForm_ContentTemplateContainer>
@@ -1667,8 +1667,8 @@
  </action>
 <label>
  <title>Name</title>
-<template>Template Name</template>
-<content>Content</content>
+<template>Nome Template</template>
+<content>Contenuto</content>
 <type>Template Type</type>
 </label>
 </UICLVTemplateForm_PageTemplateContainer>
@@ -1681,15 +1681,15 @@
  </action>
 <label>
  <title>Name</title>
-<template>Template Name</template>
-<content>Content</content>
+<template>Nome Template</template>
+<content>Contenuto</content>
 <type>Template Type</type>
 </label>
 </UICLVTemplateForm_CateTemplateContainer>
 <UICLVTemplateForm>
   <label>
     <paginators>Paginatore</paginators>
-<list>Content</list>
+<list>Contenuto</list>
 <navigation>Navigazione</navigation>
   </label>
   <msg>
@@ -1709,7 +1709,7 @@
   </AddNewTemplatePermission>
   <TemplatePermission>
     <title>
-      <UIPermissionSelector>Select Permission</UIPermissionSelector>
+      <UIPermissionSelector>Seleziona il permesso</UIPermissionSelector>
     </title>
   </TemplatePermission>
   <TemplateContainerPopup>
@@ -1739,7 +1739,7 @@
       <name>Nome</name>
       <isDocumentTemplate>è Template Documento</isDocumentTemplate>
       <viewPermission>Permesso</viewPermission>
-      <enableVersion>Enable Versioning</enableVersion>
+      <enableVersion>Abilitare il controllo delle versioni</enableVersion>
     </label>
     <title>Aggiungi/Modifica Dialogo</title>
   </DialogForm>
@@ -1910,11 +1910,11 @@
   </UIQueriesList>
   <UIQueriesForm>
     <label>
-      <name>Query Name</name>
+      <name>Nome Query</name>
       <type>Tipo di query</type>
-      <statement>Statement</statement>
+      <statement>Dichiarazione</statement>
       <cache>Abilita risultati Cache</cache>
-      <permissions>Permissions</permissions>
+      <permissions>Vedi Permessi</permissions>
       <PermissionButton>UIQueriesForm</PermissionButton>
     </label>
     <action>
@@ -1941,7 +1941,7 @@
   </EditQueryForm>
 <PermissionPopup>
   <title>
-    <UIGroupMemberSelector>Select Permission</UIGroupMemberSelector>
+    <UIGroupMemberSelector>Seleziona il permesso</UIGroupMemberSelector>
   </title>
 </PermissionPopup>
   <!--
@@ -2081,7 +2081,7 @@
       <Delete>Elimina</Delete>
     </title>
 <label>
-  <permission>{0} in {1}</permission>
+  <permission>{0} in {1}.</permission>
 </label>
   </UIViewContainer>
   <ECMTemplate>
@@ -2109,8 +2109,8 @@
   <UIDrivePermissionSelector>
     <label>
       <selectGroup>Select Group</selectGroup>
-      <selectUser>Select User</selectUser>
-      <selectMembership>Select Membership</selectMembership>
+      <selectUser>Seleziona Utente</selectUser>
+      <selectMembership>Seleziona Membership</selectMembership>
     </label>
   </UIDrivePermissionSelector>
   
@@ -2130,13 +2130,13 @@
   
   <UIMDriveAnyPermission>
     <label>
-      <anyPermission>Any Permission</anyPermission>
+      <anyPermission>Tutti i permessi</anyPermission>
     </label>
   </UIMDriveAnyPermission>
   
   <UIQueriesAnyPermission>
     <label>
-      <anyPermission>Any Permission</anyPermission>
+      <anyPermission>Tutti i permessi</anyPermission>
     </label>
   </UIQueriesAnyPermission>
   
@@ -2351,7 +2351,7 @@
       <name>Nome</name>
       <isDocumentTemplate>è Template del Documento</isDocumentTemplate>
       <viewPermission>Permesso</viewPermission>
-      <enableVersion>Enable Versioning</enableVersion>
+      <enableVersion>Abilitare il controllo delle versioni</enableVersion>
     </label>
     <title>Aggiungi/Modifica Skin</title>
   </SkinForm>
@@ -2408,14 +2408,14 @@
 
   <UITabPane>
     <title>
-      <UITagManager>Tag Manager</UITagManager>
+      <UITagManager>Manager Tag</UITagManager>
       <UITagPermissionManager>Manager Permessi Tag</UITagPermissionManager>
     </title>
   </UITabPane>
   
   <UITagPermissionInfo>
     <header>
-      <usersOrGroups>User or Group</usersOrGroups>
+      <usersOrGroups>Utente O Gruppo</usersOrGroups>
       <action>Azione</action>
     </header>
     <action>

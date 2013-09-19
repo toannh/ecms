@@ -98,7 +98,7 @@
       <selectView>Seleziona Vista</selectView>
       <showSideBar>Mostra Sidebar</showSideBar>
       <more>More</more>
-      <backTo>Back</backTo>
+      <backTo>Indietro</backTo>
     </label>
   </UIViewBar>
 
@@ -424,7 +424,7 @@
   -->
   <UIWorkingArea>
     <title>
-      <Icon>Icon</Icon>
+      <Icon>Icona</Icon>
     </title>
     <msg>
       <!-- Delte one node is not in trash and have no relation -->
@@ -1271,7 +1271,7 @@
       <nodePath>Percorso da esportare</nodePath>
       <zip>Zip</zip>
       <systemView>System View</systemView>
-      <documentView>Document View</documentView>
+      <documentView>Vista Documento</documentView>
     </label>
     <action>
       <Cancel>#{word.cancel}</Cancel>
@@ -1443,7 +1443,7 @@
     <label>
       <format>Formato</format>
       <systemView>System View</systemView>
-      <documentView>Document View</documentView>
+      <documentView>Vista Documento</documentView>
       <upload>Carica File</upload>
     </label>
     <action>
@@ -1552,7 +1552,7 @@
     </action>
     <label>
       <category>Categoria</category>
-      <actions>Action</actions>
+      <actions>Azione</actions>
       <delete>Elimina</delete>
     </label>
   </UICategoriesAddedList>
@@ -2222,7 +2222,7 @@
   <UIPopupWindow>
     <title>
       <UISymLinkManager>Gestore Collegamenti Simbolici</UISymLinkManager>
-      <UIAddTranslationManager>Add Translation</UIAddTranslationManager>
+      <UIAddTranslationManager>Aggiungi Traduzione</UIAddTranslationManager>
     </title>
   </UIPopupWindow>
 
@@ -2255,7 +2255,7 @@
   
   <UIAddTranslationForm>
     <label>
-      <symLinkName>Symlink Name</symLinkName>
+      <symLinkName>Nome Collegamento Simbolico</symLinkName>
       <pathNode>Document Path:</pathNode>
       <note>Select another document that will serve as the translation</note>
     </label>
@@ -2266,19 +2266,19 @@
     </action>
     <msg>
       <addFolder-successful>The symlink '{0}' is added successfully.</addFolder-successful>
-      <name-invalid>Please enter the symlink name.</name-invalid>
-      <name-not-allowed>This name is not allowed.</name-not-allowed>
-      <fileName-error>The file name is invalid.</fileName-error>
-      <constraint-violation>You cannot add the'{0}' node type to the current node.</constraint-violation>
-      <repository-exception>Access denied. You do not have permission to add symlink to this node.</repository-exception>
-      <numberformat-exception>You cannot save this folder. The name provided must be in numerical format.</numberformat-exception>
-      <path-node-invalid>Please enter the path node.</path-node-invalid>
-      <path-node-not-allowed>This name is not allowed.</path-node-not-allowed>
-      <non-node>Please select the trust target node; you may not have the right to read this node.</non-node>
+      <name-invalid>Inserisci il nome collegamento.</name-invalid>
+      <name-not-allowed>Nome non autorizzato.</name-not-allowed>
+      <fileName-error>Nome file non valido.</fileName-error>
+      <constraint-violation>Impossibila aggiungere il tipo di nodo '{0}' al nodo attuale.</constraint-violation>
+      <repository-exception>Accesso negato! Non hai il permesso di aggiungere collegamenti simbolici a questo nodo.</repository-exception>
+      <numberformat-exception>Impossibile salvare questa cartella. Il nome fornito deve essere in formato numerico.</numberformat-exception>
+      <path-node-invalid>Inserisci il percorso del nodo.</path-node-invalid>
+      <path-node-not-allowed>Nome non autorizzato.</path-node-not-allowed>
+      <non-node>Selezionare il nodo di destinazione autorizzato; o non hai permessi di leggere questo nodo.</non-node>
       <cannot-save>An error occurred while creating the symlink.</cannot-save>
-      <item-exists-exception>The node name already exists.</item-exists-exception>
+      <item-exists-exception>Il nome nodo esiste giÃ .</item-exists-exception>
       <translation-node-same-language-default>The translation node has the same language as the default language of current node.</translation-node-same-language-default>
-      <UnsupportedRepositoryOperationException>This target node is not referred.</UnsupportedRepositoryOperationException>
+      <UnsupportedRepositoryOperationException>Quesot nodo destinazione non Ãš referenziato.</UnsupportedRepositoryOperationException>
     </msg>
   </UIAddTranslationForm>
 
@@ -2445,7 +2445,7 @@
 
   <Import>
     <label>
-      <docview>Document View</docview>
+      <docview>Vista Documento</docview>
       <sysview>System View</sysview>
     </label>
   </Import>
@@ -2621,7 +2621,7 @@
        <Video>Video</Video>
        <Music>Musica</Music>
        <Documents>Documento</Documents>
-       <Content>Content</Content>
+       <Content>Contenuto</Content>
     </label>
   </DocumentType>
 
@@ -2631,7 +2631,7 @@
       <Video>Video</Video>
       <Music>Musica</Music>
       <Documents>Documento</Documents>
-      <Content>Content</Content>
+      <Content>Contenuto</Content>
     </label>
     <title>Imposta Preferenze Filtro</title>
     <action>
@@ -2762,7 +2762,7 @@
 
   <TagPopup>
     <title>
-      <UITagForm>Tag</UITagForm>
+      <UITagForm>Tagga Documento</UITagForm>
     </title>
   </TagPopup>
 
@@ -3098,7 +3098,7 @@
     <MaxFileSize>Maximal file size is</MaxFileSize>
     <InvalidCharacters>Invalid characters will be changed by '-'</InvalidCharacters>
     <DropFileMessage>Drop your files here in the current folder</DropFileMessage>
-    <Close>Close</Close>
+    <Close>Chiuso</Close>
     <in>in</in>
     <MaxFileSizeAlert>The file size exceeds the size limit of</MaxFileSizeAlert>
     <Waiting>Waiting</Waiting>
@@ -3108,7 +3108,7 @@
     <Keep>Keep both</Keep>
     <Replace>Replace</Replace>
     <Canceled>Canceled</Canceled>
-    <Cancel>Cancel</Cancel>
+    <Cancel>Annulla</Cancel>
     <AbortAllConfirmation>Do you want to abort all files in progress?</AbortAllConfirmation>
   </label>
   </UIMultiUpload>
@@ -3123,9 +3123,9 @@
   <FileView>
     <label>
       <name>Name</name>
-      <date>Date</date>
+      <date>Data</date>
       <size>Size</size>
-      <sortBy>Sort by:</sortBy>
+      <sortBy>Ordina per</sortBy>
       <filesAreSelected>files are selected.</filesAreSelected>
       <ClearSelection>Clear selection</ClearSelection>
       <more>More</more>

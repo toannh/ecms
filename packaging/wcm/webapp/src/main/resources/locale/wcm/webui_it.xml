@@ -61,14 +61,14 @@
 
   <UIPageSelectorPanel>
     <header>
-      <path>Path</path>
+      <path>Percorso</path>
       <action>Azione</action>
     </header>
     <msg>
       <child-not-found>Nessuna Pagina Trovata.</child-not-found>
     </msg>
     <title>
-      <select>Select</select>
+      <select>Seleziona</select>
     </title>
   </UIPageSelectorPanel>
 
@@ -187,8 +187,8 @@
       <DocumentType>Tipo Documento</DocumentType>
     </title>
     <tooltip>
-      <AddMetadataType>Add Property</AddMetadataType>
-      <AddNodeType>Add Node Type</AddNodeType>
+      <AddMetadataType>Aggiungi proprietÃ </AddMetadataType>
+      <AddNodeType>Aggiungi tipo di nodo</AddNodeType>
     </tooltip>    
     <label>
       <option>
@@ -422,7 +422,7 @@
   </UIDocumentInfo>
   <UIPortalApplication>
     <title>
-      <abort>Abort</abort>
+      <abort>Abbandona</abort>
     </title>
   </UIPortalApplication>    
   

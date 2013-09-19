@@ -7,8 +7,8 @@
   </ContentSelector>
   <RenameConnector>
     <label>
-      <rename>Rename</rename>
-      <cancel>Cancel</cancel>
+      <rename>Rinomina</rename>
+      <cancel>Annulla</cancel>
     </label>
     <msg>
       <renaming>Renaming...</renaming>

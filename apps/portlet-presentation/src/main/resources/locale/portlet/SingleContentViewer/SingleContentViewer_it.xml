@@ -57,7 +57,7 @@
       <DisplaySettingBlock>Impostazioni di Visualizzazione</DisplaySettingBlock>
       <ContentPathBlock>Seleziona Contenuto</ContentPathBlock>
       <UISCVConfigItemPathFormInputSet>Percorso Contenuto</UISCVConfigItemPathFormInputSet>
-    <UISCVContentPathConfigurationInputBox>Content Path</UISCVContentPathConfigurationInputBox>
+    <UISCVContentPathConfigurationInputBox>Percorso Contenuto</UISCVContentPathConfigurationInputBox>
       <Advance>Avanzate</Advance>
       <ContextCaption>Navigazione Dinamica</ContextCaption>
       <UISCVContextualRadioBox>Contenuto Contestuale</UISCVContextualRadioBox>
@@ -80,17 +80,17 @@
     </msg>
     <tab>
       <label>
-        <UISCVConfigContentFormInputSet>Content Selection</UISCVConfigContentFormInputSet>
-        <UISCVConfigDisplayFormInputSet>Display Settings</UISCVConfigDisplayFormInputSet>
-        <UISCVConfigPrintFormInputSet>Print Settings</UISCVConfigPrintFormInputSet>
-        <UISCVConfigAdvancedFormInputSet>Advanced</UISCVConfigAdvancedFormInputSet>
+        <UISCVConfigContentFormInputSet>Seleziona Contenuto</UISCVConfigContentFormInputSet>
+        <UISCVConfigDisplayFormInputSet>Impostazioni di Visualizzazione</UISCVConfigDisplayFormInputSet>
+        <UISCVConfigPrintFormInputSet>Impostazioni di Stampa</UISCVConfigPrintFormInputSet>
+        <UISCVConfigAdvancedFormInputSet>Avanzate</UISCVConfigAdvancedFormInputSet>
       </label>
     </tab>
   </UISCVPreferences>
   <UISCVConfigItemPathFormInputSet>
     <title>
       <SelectFolderPath>Seleziona Percorso Cartella</SelectFolderPath>
-      <AddPath>Add Path</AddPath>
+      <AddPath>Aggiungi Percorso</AddPath>
     </title>
   </UISCVConfigItemPathFormInputSet>
   <UISCVConfigPrintPageFormInputSet>
