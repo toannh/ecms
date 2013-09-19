@@ -60,13 +60,13 @@
 
   <UIFCCActionList>
     <header>
-      <name>Name</name>
-      <description>Description</description>
+      <name>Namn</name>
+      <description>Beskrivning</description>
       <instanceOf>Förekomst av</instanceOf>
-      <action>Action</action>
+      <action>Åtgärd</action>
     </header>
     <action>
-      <Add>Add</Add>
+      <Add>Lägg till</Add>
     </action>
     <msg>
       <empty>Inga åtgärder</empty>
@@ -103,14 +103,14 @@
       <child-not-found>Den här noden har inte underordnade noder.</child-not-found>
     </info>
     <header>
-      <name>Name</name>
-      <action>Action</action>
+      <name>Namn</name>
+      <action>Åtgärd</action>
     </header>
   </UITreeList>
 
   <UIFCCActionPopupWindow>
     <title>
-      <UIFCCActionContainer>Add Action</UIFCCActionContainer>
+      <UIFCCActionContainer>Lägg till åtgärd</UIFCCActionContainer>
     </title>
   </UIFCCActionPopupWindow>
 
@@ -141,7 +141,7 @@
       <actionType>Skapa en åtgärd av typen</actionType>
     </label>
     <msg>
-      <not-support>Cannot load the template of '{0}'.</not-support>
+      <not-support>Kan inte ladda mallen {0}.</not-support>
       <do-not-permission>Du har inte behörighet att ladda mallen {0}.</do-not-permission>
     </msg>
   </UIFCCActionTypeForm>
@@ -162,8 +162,8 @@
 
   <UITabPane>
     <title>
-      <UICategoriesSelectPanel>Select Categories</UICategoriesSelectPanel>
-      <UISelectedCategoriesGrid>Referenced Categories</UISelectedCategoriesGrid>
+      <UICategoriesSelectPanel>Välj kategorier</UICategoriesSelectPanel>
+      <UISelectedCategoriesGrid>Refererade kategorier</UISelectedCategoriesGrid>
     </title>
   </UITabPane>
 

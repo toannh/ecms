@@ -23,12 +23,12 @@
     <view>
       <label>
         <postedBy>Senaste kommentar postat av</postedBy>
-        <at>at</at>
+        <at>på</at>
         <comments>Kommentar (er)</comments>
         <show-comments>Visa kommentarer</show-comments>
         <hide-comments>Dölja kommentarer</hide-comments>
         <comment-by>Kommenterad av</comment-by>
-        <email>Email</email>
+        <email>E-post</email>
         <site>Webbplats</site>
       </label>
     </view>
@@ -83,12 +83,12 @@
   <ListView>
     <view>
       <label>
-        <name>Name</name>
-        <versionable>Versionable</versionable>
-        <exo_owner>Owner</exo_owner>
-        <exo_dateCreated>Date Created</exo_dateCreated>
+        <name>Namn</name>
+        <versionable>Tillämpningsbara</versionable>
+        <exo_owner>Ägare</exo_owner>
+        <exo_dateCreated>Datum skapad</exo_dateCreated>
         <exo_dateModified>Ändringsdatum</exo_dateModified>
-        <auditing>Auditing</auditing>
+        <auditing>Revision</auditing>
       </label>
     </view>
   </ListView>
@@ -102,7 +102,7 @@
         <action-name>Åtgärdens namn</action-name>
         <lifecycle>Livscykel</lifecycle>
         <metadata>Metadata</metadata>
-        <description>Description</description>
+        <description>Beskrivning</description>
       </label>
     </view>
   </AddMetadata>
@@ -113,9 +113,9 @@
   <AutoVersioning>
     <view>
       <label>
-        <action-name>Action Name</action-name>
-        <lifecycle>Lifecycle</lifecycle>
-        <description>Description</description>
+        <action-name>Åtgärdens namn</action-name>
+        <lifecycle>Livscykel</lifecycle>
+        <description>Beskrivning</description>
       </label>
     </view>
   </AutoVersioning>
@@ -125,9 +125,9 @@
   <EnableVersioning>
     <view>
       <label>
-        <action-name>Name</action-name>
-        <lifecycle>Lifecycle</lifecycle>
-        <description>Description</description>
+        <action-name>Namn</action-name>
+        <lifecycle>Livscykel</lifecycle>
+        <description>Beskrivning</description>
       </label>
     </view>
   </EnableVersioning>
@@ -138,15 +138,15 @@
     <view>
       <label>
         <not-avaliable>N/A</not-avaliable>
-        <title>Title</title>
-        <creator>Creator</creator>
-        <subject>Subject</subject>
-        <source>Source</source>
+        <title>Titel</title>
+        <creator>Skapare</creator>
+        <subject>Subjekt</subject>
+        <source>Källa</source>
         <contributor>Bidragsgivare</contributor>
         <resource-type>Resurstyp</resource-type>
-        <date>Date</date>
+        <date>Datum</date>
         <publisher>Utgivare</publisher>
-        <description>Description</description>
+        <description>Beskrivning</description>
         <rights>Rättigheter</rights>
         <relation>Relation</relation>
         <format>Format</format>
@@ -155,11 +155,11 @@
         <languages>Språk</languages>
       </label>
       <action>
-        <add-edit>Add/Edit</add-edit>
-        <cancel>Cancel</cancel>
+        <add-edit>Lägg till/redigera</add-edit>
+        <cancel>Avbryt</cancel>
       </action>
       <tooltip>
-        <cancel>Cancel</cancel>
+        <cancel>Avbryt</cancel>
         <add-edit>Lägg till/redigera egenskaper</add-edit>
       </tooltip>
     </view>
@@ -180,7 +180,7 @@
     <view>
       <label>
         <isDeep>Är djupt</isDeep>
-        <nodetypes>Node Types</nodetypes>
+        <nodetypes>Nodtyper</nodetypes>
         <affectedNodeTypeNames>Drabbade nodtyper</affectedNodeTypeNames>
         <nodeTypeName>Typ nodnamn</nodeTypeName>
       </label> 
@@ -191,9 +191,9 @@
     <view>
       <label>
         <isDeep>Är djupt</isDeep>
-        <nodetypes>Node Types</nodetypes> 
+        <nodetypes>Nodtyper</nodetypes> 
         <affectedNodeTypeNames>Drabbade nodtyper</affectedNodeTypeNames>
-        <nodeTypeName>Node Type Names</nodeTypeName>
+        <nodeTypeName>Typ nodnamn</nodeTypeName>
       </label> 
     </view>
   </EnableVersioning>
@@ -201,10 +201,10 @@
   <AutoVersioning>
     <view>
       <label>
-        <isDeep>Is Deep</isDeep>
-        <nodetypes>Node Types</nodetypes>
-        <affectedNodeTypeNames>Affected Node Types</affectedNodeTypeNames>
-        <nodeTypeName>Node Type Names</nodeTypeName>
+        <isDeep>Är djupt</isDeep>
+        <nodetypes>Nodtyper</nodetypes>
+        <affectedNodeTypeNames>Drabbade nodtyper</affectedNodeTypeNames>
+        <nodeTypeName>Typ nodnamn</nodeTypeName>
       </label> 
     </view>
   </AutoVersioning>
@@ -213,7 +213,7 @@
     <view>
       <label>
       <Play-audio-description-of-this-video>Ljudbeskrivning</Play-audio-description-of-this-video>
-      <Read-more>Read more</Read-more>
+      <Read-more>Läs mer</Read-more>
       <Read-less>Läs mindre</Read-less>
       <Switch-back-to-original-video>Original video</Switch-back-to-original-video>
       </label>

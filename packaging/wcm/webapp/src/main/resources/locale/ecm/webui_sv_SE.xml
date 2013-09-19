@@ -7,8 +7,8 @@
   -->
   <UITreeList>
     <header>
-      <name>Name</name>
-      <action>Add</action>
+      <name>Namn</name>
+      <action>Lägg till</action>
     </header>
     <action/>
     <info>
@@ -24,7 +24,7 @@
     <header>
       <categoryName>Kategorinamn</categoryName>
       <categoryPath>Kategori sökväg</categoryPath>
-      <action>Action</action>
+      <action>Åtgärd</action>
     </header>
     <action>
       <SaveCategories>Spara</SaveCategories>
@@ -44,19 +44,19 @@
   -->
   <SelectUserOrGroup>
     <title>
-      <UIPermissionUser>Select User</UIPermissionUser>
-      <UIPermissionMembership>Select Membership</UIPermissionMembership>
+      <UIPermissionUser>Välj användare</UIPermissionUser>
+      <UIPermissionMembership>Välj medlemskap</UIPermissionMembership>
     </title>
   </SelectUserOrGroup>
   <UIPermissionUser>
     <label>
-      <selectUser>Select User</selectUser>
+      <selectUser>Välj användare</selectUser>
       <selectGroup>Bläddra och välj en grupp</selectGroup>
     </label>
   </UIPermissionUser>
   <UIPermissionMembership>
     <label>
-      <selectUser>Select Membership</selectUser>
+      <selectUser>Välj medlemskap</selectUser>
       <selectGroup>Bläddra och välj en grupp</selectGroup>
     </label>
   </UIPermissionMembership>

@@ -10,7 +10,7 @@
       <name>Namn</name>
       <email>E-post</email>
       <website>Webbplats</website>
-      <comment>Comment</comment>
+      <comment>Kommentar</comment>
     </label>
     <action>
       <Save>#{word.save}</Save>
@@ -98,7 +98,7 @@
       <selectView>Välj Visa</selectView>
       <showSideBar>Visa sidofält</showSideBar>
       <more>Mer</more>
-      <backTo>Back</backTo>
+      <backTo>Tillbaka</backTo>
     </label>
   </UIViewBar>
 
@@ -137,7 +137,7 @@
   #########################################################################################
   -->
   <UIPreferencesForm>
-    <title>Set up your browsing preferences</title>
+    <title>Ställa in din webläsare</title>
     <label>
       <enableStructure>Aktivera DMS struktur:</enableStructure>
       <showSideBar>Visa sidofält:</showSideBar>
@@ -174,8 +174,8 @@
   <UIRenameForm>
     <title>Ändra Namn</title>
     <label>
-      <nameField>Name</nameField>
-      <titleField>Title</titleField>
+      <nameField>Namn</nameField>
+      <titleField>Titel</titleField>
     </label>
     <action>
       <Cancel>#{word.cancel}</Cancel>
@@ -196,7 +196,7 @@
   </UIRenameForm>
   <UIPopupWindow>
     <title>
-      <UIRenameForm>Rename</UIRenameForm>
+      <UIRenameForm>Ändra Namn</UIRenameForm>
       <UIActionContainer>Redigera åtgärd</UIActionContainer>
       <UIFolderForm>Ny mapp</UIFolderForm>
       <UIUploadManager>Ladda upp fil</UIUploadManager>
@@ -217,11 +217,11 @@
       <UIDocumentFormController>Lägg till nytt dokument</UIDocumentFormController>
       <EditFormController>Redigera dokument</EditFormController>
       <UIRelationManager>Lägg till Relation</UIRelationManager>
-      <UICategoryManager>Add Category</UICategoryManager>
+      <UICategoryManager>Lägg till kategori</UICategoryManager>
       <UIImportNode>Import</UIImportNode>
       <UIViewMetadataManager>Visa Metadata</UIViewMetadataManager>
       <UIVoteForm>Omröstning dokument</UIVoteForm>
-      <UICommentForm>Comment</UICommentForm>
+      <UICommentForm>Kommentar</UICommentForm>
       <UIPreferencesForm>Inställningar</UIPreferencesForm>
       <UIPublicationManager>Hantera publikation</UIPublicationManager>
       <UIConfirmMessage>Ta bort?</UIConfirmMessage>
@@ -250,7 +250,7 @@
   <UIResourceForm>
     <title>Redigera filens innehåll</title>
     <label>
-      <name>Name</name>
+      <name>Namn</name>
       <textToModify>Text att ändra</textToModify>
       <fileToUpload>Ladda upp nytt innehåll för dokumentet (måste vara samma mime-typ)</fileToUpload>
     </label>
@@ -267,7 +267,7 @@
       <EditDocument>Redigera</EditDocument>
       <Upload>Ladda upp</Upload>
       <Paste>Klistra in</Paste>
-      <Search>Search</Search>
+      <Search>Sök</Search>
       <WatchDocument>Titta/Titta inte</WatchDocument>
       <TaggingDocument>Tag</TaggingDocument>
       <Vote>Rösta</Vote>
@@ -275,14 +275,14 @@
       <ManageVersions>Versioner</ManageVersions>
       <ManageAuditing>Revision</ManageAuditing>
       <ManagePublications>Publikationer</ManagePublications>
-      <ManageCategories>Categories</ManageCategories>
+      <ManageCategories>Kategorier</ManageCategories>
       <ManageRelations>Relations</ManageRelations>
       <ManageActions>Åtgärder</ManageActions>
       <ExportNode>Exportera</ExportNode>
       <ImportNode>Importera</ImportNode>
       <OverloadThumbnail>Lägg till miniatyrbild</OverloadThumbnail>
       <ManageHidden>Visa/Dölj innehåll</ManageHidden>
-      <ViewReferences>References</ViewReferences>
+      <ViewReferences>Referenser</ViewReferences>
       <ViewNodeType>Typer</ViewNodeType>
       <ViewPermissions>Behörighet</ViewPermissions>
       <ViewProperties>Egenskaper</ViewProperties>
@@ -356,7 +356,7 @@
       <can-not-paste-node>Du har inte behörighet att flytta till den här noden. Kontakta administratören.</can-not-paste-node>
       <can-not-move-node>Du har inte behörighet att flytta denna nod. Kontakta administratören.</can-not-move-node>
       <does-not-support-versioning>Du har inte behörighet att flytta till den här noden. Kontakta administratören.</does-not-support-versioning>
-      <path-not-found>This element was deleted or changed. Please click the Refresh button.</path-not-found>
+      <path-not-found>Detta element har tagits bort eller ändrats. Klicka på knappen Uppdatera.</path-not-found>
       <paste-lock-exception>Du kan inte klistra in '{0}' till den här noden eftersom källan eller målnod är låst eller är relaterade till läst nod.</paste-lock-exception>
       <can-not-checkin-node>Du kan inte checka in denna nod. Kontrollera att du har rätt behörigheter.</can-not-checkin-node>
       <can-not-checkout-node>Du kan inte checka ut denna nod. Kontrollera att du har rätt behörigheter.</can-not-checkout-node>
@@ -424,7 +424,7 @@
   -->
   <UIWorkingArea>
     <title>
-      <Icon>Icon</Icon>
+      <Icon>Ikon</Icon>
     </title>
     <msg>
       <!-- Delte one node is not in trash and have no relation -->
@@ -499,7 +499,7 @@
       <node-remove-success>Noden {0} har tagits bort.</node-remove-success>
     </msg>
     <tooltip>
-      <Rename>Rename</Rename>
+      <Rename>Ändra Namn</Rename>
       <Cut>Klipp ur</Cut>
       <Copy>Kopiera</Copy>
       <Save>Spara</Save>
@@ -509,7 +509,7 @@
       <Lock>Lås</Lock>
       <Unlock>Lås upp</Unlock>
       <EditDocument>Redigera</EditDocument>
-      <Paste>Paste</Paste>
+      <Paste>Klistra in</Paste>
       <LockedBy>Låst av</LockedBy>
     </tooltip>
   </UIDocumentWorkspace>
@@ -520,7 +520,7 @@
       <confirm-deleteattachment>Är du säker på att du vill ta bort den här bifogade filen?</confirm-deleteattachment>
       <confirm-deleteattcomment>Är du säker på att du vill ta bort denna kommentar?</confirm-deleteattcomment>
       <access-denied-exception>Åtkomst nekad. Du kanske inte har läs privilegier eller noden kan ha tagits bort eller ändrats.</access-denied-exception>
-      <path-not-found>This element was deleted or changed. Please click the Refresh button.</path-not-found>
+      <path-not-found>Detta element har tagits bort eller ändrats. Klicka på knappen Uppdatera.</path-not-found>
     </msg>
     <tooltip>
       <remove-attachment>Ta bort den här bifogade filen</remove-attachment>
@@ -530,9 +530,9 @@
   <ListView>
     <view>
       <label>
-        <name>Name</name>
+        <name>Namn</name>
         <versionable>Tillämpningsbara</versionable>
-        <exo_owner>Owner</exo_owner>
+        <exo_owner>Ägare</exo_owner>
         <auditing>Revision</auditing>
         <exo_dateCreated>Datum skapad</exo_dateCreated>
         <exo_dateModified>Datum Modifierad</exo_dateModified>
@@ -550,21 +550,21 @@
       <Unlock>Låsa upp</Unlock>
       <EditDocument>Redigera</EditDocument>
       <Copy>Kopiera</Copy>
-      <Rename>Rename</Rename>
-      <Delete>Delete</Delete>
-      <Save>Save</Save>
-      <Cut>Cut</Cut>
-      <Paste>Paste</Paste>
+      <Rename>Ändra Namn</Rename>
+      <Delete>Ta bort</Delete>
+      <Save>Spara</Save>
+      <Cut>Klipp ur</Cut>
+      <Paste>Klistra in</Paste>
       <CheckOut>Checka ut</CheckOut>
       <CheckIn>Checka in</CheckIn>
       <WebDAV>Visa WebDAV</WebDAV>
       <autoversion>Automatisk versionshantering</autoversion>
       <Custom>Anpassad</Custom>
-      <AddFolder>New Folder</AddFolder>
-      <AddDocument>New Content</AddDocument>
+      <AddFolder>Ny mapp</AddFolder>
+      <AddDocument>Nytt innehåll</AddDocument>
       <Upload>Ladda upp filer</Upload>
       <MoveNode>Flytta</MoveNode>
-      <UnLock>Unlock</UnLock>
+      <UnLock>Lås upp</UnLock>
       <ViewProperties>Visa egenskaper</ViewProperties>
       <GetURL>Kopiera Webbadressen till Urklipp</GetURL>
       <AddThumbnail>Lägg till/ta bort miniatyr</AddThumbnail>
@@ -587,8 +587,8 @@
       <no-references>Referenser hittades inte</no-references>
     </msg>
     <header>
-      <workspace>Workspace</workspace>
-      <path>Path</path>
+      <workspace>Arbetsyta</workspace>
+      <path>Sökväg</path>
     </header>
     <action>
       <Close>Stäng</Close>
@@ -620,7 +620,7 @@
       <UICategoryManagerSearch>Lägga till kategori att Söka i</UICategoryManagerSearch>
       <UIConstraintsForm>Formulär för begränsningar</UIConstraintsForm>
       <UIViewSearchResult>Visa innehåll</UIViewSearchResult>
-      <UIContentNameSearch>Search by Name</UIContentNameSearch>
+      <UIContentNameSearch>Sök efter namn</UIContentNameSearch>
       <UINodeInfo>Versionsinfo</UINodeInfo>
       <UINodeProperty>Nodens rättigheter</UINodeProperty>
       <UIActionListContainer>Tillgängliga åtgärder</UIActionListContainer>
@@ -651,10 +651,10 @@
     </confirm>
     <header>
       <icon/>
-      <name>Name</name>
+      <name>Namn</name>
       <multiValue>Multi värde</multiValue>
-      <value>Value</value>
-      <action>Action</action>
+      <value>Värde</value>
+      <action>Åtgärd</action>
     </header>
     <label>
       <binary>Binära Data</binary>
@@ -678,17 +678,17 @@
   <UIPropertyForm>
     <title>Lägg till/redigera egenskapen</title>
     <label>
-      <name>Name:</name>
-      <type>Type:</type>
+      <name>Namn:</name>
+      <type>Typ:</type>
       <value>Värde:</value>
-      <upload>Upload:</upload>
+      <upload>Ladda upp:</upload>
       <namespace>Utrymme för namn:</namespace>
       <multiple>Flera:</multiple>
       <property_select>Lägga till ny egenskap:</property_select>
     </label>
     <action>
       <Save>#{word.save}</Save>
-      <Cancel>Cancel</Cancel>
+      <Cancel>Avbryt</Cancel>
       <Reset>Återställ</Reset>
     </action>
     <msg>
@@ -714,7 +714,7 @@
   <UIPermissionInfo>
     <action>
       <title>
-        <Edit>Edit</Edit>
+        <Edit>Redigera</Edit>
         <Delete>Ta bort behörigheten</Delete>
       </title>
     </action>
@@ -723,7 +723,7 @@
       <read>Läs</read>
       <addNode>Ändra</addNode>
       <remove>Ta bort</remove>
-      <action>Action</action>
+      <action>Åtgärd</action>
     </header>
     <msg>
       <confirm-delete-permission>Är du säker på att du vill ta bort denna behörighet?</confirm-delete-permission>
@@ -791,14 +791,14 @@
   <UINodeTypeInfo>
     <label>
       <node-type>Nodtyp</node-type>
-      <name>Name</name>
+      <name>Namn</name>
       <item>Primära Artikelnamn</item>
       <super-types>Överordnade typer</super-types>
       <mixin>Mixin nodtyp</mixin>
       <orderable-children>Möjliga underliggande</orderable-children>
       <property-def>Nodens egenskaper</property-def>
-      <prop-name>Name</prop-name>
-      <prop-type>Type</prop-type>
+      <prop-name>Namn</prop-name>
+      <prop-type>Typ</prop-type>
       <prop-multiple>Mul</prop-multiple>
       <prop-mandatory>Man</prop-mandatory>
       <prop-protected>Pr</prop-protected>
@@ -806,7 +806,7 @@
       <prop-default-values><![CDATA[<span title="Default Values">DV</span>]]></prop-default-values>
       <prop-constraints><![CDATA[<span title="Constraints Values">CV</span>]]></prop-constraints>
       <node-def>Underordnade nodens definition</node-def>
-      <node-def-name>Name</node-def-name>
+      <node-def-name>Namn</node-def-name>
       <node-def-opv>OPV</node-def-opv>
       <node-def-ac>AC</node-def-ac>
       <node-def-man>MAN</node-def-man>
@@ -838,17 +838,17 @@
       <location>Sök på denna plats:</location>
     </label>
     <action>
-      <Search>Search</Search>
+      <Search>Sök</Search>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <keyword-not-allowed>This keyword is not allowed.</keyword-not-allowed>
+      <keyword-not-allowed>Nyckelordet är inte tillåtet.</keyword-not-allowed>
     </msg>
   </UIContentNameSearch>
   <UISimpleSearch>
     <action>
       <MoreConstraints>Visa/Dölj Constraint Formulär</MoreConstraints>
-      <Search>Search</Search>
+      <Search>Sök</Search>
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
@@ -883,11 +883,11 @@
     </msg>
     <header>
       <name>#{word.name}</name>
-      <path>Path</path>
-      <action>Action</action>
-      <shortcutPath>Path</shortcutPath>
-      <type>Type</type>
-      <dateCreated>Date Created</dateCreated>
+      <path>Sökväg</path>
+      <action>Åtgärd</action>
+      <shortcutPath>Sökväg</shortcutPath>
+      <type>Typ</type>
+      <dateCreated>Datum skapad</dateCreated>
       <score>Poäng</score>
     </header>
     <title>
@@ -914,11 +914,11 @@
     </msg>
     <header>
       <name>#{word.name}</name>
-      <path>Path</path>
-      <action>Action</action>
-      <shortcutPath>Path</shortcutPath>
-      <type>Type</type>
-      <dateCreated>Date Created</dateCreated>
+      <path>Sökväg</path>
+      <action>Åtgärd</action>
+      <shortcutPath>Sökväg</shortcutPath>
+      <type>Typ</type>
+      <dateCreated>Datum skapad</dateCreated>
       <score>Poäng</score>
     </header>
     <title>
@@ -932,35 +932,35 @@
       <datecreatedDESC>Sortera efter datum, skapad i fallande ordning</datecreatedDESC>
     </title>
     <tooltip>
-      <View>View this node</View>
+      <View>Visa denna nod</View>
       <OpenFolder>Gå till mappen</OpenFolder>
     </tooltip>
   </UIShowAllOwnedByUserResult>
   <UIShowAllFavouriteResult>
     <msg>
-      <not-support>There is no View template for this node</not-support>
+      <not-support>Det finns ingen Visa mall för noden</not-support>
       <empty>Inga resultat hittades</empty>
-      <access-denied>You cannot view this node, either because this template is not supported or because access is denied.</access-denied>
-      <query-invalid>The query is invalid</query-invalid>
+      <access-denied>Du kan inte Visa den här noden, antingen eftersom mallen inte stöds eller eftersom åtkomst nekades.</access-denied>
+      <query-invalid>Frågan är ogiltigt</query-invalid>
     </msg>
     <header>
       <name>#{word.name}</name>
-      <path>Path</path>
-      <action>Action</action>
-      <shortcutPath>Path</shortcutPath>
-      <type>Type</type>
-      <dateCreated>Date Created</dateCreated>
-      <score>Score</score>
+      <path>Sökväg</path>
+      <action>Åtgärd</action>
+      <shortcutPath>Sökväg</shortcutPath>
+      <type>Typ</type>
+      <dateCreated>Datum skapad</dateCreated>
+      <score>Poäng</score>
     </header>
     <title>
-      <typeASC>Sort by document type in ascending order</typeASC>
-      <typeDESC>Sort by document type in descending order</typeDESC>
-      <scoreASC>Sort by score in ascending order</scoreASC>
-      <scoreDESC>Sort by score in descending order</scoreDESC>
-      <nameASC>Sort by name in ascending order</nameASC>
-      <nameDESC>Sort by name in descending order</nameDESC>
-      <datecreatedASC>Sort by created date in ascending order</datecreatedASC>
-      <datecreatedDESC>Sort by created date in descending order</datecreatedDESC>
+      <typeASC>Sortera efter dokumenttyp i stigande ordning</typeASC>
+      <typeDESC>Sortera efter dokumenttyp i fallande ordning</typeDESC>
+      <scoreASC>Sortera efter poäng i stigande ordning</scoreASC>
+      <scoreDESC>Sortera efter poäng i fallande ordning</scoreDESC>
+      <nameASC>Sortera efter namn i stigande ordning</nameASC>
+      <nameDESC>Sortera efter namn i fallande ordning</nameDESC>
+      <datecreatedASC>Sortera efter skapade datum, i stigande ordning</datecreatedASC>
+      <datecreatedDESC>Sortera efter skapad datum i fallande ordning</datecreatedDESC>
     </title>
     <tooltip>
       <View>Titta på denna nod</View>
@@ -969,30 +969,30 @@
   </UIShowAllFavouriteResult>
   <UIShowAllHiddenResult>
     <msg>
-      <not-support>There is no View template for this node.</not-support>
-      <empty>No results found.</empty>
-      <access-denied>You cannot view this node, either because this template is not supported or because access is denied.</access-denied>
-      <query-invalid>The query is invalid.</query-invalid>
+      <not-support>Det finns ingen Visa mall för noden.</not-support>
+      <empty>Inga resultat hittades.</empty>
+      <access-denied>Du kan inte Visa den här noden, antingen eftersom mallen inte stöds eller eftersom åtkomst nekades.</access-denied>
+      <query-invalid>Frågan är ogiltigt.</query-invalid>
     </msg>
     <header>
       <name>#{word.name}</name>
-      <path>Path</path>
-      <action>Action</action>
-      <shortcutPath>Path</shortcutPath>
-      <type>Type</type>
-      <dateCreated>Date Created</dateCreated>
-      <score>Score</score>
+      <path>Sökväg</path>
+      <action>Åtgärd</action>
+      <shortcutPath>Sökväg</shortcutPath>
+      <type>Typ</type>
+      <dateCreated>Datum skapad</dateCreated>
+      <score>Poäng</score>
       <AddRemoveFavourite>Lägg till/ta bort till favoriter</AddRemoveFavourite>
     </header>
     <title>
-      <typeASC>Sort by document type in ascending order</typeASC>
-      <typeDESC>Sort by document type in descending order</typeDESC>
-      <scoreASC>Sort by score in ascending order</scoreASC>
-      <scoreDESC>Sort by score in descending order</scoreDESC>
-      <nameASC>Sort by name in ascending order</nameASC>
-      <nameDESC>Sort by name in descending order</nameDESC>
-      <datecreatedASC>Sort by created date in ascending order</datecreatedASC>
-      <datecreatedDESC>Sort by created date in descending order</datecreatedDESC>
+      <typeASC>Sortera efter dokumenttyp i stigande ordning</typeASC>
+      <typeDESC>Sortera efter dokumenttyp i fallande ordning</typeDESC>
+      <scoreASC>Sortera efter poäng i stigande ordning</scoreASC>
+      <scoreDESC>Sortera efter poäng i fallande ordning</scoreDESC>
+      <nameASC>Sortera efter namn i stigande ordning</nameASC>
+      <nameDESC>Sortera efter namn i fallande ordning</nameDESC>
+      <datecreatedASC>Sortera efter skapade datum, i stigande ordning</datecreatedASC>
+      <datecreatedDESC>Sortera efter skapad datum i fallande ordning</datecreatedDESC>
     </title>
     <tooltip>
       <View>Visa denna nod</View>
@@ -1002,29 +1002,29 @@
   </UIShowAllHiddenResult>
   <UIShowAllTrashResult>
     <msg>
-      <not-support>There is no View template for this node.</not-support>
+      <not-support>Det finns ingen Visa mall för noden.</not-support>
       <empty>Inga resultat hittades</empty>
-      <access-denied>You cannot view this node, either because this template is not supported or because access is denied.</access-denied>
-      <query-invalid>The query is invalid.</query-invalid>
+      <access-denied>Du kan inte Visa den här noden, antingen eftersom mallen inte stöds eller eftersom åtkomst nekades.</access-denied>
+      <query-invalid>Frågan är ogiltigt.</query-invalid>
     </msg>
     <header>
       <name>#{word.name}</name>
-      <path>Path</path>
-      <action>Action</action>
-      <shortcutPath>Path</shortcutPath>
-      <type>Type</type>
-      <dateCreated>Date Created</dateCreated>
-      <score>Score</score>
+      <path>Sökväg</path>
+      <action>Åtgärd</action>
+      <shortcutPath>Sökväg</shortcutPath>
+      <type>Typ</type>
+      <dateCreated>Datum skapad</dateCreated>
+      <score>Poäng</score>
     </header>
     <title>
-      <typeASC>Sort by document type in ascending order</typeASC>
-      <typeDESC>Sort by document type in descending order</typeDESC>
-      <scoreASC>Sort by score in ascending order</scoreASC>
-      <scoreDESC>Sort by score in descending order</scoreDESC>
-      <nameASC>Sort by name in ascending order</nameASC>
-      <nameDESC>Sort by name in descending order</nameDESC>
-      <datecreatedASC>Sort by created date in ascending order</datecreatedASC>
-      <datecreatedDESC>Sort by created date in descending order</datecreatedDESC>
+      <typeASC>Sortera efter dokumenttyp i stigande ordning</typeASC>
+      <typeDESC>Sortera efter dokumenttyp i fallande ordning</typeDESC>
+      <scoreASC>Sortera efter poäng i stigande ordning</scoreASC>
+      <scoreDESC>Sortera efter poäng i fallande ordning</scoreDESC>
+      <nameASC>Sortera efter namn i stigande ordning</nameASC>
+      <nameDESC>Sortera efter namn i fallande ordning</nameDESC>
+      <datecreatedASC>Sortera efter skapade datum, i stigande ordning</datecreatedASC>
+      <datecreatedDESC>Sortera efter skapad datum i fallande ordning</datecreatedDESC>
     </title>
     <tooltip>
       <View>Visa denna nod</View>
@@ -1042,7 +1042,7 @@
       <notcontains>innehålla inte data</notcontains>
     </label>
     <action>
-      <Add>Add</Add>
+      <Add>Lägg till</Add>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
@@ -1057,20 +1057,20 @@
       <toDate-invalid>Ogiltig typ i fältet 'till'. Vänligen välj om eller skriv korrekt.</toDate-invalid>
     </msg>
     <button>
-      <label-Add>Add</label-Add>
-      <label-Cancel>Cancel</label-Cancel>
+      <label-Add>Lägg till</label-Add>
+      <label-Cancel>Avbryt</label-Cancel>
     </button>
   </UIConstraintsForm>
   <UIConstraintForm>
     <tooltip>
       <AddMetadataType>Lägg till egenskap</AddMetadataType>
       <AddNodeType>Lägg till nodtyp</AddNodeType>
-      <AddCategory>Add Category</AddCategory>
+      <AddCategory>Lägg till kategori</AddCategory>
       <FindExactly>Hitta exakt</FindExactly>
     </tooltip>
     <label>
       <colon>:</colon>
-      <operator>Operator</operator>
+      <operator>Operatör</operator>
       <exactlyPro-properties>Rättigheter</exactlyPro-properties>
       <exactlyPro-ContainExactly>Innehåller exakt</exactlyPro-ContainExactly>
       <containPro-properties>Rättigheter</containPro-properties>
@@ -1080,7 +1080,7 @@
       <ConstraintOption-From>Från</ConstraintOption-From>
       <ConstraintOption-To>Till</ConstraintOption-To>
       <DocumentType-label>Dokumenttyp</DocumentType-label>
-      <Category-label>Category</Category-label>
+      <Category-label>Kategori</Category-label>
       <created>Skapad</created>
       <modified>Ändrad</modified>
       <and>Och</and>
@@ -1094,7 +1094,7 @@
   </NodeTypePopup>
   <CategoryPopup>
     <title>
-      <UICategoryManagerSearch>Add Category to Search</UICategoryManagerSearch>
+      <UICategoryManagerSearch>Lägga till kategori att Söka i</UICategoryManagerSearch>
       <UIOneNodePathSelector>Välj kategori</UIOneNodePathSelector>
     </title>
   </CategoryPopup>
@@ -1118,7 +1118,7 @@
       <result>Filter</result>
     </title>
     <button>
-      <label-Select>Select</label-Select>
+      <label-Select>Välj</label-Select>
       <label-Cancel>Avbryt</label-Cancel>
     </button>
     <msg>
@@ -1127,14 +1127,14 @@
   </UICompareExactlyForm>
   <UIJCRAdvancedSearch>
     <label>
-      <name>Name:</name>
+      <name>Namn:</name>
       <selectBox>Välj stil för frågan:</selectBox>
       <query>Förfrågan:</query>
     </label>
     <action>
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
-      <Search>Search</Search>
+      <Search>Sök</Search>
     </action>
     <msg>
       <!--DMS 2.4.x ECM-3566-->
@@ -1168,7 +1168,7 @@
     </label>
     <action>
       <Cancel>#{word.cancel}</Cancel>
-      <Add>Add</Add>
+      <Add>Lägg till</Add>
     </action>
   </UIMetadataSelectForm>
   <property1MetadataPopup>
@@ -1192,7 +1192,7 @@
     </label>
     <pLabel>Egenskaper:</pLabel>
     <action>
-      <Add>Add</Add>
+      <Add>Lägg till</Add>
       <Cancel>Avbryt</Cancel>
     </action>
   </UISelectPropertyForm>
@@ -1203,11 +1203,11 @@
   </ExactlyFormPopup>
   <UIECMSearch>
     <header>
-      <name>Name</name>
-      <language>Language</language>
+      <name>Namn</name>
+      <language>Språk</language>
       <query>Förfrågan</query>
       <action>Åtgärder</action>
-      <path>Path</path>
+      <path>Sökväg</path>
     </header>
   </UIECMSearch>
   <UIResult>
@@ -1215,7 +1215,7 @@
       <not-found>Data hittades inte.</not-found>
     </msg>
     <header>
-      <action>Action</action>
+      <action>Åtgärd</action>
     </header>
   </UIResult>
   <UISaveQueryForm>
@@ -1234,23 +1234,23 @@
   </UISaveQueryForm>
   <UISavedQuery>
     <header>
-      <name>Name</name>
-      <type>Type</type>
+      <name>Namn</name>
+      <type>Typ</type>
       <statement>Uttalande</statement>
-      <permission>Permissions</permission>
+      <permission>Behörighet</permission>
       <action>Åtgärder</action>
     </header>
     <tooltip>
       <Execute>Utföra</Execute>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
+      <Edit>Redigera</Edit>
+      <Delete>Ta bort</Delete>
     </tooltip>
     <label>
       <no-children>Ingen fråga har sparats.</no-children>
     </label>
     <msg>
       <confirm-delete-query>Är du säker på att du vill ta bort den här frågan?</confirm-delete-query>
-      <not-result-found>No results found.</not-result-found>
+      <not-result-found>Inga resultat hittades.</not-result-found>
     </msg>
   </UISavedQuery>
   <UIQueryResultPageIterator>
@@ -1271,11 +1271,11 @@
       <nodePath>Sökvägen till Export</nodePath>
       <zip>Zip</zip>
       <systemView>Systemvy</systemView>
-      <documentView>Document View</documentView>
+      <documentView>Dokumentvy</documentView>
     </label>
     <action>
       <Cancel>#{word.cancel}</Cancel>
-      <Export>Export</Export>
+      <Export>Exportera</Export>
     </action>
     <title>Exportera nod</title>
   </UIExportNode>
@@ -1338,11 +1338,11 @@
       <e_8>Egenskapen borttagen</e_8>
       <e_32>Spara</e_32>
       <e_64>Flytta</e_64>
-      <e_128>Copy</e_128>
+      <e_128>Kopiera</e_128>
       <e_256>Addera Mixin</e_256>
       <e_512>Ta bort Mixin</e_512>
       <e_1024>Klon</e_1024>
-      <e_2048>Update</e_2048>
+      <e_2048>Uppdatera</e_2048>
       <e_4096>Import</e_4096>
       <e_8192>Checka in</e_8192>
       <e_16384>Checka ut</e_16384>
@@ -1353,14 +1353,14 @@
       <e_524288>Lägg till versionsetikett</e_524288>
       <e_1048576>Ta bort versionsetikett</e_1048576>
       <e_2097152>Ta bort Version</e_2097152>
-      <e_4194304>Lock</e_4194304>
-      <e_8388608>Unlock</e_8388608>
+      <e_4194304>Lås</e_4194304>
+      <e_8388608>Lås upp</e_8388608>
       <e_16777216>Läs</e_16777216>
     </eventName>
     <label>
       <operation>Användning</operation>
       <userName>Användarnamn</userName>
-      <date>Date</date>
+      <date>Datum</date>
       <version>Version</version>
     </label>
   </UIAuditingInfo>
@@ -1388,9 +1388,9 @@
   -->
   <UIActivePublication>
     <header>
-      <LifecycleName>Name</LifecycleName>
-      <LifecycleDesc>Description</LifecycleDesc>
-      <action>Action</action>
+      <LifecycleName>Namn</LifecycleName>
+      <LifecycleDesc>Beskrivning</LifecycleDesc>
+      <action>Åtgärd</action>
     </header>
     <action>
       <Cancel>Stäng</Cancel>
@@ -1416,8 +1416,8 @@
       <question>Är du säker på att du vill aktivera den?</question>
     </label>
     <action>
-      <activate>Activate</activate>
-      <cancel>Cancel</cancel>
+      <activate>Aktivera</activate>
+      <cancel>Avbryt</cancel>
     </action>
   </UIActivateAuditing>
   <!--
@@ -1443,8 +1443,8 @@
     <label>
       <format>Format</format>
       <systemView>Systemvy</systemView>
-      <documentView>Document View</documentView>
-      <upload>Upload File</upload>
+      <documentView>Dokumentvy</documentView>
+      <upload>Ladda upp fil</upload>
     </label>
     <action>
       <Cancel>#{word.cancel}</Cancel>
@@ -1472,9 +1472,9 @@
     </label>
     <action>
       <Save>#{word.save}</Save>
-      <Cancel>Cancel</Cancel>
+      <Cancel>Avbryt</Cancel>
     </action>
-    <title>Add Label</title>
+    <title>Lägg till etikett</title>
     <msg>
       <label-invalid>Etiketten innehåller ogiltiga tecken.</label-invalid>
       <label-exist>{0} finns redan.</label-exist>
@@ -1486,12 +1486,12 @@
   ###############################################################################
   -->
   <UIRemoveLabelForm>
-    <title>Remove Label</title>
+    <title>Ta bort etikett</title>
     <label>
       <label>Välj etikett</label>
     </label>
     <action>
-      <Remove>Remove</Remove>
+      <Remove>Ta bort</Remove>
       <Cancel>#{word.cancel}</Cancel>
     </action>
   </UIRemoveLabelForm>
@@ -1505,7 +1505,7 @@
   </UIVersionTree>
   <UIViewVersion>
     <label>
-      <nodeType>Node Type</nodeType>
+      <nodeType>Nodtyp</nodeType>
       <nodeName>Nodnamnet</nodeName>
       <VersionNumber>Versionsnummer</VersionNumber>
       <VersionLabels>Versionsetiketter</VersionLabels>
@@ -1531,14 +1531,14 @@
     </action>
     <tab>
       <label>
-        <UICategoriesAddedList>Referenced Categories</UICategoriesAddedList>
+        <UICategoriesAddedList>Refererade kategorier</UICategoriesAddedList>
         <UIOneNodePathSelector>Välj kategori</UIOneNodePathSelector>
       </label>
     </tab>
   </UICategoryManager>
   <UICategoriesAddedList>
     <header>
-      <path>Category</path>
+      <path>Kategori</path>
       <action>Åtgärder</action>
     </header>
     <msg>
@@ -1547,22 +1547,22 @@
     </msg>
     <action>
       <title>
-        <Delete>Delete</Delete>
+        <Delete>Ta bort</Delete>
       </title>
     </action>
     <label>
-      <category>Category</category>
-      <actions>Action</actions>
-      <delete>Delete</delete>
+      <category>Kategori</category>
+      <actions>Åtgärd</actions>
+      <delete>Ta bort</delete>
     </label>
   </UICategoriesAddedList>
   <UITreeList>
     <header>
-      <name>Name</name>
-      <action>Action</action>
+      <name>Namn</name>
+      <action>Åtgärd</action>
     </header>
     <info>
-      <child-not-found>This node does not have any child nodes.</child-not-found>
+      <child-not-found>Den här noden har inte underordnade noder.</child-not-found>
     </info>
   </UITreeList>
   <!--
@@ -1592,7 +1592,7 @@
     </header>
     <action>
       <title>
-        <Delete>Delete</Delete>
+        <Delete>Ta bort</Delete>
       </title>
     </action>
     <msg>
@@ -1607,9 +1607,9 @@
   -->
   <UIClipboard>
     <header>
-      <path>Path</path>
+      <path>Sökväg</path>
       <command>Cm</command>
-      <action>Action</action>
+      <action>Åtgärd</action>
     </header>
     <label>
       <nocommand>Det finns inga objekt i Urklipp.</nocommand>
@@ -1663,7 +1663,7 @@
       <in-versioning>Kolla gärna in den aktuella noden innan du lägger till en ny nod.</in-versioning>
       <not-support>Kan inte ladda mallen {0}.</not-support>
       <value-invalid>{0} är ett värde som behövs.</value-invalid>
-      <repository-exception>An error occurred while saving the document.</repository-exception>
+      <repository-exception>Ett fel uppstod när du sparade dokumentet.</repository-exception>
       <!--DMS 2.4.x; ECM-3543-->
       <repository-exception-permission>Du har inte behörighet att lägga till ett nytt dokument till den här noden.</repository-exception-permission>
       <not-allowed-same-name-sibling>Du kan inte spara det här dokumentet. Det är inte tillåtet att ha samma namn som sitt syskon.</not-allowed-same-name-sibling>
@@ -1699,7 +1699,7 @@
   <UIQuerySaveForm>
     <title>Spara fråga Formulär</title>
     <label>
-      <query>Query</query>
+      <query>Förfrågan</query>
       <name>Frågenamn</name>
     </label>
     <action>
@@ -1714,8 +1714,8 @@
   -->
   <editActionPopup>
     <title>
-      <UIActionForm>Edit Action</UIActionForm>
-      <EditFormAction>Edit Action</EditFormAction>
+      <UIActionForm>Redigera åtgärd</UIActionForm>
+      <EditFormAction>Redigera åtgärd</EditFormAction>
     </title>
   </editActionPopup>
   <UIActionViewContainer>
@@ -1726,11 +1726,11 @@
   <UIActionList>
     <header>
       <name>#{word.name}</name>
-      <description>Description</description>
+      <description>Beskrivning</description>
   <lifecycle>Livscykel</lifecycle>
   <triggeredaction>Triggade åtgärder</triggeredaction>
       <instanceOf>Instansen av typen</instanceOf>
-      <action>Action</action>
+      <action>Åtgärd</action>
     </header>
     <msg>
       <remove-popup-first>Du måste stänga popup-fönstret Redigera innan du tar bort den här noden.</remove-popup-first>
@@ -1742,8 +1742,8 @@
     <action>
       <Close>#{word.close}</Close>
       <View>Visa</View>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
+      <Edit>Redigera</Edit>
+      <Delete>Ta bort</Delete>
     </action>
   </UIActionList>
   <UIActionForm>
@@ -1780,7 +1780,7 @@
     <title>
       <UIOneNodePathSelector>Välj plats</UIOneNodePathSelector>
       <UIPermissionSelector>Rättigheter</UIPermissionSelector>
-      <UICategoriesSelector>Add Categories</UICategoriesSelector>
+      <UICategoriesSelector>Lägg till kategorier</UICategoriesSelector>
     </title>
   </PopupComponent>
   <EditFormAction>
@@ -1846,7 +1846,7 @@
       <tagSet>UITaggingForm</tagSet>
     </label>
     <action>
-      <AddTag>Add</AddTag>
+      <AddTag>Lägg till</AddTag>
       <Cancel>#{word.close}</Cancel>
     </action>
     <msg>
@@ -1934,7 +1934,7 @@
     <msg>Objektet finns redan.</msg>
   </ItemExistsException>
   <AccessControlException>
-    <msg>Access denied. You do not have permission to perform this action.</msg>
+    <msg>Åtkomst nekad. Du har inte behörighet att utföra denna åtgärd.</msg>
   </AccessControlException>
   <AccessDeniedException>
     <msg>Åtkomst nekad.</msg>
@@ -1957,18 +1957,18 @@
     <label>
       <published>Publicerad</published>
       <non-published>Ej publicerad</non-published>
-      <public>Public</public>
+      <public>Offentlig</public>
       <private>Privat</private>
-      <state>State</state>
+      <state>Läge</state>
       <visibility>Synlighet</visibility>
       <nodeName>Nodnamn:</nodeName>
       <lifecycleName>Livscykel namn</lifecycleName>
       <stateName>Läges namn</stateName>
     </label>
     <action>
-      <Save>Save</Save>
+      <Save>Spara</Save>
       <UnsubcriberLifeCycle>Avsluta prenumeration</UnsubcriberLifeCycle>
-      <Cancel>Cancel</Cancel>
+      <Cancel>Avbryt</Cancel>
     </action>
   </UIPublicationForm>
   <!--
@@ -1995,7 +1995,7 @@
   -->
   <EmailAddressValidator>
     <msg>
-      <Invalid-input>The email address is invalid.</Invalid-input>
+      <Invalid-input>E-postadressen är ogiltig.</Invalid-input>
     </msg>
   </EmailAddressValidator>
   <UIFormInputSetWithAction>
@@ -2016,8 +2016,8 @@
   <UIPermissionSelector>
     <label>
       <selectGroup>Välj grupp</selectGroup>
-      <selectUser>Select User</selectUser>
-      <selectMembership>Select Membership</selectMembership>
+      <selectUser>Välj användare</selectUser>
+      <selectMembership>Välj medlemskap</selectMembership>
     </label>
   </UIPermissionSelector>
   <!--
@@ -2054,10 +2054,10 @@
   -->
   <UIPublicationLogList>
     <header>
-      <date>Date</date>
+      <date>Datum</date>
       <newState>Nytt läge</newState>
       <user>Användare</user>
-      <description>Description</description>
+      <description>Beskrivning</description>
       <version>Version</version>
       <visibility>Synlighet</visibility>
     </header>
@@ -2073,7 +2073,7 @@
   <UIVersionTreeList>
     <header>
       <version>Version</version>
-      <state>State</state>
+      <state>Läge</state>
     </header>
   </UIVersionTreeList>
   <!--
@@ -2135,9 +2135,9 @@
   -->
   <UIGroupMemberSelector>
     <label>
-      <selectGroup>Select Group</selectGroup>
-      <selectUser>Select User</selectUser>
-      <selectMembership>Select Membership</selectMembership>
+      <selectGroup>Välj grupp</selectGroup>
+      <selectUser>Välj användare</selectUser>
+      <selectMembership>Välj medlemskap</selectMembership>
     </label>
   </UIGroupMemberSelector>
   <!--
@@ -2155,9 +2155,9 @@
   <UIJcrExplorerEditForm>
     <title>Redigera fil utforskare</title>
     <action>
-      <Edit>Edit</Edit>
-      <Save>Save</Save>
-      <Cancel>Cancel</Cancel>
+      <Edit>Redigera</Edit>
+      <Save>Spara</Save>
+      <Cancel>Avbryt</Cancel>
     </action>
     <label>
       <uploadFileSizeLimitMB>Storleksgränsen för den överförda filen (MB)</uploadFileSizeLimitMB>
@@ -2176,7 +2176,7 @@
   <UIDriveSelector>
     <label>
       <driveName>Enhetsnamn</driveName>
-      <action>Action</action>
+      <action>Åtgärd</action>
       <adddrives>Lägga till enheter</adddrives>
     </label>
   </UIDriveSelector>
@@ -2238,13 +2238,13 @@
     <msg>
       <addFolder-successful>Den symboliska länken {0} har lagts.</addFolder-successful>
       <name-invalid>Ange den symboliska länken.</name-invalid>
-      <name-not-allowed>This name is not allowed.</name-not-allowed>
-      <fileName-error>The file name is invalid.</fileName-error>
+      <name-not-allowed>Detta namn är inte tillåtet.</name-not-allowed>
+      <fileName-error>Filnamnet är ogiltig.</fileName-error>
       <constraint-violation>Du kan inte lägga till nodtypen {0} i den aktuella noden.</constraint-violation>
       <repository-exception>Åtkomst nekad. Du har inte behörighet att lägga till symlink i den här noden.</repository-exception>
-      <numberformat-exception>You cannot save this folder. The name provided must be in numerical format.</numberformat-exception>
+      <numberformat-exception>Du kan inte spara den här mappen. Namnet som anges måste vara i numeriskt format.</numberformat-exception>
       <path-node-invalid>Ange sökvägen till noden.</path-node-invalid>
-      <path-node-not-allowed>This name is not allowed.</path-node-not-allowed>
+      <path-node-not-allowed>Detta namn är inte tillåtet.</path-node-not-allowed>
       <non-node>Välj målnoden med "trust";  Du kanske inte har rätt att läsa den här noden.</non-node>
       <cannot-save>Du kan inte lägga till en symbolisk länk för den här noden.</cannot-save>
       <item-exists-exception>Nodnamnet finns redan.</item-exists-exception>
@@ -2267,18 +2267,18 @@
     <msg>
       <addFolder-successful>Den symboliska länken {0} är lagts till.</addFolder-successful>
       <name-invalid>Ange den symboliska länken.</name-invalid>
-      <name-not-allowed>This name is not allowed.</name-not-allowed>
-      <fileName-error>The file name is invalid.</fileName-error>
+      <name-not-allowed>Detta namn är inte tillåtet.</name-not-allowed>
+      <fileName-error>Filnamnet är ogiltig.</fileName-error>
       <constraint-violation>Du kan inte lägga till nodtypen {0} i den aktuella noden.</constraint-violation>
       <repository-exception>Åtkomst nekad. Du har inte behörighet att lägga till symlink i den här noden.</repository-exception>
-      <numberformat-exception>You cannot save this folder. The name provided must be in numerical format.</numberformat-exception>
+      <numberformat-exception>Du kan inte spara den här mappen. Namnet som anges måste vara i numeriskt format.</numberformat-exception>
       <path-node-invalid>Ange sökvägen till noden.</path-node-invalid>
-      <path-node-not-allowed>This name is not allowed.</path-node-not-allowed>
-      <non-node>Please select the trust target node; you may not have the right to read this node.</non-node>
+      <path-node-not-allowed>Detta namn är inte tillåtet.</path-node-not-allowed>
+      <non-node>Välj målnoden med "trust";  Du kanske inte har rätt att läsa den här noden.</non-node>
       <cannot-save>Ett fel uppstod när den symboliska länken skapades.</cannot-save>
-      <item-exists-exception>The node name already exists.</item-exists-exception>
-      <translation-node-same-language-default>The translation node has the same language as the default language of current node.</translation-node-same-language-default>
-      <UnsupportedRepositoryOperationException>This target node is not referred.</UnsupportedRepositoryOperationException>
+      <item-exists-exception>Nodnamnet finns redan.</item-exists-exception>
+      <translation-node-same-language-default>Översättnings noden har samma språk som standardspråk för den aktuella noden.</translation-node-same-language-default>
+      <UnsupportedRepositoryOperationException>Denna målnod refereras inte.</UnsupportedRepositoryOperationException>
     </msg>
   </UIAddTranslationForm>
 
@@ -2289,14 +2289,14 @@
   </UIPopupSymLink>
   <UIPopupSymLink>
     <title>
-      <UIContentSelectorOne>Select Document</UIContentSelectorOne>
+      <UIContentSelectorOne>Välj dokument</UIContentSelectorOne>
     </title>
   </UIPopupSymLink>
 
   <ECMContextMenu>
     <event>
-      <AddSymLink>Add Symlink</AddSymLink>
-      <AddLocalizationLink>Add Translation</AddLocalizationLink>
+      <AddSymLink>Lägg till Symlink</AddSymLink>
+      <AddLocalizationLink>Lägg till översättning</AddLocalizationLink>
     </event>
   </ECMContextMenu>
 
@@ -2326,7 +2326,7 @@
 
   <UIPopupTaxonomy>
     <title>
-      <UIOneTaxonomySelector>Add Categories</UIOneTaxonomySelector>
+      <UIOneTaxonomySelector>Lägg till kategorier</UIOneTaxonomySelector>
     </title>
   </UIPopupTaxonomy>
 
@@ -2347,8 +2347,8 @@
   <UISimpleCategoryManager>
     <tab>
       <label>
-        <UICategoriesAddedList>Referenced Categories</UICategoriesAddedList>
-        <UIOneNodePathSelector>Select Category</UIOneNodePathSelector>
+        <UICategoriesAddedList>Refererade kategorier</UICategoriesAddedList>
+        <UIOneNodePathSelector>Välj kategori</UIOneNodePathSelector>
       </label>
     </tab>
   </UISimpleCategoryManager>
@@ -2356,7 +2356,7 @@
   <UICategoryManager>
     <tab>
       <label>
-        <UIOneTaxonomySelector>Select Category</UIOneTaxonomySelector>
+        <UIOneTaxonomySelector>Välj kategori</UIOneTaxonomySelector>
       </label>
     </tab>
   </UICategoryManager>
@@ -2368,7 +2368,7 @@
   </UISimpleCategoryManager>
   <UIPopupWindow>
     <title>
-      <UISimpleCategoryManager>Add Category</UISimpleCategoryManager>
+      <UISimpleCategoryManager>Lägg till kategori</UISimpleCategoryManager>
     </title>
   </UIPopupWindow>
   <UICategoriesAddedList>
@@ -2380,7 +2380,7 @@
   <UIConfirmMessage>
     <label>
       <Close>#{word.cancel}</Close>
-      <OK>Delete</OK>
+      <OK>Ta bort</OK>
       <ReplaceData>Ersätta Data</ReplaceData>
       <Back>Tillbaka till namnbyte</Back>
       <Keepfile>Behåll båda filerna</Keepfile>
@@ -2390,7 +2390,7 @@
   <UIRestoreConfirmMessage>
     <label>
       <Close>#{word.close}</Close>
-      <OK>OK</OK>
+      <OK>Ok</OK>
       <ReplaceData>Ersätta Data</ReplaceData>
       <Back>Tillbaka till namnbyte</Back>
       <Keepfile>Behåll båda filerna</Keepfile>
@@ -2400,7 +2400,7 @@
 
   <PopupComponent>
     <title>
-      <UIOneTaxonomySelector>Add Categories</UIOneTaxonomySelector>
+      <UIOneTaxonomySelector>Lägg till kategorier</UIOneTaxonomySelector>
     </title>
   </PopupComponent>
 
@@ -2445,8 +2445,8 @@
 
   <Import>
     <label>
-      <docview>Document View</docview>
-      <sysview>System View</sysview>
+      <docview>Dokumentvy</docview>
+      <sysview>Systemvy</sysview>
     </label>
   </Import>
 
@@ -2468,7 +2468,7 @@
       <Info>Information</Info>
       <Actions>Åtgärder</Actions>
       <Collaboration>Samarbete</Collaboration>
-      <Search>Search</Search>
+      <Search>Sök</Search>
     </obtion>
   </UIActionBar>
 
@@ -2546,13 +2546,13 @@
 
   <Comments>
     <tooltip>
-      <remove-comment>Remove this comment</remove-comment>
+      <remove-comment>Ta bort denna kommentar</remove-comment>
       <edit-comment>Redigera denna kommentar</edit-comment>
     </tooltip>
   </Comments>
   <UIDocumentInfo>
     <msg>
-      <confirm-deletecomment>Are you sure you want to delete this comment?</confirm-deletecomment>
+      <confirm-deletecomment>Är du säker på att du vill radera denna kommentar?</confirm-deletecomment>
     </msg>
   </UIDocumentInfo>
 
@@ -2576,13 +2576,13 @@
 
   <UIViewSearchResult>
     <tooltip>
-      <remove-attachment>Are you sure you want to remove this attachment file?</remove-attachment>
+      <remove-attachment>Är du säker på att du vill ta bort den här bifogade filen?</remove-attachment>
     </tooltip>
   </UIViewSearchResult>
 
   <SameNamePopup>
     <title>
-      <UIUploadBehaviorWithSameName>Upload File</UIUploadBehaviorWithSameName>
+      <UIUploadBehaviorWithSameName>Ladda upp fil</UIUploadBehaviorWithSameName>
     </title>
   </SameNamePopup>
 
@@ -2590,7 +2590,7 @@
     <label>
       <OwnedByMe>Ägs av mig</OwnedByMe>
       <Favourites>Favoriter</Favourites>
-      <Hidden>Hidden</Hidden>
+      <Hidden>Dold</Hidden>
       <Trash>Papperskorgen</Trash>
       <Configuration>Ställa in inställningar</Configuration>
     </label>
@@ -2602,7 +2602,7 @@
   <UIPreferencesForm>
       <label>
           <Alphabetic>Alfabetisk</Alphabetic>
-          <Type>Type</Type>
+          <Type>Typ</Type>
           <CreatedDate>Skapad Datum</CreatedDate>
           <ModifiedDate>Ändrade datum</ModifiedDate>
           <Ascending>Stigande ordning</Ascending>
@@ -2612,7 +2612,7 @@
 
   <UISavedSearches>
     <title>
-      <savedSearches>Saved Searches</savedSearches>
+      <savedSearches>Sparade sökningar</savedSearches>
     </title>
   </UISavedSearches>
   <DocumentType>
@@ -2621,7 +2621,7 @@
        <Video>Video</Video>
        <Music>Musik</Music>
        <Documents>Dokument</Documents>
-       <Content>Content</Content>
+       <Content>Innehåll</Content>
     </label>
   </DocumentType>
 
@@ -2630,10 +2630,10 @@
       <Images>Bild</Images>
       <Video>Video</Video>
       <Music>Musik</Music>
-      <Documents>Document</Documents>
-      <Content>Content</Content>
+      <Documents>Dokument</Documents>
+      <Content>Innehåll</Content>
     </label>
-    <title>Set Up Filter Preferences</title>
+    <title>Ställa in Filter</title>
     <action>
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
@@ -2643,7 +2643,7 @@
   <UIAllItemsByType>
     <label>
     <ByType>Filtrera efter typ</ByType>
-      <DocumentFilterConfiguration>Set Up Filter Preferences</DocumentFilterConfiguration>
+      <DocumentFilterConfiguration>Ställa in Filter</DocumentFilterConfiguration>
     </label>
     <title>
       <ShowVideo>Visa alla video-filer</ShowVideo>
@@ -2672,10 +2672,10 @@
 
   <UIAllItemsPreferenceForm>
     <label>
-      <showOwnedByUser>Owned by me</showOwnedByUser>
-      <showFavourites>Favorites</showFavourites>
-      <showHiddens>Hidden</showHiddens>
-      <showTrash>Trash</showTrash>
+      <showOwnedByUser>Ägs av mig</showOwnedByUser>
+      <showFavourites>Favoriter</showFavourites>
+      <showHiddens>Dold</showHiddens>
+      <showTrash>Papperskorgen</showTrash>
     </label>
     <action>
       <Save>#{word.save}</Save>
@@ -2693,25 +2693,25 @@
       <name>Kategorinamn</name>
     </label>
     <action>
-      <Save>Save</Save>
-      <Cancel>Cancel</Cancel>
+      <Save>Spara</Save>
+      <Cancel>Avbryt</Cancel>
     </action>
   </UICategoryForm>
   <UIPopupWindow>
     <title>
-      <UICategoryForm>Add Category</UICategoryForm>
+      <UICategoryForm>Lägg till kategori</UICategoryForm>
     </title>
   </UIPopupWindow>
   <UIActionBar>
     <tooltip>
-      <AddCategory>Add Category</AddCategory>
+      <AddCategory>Lägg till kategori</AddCategory>
     </tooltip>
    </UIActionBar>
 
    <UITaggingForm>
     <label>
-      <Public>Public</Public>
-      <Private>Private</Private>
+      <Public>Offentlig</Public>
+      <Private>Privat</Private>
       <tagScopes>Tagg scope</tagScopes>
     </label>
    </UITaggingForm>
@@ -2726,9 +2726,9 @@
 
   <UIEditingTagsForm>
     <header>
-      <name>Name</name>
-      <relatedDocuments>Related Documents</relatedDocuments>
-      <action>Action</action>
+      <name>Namn</name>
+      <relatedDocuments>Relaterade dokument</relatedDocuments>
+      <action>Åtgärd</action>
     </header>
     <action>
       <title>
@@ -2756,7 +2756,7 @@
     </action>
     <label>
       <tagName>Taggnamn:</tagName>
-      <relatedDocuments>Related Documents</relatedDocuments>
+      <relatedDocuments>Relaterade dokument</relatedDocuments>
     </label>
   </UITagForm>
 
@@ -2779,7 +2779,7 @@
 
   <UIPopupMenu>
     <msg>
-      <editTagAccessDenied>Access denied.</editTagAccessDenied>
+      <editTagAccessDenied>Åtkomst nekad.</editTagAccessDenied>
     </msg>
   </UIPopupMenu>
 
@@ -2791,21 +2791,21 @@
 
     <PopupComponent>
     <title>
-      <UINodeTypeSelector>Select Node Type</UINodeTypeSelector>
+      <UINodeTypeSelector>Välj nodtyp</UINodeTypeSelector>
     </title>
   </PopupComponent>
 
     <UIActionForm>
     <title>
       <ShowComponent>Visa komponent</ShowComponent>
-      <removeReference>Remove</removeReference>
+      <removeReference>Ta bort</removeReference>
     </title>
   </UIActionForm>
 
   <EditFormAction>
     <title>
       <ShowComponent>Visa komponent</ShowComponent>
-      <removeReference>Remove</removeReference>
+      <removeReference>Ta bort</removeReference>
     </title>
   </EditFormAction>
 
@@ -2848,8 +2848,8 @@
 
   <UISelectRestorePath>
     <action>
-      <Save>Save</Save>
-      <Cancel>Cancel</Cancel>
+      <Save>Spara</Save>
+      <Cancel>Avbryt</Cancel>
     </action>
     <label>
       <formInput>Den tidigare sökvägen är borta. Välj en ny.</formInput>
@@ -2857,7 +2857,7 @@
   </UISelectRestorePath>
   <PathNode>
     <title>
-      <Add>Add</Add>
+      <Add>Lägg till</Add>
     </title>
   </PathNode>
   <UIPopupPathFoRestore>
@@ -2895,10 +2895,10 @@
     </button>
     <revisions>
       <version>Revideringar</version>
-      <date>Date</date>
+      <date>Datum</date>
       <author>Författare</author>
       <status>Status</status>
-      <action>Action</action>
+      <action>Åtgärd</action>
       <label>Revision</label>
       <none>Inga ändringar</none>
       <seeall>Se alla versioner</seeall>
@@ -2910,24 +2910,24 @@
       <title>Status</title>
       <archived>Arkiverad</archived>
       <obsolete>Utgången</obsolete>
-      <unpublished>Unpublished</unpublished>
+      <unpublished>Ej publicerad</unpublished>
       <enrolled>Inskrivna</enrolled>
       <draft>Utkast</draft>
-      <pending>Pending</pending>
+      <pending>Väntläge</pending>
       <approved>Godkänd</approved>
       <inreview>Under granskning</inreview>
       <staged>Iscensatt</staged>
-      <published>Published</published>
-      <live>Published</live>
+      <published>Publicerad</published>
+      <live>Publicerad</live>
     </status>
     <scheduled>
-      <title>Scheduled</title>
-      <from>From</from>
-      <to>To</to>
+      <title>Schemalagd</title>
+      <from>Från</from>
+      <to>Till</to>
     </scheduled>
     <title>
       <preview>Förhandsgranska</preview>
-      <restore>Restore</restore>
+      <restore>Återställ</restore>
     </title>
     <msg>
       <have-no-view-template>Visa mallen stöds inte.</have-no-view-template>
@@ -2936,11 +2936,11 @@
   </UIPublicationPanel>
   <UIPublicationHistory>
     <header>
-      <date>Date</date>
+      <date>Datum</date>
       <versionName>Reviderings namn</versionName>
       <currentState>Aktuellt läge</currentState>
-      <user>Author</user>
-      <description>Description</description>
+      <user>Författare</user>
+      <description>Beskrivning</description>
     </header>
   </UIPublicationHistory>
   
@@ -2954,7 +2954,7 @@
     </msg>
     <action>
       <Save>#{word.save}</Save>
-      <Reset>Reset</Reset>
+      <Reset>Återställ</Reset>
     </action>
   </UIPublicationSchedule>
 
@@ -2971,15 +2971,15 @@
   </UIPublicationPanel>
   <UIPopupWindow>
     <title>
-      <UIPublicationContainer>Manage Publication</UIPublicationContainer>
-      <UIPublishingPanel>Manage Publication</UIPublishingPanel>
+      <UIPublicationContainer>Hantera publikation</UIPublicationContainer>
+      <UIPublishingPanel>Hantera publikation</UIPublishingPanel>
     </title>
   </UIPopupWindow>
   <WCMContentView>
     <header>
       <status>Status</status>
-      <author>Author</author>
-      <date>Created Date</date>
+      <author>Författare</author>
+      <date>Skapad Datum</date>
       <title>Dokumenttitel</title>
       <lastUser>Senaste användare</lastUser>
     </header>
@@ -2996,7 +2996,7 @@
   <UICategoryManagerSearch>
     <tab>
       <label>
-        <UIOneTaxonomySelector>Select Category</UIOneTaxonomySelector>
+        <UIOneTaxonomySelector>Välj kategori</UIOneTaxonomySelector>
       </label>
     </tab>
   </UICategoryManagerSearch>
@@ -3102,13 +3102,13 @@
     <in>in</in>
     <MaxFileSizeAlert>Filstorleken överskrider storleksbegränsningen</MaxFileSizeAlert>
     <Waiting>Väntar på</Waiting>
-    <Error>Error</Error>
+    <Error>Fel</Error>
     <or>eller</or>
     <AlreadyInUse>Redan används</AlreadyInUse>
     <Keep>Behåll båda</Keep>
     <Replace>Ersätt</Replace>
     <Canceled>Avbruten</Canceled>
-    <Cancel>Cancel</Cancel>
+    <Cancel>Avbryt</Cancel>
     <AbortAllConfirmation>Vill du avbryta alla filer som är i process?</AbortAllConfirmation>
   </label>
   </UIMultiUpload>
@@ -3122,10 +3122,10 @@
   </UIDocumentNodeList>
   <FileView>
     <label>
-      <name>Name</name>
-      <date>Date</date>
+      <name>Namn</name>
+      <date>Datum</date>
       <size>Storlek</size>
-      <sortBy>Sort by:</sortBy>
+      <sortBy>Sortera efter:</sortBy>
       <filesAreSelected>Filer är markerade.</filesAreSelected>
       <ClearSelection>Tydlig markering</ClearSelection>
       <more>Mer</more>

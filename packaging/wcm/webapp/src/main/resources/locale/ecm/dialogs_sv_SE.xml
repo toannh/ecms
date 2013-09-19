@@ -28,8 +28,8 @@
       <contentHtml>#{word.content}</contentHtml>
       <content>#{word.content}</content>
       <contentPlain>#{word.content}</contentPlain>
-      <name>Name</name>
-    <categories>Categories</categories>
+      <name>Namn</name>
+    <categories>Kategorier</categories>
     </label>
   </UIDocumentForm>
  
@@ -39,8 +39,8 @@
   <HtmlFile>
     <dialog>
       <label>
-        <name>Name</name>
-        <content>Content</content>
+        <name>Namn</name>
+        <content>Innehåll</content>
       </label>
     </dialog>
   </HtmlFile>
@@ -52,7 +52,7 @@
     <dialog>
       <label>
         <name>#{word.name}</name>
-        <categories>Categories</categories>
+        <categories>Kategorier</categories>
         <mimeType>#{Ecm.dialog.label.mimeType}</mimeType>
         <content>#{word.content}</content>
         <re-upload>Filen finns redan. Du kan ta bort den och ladda upp en annan fil.</re-upload>
@@ -74,7 +74,7 @@
   <EditFormAction>
     <label>
       <description>#{word.description}</description>
-      <port>Port</port>
+      <port>Portera</port>
       <userName>#{word.userName}</userName>
       <password>Lösenord</password>
       <link>Länk</link>
@@ -224,7 +224,7 @@
   <RssEnable>
     <dialog>
       <label>
-        <title>Title</title>
+        <title>Titel</title>
         <summary>#{word.summary}</summary>
       </label>
     </dialog>
@@ -252,10 +252,10 @@
   <ResouceContainer>
     <dialog>
       <label>
-        <name>Name</name>
+        <name>Namn</name>
         <autoload>Auto Load</autoload>
         <minetype>MIME-typ</minetype>
-        <content>Content</content>
+        <content>Innehåll</content>
       </label>
     </dialog>
   </ResouceContainer>
@@ -264,7 +264,7 @@
   -->
   <EmailAddressValidator>
     <msg>
-      <Invalid-input>The email address is invalid.</Invalid-input>
+      <Invalid-input>E-postadressen är ogiltig.</Invalid-input>
     </msg>
   </EmailAddressValidator>
   <EmptyFieldValidator>
@@ -286,9 +286,9 @@
     <dialog>
       <label>
         <id>ID</id>
-        <name>Name</name>
+        <name>Namn</name>
         <lifecycle>Livscykel</lifecycle>
-        <homePath>Home Path</homePath>
+        <homePath>Sökväg Hem</homePath>
         <targetWorkspace>Målet arbetsyta</targetWorkspace>
         <targetPath>Målet sökväg</targetPath>
       </label>
@@ -333,7 +333,7 @@
     <dialog>
       <label>
         <isDeep>Är för djupt</isDeep>
-        <nodetypes>Node Types</nodetypes>
+        <nodetypes>Nodtyper</nodetypes>
         <affectedNodeTypeNames>Drabbade nodtyper</affectedNodeTypeNames>
       </label>
     </dialog>
@@ -343,7 +343,7 @@
     <dialog>
       <label>
         <isDeep>Är för djupt</isDeep>
-        <nodetypes>Node Types</nodetypes>
+        <nodetypes>Nodtyper</nodetypes>
         <affectedNodeTypeNames>Drabbade nodtyper</affectedNodeTypeNames>
       </label>
     </dialog>
