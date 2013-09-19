@@ -68,7 +68,7 @@
       <child-not-found>ページがありません</child-not-found>
     </msg>
     <title>
-      <select>Select</select>
+      <select>選択</select>
     </title>
   </UIPageSelectorPanel>
 
@@ -422,19 +422,19 @@
   </UIDocumentInfo>
   <UIPortalApplication>
     <title>
-      <abort>Abort</abort>
+      <abort>中断</abort>
     </title>
   </UIPortalApplication>    
   
   <CategoryNavigationTemplate>
   <label>
-  <home>Home</home>
+  <home>ホーム</home>
   </label>
   </CategoryNavigationTemplate>
   
   <Breadcrumb>
   <label>
-  <home>Home</home>
+  <home>ホーム</home>
   </label>  
   </Breadcrumb>
 </bundle>

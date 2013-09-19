@@ -98,7 +98,7 @@
       <selectView>ビューの選択</selectView>
       <showSideBar>サイドバーの表示</showSideBar>
       <more>もっと</more>
-      <backTo>Back</backTo>
+      <backTo>戻る</backTo>
     </label>
   </UIViewBar>
 
@@ -520,7 +520,7 @@
       <confirm-deleteattachment>この添付ファイルを削除しますか？</confirm-deleteattachment>
       <confirm-deleteattcomment>このコメントを削除しますか？</confirm-deleteattcomment>
       <access-denied-exception>アクセス出来ません! 読み込み権限を持っていないかノードが削除されたもしくは変更された可能性があります。</access-denied-exception>
-      <path-not-found>This element was deleted or changed. Please click the Refresh button.</path-not-found>
+      <path-not-found>このノードは削除もしくは変更された可能性があります。リフレッシュボタンをクリックします。</path-not-found>
     </msg>
     <tooltip>
       <remove-attachment>この添付ファイルの削除</remove-attachment>
@@ -1193,7 +1193,7 @@
     <pLabel>プロパティ：</pLabel>
     <action>
       <Add>追加</Add>
-      <Cancel>Cancel</Cancel>
+      <Cancel>キャンセル</Cancel>
     </action>
   </UISelectPropertyForm>
   <ExactlyFormPopup>
@@ -1552,7 +1552,7 @@
     </action>
     <label>
       <category>カテゴリ</category>
-      <actions>Action</actions>
+      <actions>アクション</actions>
       <delete>削除</delete>
     </label>
   </UICategoriesAddedList>
@@ -1741,8 +1741,8 @@
     </msg>
     <action>
       <Close>#{word.close}</Close>
-      <View>View</View>
-      <Edit>Edit</Edit>
+      <View>ビュー</View>
+      <Edit>編集</Edit>
       <Delete>削除</Delete>
     </action>
   </UIActionList>
@@ -1802,11 +1802,11 @@
       <keyword-not-support>検索キーワードが有効できはありません。認識されない文字列が存在しています。</keyword-not-support>
     </msg>
     <label>
-      <exeButton>Go</exeButton>
+      <exeButton>移動</exeButton>
       <address>アドレス :</address>
     </label>
     <title>
-      <exeButton>Go</exeButton>
+      <exeButton>移動</exeButton>
       <backButton>前のノードの戻る</backButton>
       <showHistory>履歴アドレスの表示</showHistory>
       <changeNode>変更ノード</changeNode>
@@ -2222,7 +2222,7 @@
   <UIPopupWindow>
     <title>
       <UISymLinkManager>Add Link</UISymLinkManager>
-      <UIAddTranslationManager>Add Translation</UIAddTranslationManager>
+      <UIAddTranslationManager>Translationの追加</UIAddTranslationManager>
     </title>
   </UIPopupWindow>
 
@@ -2255,7 +2255,7 @@
   
   <UIAddTranslationForm>
     <label>
-      <symLinkName>Symlink Name</symLinkName>
+      <symLinkName>Symリンク名</symLinkName>
       <pathNode>ドキュメントのパス:</pathNode>
       <note>翻訳に役立つもう 別なドキュメントを選択してください。</note>
     </label>
@@ -2266,19 +2266,19 @@
     </action>
     <msg>
       <addFolder-successful>Symlink リンク '{0}' の追加に成功しました</addFolder-successful>
-      <name-invalid>Please enter the symlink name.</name-invalid>
-      <name-not-allowed>This name is not allowed.</name-not-allowed>
-      <fileName-error>The file name is invalid.</fileName-error>
-      <constraint-violation>You cannot add the'{0}' node type to the current node.</constraint-violation>
-      <repository-exception>Access denied. You do not have permission to add symlink to this node.</repository-exception>
-      <numberformat-exception>You cannot save this folder. The name provided must be in numerical format.</numberformat-exception>
-      <path-node-invalid>Please enter the path node.</path-node-invalid>
-      <path-node-not-allowed>This name is not allowed.</path-node-not-allowed>
-      <non-node>Please select the trust target node; you may not have the right to read this node.</non-node>
+      <name-invalid>Symbolicリンク名を入力してください。</name-invalid>
+      <name-not-allowed>この名前は許されていません。</name-not-allowed>
+      <fileName-error>無効なファイル名</fileName-error>
+      <constraint-violation>現在のノードは '{0}' ノードタイプを追加することを許していません。</constraint-violation>
+      <repository-exception>アクセスが拒否されました！このノードへのシンボリックリンクを追加する権限がありません。</repository-exception>
+      <numberformat-exception>フォルダを保存できません。与えられた名前はナンバーフォーマットである必要があります。</numberformat-exception>
+      <path-node-invalid>パスノードを入力してください！</path-node-invalid>
+      <path-node-not-allowed>この名前は許されていません。</path-node-not-allowed>
+      <non-node>信頼できるターゲットノードを選択するか、もしくは、ノードを読める十分な権限がありません。</non-node>
       <cannot-save>symlink リンクの作成中にエラーが発生しました。</cannot-save>
-      <item-exists-exception>The node name already exists.</item-exists-exception>
-      <translation-node-same-language-default>The translation node has the same language as the default language of current node.</translation-node-same-language-default>
-      <UnsupportedRepositoryOperationException>This target node is not referred.</UnsupportedRepositoryOperationException>
+      <item-exists-exception>同じ名前のノード名が既に存在します。</item-exists-exception>
+      <translation-node-same-language-default>The translation node has same language with the default language of current node.</translation-node-same-language-default>
+      <UnsupportedRepositoryOperationException>ターゲットノードは参照ではありません。</UnsupportedRepositoryOperationException>
     </msg>
   </UIAddTranslationForm>
 
@@ -2289,7 +2289,7 @@
   </UIPopupSymLink>
   <UIPopupSymLink>
     <title>
-      <UIContentSelectorOne>Select Document</UIContentSelectorOne>
+      <UIContentSelectorOne>ドキュメントを選択</UIContentSelectorOne>
     </title>
   </UIPopupSymLink>
 
@@ -2390,7 +2390,7 @@
   <UIRestoreConfirmMessage>
     <label>
       <Close>#{word.close}</Close>
-      <OK>OK</OK>
+      <OK>Ok</OK>
       <ReplaceData>置き換えデータ</ReplaceData>
       <Back>リネームに戻る</Back>
       <Keepfile>両方のファイルをキープする</Keepfile>
@@ -2621,7 +2621,7 @@
        <Video>ビデオ</Video>
        <Music>音楽</Music>
        <Documents>ドキュメント</Documents>
-       <Content>Content</Content>
+       <Content>コンテンツ</Content>
     </label>
   </DocumentType>
 
@@ -2629,9 +2629,9 @@
     <label>
       <Images>イメージ</Images>
       <Video>ビデオ</Video>
-      <Music>Music</Music>
-      <Documents>Document</Documents>
-      <Content>Content</Content>
+      <Music>音楽</Music>
+      <Documents>ドキュメント</Documents>
+      <Content>コンテンツ</Content>
     </label>
     <title>優先フィルタの設定</title>
     <action>
@@ -2954,7 +2954,7 @@
     </msg>
     <action>
       <Save>#{word.save}</Save>
-      <Reset>Reset</Reset>
+      <Reset>リセット</Reset>
     </action>
   </UIPublicationSchedule>
 
@@ -3098,17 +3098,17 @@
     <MaxFileSize>Maximal file size is</MaxFileSize>
     <InvalidCharacters>無効な文字は、'-'に変換されます</InvalidCharacters>
     <DropFileMessage>あなたのファイルを現在のフォルダーにドロップします。</DropFileMessage>
-    <Close>Close</Close>
+    <Close>閉じる</Close>
     <in>で</in>
     <MaxFileSizeAlert>ファイル サイズの制限を超えています</MaxFileSizeAlert>
     <Waiting>待機中です</Waiting>
-    <Error>Error</Error>
+    <Error>エラー</Error>
     <or>または</or>
     <AlreadyInUse>既に使用中です</AlreadyInUse>
     <Keep>両方を維持します。</Keep>
     <Replace>置換</Replace>
     <Canceled>キャンセルされました</Canceled>
-    <Cancel>Cancel</Cancel>
+    <Cancel>キャンセル</Cancel>
     <AbortAllConfirmation>進行中のすべてのファイルを中止しますか。</AbortAllConfirmation>
   </label>
   </UIMultiUpload>
@@ -3123,9 +3123,9 @@
   <FileView>
     <label>
       <name>名前</name>
-      <date>Date</date>
+      <date>日時</date>
       <size>サイズ</size>
-      <sortBy>Sort by:</sortBy>
+      <sortBy>ソート順</sortBy>
       <filesAreSelected>files are selected.</filesAreSelected>
       <ClearSelection>選択をクリア</ClearSelection>
       <more>もっと</more>

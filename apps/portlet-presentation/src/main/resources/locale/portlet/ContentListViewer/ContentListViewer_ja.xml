@@ -29,7 +29,7 @@
       <option>
         <exo:title>タイトル</exo:title>
         <exo:dateCreated>作成日</exo:dateCreated>
-        <exo:lastModifiedDate>Modified Date</exo:lastModifiedDate>
+        <exo:lastModifiedDate>変更日</exo:lastModifiedDate>
         <publication:liveDate>公開日</publication:liveDate>
         <exo:startEvent>イベント日</exo:startEvent>
         <exo:index>目次</exo:index>
@@ -60,12 +60,12 @@
       <UICLVConfigshowSCVWithStringInput>を</UICLVConfigshowSCVWithStringInput>
       <UICLVConfigTargetPageFormInputSet>ページに表示</UICLVConfigTargetPageFormInputSet>
       <content-not-found>コンテンツがありません！</content-not-found>
-      <ContentPath>Content Path</ContentPath>
+      <ContentPath>コンテンツパス</ContentPath>
       <Up>上へ</Up>
       <Down>下へ</Down>
       <UICLVConfigCacheManagementLabel>コンテンツ参照レベル</UICLVConfigCacheManagementLabel>
       <UICLVContentByQueryLabel>コンテンツ検索</UICLVContentByQueryLabel>
-      <UICLVConfigWorkspaceFormSelectBox>Workspace</UICLVConfigWorkspaceFormSelectBox>
+      <UICLVConfigWorkspaceFormSelectBox>ワークスペース</UICLVConfigWorkspaceFormSelectBox>
       <UICLVConfigContentByQueryTextArea>検索</UICLVConfigContentByQueryTextArea>
       <UICLVConfigCacheEnableRadioBoxInput>ユーザー間でコンテンツを共有</UICLVConfigCacheEnableRadioBoxInput>
     </label>
@@ -92,9 +92,9 @@
     </msg>
     <tab>
       <label>
-        <clvContentTab>Content Selection</clvContentTab>
-        <clvDisplayTab>Display Settings</clvDisplayTab>
-        <clvAdvancedTab>Advanced</clvAdvancedTab>
+        <clvContentTab>コンテンツ選択</clvContentTab>
+        <clvDisplayTab>表示設定</clvDisplayTab>
+        <clvAdvancedTab>詳細設定</clvAdvancedTab>
       </label>
     </tab>
   </UICLVConfig>
@@ -107,7 +107,7 @@
   <UICLVConfigItemPathFormInputSet>
     <title>
       <SelectFolderPath>フォルダパスの選択</SelectFolderPath>
-      <AddPath>Add Path</AddPath>
+      <AddPath>パスの追加</AddPath>
     </title>
   </UICLVConfigItemPathFormInputSet>
   <FolderPathSelectorPopupWindow>
@@ -126,7 +126,7 @@
   <UICLVConfigTargetPageFormInputSet>
     <title>
       <SelectBasePath>ベースパスの選択</SelectBasePath>
-      <SelectTargetPage>Select Base Path</SelectTargetPage>
+      <SelectTargetPage>ベースパスを選択</SelectTargetPage>
     </title>
   </UICLVConfigTargetPageFormInputSet>
   <UICLVBasePathPopupWindow>

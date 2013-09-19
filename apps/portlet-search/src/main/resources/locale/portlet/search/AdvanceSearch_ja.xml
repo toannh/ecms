@@ -44,7 +44,7 @@
       <searchResultBasePathInputSetAction>ベースパス</searchResultBasePathInputSetAction>
       <pageMode>ページ モード</pageMode>
       <option>
-        <none>None</none>
+        <none>無し</none>
         <more>もっと</more>
         <pagination>改ページ</pagination>
       </option>
@@ -68,8 +68,8 @@
   </UISearchForm>
   <UIPaginatorDefault>
     <label>
-      <next>Next</next>
-      <previous>Previous</previous>
+      <next>次へ</next>
+      <previous>戻る</previous>
       <more>もっと</more>
     </label>
   </UIPaginatorDefault>

@@ -7,7 +7,7 @@
   </ContentSelector>
   <RenameConnector>
     <label>
-      <rename>Rename</rename>
+      <rename>名前変更</rename>
       <cancel>キャンセル</cancel>
     </label>
     <msg>

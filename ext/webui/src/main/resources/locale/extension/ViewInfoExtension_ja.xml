@@ -14,20 +14,20 @@
 <UIViewInfoContainer>
 <label>
       <name>名前</name>
-      <title>Title</title>
+      <title>タイトル</title>
       <type>タイプ</type>
       <size>サイズ</size>
-      <owner>Owner</owner>
+      <owner>所有者</owner>
       <lastModifier>最終更新者</lastModifier>
-      <created>Created Date</created>
+      <created>作成日</created>
       <lastModified>最終更新日付</lastModified>
       <publicationState>公開状態</publicationState>
 </label>
 <value>
-      <folder>Folder</folder>
+      <folder>フォルダ</folder>
 </value>
 <action>
-<Close>Close</Close>
+<Close>閉じる</Close>
 </action>
 </UIViewInfoContainer>
 </bundle>

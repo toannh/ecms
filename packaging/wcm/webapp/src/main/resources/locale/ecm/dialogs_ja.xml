@@ -14,8 +14,8 @@
         <time-interval>インターバル</time-interval>
         <query-items>アイテム検索</query-items>
         <schedule-type>スケジュールタイプ</schedule-type>
-        <remove>Remove Item</remove>
-        <add>Add Item</add>
+        <remove>アイテムを削除</remove>
+        <add>アイテムを追加</add>
         <expand>展開する</expand>
       </label>
     </dialog>
@@ -373,7 +373,7 @@
   <dialog>
   <label>
   <captions>キャプション</captions>
-<audioDescription>Audio description</audioDescription>
+<audioDescription>オーディオの説明</audioDescription>
 <alternativeText>代替テキスト</alternativeText>
 </label>
 </dialog>
