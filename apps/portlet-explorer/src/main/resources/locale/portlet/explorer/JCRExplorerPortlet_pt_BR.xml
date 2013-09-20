@@ -2604,7 +2604,7 @@
           <Alphabetic>Alphabetical</Alphabetic>
           <Type>Type</Type>
           <CreatedDate>Data de Criação</CreatedDate>
-          <ModifiedDate>Modified Date</ModifiedDate>
+          <ModifiedDate>Data de Modificação</ModifiedDate>
           <Ascending>Ascending</Ascending>
           <Descending>Descending</Descending>
       </label>
@@ -3007,7 +3007,7 @@
      <ShowAdvance>Show Advanced</ShowAdvance>
     </action>
     <label>
-    <Advance>Advanced</Advance>
+    <Advance>Avançado</Advance>
     </label>
   </UIPreferencesForm>
 

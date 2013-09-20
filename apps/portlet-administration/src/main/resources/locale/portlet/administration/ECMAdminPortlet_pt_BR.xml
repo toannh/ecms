@@ -11,7 +11,7 @@
         <Templates>Templates</Templates>
         <Explorer>Explorer</Explorer>
         <Repository>Repository</Repository>
-        <Advanced>Advanced</Advanced>
+        <Advanced>Avançado</Advanced>
       </label>
     </tab>    
     <label>     
@@ -108,7 +108,7 @@
 
   <TaxonomyTreeHomePath>
     <title>
-      <AddPath>Add Path</AddPath>
+      <AddPath>Adicionar Caminho</AddPath>
     </title>
   </TaxonomyTreeHomePath>
   
