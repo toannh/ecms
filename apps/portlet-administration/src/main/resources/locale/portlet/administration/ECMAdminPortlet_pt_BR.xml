@@ -161,7 +161,7 @@
       <path-invalid>Caminho inválido</path-invalid>
       <taxonomy-existed>A árvore de categoria já existe.</taxonomy-existed>
       <taxonomy-node-existed>O nó da taxonomia já existe.</taxonomy-node-existed>
-      <no-permission-add>You do not have the right to add.</no-permission-add>
+      <no-permission-add>You do not have the right to add an action.</no-permission-add>
       <not-created-tree>A árvore de categoria não foi criada ainda.</not-created-tree>
     </msg>
   </UIActionForm>
