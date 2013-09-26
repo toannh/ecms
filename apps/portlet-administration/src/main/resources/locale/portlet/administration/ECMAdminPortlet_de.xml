@@ -161,7 +161,7 @@
       <path-invalid>Dieser Pfad ist ungültig.</path-invalid>
       <taxonomy-existed>Der Kategorienbaum ist bereits vorhanden.</taxonomy-existed>
       <taxonomy-node-existed>Der Kategorie-Knoten ist bereits vorhanden.</taxonomy-node-existed>
-      <no-permission-add>Ihnen fehlt die Berechtigung zum Hinzufügen.</no-permission-add>
+      <no-permission-add>You do not have the right to add an action.</no-permission-add>
       <not-created-tree>Der Kategorienbaum wurde noch nicht erstellt.</not-created-tree>
     </msg>
   </UIActionForm>
