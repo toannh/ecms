@@ -190,7 +190,7 @@
   <UINamespaceForm>
     <title>Registrar novo espaço de nomes</title>
     <label>
-      <namespace>Namespace Prefix</namespace>
+      <namespace>Prefixo do Espaço de Nomes</namespace>
       <uri>URI</uri>
     </label>
     <action>
@@ -198,9 +198,9 @@
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <register-unsuccessfull>Namespace or URI already exists.</register-unsuccessfull>
-      <prefix-null>Please specify the namespace's prefix.</prefix-null>
-      <uri-null>Please specify the namespace's URI.</uri-null>
+      <register-unsuccessfull>O espaço de nomes ou uri já existe.</register-unsuccessfull>
+      <prefix-null>Por favor inserir o prefixo do espaço de nomes.</prefix-null>
+      <uri-null>Por favor inserir URI do espaço de nomes.</uri-null>
     </msg>
   </UINamespaceForm>
   <!--
