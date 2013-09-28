@@ -1065,7 +1065,7 @@
     </action>
     <msg>
       <version-restored>La version '{0}' a été restaurée avec succès.</version-restored>
-      <role-require>Document:</role-require>
+      <role-require>Veuillez sélectionner une permission.</role-require>
       <template-name-exist>Le formulaire '{0}' existe déjà.</template-name-exist>
       <add-permission-denied>Vous n'avez pas les droits pour ajouter un nouveau formulaire.</add-permission-denied>
       <edit-permission-denied>Document:</edit-permission-denied>
