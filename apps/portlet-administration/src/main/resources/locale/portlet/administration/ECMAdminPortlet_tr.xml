@@ -282,7 +282,7 @@
     <title>Mapping Metadata</title>
     <action>
       <Cancel>#{word.cancel}</Cancel>
-      <Save>Apply</Save>
+      <Save>Uygula</Save>
     </action>
     <header>
       <icon>Simge</icon>
@@ -440,7 +440,7 @@
   <UINodeTypeManager>
     <header>
       <icon>Simge</icon>
-      <label>Node Name</label>
+      <label>Düğüm Adı</label>
       <input>Eylem</input>
     </header>
     <action>
@@ -490,7 +490,7 @@
     </action>
     <header>
       <icon>Simge</icon>
-      <label>Node Name</label>
+      <label>Düğüm Adı</label>
       <input>Eylem</input>
     </header>
   </UINodeTypeOptionList>
@@ -685,7 +685,7 @@
     </action>
     <header>
       <icon>Simge</icon>
-      <label>Node Name</label>
+      <label>Düğüm Adı</label>
       <input>Eylem</input>
     </header>
     <title>Select Import Node Type</title>

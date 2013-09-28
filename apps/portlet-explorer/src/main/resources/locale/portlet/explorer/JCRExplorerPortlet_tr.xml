@@ -1506,7 +1506,7 @@
   <UIViewVersion>
     <label>
       <nodeType>Node Type</nodeType>
-      <nodeName>Node Name</nodeName>
+      <nodeName>Düğüm Adı</nodeName>
       <VersionNumber>Version Number</VersionNumber>
       <VersionLabels>Version Labels</VersionLabels>
       <VersionDate>Version Date</VersionDate>
