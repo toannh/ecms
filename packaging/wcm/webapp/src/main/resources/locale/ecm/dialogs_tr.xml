@@ -126,7 +126,7 @@
         <id>Kimlik</id>
         <name>#{word.name}</name>
         <lifecycle>#{Ecm.dialog.label.lifecycle}</lifecycle>
-        <schedule-type>#{Ecm.dialog.label.schedule-türü}</schedule-type>
+        <schedule-type>#{Ecm.dialog.label.schedule-type}</schedule-type>
         <start-time>#{Ecm.dialog.label.start-time}</start-time>
         <end-time>#{Ecm.dialog.label.end-time}</end-time>
         <repeat-count>#{Ecm.dialog.label.repeat-count}</repeat-count>

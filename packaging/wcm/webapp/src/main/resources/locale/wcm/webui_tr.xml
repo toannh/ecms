@@ -136,7 +136,7 @@
 
   <UISelectedContentGrid>
     <label>
-      <name>Ad</name>
+      <name>Adı</name>
       <add>Ekle</add>
       <delete>Sil</delete>
     </label>
@@ -155,7 +155,7 @@
 
   <UIContentBrowsePathSelector>
     <header>
-      <name>Ad</name>
+      <name>Adı</name>
       <publicationstate>Yayın Durumu</publicationstate>
       <action>Eylem</action>
     </header>
@@ -166,7 +166,7 @@
 
   <UIContentBrowsePathSelectorFolder>
     <header>
-      <name>Ad</name>
+      <name>Adı</name>
       <publicationstate>Yayın Durumu</publicationstate>
       <action>Eylem</action>
     </header>

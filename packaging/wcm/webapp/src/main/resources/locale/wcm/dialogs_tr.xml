@@ -28,7 +28,7 @@
         <jsFile>default.js</jsFile>
         <Advanced>Gelişmiş</Advanced>
         <Summary>Özet</Summary>
-        <name>Ad</name>
+        <name>Adı</name>
         <title>Başlık</title>
         <ContentCSS>CSS Veri</ContentCSS>
         <hintCSS>Web içeriği için ana stil sayfası belirtebilirsiniz. Bu tarz site düzeyinde hem de paylaşılan düzeyinde tanımlanan stil sayfaları geçersiz kılar.</hintCSS>

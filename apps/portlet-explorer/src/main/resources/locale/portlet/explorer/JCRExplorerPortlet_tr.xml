@@ -1203,7 +1203,7 @@
   </ExactlyFormPopup>
   <UIECMSearch>
     <header>
-      <name>Ad</name>
+      <name>Adı</name>
       <language>Dil</language>
       <query>Sorgu</query>
       <action>Eylemler</action>
@@ -1234,7 +1234,7 @@
   </UISaveQueryForm>
   <UISavedQuery>
     <header>
-      <name>Ad</name>
+      <name>Adı</name>
       <type>Türü</type>
       <statement>Açıklama</statement>
       <permission>İzinler</permission>

@@ -421,7 +421,7 @@
       <child-not-found>Alt düğümü bulunamadı.</child-not-found>
     </info>
     <header>
-      <name>Ad</name>
+      <name>Adı</name>
       <action>Eylem</action>
     </header>
   </UITreeList>
@@ -725,7 +725,7 @@
   <UIActionTypeList>
     <header>
       <name>Script</name>
-      <label>Ad</label>
+      <label>Adı</label>
 <action>Eylemler</action>
     </header>
     <action>
@@ -812,7 +812,7 @@
      <Delete>Sil</Delete>
    </title>
     <header>
-      <name>Ad</name>
+      <name>Adı</name>
       <permissions>İzinler</permissions>
       <tabList>Eylem Sekmesi</tabList>
       <baseVersion>Temel Sürüm</baseVersion>
@@ -922,7 +922,7 @@
       <view-exist>Görünüm adı zaten var.</view-exist>
     </msg>
     <label>
-      <viewName>Ad</viewName>
+      <viewName>Adı</viewName>
       <template>Şablon</template>
 <version>Sürümü geri yükle</version>
       <enableVersion>Sürüm Kontrolü Etkinleştir</enableVersion>
@@ -937,7 +937,7 @@
     </msg>
     <label>
       <version>Sürümü geri yükle</version>
-      <viewName>Ad</viewName>
+      <viewName>Adı</viewName>
       <tabName>Sekme Adı</tabName>
       <permission>İzin</permission>
       <tabs>Sekmeler</tabs>
@@ -1035,7 +1035,7 @@
       <Delete>Sil</Delete>
     </title>
     <header>
-      <name>Ad</name>
+      <name>Adı</name>
       <path>Değer</path>
       <baseVersion>Temel Sürüm</baseVersion>
       <action>Eylem</action>
@@ -1148,7 +1148,7 @@
       <confirm-delete>Bu scripti silmek istediğinizden emin misiniz?</confirm-delete>
     </msg>
     <header>
-      <scriptName>Ad</scriptName>
+      <scriptName>Adı</scriptName>
       <path>Script</path>
       <baseVersion>Temel Sürüm</baseVersion>
       <action>Eylemler</action>
@@ -1198,7 +1198,7 @@
     <label>
       <selectVersion>Sürümler</selectVersion>
       <scriptContent>İçerik</scriptContent>
-      <scriptLabel>Ad</scriptLabel>
+      <scriptLabel>Adı</scriptLabel>
       <scriptName>Script</scriptName>
       <enableVersion>Sürüm Kontrolü Etkinleştir</enableVersion>
     </label>
@@ -1213,7 +1213,7 @@
     <label>
       <selectVersion>Sürümler</selectVersion>
       <scriptContent>İçerik</scriptContent>
-      <scriptLabel>Ad</scriptLabel>
+      <scriptLabel>Adı</scriptLabel>
       <scriptName>Script</scriptName>
       <enableVersion>Sürüm Kontrolü Etkinleştir</enableVersion>
     </label>
@@ -1343,7 +1343,7 @@
   -->
   <UITaxonomyTreeForm>
     <label>
-      <name>Ad</name>
+      <name>Adı</name>
       <workspace>Çalışma Alanı</workspace>
       <homePath>Yol</homePath>
       <permissions>İzinler</permissions>
@@ -1566,7 +1566,7 @@
 
   <UICLVTemplateList>
     <header>
-      <title>Ad</title>
+      <title>Adı</title>
       <action>Eylem</action>
       <template>Şablon</template>
     </header>
@@ -1585,7 +1585,7 @@
 
 <CateTemplateList>
     <header>
-      <title>Ad</title>
+      <title>Adı</title>
       <action>Eylem</action>
       <template>Şablon</template>
     </header>
@@ -1598,7 +1598,7 @@
 
 <PageTemplateList>
     <header>
-      <title>Ad</title>
+      <title>Adı</title>
       <action>Eylem</action>
       <template>Şablon</template>
     </header>
@@ -1652,7 +1652,7 @@
 <Cancel>#{word.cancel}</Cancel>
  </action>
 <label>
- <title>Ad</title>
+ <title>Adı</title>
 <template>Şablon Adı</template>
 <content>İçerik</content>
 <type>Şablon Türü</type>
@@ -1666,7 +1666,7 @@
 <Cancel>#{word.cancel}</Cancel>
  </action>
 <label>
- <title>Ad</title>
+ <title>Adı</title>
 <template>Şablon Adı</template>
 <content>İçerik</content>
 <type>Şablon Türü</type>
@@ -1680,7 +1680,7 @@
 <Cancel>#{word.cancel}</Cancel>
  </action>
 <label>
- <title>Ad</title>
+ <title>Adı</title>
 <template>Şablon Adı</template>
 <content>İçerik</content>
 <type>Şablon Türü</type>
@@ -1795,7 +1795,7 @@
   -->
   <UIDialogTab>
     <header>
-      <name>Ad</name>
+      <name>Adı</name>
       <roles>Roller</roles>
       <baseVersion>Sürüm</baseVersion>
       <action>Eylemler</action>
@@ -1818,7 +1818,7 @@
   -->
   <UIViewTab>
     <header>
-      <name>Ad</name>
+      <name>Adı</name>
       <roles>Roller</roles>
       <baseVersion>Sürüm</baseVersion>
       <action>Eylemler</action>
@@ -1889,7 +1889,7 @@
   -->
   <UIQueriesList>
     <header>
-      <name>Ad</name>
+      <name>Adı</name>
       <type>Türü</type>
       <statement>Açıklama</statement>
       <permission>İzinler</permission>
@@ -2325,7 +2325,7 @@
   
   <UISkinTab>
     <header>
-      <name>Ad</name>
+      <name>Adı</name>
       <roles>Roller</roles>
       <baseVersion>Sürüm</baseVersion>
       <action>Eylemler</action>
