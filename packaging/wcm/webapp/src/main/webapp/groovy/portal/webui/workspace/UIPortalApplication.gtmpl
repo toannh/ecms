@@ -95,6 +95,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="$lang" lang="$lang" dir="$dir">
 <!-- <![endif]-->
   <head id="head">
+  
+  
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <!--#if !(FIREFOX || MOZCENTRAL || CHROME || IE)-->
+    <script type="text/javascript" src="/eXoWCMResources/pdf.js/compatibility.js"></script>
+  <!--#endif-->
+  
+  
     <title><%=title%></title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <%
@@ -185,11 +195,8 @@
     /* ]]> */   
     </script>
     <%}
-   %>
-   
-   <!--[if IE]>
-   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-   <![endif]-->
+   %> 
+  
  </head>
 
  <body style="height: 100%;">
