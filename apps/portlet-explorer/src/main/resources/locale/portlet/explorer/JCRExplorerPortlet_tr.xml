@@ -109,14 +109,14 @@
   -->
   <UIDrivesBrowser>
     <title>
-      <PersonalDrives>Personal drives</PersonalDrives>
-      <GroupDrives>Group drives</GroupDrives>
-      <GeneralDrives>General drives</GeneralDrives>
+      <PersonalDrives>Kişisel sürücüler</PersonalDrives>
+      <GroupDrives>Grup sürücüler</GroupDrives>
+      <GeneralDrives>Genel sürücüler</GeneralDrives>
     </title>
     <msg>
-      <no-view-found>There are no views applied for your access permission in drive '{0}'.</no-view-found>
-      <access-denied>Access denied. You may not have permission in the workspace of drive '{0}'.</access-denied>
-      <workspace-not-exist>Drive '{0}' was stored in one unrecognized workspace. Please reconfigure this drive.</workspace-not-exist>
+      <no-view-found>'{0}' sürücüsünde erişim izniniz olmadığı için bir gösterim yapılamadı.</no-view-found>
+      <access-denied>Erişim engellendi. Sürücü '{0}' çalışma alanında izniniz olmayabilir.</access-denied>
+      <workspace-not-exist>'{0}' sürücü tanınmayan bir çalışma alanında depolanmış. Lütfen bu sürücüyü yeniden yapılandırın.</workspace-not-exist>
     </msg>
   </UIDrivesBrowser>
 
