@@ -114,7 +114,7 @@
       <GeneralDrives>Allgemeine Laufwerke</GeneralDrives>
     </title>
     <msg>
-      <no-view-found>Es sind keine Ansichten für ihre Zugriffsberechtigung auf Laufwerk "{0}" angewendet worden.</no-view-found>
+      <no-view-found>Mit Ihren Berechtigungen ist keine Ansicht in Laufwerk "{0}" verfügbar.</no-view-found>
       <access-denied>Zugriff verweigert. Sie haben keine Berechtigung in dem Arbeitsbereich des Laufwerks "{0}".</access-denied>
       <workspace-not-exist>Das Laufwerk "{0}" wurde in einem unbekannten Arbeitsbereich gespeichert. Bitte konfigurieren Sie das Laufwerk neu.</workspace-not-exist>
     </msg>
@@ -334,7 +334,7 @@
       <is-not-referenable>Knoten '{0}' ist nicht referenzierbar</is-not-referenable>
       <access-denied>Zugang verweigert. Ihnen fehlt die Berechtigung, diesen Knoten zu bearbeiten.</access-denied>
       <access-add-denied>Zugang verweigert. Ihnen fehlt die Berechtigung, in diesem Knoten hinzuzufügen.</access-add-denied>
-      <item-existed>Dieser Knoten ist bereits vorhanden. Es kann nicht den gleichen Namen wie seine Geschwister haben.</item-existed>
+      <item-existed>Es existiert bereits ein Knoten der mit den Namen assoziiert ist.</item-existed>
       <removed-hidden-mixin>Sie haben den versteckten Mixin erfolgreich entfernt!</removed-hidden-mixin>
       <added-hidden-mixin>Sie haben den versteckten Mixin erfolgreich hinzugefügt!</added-hidden-mixin>
       <not-supported>Diese Funktion wird nur für den Dokumenttypen unterstützt.</not-supported>
@@ -428,7 +428,7 @@
       <repository-exception-permission>Ihnen fehlt die Berechtigung, einen neuen Ordner auf diesem Knoten hinzuzufügen.</repository-exception-permission>
       <numberformat-exception>Dieser Ordner kann nicht gespeichert werden. Der angegebene Name muss im numerischen Format sein.</numberformat-exception>
       <!--DMS 2.4.x; ECM-3553-->
-      <not-allow-sameNameSibling>Sie können den Ordner nicht speichern. Dieser Knoten akzeptiert keine zwei Knoten mit dem gleichen Namen.</not-allow-sameNameSibling>
+      <not-allow-sameNameSibling>Sie können den Ordner nicht speichern. Ein anderer Knoten gleichen namens existiert schon.</not-allow-sameNameSibling>
       <ntFolder-not-avaiable>Sie müssen einen benutzerdefinierten Typ von Ordner auswählen</ntFolder-not-avaiable>
     </msg>
     <help>
@@ -745,7 +745,7 @@
     </header>
     <msg>
       <confirm-delete-permission>Möchten Sie diese Berechtigung wirklich entfernen?</confirm-delete-permission>
-      <no-permission-tochange>You do not have the right to remove permission.</no-permission-tochange>
+      <no-permission-tochange>Sie haben kein Recht die Berechtigung zu entfernen</no-permission-tochange>
       <no-permission-remove>Sie können den Eigentümer nicht entfernen.</no-permission-remove>
       <access-denied>Zugriff verweigert. Diese Berechtigung kann nicht entfernt werden.</access-denied>
     </msg>
@@ -754,7 +754,7 @@
     <title>
       <SelectUser>Benutzer auswählen</SelectUser>
       <SelectMember>Rolle auswählen</SelectMember>
-      <AddAny>Select Everyone</AddAny>
+      <AddAny>Wählen Sie jeden aus</AddAny>
     </title>
   </permission>
   <!--
@@ -1471,12 +1471,12 @@
     <title>Knoten importieren</title>
     <msg>
       <import-successful>Import erfolgreich!</import-successful>
-      <filename-invalid>Browse an .xml file for the 'Upload File' field to import.</filename-invalid>
+      <filename-invalid>Wählen Sie eine .xml Datei über das "Datei hochladen" Feld zum importieren aus.</filename-invalid>
       <filetype-error>Kann die hochgeladene Datei nicht importieren. Die .xml Datei könnte ungültig sein.</filetype-error>
       <mimetype-invalid>Sie können nur .xml oder .zip Dateien importieren.</mimetype-invalid>
       <access-denied>Zugriff verweigert. Sie haben kein Recht Elemente hier zu Importieren.</access-denied>
-      <constraint-violation-exception>You cannot import the node, either because the imported data are incorrect or because the node type '{0}' is not allowed to be child's node type'{0}'.</constraint-violation-exception>
-      <item-exists-exception>An incoming referenceable node has the same UUID as an existing node in the workspace.</item-exists-exception>
+      <constraint-violation-exception>Sie können die Daten nicht importieren. Entweder sind die zu importierenden Daten fehlerhaft oder der Knotentyp '{0}' nicht zulässig.</constraint-violation-exception>
+      <item-exists-exception>Der referenzierte Knoten hat dieselbe UUID wie ein im Arbeitsbereich bereits existierender Knoten.</item-exists-exception>
     </msg>
   </UIImportNode>
   <!--
@@ -1494,7 +1494,7 @@
     </action>
     <title>Label hinzufügen</title>
     <msg>
-      <label-invalid>The label contains some invalid characters.</label-invalid>
+      <label-invalid>Die Beschreibung enthält einige ungültige Zeichen.</label-invalid>
       <label-exist>"{0}" ist bereits vorhanden.</label-exist>
     </msg>
   </UILabelForm>
@@ -1519,7 +1519,7 @@
   ###############################################################################
   -->
   <UIVersionTree>
-    <title>Children Tree</title>
+    <title>Unterelementebaum</title>
   </UIVersionTree>
   <UIViewVersion>
     <label>
@@ -1536,7 +1536,7 @@
     </msg>
   </UIViewVersion>
   <UIVersionList>
-    <title>Children Name</title>
+    <title>Unterelementname</title>
   </UIVersionList>
   <!--
   ################################################################################
@@ -1637,7 +1637,7 @@
     </action>
     <msg>
       <unable-pasted>Dieser Knoten kann nicht eingefügt werden.</unable-pasted>
-      <node-pasted>Node {0} has been pasted at location {1}. This operation has already been saved.</node-pasted>
+      <node-pasted>Der Knoten {0} wurde an Ort {1} eingefügt. Diese Operation wurde bereits gespeichert.</node-pasted>
     </msg>
   </UIClipboard>
   <!--
@@ -1677,16 +1677,16 @@
 <FullScreen>Maximieren/minimieren</FullScreen>
 </tooltip>
     <msg>
-      <cannot-save>An error occurred while saving the document.</cannot-save>
-      <in-versioning>Please check out the current node before adding a new node.</in-versioning>
+      <cannot-save>Während des Speicherns des Dokuments ist es zu einem Fehler gekommen.</cannot-save>
+      <in-versioning>Bitte checken Sie den aktuellen Knoten aus bevor Sie einen neuen hinzufügen.</in-versioning>
       <not-support>Die Vorlage von "{0}" kann nicht geladen werden.</not-support>
       <value-invalid>'{0}' ist ein benötigter Wert.</value-invalid>
-      <repository-exception>An error occurred while saving the document.</repository-exception>
+      <repository-exception>Während des Speicherns des Dokuments ist es zu einem Fehler gekommen.</repository-exception>
       <!--DMS 2.4.x; ECM-3543-->
       <repository-exception-permission>Ihnen fehlt die Berechtigung, ein neues Dokument auf diesem Knoten hinzuzufügen.</repository-exception-permission>
-      <not-allowed-same-name-sibling>You cannot save this document. It is not allowed to have the same name as its sibling.</not-allowed-same-name-sibling>
-      <numberformat-exception>You cannot save this document. The name provided must be in numerical format.</numberformat-exception>
-      <item-not-found>Item not found. This node (or its ancestor) may have been deleted. Please click the Refresh button.</item-not-found>
+      <not-allowed-same-name-sibling>Sie können dieses Dokument nicht speichern. Ein Element dieses Namens besteht schon.</not-allowed-same-name-sibling>
+      <numberformat-exception>Sie können dieses Dokument nicht speichern. Der übergebene Name muss nummerischen Formats sein.</numberformat-exception>
+      <item-not-found>Element nicht gefunden. Dieser Knoten ( oder sein Vorfahre ) könnte gelöscht worden sein. Bitte aktualisieren Sie die Seite.</item-not-found>
     </msg>
   </UIDocumentForm>
   <!--
@@ -1751,11 +1751,11 @@
       <action>Aktion</action>
     </header>
     <msg>
-      <remove-popup-first>You must close the edit pop-up before deleting this node.</remove-popup-first>
+      <remove-popup-first>Sie müssen das Bearbeiten-Popup schliessen bevor Sie den Knoten löschen können.</remove-popup-first>
       <confirm-delete-action>Wollen Sie diese Aktion wirklich löschen?</confirm-delete-action>
       <template-empty>Die Vorlage '{0}' ist null oder leer.</template-empty>
-      <template-null>The template is either null or you do not have permission to access this template.</template-null>
-      <access-denied>Access denied. You do not have permission to perform this action.</access-denied>
+      <template-null>Die Vorlage ist entweder ungültig oder Sie haben keine Zugriffsberechtigung für diese Vorlage.</template-null>
+      <access-denied>Zugriff verweigert. Sie haben keine Berechtigung für diese Aktion.</access-denied>
     </msg>
     <action>
       <Close>#{word.close}</Close>
@@ -1777,11 +1777,11 @@
       <numberformat-exception>Sie können diese Aktion nicht speichern. Der übergebene Name muss in nummerischem Format sein.</numberformat-exception>
       <existed-action>Der Aktionsname "{0}" ist bereits vorhanden. Wählen Sie bitte einen anderen Namen.</existed-action>
       <unable-add-action>Diese Aktion kann nicht hinzugefügt werden.</unable-add-action>
-      <unable-add>Cannot add this action. This node is either root or you do not have permision.</unable-add>
+      <unable-add>Kann diese Aktion nicht hinzufügen. Bei diesem Knoten handelt es sich entweder um den Stammknoten oder Sie haben keine Berechtigung.</unable-add>
       <not-support>Der Dialog '{0}' wird nicht unterstützt</not-support>
       <no-permission-add>Zugriff verweigert ! Sie haben kein Recht hier eine Aktion hinzuzufügen.</no-permission-add>
-      <access-denied>Access denied. You do not have permission to access this template.</access-denied>
-      <lifecycle-invalid>You cannot add this action. The lifecycle phase of action is invalid.</lifecycle-invalid>
+      <access-denied>Zugriff verweigert. Sie haben keine Zugriffsberechtigung für diese Vorlage.</access-denied>
+      <lifecycle-invalid>Sie können diese Aktion nicht hinzufügen. Die Lebenszyklusphase dieser Aktion ist ungültig.</lifecycle-invalid>
     </msg>
     <title>Aktion hinzufügen/bearbeiten</title>
     <validator>
@@ -1928,7 +1928,7 @@
     </msg>
   </DateTimeValidator>
   <CronExpressionValidator>
-    <invalid-input>Your cron expression is invalid. Please check the syntax.</invalid-input>
+    <invalid-input>Ihr cron Ausdruck ist ungültig. Bitte überprüfen Sie die Syntax.</invalid-input>
   </CronExpressionValidator>
   <EmptyFieldValidator>
     <msg>
@@ -1985,7 +1985,7 @@
     </label>
     <action>
       <Save>Speichern</Save>
-      <UnsubcriberLifeCycle>Unsubscriber</UnsubcriberLifeCycle>
+      <UnsubcriberLifeCycle>Abmelder</UnsubcriberLifeCycle>
       <Cancel>Abbrechen</Cancel>
     </action>
   </UIPublicationForm>
@@ -2023,12 +2023,12 @@
   </UIFormInputSetWithAction>
   <RepeatCountValidator>
     <msg>
-      <invalid-value>The value in the field 'Repeat Count' is invalid. Only integers or -1 are allowed.</invalid-value>
+      <invalid-value>Der Wert Im Feld "Anzahl der Wiedeholungen" ist ungültig. Nur Integerzahlen oder -1 sind erlaubt.</invalid-value>
     </msg>
   </RepeatCountValidator>
   <RepeatIntervalValidator>
     <msg>
-      <invalid-value>The value in the field 'Time Interval' is invalid. Only long types are allowed.</invalid-value>
+      <invalid-value>Der Wert im Feld "Zeitintervall" ist ungültig. Es sind nur Werte vom Typ lange Ganzzahlen erlaubt.</invalid-value>
     </msg>
   </RepeatIntervalValidator>
   <UIPermissionSelector>
@@ -2046,7 +2046,7 @@
   <ECMStandardPropertyNameValidator>
     <msg>
       <empty-input>Der Wert im Feld '{0}' ist nichts oder leer.</empty-input>
-      <Invalid-char>The field '{0}'contains some invalid characters. Please enter another value.</Invalid-char>
+      <Invalid-char>Das feld '{0}' enthält ungültige Zeichen. Bitte geben Sie einen anderen Wert ein.</Invalid-char>
     </msg>
   </ECMStandardPropertyNameValidator>
   <!--
@@ -2056,13 +2056,13 @@
   -->
   <SearchValidator>
     <msg>
-      <empty-input>The value of this field is null or empty.</empty-input>
-      <Invalid-char>This field contains some invalid characters. Please enter another value.</Invalid-char>
-      <Invalid-char2>The number must be followed by the character '~'.</Invalid-char2>
-      <Invalid-char1>The number following the character '~' must between 0 and 1.</Invalid-char1>
-      <Invalid-char3>The number must be followed by the character '^'.</Invalid-char3>
-      <Invalid-char4>Spaces are not allowed near the character '~'.</Invalid-char4>
-      <Invalid-char5>Spaces are not allowed near the character '^'.</Invalid-char5>
+      <empty-input>Der Wert dieses Feldes ist ungültig oder leer.</empty-input>
+      <Invalid-char>Das Feld enthält einige ungültige Zeichen. Bitte geben Sie einen anderen Wert ein.</Invalid-char>
+      <Invalid-char2>Der Zahl muss das Zeichen '~' folgen.</Invalid-char2>
+      <Invalid-char1>Die Zahl die dem Zeichen '~' folgt muss zwischen 0 und 1 sein.</Invalid-char1>
+      <Invalid-char3>Der Zahl muss das Zeichen '^' folgen.</Invalid-char3>
+      <Invalid-char4>Leerzeichen sind um das Zeichen '~' nicht erlaubt.</Invalid-char4>
+      <Invalid-char5>Leerzeichen sind neben dem Zeichen '^' nicht erlaubt.</Invalid-char5>
     </msg>
   </SearchValidator>
   <!--
@@ -2110,10 +2110,10 @@
       <SelectFile>Miniaturbild auswählen</SelectFile>
     </label>
     <msg>
-      <mimetype-incorrect>Incorrect file type. Thumbnails can only be created from .JPG, .PNG or .GIF files.</mimetype-incorrect>
-      <access-denied>Access denied. You do not have permission to add a thumbnail to this node.</access-denied>
+      <mimetype-incorrect>Falscher Dateityp. Miniaturbilder können nur aus .jpg-, .png- oder .gif-Dateien erzeugt werden.</mimetype-incorrect>
+      <access-denied>Zugriff verweigert. Sie haben keine Berechtigung ein Miniaturbild zu diesem Knoten hinzuzufügen.</access-denied>
       <confirm-delete>Möchten Sie dieses Miniaturbild wirklich entfernen?</confirm-delete>
-      <is-checked-in>This node is checked in. Please check out before performing any action.</is-checked-in>
+      <is-checked-in>Dieser Knoten ist eingecheckt. Bitte checken Sie ihn aus bevor Sie irgendwelche Aktionen durchführen.</is-checked-in>
       <fileName-error>Bitte wählen Sie eine Datei zum Hochladen aus.</fileName-error>
     </msg>
     <title>
@@ -2179,7 +2179,7 @@
     </action>
     <label>
       <uploadFileSizeLimitMB>Die Größenbeschränkung der hochgeladenen Datei (MB)</uploadFileSizeLimitMB>
-      <isDirectlyDrive>Direct Drive</isDirectlyDrive>
+      <isDirectlyDrive>Direktes Laufwerk</isDirectlyDrive>
       <driveName>Laufwerkname</driveName>
       <usecase>Typ auswählen</usecase>
       <SelectNodePath>Pfad auswählen</SelectNodePath>
@@ -2203,8 +2203,8 @@
       <DriveNameInput>UI JCR Explorer Edit Form</DriveNameInput>
     </label>
     <msg>
-      <personal-usecase>The private drive of the current user will be used when you select the Personal usecase.</personal-usecase>
-      <drive-edit-permission>You cannot edit the drive name. Please click the Edit button.</drive-edit-permission>
+      <personal-usecase>Das private Laufwerk des aktuellen Benutzers wird verwendet werden, wenn Sie als Auswahl den persönlichen Anwendungsfall wählen.</personal-usecase>
+      <drive-edit-permission>Sie können den Laufwerksnamen nicht bearbeiten. Bitte klicken Sie den Bearbeiten Knopf an.</drive-edit-permission>
       <path-edit-permission>Sie können den Pfad nicht bearbeiten. Bitte Klicken Sie den Bearbeiten Knopf</path-edit-permission>
     </msg>
   </UIJcrExplorerEditForm>
@@ -2246,27 +2246,27 @@
 
   <UISymLinkForm>
     <label>
-      <symLinkName>Symlink Name</symLinkName>
-      <pathNode>Path Node</pathNode>
+      <symLinkName>Name für symbolische Verknüpfung</symLinkName>
+      <pathNode>Pfad zum Knoten</pathNode>
     </label>
     <action>
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <addFolder-successful>The symlink '{0}' was added successfully.</addFolder-successful>
+      <addFolder-successful>Die symbolische Verknüpfung '{0}' wurde erfolgreich hinzugefügt.</addFolder-successful>
       <name-invalid>Bitte geben Sie den Namen der symbolischen Verknüpfung ein.</name-invalid>
       <name-not-allowed>Dieser Name ist nicht erlaubt.</name-not-allowed>
       <fileName-error>Der Dateiname ist ungültig.</fileName-error>
-      <constraint-violation>You cannot add the'{0}' node type to the current node.</constraint-violation>
+      <constraint-violation>Sie können den Knotentyp '{0}' nicht zum aktuellen Knoten hinzufügen.</constraint-violation>
       <repository-exception>Zugriff verweigert! Sie haben nicht die Berechtigung symbolische Verknüfungen zu diesem Knoten hinzuzufügen.</repository-exception>
       <numberformat-exception>Sie können diesen Ordner nicht speichern. Der übergebene Name muss in nummerischem Format sein.</numberformat-exception>
-      <path-node-invalid>Please enter the path node.</path-node-invalid>
+      <path-node-invalid>Bitte geben Sie den Pfad zum Knoten ein.</path-node-invalid>
       <path-node-not-allowed>Dieser Name ist nicht erlaubt.</path-node-not-allowed>
-      <non-node>Please select the trust target node; you may not have the right to read this node.</non-node>
-      <cannot-save>You cannot add a symlink for this node type.</cannot-save>
+      <non-node>Sie haben keine Zugriffsrechte auf den Zielknoten.</non-node>
+      <cannot-save>Sie können keine symbolische Verknüpfung für diesen Knotentyp hinzufügen.</cannot-save>
       <item-exists-exception>Der Knotenname ist bereits vorhanden.</item-exists-exception>
-      <translation-node-same-language-default>The translation node has the same language as the default language of current node.</translation-node-same-language-default>
+      <translation-node-same-language-default>Der Übersetzungsknoten hat dieselbe Sprache wie die Standardsprache des aktuellen Knotens.</translation-node-same-language-default>
       <UnsupportedRepositoryOperationException>Dieser Zielknoten ist nicht referenziert.</UnsupportedRepositoryOperationException>
     </msg>
   </UISymLinkForm>
@@ -2283,19 +2283,19 @@
       <SelectDocument>Dokument auswählen</SelectDocument>
     </action>
     <msg>
-      <addFolder-successful>The symlink '{0}' is added successfully.</addFolder-successful>
+      <addFolder-successful>Symbolische Verknüpfung '{0}' erfolgreich hinzugefügt.</addFolder-successful>
       <name-invalid>Bitte geben Sie den symbolischen Verknüpfungsname (Symlink) ein.</name-invalid>
       <name-not-allowed>Dieser Name ist nicht erlaubt.</name-not-allowed>
       <fileName-error>Der Dateiname ist ungültig.</fileName-error>
       <constraint-violation>Sie können nicht zu dem aktuellen Knoten den Knotentyp "{0}" hinzufügen.</constraint-violation>
-      <repository-exception>Access denied. You do not have permission to add symlink to this node.</repository-exception>
+      <repository-exception>Zugriff verweigert! Sie haben nicht die Berechtigung, einen Symlink zu diesem Knoten hinzuzufügen.</repository-exception>
       <numberformat-exception>Dieser Ordner kann nicht gespeichert werden. Der angegebene Name muss im numerischen Format sein.</numberformat-exception>
-      <path-node-invalid>Please enter the path node.</path-node-invalid>
+      <path-node-invalid>Bitte geben Sie den Pfad zum Knoten ein.</path-node-invalid>
       <path-node-not-allowed>Dieser Name ist nicht erlaubt.</path-node-not-allowed>
-      <non-node>Please select the trust target node; you may not have the right to read this node.</non-node>
+      <non-node>Sie haben keine Zugriffsrechte auf den Zielknoten.</non-node>
       <cannot-save>Fehler beim Erstellen der symbolischen Verknüpfung.</cannot-save>
       <item-exists-exception>Der Knotenname ist bereits vorhanden.</item-exists-exception>
-      <translation-node-same-language-default>The translation node has the same language as the default language of current node.</translation-node-same-language-default>
+      <translation-node-same-language-default>Der Übersetzungsknoten hat dieselbe Sprache wie die Standardsprache des aktuellen Knotens.</translation-node-same-language-default>
       <UnsupportedRepositoryOperationException>Dieser Zielknoten ist nicht referenziert.</UnsupportedRepositoryOperationException>
     </msg>
   </UIAddTranslationForm>
@@ -2322,7 +2322,7 @@
     <msg>
       <create-link-problem>Sie können keine Verknüpfung für den Knoten '{0}' in  '{1}' erstellen.</create-link-problem>
       <dest-node-is-link>Der Zielknoten "{0}" ist bereits eine symbolische Verknüpfung, daher können Sie darin keine weitere erstellen.</dest-node-is-link>
-      <selected-is-link>The selected node '{0}' is already a link, so you cannot create a link point to another link.</selected-is-link>
+      <selected-is-link>Der ausgewählte Knoten "{0}" ist bereits eine Verknüpfung. Sie können keine Verknüpfung erstellen, die auf eine Verknüpfung verweist.</selected-is-link>
       <confirm-create-link>Möchten Sie eine Verknüpfung zu diesem Ort erstellen?</confirm-create-link>
     </msg>
   </UIWorkingArea>
@@ -2435,8 +2435,8 @@
       <versionHistory>Versionshistorie</versionHistory>
     </label>
     <msg>
-      <history-invalid-type>Invalid file type in the version history. Only .zip files are supported.</history-invalid-type>
-      <history-invalid-content>Invalid content in the version history data. Please select a supported file type to import.</history-invalid-content>
+      <history-invalid-type>Ungültiger Dateityp im Versionsverlauf. Nur .zip Dateien werden unterstützt.</history-invalid-type>
+      <history-invalid-content>Ungültiger Inhalt  in den Versionhistoriedaten. Bitte wählen Sie einen gültigen Dateityp für den Import aus.</history-invalid-content>
     </msg>
   </UIImportNode>
 
