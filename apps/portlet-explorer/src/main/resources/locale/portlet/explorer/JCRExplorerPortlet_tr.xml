@@ -236,7 +236,7 @@
       <EditFormController>Belgeyi Düzenle</EditFormController>
       <UIRelationManager>İlişki ekleyin</UIRelationManager>
       <UICategoryManager>Kategori Ekle</UICategoryManager>
-      <UIImportNode>İçeri Aktar</UIImportNode>
+      <UIImportNode>İçe Aktar</UIImportNode>
       <UIViewMetadataManager>Meta verilerini görüntüle</UIViewMetadataManager>
       <UIVoteForm>Oylama belgesi</UIVoteForm>
       <UICommentForm>Yorum</UICommentForm>
@@ -1360,8 +1360,8 @@
       <e_256>Mixin Ekle</e_256>
       <e_512>Mixin Kaldır</e_512>
       <e_1024>Klon</e_1024>
-      <e_2048>Güncelleştirme</e_2048>
-      <e_4096>İçeri Aktar</e_4096>
+      <e_2048>Güncelleştir</e_2048>
+      <e_4096>İçe Aktar</e_4096>
       <e_8192>Kontrol Et</e_8192>
       <e_16384>Kontrol Etme</e_16384>
       <e_32768>Geri Yükle</e_32768>
@@ -1466,7 +1466,7 @@
     </label>
     <action>
       <Cancel>#{word.cancel}</Cancel>
-      <Import>İçeri Aktar</Import>
+      <Import>İçe Aktar</Import>
     </action>
     <title>Düğüm İçe Aktar</title>
     <msg>

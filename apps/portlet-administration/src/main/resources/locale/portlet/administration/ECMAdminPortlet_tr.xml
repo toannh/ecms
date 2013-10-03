@@ -466,7 +466,7 @@
     </header>
     <action>
       <Export>Dışa aktar</Export>
-      <Import>İçeri Aktar</Import>
+      <Import>İçe Aktar</Import>
       <Add>Ekle</Add>
     </action>
     <tooltip>
@@ -728,6 +728,10 @@
       <label>Adı</label>
 <action>Eylemler</action>
     </header>
+    <title>
+      <Edit>Edit</Edit>
+      <Delete>Delete</Delete>
+    </title>
     <action>
       <AddAction>Eylem Türü Ekle</AddAction>
     </action>
@@ -845,6 +849,10 @@
   </EditPopup>
 
 <UITabList>
+                  <title>
+                    <Edit>Edit</Edit>
+                    <Delete>Delete</Delete>
+                  </title>       
  <header>
   <tabName>Sekme</tabName>
   <localizeButtons>Açıklama</localizeButtons>
@@ -875,6 +883,9 @@
 </UIViewPermissionList>
 
 <UIViewPermissionList>
+                         <title>
+                           <Delete>Delete</Delete>
+                         </title>
  <header>
 <friendlyPermission>İzinler</friendlyPermission>
      <action>Eylem</action>
@@ -1565,6 +1576,10 @@
 </UITabPane>
 
   <UICLVTemplateList>
+    <title>
+      <Edit>Edit</Edit>
+      <Delete>Delete</Delete>
+    </title>
     <header>
       <title>Adı</title>
       <action>Eylem</action>
@@ -1589,6 +1604,10 @@
       <action>Eylem</action>
       <template>Şablon</template>
     </header>
+    <title>
+      <Edit>Edit</Edit>
+      <Delete>Delete</Delete>
+    </title>
     <action>
       <AddTemplate>Şablon Ekle</AddTemplate>
 <Edit>Düzenle</Edit>
@@ -1962,6 +1981,11 @@
       <tagHTML>Etiket Stili</tagHTML>
       <action>Eylem</action>
     </header>
+    <title>
+      <Edit>Edit</Edit>
+      <Delete>Delete</Delete>
+      <Remove>Remove</Remove>
+    </title>
     <action>
       <AddStyle>Stil Ekle</AddStyle>
     </action>
@@ -1973,7 +1997,7 @@
       <styleHTML>HTML Stili:</styleHTML>
     </label>
     <action>
-      <UpdateStyle>Güncelleştirme</UpdateStyle>
+      <UpdateStyle>Güncelleştir</UpdateStyle>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
@@ -2431,6 +2455,7 @@
     <title>İzin Ekle</title>
     <action>
       <Save>Kaydet</Save>
+      <Add>Add</Add>
     </action>
     <label>
       <userOrGroup>Üyelikler:</userOrGroup>
