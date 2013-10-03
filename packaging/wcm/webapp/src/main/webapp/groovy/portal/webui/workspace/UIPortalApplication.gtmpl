@@ -96,11 +96,8 @@
 <!-- <![endif]-->
   <head id="head">
   
-  
-  <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-  <!--#if !(FIREFOX || MOZCENTRAL || CHROME || IE)-->
+
+  <!--#if !(FIREFOX || MOZCENTRAL || CHROME)-->
     <script type="text/javascript" src="/eXoWCMResources/pdf.js/compatibility.js"></script>
   <!--#endif-->
   
