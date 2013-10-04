@@ -729,8 +729,8 @@
 <action>Acciones</action>
     </header>
     <title>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
+      <Edit>Editar</Edit>
+      <Delete>Borrar</Delete>
     </title>
     <action>
       <AddAction>Añadir el tipo de acción</AddAction>
@@ -850,8 +850,8 @@
 
 <UITabList>
                   <title>
-                    <Edit>Edit</Edit>
-                    <Delete>Delete</Delete>
+                    <Edit>Editar</Edit>
+                    <Delete>Borrar</Delete>
                   </title>       
  <header>
   <tabName>Ficha</tabName>
@@ -884,7 +884,7 @@
 
 <UIViewPermissionList>
                          <title>
-                           <Delete>Delete</Delete>
+                           <Delete>Borrar</Delete>
                          </title>
  <header>
 <friendlyPermission>Permisos</friendlyPermission>
@@ -1577,8 +1577,8 @@
 
   <UICLVTemplateList>
     <title>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
+      <Edit>Editar</Edit>
+      <Delete>Borrar</Delete>
     </title>
     <header>
       <title>Nombre</title>
@@ -1605,8 +1605,8 @@
       <template>Plantilla</template>
     </header>
     <title>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
+      <Edit>Editar</Edit>
+      <Delete>Borrar</Delete>
     </title>
     <action>
       <AddTemplate>Añadir plantilla</AddTemplate>
@@ -1982,9 +1982,9 @@
       <action>Acción</action>
     </header>
     <title>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
-      <Remove>Remove</Remove>
+      <Edit>Editar</Edit>
+      <Delete>Borrar</Delete>
+      <Remove>Eliminar</Remove>
     </title>
     <action>
       <AddStyle>Agregar un estilo</AddStyle>
@@ -2455,7 +2455,7 @@
     <title>Añadir Permisos</title>
     <action>
       <Save>Guardar</Save>
-      <Add>Add</Add>
+      <Add>Añadir</Add>
     </action>
     <label>
       <userOrGroup>Membresías:</userOrGroup>
