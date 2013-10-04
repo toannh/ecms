@@ -1475,7 +1475,7 @@
       <filetype-error>アップロードされたファイルからノードをインポートできません。無効なファイルの可能性があります。</filetype-error>
       <mimetype-invalid>XMLファイルもしくはZIPファイルのみがインポートすることをサポートされています。</mimetype-invalid>
       <access-denied>アクセス出来ません! インポートする事が許されていません。</access-denied>
-      <constraint-violation-exception>制約のためインポートできません：データインポートは不正 もしくはノードタイプ '{0}' は子ノードタイプ '{0}' を許していません。</constraint-violation-exception>
+      <constraint-violation-exception>Impossible to import data. The type '{0}' is not allowed in this location.</constraint-violation-exception>
       <item-exists-exception>An incoming referenceable node has the same UUID as a node existing in the workspace! UUID: '{0}'</item-exists-exception>
     </msg>
   </UIImportNode>

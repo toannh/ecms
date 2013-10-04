@@ -729,8 +729,8 @@
 <action>アクション</action>
     </header>
     <title>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
+      <Edit>編集</Edit>
+      <Delete>削除する</Delete>
     </title>
     <action>
       <AddAction>追加</AddAction>
@@ -850,8 +850,8 @@
 
 <UITabList>
                   <title>
-                    <Edit>Edit</Edit>
-                    <Delete>Delete</Delete>
+                    <Edit>編集</Edit>
+                    <Delete>削除する</Delete>
                   </title>       
  <header>
   <tabName>タブ</tabName>
@@ -884,7 +884,7 @@
 
 <UIViewPermissionList>
                          <title>
-                           <Delete>Delete</Delete>
+                           <Delete>削除する</Delete>
                          </title>
  <header>
 <friendlyPermission>権限観覧</friendlyPermission>
@@ -1577,8 +1577,8 @@
 
   <UICLVTemplateList>
     <title>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
+      <Edit>編集</Edit>
+      <Delete>削除する</Delete>
     </title>
     <header>
       <title>名前</title>
@@ -1605,8 +1605,8 @@
       <template>テンプレート</template>
     </header>
     <title>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
+      <Edit>編集</Edit>
+      <Delete>削除する</Delete>
     </title>
     <action>
       <AddTemplate>テンプレートの追加</AddTemplate>
@@ -1982,9 +1982,9 @@
       <action>アクション</action>
     </header>
     <title>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
-      <Remove>Remove</Remove>
+      <Edit>編集</Edit>
+      <Delete>削除する</Delete>
+      <Remove>削除</Remove>
     </title>
     <action>
       <AddStyle>追加</AddStyle>
@@ -2455,7 +2455,7 @@
     <title>権限の追加</title>
     <action>
       <Save>保存</Save>
-      <Add>Add</Add>
+      <Add>追加</Add>
     </action>
     <label>
       <userOrGroup>メンバーシップ:</userOrGroup>
