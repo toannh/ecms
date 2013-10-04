@@ -1475,7 +1475,7 @@
       <filetype-error>Impossibile caricare il file importato. Forse, il file .xml non Ãš valido.</filetype-error>
       <mimetype-invalid>Solo file .xml o .zip sono supportati per l'importazione.</mimetype-invalid>
       <access-denied>Accesso negato! Non sei autorizzato a importare.</access-denied>
-      <constraint-violation-exception>Impossibile importare il nodo. dati importati non corretti o tipo di nodo '{0}'non autorizzato a essere figlio del tipo di nodo '{0}'.</constraint-violation-exception>
+      <constraint-violation-exception>Impossible to import data. The type '{0}' is not allowed in this location.</constraint-violation-exception>
       <item-exists-exception>Un nodo referenziato ha lo stesso UUID di un nodo giÃ  esistente nel workspace.</item-exists-exception>
     </msg>
   </UIImportNode>
