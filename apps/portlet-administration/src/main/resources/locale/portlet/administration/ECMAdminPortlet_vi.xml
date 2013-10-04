@@ -729,8 +729,8 @@
 <action>Hành động</action>
     </header>
     <title>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
+      <Edit>Chỉnh sửa</Edit>
+      <Delete>Xóa</Delete>
     </title>
     <action>
       <AddAction>Thêm Kiểu Hành động</AddAction>
@@ -850,8 +850,8 @@
 
 <UITabList>
                   <title>
-                    <Edit>Edit</Edit>
-                    <Delete>Delete</Delete>
+                    <Edit>Chỉnh sửa</Edit>
+                    <Delete>Xóa</Delete>
                   </title>       
  <header>
   <tabName>Tab</tabName>
@@ -884,7 +884,7 @@
 
 <UIViewPermissionList>
                          <title>
-                           <Delete>Delete</Delete>
+                           <Delete>Xóa</Delete>
                          </title>
  <header>
 <friendlyPermission>Quyền truy nhập</friendlyPermission>
@@ -1577,8 +1577,8 @@
 
   <UICLVTemplateList>
     <title>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
+      <Edit>Chỉnh sửa</Edit>
+      <Delete>Xóa</Delete>
     </title>
     <header>
       <title>Tên</title>
@@ -1605,8 +1605,8 @@
       <template>Mẫu</template>
     </header>
     <title>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
+      <Edit>Chỉnh sửa</Edit>
+      <Delete>Xóa</Delete>
     </title>
     <action>
       <AddTemplate>Thêm mẫu</AddTemplate>
@@ -1982,9 +1982,9 @@
       <action>Hành động</action>
     </header>
     <title>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
-      <Remove>Remove</Remove>
+      <Edit>Chỉnh sửa</Edit>
+      <Delete>Xóa</Delete>
+      <Remove>Loại bỏ</Remove>
     </title>
     <action>
       <AddStyle>Thêm Định dạng</AddStyle>
@@ -2455,7 +2455,7 @@
     <title>Thêm quyền truy cập</title>
     <action>
       <Save>Lưu</Save>
-      <Add>Add</Add>
+      <Add>Thêm</Add>
     </action>
     <label>
       <userOrGroup>Kiểu thành viên:</userOrGroup>
