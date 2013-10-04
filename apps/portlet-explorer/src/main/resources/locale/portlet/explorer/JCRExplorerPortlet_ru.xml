@@ -1475,7 +1475,7 @@
       <filetype-error>Cannot import the uploaded file. The .xml file may be invalid.</filetype-error>
       <mimetype-invalid>You can only import .xml or .zip files.</mimetype-invalid>
       <access-denied>Access denied. You are not allowed to import there.</access-denied>
-      <constraint-violation-exception>You cannot import the node, either because the imported data are incorrect or because the node type '{0}' is not allowed to be child's node type'{0}'.</constraint-violation-exception>
+      <constraint-violation-exception>Impossible to import data. The type '{0}' is not allowed in this location.</constraint-violation-exception>
       <item-exists-exception>An incoming referenceable node has the same UUID as an existing node in the workspace.</item-exists-exception>
     </msg>
   </UIImportNode>
