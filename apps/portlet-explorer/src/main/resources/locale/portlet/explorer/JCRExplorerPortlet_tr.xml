@@ -129,7 +129,7 @@
     <title>Gezgin</title>
     <label>
       <Root>Kök</Root>
-      <webDavView>İndir ve izin verilen sürüm</webDavView>
+      <webDavView>İndir ve Değişikliğe İzin Ver</webDavView>
     </label>
     <msg>
       <path-not-found>Bu öğe silinmiş veya değişmiş. Lütfen Yenile düğmesini tıklayın.</path-not-found>
@@ -524,7 +524,7 @@
       <RemoveNode>Sil</RemoveNode>
       <Checkin>Kayıt Yapıldı</Checkin>
       <Checkout>Kayıt Kapatıldı</Checkout>
-      <Lock>Kilit</Lock>
+      <Lock>Kilitle</Lock>
       <Unlock>Kilidi Aç</Unlock>
       <EditDocument>Düzenle</EditDocument>
       <Paste>Yapıştır</Paste>
@@ -564,7 +564,7 @@
   -->
   <ECMContextMenu>
     <event>
-      <Lock>Kilit</Lock>
+      <Lock>Kilitle</Lock>
       <Unlock>Kilidini Aç</Unlock>
       <EditDocument>Düzenle</EditDocument>
       <Copy>Kopyala</Copy>
@@ -1371,7 +1371,7 @@
       <e_524288>Sürüm Etiketi Ekle</e_524288>
       <e_1048576>Sürüm Etiketi Kaldır</e_1048576>
       <e_2097152>Sürümü Kaldırın</e_2097152>
-      <e_4194304>Kilit</e_4194304>
+      <e_4194304>Kilitle</e_4194304>
       <e_8388608>Kilidi Aç</e_8388608>
       <e_16777216>Oku</e_16777216>
     </eventName>
@@ -1475,7 +1475,7 @@
       <filetype-error>Yüklenen dosya alınamıyor. .Xml dosyasının geçersiz olabilir.</filetype-error>
       <mimetype-invalid>Sadece .zip veya .xml dosyaları içe aktarılabilir.</mimetype-invalid>
       <access-denied>Erişim engellendi. Oraya almak için izin verilmez.</access-denied>
-      <constraint-violation-exception>Düğüm alınamıyor, çünkü alınan veriler hatalı olduğundan veya '{0}' düğüm türü '{0}' alt düğüm türü için izin verilmez.</constraint-violation-exception>
+      <constraint-violation-exception>Verileri içeri aktarmak imkansız. '{0}' Türü, bu konumda kabul edilmiyor.</constraint-violation-exception>
       <item-exists-exception>Gelen başvurulabilir düğüm Çalışma Alanında mevcut bir düğümle aynı UUID sahip .</item-exists-exception>
     </msg>
   </UIImportNode>

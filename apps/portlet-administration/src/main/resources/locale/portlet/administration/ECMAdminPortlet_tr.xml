@@ -729,8 +729,8 @@
 <action>Eylemler</action>
     </header>
     <title>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
+      <Edit>Düzenle</Edit>
+      <Delete>Sil</Delete>
     </title>
     <action>
       <AddAction>Eylem Türü Ekle</AddAction>
@@ -850,8 +850,8 @@
 
 <UITabList>
                   <title>
-                    <Edit>Edit</Edit>
-                    <Delete>Delete</Delete>
+                    <Edit>Düzenle</Edit>
+                    <Delete>Sil</Delete>
                   </title>       
  <header>
   <tabName>Sekme</tabName>
@@ -884,7 +884,7 @@
 
 <UIViewPermissionList>
                          <title>
-                           <Delete>Delete</Delete>
+                           <Delete>Sil</Delete>
                          </title>
  <header>
 <friendlyPermission>İzinler</friendlyPermission>
@@ -1577,8 +1577,8 @@
 
   <UICLVTemplateList>
     <title>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
+      <Edit>Düzenle</Edit>
+      <Delete>Sil</Delete>
     </title>
     <header>
       <title>Adı</title>
@@ -1605,8 +1605,8 @@
       <template>Şablon</template>
     </header>
     <title>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
+      <Edit>Düzenle</Edit>
+      <Delete>Sil</Delete>
     </title>
     <action>
       <AddTemplate>Şablon Ekle</AddTemplate>
@@ -1982,9 +1982,9 @@
       <action>Eylem</action>
     </header>
     <title>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
-      <Remove>Remove</Remove>
+      <Edit>Düzenle</Edit>
+      <Delete>Sil</Delete>
+      <Remove>Kaldır</Remove>
     </title>
     <action>
       <AddStyle>Stil Ekle</AddStyle>
@@ -2455,7 +2455,7 @@
     <title>İzin Ekle</title>
     <action>
       <Save>Kaydet</Save>
-      <Add>Add</Add>
+      <Add>Ekle</Add>
     </action>
     <label>
       <userOrGroup>Üyelikler:</userOrGroup>
