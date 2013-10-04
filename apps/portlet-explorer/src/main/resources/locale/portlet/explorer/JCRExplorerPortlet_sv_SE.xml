@@ -1475,7 +1475,7 @@
       <filetype-error>Kan inte importera den uppladdade filen. XML-filen kan vara ogiltigt.</filetype-error>
       <mimetype-invalid>Du kan bara importera .xml- eller .zip-filer.</mimetype-invalid>
       <access-denied>Åtkomst nekad. Du får inte importera det.</access-denied>
-      <constraint-violation-exception>Du kan inte importera noden, antingen eftersom den importerade informationen är felaktig eller att nodtypen {0} inte får vara undernodens nodtyp {0}.</constraint-violation-exception>
+      <constraint-violation-exception>Impossible to import data. The type '{0}' is not allowed in this location.</constraint-violation-exception>
       <item-exists-exception>En inkommande refererande nod har samma UUID som en befintlig nod i arbetsytan.</item-exists-exception>
     </msg>
   </UIImportNode>

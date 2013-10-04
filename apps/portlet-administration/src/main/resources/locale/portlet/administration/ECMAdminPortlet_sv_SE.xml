@@ -729,8 +729,8 @@
 <action>Åtgärder</action>
     </header>
     <title>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
+      <Edit>Redigera</Edit>
+      <Delete>Ta bort</Delete>
     </title>
     <action>
       <AddAction>Lägg till åtgärdstyp</AddAction>
@@ -850,8 +850,8 @@
 
 <UITabList>
                   <title>
-                    <Edit>Edit</Edit>
-                    <Delete>Delete</Delete>
+                    <Edit>Redigera</Edit>
+                    <Delete>Ta bort</Delete>
                   </title>       
  <header>
   <tabName>Fliken</tabName>
@@ -884,7 +884,7 @@
 
 <UIViewPermissionList>
                          <title>
-                           <Delete>Delete</Delete>
+                           <Delete>Ta bort</Delete>
                          </title>
  <header>
 <friendlyPermission>Behörighet</friendlyPermission>
@@ -1577,8 +1577,8 @@
 
   <UICLVTemplateList>
     <title>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
+      <Edit>Redigera</Edit>
+      <Delete>Ta bort</Delete>
     </title>
     <header>
       <title>Namn</title>
@@ -1605,8 +1605,8 @@
       <template>Mall</template>
     </header>
     <title>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
+      <Edit>Redigera</Edit>
+      <Delete>Ta bort</Delete>
     </title>
     <action>
       <AddTemplate>Lägg till mall</AddTemplate>
@@ -1982,9 +1982,9 @@
       <action>Åtgärd</action>
     </header>
     <title>
-      <Edit>Edit</Edit>
-      <Delete>Delete</Delete>
-      <Remove>Remove</Remove>
+      <Edit>Redigera</Edit>
+      <Delete>Ta bort</Delete>
+      <Remove>Ta bort</Remove>
     </title>
     <action>
       <AddStyle>Lägga till stil</AddStyle>
@@ -2455,7 +2455,7 @@
     <title>Lägg till behörighet</title>
     <action>
       <Save>Spara</Save>
-      <Add>Add</Add>
+      <Add>Lägg till</Add>
     </action>
     <label>
       <userOrGroup>Medlemskap:</userOrGroup>
