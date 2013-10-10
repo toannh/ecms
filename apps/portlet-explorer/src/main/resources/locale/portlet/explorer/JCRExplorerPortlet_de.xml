@@ -668,7 +668,6 @@
       <remove-property>Möchten Sie diese Eigenschaft wirklich entfernen?</remove-property>
     </confirm>
     <header>
-      <icon/>
       <name>Name</name>
       <multiValue>Mehrwertig</multiValue>
       <value>Wert</value>
