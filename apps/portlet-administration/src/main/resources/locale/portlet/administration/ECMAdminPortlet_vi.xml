@@ -2459,7 +2459,6 @@
     </action>
     <label>
       <userOrGroup>Kiểu thành viên:</userOrGroup>
-      <permission/>
     </label>
     <msg>
       <userOrGroup-alreadyExists>Kiểu thành viên đã tồn tại, xin chọn lại kiểu khác.</userOrGroup-alreadyExists>
