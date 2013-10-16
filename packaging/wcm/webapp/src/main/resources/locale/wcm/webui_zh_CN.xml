@@ -372,7 +372,7 @@
 
   <Signin>
     <welcome>Welcome</welcome>
-    <login>Login</login>
+    <login>登录</login>
     <logout>Logout</logout>
     <language>Change Language</language>
     <register>Register</register>
