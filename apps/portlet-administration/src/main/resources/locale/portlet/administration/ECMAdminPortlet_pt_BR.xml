@@ -161,7 +161,7 @@
       <path-invalid>Caminho inválido</path-invalid>
       <taxonomy-existed>A árvore de categoria já existe.</taxonomy-existed>
       <taxonomy-node-existed>O nó da taxonomia já existe.</taxonomy-node-existed>
-      <no-permission-add>You do not have the right to add an action.</no-permission-add>
+      <no-permission-add>Você não tem permissão para adicionar uma ação.</no-permission-add>
       <not-created-tree>A árvore de categoria não foi criada ainda.</not-created-tree>
     </msg>
   </UIActionForm>
@@ -211,7 +211,7 @@
   <UINamespaceList>
     <header>
       <prefix>Prefixo</prefix>
-      <uri>Namespace URI</uri>
+      <uri>Namespace do URI</uri>
       <action>Ação</action>
     </header>
     <action>
@@ -299,7 +299,7 @@
     </label>
     <tab>
       <label>
-        <metadataTypeTab>Metadata Type</metadataTypeTab>
+        <metadataTypeTab>Tipo de metadado</metadataTypeTab>
         <dialogTab>Modelo de diálogo</dialogTab>
         <viewTab>Tipo</viewTab>
       </label>
@@ -313,10 +313,10 @@
   <UIMetadataView>
     <header>
       <name>Nome do elemento</name>
-      <type>Type</type>
+      <type>Tipo</type>
       <description>Descrição</description>
-      <isMixin>Is Mixin Type</isMixin>
-      <orderable>Orderable children</orderable>
+      <isMixin>É do tipo Mixin</isMixin>
+      <orderable>Subnós ordenáveis</orderable>
     </header>
     <info>
       <description>Descrição</description>
@@ -345,17 +345,17 @@
       <icon>Ícone</icon>
       <name>Nome</name>
       <workspace>Espaço de Trabalho</workspace>
-      <homePath>Home Path</homePath>
+      <homePath>Caminho Raíz</homePath>
       <permissions>Permissão</permissions>
       <views>Visualização</views>
       <action>Ação</action>
     </header>
     <tooltip>
-      <Delete>Delete</Delete>
+      <Delete>Excluir</Delete>
       <EditInfo>Editar</EditInfo>
     </tooltip>
     <msg>
-      <confirm-delete>Are you sure you want to delete this drive?</confirm-delete>
+      <confirm-delete>Deseja realmente excluir essa unidade?</confirm-delete>
     </msg>
     <action>
       <AddDrive>Adicionar Unidade</AddDrive>
@@ -372,48 +372,48 @@
       <Refresh>#{word.refresh}</Refresh>
     </action>
     <msg>
-      <drive-exists>The drive already exists.</drive-exists>
-      <workspace-path-invalid>The workspace path is invalid.</workspace-path-invalid>
-      <drive-views-invalid>Please select a view.</drive-views-invalid>
-      <icon-not-found>Icon not found.</icon-not-found>
-      <permission-null>You must set the permission for this drive.</permission-null>
-      <allowCreateFolders>You must select the folder type.</allowCreateFolders>
-      <name-null>Please enter the drive name.</name-null>
-      <fileName-invalid>The drive name has some invalid characters.</fileName-invalid>
+      <drive-exists>A unidade já existe!</drive-exists>
+      <workspace-path-invalid>Caminho do espaço de trabalho é inválido!</workspace-path-invalid>
+      <drive-views-invalid>Por favor, selecione um modo de exibição.</drive-views-invalid>
+      <icon-not-found>Ícone não encontrado.</icon-not-found>
+      <permission-null>Você deve selecionar uma permissão para esta unidade.</permission-null>
+      <allowCreateFolders>Você deve selecionar o tipo de pasta.</allowCreateFolders>
+      <name-null>Por favor, adicione o nome da unidade.</name-null>
+      <fileName-invalid>O nome da unidade possui algum caractere inválido.</fileName-invalid>
     </msg>
     <tab>
       <label>
-        <DriveInputSet>Drive</DriveInputSet>
-        <ViewsInputSet>Apply Views</ViewsInputSet>
-        <PermissionInputSet>Set Permissions</PermissionInputSet>
+        <DriveInputSet>Unidade</DriveInputSet>
+        <ViewsInputSet>Aplicar visualização</ViewsInputSet>
+        <PermissionInputSet>Selecionar permissão</PermissionInputSet>
       </label>
     </tab>
     <label>
-      <name>Name:</name>
-      <workspace>Workspace:</workspace>
-      <homePath>Home Path:</homePath>
-      <icon>Workspace Icon:</icon>
-      <viewPreferences>Show Referenced Documents:</viewPreferences>
+      <name>Nome:</name>
+      <workspace>Espaço de trabalho:</workspace>
+      <homePath>Caminho raíz:</homePath>
+      <icon>Ícone do espaço de trabalho:</icon>
+      <viewPreferences>Mostrar documentos mencionados:</viewPreferences>
       <viewNonDocument>Mostrar todos os tipos de nós:</viewNonDocument>
-      <viewSideBar>Show Sidebar:</viewSideBar>
-      <permissions>Permissions:</permissions>
+      <viewSideBar>Mostrar barra lateral:</viewSideBar>
+      <permissions>Permissões:</permissions>
       <showHiddenNode>Mostrar nós ocultos</showHiddenNode>
-      <allowCreateFolders>Allow Folder Creation:</allowCreateFolders>
-      <Admin>Admin:</Admin>
-      <Categories>Categories:</Categories>
-      <Icons>Icons:</Icons>
-      <List>List:</List>
+      <allowCreateFolders>Permitir criação de pasta:</allowCreateFolders>
+      <Admin>Administrador:</Admin>
+      <Categories>Categorias:</Categories>
+      <Icons>Ícones:</Icons>
+      <List>Lista:</List>
       <Web>Web:</Web>
     </label>
   </UIDriveForm>
   <AddDriveManagerPopup>
     <title>
-      <UIDriveForm>Add Drive</UIDriveForm>
+      <UIDriveForm>Adicionar unidade</UIDriveForm>
     </title>
   </AddDriveManagerPopup>
   <EditDriveManagerPopup>
     <title>
-      <UIDriveForm>Edit Drive</UIDriveForm>
+      <UIDriveForm>Editar unidade</UIDriveForm>
     </title>
   </EditDriveManagerPopup>
   <UITreeList>
@@ -421,14 +421,14 @@
       <child-not-found>Nó filho não encontrado.</child-not-found>
     </info>
     <header>
-      <name>Name</name>
-      <action>Action</action>
+      <name>Nome</name>
+      <action>Ação</action>
     </header>
   </UITreeList>
   
   <UIRepositoryList>
     <titlebar>
-      <label>Manage ECM Main Functions</label>
+      <label>Gerenciar as funções principais do ECM</label>
     </titlebar>
   </UIRepositoryList>
   
@@ -575,13 +575,13 @@
   <UIPropertyDefinitionForm>
     <tab>
       <label>
-        <constraints>Constraints</constraints>
-        <UIFormMultiValueInputSet>Constraints</UIFormMultiValueInputSet>
+        <constraints>Restrições</constraints>
+        <UIFormMultiValueInputSet>Restrições</UIFormMultiValueInputSet>
       </label>
     </tab>
     <msg>
-      <property-name>The property definition's name was invalid.</property-name>
-      <not-supported-value-constraints>This required type does not support value constraints.</not-supported-value-constraints>
+      <property-name>Nome de definição da propriedade inválido!</property-name>
+      <not-supported-value-constraints>O tipo obrigatório não suporta restrições de valor.</not-supported-value-constraints>
     </msg>
   </UIPropertyDefinitionForm>
   <UIChildNodeDefinitionForm>
@@ -595,12 +595,12 @@
   </UIChildNodeDefinitionForm>
   <defaultPrimaryTypePopup>
     <title>
-      <FormdefaultPrimaryTypePopup>Select Default Primary Type</FormdefaultPrimaryTypePopup>
+      <FormdefaultPrimaryTypePopup>Selecione o tipo primário padrão</FormdefaultPrimaryTypePopup>
     </title>
   </defaultPrimaryTypePopup>
   <requiredPrimaryTypePopup>
     <title>
-      <FormrequiredPrimaryTypePopup>Select Required Primary Type</FormrequiredPrimaryTypePopup>
+      <FormrequiredPrimaryTypePopup>Selecione o tipo primário obrigatório</FormrequiredPrimaryTypePopup>
     </title>
   </requiredPrimaryTypePopup>
   <superTypesPopup>
@@ -706,15 +706,15 @@
   -->
   <DriveInputSet>
     <label>
-      <both>Both</both>
-      <folderOnly>Folder</folderOnly>
-      <unstructuredFolder>Unstructured Folder</unstructuredFolder>
+      <both>Ambos</both>
+      <folderOnly>Pasta</folderOnly>
+      <unstructuredFolder>Pasta desestruturada</unstructuredFolder>
     </label>
     <title>
-      <AddPermission>Add Permission</AddPermission>
-      <RemovePermission>Remove Permission</RemovePermission>
-      <AddIcon>Add Icon</AddIcon>
-      <AddPath>Add Path</AddPath>
+      <AddPermission>Adicionar permissão</AddPermission>
+      <RemovePermission>Remover permissão</RemovePermission>
+      <AddIcon>Adicionar ícone</AddIcon>
+      <AddPath>Adicionar caminho</AddPath>
     </title>
   </DriveInputSet>
   <!--
@@ -726,18 +726,18 @@
     <header>
       <name>Script</name>
       <label>Nome</label>
-<action>Actions</action>
+      <action>Ações</action>
     </header>
     <title>
       <Edit>Editar</Edit>
       <Delete>Excluir</Delete>
     </title>
     <action>
-      <AddAction>Add Action Type</AddAction>
+      <AddAction>Adicionar tipo de ação</AddAction>
     </action>
 <msg>
- <confirm-delete>Are you sure you want to delete this action type?</confirm-delete>
-<cannot-delete>You cannot remove this action type because the system is still using it.</cannot-delete>
+ <confirm-delete>Tem certeza que deseja excluir este tipo de ação?</confirm-delete>
+<cannot-delete>Você não pode remover este tipo de ação porque o sistema ainda está usando-o.</cannot-delete>
 </msg>
   </UIActionTypeList>
   <!--
@@ -747,19 +747,19 @@
   -->
   <ActionPopup>
     <title>
-      <UIActionTypeForm>Add Action Type</UIActionTypeForm>
+      <UIActionTypeForm>Adicionar de tipo de ação</UIActionTypeForm>
     </title>
   </ActionPopup>
   <UIActionTypeForm>
-    <title>Add Action Type</title>
+    <title>Adicionar/Editar um tipo de ação</title>
     <label>
-      <actionType>Extend Action Type:</actionType>
+      <actionType>Extender tipo de ação</actionType>
       <name>Name:</name>
       <isMove>is Action Move:</isMove>
-      <variables>Variables:</variables>
-      <exo_businessProcessAction>Business Processes:</exo_businessProcessAction>
-      <exo_scriptAction>Groovy Scripts:</exo_scriptAction>
-      <exo_ruleAction>Defined Rules:</exo_ruleAction>
+      <variables>Variáveis:</variables>
+      <exo_businessProcessAction>Processo de negócio:</exo_businessProcessAction>
+      <exo_scriptAction>Scripts Groovy</exo_scriptAction>
+      <exo_ruleAction>Regras definidas:</exo_ruleAction>
       <script>Script:</script>
     </label>
     <action>
@@ -767,8 +767,8 @@
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <action-type-added>The '{0}' action type was added successfully.</action-type-added>
-      <action-type-create-error>An error occurred while creating the action type.</action-type-create-error>
+      <action-type-added>O tipo de ação '{0}' foi adicionado com sucesso.</action-type-added>
+      <action-type-create-error>Ocorreu um erro enquanto criava o tipo de ação.</action-type-create-error>
       <action-name-invalid>'{0}' is invalid. The name must begin with 'exo:'.</action-name-invalid>
       <action-exist>This action already exists in the ECM system.</action-exist>
       <fileName-invalid>The action name contains some invalid characters.</fileName-invalid>
