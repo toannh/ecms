@@ -7,19 +7,19 @@
   -->
   <UICommentForm>
     <label>
-      <name>Name</name>
-      <email>Email</email>
-      <website>Website</website>
-      <comment>Comment</comment>
+      <name>Nome</name>
+      <email>E-Mail</email>
+      <website>Web Site</website>
+      <comment>Comentário</comment>
     </label>
     <action>
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <not-support>You cannot comment on this document type.</not-support>
+      <not-support>Não são permitidos comentários nesse tipo de documento.</not-support>
       <not-checkedout>You must check out the node before commenting on it.</not-checkedout>
-      <content-null>You cannot post an empty comment.</content-null>
+      <content-null>Você não pode publicar um comentário vazio.</content-null>
     </msg>
   </UICommentForm>
   <!--
@@ -29,11 +29,11 @@
   -->
   <UIVoteForm>
     <title>
-      <normal>Poor</normal>
-      <good>Below average</good>
-      <verygood>Average</verygood>
-      <excellent>Above average</excellent>
-      <best>Good</best>
+      <normal>Ruim</normal>
+      <good>Abaixo da média</good>
+      <verygood>Médio</verygood>
+      <excellent>Acima da média</excellent>
+      <best>Bom</best>
       <no-value>nenhum valor ainda</no-value>
     </title>
     <label>
@@ -45,9 +45,9 @@
       </label>
     </button>
     <msg>
-      <not-support>You cannot vote for this document type.</not-support>
+      <not-support>Não é permitido votar nesse tipo de documento.</not-support>
       <not-checkedout>You must check out the node before voting.</not-checkedout>
-      <vote-restriction>You cannot vote more than one time.</vote-restriction>
+      <vote-restriction>Você não pode votar mais de uma vez.</vote-restriction>
     </msg>
   </UIVoteForm>
  
@@ -58,10 +58,10 @@
   -->
   <UIJCRExplorer>
     <msg>
-      <refresh-session-success>The session was refreshed successfully.</refresh-session-success>
-      <no-node-history>You are in the root node.</no-node-history>
-      <save-session-success>All changes have been saved.</save-session-success>
-      <target-path-not-found>You cannot access this node, either because it doesn't exist anymore or because you do not have the right to access it.</target-path-not-found>
+      <refresh-session-success>A sessão foi atualizada com sucesso.</refresh-session-success>
+      <no-node-history>Você está no nó raíz.</no-node-history>
+      <save-session-success>Todas as alterações foram salvas.</save-session-success>
+      <target-path-not-found>Você não pode acessar esse nó, ou porque ele não existe mais ou porque você não tem permissão para acessá-lo.</target-path-not-found>
     </msg>
   </UIJCRExplorer>
   <!--
@@ -71,16 +71,16 @@
   -->
   <UISideBar>
     <label>
-      <Relation>Relation</Relation>
-      <Explorer>File Explorer</Explorer>
-      <Close>Close Sidebar</Close>
-      <TagExplorer>Tag Cloud</TagExplorer>
-      <Clipboard>Clipboard</Clipboard>
-      <SavedSearches>Saved Searches</SavedSearches>
+      <Relation>Relação</Relation>
+      <Explorer>Explorador de arquivos</Explorer>
+      <Close>Fechar barra lateral</Close>
+      <TagExplorer>Nuvem de tags</TagExplorer>
+      <Clipboard>Área de transferência</Clipboard>
+      <SavedSearches>Pesquisas salvas</SavedSearches>
     </label>
     <title>
       <Control>Control Sidebar</Control>
-      <Close>Close Sidebar</Close>
+      <Close>Fechar barra lateral</Close>
     </title>
   </UISideBar>
   <!--
@@ -90,14 +90,14 @@
   -->
   <UIViewBar>
     <label>
-      <driveWorkspace>Drive Workspace:</driveWorkspace>
-      <backToJCR>Back to JCR Main Drives</backToJCR>
-      <setUpBrowser>Set up your browsing preferences</setUpBrowser>
-      <refesh>Refresh</refesh>
-      <currentDrive>Current Drive</currentDrive>
-      <selectView>Select View</selectView>
-      <showSideBar>Show Sidebar</showSideBar>
-      <more>More</more>
+      <driveWorkspace>Unidade da Área de trabalho:</driveWorkspace>
+      <backToJCR>Voltar para as unidades principais da JCR</backToJCR>
+      <setUpBrowser>Configurar suas preferências de navegação</setUpBrowser>
+      <refesh>Atualizar</refesh>
+      <currentDrive>Unidade atual</currentDrive>
+      <selectView>Selecionar visualização</selectView>
+      <showSideBar>Mostrar barra lateral</showSideBar>
+      <more>Mais</more>
       <backTo>Voltar</backTo>
     </label>
   </UIViewBar>
@@ -109,14 +109,14 @@
   -->
   <UIDrivesBrowser>
     <title>
-      <PersonalDrives>Personal drives</PersonalDrives>
-      <GroupDrives>Group drives</GroupDrives>
-      <GeneralDrives>General drives</GeneralDrives>
+      <PersonalDrives>Unidades pessoais</PersonalDrives>
+      <GroupDrives>Unidades dos grupos</GroupDrives>
+      <GeneralDrives>Unidades gerais</GeneralDrives>
     </title>
     <msg>
-      <no-view-found>There is no view available according to your access permissions in drive '{0}'.</no-view-found>
-      <access-denied>Access denied. You may not have permission in the workspace of drive '{0}'.</access-denied>
-      <workspace-not-exist>Drive '{0}' was stored in one unrecognized workspace. Please reconfigure this drive.</workspace-not-exist>
+      <no-view-found>Não há nenhuma visualização disponível de acordo com suas permissões de acesso na unidade '{0}'.</no-view-found>
+      <access-denied>Acesso negado. Talvez você não tenha permissão na área de trabalho da unidade '{0}'.</access-denied>
+      <workspace-not-exist>Unidade '{0}' foi armazenada em um espaço de trabalho não reconhecido. Por favor reconfigure esta unidade.</workspace-not-exist>
     </msg>
   </UIDrivesBrowser>
 
@@ -126,13 +126,13 @@
   #############################################################################
   -->
   <UITreeExplorer>
-    <title>Explorer</title>
+    <title>Explorador</title>
     <label>
-      <Root>Root</Root>
-      <webDavView>Download and allow edition</webDavView>
+      <Root>Raíz</Root>
+      <webDavView>Baixar e permitir edição</webDavView>
     </label>
     <msg>
-      <path-not-found>This element was deleted or changed. Please click the Refresh button.</path-not-found>
+      <path-not-found>Este elemento foi excluído ou alterado. Por favor, clique no botão atualizar.</path-not-found>
     </msg>
   </UITreeExplorer>
   <!--
@@ -142,11 +142,11 @@
   -->
   <UIViewRelationList>
     <label>
-      <languages-list>Translations</languages-list>
-      <relation-list>Relations</relation-list>
-      <references-list>References</references-list>
-      <no-related-document>No Related Document</no-related-document>
-      <related-document>Related Documents</related-document>
+      <languages-list>Lista de traduções</languages-list>
+      <relation-list>Lista de relações</relation-list>
+      <references-list>Lista de referências</references-list>
+      <no-related-document>Nenhum documento relacionado</no-related-document>
+      <related-document>Documentos relacionados</related-document>
     </label>
   </UIViewRelationList>
   <!--
@@ -155,17 +155,17 @@
   #########################################################################################
   -->
   <UIPreferencesForm>
-    <title>Set up your browsing preferences</title>
+    <title>Configurar suas preferências de navegação</title>
     <label>
-      <enableStructure>Enable DMS Structure:</enableStructure>
-      <showSideBar>Show Sidebar:</showSideBar>
-      <showHiddenNode>Show Hidden Nodes:</showHiddenNode>
-      <showNonDocument>Show Non-document Nodes:</showNonDocument>
-      <showRefDocuments>Show Referenced Documents:</showRefDocuments>
-      <enableDragAndDrop>Enable Drag &amp; Drop:</enableDragAndDrop>
-      <sortBy>Sort by:</sortBy>
-      <order>Order by:</order>
-      <nodesPerPage>Nodes Per Page:</nodesPerPage>
+      <enableStructure>Habilitar estrutura do DMS:</enableStructure>
+      <showSideBar>Mostrar barra lateral:</showSideBar>
+      <showHiddenNode>Mostrar nós ocultos</showHiddenNode>
+      <showNonDocument>Mostrar nós do tipo "não documento"</showNonDocument>
+      <showRefDocuments>Mostrar documentos referenciados</showRefDocuments>
+      <enableDragAndDrop>Habilitar Arrastar &amp; Soltar</enableDragAndDrop>
+      <sortBy>Classificar por:</sortBy>
+      <order>Ordenar por:</order>
+      <nodesPerPage>Nós por página:</nodesPerPage>
     </label>
     <action>
       <Back>#{word.close}</Back>
@@ -178,7 +178,7 @@
   #########################################################################################
   -->
   <UIAllItemsPreferenceForm>
-    <title>Set Up Filter Preferences</title>
+    <title>Configurar preferências de filtros</title>
     <action>
       <Cancel>#{word.cancel}</Cancel>
       <Save>#{word.save}</Save>
@@ -192,8 +192,8 @@
   <UIRenameForm>
     <title>Renomear</title>
     <label>
-      <nameField>Name</nameField>
-      <titleField>Title</titleField>
+      <nameField>Nome</nameField>
+      <titleField>Título</titleField>
     </label>
     <action>
       <Cancel>#{word.cancel}</Cancel>
@@ -201,26 +201,26 @@
       <Back>#{word.back}</Back>
     </action>
     <msg>
-      <rename-successfull>Node '{0}' was renamed to '{1}' successfully.</rename-successfull>
-      <rename-denied>Access denied. You cannot rename this node.</rename-denied>
-      <fileName-invalid>The new name contains some invalid characters.</fileName-invalid>
-      <newName-same-oldName>The new name already exists. Please check again.</newName-same-oldName>
+      <rename-successfull>O nó '{0}' foi renomeado para '{1}' com sucesso.</rename-successfull>
+      <rename-denied>Acesso negado. Você não pode renomear este nó.</rename-denied>
+      <fileName-invalid>O novo nome contém alguns caracteres inválidos.</fileName-invalid>
+      <newName-same-oldName>O novo nome já existe. Por favor, escolha outro nome.</newName-same-oldName>
       <version-exception>This node (or the ancestor of this node) is not checked out.</version-exception>
-      <lock-exception>This node is locked. Please unlock it before renaming.</lock-exception>
-      <constraintViolation-exception>An error occurred while renaming node '{0}'. Please check again.</constraintViolation-exception>
+      <lock-exception>Este nó está bloqueado. Por favor, desbloqueie antes de renomeá-lo.</lock-exception>
+      <constraintViolation-exception>Erro ao renomear o nó '{0}'. Por favor, tente novamente.</constraintViolation-exception>
       <unknown-prefix>Prefix '{0}' has not been registered yet.</unknown-prefix>
       <rename-error>An error occurred while renaming this node. Please check again.</rename-error>
     </msg>
   </UIRenameForm>
   <UIPopupWindow>
     <title>
-      <UIRenameForm>Rename</UIRenameForm>
+      <UIRenameForm>Renomear</UIRenameForm>
       <UIActionContainer>Edit Action</UIActionContainer>
       <UIFolderForm>New Folder</UIFolderForm>
       <UIUploadManager>Upload de arquivo</UIUploadManager>
-      <UIReferencesList>References List</UIReferencesList>
+      <UIReferencesList>Lista de referências</UIReferencesList>
       <UIExportNode>Exportar Node</UIExportNode>
-      <UINodeTypeInfo>Node Type Information</UINodeTypeInfo>
+      <UINodeTypeInfo>Informação de tipo de nó</UINodeTypeInfo>
       <UIVersionInfo>Version Info</UIVersionInfo>
       <UIActivateVersion>Activate Version</UIActivateVersion>
       <UIAuditingInfo>Auditing Information</UIAuditingInfo>
@@ -228,7 +228,7 @@
       <UIPermissionManager>Permission Management</UIPermissionManager>
       <UIPropertiesManager>Properties Management</UIPropertiesManager>
       <UIECMSearch>Advanced Search</UIECMSearch>
-      <UISavedQuery>Saved Queries List</UISavedQuery>
+      <UISavedQuery>Lista de consultas salvas</UISavedQuery>
       <UIWatchDocumentForm>Watch Document</UIWatchDocumentForm>
       <UIActionManager>Manage Actions</UIActionManager>
       <UIDocumentForm>Edit Document</UIDocumentForm>
@@ -309,12 +309,12 @@
       <ShowJCRStructure>Show/Hide Content Structure</ShowJCRStructure>
     </tooltip>
     <msg>
-      <cannot-action-in-rootnode>You cannot perform this action in the root node.</cannot-action-in-rootnode>
+      <cannot-action-in-rootnode>Você não pode executar esta ação no nó raiz.</cannot-action-in-rootnode>
       <node-checkedin>You must check out first.</node-checkedin>
-      <cannot-enable-version-rootnode>Cannot enable versioning for the root node.</cannot-enable-version-rootnode>
-      <cannot-enable-publication-rootnode>Cannot enable publication for the root node.</cannot-enable-publication-rootnode>
+      <cannot-enable-version-rootnode>Não é possível habilitar versionamento para o nó raíz.</cannot-enable-version-rootnode>
+      <cannot-enable-publication-rootnode>Não é possível habilitar publicação para o nó raíz.</cannot-enable-publication-rootnode>
       <manage-publication>
-        <not-supported-nodetype>The publication supports the document node only.</not-supported-nodetype>
+        <not-supported-nodetype>A publicação suporta apenas nós de documento.</not-supported-nodetype>
         <no-publication-lifecycle>No publication lifecycle is configured.</no-publication-lifecycle>
       </manage-publication>
       <unsubcriber-lifecycle>The node was already unsubscribed.</unsubcriber-lifecycle>
@@ -323,7 +323,7 @@
       <access-false>The node is not an article or checked in.</access-false>
       <unsupported-action>This action is not supported.</unsupported-action>
       <not-relationable>This node has not yet had any related links to another node.</not-relationable>
-      <node-pasted>Node '{0}' has been pasted at the location '{1}'. This operation has already been saved.</node-pasted>
+      <node-pasted>O node '{0}' foi colado na localização '{1}'. Esta operação já foi salva e você não precisa clicar no ícone salvar.</node-pasted>
       <no-node-selected>No node copied.</no-node-selected>
       <unable-edit>Node'{0}' with nodetype '{1}' is not supported to edit.</unable-edit>
       <not-support>Cannot edit the selected node.</not-support>
@@ -3141,7 +3141,7 @@
       <name>Nome</name>
       <date>Data</date>
       <size>Tamanho</size>
-      <sortBy>Sort by:</sortBy>
+      <sortBy>Classificar por:</sortBy>
       <filesAreSelected>Files are selected.</filesAreSelected>
       <ClearSelection>Clear selection</ClearSelection>
       <more>More</more>
