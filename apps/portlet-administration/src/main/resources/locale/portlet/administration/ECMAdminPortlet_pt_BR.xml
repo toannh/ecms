@@ -466,7 +466,7 @@
     </header>
     <action>
       <Export>Exportar Node</Export>
-      <Import>Import</Import>
+      <Import>Importar</Import>
       <Add>Adicionar</Add>
     </action>
     <tooltip>
@@ -796,7 +796,7 @@
 <UIInterceptorScriptContainer>Interceptadores</UIInterceptorScriptContainer>
 
 <nodeTypeDefinition>Node Type</nodeTypeDefinition>
-      <propertyDefinition>Property</propertyDefinition>
+      <propertyDefinition>Propriedade</propertyDefinition>
       <childNodeDefinition>Nó filho</childNodeDefinition>
       <SuperTypeTab>Super tipos</SuperTypeTab>
       <DefaultTypeTab>Tipo primário por padrão</DefaultTypeTab>
@@ -956,7 +956,7 @@
       <enableVersion>Ativar a versão</enableVersion>
       <addFolder>Adicionar pasta</addFolder>
       <addDocument>Adicionar documento</addDocument>
-      <editDocument>Edit Document</editDocument>
+      <editDocument>Editar documento</editDocument>
       <upload>Enviar</upload>
       <paste>Paste</paste>
       <search>Buscar</search>
@@ -966,10 +966,10 @@
       <viewProperties>Exibir propriedades</viewProperties>
       <manageVersions>Gerenciar versões</manageVersions>
       <manageAuditing>Gerenciar a auditoria</manageAuditing>
-      <managePublications>Manage Publication</managePublications>
+      <managePublications>Gerenciar publicações</managePublications>
       <manageCategories>Gerenciar categorias</manageCategories>
       <manageRelations>Gerenciar relações</manageRelations>
-      <manageActions>Manage Actions</manageActions>
+      <manageActions>Gerenciar ações</manageActions>
       <exportNode>Exportar nó</exportNode>
       <importNode>Importar nó</importNode>
       <viewRelations>Visualizar relações</viewRelations>
@@ -1328,7 +1328,7 @@
   <UITaxonomyTreeList>
     <header>
       <name>Árvore de categorias</name>
-      <workspace>Workspace</workspace>
+      <workspace>Espaço de trabalho</workspace>
       <homePath>Caminho raíz</homePath>
       <action>Ação</action>
     </header>
@@ -1355,7 +1355,7 @@
   <UITaxonomyTreeForm>
     <label>
       <name>Nome</name>
-      <workspace>Workspace</workspace>
+      <workspace>Espaço de trabalho</workspace>
       <homePath>Caminho raíz</homePath>
       <permissions>Permissões</permissions>
     </label>
@@ -2044,7 +2044,7 @@
   -->
   <UIWorkspaceList>
     <label>
-      <workspaceName>Área de trabalho:</workspaceName>
+      <workspaceName>Espaço de trabalho:</workspaceName>
       <rootNodeInfo>UIWorkspaceList</rootNodeInfo>
       <rootNodePath>Raiz da arborescência:</rootNodePath>
     </label>
