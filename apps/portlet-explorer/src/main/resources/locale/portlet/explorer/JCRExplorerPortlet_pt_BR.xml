@@ -229,7 +229,7 @@
       <UIPropertiesManager>Properties Management</UIPropertiesManager>
       <UIECMSearch>Advanced Search</UIECMSearch>
       <UISavedQuery>Lista de consultas salvas</UISavedQuery>
-      <UIWatchDocumentForm>Observar documento</UIWatchDocumentForm>
+      <UIWatchDocumentForm>Acompanhar documento</UIWatchDocumentForm>
       <UIActionManager>Gerenciar ações</UIActionManager>
       <UIDocumentForm>Editar documento</UIDocumentForm>
       <UIDocumentFormController>Adicionar novo documento</UIDocumentFormController>
@@ -257,7 +257,7 @@
     </title>
     <header>
       <workspace>Espaço de trabalho</workspace>
-      <path>Path</path>
+      <path>Caminho</path>
     </header>
   </UIPopupWindow>
   <!--
@@ -286,7 +286,7 @@
       <Upload>Enviar</Upload>
       <Paste>Paste</Paste>
       <Search>Search</Search>
-      <WatchDocument>Watch/Unwatch</WatchDocument>
+      <WatchDocument>Acompanhar/Deixar de acompanhar</WatchDocument>
       <TaggingDocument>Tag</TaggingDocument>
       <Vote>Votar para esse documento</Vote>
       <Comment>Comment</Comment>
@@ -339,8 +339,8 @@
       <added-hidden-mixin>You added the hidden mixin successfully.</added-hidden-mixin>
       <not-supported>This function is supported for the document type only.</not-supported>
       <empty-file-type>You cannot add a document to this node.</empty-file-type>
-      <unsupported-watch>Only the document node can be watched.</unsupported-watch>
-      <watch-checkedin>Você deve reservar o nó antes de passar a observá-lo.</watch-checkedin>
+      <unsupported-watch>Apenas nós de documento podem ser acompanhados.</unsupported-watch>
+      <watch-checkedin>Você deve reservar o nó antes de passar a acompanhá-lo.</watch-checkedin>
       <unsupported-tagging>Only the document node can be tagged.</unsupported-tagging>
       <tagnode-checkedin>Você deve reservar o nó antes de rotulá-lo.</tagnode-checkedin>
     </msg>
@@ -487,8 +487,8 @@
       <confirm-delete-multi-nodes-file-and-folder-have-relations>Are you sure you want to delete the {0} selected files, their references, folders and all subfolders?</confirm-delete-multi-nodes-file-and-folder-have-relations>
       <confirm-delete-multi-nodes-generic-and-file-and-folder-have-relations>Are you sure you want to delete the {0} selected items, files, their references, folders and all subfolders?</confirm-delete-multi-nodes-generic-and-file-and-folder-have-relations>
       
-      <feedback-delete>'{0}' was deleted succesfully.</feedback-delete>
-      <feedback-delete-multi>{0} items were deleted succesfully.</feedback-delete-multi>      
+      <feedback-delete>'{0}' foi excluído com sucesso.</feedback-delete>
+      <feedback-delete-multi>{0} itens foram excluídos com sucesso.</feedback-delete-multi>      
       <feedback-delete-permanently>'{0}' foi removido permanentemente.</feedback-delete-permanently>
       <feedback-delete-permanently-multi>{0} itens foram removidos permanentemente.</feedback-delete-permanently-multi>
       <undo-delete>Desfazer</undo-delete>
@@ -569,8 +569,8 @@
       <EditDocument>Edit</EditDocument>
       <Copy>Copy</Copy>
       <Rename>Rename</Rename>
-      <Delete>Delete</Delete>
-      <Save>Save</Save>
+      <Delete>Excluir</Delete>
+      <Save>Salvar</Save>
       <Cut>Cut</Cut>
       <Paste>Paste</Paste>
       <CheckOut>Reservado</CheckOut>
@@ -606,7 +606,7 @@
     </msg>
     <header>
       <workspace>Espaço de trabalho</workspace>
-      <path>Path</path>
+      <path>Caminho</path>
     </header>
     <action>
       <Close>Fechar</Close>
@@ -648,7 +648,7 @@
       <UIAddLanguageContainer>Add Language</UIAddLanguageContainer>
       <UINonPublishedForm>Estado</UINonPublishedForm>
       <UIPublishedForm>Estado</UIPublishedForm>
-      <UIPublicationLogList>History</UIPublicationLogList>
+      <UIPublicationLogList>Histórico</UIPublicationLogList>
       <UIDocumentWithTree>File View</UIDocumentWithTree>
       <UIDocumentInfo>Document View</UIDocumentInfo>
       <UICategoriesSelectPanel>Selecionar categorias</UICategoriesSelectPanel>
@@ -662,7 +662,7 @@
   <UIPropertyTab>
     <title>
       <edit>Edit this property</edit>
-      <delete>Remove this property</delete>
+      <delete>Remover esta propriedade</delete>
     </title>
     <confirm>
       <remove-property>Are you sure you want to remove this property?</remove-property>
@@ -705,7 +705,7 @@
     </label>
     <action>
       <Save>#{word.save}</Save>
-      <Cancel>Cancel</Cancel>
+      <Cancel>Cancelar</Cancel>
       <Reset>Reset</Reset>
     </action>
     <msg>
@@ -732,7 +732,7 @@
     <action>
       <title>
         <Edit>Editar</Edit>
-        <Delete>Remove Permission</Delete>
+        <Delete>Remover permissão</Delete>
       </title>
     </action>
     <header>
@@ -743,7 +743,7 @@
       <action>Ação</action>
     </header>
     <msg>
-      <confirm-delete-permission>Are you sure you want to remove this permission?</confirm-delete-permission>
+      <confirm-delete-permission>Deseja remover esta permissão?</confirm-delete-permission>
       <no-permission-tochange>You do not have the right to remove permission.</no-permission-tochange>
       <no-permission-remove>You cannot remove the owner.</no-permission-remove>
       <access-denied>Access denied. You cannot remove this permission.</access-denied>
@@ -808,7 +808,7 @@
   <UINodeTypeInfo>
     <label>
       <node-type>Node Type</node-type>
-      <name>Name</name>
+      <name>Nome</name>
       <item>Primary Item Name</item>
       <super-types>Parent Types</super-types>
       <mixin>Mixin Node Type</mixin>
@@ -981,22 +981,22 @@
     </title>
     <tooltip>
       <View>View this Node</View>
-      <OpenFolder>Go to Folder</OpenFolder>
+      <OpenFolder>Ir para pasta</OpenFolder>
     </tooltip>
   </UIShowAllFavouriteResult>
   <UIShowAllHiddenResult>
     <msg>
       <not-support>There is no View template for this node.</not-support>
-      <empty>No results found.</empty>
+      <empty>Nenhum resultado encontrado.</empty>
       <access-denied>You cannot view this node, either because this template is not supported or because access is denied.</access-denied>
       <query-invalid>The query is invalid.</query-invalid>
     </msg>
     <header>
       <name>#{word.name}</name>
-      <path>Path</path>
-      <action>Action</action>
-      <shortcutPath>Path</shortcutPath>
-      <type>Type</type>
+      <path>Caminho</path>
+      <action>Ação</action>
+      <shortcutPath>Caminho</shortcutPath>
+      <type>Tipo</type>
       <dateCreated>Date Created</dateCreated>
       <score>Pontuação</score>
       <AddRemoveFavourite>Add/Remove to Favorite</AddRemoveFavourite>
@@ -1046,7 +1046,7 @@
     <tooltip>
       <View>View this Node</View>
       <OpenFolder>Ir para pasta</OpenFolder>
-      <DeletePermanently>Delete permanently</DeletePermanently>
+      <DeletePermanently>Excluir permanentemente</DeletePermanently>
       <RestoreFromTrash>Restore from Trash</RestoreFromTrash>
     </tooltip>
   </UIShowAllTrashResult>
@@ -1096,23 +1096,23 @@
       <notContainPro-notContain>Not Contain</notContainPro-notContain>
       <ConstraintOption-From>De</ConstraintOption-From>
       <ConstraintOption-To>Para</ConstraintOption-To>
-      <DocumentType-label>Document Type</DocumentType-label>
-      <Category-label>Category</Category-label>
+      <DocumentType-label>Tipo de documento</DocumentType-label>
+      <Category-label>Categoria</Category-label>
       <created>Created</created>
-      <modified>Modified</modified>
-      <and>And</and>
-      <or>Or</or>
+      <modified>Modificado</modified>
+      <and>E</and>
+      <or>Ou</or>
     </label>
   </UIConstraintForm>
   <NodeTypePopup>
     <title>
-      <UINodeTypeSelectForm>Select Node Type</UINodeTypeSelectForm>
+      <UINodeTypeSelectForm>Selecionar tipo de nó</UINodeTypeSelectForm>
     </title>
   </NodeTypePopup>
   <CategoryPopup>
     <title>
-      <UICategoryManagerSearch>Add Category to Search</UICategoryManagerSearch>
-      <UIOneNodePathSelector>Select Category</UIOneNodePathSelector>
+      <UICategoryManagerSearch>Adicionar categoria à busca</UICategoryManagerSearch>
+      <UIOneNodePathSelector>Escolher categoria</UIOneNodePathSelector>
     </title>
   </CategoryPopup>
   <SaveQueryPopup>
@@ -1181,7 +1181,7 @@
   </EditSavedQueryForm>
   <UIMetadataSelectForm>
     <label>
-      <metadataType>Metadata type</metadataType>
+      <metadataType>Tipo de metadado</metadataType>
     </label>
     <action>
       <Cancel>#{word.cancel}</Cancel>
@@ -1274,7 +1274,7 @@
     <label>
       <results>Results</results>
       <of-about>of about</of-about>
-      <of>of</of>
+      <of>de</of>
     </label>
   </UIQueryResultPageIterator>
   <!--
@@ -1284,15 +1284,15 @@
   -->
   <UIExportNode>
     <label>
-      <format>Format</format>
-      <nodePath>Path to Export</nodePath>
+      <format>Formato</format>
+      <nodePath>Caminho para exportar</nodePath>
       <zip>Zip</zip>
       <systemView>System View</systemView>
       <documentView>Document View</documentView>
     </label>
     <action>
       <Cancel>#{word.cancel}</Cancel>
-      <Export>Export</Export>
+      <Export>Exportar</Export>
     </action>
     <title>Export Node</title>
   </UIExportNode>
@@ -1308,8 +1308,8 @@
   </PopupUserSelector>
   <UIPopupTaxonomy>
     <title>
-      <UICategoriesSelector>Add Categories</UICategoriesSelector>
-      <UIOneNodePathSelector>Add Categories</UIOneNodePathSelector>
+      <UICategoriesSelector>Adicionar categorias</UICategoriesSelector>
+      <UIOneNodePathSelector>Adicionar categorias</UIOneNodePathSelector>
     </title>
   </UIPopupTaxonomy>
   <!--
@@ -1323,7 +1323,7 @@
       <removeLable>Remove Label</removeLable>
       <restoreVersion>Restore Version</restoreVersion>
       <viewVersion>View Version Info</viewVersion>
-      <deleteVersion>Delete Version</deleteVersion>
+      <deleteVersion>Excluir versão</deleteVersion>
       <compareVersion>Compare with the  base version</compareVersion>
     </tooltip>
     <msg>
@@ -1365,7 +1365,7 @@
       <e_16384>Reservar</e_16384>
       <e_32768>Restaurar</e_32768>
       <e_65536>Mesclar</e_65536>
-      <e_131072>Cancel Merge</e_131072>
+      <e_131072>Cancelar mesclagem</e_131072>
       <e_262144>Done Merge</e_262144>
       <e_524288>Add Version Label</e_524288>
       <e_1048576>Remove Version Label</e_1048576>
@@ -1489,7 +1489,7 @@
     </label>
     <action>
       <Save>#{word.save}</Save>
-      <Cancel>Cancel</Cancel>
+      <Cancel>Cancelar</Cancel>
     </action>
     <title>Add Label</title>
     <msg>
@@ -1548,14 +1548,14 @@
     </action>
     <tab>
       <label>
-        <UICategoriesAddedList>Referenced Categories</UICategoriesAddedList>
-        <UIOneNodePathSelector>Select Category</UIOneNodePathSelector>
+        <UICategoriesAddedList>Categorias referenciadas</UICategoriesAddedList>
+        <UIOneNodePathSelector>Selecionar categoria</UIOneNodePathSelector>
       </label>
     </tab>
   </UICategoryManager>
   <UICategoriesAddedList>
     <header>
-      <path>Category</path>
+      <path>Categoria</path>
       <action>Ações</action>
     </header>
     <msg>
@@ -1564,13 +1564,13 @@
     </msg>
     <action>
       <title>
-        <Delete>Delete</Delete>
+        <Delete>Excluir</Delete>
       </title>
     </action>
     <label>
       <category>Categoria</category>
       <actions>Ação</actions>
-      <delete>Delete</delete>
+      <delete>Excluir</delete>
     </label>
   </UICategoriesAddedList>
   <UITreeList>
@@ -1609,7 +1609,7 @@
     </header>
     <action>
       <title>
-        <Delete>Delete</Delete>
+        <Delete>Excluir</Delete>
       </title>
     </action>
     <msg>
@@ -1624,7 +1624,7 @@
   -->
   <UIClipboard>
     <header>
-      <path>Path</path>
+      <path>Caminho</path>
       <command>Cm</command>
       <action>Action</action>
     </header>
@@ -1665,8 +1665,8 @@
   <UIDocumentForm>
     <title>Add New Document</title>
     <action>
-      <Save>Save</Save>
-      <SaveAndClose>Save &amp; Close</SaveAndClose>
+      <Save>Salvar</Save>
+      <SaveAndClose>Salvar &amp; Fechar</SaveAndClose>
       <ChangeType>Change Content Type</ChangeType>
       <Fullscreen>Tela cheia</Fullscreen>
       <Cancel>#{word.cancel}</Cancel>
@@ -1785,7 +1785,7 @@
     <title>Add/Edit Action</title>
     <validator>
       <validator>Validator</validator>
-      <destPath>With Path</destPath>
+      <destPath>Com caminho</destPath>
     </validator>
   </UIActionForm>
   <UIActionTypeForm>
@@ -1803,7 +1803,7 @@
   <EditFormAction>
     <validator>
       <validator>Validator</validator>
-      <destPath>With Path</destPath>
+      <destPath>Com caminho</destPath>
     </validator>
     <title>Action Form</title>
   </EditFormAction>
@@ -1814,16 +1814,16 @@
   -->
   <UIAddressBar>
     <msg>
-      <path-not-found>Path not found.</path-not-found>
+      <path-not-found>Caminho não encontrado.</path-not-found>
       <access-denied>Access denied. You do not have the right to read the node.</access-denied>
       <keyword-not-support>A palavra-chave é inválida. Alguns caracteres não são suportados.</keyword-not-support>
     </msg>
     <label>
-      <exeButton>Go</exeButton>
-      <address>Address:</address>
+      <exeButton>Ir</exeButton>
+      <address>Endereço:</address>
     </label>
     <title>
-      <exeButton>Go</exeButton>
+      <exeButton>Ir</exeButton>
       <backButton>Back to the previous node</backButton>
       <showHistory>Show the history address</showHistory>
       <changeNode>Alterar nó</changeNode>
@@ -1836,19 +1836,19 @@
   -->
   <UIWatchDocumentForm>
     <action>
-      <Watch>Observar</Watch>
+      <Watch>Acompanhar</Watch>
       <Cancel>#{word.cancel}</Cancel>
-      <Continue>Continue</Continue>
-      <Unwatch>Unwatch</Unwatch>
+      <Continue>Continar</Continue>
+      <Unwatch>Deixar de acompanhar</Unwatch>
     </action>
     <label>
-      <notificationType>Notification Type:</notificationType>
+      <notificationType>Tipo de notificação:</notificationType>
     </label>
     <msg>
-      <not-support>This notification type is not supported. Please select another type.</not-support>
-      <watching-successfully>You are watching this document.</watching-successfully>
-      <unwatching-successfully>You have left the watchers list successfully.</unwatching-successfully>
-      <node-iswatching>This document is watched.</node-iswatching>
+      <not-support>Este tipo de notificação não é suportado. Por favor, selecione outro.</not-support>
+      <watching-successfully>Você está acompanhando este documento.</watching-successfully>
+      <unwatching-successfully>Você deixou de acompanhar com sucesso.</unwatching-successfully>
+      <node-iswatching>O documento está sendo acompanhado.</node-iswatching>
     </msg>
   </UIWatchDocumentForm>
   <!--
@@ -1983,9 +1983,9 @@
       <stateName>State Name</stateName>
     </label>
     <action>
-      <Save>Save</Save>
+      <Save>Salvar</Save>
       <UnsubcriberLifeCycle>Unsubscriber</UnsubcriberLifeCycle>
-      <Cancel>Cancel</Cancel>
+      <Cancel>Cancelar</Cancel>
     </action>
   </UIPublicationForm>
   <!--
@@ -1996,8 +1996,8 @@
   <UIWorkspaceList>
     <label>
       <workspaceName>Espaço de Trabalho</workspaceName>
-      <rootNodeInfo>Root Path:</rootNodeInfo>
-      <rootPath>Root Path:</rootPath>
+      <rootNodeInfo>Caminho raíz:</rootNodeInfo>
+      <rootPath>Caminho raíz:</rootPath>
     </label>
   </UIWorkspaceList>
   <pathSelector>
@@ -2173,20 +2173,20 @@
     <title>Edit File Explorer</title>
     <action>
       <Edit>Edit</Edit>
-      <Save>Save</Save>
-      <Cancel>Cancel</Cancel>
+      <Save>Salvar</Save>
+      <Cancel>Cancelar</Cancel>
     </action>
     <label>
       <uploadFileSizeLimitMB>The size limit of the uploaded file (MB)</uploadFileSizeLimitMB>
       <isDirectlyDrive>Direct Drive</isDirectlyDrive>
       <driveName>Drive Name</driveName>
-      <usecase>Select Type</usecase>
-      <SelectNodePath>Select Path</SelectNodePath>
+      <usecase>Selecionar tipo</usecase>
+      <SelectNodePath>Selecionar caminho</SelectNodePath>
       <showTopBar>Show Top Bar</showTopBar>
       <showActionBar>Show Action Bar</showActionBar>
       <showSideBar>Show Left Bar</showSideBar>
       <showFilterBar>Show Filter Bar</showFilterBar>
-      <nodePath>Select Path</nodePath>
+      <nodePath>Selecionar caminho</nodePath>
     </label>
   </UIJcrExplorerEditForm>
 
@@ -2263,7 +2263,7 @@
       <path-node-invalid>Please enter the path node.</path-node-invalid>
       <path-node-not-allowed>This name is not allowed.</path-node-not-allowed>
       <non-node>Please select the trust target node; you may not have the right to read this node.</non-node>
-      <cannot-save>You cannot add a symlink for this node type.</cannot-save>
+      <cannot-save>Você não pode adicionar um link simbólico para este tipo de nó.</cannot-save>
       <item-exists-exception>The node name already exists.</item-exists-exception>
       <translation-node-same-language-default>The translation node has the same language as the default language of current node.</translation-node-same-language-default>
       <UnsupportedRepositoryOperationException>This target node is not referred.</UnsupportedRepositoryOperationException>
@@ -2337,7 +2337,7 @@
       <AccessDeniedException>Acesso negado. Você não tem permissão de leitura nesse espaço de trabalho.</AccessDeniedException>
     </msg>
     <label>
-      <taxonomyTree>Category Tree</taxonomyTree>
+      <taxonomyTree>Árvore de categorias</taxonomyTree>
     </label>
   </UIWorkspaceList>
 
@@ -2349,7 +2349,7 @@
 
   <UITreeTaxonomyList>
     <label>
-      <taxonomyTree>Category Tree:</taxonomyTree>
+      <taxonomyTree>Árvore de categorias:</taxonomyTree>
       <rootNodePath>Root Tree:</rootNodePath>
       <rootNodeInfo>UITreeTaxonomyList</rootNodeInfo>
     </label>
@@ -2364,8 +2364,8 @@
   <UISimpleCategoryManager>
     <tab>
       <label>
-        <UICategoriesAddedList>Referenced Categories</UICategoriesAddedList>
-        <UIOneNodePathSelector>Select Category</UIOneNodePathSelector>
+        <UICategoriesAddedList>Categorias referenciadas</UICategoriesAddedList>
+        <UIOneNodePathSelector>Selecionar categoria</UIOneNodePathSelector>
       </label>
     </tab>
   </UISimpleCategoryManager>
@@ -2373,7 +2373,7 @@
   <UICategoryManager>
     <tab>
       <label>
-        <UIOneTaxonomySelector>Select Category</UIOneTaxonomySelector>
+        <UIOneTaxonomySelector>Selecionar categoria</UIOneTaxonomySelector>
       </label>
     </tab>
   </UICategoryManager>
@@ -2385,7 +2385,7 @@
   </UISimpleCategoryManager>
   <UIPopupWindow>
     <title>
-      <UISimpleCategoryManager>Add Category</UISimpleCategoryManager>
+      <UISimpleCategoryManager>Adicionar categoria</UISimpleCategoryManager>
     </title>
   </UIPopupWindow>
   <UICategoriesAddedList>
@@ -2710,18 +2710,18 @@
       <name>Category Name</name>
     </label>
     <action>
-      <Save>Save</Save>
-      <Cancel>Cancel</Cancel>
+      <Save>Salvar</Save>
+      <Cancel>Cancelar</Cancel>
     </action>
   </UICategoryForm>
   <UIPopupWindow>
     <title>
-      <UICategoryForm>Add Category</UICategoryForm>
+      <UICategoryForm>Adicionar categoria</UICategoryForm>
     </title>
   </UIPopupWindow>
   <UIActionBar>
     <tooltip>
-      <AddCategory>Add Category</AddCategory>
+      <AddCategory>Adicionar categoria</AddCategory>
     </tooltip>
    </UIActionBar>
 
@@ -2750,7 +2750,7 @@
     <action>
       <title>
         <EditTag>Edit Tag</EditTag>
-        <RemoveTag>Remove Tag</RemoveTag>
+        <RemoveTag>Remover tag</RemoveTag>
         <AddTag>Adicionar tag</AddTag>
       </title>
     </action>
@@ -2815,14 +2815,14 @@
     <UIActionForm>
     <title>
       <ShowComponent>Show Component</ShowComponent>
-      <removeReference>Remove</removeReference>
+      <removeReference>Remover</removeReference>
     </title>
   </UIActionForm>
 
   <EditFormAction>
     <title>
       <ShowComponent>Show Component</ShowComponent>
-      <removeReference>Remove</removeReference>
+      <removeReference>Remover</removeReference>
     </title>
   </EditFormAction>
 
@@ -2865,8 +2865,8 @@
 
   <UISelectRestorePath>
     <action>
-      <Save>Save</Save>
-      <Cancel>Cancel</Cancel>
+      <Save>Salvar</Save>
+      <Cancel>Cancelar</Cancel>
     </action>
     <label>
       <formInput>The previous path was lost. Please select a new one.</formInput>
@@ -2874,7 +2874,7 @@
   </UISelectRestorePath>
   <PathNode>
     <title>
-      <Add>Add</Add>
+      <Add>Adicionar</Add>
     </title>
   </PathNode>
   <UIPopupPathFoRestore>
@@ -2890,8 +2890,8 @@
 
   <UIActionForm>
     <msg>
-      <homePath-emty>The home path is empty.</homePath-emty>
-      <targetPath-emty>The target path is empty.</targetPath-emty>
+      <homePath-emty>O caminho raíz está vazio.</homePath-emty>
+      <targetPath-emty>O caminho alvo está vazio.</targetPath-emty>
     </msg>
     </UIActionForm>
     <UIActionBar>
@@ -2912,39 +2912,39 @@
     </button>
     <revisions>
       <version>Revisões</version>
-      <date>Date</date>
+      <date>Data</date>
       <author>Autor</author>
       <status>Status</status>
-      <action>Action</action>
-      <label>Revision</label>
-      <none>No revisions</none>
-      <seeall>See all versions</seeall>
+      <action>Ação</action>
+      <label>Revisão</label>
+      <none>Sem revisões</none>
+      <seeall>Ver todas versões</seeall>
       <currentVersion>Current Revision</currentVersion>
       <confirm>You will lose your draft work. Are you sure you want to replace the current revision?</confirm>
     </revisions>
     <status>
-      <version>Revision</version>
+      <version>Revisão</version>
       <title>Status</title>
-      <archived>Archived</archived>
-      <obsolete>Obsolete</obsolete>
-      <unpublished>Unpublished</unpublished>
-      <enrolled>Enrolled</enrolled>
-      <draft>Draft</draft>
-      <pending>Pending</pending>
+      <archived>Arquivado</archived>
+      <obsolete>Obsoleto</obsolete>
+      <unpublished>Não publicado</unpublished>
+      <enrolled>Registrado</enrolled>
+      <draft>Rascunho</draft>
+      <pending>Pendente</pending>
       <approved>Aprovado</approved>
-      <inreview>In Review</inreview>
-      <staged>Staged</staged>
-      <published>Published</published>
-      <live>Published</live>
+      <inreview>Em revisão</inreview>
+      <staged>Organizado</staged>
+      <published>Publicado</published>
+      <live>Publicado</live>
     </status>
     <scheduled>
-      <title>Scheduled</title>
-      <from>From</from>
-      <to>To</to>
+      <title>Agendado</title>
+      <from>De</from>
+      <to>Para</to>
     </scheduled>
     <title>
       <preview>Prévia</preview>
-      <restore>Restore</restore>
+      <restore>Restaurar</restore>
     </title>
     <msg>
       <have-no-view-template>The View template is not supported.</have-no-view-template>
@@ -2953,11 +2953,11 @@
   </UIPublicationPanel>
   <UIPublicationHistory>
     <header>
-      <date>Date</date>
+      <date>Data</date>
       <versionName>Revision Name</versionName>
       <currentState>Current State</currentState>
-      <user>Author</user>
-      <description>Description</description>
+      <user>Autor</user>
+      <description>Descrição</description>
     </header>
   </UIPublicationHistory>
   
@@ -2977,9 +2977,9 @@
 
   <UIPublicationPanel>
     <label>
-      <header>Publication Date</header>
-      <start>Start Publication</start>
-      <end>End Publication</end>
+      <header>Data e hora de publicação</header>
+      <start>Começar publicação</start>
+      <end>Finalizar publicação</end>
     </label>
     <msg>
       <invalid-format>O formato da data é inválido. Por favor, verifique novamente.</invalid-format>
@@ -2988,22 +2988,22 @@
   </UIPublicationPanel>
   <UIPopupWindow>
     <title>
-      <UIPublicationContainer>Manage Publication</UIPublicationContainer>
-      <UIPublishingPanel>Manage Publication</UIPublishingPanel>
+      <UIPublicationContainer>Gerenciar publicação</UIPublicationContainer>
+      <UIPublishingPanel>Gerenciar publicação</UIPublishingPanel>
     </title>
   </UIPopupWindow>
   <WCMContentView>
     <header>
       <status>Status</status>
-      <author>Author</author>
-      <date>Created Date</date>
-      <title>Document Title</title>
+      <author>Autor</author>
+      <date>Data de criação</date>
+      <title>Título do documento</title>
       <lastUser>Último usuário</lastUser>
     </header>
   </WCMContentView>
   <UITagForm>
     <msg>
-      <NameAlreadyExist>The tag name already exists.</NameAlreadyExist>
+      <NameAlreadyExist>Nome da tag já existe.</NameAlreadyExist>
     </msg>
   </UITagForm>
 
@@ -3013,7 +3013,7 @@
   <UICategoryManagerSearch>
     <tab>
       <label>
-        <UIOneTaxonomySelector>Select Category</UIOneTaxonomySelector>
+        <UIOneTaxonomySelector>Escolher categoria</UIOneTaxonomySelector>
       </label>
     </tab>
   </UICategoryManagerSearch>
@@ -3042,7 +3042,7 @@
   <UIJcrExplorerEditForm>
     <msg>
       <fields-saved>All field values saved.</fields-saved>
-      <fields-cancelled>All field values canceled.</fields-cancelled>
+      <fields-cancelled>Todos os valores cancelados.</fields-cancelled>
     </msg>
   </UIJcrExplorerEditForm>
   <UIDocumentForm>
@@ -3098,8 +3098,8 @@
   </UIPropertyForm>
   <UIWatchDocumentForm>
     <msg>
-      <node-is-locked>Este nó está bloqueado. Você não pode observá-lo.</node-is-locked>
-      <unknown-error>Ocorreram alguns erros. Você não pode observar este nó.</unknown-error>
+      <node-is-locked>Este nó está bloqueado. Você não pode acompanhá-lo.</node-is-locked>
+      <unknown-error>Ocorreram erros. Você não pode acompanhar este nó.</unknown-error>
     </msg>
   </UIWatchDocumentForm>   
   <UIActionForm>

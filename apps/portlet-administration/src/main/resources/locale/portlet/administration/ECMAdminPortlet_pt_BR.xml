@@ -922,7 +922,7 @@
   <UIViewForm>
     <title>
       <AddPermission>Adicionar permissão</AddPermission>
-      <RemovePermission>Remove Permission</RemovePermission>
+      <RemovePermission>Remover permissão</RemovePermission>
     </title>
     <msg>
       <view-name-invalid>O nome da visualização é obrigatório.</view-name-invalid>
@@ -1873,7 +1873,7 @@
     </msg>
     <title>
       <AddPermission>Adicionar permissão</AddPermission>
-      <RemovePermission>Remove Permission</RemovePermission>
+      <RemovePermission>Remover permissão</RemovePermission>
     </title>
   </UITemplateContent>
   <!--
