@@ -114,9 +114,9 @@
       <GeneralDrives>General drives</GeneralDrives>
     </title>
     <msg>
-      <no-view-found>There is no view available according to your access permissions in drive '{0}'.</no-view-found>
-      <access-denied>Access denied. You may not have permission in the workspace of drive '{0}'.</access-denied>
-      <workspace-not-exist>Drive '{0}' was stored in one unrecognized workspace. Please reconfigure this drive.</workspace-not-exist>
+      <no-view-found>There is no view available according to your access permissions in drive ''{0}''.</no-view-found>
+      <access-denied>Access denied. You may not have permission in the workspace of drive ''{0}''.</access-denied>
+      <workspace-not-exist>Drive ''{0}'' was stored in one unrecognized workspace. Please reconfigure this drive.</workspace-not-exist>
     </msg>
   </UIDrivesBrowser>
 
@@ -201,14 +201,14 @@
       <Back>#{word.back}</Back>
     </action>
     <msg>
-      <rename-successfull>Node '{0}' was renamed to '{1}' successfully.</rename-successfull>
+      <rename-successfull>Node ''{0}'' was renamed to ''{1}'' successfully.</rename-successfull>
       <rename-denied>Access denied. You cannot rename this node.</rename-denied>
       <fileName-invalid>The new name contains some invalid characters.</fileName-invalid>
       <newName-same-oldName>The new name already exists. Please check again.</newName-same-oldName>
       <version-exception>This node (or the ancestor of this node) is not checked out.</version-exception>
       <lock-exception>This node is locked. Please unlock it before renaming.</lock-exception>
-      <constraintViolation-exception>An error occurred while renaming node '{0}'. Please check again.</constraintViolation-exception>
-      <unknown-prefix>Prefix '{0}' has not been registered yet.</unknown-prefix>
+      <constraintViolation-exception>An error occurred while renaming node ''{0}''. Please check again.</constraintViolation-exception>
+      <unknown-prefix>Prefix ''{0}'' has not been registered yet.</unknown-prefix>
       <rename-error>An error occurred while renaming this node. Please check again.</rename-error>
     </msg>
   </UIRenameForm>
@@ -323,15 +323,15 @@
       <access-false>The node is not an article or checked in.</access-false>
       <unsupported-action>This action is not supported.</unsupported-action>
       <not-relationable>This node has not yet had any related links to another node.</not-relationable>
-      <node-pasted>Node '{0}' has been pasted at the location '{1}'. This operation has already been saved.</node-pasted>
+      <node-pasted>Node ''{0}'' has been pasted at the location ''{1}''. This operation has already been saved.</node-pasted>
       <no-node-selected>No node copied.</no-node-selected>
-      <unable-edit>Node'{0}' with nodetype '{1}' is not supported to edit.</unable-edit>
+      <unable-edit>Node''{0}'' with nodetype ''{1}'' is not supported to edit.</unable-edit>
       <not-support>Cannot edit the selected node.</not-support>
       <template-null>This node has no dialog available.</template-null>
       <keyword-null>There are no keywords to search.</keyword-null>
       <not-found>No results found.</not-found>
       <keyword-not-allow>This keyword is not allowed.</keyword-not-allow>
-      <is-not-referenable>Node '{0}' cannot be referenceable.</is-not-referenable>
+      <is-not-referenable>Node ''{0}'' cannot be referenceable.</is-not-referenable>
       <access-denied>Access denied. You do not have edit permission in this node.</access-denied>
       <access-add-denied>Access denied. You do not have add permission in this node.</access-add-denied>
       <item-existed>This node already exists. It cannot have the same name as its sibling.</item-existed>
@@ -375,7 +375,7 @@
       <can-not-move-node>You do not have permission to move this node. Please contact the administrator.</can-not-move-node>
       <does-not-support-versioning>You do not have permission to move to this node. Please contact the administrator.</does-not-support-versioning>
       <path-not-found>This element was deleted or changed. Please click the Refresh button.</path-not-found>
-      <paste-lock-exception>You cannot paste '{0}' to this node because the source or the destination node is locked or is related to the locked node.</paste-lock-exception>
+      <paste-lock-exception>You cannot paste ''{0}'' to this node because the source or the destination node is locked or is related to the locked node.</paste-lock-exception>
       <can-not-checkin-node>You cannot check in this node. Please check that you have the right permissions.</can-not-checkin-node>
       <can-not-checkout-node>You cannot check out this node. Please check that you have the right permissions.</can-not-checkout-node>
       <move-constraint-exception>An error occurred while moving the node.</move-constraint-exception>
@@ -389,7 +389,7 @@
       <not-support>You cannot delete the selected node. Please select another node.</not-support>
       <current-node-not-allow-paste>You cannot paste the copied node type on the current node.</current-node-not-allow-paste>
       <copied-node-in-versioning>You cannot paste the copied node. It is versioning.</copied-node-in-versioning>
-      <parent-node-locked>You do not have permission to unlock node '{0}'.</parent-node-locked>
+      <parent-node-locked>You do not have permission to unlock node ''{0}''.</parent-node-locked>
       <this-node-locked-by-parent>You cannot unlock this node. It is locked by the parent or ancestor node.</this-node-locked-by-parent>
       <paste-node-same-name>You cannot paste a node with the same name as a node in the destination folder.</paste-node-same-name>
       <has-not-add-permission>You do not have permission to add a new node.</has-not-add-permission>
@@ -418,12 +418,12 @@
     </label>
     <title>Add/Edit Folder</title>
     <msg>
-      <addFolder-successful>The folder '{0}' was added successfully.</addFolder-successful>
+      <addFolder-successful>The folder ''{0}'' was added successfully.</addFolder-successful>
       <name-invalid>Please enter the folder name.</name-invalid>
       <title-invalid>Please enter the folder title.</title-invalid>
       <name-not-allowed>This name is not allowed.</name-not-allowed>
       <fileName-error>The file name is invalid.</fileName-error>
-      <constraint-violation>The current node does not allow you to add the node type '{0}'.</constraint-violation>
+      <constraint-violation>The current node does not allow you to add the node type ''{0}''.</constraint-violation>
       <repository-exception>An unexpected error occurred. Please contact your administrator for more details.</repository-exception>
       <repository-exception-permission>You do not have permission to add a new folder to this node.</repository-exception-permission>
       <numberformat-exception>You cannot save this folder. The name provided must be in numerical format.</numberformat-exception>
@@ -446,19 +446,19 @@
     </title>
     <msg>
       <!-- Delte one node is not in trash and have no relation -->
-      <confirm-delete>Are you sure you want to delete the item '{0}'?</confirm-delete>
-      <confirm-delete-file>Are you sure you want to delete the file '{0}'?</confirm-delete-file>
-      <confirm-delete-folder>Are you sure you want to delete the folder '{0}' and all subfolders?</confirm-delete-folder>
+      <confirm-delete>Are you sure you want to delete the item ''{0}''?</confirm-delete>
+      <confirm-delete-file>Are you sure you want to delete the file ''{0}''?</confirm-delete-file>
+      <confirm-delete-folder>Are you sure you want to delete the folder ''{0}'' and all subfolders?</confirm-delete-folder>
       
       <!-- Delte one node is in trash and have no relation -->
-      <confirm-delete-permanently>Are you sure you want to permanently remove the item '{0}'?</confirm-delete-permanently>
-      <confirm-delete-file-permanently>Are you sure you want to permanently remove the file '{0}'?</confirm-delete-file-permanently>
-      <confirm-delete-folder-permanently>Are you sure you want to permanently remove the folder '{0}' and all subfolders?</confirm-delete-folder-permanently>
+      <confirm-delete-permanently>Are you sure you want to permanently remove the item ''{0}''?</confirm-delete-permanently>
+      <confirm-delete-file-permanently>Are you sure you want to permanently remove the file ''{0}''?</confirm-delete-file-permanently>
+      <confirm-delete-folder-permanently>Are you sure you want to permanently remove the folder ''{0}'' and all subfolders?</confirm-delete-folder-permanently>
       
       <!-- Delte one node is not in trash and have relations -->
-      <confirm-delete-has-relations>Are you sure you want to delete the item '{0}' and its references?</confirm-delete-has-relations>
-      <confirm-delete-file-has-relations>Are you sure you want to delete the file '{0}' and its references?</confirm-delete-file-has-relations>
-      <confirm-delete-folder-has-relations>Are you sure you want to delete the folder '{0}' and its references?</confirm-delete-folder-has-relations>
+      <confirm-delete-has-relations>Are you sure you want to delete the item ''{0}'' and its references?</confirm-delete-has-relations>
+      <confirm-delete-file-has-relations>Are you sure you want to delete the file ''{0}'' and its references?</confirm-delete-file-has-relations>
+      <confirm-delete-folder-has-relations>Are you sure you want to delete the folder ''{0}'' and its references?</confirm-delete-folder-has-relations>
       
       <!-- Delte multiple nodes, not in Trash, have no relations -->
       <confirm-delete-multi-nodes-generic>Are you sure you want to delete the {0} selected items?</confirm-delete-multi-nodes-generic>  
@@ -487,20 +487,20 @@
       <confirm-delete-multi-nodes-file-and-folder-have-relations>Are you sure you want to delete the {0} selected files, their references, folders and all subfolders?</confirm-delete-multi-nodes-file-and-folder-have-relations>
       <confirm-delete-multi-nodes-generic-and-file-and-folder-have-relations>Are you sure you want to delete the {0} selected items, files, their references, folders and all subfolders?</confirm-delete-multi-nodes-generic-and-file-and-folder-have-relations>
       
-      <feedback-delete>'{0}' was deleted succesfully.</feedback-delete>
+      <feedback-delete>''{0}'' was deleted succesfully.</feedback-delete>
       <feedback-delete-multi>{0} items were deleted succesfully.</feedback-delete-multi>      
-      <feedback-delete-permanently>'{0}' was removed permanently.</feedback-delete-permanently>
+      <feedback-delete-permanently>''{0}'' was removed permanently.</feedback-delete-permanently>
       <feedback-delete-permanently-multi>{0} items were removed permanently.</feedback-delete-permanently-multi>
       <undo-delete>Undo</undo-delete>
-      <feedback-restore>'{0}' was successfully restored.</feedback-restore>
+      <feedback-restore>''{0}'' was successfully restored.</feedback-restore>
       <feedback-restore-multi>{0} items were succesfully restored.</feedback-restore-multi>
       
-      <confirm-restore>A node with the same name already exists in the old location of node'{0}'. Are you sure you want to restore this node?</confirm-restore>
+      <confirm-restore>A node with the same name already exists in the old location of node''{0}''. Are you sure you want to restore this node?</confirm-restore>
       <confirm-move>Are you sure you want to move?</confirm-move>
-      <node-cut>Node '{0}' has been cut.</node-cut>
-      <execute-successfully>The custom action '{0}' has been executed.</execute-successfully>
-      <save-node-success>Node '{0}' has been saved.</save-node-success>
-      <move-problem>You cannot move node '{0}' to '{1}' because there was a problem with permission or constraint conditions.</move-problem>
+      <node-cut>Node ''{0}'' has been cut.</node-cut>
+      <execute-successfully>The custom action ''{0}'' has been executed.</execute-successfully>
+      <save-node-success>Node ''{0}'' has been saved.</save-node-success>
+      <move-problem>You cannot move node ''{0}'' to ''{1}'' because there was a problem with permission or constraint conditions.</move-problem>
     </msg>
   </UIWorkingArea>
   <UIDocumentWorkspace>
@@ -509,12 +509,12 @@
       <no-children-but-has-hidden>This node does not have any child nodes, but there are some hidden files.</no-children-but-has-hidden>
     </label>
     <msg>
-      <unable-save-node>Node '{0}' has been newly created. Please save session before performing this action.</unable-save-node>
-      <save-node-success>Node '{0}' has been saved.</save-node-success>
-      <node-copied>Node '{0}' has been copied.</node-copied>
-      <node-cut>Node '{0}' has been cut.</node-cut>
+      <unable-save-node>Node ''{0}'' has been newly created. Please save session before performing this action.</unable-save-node>
+      <save-node-success>Node ''{0}'' has been saved.</save-node-success>
+      <node-copied>Node ''{0}'' has been copied.</node-copied>
+      <node-cut>Node ''{0}'' has been cut.</node-cut>
       <remove-root>You cannot remove the root node.</remove-root>
-      <node-remove-success>Node '{0}' has been removed.</node-remove-success>
+      <node-remove-success>Node ''{0}'' has been removed.</node-remove-success>
     </msg>
     <tooltip>
       <Rename>Rename</Rename>
@@ -533,7 +533,7 @@
   </UIDocumentWorkspace>
   <UIDocumentInfo>
     <msg>
-      <access-denied>Access denied. You cannot access node '{0}'.</access-denied>
+      <access-denied>Access denied. You cannot access node ''{0}''.</access-denied>
       <null-exception>Item not found. It was either removed or changed, or you do not have permission to access this node.</null-exception>
       <confirm-deleteattachment>Are you sure you want to remove this attachment file?</confirm-deleteattachment>
       <confirm-deleteattcomment>Are you sure you want to remove this comment?</confirm-deleteattcomment>
@@ -715,11 +715,11 @@
       <node-checkedin>You must check out this node before adding a property.</node-checkedin>
       <can-not-add>You cannot add properties to this node. This is only allowed for the node type nt:unstructured.</can-not-add>
       <propertyName-invalid>The property name must include namespace (e.g. namespace:name).</propertyName-invalid>
-      <propertyName-exist>The property '{0}' already exists.</propertyName-exist>
+      <propertyName-exist>The property ''{0}'' already exists.</propertyName-exist>
       <propertyValu-null>Some values may be null.</propertyValu-null>
       <valueFormatEx>You cannot assign a multiple-valued value to a single-valued property.</valueFormatEx>
       <number-format-exception>Your input value has the wrong format.</number-format-exception>
-      <property-not-exist>The property {0} doesn't exist.</property-not-exist>
+      <property-not-exist>The property {0} doesn''t exist.</property-not-exist>
     </msg>
   </UIPropertyForm>
 
@@ -774,7 +774,7 @@
       <selectUser>Select User</selectUser>
     </label>
     <msg>
-      <not-change-owner>'{0}' is the owner of this node and has full control permission.</not-change-owner>
+      <not-change-owner>''{0}'' is the owner of this node and has full control permission.</not-change-owner>
     </msg>
   </UIGroupSelector>
   <UIPermissionForm>
@@ -1474,7 +1474,7 @@
       <filetype-error>Cannot import the uploaded file. The .xml file may be invalid.</filetype-error>
       <mimetype-invalid>You can only import .xml or .zip files.</mimetype-invalid>
       <access-denied>Access denied. You are not allowed to import there.</access-denied>
-      <constraint-violation-exception>Impossible to import data. The type '{0}' is not allowed in this location.</constraint-violation-exception>
+      <constraint-violation-exception>Impossible to import data. The type ''{0}'' is not allowed in this location.</constraint-violation-exception>
       <item-exists-exception>An incoming referenceable node has the same UUID as an existing node in the workspace.</item-exists-exception>
     </msg>
   </UIImportNode>
@@ -1494,7 +1494,7 @@
     <title>Add Label</title>
     <msg>
       <label-invalid>The label contains some invalid characters.</label-invalid>
-      <label-exist>'{0}' already exists.</label-exist>
+      <label-exist>''{0}'' already exists.</label-exist>
     </msg>
   </UILabelForm>
   <!--
@@ -1678,8 +1678,8 @@
     <msg>
       <cannot-save>An error occurred while saving the document.</cannot-save>
       <in-versioning>Please check out the current node before adding a new node.</in-versioning>
-      <not-support>Cannot load the template of '{0}'.</not-support>
-      <value-invalid>'{0}' is a needed value.</value-invalid>
+      <not-support>Cannot load the template of ''{0}''.</not-support>
+      <value-invalid>''{0}'' is a needed value.</value-invalid>
       <repository-exception>An error occurred while saving the document.</repository-exception>
       <!--DMS 2.4.x; ECM-3543-->
       <repository-exception-permission>You do not have permission to add a new document to this node.</repository-exception-permission>
@@ -1752,7 +1752,7 @@
     <msg>
       <remove-popup-first>You must close the edit pop-up before deleting this node.</remove-popup-first>
       <confirm-delete-action>Are you sure you want to delete this action?</confirm-delete-action>
-      <template-empty>The '{0}' template is null or empty.</template-empty>
+      <template-empty>The ''{0}'' template is null or empty.</template-empty>
       <template-null>The template is either null or you do not have permission to access this template.</template-null>
       <access-denied>Access denied. You do not have permission to perform this action.</access-denied>
     </msg>
@@ -1774,10 +1774,10 @@
     <msg>
       <repository-exception>You cannot save this action. The name provided has some special characters.</repository-exception>
       <numberformat-exception>You cannot save this action. The name provided must be in numerical format.</numberformat-exception>
-      <existed-action>The action name '{0}' already exists. Please select another one.</existed-action>
+      <existed-action>The action name ''{0}'' already exists. Please select another one.</existed-action>
       <unable-add-action>Cannot add this action.</unable-add-action>
       <unable-add>Cannot add this action. This node is either root or you do not have permision.</unable-add>
-      <not-support>Dialog '{0}' is not supported.</not-support>
+      <not-support>Dialog ''{0}'' is not supported.</not-support>
       <no-permission-add>Access denied. You do not have the right to add an action here.</no-permission-add>
       <access-denied>Access denied. You do not have permission to access this template.</access-denied>
       <lifecycle-invalid>You cannot add this action. The lifecycle phase of action is invalid.</lifecycle-invalid>
@@ -1867,7 +1867,7 @@
       <Cancel>#{word.close}</Cancel>
     </action>
     <msg>
-      <name-exist>The tag name '{0}' already exists.</name-exist>
+      <name-exist>The tag name ''{0}'' already exists.</name-exist>
       <tagName-invalid>The tag name contains some invalid characters.</tagName-invalid>
       <tag-name-empty>Your tag name is empty</tag-name-empty>
       <tag-name-duplicate>The input tag names are duplicate.</tag-name-duplicate>
@@ -1917,13 +1917,13 @@
   -->
   <ECMNameValidator>
     <msg>
-      <Invalid-char>The field '{0}' contains some invalid characters. Please enter another value.</Invalid-char>
-      <empty-input>The value of the field '{0}' is null or empty.</empty-input>
+      <Invalid-char>The field ''{0}'' contains some invalid characters. Please enter another value.</Invalid-char>
+      <empty-input>The value of the field ''{0}'' is null or empty.</empty-input>
     </msg>
   </ECMNameValidator>
   <DateTimeValidator>
     <msg>
-      <Invalid-input>Field '{0}' with value '{1}' is invalid.</Invalid-input>
+      <Invalid-input>Field ''{0}'' with value ''{1}'' is invalid.</Invalid-input>
     </msg>
   </DateTimeValidator>
   <CronExpressionValidator>
@@ -1931,7 +1931,7 @@
   </CronExpressionValidator>
   <EmptyFieldValidator>
     <msg>
-      <empty-input>Please fill in the field '{0}'.</empty-input>
+      <empty-input>Please fill in the field ''{0}''.</empty-input>
     </msg>
   </EmptyFieldValidator>
   <CategoryValidator>
@@ -2044,8 +2044,8 @@
   -->
   <ECMStandardPropertyNameValidator>
     <msg>
-      <empty-input>The value of the field '{0}' is null or empty.</empty-input>
-      <Invalid-char>The field '{0}'contains some invalid characters. Please enter another value.</Invalid-char>
+      <empty-input>The value of the field ''{0}'' is null or empty.</empty-input>
+      <Invalid-char>The field ''{0}''contains some invalid characters. Please enter another value.</Invalid-char>
     </msg>
   </ECMStandardPropertyNameValidator>
   <!--
@@ -2253,11 +2253,11 @@
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <addFolder-successful>The symlink '{0}' was added successfully.</addFolder-successful>
+      <addFolder-successful>The symlink ''{0}'' was added successfully.</addFolder-successful>
       <name-invalid>Please enter the symlink name.</name-invalid>
       <name-not-allowed>This name is not allowed.</name-not-allowed>
       <fileName-error>The file name is invalid.</fileName-error>
-      <constraint-violation>You cannot add the'{0}' node type to the current node.</constraint-violation>
+      <constraint-violation>You cannot add the''{0}'' node type to the current node.</constraint-violation>
       <repository-exception>Access denied. You do not have permission to add symlink to this node.</repository-exception>
       <numberformat-exception>You cannot save this folder. The name provided must be in numerical format.</numberformat-exception>
       <path-node-invalid>Please enter the path node.</path-node-invalid>
@@ -2282,11 +2282,11 @@
       <SelectDocument>Select Document</SelectDocument>
     </action>
     <msg>
-      <addFolder-successful>The symlink '{0}' is added successfully.</addFolder-successful>
+      <addFolder-successful>The symlink ''{0}'' is added successfully.</addFolder-successful>
       <name-invalid>Please enter the symlink name.</name-invalid>
       <name-not-allowed>This name is not allowed.</name-not-allowed>
       <fileName-error>The file name is invalid.</fileName-error>
-      <constraint-violation>You cannot add the'{0}' node type to the current node.</constraint-violation>
+      <constraint-violation>You cannot add the''{0}'' node type to the current node.</constraint-violation>
       <repository-exception>Access denied. You do not have permission to add symlink to this node.</repository-exception>
       <numberformat-exception>You cannot save this folder. The name provided must be in numerical format.</numberformat-exception>
       <path-node-invalid>Please enter the path node.</path-node-invalid>
@@ -2319,9 +2319,9 @@
 
   <UIWorkingArea>
     <msg>
-      <create-link-problem>You cannot create a link for node '{0}' at '{1}'.</create-link-problem>
-      <dest-node-is-link>The destination node '{0}' is already a symlink, so you cannot create a symlink inside it.</dest-node-is-link>
-      <selected-is-link>The selected node '{0}' is already a link, so you cannot create a link point to another link.</selected-is-link>
+      <create-link-problem>You cannot create a link for node ''{0}'' at ''{1}''.</create-link-problem>
+      <dest-node-is-link>The destination node ''{0}'' is already a symlink, so you cannot create a symlink inside it.</dest-node-is-link>
+      <selected-is-link>The selected node ''{0}'' is already a link, so you cannot create a link point to another link.</selected-is-link>
       <confirm-create-link>Do you want to create a link to this location?</confirm-create-link>
     </msg>
   </UIWorkingArea>
@@ -2469,7 +2469,7 @@
 
   <UIDocumentForm>
     <msg>
-      <do-not-permission>You do not have permission to load the template '{0}'.</do-not-permission>
+      <do-not-permission>You do not have permission to load the template ''{0}''.</do-not-permission>
     </msg>
   </UIDocumentForm>
 
@@ -2491,7 +2491,7 @@
 
   <UIPopupMenu>
     <msg>
-      <can-not-unlock-node-is-checked-in>You cannot unlock because the node '{0}' (or its ancestor) is checked in.</can-not-unlock-node-is-checked-in>
+      <can-not-unlock-node-is-checked-in>You cannot unlock because the node ''{0}'' (or its ancestor) is checked in.</can-not-unlock-node-is-checked-in>
     </msg>
   </UIPopupMenu>
 
@@ -3104,7 +3104,7 @@
   </UIWatchDocumentForm>   
   <UIActionForm>
     <msg>
-      <xss-vulnerability-character>Field '{0}' contains XSS vulnerability characters</xss-vulnerability-character>
+      <xss-vulnerability-character>Field ''{0}'' contains XSS vulnerability characters</xss-vulnerability-character>
     </msg>
   </UIActionForm>
   <UIMultiUpload>
