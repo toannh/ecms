@@ -114,9 +114,9 @@
       <GeneralDrives>الأقراص الرئيسية</GeneralDrives>
     </title>
     <msg>
-      <no-view-found>There is no view available according to your access permissions in drive '{0}'.</no-view-found>
-      <access-denied>Access denied. You may not have permission in the workspace of drive '{0}'.</access-denied>
-      <workspace-not-exist>Drive '{0}' was stored in one unrecognized workspace. Please reconfigure this drive.</workspace-not-exist>
+      <no-view-found>There is no view available according to your access permissions in drive ''{0}''.</no-view-found>
+      <access-denied>Access denied. You may not have permission in the workspace of drive ''{0}''.</access-denied>
+      <workspace-not-exist>Drive ''{0}'' was stored in one unrecognized workspace. Please reconfigure this drive.</workspace-not-exist>
     </msg>
   </UIDrivesBrowser>
 
@@ -201,14 +201,14 @@
       <Back>#{word.back}</Back>
     </action>
     <msg>
-      <rename-successfull>تم إعادة تسمية العقدة '{0}' الى '{1}' بنجاح.</rename-successfull>
+      <rename-successfull>تم إعادة تسمية العقدة ''{0}'' الى ''{1}'' بنجاح.</rename-successfull>
       <rename-denied>غير مسموح بإعادة تسمية العقدة.</rename-denied>
       <fileName-invalid>هناك بعض الحروف الغير متاحة في هذا الإسم.</fileName-invalid>
       <newName-same-oldName>الاسم الجديد مطابق للاسم القديم. يُرجى التثبّت مرّة أخرى.</newName-same-oldName>
       <version-exception>.هذه العقدة (أو سلف منها) لم يتم مراجعتها بعد.</version-exception>
       <lock-exception>هذه العقدة مؤمّنة.يُرجى فكّ التأمين قبل إعادة التسمية.</lock-exception>
-      <constraintViolation-exception>طرأ خطأ أثناء اعادة تسمية العقدة '{0}'. يُرجى التثبّت مرّة أخرى.</constraintViolation-exception>
-      <unknown-prefix>لم يتمّ تسجيل البادئة "{0}' الى حتى الآن.</unknown-prefix>
+      <constraintViolation-exception>طرأ خطأ أثناء اعادة تسمية العقدة ''{0}''. يُرجى التثبّت مرّة أخرى.</constraintViolation-exception>
+      <unknown-prefix>لم يتمّ تسجيل البادئة "{0}'' الى حتى الآن.</unknown-prefix>
       <rename-error>حدث خطأ أثناء إعادة تسمية هذه العقدة. يرجى التحقق مرة أخرى.</rename-error>
     </msg>
   </UIRenameForm>
@@ -323,15 +323,15 @@
       <access-false>العقدة ليست من نوع وثيقة أو ربّما تكون في حالة معالجة!</access-false>
       <unsupported-action>هذا الاجراء غير مدعوم.</unsupported-action>
       <not-relationable>لم يتمّ بعد تفعيل دعم الوصلات الخاصّ بهذه العقدة.</not-relationable>
-      <node-pasted>تم لصق العقدة '{0}' في المسار '{1}'. لفد تمّ حفظ هذه العملية مُسبقـًا.</node-pasted>
+      <node-pasted>تم لصق العقدة ''{0}'' في المسار ''{1}''. لفد تمّ حفظ هذه العملية مُسبقـًا.</node-pasted>
       <no-node-selected>لم يتم نسخ أي عقدة</no-node-selected>
-      <unable-edit>هذه العقدة '{0}' من نوع '{1}' لا يمكن تغيير محتواها</unable-edit>
+      <unable-edit>هذه العقدة ''{0}'' من نوع ''{1}'' لا يمكن تغيير محتواها</unable-edit>
       <not-support>العقدة المختارة لا يمكن تغيير محتواها</not-support>
       <template-null>هذه العقدة ليس لها واجهة للمستخدم</template-null>
       <keyword-null>لا توجد كلمات مفاتيح مختارة للبحث</keyword-null>
       <not-found>لم يتمّ العثور على أي نتيجة.</not-found>
       <keyword-not-allow>أحد الكلمات المفاتيح المختارة غير صحيح.</keyword-not-allow>
-      <is-not-referenable>العقدة '{0}' لا يمكن أن تكون موصولة.</is-not-referenable>
+      <is-not-referenable>العقدة ''{0}'' لا يمكن أن تكون موصولة.</is-not-referenable>
       <access-denied>غير مسموح بالدخول. ليس لديك الصلاحية الكافية لتغيير هذه العقدة.</access-denied>
       <access-add-denied>غير مسموح بالدخول. ليس لديك الصلاحية الكافية للإضافة تحت هذه العقدة.</access-add-denied>
       <item-existed>هذه العقدة موجودة مُسبقًـا. لا يمكن استعمال نفس الاسم مرّتين.</item-existed>
@@ -375,7 +375,7 @@
       <can-not-move-node>ليس لديك الصلاحيّة الكافية لنقل هذه العقدة. يُرجى الاتّصال بالمسؤول.</can-not-move-node>
       <does-not-support-versioning>ليس لديك الصلاحيّة الكافية لإصدار هذه العقدة.  يُرجى الاتّصال بمدير النظام.</does-not-support-versioning>
       <path-not-found>تمّ حذف أو تغيير هذا العنصر. يُرجى الضّغط على زرّ التّحديث.</path-not-found>
-      <paste-lock-exception>لا يمكنك لصق '{0}' في هذه العقدة لأن العقدة الأصل أو  العقدة المقصودة مؤمّنة أو ربّما لها صلة بعقدة مؤمّنة.</paste-lock-exception>
+      <paste-lock-exception>لا يمكنك لصق ''{0}'' في هذه العقدة لأن العقدة الأصل أو  العقدة المقصودة مؤمّنة أو ربّما لها صلة بعقدة مؤمّنة.</paste-lock-exception>
       <can-not-checkin-node>لا يمكنك مراجعة هذه العقدة. يُرجى التحقّق من امتلاكك للصلاحية المناسبة.</can-not-checkin-node>
       <can-not-checkout-node>لا يمكنك إنهاء المراجعة .يُرجى التحقّق من امتلاكك للصلاحية المناسبة.</can-not-checkout-node>
       <move-constraint-exception>طرأ خطأ أثناء نقل العقدة.</move-constraint-exception>
@@ -383,13 +383,13 @@
       <is-checked-in>يُرجى انهاء مراجعة هذه العقدة قبل تغيير اسمها.</is-checked-in>
       <is-checked-in-lock>يُرجى انهاء مراجعة هذه العقدة قبل تأمينها.</is-checked-in-lock>
       <cant-lock>لا يمكنك تأمين هذه العقدة.</cant-lock>
-      <node-locked>هذا العنصر ذو المسار '{0}' أو أحد العقد الفوقيّة له قد تمّ تأمينه.</node-locked>
+      <node-locked>هذا العنصر ذو المسار ''{0}'' أو أحد العقد الفوقيّة له قد تمّ تأمينه.</node-locked>
       <can-not-delete>يُرجى غلق هذه العقدة قبل حذفها.</can-not-delete>
       <can-not-delete-version>لا يمكنك حذف هذه العقدة لأنها تحمل صفة الإصدار.</can-not-delete-version>
       <not-support>العقدة المختارة لا يمكن تغييرها. يُرجى اختيار عقدة أخرى.</not-support>
       <current-node-not-allow-paste>لا يمكن لصق نوع العقدة المنسوخة في هذه العقدة.</current-node-not-allow-paste>
       <copied-node-in-versioning>لا يمكن لصق العقدة المنسوخة لأنها تحمل صفة الإصدار.</copied-node-in-versioning>
-      <parent-node-locked>ليس لديك الصلاحيّات الكافية لتأمين العقدة '{0}'.</parent-node-locked>
+      <parent-node-locked>ليس لديك الصلاحيّات الكافية لتأمين العقدة ''{0}''.</parent-node-locked>
       <this-node-locked-by-parent>لا يمكن فكّ تأمين هذه العقدة. لقد تم قفلها عن طريق العقدة الأصل.</this-node-locked-by-parent>
       <paste-node-same-name>لا يمكن لصق هذه العقدة. توجد عقدة تحمل نفس هذا الاسم.</paste-node-same-name>
       <has-not-add-permission>ليس لك الصلاحية المناسبة لإضافة عقدة جديدة.</has-not-add-permission>
@@ -418,12 +418,12 @@
     </label>
     <title>إضافة/تغيير المجلد</title>
     <msg>
-      <addFolder-successful>تمت إضافة المجلد '{0}' بنجاح.</addFolder-successful>
+      <addFolder-successful>تمت إضافة المجلد ''{0}'' بنجاح.</addFolder-successful>
       <name-invalid>رجــاءً أدخل اسم المجلد.</name-invalid>
       <title-invalid>رجــاءً أدخل عنوان المجلد.</title-invalid>
       <name-not-allowed>هذا الاسم غير متاح.</name-not-allowed>
       <fileName-error>صيغة اسم الملف غير صحيحة.</fileName-error>
-      <constraint-violation>العقدة الحاليّة لا تسمح لك باضافة عقدة من نوع'{0}'.</constraint-violation>
+      <constraint-violation>العقدة الحاليّة لا تسمح لك باضافة عقدة من نوع''{0}''.</constraint-violation>
       <repository-exception>طرأ خطأ غير متوقّع. للمزيد من المعلومات، يُرجى الاتصال بمدير النّظام .</repository-exception>
       <repository-exception-permission>ليس لديك الصلاحيّة الكافية لإضافة مجلد جديد في هذه العقدة.</repository-exception-permission>
       <numberformat-exception>لا يمكن حفظ هذا المجلد. يجب أن يكون الاسم عدديّـا.</numberformat-exception>
@@ -446,19 +446,19 @@
     </title>
     <msg>
       <!-- Delte one node is not in trash and have no relation -->
-      <confirm-delete>هل ترغب حقـّا بحذف العنصر '{0}'؟</confirm-delete>
-      <confirm-delete-file>هل ترغب حقـّا بحذف الملف '{0}'؟</confirm-delete-file>
-      <confirm-delete-folder>هل ترغب حقـّا بحذف المجلد '{0}' وكافة مجلّداته الفرعيّة؟</confirm-delete-folder>
+      <confirm-delete>هل ترغب حقـّا بحذف العنصر ''{0}''؟</confirm-delete>
+      <confirm-delete-file>هل ترغب حقـّا بحذف الملف ''{0}''؟</confirm-delete-file>
+      <confirm-delete-folder>هل ترغب حقـّا بحذف المجلد ''{0}'' وكافة مجلّداته الفرعيّة؟</confirm-delete-folder>
       
       <!-- Delte one node is in trash and have no relation -->
-      <confirm-delete-permanently>هل ترغب حقـّا بحذف العنصر '{0}' بصفة نهائيّة؟</confirm-delete-permanently>
-      <confirm-delete-file-permanently>هل ترغب حقّا بحذف الملف '{0}' بصفة نهائيّة ؟</confirm-delete-file-permanently>
-      <confirm-delete-folder-permanently>هل ترغب حقّا بحذف المجلّد '{0}' و جميع مجلّداته الفرعيّة بصفة نهائيّة ؟</confirm-delete-folder-permanently>
+      <confirm-delete-permanently>هل ترغب حقـّا بحذف العنصر ''{0}'' بصفة نهائيّة؟</confirm-delete-permanently>
+      <confirm-delete-file-permanently>هل ترغب حقّا بحذف الملف ''{0}'' بصفة نهائيّة ؟</confirm-delete-file-permanently>
+      <confirm-delete-folder-permanently>هل ترغب حقّا بحذف المجلّد ''{0}'' و جميع مجلّداته الفرعيّة بصفة نهائيّة ؟</confirm-delete-folder-permanently>
       
       <!-- Delte one node is not in trash and have relations -->
-      <confirm-delete-has-relations>هل أنت متأكد من أنك تريد حذف العنصر '{0}' و جميع مراجعه؟</confirm-delete-has-relations>
-      <confirm-delete-file-has-relations>هل أنت متأكد من أنك تريد حذف الملف '{0}' و جميع مراجعه؟</confirm-delete-file-has-relations>
-      <confirm-delete-folder-has-relations>هل أنت متأكد من أنك تريد حذف المجلد '{0}' و جميع مراجعه؟</confirm-delete-folder-has-relations>
+      <confirm-delete-has-relations>هل أنت متأكد من أنك تريد حذف العنصر ''{0}'' و جميع مراجعه؟</confirm-delete-has-relations>
+      <confirm-delete-file-has-relations>هل أنت متأكد من أنك تريد حذف الملف ''{0}'' و جميع مراجعه؟</confirm-delete-file-has-relations>
+      <confirm-delete-folder-has-relations>هل أنت متأكد من أنك تريد حذف المجلد ''{0}'' و جميع مراجعه؟</confirm-delete-folder-has-relations>
       
       <!-- Delte multiple nodes, not in Trash, have no relations -->
       <confirm-delete-multi-nodes-generic>هل أنت متأكد من أنك تريد حذف  كل الـ {0} عناصر التي تمّ اختيارها ؟</confirm-delete-multi-nodes-generic>  
@@ -487,20 +487,20 @@
       <confirm-delete-multi-nodes-file-and-folder-have-relations>هل أنت متأكد من أنك تريد حذف الـ {0} ملفّات ، و المراجع الى جانب المُجلّدات التي تمّ اختيارها بجميع فروعها ؟</confirm-delete-multi-nodes-file-and-folder-have-relations>
       <confirm-delete-multi-nodes-generic-and-file-and-folder-have-relations>هل أنت متأكد من أنك تريد حذف الـ {0} عناصر ، الملفّات، مراجعها الى جانب المُجلّدات التي تمّ اختيارها بجميع فروعها ؟</confirm-delete-multi-nodes-generic-and-file-and-folder-have-relations>
       
-      <feedback-delete>'{0}' تمّ حذفه بنجاح.</feedback-delete>
+      <feedback-delete>''{0}'' تمّ حذفه بنجاح.</feedback-delete>
       <feedback-delete-multi>{0} عنصر/عناصر تمّ حذفها بنجاح.</feedback-delete-multi>      
-      <feedback-delete-permanently>'{0}' تمّ حذفهم بصفة نهائيّة.</feedback-delete-permanently>
-      <feedback-delete-permanently-multi>'{0}' عنصر / عناصر تمّ حذفهم بصفة نهائيّة.</feedback-delete-permanently-multi>
+      <feedback-delete-permanently>''{0}'' تمّ حذفهم بصفة نهائيّة.</feedback-delete-permanently>
+      <feedback-delete-permanently-multi>''{0}'' عنصر / عناصر تمّ حذفهم بصفة نهائيّة.</feedback-delete-permanently-multi>
       <undo-delete>التراجع عن</undo-delete>
-      <feedback-restore>'{0}' تمّ استعادته بنجاح.</feedback-restore>
+      <feedback-restore>''{0}'' تمّ استعادته بنجاح.</feedback-restore>
       <feedback-restore-multi>{0} عنصر تمّ استعادته بنجاح.</feedback-restore-multi>
       
-      <confirm-restore>هناك عقدة بنفس الاسم موجودة مسبقاً في الموقع القديم للعقدة '{0}'. هل أنت متأكد من أنك تريد استعادة هذه العقدة؟</confirm-restore>
+      <confirm-restore>هناك عقدة بنفس الاسم موجودة مسبقاً في الموقع القديم للعقدة ''{0}''. هل أنت متأكد من أنك تريد استعادة هذه العقدة؟</confirm-restore>
       <confirm-move>هل ترغب حقــا بالقيام بعمليّة النقل؟</confirm-move>
-      <node-cut>العقدة '{0}' تم قصّها.</node-cut>
-      <execute-successfully>تمّ تنفيذ الاجراء '{0}'.</execute-successfully>
-      <save-node-success>العقدة '{0}' تم حفظها.</save-node-success>
-      <move-problem>لا يمكن تحويل العقدة '{0}' إلى '{1}' بسبب مشكلة في الصلاحية المنسوبة إليك أو أن هذه العقدة مقيّدة بشروط.</move-problem>
+      <node-cut>العقدة ''{0}'' تم قصّها.</node-cut>
+      <execute-successfully>تمّ تنفيذ الاجراء ''{0}''.</execute-successfully>
+      <save-node-success>العقدة ''{0}'' تم حفظها.</save-node-success>
+      <move-problem>لا يمكن تحويل العقدة ''{0}'' إلى ''{1}'' بسبب مشكلة في الصلاحية المنسوبة إليك أو أن هذه العقدة مقيّدة بشروط.</move-problem>
     </msg>
   </UIWorkingArea>
   <UIDocumentWorkspace>
@@ -509,12 +509,12 @@
       <no-children-but-has-hidden>ليس لهذه العقدة فروع، لكنّها تحتوي على ملفّات مخفيّة.</no-children-but-has-hidden>
     </label>
     <msg>
-      <unable-save-node>العقدة '{0}' تم انشاؤها لتوّها. يجب حفظ الدورة قبل الشروع في هذا الاجراء.</unable-save-node>
-      <save-node-success>العقدة '{0}' تم حفظها.</save-node-success>
-      <node-copied>العقدة '{0}' تم نسخها.</node-copied>
-      <node-cut>العقدة '{0}' تم قصها.</node-cut>
+      <unable-save-node>العقدة ''{0}'' تم انشاؤها لتوّها. يجب حفظ الدورة قبل الشروع في هذا الاجراء.</unable-save-node>
+      <save-node-success>العقدة ''{0}'' تم حفظها.</save-node-success>
+      <node-copied>العقدة ''{0}'' تم نسخها.</node-copied>
+      <node-cut>العقدة ''{0}'' تم قصها.</node-cut>
       <remove-root>لا يمكنك حذف العقدة الجذر.</remove-root>
-      <node-remove-success>العقدة '{0}' تم حذفها.</node-remove-success>
+      <node-remove-success>العقدة ''{0}'' تم حذفها.</node-remove-success>
     </msg>
     <tooltip>
       <Rename>إعادة التسمية</Rename>
@@ -533,7 +533,7 @@
   </UIDocumentWorkspace>
   <UIDocumentInfo>
     <msg>
-      <access-denied>غير مسموح بالدخول. ليس لديك الصلاحية للوصول الى العقدة '{0}'.</access-denied>
+      <access-denied>غير مسموح بالدخول. ليس لديك الصلاحية للوصول الى العقدة ''{0}''.</access-denied>
       <null-exception>عنصر غير موجود. تم حذفه أو تغييره أو ليس لك الصلاحية الكافية للوصول لهذه العقدة.</null-exception>
       <confirm-deleteattachment>هل ترغب فعلا بحذف هذا الملفّ المُرفق؟</confirm-deleteattachment>
       <confirm-deleteattcomment>هل ترغب حقّـا بحذف هذا التّعليق؟</confirm-deleteattcomment>
@@ -715,7 +715,7 @@
       <node-checkedin>يجب إنهاء المراجعة قبل إضافة الصفة</node-checkedin>
       <can-not-add>لا يمكن إضافة خاصيّة لهذه العقدة. هذا الاجراة مُتاح فقط للعقد من نوع: nt:unstructured</can-not-add>
       <propertyName-invalid>يجب أن يحتوي اسم الخاصيّة اسم الفضاء (مثال: namespace:name)</propertyName-invalid>
-      <propertyName-exist>الخاصيّة '{0}' موجودة مُسبقـا.</propertyName-exist>
+      <propertyName-exist>الخاصيّة ''{0}'' موجودة مُسبقـا.</propertyName-exist>
       <propertyValu-null>ربما بعض المحتويات فارغة.</propertyValu-null>
       <valueFormatEx>لا يمكنك  القيام باسناد خاصيّة متعدّدة القيم الى خاصيّة ذات قيمة مُفردة.</valueFormatEx>
       <number-format-exception>المحتوى له شكل خاطئ</number-format-exception>
@@ -774,7 +774,7 @@
       <selectUser>اختيار مستخدم</selectUser>
     </label>
     <msg>
-      <not-change-owner>'{0}' هو صاحب هذه العقدة ، و لديه السيطرة الكاملة على الصلاحية</not-change-owner>
+      <not-change-owner>''{0}'' هو صاحب هذه العقدة ، و لديه السيطرة الكاملة على الصلاحية</not-change-owner>
     </msg>
   </UIGroupSelector>
   <UIPermissionForm>
@@ -1474,7 +1474,7 @@
       <filetype-error>لا يمكن الاستيراد. ربّما طرأ خطأ أثناء تحميل الملفّ.</filetype-error>
       <mimetype-invalid>يمكن استيراد ملفات من نوع 'xml' أو 'zip' فحسب.</mimetype-invalid>
       <access-denied>غير مسموح. لا يمكنك الاستيراد هناك.</access-denied>
-      <constraint-violation-exception>Impossible to import data. The type '{0}' is not allowed in this location.</constraint-violation-exception>
+      <constraint-violation-exception>Impossible to import data. The type ''{0}'' is not allowed in this location.</constraint-violation-exception>
       <item-exists-exception>وردت عقدة ذات مرجع تحتوي على نفس الـمعرّف (UUID) مع عقدة موجودة مُسبقا في فضاء التخزين.</item-exists-exception>
     </msg>
   </UIImportNode>
@@ -1494,7 +1494,7 @@
     <title>إضافة رمز</title>
     <msg>
       <label-invalid>هناك بعض الحروف غير متاحة في الرمز</label-invalid>
-      <label-exist>'{0}' موجود مُسبقا.</label-exist>
+      <label-exist>''{0}'' موجود مُسبقا.</label-exist>
     </msg>
   </UILabelForm>
   <!--
@@ -1678,8 +1678,8 @@
     <msg>
       <cannot-save>طرأ خطأ أثناء عمليّة حفظ الملف.</cannot-save>
       <in-versioning>يجب إنهاء معالجة  هذه العقدة قبل إضافة عقدة أخرى.</in-versioning>
-      <not-support>لا يمكن قراءة النموذج '{0}'.</not-support>
-      <value-invalid>مطلوب ادخال قيمة في المجال'{0}'.</value-invalid>
+      <not-support>لا يمكن قراءة النموذج ''{0}''.</not-support>
+      <value-invalid>مطلوب ادخال قيمة في المجال''{0}''.</value-invalid>
       <repository-exception>طرأ خطأ أثناء عمليّة حفظ هذا الملفّ.</repository-exception>
       <!--DMS 2.4.x; ECM-3543-->
       <repository-exception-permission>ليس لديك الصلاحيّة الكافية لاضافة وثيقة جديدة الى هذه العقدة.</repository-exception-permission>
@@ -1752,7 +1752,7 @@
     <msg>
       <remove-popup-first>يجب عليك إغلاق مشهد التغيير قبل حذف العقدة.</remove-popup-first>
       <confirm-delete-action>هل تريد حقا حذف هذا الاجراء؟</confirm-delete-action>
-      <template-empty>النموذج '{0}' بدون محتوى أو فارغ.</template-empty>
+      <template-empty>النموذج ''{0}'' بدون محتوى أو فارغ.</template-empty>
       <template-null>النموذج فارغ أو ربّما لا تملك الصلاحيّة الكافية للوصول الى هذا الأخير .</template-null>
       <access-denied>غير مسموح بالدخول. ليس لك الصلاحيّة الكفاية للقيام بهذا الاجراء.</access-denied>
     </msg>
@@ -1774,10 +1774,10 @@
     <msg>
       <repository-exception>لا يمكن حفظ هذا الاجراء. الاسم الذي تمّ ادخاله يحتوي على بعض الأحرف الخاصّة.</repository-exception>
       <numberformat-exception>لا يمكن حفظ هذا الاجراء. يجب أن يكون الاسم بصيغة عدد.</numberformat-exception>
-      <existed-action>تمّ استعمال الاسم '{0}' مُسبقـا. يُرجى اختيار اسما آخرا.</existed-action>
+      <existed-action>تمّ استعمال الاسم ''{0}'' مُسبقـا. يُرجى اختيار اسما آخرا.</existed-action>
       <unable-add-action>استحالة اضافة هذا الاجراء.</unable-add-action>
       <unable-add>استحالة اضافة هذا الاجراء. العقدة الحاليّة هي العقدة الجذر أو رُبّما ليس لديك الصلاحيّات الكافية.</unable-add>
-      <not-support>المشهد '{0}' غير مُتاح.</not-support>
+      <not-support>المشهد ''{0}'' غير مُتاح.</not-support>
       <no-permission-add>غير مسموح بالدخول. ليس لك الصلاحيّة الكافية لاضافة اجراء هنا.</no-permission-add>
       <access-denied>غير مسموح بالدخول. ليس لك الصلاحيّة الكفاية للوصول الى هذا النموذج.</access-denied>
       <lifecycle-invalid>لا يُمكنك اضافة هذا الاجراء. هذه المرحلة الخاصّة بالاجراء غير صحيحة.</lifecycle-invalid>
@@ -1867,7 +1867,7 @@
       <Cancel>#{word.close}</Cancel>
     </action>
     <msg>
-      <name-exist>العلامة '{0}' موجودة مُسبقا.</name-exist>
+      <name-exist>العلامة ''{0}'' موجودة مُسبقا.</name-exist>
       <tagName-invalid>اسم العلامة يحتوي على بعض الحروف الغير متاحة.</tagName-invalid>
       <tag-name-empty>اسم العلامة فارغ.</tag-name-empty>
       <tag-name-duplicate>أسماء العلامة في حالة تكرار.</tag-name-duplicate>
@@ -1917,13 +1917,13 @@
   -->
   <ECMNameValidator>
     <msg>
-      <Invalid-char>هناك بعض الحروف الغير متاحة في المجال '{0}'. يُرجى ادخال محتوى آخر.</Invalid-char>
-      <empty-input>مطلوب ادخال محتوى في المجال '{0}'.</empty-input>
+      <Invalid-char>هناك بعض الحروف الغير متاحة في المجال ''{0}''. يُرجى ادخال محتوى آخر.</Invalid-char>
+      <empty-input>مطلوب ادخال محتوى في المجال ''{0}''.</empty-input>
     </msg>
   </ECMNameValidator>
   <DateTimeValidator>
     <msg>
-      <Invalid-input>القيمة '{1}' التي تمّ ادخالها في المجال '{0}' غير صحيحة.</Invalid-input>
+      <Invalid-input>القيمة ''{1}'' التي تمّ ادخالها في المجال ''{0}'' غير صحيحة.</Invalid-input>
     </msg>
   </DateTimeValidator>
   <CronExpressionValidator>
@@ -1931,7 +1931,7 @@
   </CronExpressionValidator>
   <EmptyFieldValidator>
     <msg>
-      <empty-input>يُرجى ادخال قيمة في المجال '{0}'.</empty-input>
+      <empty-input>يُرجى ادخال قيمة في المجال ''{0}''.</empty-input>
     </msg>
   </EmptyFieldValidator>
   <CategoryValidator>
@@ -2044,8 +2044,8 @@
   -->
   <ECMStandardPropertyNameValidator>
     <msg>
-      <empty-input>محتوى المجال '{0}' فارغ.</empty-input>
-      <Invalid-char>هناك بعض الحروف غير متاحة في المجال'{0}'. يُرجى ادخال محتوى آخر.</Invalid-char>
+      <empty-input>محتوى المجال ''{0}'' فارغ.</empty-input>
+      <Invalid-char>هناك بعض الحروف غير متاحة في المجال''{0}''. يُرجى ادخال محتوى آخر.</Invalid-char>
     </msg>
   </ECMStandardPropertyNameValidator>
   <!--
@@ -2253,11 +2253,11 @@
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <addFolder-successful>تمّ اضافة الوصلة الرمزيّة '{0}' بنجاح.</addFolder-successful>
+      <addFolder-successful>تمّ اضافة الوصلة الرمزيّة ''{0}'' بنجاح.</addFolder-successful>
       <name-invalid>الرجاء إدخال اسم الوصلة الرمزيّة</name-invalid>
       <name-not-allowed>هذا الاسم غير مُتاح.</name-not-allowed>
       <fileName-error>صيغة اسم الملف غير صحيحة.</fileName-error>
-      <constraint-violation>العقدة الحالية لا تسمح بإضافة عقدة من نوع '{0}'.</constraint-violation>
+      <constraint-violation>العقدة الحالية لا تسمح بإضافة عقدة من نوع ''{0}''.</constraint-violation>
       <repository-exception>رفض الوصول. ليس لديك صلاحيّة لإضافة الوصلة الرمزيّة لهذه العقدة.</repository-exception>
       <numberformat-exception>لا يمكن حفظ هذا المجلد. يجب أن يكون الاسم على شكل أعداد.</numberformat-exception>
       <path-node-invalid>يُرجى ادخال مسار العقدة.</path-node-invalid>
@@ -2282,11 +2282,11 @@
       <SelectDocument>اختيار وثيقة</SelectDocument>
     </action>
     <msg>
-      <addFolder-successful>تمّ اضافة الوصلة الرمزية '{0}' بنجاح.</addFolder-successful>
+      <addFolder-successful>تمّ اضافة الوصلة الرمزية ''{0}'' بنجاح.</addFolder-successful>
       <name-invalid>الرجاء إدخال اسم الوصلة الرمزيّة</name-invalid>
       <name-not-allowed>هذا الاسم غير متاح.</name-not-allowed>
       <fileName-error>صيغة اسم الملف غير صحيحة.</fileName-error>
-      <constraint-violation>العقدة الحالية لا تسمح بإضافة عقدة من نوع '{0}'.</constraint-violation>
+      <constraint-violation>العقدة الحالية لا تسمح بإضافة عقدة من نوع ''{0}''.</constraint-violation>
       <repository-exception>رفض الوصول. ليس لديك صلاحيّة لإضافة الوصلة الرمزيّة لهذه العقدة.</repository-exception>
       <numberformat-exception>لا يمكن حفظ هذا المجلد. يجب أن يكون الاسم عدديّـا.</numberformat-exception>
       <path-node-invalid>يُرجى ادخال مسار العقدة.</path-node-invalid>
@@ -2319,9 +2319,9 @@
 
   <UIWorkingArea>
     <msg>
-      <create-link-problem>لا يمكنك إنشاء  رابط بين'{0}' و '{1}'.</create-link-problem>
-      <dest-node-is-link>العقدة الهدف '{0} 'هي بالفعل وصلة رمزيّة، بحيث لا يمكنك إنشاء وصلة رمزيّة أخرى بداخله.</dest-node-is-link>
-      <selected-is-link>العقدة المحددة '{0}'هي بالفعل رابط ، بحيث لا يمكنك إنشاء صلة من رابط إلى رابط آخر.</selected-is-link>
+      <create-link-problem>لا يمكنك إنشاء  رابط بين''{0}'' و ''{1}''.</create-link-problem>
+      <dest-node-is-link>العقدة الهدف ''{0} ''هي بالفعل وصلة رمزيّة، بحيث لا يمكنك إنشاء وصلة رمزيّة أخرى بداخله.</dest-node-is-link>
+      <selected-is-link>العقدة المحددة ''{0}''هي بالفعل رابط ، بحيث لا يمكنك إنشاء صلة من رابط إلى رابط آخر.</selected-is-link>
       <confirm-create-link>هل تريد حقاً انشاء رابط  نحو هذا الموقع؟</confirm-create-link>
     </msg>
   </UIWorkingArea>
@@ -2469,7 +2469,7 @@
 
   <UIDocumentForm>
     <msg>
-      <do-not-permission>لا تملك الصلاحية الكافية لرؤية النموذج '{0}'.</do-not-permission>
+      <do-not-permission>لا تملك الصلاحية الكافية لرؤية النموذج ''{0}''.</do-not-permission>
     </msg>
   </UIDocumentForm>
 
@@ -2491,7 +2491,7 @@
 
   <UIPopupMenu>
     <msg>
-      <can-not-unlock-node-is-checked-in>لايمكن فكّ تأمين العقدة '{0}' (أو احدى أسْلافها) لأنها بصدد المراجعة.</can-not-unlock-node-is-checked-in>
+      <can-not-unlock-node-is-checked-in>لايمكن فكّ تأمين العقدة ''{0}'' (أو احدى أسْلافها) لأنها بصدد المراجعة.</can-not-unlock-node-is-checked-in>
     </msg>
   </UIPopupMenu>
 
@@ -3104,7 +3104,7 @@
   </UIWatchDocumentForm>   
   <UIActionForm>
     <msg>
-      <xss-vulnerability-character>يحتوي المجال '{0}' على اختراق XSS</xss-vulnerability-character>
+      <xss-vulnerability-character>يحتوي المجال ''{0}'' على اختراق XSS</xss-vulnerability-character>
     </msg>
   </UIActionForm>
   <UIMultiUpload>
