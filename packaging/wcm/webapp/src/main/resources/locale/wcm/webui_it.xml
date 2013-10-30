@@ -202,7 +202,7 @@
     <msg>
       <time-to-late>Il tempo di ricerca è troppo lungo.</time-to-late>
       <empty-field>Prego inserire una chiave di ricerca valida.</empty-field>
-      <invalid-format>Formato data/tempo non valido nel campo '{0}'.</invalid-format>
+      <invalid-format>Formato data/tempo non valido nel campo ''{0}''.</invalid-format>
       <invalid-date>"A Data" dev'essere maggiore della "Da Date"</invalid-date>
       <invalid-nodeType>Tipo nodo "{0}" non è valido. Prego controlla di nuovo.</invalid-nodeType>
       <invalid-keyword>Parola chiave non è valida. Alcuni caratteri non sono supportati.</invalid-keyword>
@@ -338,7 +338,7 @@
 
   <ZeroValidator>
     <msg>
-      <Invalid-number>Zero non è accettabile nel campo '{0}'.</Invalid-number>
+      <Invalid-number>Zero non è accettabile nel campo ''{0}''.</Invalid-number>
     </msg>
   </ZeroValidator>
 
