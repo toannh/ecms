@@ -6,12 +6,12 @@
       <in-versioning>Veuillez vérifier le dossier courant avant d'ajouter un contenu.</in-versioning>
       <cannot-save>Impossible d'enregistrer cette action. Le nom fourni ne doit pas avoir un indice sur son dernier élément.</cannot-save>
       <saved-successfully>{0}</saved-successfully>
-      <not-support>Impossible de charger le modèle de '{0}'.</not-support>
+      <not-support>Impossible de charger le modèle de ''{0}''.</not-support>
       <not-add-folder>Seuls les fichiers sont autorisés dans ce dossier.</not-add-folder>
-      <access-denied>Accès refusé. Vous n'avez pas la permission d'ajouter dans'{0}'</access-denied>
-      <path-not-found>Le chemin '{0}' a été supprimé</path-not-found>
-      <node-locked>Le chemin '{0}' est verrouillé. Déverrouillez cet élément avant de créer des documents.</node-locked>
-      <node-isExist>Ce nœud existe déjà dans '{0}'.</node-isExist>
+      <access-denied>Accès refusé. Vous n''avez pas la permission d''ajouter dans''{0}''</access-denied>
+      <path-not-found>Le chemin ''{0}'' a été supprimé</path-not-found>
+      <node-locked>Le chemin ''{0}'' est verrouillé. Déverrouillez cet élément avant de créer des documents.</node-locked>
+      <node-isExist>Ce nœud existe déjà dans ''{0}''.</node-isExist>
       <get-dialog-path>Une erreur est survenue au chargement du formulaire.</get-dialog-path>
       <new-jcr-template>Une erreur est survenue lors de la création d'un nouveau modèle.</new-jcr-template>
     </msg>
@@ -70,7 +70,7 @@
       <empty>Aucune action</empty>
       <remove-popup-first>Vous devez fermer la fenêtre avant de supprimer ce noeud.</remove-popup-first>
       <confirm-delete-action>Voulez-vous vraiment supprimer cette action?</confirm-delete-action>
-      <template-empty>Le modèle de '{0}' n'existe pas</template-empty>
+      <template-empty>Le modèle de ''{0}'' n''existe pas</template-empty>
       <template-null>Le modèle n'existe pas ou vous n'avez pas la permission d'accéder à ce modèle.</template-null>
       <access-denied>Accès refusé. Vous n'avez pas la permission de faire cette action.</access-denied>
     </msg>
@@ -121,10 +121,10 @@
     <msg>
       <repository-exception>Impossible d'enregistrer cette action. Le nom fourni ne doit pas avoir un indice sur son dernier élément.</repository-exception>
       <numberformat-exception>Impossible d'enregistrer cette action.  Le nom ne doit pas contenir '[' ou ']'.</numberformat-exception>
-      <existed-action>Le nom de l'action '{0}' est en vigueur, afin de choisir un autre nom, s'il vous plaît!</existed-action>
+      <existed-action>Le nom de l''action ''{0}'' est en vigueur, afin de choisir un autre nom, s''il vous plaît!</existed-action>
       <unable-add-action>Impossible d'ajouter cette action</unable-add-action>
       <unable-add>Impossible d'ajouter cette action! Ce nœud est la racine ou vous n'avez pas assez de permission</unable-add>
-      <not-support>La boîte de dialogue '{0}' n'est pas supporté</not-support>
+      <not-support>La boîte de dialogue ''{0}'' n''est pas supporté</not-support>
       <no-permission-add>Accès refusé. Vous n'avez pas le droit d'ajouter des une action ici.</no-permission-add>
       <access-denied>Accès refusé. Vous n'avez pas la permission d'accéder à ce modèle.</access-denied>
     </msg>
@@ -139,8 +139,8 @@
       <actionType>Créer une action de type</actionType>
     </label>
     <msg>
-      <not-support>Impossible de charger le modèle de '{0}'.</not-support>
-      <do-not-permission>Vous n'avez pas la permission de charger modèle de '{0}'.</do-not-permission>
+      <not-support>Impossible de charger le modèle de ''{0}''.</not-support>
+      <do-not-permission>Vous n''avez pas la permission de charger modèle de ''{0}''.</do-not-permission>
     </msg>
   </UIFCCActionTypeForm>
 
@@ -154,7 +154,7 @@
 
   <DateTimeValidator>
     <msg>
-      <Invalid-input>Champ '{0}' avec la valeur '{1}' est invalide</Invalid-input>
+      <Invalid-input>Champ ''{0}'' avec la valeur ''{1}'' est invalide</Invalid-input>
     </msg>
   </DateTimeValidator>
 

@@ -202,7 +202,7 @@
     <msg>
       <time-to-late>Le temps de recherche est trop long.</time-to-late>
       <empty-field>La valeur de ce champ est nulle ou vide!</empty-field>
-      <invalid-format>Blancs datetime format dans le champ '{0}'</invalid-format>
+      <invalid-format>Blancs datetime format dans le champ ''{0}''</invalid-format>
       <invalid-date>"To Date" have to greater than "From Date"</invalid-date>
       <invalid-nodeType>Type de noeud "(0)" n'est pas valide! S'il vous plaît vérifiez à nouveau.</invalid-nodeType>
       <invalid-keyword>Le mot clé est invalide. Certains caractères ne sont pas autorisés.</invalid-keyword>
@@ -296,7 +296,7 @@
       <confirm-delete-permission>Confirmez-vous vouloir supprimer cette permission ?</confirm-delete-permission>
       <no-permission-remove>Il n'y a pas de permission à supprimer.</no-permission-remove>
       <access-denied>Accès refusé.</access-denied>
-      <node-locked>L'élément de chemin {0} ou l'un de ses parents est verrouillé.</node-locked>
+      <node-locked>L''élément de chemin {0} ou l''un de ses parents est verrouillé.</node-locked>
       <userOrGroup-required>Vous devez sélectionner un utilisateur ou un groupe.</userOrGroup-required>
       <checkbox-require>Vous devez donner des permissions.</checkbox-require>
       <node-checkedin>Vous devez faire un Check Out</node-checkedin>
@@ -338,7 +338,7 @@
 
   <ZeroValidator>
     <msg>
-      <Invalid-number>Zéro n'est pas acceptée dans le champ '{0}'</Invalid-number>
+      <Invalid-number>Zéro n''est pas acceptée dans le champ ''{0}''</Invalid-number>
     </msg>
   </ZeroValidator>
 

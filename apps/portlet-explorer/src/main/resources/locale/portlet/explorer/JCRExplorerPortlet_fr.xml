@@ -114,9 +114,9 @@
       <GeneralDrives>Lecteurs principaux</GeneralDrives>
     </title>
     <msg>
-      <no-view-found>Il n'y a pas de vue disponible par rapport à vos droits d'accès sur le lecteur '{0}'.</no-view-found>
-      <access-denied>Accès refusé. Vous n'avez peut-être pas les droits suffisants pour accéder à l'espace de stockage du lecteur '{0}'.</access-denied>
-      <workspace-not-exist>Le lecteur '{0}' a été sauvegardé dans un espace de stockage inconnu. Veuillez reconfigurer le lecteur.</workspace-not-exist>
+      <no-view-found>Il n''y a pas de vue disponible par rapport à vos droits d''accès sur le lecteur ''{0}''.</no-view-found>
+      <access-denied>Accès refusé. Vous n''avez peut-être pas les droits suffisants pour accéder à l''espace de stockage du lecteur ''{0}''.</access-denied>
+      <workspace-not-exist>Le lecteur ''{0}'' a été sauvegardé dans un espace de stockage inconnu. Veuillez reconfigurer le lecteur.</workspace-not-exist>
     </msg>
   </UIDrivesBrowser>
 
@@ -201,14 +201,14 @@
       <Back>#{word.back}</Back>
     </action>
     <msg>
-      <rename-successfull>Le noeud '{0}' a été renommé en '{1}' avec succès.</rename-successfull>
+      <rename-successfull>Le noeud ''{0}'' a été renommé en ''{1}'' avec succès.</rename-successfull>
       <rename-denied>Accès refusé. Vous n'avez pas les droits suffisants pour renommer ce noeud.</rename-denied>
       <fileName-invalid>Caractères invalides détectés dans le nouveau nom.</fileName-invalid>
       <newName-same-oldName>Le nouveau nom est identique à l'ancien. Veuillez saisir un autre nom.</newName-same-oldName>
       <version-exception>Vous devez d'abord effectuer un check out.</version-exception>
       <lock-exception>Ce noeud est verrouillé. Veuillez le déverrouiller avant de le renommer.</lock-exception>
-      <constraintViolation-exception>Une erreur est survenue au renommage de '{0}'. Veuillez vérifier.</constraintViolation-exception>
-      <unknown-prefix>Préfixe '{0}' n'a pas encore été enregistrée.</unknown-prefix>
+      <constraintViolation-exception>Une erreur est survenue au renommage de ''{0}''. Veuillez vérifier.</constraintViolation-exception>
+      <unknown-prefix>Préfixe ''{0}'' n''a pas encore été enregistrée.</unknown-prefix>
       <rename-error>Une erreur s'est produite au moment de renommer ce noeud. S'il vous plaît vérifier à nouveau.</rename-error>
     </msg>
   </UIRenameForm>
@@ -323,15 +323,15 @@
       <access-false>Ce document n'est pas un article ou vous devez d'abord effectuer un checked in.</access-false>
       <unsupported-action>Cette action n'est pas supportée.</unsupported-action>
       <not-relationable>Le support des relations n'a pas encore été activé sur ce noeud.</not-relationable>
-      <node-pasted>Le noeud '{0}' a été collé à l'emplacement '{1}'. Cette opération a déjà été sauvegardée.</node-pasted>
+      <node-pasted>Le noeud ''{0}'' a été collé à l''emplacement ''{1}''. Cette opération a déjà été sauvegardée.</node-pasted>
       <no-node-selected>Aucun noeud n'a été copié</no-node-selected>
-      <unable-edit>Ce noeud : '{0}' est de type '{1}' et ne peut pas être édité</unable-edit>
+      <unable-edit>Ce noeud : ''{0}'' est de type ''{1}'' et ne peut pas être édité</unable-edit>
       <not-support>Le noeud sélectionné ne peut pas être édité</not-support>
       <template-null>Le noeud n'a pas de formulaire d'édition.</template-null>
       <keyword-null>Il n'y a pas de mot à chercher.</keyword-null>
       <not-found>Aucun résultat trouvé.</not-found>
       <keyword-not-allow>L'un des mots à chercher n'est pas autorisé.</keyword-not-allow>
-      <is-not-referenable>Le noeud '{0}' ne supporte pas les références</is-not-referenable>
+      <is-not-referenable>Le noeud ''{0}'' ne supporte pas les références</is-not-referenable>
       <access-denied>Accès refusé. Vous n'avez pas les droits de modifier sur ce noeud.</access-denied>
       <access-add-denied>Accès refusé. Vous n'avez pas les droits suffisants pour ajouter un document.</access-add-denied>
       <item-existed>Il existe déjà un noeud associé à ce nom.</item-existed>
@@ -368,7 +368,7 @@
       <can-not-rename-node>Vous n'avez pas les droits suffisants pour renommer ce noeud.</can-not-rename-node>
       <can-not-cut-node>Vous n'avez pas les droits suffisants pour couper ce noeud.</can-not-cut-node>
       <can-not-remove-node>Vous n'avez pas les droits suffisants pour supprimer ce noeud.</can-not-remove-node>
-      <can-not-lock-node>Vous n'avez pas les droits suffisants pour verrouiller le noeud {0}. Contactez votre administateur.</can-not-lock-node>
+      <can-not-lock-node>Vous n''avez pas les droits suffisants pour verrouiller le noeud {0}. Contactez votre administateur.</can-not-lock-node>
       <can-not-unlock-node>Vous n'avez pas les droits suffisants pour déverrouiller ce noeud.</can-not-unlock-node>
       <no-node>Aucun noeud n'a été sélectionné.</no-node>
       <can-not-paste-node>Vous n'avez pas les droits suffisants pour coller ce noeud.</can-not-paste-node>
@@ -389,7 +389,7 @@
       <not-support>Vous ne pouvez pas supprimer le noeud sélectionné.</not-support>
       <current-node-not-allow-paste>Impossible de coller un noeud de ce type ici.</current-node-not-allow-paste>
       <copied-node-in-versioning>Impossible de copier ce noeud (il est versionné)</copied-node-in-versioning>
-      <parent-node-locked>Impossible de déverrouiller ce noeud '{0}', le dossier parent est verrouillé.</parent-node-locked>
+      <parent-node-locked>Impossible de déverrouiller ce noeud ''{0}'', le dossier parent est verrouillé.</parent-node-locked>
       <this-node-locked-by-parent>Ce noeud est verrouillé par son dossier parent.</this-node-locked-by-parent>
       <paste-node-same-name>Copie impossible, un document du même nom existe déjà.</paste-node-same-name>
       <has-not-add-permission>Vous n'avez pas les droits suffisants pour ajouter un noeud.</has-not-add-permission>
@@ -418,12 +418,12 @@
     </label>
     <title>Ajouter/Modifier un Dossier</title>
     <msg>
-      <addFolder-successful>'{0}' ajouté avec succès</addFolder-successful>
+      <addFolder-successful>''{0}'' ajouté avec succès</addFolder-successful>
       <name-invalid>Entrez un nom de dossier.</name-invalid>
       <title-invalid>Veuillez entrer le titre du dossier!</title-invalid>
       <name-not-allowed>Ce nom n'est pas autorisé.</name-not-allowed>
       <fileName-error>Nom de fichier invalide</fileName-error>
-      <constraint-violation>Le noeud courant n'autorise pas l'ajout d'un noeud du type '{0}'</constraint-violation>
+      <constraint-violation>Le noeud courant n''autorise pas l''ajout d''un noeud du type ''{0}''</constraint-violation>
       <repository-exception>Une erreur s'est produite. Veuillez contacter votre administrateur pour plus de détails.</repository-exception>
       <repository-exception-permission>Vous n'avez pas le droit d'ajouter un dossier à ce noeud.</repository-exception-permission>
       <numberformat-exception>Ce dossier ne peut être sauvegardé. Vous devez saisir un format numérique</numberformat-exception>
@@ -446,19 +446,19 @@
     </title>
     <msg>
       <!-- Delte one node is not in trash and have no relation -->
-      <confirm-delete>Êtes-vous sûr de vouloir supprimer l'objet '{0}'?</confirm-delete>
-      <confirm-delete-file>Êtes-vous sûr de vouloir supprimer le fichier '{0}'?</confirm-delete-file>
-      <confirm-delete-folder>Êtes-vous sûr de vouloir supprimer le dossier '{0}' et ses sous-dossiers?</confirm-delete-folder>
+      <confirm-delete>Êtes-vous sûr de vouloir supprimer l''objet ''{0}''?</confirm-delete>
+      <confirm-delete-file>Êtes-vous sûr de vouloir supprimer le fichier ''{0}''?</confirm-delete-file>
+      <confirm-delete-folder>Êtes-vous sûr de vouloir supprimer le dossier ''{0}'' et ses sous-dossiers?</confirm-delete-folder>
       
       <!-- Delte one node is in trash and have no relation -->
-      <confirm-delete-permanently>Êtes-vous sûr de vouloir supprimer définitivement l'objet '{0}'?</confirm-delete-permanently>
-      <confirm-delete-file-permanently>Êtes-vous sûr de vouloir supprimer définitivement le fichier '{0}'?</confirm-delete-file-permanently>
-      <confirm-delete-folder-permanently>Êtes-vous sûr de vouloir supprimer définitivement le dossier '{0}' et ses sous-dossiers?</confirm-delete-folder-permanently>
+      <confirm-delete-permanently>Êtes-vous sûr de vouloir supprimer définitivement l''objet ''{0}''?</confirm-delete-permanently>
+      <confirm-delete-file-permanently>Êtes-vous sûr de vouloir supprimer définitivement le fichier ''{0}''?</confirm-delete-file-permanently>
+      <confirm-delete-folder-permanently>Êtes-vous sûr de vouloir supprimer définitivement le dossier ''{0}'' et ses sous-dossiers?</confirm-delete-folder-permanently>
       
       <!-- Delte one node is not in trash and have relations -->
-      <confirm-delete-has-relations>Êtes-vous sûr de vouloir supprimer l'élément '{0}' et ses références?</confirm-delete-has-relations>
-      <confirm-delete-file-has-relations>Êtes-vous sûr de vouloir supprimer le fichier '{0}' et ses références?</confirm-delete-file-has-relations>
-      <confirm-delete-folder-has-relations>Êtes-vous sûr de vouloir supprimer le dossier '{0}' et ses références?</confirm-delete-folder-has-relations>
+      <confirm-delete-has-relations>Êtes-vous sûr de vouloir supprimer l''élément ''{0}'' et ses références?</confirm-delete-has-relations>
+      <confirm-delete-file-has-relations>Êtes-vous sûr de vouloir supprimer le fichier ''{0}'' et ses références?</confirm-delete-file-has-relations>
+      <confirm-delete-folder-has-relations>Êtes-vous sûr de vouloir supprimer le dossier ''{0}'' et ses références?</confirm-delete-folder-has-relations>
       
       <!-- Delte multiple nodes, not in Trash, have no relations -->
       <confirm-delete-multi-nodes-generic>Êtes-vous sûr de vouloir supprimer les {0} éléments sélectionnés?</confirm-delete-multi-nodes-generic>  
@@ -487,20 +487,20 @@
       <confirm-delete-multi-nodes-file-and-folder-have-relations>Êtes-vous sûr de vouloir supprimer les {0} fichiers sélectionnés, leurs références, dossiers et leurs sous-dossiers?</confirm-delete-multi-nodes-file-and-folder-have-relations>
       <confirm-delete-multi-nodes-generic-and-file-and-folder-have-relations>Êtes-vous sûr de vouloir supprimer les {0} éléments sélectionnés, fichiers, leurs références, dossiers et leurs sous-dossiers?</confirm-delete-multi-nodes-generic-and-file-and-folder-have-relations>
       
-      <feedback-delete>'{0}' a été supprimé avec succès.</feedback-delete>
+      <feedback-delete>''{0}'' a été supprimé avec succès.</feedback-delete>
       <feedback-delete-multi>{0} éléments ont été supprimés avec succès.</feedback-delete-multi>      
-      <feedback-delete-permanently>'{0}' a été supprimé définitivement.</feedback-delete-permanently>
+      <feedback-delete-permanently>''{0}'' a été supprimé définitivement.</feedback-delete-permanently>
       <feedback-delete-permanently-multi>{0} éléments ont été supprimés définitivement.</feedback-delete-permanently-multi>
       <undo-delete>Annuler</undo-delete>
-      <feedback-restore>'{0}' a été restauré avec succès.</feedback-restore>
+      <feedback-restore>''{0}'' a été restauré avec succès.</feedback-restore>
       <feedback-restore-multi>{0} éléments ont été restaurés avec succès.</feedback-restore-multi>
            
-      <confirm-restore>Un nœud portant le même nom existe déjà dans l'ancien emplacement du nœud '{0}'. Êtes-vous sûr de que vouloir restaurer ce nœud ?</confirm-restore>
+      <confirm-restore>Un nœud portant le même nom existe déjà dans l''ancien emplacement du nœud ''{0}''. Êtes-vous sûr de que vouloir restaurer ce nœud ?</confirm-restore>
       <confirm-move>Souhaitez-vous vraiment déplacer ce(s) noeud(s)?</confirm-move>
-      <node-cut>Le noeud '{0}' a été coupé.</node-cut>
-      <execute-successfully>L'action '{0}' a été exécutée.</execute-successfully>
-      <save-node-success>Le noeud '{0}' a été sauvegardé.</save-node-success>
-      <move-problem>Ne peut pas déplacer le noeud '{0}' vers '{1}' parce que vos permissions sont insuffisantes ou des contraintes ne sont pas respectées.</move-problem>
+      <node-cut>Le noeud ''{0}'' a été coupé.</node-cut>
+      <execute-successfully>L''action ''{0}'' a été exécutée.</execute-successfully>
+      <save-node-success>Le noeud ''{0}'' a été sauvegardé.</save-node-success>
+      <move-problem>Ne peut pas déplacer le noeud ''{0}'' vers ''{1}'' parce que vos permissions sont insuffisantes ou des contraintes ne sont pas respectées.</move-problem>
     </msg>
   </UIWorkingArea>
   <UIDocumentWorkspace>
@@ -509,12 +509,12 @@
       <no-children-but-has-hidden>Ce noeud n'a pas de fils mais contient des fichiers cachés.</no-children-but-has-hidden>
     </label>
     <msg>
-      <unable-save-node>Le noeud '{0}' vient d'être créé. Il est nécessaire d'enregistrer la session avant d'effectuer cette action.</unable-save-node>
-      <save-node-success>Le noeud '{0}' a été enregistré.</save-node-success>
-      <node-copied>Le noeud '{0}' a été copié.</node-copied>
-      <node-cut>Le noeud '{0}' a été coupé.</node-cut>
+      <unable-save-node>Le noeud ''{0}'' vient d''être créé. Il est nécessaire d''enregistrer la session avant d''effectuer cette action.</unable-save-node>
+      <save-node-success>Le noeud ''{0}'' a été enregistré.</save-node-success>
+      <node-copied>Le noeud ''{0}'' a été copié.</node-copied>
+      <node-cut>Le noeud ''{0}'' a été coupé.</node-cut>
       <remove-root>Vous ne pouvez pas supprimer le noeud racine.</remove-root>
-      <node-remove-success>Le noeud '{0}' a été supprimé.</node-remove-success>
+      <node-remove-success>Le noeud ''{0}'' a été supprimé.</node-remove-success>
     </msg>
     <tooltip>
       <Rename>Renommer</Rename>
@@ -533,7 +533,7 @@
   </UIDocumentWorkspace>
   <UIDocumentInfo>
     <msg>
-      <access-denied>Accès refusé. Vous ne pouvez pas accéder au noeud '{0}'.</access-denied>
+      <access-denied>Accès refusé. Vous ne pouvez pas accéder au noeud ''{0}''.</access-denied>
       <null-exception>Elément non trouvé. Il a été supprimé ou modifié, ou vous n'avez pas le droit d'accéder à ce noeud.</null-exception>
       <confirm-deleteattachment>Confirmez-vous la suppression du fichier attaché?</confirm-deleteattachment>
       <confirm-deleteattcomment>Êtes-vous sûr de que vouloir supprimer ce commentaire ?</confirm-deleteattcomment>
@@ -715,11 +715,11 @@
       <node-checkedin>Vous devez effectuer un checkout sur ce noeud avant de pouvoir ajouter une propriété.</node-checkedin>
       <can-not-add>Vous ne pouvez pas ajouter de propriété à ce noeud. Ceci est  autorisé uniquement pour les noeuds de type non structuré.</can-not-add>
       <propertyName-invalid>le nom de la propriété doit un inclure l'espace de nommage (ex: espace-nommage:ma_propriété)</propertyName-invalid>
-      <propertyName-exist>La propriété '{0}' existe déjà.</propertyName-exist>
+      <propertyName-exist>La propriété ''{0}'' existe déjà.</propertyName-exist>
       <propertyValu-null>Certaines valeurs sont probablement nulles ou vides</propertyValu-null>
       <valueFormatEx>Impossible d'attribuer plusieurs valeurs à une propriété non multi-valuée.</valueFormatEx>
       <number-format-exception>La valeur saisie ne respecte pas le format attendu.</number-format-exception>
-      <property-not-exist>La propriété {0} n'existe pas.</property-not-exist>
+      <property-not-exist>La propriété {0} n''existe pas.</property-not-exist>
     </msg>
   </UIPropertyForm>
 
@@ -774,7 +774,7 @@
       <selectUser>Sélection d'un utilisateur</selectUser>
     </label>
     <msg>
-      <not-change-owner>'{0}' est le propriétaire de ce noeud et en possède le contrôle total.</not-change-owner>
+      <not-change-owner>''{0}'' est le propriétaire de ce noeud et en possède le contrôle total.</not-change-owner>
     </msg>
   </UIGroupSelector>
   <UIPermissionForm>
@@ -1474,7 +1474,7 @@
       <filetype-error>Import impossible. Le fichier envoyé est probablement corrompu.</filetype-error>
       <mimetype-invalid>Seuls les fichier xml ou zip sont supportés pour l'import.</mimetype-invalid>
       <access-denied>Accès refusé. Vous n'avez pas les droits suffisants pour importer à cet endroit.</access-denied>
-      <constraint-violation-exception>Impossible d'importer. Le type de noeud '{0}' n'est pas autorisé.</constraint-violation-exception>
+      <constraint-violation-exception>Impossible d''importer. Le type de noeud ''{0}'' n''est pas autorisé.</constraint-violation-exception>
       <item-exists-exception>Un noeud entrant référençable a le même UUID qu'un noeud existant dans l'espace de stockage.</item-exists-exception>
     </msg>
   </UIImportNode>
@@ -1494,7 +1494,7 @@
     <title>Ajout d'un Libellé</title>
     <msg>
       <label-invalid>Le libellé comporte des caractères interdits</label-invalid>
-      <label-exist>'{0}' existe déjà.</label-exist>
+      <label-exist>''{0}'' existe déjà.</label-exist>
     </msg>
   </UILabelForm>
   <!--
@@ -1678,8 +1678,8 @@
     <msg>
       <cannot-save>Enregistrement impossible. Des contraintes ne sont pas respectées.</cannot-save>
       <in-versioning>Vous devez effectuer un checkout sur ce noeud avant de pouvoir lui en ajouter un autre</in-versioning>
-      <not-support>Impossible de charger le template '{0}'.</not-support>
-      <value-invalid>Valeur requise dans '{0}'.</value-invalid>
+      <not-support>Impossible de charger le template ''{0}''.</not-support>
+      <value-invalid>Valeur requise dans ''{0}''.</value-invalid>
       <repository-exception>Une erreur est survenue lors de l'enregistrement du document.</repository-exception>
       <!--DMS 2.4.x; ECM-3543-->
       <repository-exception-permission>Vous n'avez pas le droit d'ajouter un document à ce noeud.</repository-exception-permission>
@@ -1752,7 +1752,7 @@
     <msg>
       <remove-popup-first>Vous devez d'abord fermer la fenêtre d'édition avant de pouvoir supprimer ce noeud.</remove-popup-first>
       <confirm-delete-action>Confirmez-vous la suppression?</confirm-delete-action>
-      <template-empty>Le formulaire pour afficher '{0}' est manquant.</template-empty>
+      <template-empty>Le formulaire pour afficher ''{0}'' est manquant.</template-empty>
       <template-null>Le formulaire est inexistant, ou vous n'avez pas les droits d'accès suffisants.</template-null>
       <access-denied>Accès refusé. Vous n'avez pas les droits suffisants pour faire cette action.</access-denied>
     </msg>
@@ -1777,7 +1777,7 @@
       <existed-action>Ce nom existe déjà, veuillez en choisir un autre!</existed-action>
       <unable-add-action>Impossible d'ajouter cette action</unable-add-action>
       <unable-add>Ajout impossible! Veuillez vérifier les champs requis</unable-add>
-      <not-support>Le formulaire d'édition '{0}' n'est pas supporté</not-support>
+      <not-support>Le formulaire d''édition ''{0}'' n''est pas supporté</not-support>
       <no-permission-add>Accès refusé. Vous n'avez pas les droits suffisants pour ajouter une action ici.</no-permission-add>
       <access-denied>Accès refusé. Vous n'avez pas les droits suffisants pour accéder à ce formulaire.</access-denied>
 	  <lifecycle-invalid>Impossible d'ajouter cette action. La phase du cycle de vie de l'action est invalide.</lifecycle-invalid>
@@ -1917,13 +1917,13 @@
   -->
   <ECMNameValidator>
     <msg>
-      <Invalid-char>Caractères invalides détectés dans le champ '{0}'.</Invalid-char>
-      <empty-input>Valeur requise dans le champ '{0}'.</empty-input>
+      <Invalid-char>Caractères invalides détectés dans le champ ''{0}''.</Invalid-char>
+      <empty-input>Valeur requise dans le champ ''{0}''.</empty-input>
     </msg>
   </ECMNameValidator>
   <DateTimeValidator>
     <msg>
-      <Invalid-input>La valeur '{1}' n'est pas valide dans le champ '{0}'.</Invalid-input>
+      <Invalid-input>La valeur ''{1}'' n''est pas valide dans le champ ''{0}''.</Invalid-input>
     </msg>
   </DateTimeValidator>
   <CronExpressionValidator>
@@ -1931,7 +1931,7 @@
   </CronExpressionValidator>
   <EmptyFieldValidator>
     <msg>
-      <empty-input>Veuillez entrer une valeur dans le champ '{0}'.</empty-input>
+      <empty-input>Veuillez entrer une valeur dans le champ ''{0}''.</empty-input>
     </msg>
   </EmptyFieldValidator>
   <CategoryValidator>
@@ -2044,8 +2044,8 @@
   -->
   <ECMStandardPropertyNameValidator>
     <msg>
-      <empty-input>La valeur du champ '{0}' est vide.</empty-input>
-      <Invalid-char>Le champ '{0}' contient des caractères invalides. Veuillez saisir une autre valeur.</Invalid-char>
+      <empty-input>La valeur du champ ''{0}'' est vide.</empty-input>
+      <Invalid-char>Le champ ''{0}'' contient des caractères invalides. Veuillez saisir une autre valeur.</Invalid-char>
     </msg>
   </ECMStandardPropertyNameValidator>
   <!--
@@ -2253,11 +2253,11 @@
       <Cancel>#{word.cancel}</Cancel>
 		</action>
 		<msg>
-      <addFolder-successful>Le raccourci '{0}' a été ajouté avec succès.</addFolder-successful>
+      <addFolder-successful>Le raccourci ''{0}'' a été ajouté avec succès.</addFolder-successful>
       <name-invalid>Veuillez saisir un nom de raccourci.</name-invalid>
       <name-not-allowed>Ce nom n'est pas autorisé.</name-not-allowed>
       <fileName-error>Nom de fichier invalide</fileName-error>
-      <constraint-violation>Le noeud courant ne permet pas d'ajouter le type de noeud '{0}'</constraint-violation>
+      <constraint-violation>Le noeud courant ne permet pas d''ajouter le type de noeud ''{0}''</constraint-violation>
       <repository-exception>Accès refusé. Vous n'avez pas la permission d'ajouter un lien symbolique vers ce noeud.</repository-exception>
       <numberformat-exception>Impossible d'enregistrer ce dossier. Vous devez saisir un format numérique.</numberformat-exception>
       <path-node-invalid>Veuillez saisir le chemin du noeud.</path-node-invalid>
@@ -2282,11 +2282,11 @@
       <SelectDocument>Sélectionnez Document</SelectDocument>
     </action>
     <msg>
-      <addFolder-successful>Le raccourci '{0}' a été ajouté avec succès.</addFolder-successful>
+      <addFolder-successful>Le raccourci ''{0}'' a été ajouté avec succès.</addFolder-successful>
       <name-invalid>Veuillez saisir un nom de raccourci.</name-invalid>
       <name-not-allowed>Ce nom n'est pas autorisé.</name-not-allowed>
       <fileName-error>Nom de fichier invalide.</fileName-error>
-      <constraint-violation>Le noeud courant ne permet pas d'ajouter le type de noeud '{0}'.</constraint-violation>
+      <constraint-violation>Le noeud courant ne permet pas d''ajouter le type de noeud ''{0}''.</constraint-violation>
       <repository-exception>Accès refusé. Vous n'avez pas la permission d'ajouter un lien symbolique vers ce noeud.</repository-exception>
       <numberformat-exception>Impossible d'enregistrer ce dossier. Vous devez saisir un format numérique.</numberformat-exception>
       <path-node-invalid>Veuillez saisir le chemin du noeud.</path-node-invalid>
@@ -2319,9 +2319,9 @@
 
   <UIWorkingArea>
     <msg>
-      <create-link-problem>;Vous ne pouvez pas créer de lien entre les noeuds '{0}' et '{1}'</create-link-problem>
-      <dest-node-is-link>Le noeud cible '{0}' est déjà un raccourci. Il est donc impossible de créer le raccourci.</dest-node-is-link>
-      <selected-is-link>Le noeud sélectionné '{0}' est un raccourci, vous ne pouvez pas créer un lien qui pointe sur un autre lien.</selected-is-link>
+      <create-link-problem>;Vous ne pouvez pas créer de lien entre les noeuds ''{0}'' et ''{1}''</create-link-problem>
+      <dest-node-is-link>Le noeud cible ''{0}'' est déjà un raccourci. Il est donc impossible de créer le raccourci.</dest-node-is-link>
+      <selected-is-link>Le noeud sélectionné ''{0}'' est un raccourci, vous ne pouvez pas créer un lien qui pointe sur un autre lien.</selected-is-link>
       <confirm-create-link>Souhaitez-vous réellement créer un raccourci à cet endroit?</confirm-create-link>
     </msg>
   </UIWorkingArea>
@@ -2469,7 +2469,7 @@
 
   <UIDocumentForm>
   	<msg>
-  		<do-not-permission>Vous n'avez pas le droit de charger le template '{0}'.</do-not-permission>
+      <do-not-permission>Vous n''avez pas le droit de charger le template ''{0}''.</do-not-permission>
   	</msg>
   </UIDocumentForm>
 
@@ -2491,7 +2491,7 @@
 
   <UIPopupMenu>
   	<msg>
-      <can-not-unlock-node-is-checked-in>Impossible de déverrouiller car le noeud '{0}' ou un ancêtre de '{0}' est à l'état checked-in.</can-not-unlock-node-is-checked-in>
+      <can-not-unlock-node-is-checked-in>Impossible de déverrouiller car le noeud ''{0}'' ou un ancêtre de ''{0}'' est à l''état checked-in.</can-not-unlock-node-is-checked-in>
 		</msg>
   </UIPopupMenu>
 
@@ -3054,7 +3054,7 @@
   </UIDocumentForm>
   <UploadFileMimeTypesValidator>
     <msg>
-      <wrong-mimetype>Le type Mime {0} n'est pas autorisé pour le champ {1}. Veuillez uploader un autre fichier</wrong-mimetype>
+      <wrong-mimetype>Le type Mime {0} n''est pas autorisé pour le champ {1}. Veuillez uploader un autre fichier</wrong-mimetype>
     </msg>
   </UploadFileMimeTypesValidator>
   <lifecyclePhase>
@@ -3104,7 +3104,7 @@
   </UIWatchDocumentForm>
   <UIActionForm>
     <msg>
-      <xss-vulnerability-character>Le champ '{0}' contient des caractères vulnérables aux attaques XSS.</xss-vulnerability-character>
+      <xss-vulnerability-character>Le champ ''{0}'' contient des caractères vulnérables aux attaques XSS.</xss-vulnerability-character>
     </msg>
   </UIActionForm>
   <UIMultiUpload>
