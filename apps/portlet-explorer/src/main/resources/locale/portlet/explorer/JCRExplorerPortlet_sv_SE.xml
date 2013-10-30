@@ -114,9 +114,9 @@
       <GeneralDrives>General drives</GeneralDrives>
     </title>
     <msg>
-      <no-view-found>There is no view available according to your access permissions in drive '{0}'.</no-view-found>
-      <access-denied>Access denied. You may not have permission in the workspace of drive '{0}'.</access-denied>
-      <workspace-not-exist>Drive '{0}' was stored in one unrecognized workspace. Please reconfigure this drive.</workspace-not-exist>
+      <no-view-found>There is no view available according to your access permissions in drive ''{0}''.</no-view-found>
+      <access-denied>Access denied. You may not have permission in the workspace of drive ''{0}''.</access-denied>
+      <workspace-not-exist>Drive ''{0}'' was stored in one unrecognized workspace. Please reconfigure this drive.</workspace-not-exist>
     </msg>
   </UIDrivesBrowser>
 
@@ -375,7 +375,7 @@
       <can-not-move-node>Du har inte behörighet att flytta denna nod. Kontakta administratören.</can-not-move-node>
       <does-not-support-versioning>Du har inte behörighet att flytta till den här noden. Kontakta administratören.</does-not-support-versioning>
       <path-not-found>Detta element har tagits bort eller ändrats. Klicka på knappen Uppdatera.</path-not-found>
-      <paste-lock-exception>Du kan inte klistra in '{0}' till den här noden eftersom källan eller målnod är låst eller är relaterade till läst nod.</paste-lock-exception>
+      <paste-lock-exception>Du kan inte klistra in ''{0}'' till den här noden eftersom källan eller målnod är låst eller är relaterade till läst nod.</paste-lock-exception>
       <can-not-checkin-node>Du kan inte checka in denna nod. Kontrollera att du har rätt behörigheter.</can-not-checkin-node>
       <can-not-checkout-node>Du kan inte checka ut denna nod. Kontrollera att du har rätt behörigheter.</can-not-checkout-node>
       <move-constraint-exception>Ett fel uppstod när du flyttar noden.</move-constraint-exception>
@@ -447,7 +447,7 @@
     <msg>
       <!-- Delte one node is not in trash and have no relation -->
       <confirm-delete>Är du säker på att du vill ta bort objektet {0}?</confirm-delete>
-      <confirm-delete-file>Är du säker på att du vill ta bort filen '{0}'?</confirm-delete-file>
+      <confirm-delete-file>Är du säker på att du vill ta bort filen ''{0}''?</confirm-delete-file>
       <confirm-delete-folder>Är du säker på att du vill ta bort mappen {0} och alla undermappar?</confirm-delete-folder>
       
       <!-- Delte one node is in trash and have no relation -->
@@ -1474,7 +1474,7 @@
       <filetype-error>Kan inte importera den uppladdade filen. XML-filen kan vara ogiltigt.</filetype-error>
       <mimetype-invalid>Du kan bara importera .xml- eller .zip-filer.</mimetype-invalid>
       <access-denied>Åtkomst nekad. Du får inte importera det.</access-denied>
-      <constraint-violation-exception>Impossible to import data. The type '{0}' is not allowed in this location.</constraint-violation-exception>
+      <constraint-violation-exception>Impossible to import data. The type ''{0}'' is not allowed in this location.</constraint-violation-exception>
       <item-exists-exception>En inkommande refererande nod har samma UUID som en befintlig nod i arbetsytan.</item-exists-exception>
     </msg>
   </UIImportNode>
@@ -1923,7 +1923,7 @@
   </ECMNameValidator>
   <DateTimeValidator>
     <msg>
-      <Invalid-input>Fältet {0} med värdet '{1}' är ogiltigt.</Invalid-input>
+      <Invalid-input>Fältet {0} med värdet ''{1}'' är ogiltigt.</Invalid-input>
     </msg>
   </DateTimeValidator>
   <CronExpressionValidator>

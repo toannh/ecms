@@ -154,7 +154,7 @@
 
   <DateTimeValidator>
     <msg>
-      <Invalid-input>Fältet {0} med värdet '{1}' är ogiltigt.</Invalid-input>
+      <Invalid-input>Fältet {0} med värdet ''{1}'' är ogiltigt.</Invalid-input>
     </msg>
   </DateTimeValidator>
 
