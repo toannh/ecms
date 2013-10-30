@@ -114,9 +114,9 @@
       <GeneralDrives>Ổ đĩa chung</GeneralDrives>
     </title>
     <msg>
-      <no-view-found>Bạn không có quyền truy cập bất kì giao diện xem nào của ổ đĩa '{0}'.</no-view-found>
-      <access-denied>Truy cập bị từ chối. Có thể bạn không có quyền trong không gian làm việc của ổ đĩa '{0}'.</access-denied>
-      <workspace-not-exist>Không thể nhận biết được không gian lưu trữ của ổ đĩa '{0}'. Vui lòng cấu hình lại ổ đĩa này.</workspace-not-exist>
+      <no-view-found>Bạn không có quyền truy cập bất kì giao diện xem nào của ổ đĩa ''{0}''.</no-view-found>
+      <access-denied>Truy cập bị từ chối. Có thể bạn không có quyền trong không gian làm việc của ổ đĩa ''{0}''.</access-denied>
+      <workspace-not-exist>Không thể nhận biết được không gian lưu trữ của ổ đĩa ''{0}''. Vui lòng cấu hình lại ổ đĩa này.</workspace-not-exist>
     </msg>
   </UIDrivesBrowser>
 
@@ -201,14 +201,14 @@
       <Back>Quay lại</Back>
     </action>
     <msg>
-      <rename-successfull>Nút '{0}' được đổi tên thành công sang '{1}'.</rename-successfull>
+      <rename-successfull>Nút ''{0}'' được đổi tên thành công sang ''{1}''.</rename-successfull>
       <rename-denied>Truy nhập bị khước từ. Bạn không thể đổi tên nút này.</rename-denied>
       <fileName-invalid>Tên mới chứa một số ký tự không hợp lệ.</fileName-invalid>
       <newName-same-oldName>Tên mới đã tồn tại. Vui lòng kiểm tra lại.</newName-same-oldName>
       <version-exception>Nút này hoặc nút cha của nó chưa được check out.</version-exception>
       <lock-exception>Nút này đang bị khóa. Vui lòng mở khóa trước khi đổi tên.</lock-exception>
-      <constraintViolation-exception>Lỗi đã xảy ra khi đang đổi tên nút '{0}'. Vui lòng kiểm tra lại.</constraintViolation-exception>
-      <unknown-prefix>Tiền tố '{0}' chưa được đăng ký.</unknown-prefix>
+      <constraintViolation-exception>Lỗi đã xảy ra khi đang đổi tên nút ''{0}''. Vui lòng kiểm tra lại.</constraintViolation-exception>
+      <unknown-prefix>Tiền tố ''{0}'' chưa được đăng ký.</unknown-prefix>
       <rename-error>Lỗi đã xảy ra khi đang đổi tên nút này. Vui lòng kiểm tra lại.</rename-error>
     </msg>
   </UIRenameForm>
@@ -323,15 +323,15 @@
       <access-false>Nút này không phải là một bài viết hoặc chưa được check in.</access-false>
       <unsupported-action>Hành động này không được hỗ trợ.</unsupported-action>
       <not-relationable>Nút này chưa có bất kỳ liên kết nào có quan hệ với nút khác.</not-relationable>
-      <node-pasted>Nút '{0}' đã được dán vào vị trí '{1}'. Thao tác này đã được lưu lại.</node-pasted>
+      <node-pasted>Nút ''{0}'' đã được dán vào vị trí ''{1}''. Thao tác này đã được lưu lại.</node-pasted>
       <no-node-selected>Không có nút nào được sao chép.</no-node-selected>
-      <unable-edit>Nút '{0}' với kiểu nút '{1}' không được hỗ trợ để chỉnh sửa.</unable-edit>
+      <unable-edit>Nút ''{0}'' với kiểu nút ''{1}'' không được hỗ trợ để chỉnh sửa.</unable-edit>
       <not-support>Không thể chỉnh sửa nút đã chọn.</not-support>
       <template-null>Nút này không sẵn có hội thoại nào.</template-null>
       <keyword-null>Không có từ khóa nào để tìm kiếm.</keyword-null>
       <not-found>Không tìm thấy kết quả nào.</not-found>
       <keyword-not-allow>Không cho phép dùng từ khóa này.</keyword-not-allow>
-      <is-not-referenable>Không thể tham chiếu được nút '{0}'.</is-not-referenable>
+      <is-not-referenable>Không thể tham chiếu được nút ''{0}''.</is-not-referenable>
       <access-denied>Truy cập bị khước từ. Bạn không được phân quyền chỉnh sửa trên nút này.</access-denied>
       <access-add-denied>Truy cập bị từ chối. Bạn không được phân quyền thêm mới trên nút này.</access-add-denied>
       <item-existed>Nút này đã tồn tại vì không thể có cùng tên với nút khác.</item-existed>
@@ -375,7 +375,7 @@
       <can-not-move-node>Bạn không được phân quyền để di chuyển nút này. Vui lòng liên hệ với quản trị viên.</can-not-move-node>
       <does-not-support-versioning>Bạn không được phân quyền để chuyển đến nút này. Vui lòng liên hệ với quản trị viên.</does-not-support-versioning>
       <path-not-found>Thành phần này đã bị xóa hoặc thay đổi. Vui lòng nhấp nút Làm mới.</path-not-found>
-      <paste-lock-exception>Bạn không thể dán '{0}' lên nút này vì nút nguồn hoặc nút đích đến bị khóa hoặc có liên quan với nút bị khóa.</paste-lock-exception>
+      <paste-lock-exception>Bạn không thể dán ''{0}'' lên nút này vì nút nguồn hoặc nút đích đến bị khóa hoặc có liên quan với nút bị khóa.</paste-lock-exception>
       <can-not-checkin-node>Bạn không thể checkin nút này. Hãy kiểm tra xem bạn có đúng quyền không.</can-not-checkin-node>
       <can-not-checkout-node>Bạn không thể check out nút này. Hãy kiểm tra xem bạn có đúng quyền không.</can-not-checkout-node>
       <move-constraint-exception>Lỗi đã xảy ra khi đang di chuyển nút.</move-constraint-exception>
@@ -389,7 +389,7 @@
       <not-support>Bạn không thể xóa nút đã chọn. Vui lòng chọn nút khác.</not-support>
       <current-node-not-allow-paste>Bạn không thể dán kiểu nút đã sao chép trên nút hiện tại.</current-node-not-allow-paste>
       <copied-node-in-versioning>Bạn không thể dán nút đã sao chép trong quá trình đánh phiên bản.</copied-node-in-versioning>
-      <parent-node-locked>Bạn không được phân quyền để mở khóa nút '{0}'.</parent-node-locked>
+      <parent-node-locked>Bạn không được phân quyền để mở khóa nút ''{0}''.</parent-node-locked>
       <this-node-locked-by-parent>Bạn không thể mở khóa nút này vì nó đã bị khóa bởi nút cha hoặc nút mức trên.</this-node-locked-by-parent>
       <paste-node-same-name>Bạn không thể dán nút có cùng tên với nút trong thư mục đích đến.</paste-node-same-name>
       <has-not-add-permission>Bạn không được phân quyền để thêm mới nút.</has-not-add-permission>
@@ -418,12 +418,12 @@
     </label>
     <title>Thêm/Chỉnh sửa Thư mục</title>
     <msg>
-      <addFolder-successful>Thêm thành công thư mục '{0}'.</addFolder-successful>
+      <addFolder-successful>Thêm thành công thư mục ''{0}''.</addFolder-successful>
       <name-invalid>Vui lòng nhập tên thư mục.</name-invalid>
       <title-invalid>Vui lòng nhập tiêu đề thư mục.</title-invalid>
       <name-not-allowed>Tên này không được phép.</name-not-allowed>
       <fileName-error>Tên tệp không hợp lệ.</fileName-error>
-      <constraint-violation>Nút hiện tại không cho phép bạn thêm kiểu nút '{0}'.</constraint-violation>
+      <constraint-violation>Nút hiện tại không cho phép bạn thêm kiểu nút ''{0}''.</constraint-violation>
       <repository-exception>Lỗi đã xảy ra. Vui lòng liên hệ với quản trị viên của bạn để có thêm chi tiết.</repository-exception>
       <repository-exception-permission>Bạn không được phân quyền để thêm mới thư mục vào nút này.</repository-exception-permission>
       <numberformat-exception>Bạn không thể lưu thư mục này. Tên đã cung cấp phải ở định dạng số.</numberformat-exception>
@@ -446,19 +446,19 @@
     </title>
     <msg>
       <!-- Delte one node is not in trash and have no relation -->
-      <confirm-delete>Bạn có chắc chắn muốn xoá mục '{0}' không?</confirm-delete>
-      <confirm-delete-file>Bạn có chắc chắn muốn xóa tệp '{0}' không?</confirm-delete-file>
-      <confirm-delete-folder>Bạn có chắc chắn muốn xóa thư mục '{0}' và tất cả các thư mục con không?</confirm-delete-folder>
+      <confirm-delete>Bạn có chắc chắn muốn xoá mục ''{0}'' không?</confirm-delete>
+      <confirm-delete-file>Bạn có chắc chắn muốn xóa tệp ''{0}'' không?</confirm-delete-file>
+      <confirm-delete-folder>Bạn có chắc chắn muốn xóa thư mục ''{0}'' và tất cả các thư mục con không?</confirm-delete-folder>
       
       <!-- Delte one node is in trash and have no relation -->
-      <confirm-delete-permanently>Bạn có chắc chắn muốn gỡ bỏ vĩnh viễn mục '{0}' không?</confirm-delete-permanently>
-      <confirm-delete-file-permanently>Bạn có chắc chắn muốn gỡ bỏ vĩnh viễn tệp '{0}' không?</confirm-delete-file-permanently>
-      <confirm-delete-folder-permanently>Bạn có chắc chắn muốn gỡ bỏ vĩnh viễn thư mục '{0}' và tất cả thư mục con của nó không?</confirm-delete-folder-permanently>
+      <confirm-delete-permanently>Bạn có chắc chắn muốn gỡ bỏ vĩnh viễn mục ''{0}'' không?</confirm-delete-permanently>
+      <confirm-delete-file-permanently>Bạn có chắc chắn muốn gỡ bỏ vĩnh viễn tệp ''{0}'' không?</confirm-delete-file-permanently>
+      <confirm-delete-folder-permanently>Bạn có chắc chắn muốn gỡ bỏ vĩnh viễn thư mục ''{0}'' và tất cả thư mục con của nó không?</confirm-delete-folder-permanently>
       
       <!-- Delte one node is not in trash and have relations -->
-      <confirm-delete-has-relations>Bạn có chắc chắn muốn xóa mục '{0}' và các tham chiếu của nó không?</confirm-delete-has-relations>
-      <confirm-delete-file-has-relations>Bạn có chắc chắn muốn xóa tệp '{0}' và các tham chiếu của nó không?</confirm-delete-file-has-relations>
-      <confirm-delete-folder-has-relations>Bạn có chắc chắn muốn xóa thư mục '{0}' và các tham chiếu của nó không?</confirm-delete-folder-has-relations>
+      <confirm-delete-has-relations>Bạn có chắc chắn muốn xóa mục ''{0}'' và các tham chiếu của nó không?</confirm-delete-has-relations>
+      <confirm-delete-file-has-relations>Bạn có chắc chắn muốn xóa tệp ''{0}'' và các tham chiếu của nó không?</confirm-delete-file-has-relations>
+      <confirm-delete-folder-has-relations>Bạn có chắc chắn muốn xóa thư mục ''{0}'' và các tham chiếu của nó không?</confirm-delete-folder-has-relations>
       
       <!-- Delte multiple nodes, not in Trash, have no relations -->
       <confirm-delete-multi-nodes-generic>Bạn có chắc chắn muốn xóa {0} mục đã chọn không?</confirm-delete-multi-nodes-generic>  
@@ -487,20 +487,20 @@
       <confirm-delete-multi-nodes-file-and-folder-have-relations>Bạn có chắc chắn muốn xóa {0} tệp tin đã chọn, các tham chiếu, thư mục và tất cả thư mục con của chúng không?</confirm-delete-multi-nodes-file-and-folder-have-relations>
       <confirm-delete-multi-nodes-generic-and-file-and-folder-have-relations>Bạn có chắc chắn muốn xóa {0} khoản mục, tệp đã chọn, các tham chiếu, thư mục và tất cả thư mục con của chúng không?</confirm-delete-multi-nodes-generic-and-file-and-folder-have-relations>
       
-      <feedback-delete>'{0}' đã được xóa thành công.</feedback-delete>
+      <feedback-delete>''{0}'' đã được xóa thành công.</feedback-delete>
       <feedback-delete-multi>{0} mục đã được xóa thành công.</feedback-delete-multi>      
-      <feedback-delete-permanently>'{0}' đã được xoá vĩnh viễn.</feedback-delete-permanently>
+      <feedback-delete-permanently>''{0}'' đã được xoá vĩnh viễn.</feedback-delete-permanently>
       <feedback-delete-permanently-multi>{0} mục đã được xóa vĩnh viễn.</feedback-delete-permanently-multi>
       <undo-delete>Hoàn tác</undo-delete>
-      <feedback-restore>'{0}' đã được khôi phục thành công.</feedback-restore>
+      <feedback-restore>''{0}'' đã được khôi phục thành công.</feedback-restore>
       <feedback-restore-multi>{0} mục đã được khôi phục thành công.</feedback-restore-multi>
       
-      <confirm-restore>Một nút cùng tên đang tồn tại ở vị trí cũ của nút '{0}'. Bạn có chắc chắn muốn khôi phục nút này không?</confirm-restore>
+      <confirm-restore>Một nút cùng tên đang tồn tại ở vị trí cũ của nút ''{0}''. Bạn có chắc chắn muốn khôi phục nút này không?</confirm-restore>
       <confirm-move>Bạn có chắc chắn muốn di chuyển không?</confirm-move>
-      <node-cut>Nút '{0}' đã được cắt.</node-cut>
-      <execute-successfully>Hành động tùy chỉnh '{0}' đã được thực thi.</execute-successfully>
-      <save-node-success>Nút '{0}' đã được lưu lại.</save-node-success>
-      <move-problem>Bạn không thể di chuyển nút '{0}' sang '{1}' vì có vấn đề với phân quyền hoặc điều kiện ràng buộc.</move-problem>
+      <node-cut>Nút ''{0}'' đã được cắt.</node-cut>
+      <execute-successfully>Hành động tùy chỉnh ''{0}'' đã được thực thi.</execute-successfully>
+      <save-node-success>Nút ''{0}'' đã được lưu lại.</save-node-success>
+      <move-problem>Bạn không thể di chuyển nút ''{0}'' sang ''{1}'' vì có vấn đề với phân quyền hoặc điều kiện ràng buộc.</move-problem>
     </msg>
   </UIWorkingArea>
   <UIDocumentWorkspace>
@@ -509,12 +509,12 @@
       <no-children-but-has-hidden>Nút này không có bất kì nút con nào nhưng có một số tệp đã ẩn đi.</no-children-but-has-hidden>
     </label>
     <msg>
-      <unable-save-node>Nút '{0}' vừa được tạo mới. Vui lòng lưu phiên làm việc trước khi thực hiện hành động này.</unable-save-node>
-      <save-node-success>Nút '{0}' đã được lưu lại.</save-node-success>
-      <node-copied>Nút '{0}' đã được sao chép.</node-copied>
-      <node-cut>Nút '{0}' đã được cắt.</node-cut>
+      <unable-save-node>Nút ''{0}'' vừa được tạo mới. Vui lòng lưu phiên làm việc trước khi thực hiện hành động này.</unable-save-node>
+      <save-node-success>Nút ''{0}'' đã được lưu lại.</save-node-success>
+      <node-copied>Nút ''{0}'' đã được sao chép.</node-copied>
+      <node-cut>Nút ''{0}'' đã được cắt.</node-cut>
       <remove-root>Bạn không thể gỡ bỏ thư mục gốc.</remove-root>
-      <node-remove-success>Nút '{0}' đã được gỡ bỏ.</node-remove-success>
+      <node-remove-success>Nút ''{0}'' đã được gỡ bỏ.</node-remove-success>
     </msg>
     <tooltip>
       <Rename>Đổi tên</Rename>
@@ -533,7 +533,7 @@
   </UIDocumentWorkspace>
   <UIDocumentInfo>
     <msg>
-      <access-denied>Truy cập bị từ chối. Bạn không thể truy cập nút '{0}'.</access-denied>
+      <access-denied>Truy cập bị từ chối. Bạn không thể truy cập nút ''{0}''.</access-denied>
       <null-exception>Không tìm thấy mục nào vì nó đã bị gỡ bỏ hoặc thay đổi hoặc bạn không được phân quyền để truy cập nút này.</null-exception>
       <confirm-deleteattachment>Bạn có chắc chắn muốn gỡ bỏ tệp đính kèm này không?</confirm-deleteattachment>
       <confirm-deleteattcomment>Bạn có chắc chắn muốn gỡ bỏ bình luận này không?</confirm-deleteattcomment>
@@ -715,7 +715,7 @@
       <node-checkedin>Bạn phải checkout nút này trước khi thêm thuộc tính.</node-checkedin>
       <can-not-add>Bạn không thể thêm thuộc tính cho nút này. Chức năng giới hạn chỉ cho kiểu nút là nt:unstructured hoặc những thuộc tính đang bị thiếu ở nút hiện tại.</can-not-add>
       <propertyName-invalid>Tên thuộc tính phải chứa định danh (như là namespace:name)</propertyName-invalid>
-      <propertyName-exist>Thuộc tính '{0}' đã tồn tại.</propertyName-exist>
+      <propertyName-exist>Thuộc tính ''{0}'' đã tồn tại.</propertyName-exist>
       <propertyValu-null>Một số giá trị có thể là rỗng.</propertyValu-null>
       <valueFormatEx>Không thể gán đa giá trị đối với thuộc tính có giá trị duy nhất.</valueFormatEx>
       <number-format-exception>Giá trị mục nhập của bạn không đúng định dạng.</number-format-exception>
@@ -774,7 +774,7 @@
       <selectUser>Chọn Người dùng</selectUser>
     </label>
     <msg>
-      <not-change-owner>'{0}' là người tạo nút này và có đầy đủ các quyền trên nút.</not-change-owner>
+      <not-change-owner>''{0}'' là người tạo nút này và có đầy đủ các quyền trên nút.</not-change-owner>
     </msg>
   </UIGroupSelector>
   <UIPermissionForm>
@@ -1474,7 +1474,7 @@
       <filetype-error>Không thể nhập tệp tin đã tải lên. Tệp tin .xml này có thể không hợp lệ.</filetype-error>
       <mimetype-invalid>Bạn chỉ có thể nhập các tệp tin dạng .xml hoặc .zip.</mimetype-invalid>
       <access-denied>Truy nhập bị từ chối. Bạn không được phép nhập ở đây.</access-denied>
-      <constraint-violation-exception>Không thể nhập dữ liệu. Loại '{0}' không được cho phép trong vị trí này.</constraint-violation-exception>
+      <constraint-violation-exception>Không thể nhập dữ liệu. Loại ''{0}'' không được cho phép trong vị trí này.</constraint-violation-exception>
       <item-exists-exception>Một nút trong quá trình nhập có UUID trùng với một nút hiện đang tồn tại trong hệ thống.</item-exists-exception>
     </msg>
   </UIImportNode>
@@ -1494,7 +1494,7 @@
     <title>Thêm Nhãn</title>
     <msg>
       <label-invalid>Nhãn chứa một số ký tự không hợp lệ.</label-invalid>
-      <label-exist>'{0}' đã tồn tại.</label-exist>
+      <label-exist>''{0}'' đã tồn tại.</label-exist>
     </msg>
   </UILabelForm>
   <!--
@@ -1678,8 +1678,8 @@
     <msg>
       <cannot-save>Lỗi xảy ra khi lưu tài liệu.</cannot-save>
       <in-versioning>Vui lòng checkout nút hiện thời trước khi thêm nút mới.</in-versioning>
-      <not-support>Không thể tải mẫu của '{0}'.</not-support>
-      <value-invalid>'{0}' là giá trị cần thiết.</value-invalid>
+      <not-support>Không thể tải mẫu của ''{0}''.</not-support>
+      <value-invalid>''{0}'' là giá trị cần thiết.</value-invalid>
       <repository-exception>Lỗi xảy ra khi lưu tài liệu.</repository-exception>
       <!--DMS 2.4.x; ECM-3543-->
       <repository-exception-permission>Bạn không có quyền để thêm một tài liệu mới vào nút này.</repository-exception-permission>
@@ -1774,10 +1774,10 @@
     <msg>
       <repository-exception>Không thể lưu thao tác này. Tên thao tác vừa nhập chứa một số kí tự đặc biệt.</repository-exception>
       <numberformat-exception>Không thể lưu thao tác này. Tên phải là kiểu số.</numberformat-exception>
-      <existed-action>Tên thao tác '{0}' đã tồn tại. Vui lòng lựa chọn tên khác!</existed-action>
+      <existed-action>Tên thao tác ''{0}'' đã tồn tại. Vui lòng lựa chọn tên khác!</existed-action>
       <unable-add-action>Không thể thêm thao tác này.</unable-add-action>
       <unable-add>Không thể thêm hành động này. Do nút hiện tại là nút gốc hoặc bạn không có quyền tạo hành động.</unable-add>
-      <not-support>Hộp thoại '{0}' không được hỗ trợ</not-support>
+      <not-support>Hộp thoại ''{0}'' không được hỗ trợ</not-support>
       <no-permission-add>Truy nhập bị hủy bỏ. Bạn không có quyền thêm một thao tác ở đây.</no-permission-add>
       <access-denied>Truy nhập bị hủy bỏ. Bạn không có quyền truy cập mẫu này.</access-denied>
       <lifecycle-invalid>Không thể thêm thao tác này. Vòng đời của thao tác không hợp lệ</lifecycle-invalid>
@@ -1867,7 +1867,7 @@
       <Cancel>#{word.close}</Cancel>
     </action>
     <msg>
-      <name-exist>Tên nhãn '{0}' đã tồn tại.</name-exist>
+      <name-exist>Tên nhãn ''{0}'' đã tồn tại.</name-exist>
       <tagName-invalid>Có một số kí tự không hợp lệ trong tên nhãn.</tagName-invalid>
       <tag-name-empty>Tên thẻ của bạn là rỗng</tag-name-empty>
       <tag-name-duplicate>Tên thẻ bạn nhập bị trùng nhau.</tag-name-duplicate>
@@ -1917,13 +1917,13 @@
   -->
   <ECMNameValidator>
     <msg>
-      <Invalid-char>Có một số kí tự không hợp lệ trong trường '{0}'. Vui lòng nhập giá trị khác!</Invalid-char>
-      <empty-input>Trường'{0}' chưa có giá trị.</empty-input>
+      <Invalid-char>Có một số kí tự không hợp lệ trong trường ''{0}''. Vui lòng nhập giá trị khác!</Invalid-char>
+      <empty-input>Trường''{0}'' chưa có giá trị.</empty-input>
     </msg>
   </ECMNameValidator>
   <DateTimeValidator>
     <msg>
-      <Invalid-input>Trường '{0}' với giá trị '{1}' là không hợp lệ</Invalid-input>
+      <Invalid-input>Trường ''{0}'' với giá trị ''{1}'' là không hợp lệ</Invalid-input>
     </msg>
   </DateTimeValidator>
   <CronExpressionValidator>
@@ -1931,7 +1931,7 @@
   </CronExpressionValidator>
   <EmptyFieldValidator>
     <msg>
-      <empty-input>Vui lòng điền giá trị vào trường '{0}'</empty-input>
+      <empty-input>Vui lòng điền giá trị vào trường ''{0}''</empty-input>
     </msg>
   </EmptyFieldValidator>
   <CategoryValidator>
@@ -2044,8 +2044,8 @@
   -->
   <ECMStandardPropertyNameValidator>
     <msg>
-      <empty-input>Trường'{0}' chưa có giá trị.</empty-input>
-      <Invalid-char>Có một số kí tự không hợp lệ trong trường '{0}'. Vui lòng nhập giá trị khác.</Invalid-char>
+      <empty-input>Trường''{0}'' chưa có giá trị.</empty-input>
+      <Invalid-char>Có một số kí tự không hợp lệ trong trường ''{0}''. Vui lòng nhập giá trị khác.</Invalid-char>
     </msg>
   </ECMStandardPropertyNameValidator>
   <!--
@@ -2253,11 +2253,11 @@
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <addFolder-successful>Symlink '{0}' đã được thêm vào thành công.</addFolder-successful>
+      <addFolder-successful>Symlink ''{0}'' đã được thêm vào thành công.</addFolder-successful>
       <name-invalid>Vui lòng nhập tên symlink.</name-invalid>
       <name-not-allowed>Tên này không được phép.</name-not-allowed>
       <fileName-error>Tên tệp tin không hợp lệ.</fileName-error>
-      <constraint-violation>Nút hiện tại không cho phép thêm mới kiểu nút là '{0}'</constraint-violation>
+      <constraint-violation>Nút hiện tại không cho phép thêm mới kiểu nút là ''{0}''</constraint-violation>
       <repository-exception>Truy cập bị từ chối. Bạn không được phân quyền thêm mới symlink cho nút này.</repository-exception>
       <numberformat-exception>Bạn không thể lưu thư mục này. Tên cung cấp phải ở định dạng chữ số.</numberformat-exception>
       <path-node-invalid>Vui lòng nhập đường dẫn.</path-node-invalid>
@@ -2282,11 +2282,11 @@
       <SelectDocument>Chọn Tài liệu</SelectDocument>
     </action>
     <msg>
-      <addFolder-successful>Thêm thành công symlink '{0}'.</addFolder-successful>
+      <addFolder-successful>Thêm thành công symlink ''{0}''.</addFolder-successful>
       <name-invalid>Vui lòng nhập tên symlink.</name-invalid>
       <name-not-allowed>Tên này không được phép.</name-not-allowed>
       <fileName-error>Tên tệp không hợp lệ.</fileName-error>
-      <constraint-violation>Không thể thêm kiểu nút '{0}' vào nút hiện tại.</constraint-violation>
+      <constraint-violation>Không thể thêm kiểu nút ''{0}'' vào nút hiện tại.</constraint-violation>
       <repository-exception>Truy cập bị từ chối. Bạn không được phân quyền để thêm symlink vào nút này.</repository-exception>
       <numberformat-exception>Bạn không thể lưu thư mục này. Tên cung cấp phải ở định dạng số.</numberformat-exception>
       <path-node-invalid>Vui lòng nhập đường dẫn.</path-node-invalid>
@@ -2319,9 +2319,9 @@
 
   <UIWorkingArea>
     <msg>
-      <create-link-problem>Bạn không thể tạo liên kết cho nút '{0}' tại '{1}'.</create-link-problem>
-      <dest-node-is-link>Nút điểm đến '{0}' đã là một symlink. Vì vậy, bạn không thể tạo symlink bên trong nó.</dest-node-is-link>
-      <selected-is-link>Nút được chọn '{0}' đã là một symlink. Vì vậy, bạn không thể tạo một liên kết trỏ tới một liên kết khác.</selected-is-link>
+      <create-link-problem>Bạn không thể tạo liên kết cho nút ''{0}'' tại ''{1}''.</create-link-problem>
+      <dest-node-is-link>Nút điểm đến ''{0}'' đã là một symlink. Vì vậy, bạn không thể tạo symlink bên trong nó.</dest-node-is-link>
+      <selected-is-link>Nút được chọn ''{0}'' đã là một symlink. Vì vậy, bạn không thể tạo một liên kết trỏ tới một liên kết khác.</selected-is-link>
       <confirm-create-link>Bạn có muốn tạo liên kết đến vị trí này không?</confirm-create-link>
     </msg>
   </UIWorkingArea>
@@ -2469,7 +2469,7 @@
 
   <UIDocumentForm>
     <msg>
-      <do-not-permission>Bạn không có quyền để tải mẫu '{0}'.</do-not-permission>
+      <do-not-permission>Bạn không có quyền để tải mẫu ''{0}''.</do-not-permission>
     </msg>
   </UIDocumentForm>
 
@@ -2491,7 +2491,7 @@
 
   <UIPopupMenu>
     <msg>
-      <can-not-unlock-node-is-checked-in>Không thể mở khóa vì nút '{0}' hoặc cha của '{0}' đang được checkin.</can-not-unlock-node-is-checked-in>
+      <can-not-unlock-node-is-checked-in>Không thể mở khóa vì nút ''{0}'' hoặc cha của ''{0}'' đang được checkin.</can-not-unlock-node-is-checked-in>
     </msg>
   </UIPopupMenu>
 
@@ -3104,7 +3104,7 @@
   </UIWatchDocumentForm>   
   <UIActionForm>
     <msg>
-      <xss-vulnerability-character>Trường '{0}' có chứa các ký tự không hợp lệ</xss-vulnerability-character>
+      <xss-vulnerability-character>Trường ''{0}'' có chứa các ký tự không hợp lệ</xss-vulnerability-character>
     </msg>
   </UIActionForm>
   <UIMultiUpload>
