@@ -16,7 +16,7 @@
     </tab>    
     <label>     
       <UITaxonomyManagerTrees>Categorias</UITaxonomyManagerTrees>
-      <UIMetadataManager>Metadata</UIMetadataManager>
+      <UIMetadataManager>Metadados</UIMetadataManager>
       <UINamespaceManager>Espaço para nomes</UINamespaceManager>
       <UINodeTypeManager>Tipos de Nó</UINodeTypeManager>
       <UITemplatesManager>Documentos</UITemplatesManager>
@@ -42,7 +42,7 @@
     <msg>
       <referential-integrity>Não é possível ler a partir do arquivo fonte ou a categoria de destino é uma subcategoria.</referential-integrity>
       <no-taxonomy-selected>Você deve copiar ou colar pelo menos uma categoria.</no-taxonomy-selected>
-      <node-is-cutting>Não é possível copiar aqui. A categoria selecionada '{0}' provavelmente foi movida ou excluída.</node-is-cutting>
+      <node-is-cutting>Não é possível copiar aqui. A categoria selecionada ''{0}'' provavelmente foi movida ou excluída.</node-is-cutting>
       <can-not-paste>Não há dado na área de transferência para ser colado.</can-not-paste>
       <reference-exception>Não é possível excluir esta categoria porque está sendo referenciada por outro conteúdo.</reference-exception>
       <path-error>Um erro ocorreu ao remover essa categoria.</path-error>
@@ -242,14 +242,14 @@
     </title>
     <header>
       <icon>Ícone</icon>
-      <name>Metadata</name>
+      <name>Metadados</name>
       <type>Tipo</type>
       <internalUse>Uso Interno</internalUse>
       <action>Excluir</action>
     </header>
     <msg>
       <confirm-delete>Você deseja realmente excluir este metadado ?</confirm-delete>
-      <delete-successful>Os modelos de '{0}' foram excluídos com sucesso.</delete-successful>
+      <delete-successful>Os modelos de ''{0}'' foram excluídos com sucesso.</delete-successful>
       <path-not-found-exception>Esses metadados foram excluídos ou alterados. Por favor, clique no botão Atualizar.</path-not-found-exception>
     </msg>
     <action>
@@ -361,7 +361,7 @@
       <AddDrive>Adicionar Unidade</AddDrive>
     </action>
     <label>
-      <permission>'{0}' in '{1}'</permission>
+      <permission>''{0}'' in ''{1}''</permission>
     </label>
   </UIDriveList>
   <UIDriveForm>
@@ -560,12 +560,12 @@
       <Close>#{word.close}</Close>
     </action>
     <msg>
-      <register-successfully>O tipo de nó '{0}' foi registrado com êxito</register-successfully>
+      <register-successfully>O tipo de nó ''{0}'' foi registrado com êxito</register-successfully>
       <supertype-is-madatory>Supertipo é obrigatório para registrar um novo tipo de nó. Pelo menos um supertipo deve ser escolhido.</supertype-is-madatory>
       <register-failed>O registro do tipo de nó não funcionou. Ele já existe ou o super tipo é inválido</register-failed>
       <nodeType-name>Nome do tipo de nó é obrigatório.</nodeType-name>
       <fileName-invalid>Há alguns caracteres inválidos no nome.</fileName-invalid>
-      <node-type-exists>O tipo de nó '{0}' já existe!</node-type-exists>
+      <node-type-exists>O tipo de nó ''{0}'' já existe!</node-type-exists>
       <node-type-name>Nome do tipo de nó inválido!</node-type-name>
       <values-error>Selecione apenas um tipo de nó para o tipo padrão primário.</values-error>
       <confirm-delete-child>Deseja mesmo excluir esse nó filho?</confirm-delete-child>
@@ -668,8 +668,8 @@
       <filename-error>Navegar pelos arquivos para importação.</filename-error>
       <data-file-error>Apenas arquivos .xml ou .zip podem ser importados.</data-file-error>
       <data-invalid>Dado inválido. Por favor, verifique o tipo de arquivo e tente novamente.</data-invalid>
-      <nodetype-exist>O tipo de nó '{0}' já existe.</nodetype-exist>
-      <namespace-invalid>Dado inválido: espaço de nomes '{0}' desconhecido.</namespace-invalid>
+      <nodetype-exist>O tipo de nó ''{0}'' já existe.</nodetype-exist>
+      <namespace-invalid>Dado inválido: espaço de nomes ''{0}'' desconhecido.</namespace-invalid>
     </msg>
   </UINodeTypeUpload>
   <!--
@@ -767,9 +767,9 @@
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <action-type-added>O tipo de ação '{0}' foi adicionado com sucesso.</action-type-added>
+      <action-type-added>O tipo de ação ''{0}'' foi adicionado com sucesso.</action-type-added>
       <action-type-create-error>Ocorreu um erro enquanto criava o tipo de ação.</action-type-create-error>
-      <action-name-invalid>'{0}' inválido ! O nome deve começar com 'exo:'.</action-name-invalid>
+      <action-name-invalid>''{0}'' inválido ! O nome deve começar com ''exo:''.</action-name-invalid>
       <action-exist>Essa ação já existe no sistema ECM.</action-exist>
       <fileName-invalid>Há caracteres inválidos no nome da ação</fileName-invalid>
     </msg>
@@ -874,7 +874,7 @@
 <UIViewPermissionList>
  <title>Selecione o Proprietário com permissões para esta visualização:</title>
 <label>
- <permission>'{0}' in '{1}'</permission>
+ <permission>''{0}'' in ''{1}''</permission>
 </label>
 <msg>
  <confirm-delete>Tem certeza que deseja excluir esta permissão?</confirm-delete>
@@ -887,7 +887,7 @@
                            <Delete>Excluir</Delete>
                          </title>
  <header>
-<friendlyPermission>Permissions</friendlyPermission>
+<friendlyPermission>Permissões</friendlyPermission>
      <action>Ação</action>
  </header>
 <action>
@@ -910,7 +910,7 @@
  <userOrGroup>Usuário ou Grupo</userOrGroup>
 </label>
 <msg>
- <permission-exist>A permissão '{0}' já existe na lista.</permission-exist>
+ <permission-exist>A permissão ''{0}'' já existe na lista.</permission-exist>
 </msg>
 </UIViewPermissionForm>
 
@@ -958,7 +958,7 @@
       <addDocument>Adicionar documento</addDocument>
       <editDocument>Editar documento</editDocument>
       <upload>Enviar</upload>
-      <paste>Paste</paste>
+      <paste>Colar</paste>
       <search>Buscar</search>
       <viewReferences>Ver referências</viewReferences>
       <viewNodeType>Visualizar tipo de nó</viewNodeType>
@@ -1058,7 +1058,7 @@
       <template-in-use>Não é possível excluir o template {0}: Pois está sendo usado.</template-in-use>
       <confirm-delete>Deseja realmente excluir?</confirm-delete>
       <access-denied>Acesso negado! Você não tem permissão para usar essa função.</access-denied>
-      <delete-permission-denied>Você não tem permissão para excluir o modelo '{0}'.</delete-permission-denied>
+      <delete-permission-denied>Você não tem permissão para excluir o modelo ''{0}''.</delete-permission-denied>
     </msg>
   </UIECMTemplateList>
   <!--
@@ -1077,9 +1077,9 @@
     <msg>
       <version-restored>A versão {0} foi restaurada com sucesso.</version-restored>
       <role-require>Por favor, selecione uma permissão.</role-require>
-      <template-name-exist>O nome do modelo '{0}' já existe.</template-name-exist>
+      <template-name-exist>O nome do modelo ''{0}'' já existe.</template-name-exist>
       <add-permission-denied>Você não tem permissão para adicionar um novo template.</add-permission-denied>
-      <edit-permission-denied>Você não tem permissão para modificar modelo '{0}'.</edit-permission-denied>
+      <edit-permission-denied>Você não tem permissão para modificar modelo ''{0}''.</edit-permission-denied>
     </msg>
     <tab>
       <label>
@@ -1191,7 +1191,7 @@
     <msg>
       <version-restored>A versão {0} foi restaurada com sucesso.</version-restored>
       <name-null>Por favor coloque o nome do script.</name-null>
-      <name-exist>Um script com nome '{0}' já existe.</name-exist>
+      <name-exist>Um script com nome ''{0}'' já existe.</name-exist>
       <fileName-invalid>Nome do script tem alguns caracteres inválidos.</fileName-invalid>
     </msg>
   </UIScriptForm>
@@ -1207,7 +1207,7 @@
   </ScriptContainerPopup>
   <UIScriptForm>
     <label>
-      <selectVersion>Versions</selectVersion>
+      <selectVersion>Versões</selectVersion>
       <scriptContent>Conteúdo</scriptContent>
       <scriptLabel>Nome</scriptLabel>
       <scriptName>Script</scriptName>
@@ -1465,7 +1465,7 @@
       <selectUser>Selecionar usuário</selectUser>
     </label>
     <msg>
-      <not-change-owner>'{0}' é dono desse nó e possui todos os controle s de permissão.</not-change-owner>
+      <not-change-owner>''{0}'' é dono desse nó e possui todos os controle s de permissão.</not-change-owner>
     </msg>
   </UIGroupSelector>
   <UIPermissionForm>
@@ -1820,7 +1820,7 @@
       <action>Ações</action>
     </header>
     <msg>
-      <undeletable>'{0}' não pode ser excluído, pois ele é padrão.</undeletable>
+      <undeletable>''{0}'' não pode ser excluído, pois ele é padrão.</undeletable>
       <confirm-delete>Deseja realmente excluir?</confirm-delete>
     </msg>
     <action>
@@ -1843,7 +1843,7 @@
       <action>Ações</action>
     </header>
     <msg>
-      <undeletable>'{0}' não pode ser excluído, pois ele é padrão.</undeletable>
+      <undeletable>''{0}'' não pode ser excluído, pois ele é padrão.</undeletable>
       <confirm-delete>Deseja realmente excluir?</confirm-delete>
     </msg>
     <action>
@@ -1869,7 +1869,7 @@
       <name-invalid>O campo nome não pode conter caracteres especiais.</name-invalid>
       <roles-invalid>O campo de permissão não pode estar vazio.</roles-invalid>
       <version-restored>A versão {0} foi restaurada com sucesso.</version-restored>
-      <name-exist>O nome '{0}' já existe.</name-exist>
+      <name-exist>O nome ''{0}'' já existe.</name-exist>
     </msg>
     <title>
       <AddPermission>Adicionar permissão</AddPermission>
@@ -1910,7 +1910,7 @@
     <header>
       <name>Nome</name>
       <type>Tipo</type>
-      <statement>Statement</statement>
+      <statement>Declaração</statement>
       <permission>Permissões</permission>
       <action>Ações</action>
     </header>
@@ -1931,7 +1931,7 @@
     <label>
       <name>Nome da consulta</name>
       <type>Tipo da consulta</type>
-      <statement>Statement</statement>
+      <statement>Declaração</statement>
       <cache>Habilitar cache de resultados</cache>
       <permissions>Permissões</permissions>
       <PermissionButton>UIQueriesForm</PermissionButton>
@@ -2018,13 +2018,13 @@
   -->
   <ECMNameValidator>
     <msg>
-      <Invalid-char>O campo '{0}' tem alguns caracteres inválidos. Por favor, digite outros caracteres.</Invalid-char>
-      <empty-input>O valor do campo '{0}' é nulo ou vazio.</empty-input>
+      <Invalid-char>O campo ''{0}'' tem alguns caracteres inválidos. Por favor, digite outros caracteres.</Invalid-char>
+      <empty-input>O valor do campo ''{0}'' é nulo ou vazio.</empty-input>
     </msg>
   </ECMNameValidator>
   <EmptyFieldValidator>
     <msg>
-      <empty-input>Coloque um valor no campo '{0}', por favor.</empty-input>
+      <empty-input>Coloque um valor no campo ''{0}'', por favor.</empty-input>
     </msg>
   </EmptyFieldValidator>
   <!--
@@ -2034,7 +2034,7 @@
   -->
   <PermissionValidator>
   <msg>
-      <permission-path-invalid>A permissão '{0}' é inválida.</permission-path-invalid>
+      <permission-path-invalid>A permissão ''{0}'' é inválida.</permission-path-invalid>
   </msg>
   </PermissionValidator>
   <!--
@@ -2105,7 +2105,7 @@
       <Delete>Excluir</Delete>
     </title>
 <label>
-  <permission>'{0}' in '{1}'</permission>
+  <permission>''{0}'' in ''{1}''</permission>
 </label>
   </UIViewContainer>
   <ECMTemplate>
@@ -2203,7 +2203,7 @@
   
   <UIDriveForm>
 <msg>
-  <permission-path-invalid>A permissão '{0}' é inválida.</permission-path-invalid>
+  <permission-path-invalid>A permissão ''{0}'' é inválida.</permission-path-invalid>
   </msg>
   </UIDriveForm>
   
@@ -2355,7 +2355,7 @@
       <action>Ações</action>
     </header>
     <msg>
-      <undeletable>Você não pode excluir '{0}', pois ele é padrão.</undeletable>
+      <undeletable>Você não pode excluir ''{0}'', pois ele é padrão.</undeletable>
       <confirm-delete>Deseja realmente excluir?</confirm-delete>
     </msg>
     <action>
@@ -2419,7 +2419,7 @@
 <NextViewTree>Próximo</NextViewTree>
 </action>
   <msg>
-    <xss-vulnerability-character>Campo '{0}' contém caracteres de vulnerabilidade XSS</xss-vulnerability-character>
+    <xss-vulnerability-character>Campo ''{0}'' contém caracteres de vulnerabilidade XSS</xss-vulnerability-character>
 <xss-vulnerability-character-wo-label>Sua entrada de dados pode conter caracteres de vulnerabilidade XSS</xss-vulnerability-character-wo-label>
   </msg>
 </UIActionForm>
@@ -2496,7 +2496,7 @@
   </NodeTypeNameValidator>
   <UIActionForm>
     <msg>
-      <constraint-violation-exception>O nó '{0}' não pode ser adicionado a '{1}' no no espaço de trabalho '{2}'. Há um problema com permissões ou condições de restrição.</constraint-violation-exception>
+      <constraint-violation-exception>O nó ''{0}'' não pode ser adicionado a ''{1}'' no no espaço de trabalho ''{2}''. Há um problema com permissões ou condições de restrição.</constraint-violation-exception>
     </msg>
   </UIActionForm>
   
@@ -2543,7 +2543,7 @@
   </UINodeTypeSelector>
   <UIScriptForm>
     <msg>
-      <PathNotFoundException>O script já existe na pasta '{0}'</PathNotFoundException>      
+      <PathNotFoundException>O script já existe na pasta ''{0}''</PathNotFoundException>      
     </msg>
   </UIScriptForm>
  <UINodeTypeList>
