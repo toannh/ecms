@@ -6,12 +6,12 @@
       <in-versioning>ノードを追加する前に現在のノードをチェックアウトする必要があります。</in-versioning>
       <cannot-save>アクション中に制約が破られました。</cannot-save>
       <saved-successfully>{0}</saved-successfully>
-      <not-support>'{0}' のテンプレートがロードできません。</not-support>
+      <not-support>''{0}'' のテンプレートがロードできません。</not-support>
       <not-add-folder>このフォルダーに追加できるのは、ファイルだけです。</not-add-folder>
-      <access-denied>アクセスが拒否されました！ '{0}' への権限がありません。</access-denied>
-      <path-not-found>パス '{0}' は削除されたか、不正なパスです。</path-not-found>
-      <node-locked>ノード '{0}' はロックされています。ドキュメントを作成する前にアンロックしてください。</node-locked>
-      <node-isExist>このノードは既に '{0}' に存在しています。同じ名前の兄弟要素は許可されません</node-isExist>
+      <access-denied>アクセスが拒否されました！ ''{0}'' への権限がありません。</access-denied>
+      <path-not-found>パス ''{0}'' は削除されたか、不正なパスです。</path-not-found>
+      <node-locked>ノード ''{0}'' はロックされています。ドキュメントを作成する前にアンロックしてください。</node-locked>
+      <node-isExist>このノードは既に ''{0}'' に存在しています。同じ名前の兄弟要素は許可されません</node-isExist>
       <get-dialog-path>ダイアログパスを得る際にエラー</get-dialog-path>
       <new-jcr-template>新しい newJCRTemplateResourceResolver を作成する際にエラー</new-jcr-template>
     </msg>
@@ -70,7 +70,7 @@
       <empty>アクションがありません</empty>
       <remove-popup-first>このノードを削除する前に編集ポップアップを閉じてください。</remove-popup-first>
       <confirm-delete-action>本当にこのアクションを削除しますか？</confirm-delete-action>
-      <template-empty>'{0}' のテンプレートが null または空です。</template-empty>
+      <template-empty>''{0}'' のテンプレートが null または空です。</template-empty>
       <template-null>テンプレートが null またはこのテンプレートへのアクセス権がありません。</template-null>
       <access-denied>アクセスが拒否されました！このアクションを実行するための権限がありません。</access-denied>
     </msg>
@@ -121,10 +121,10 @@
     <msg>
       <repository-exception>アクションを保存できません。名前の最後の要素にインデックスを付けないでください。</repository-exception>
       <numberformat-exception>アクションを保存できません。名前には '[' や ']' を含まないでください。</numberformat-exception>
-      <existed-action>アクション名 '{0}' は既に存在します。別の名前を選んでください！</existed-action>
+      <existed-action>アクション名 ''{0}'' は既に存在します。別の名前を選んでください！</existed-action>
       <unable-add-action>アクションを追加することができません。</unable-add-action>
       <unable-add>アクションを追加することができません！ ルートノードである、もしくは権限が不足しています。</unable-add>
-      <not-support>ダイアログ '{0}' はサポートされません。</not-support>
+      <not-support>ダイアログ ''{0}'' はサポートされません。</not-support>
       <no-permission-add>アクセスが拒否されました！ アクションを追加する権限がありません。</no-permission-add>
       <access-denied>アクセスが拒否されました！ このテンプレートにアクセスする権限がありません。</access-denied>
     </msg>
@@ -139,8 +139,8 @@
       <actionType>タイプのアクションの作成</actionType>
     </label>
     <msg>
-      <not-support>'{0}' のテンプレートがロードできません。</not-support>
-      <do-not-permission>'{0}' のテンプレートをロードする権限がありません。</do-not-permission>
+      <not-support>''{0}'' のテンプレートがロードできません。</not-support>
+      <do-not-permission>''{0}'' のテンプレートをロードする権限がありません。</do-not-permission>
     </msg>
   </UIFCCActionTypeForm>
 
@@ -154,7 +154,7 @@
 
   <DateTimeValidator>
     <msg>
-      <Invalid-input>フィールド '{0}' の値 '{1}' は不正です</Invalid-input>
+      <Invalid-input>フィールド ''{0}'' の値 ''{1}'' は不正です</Invalid-input>
     </msg>
   </DateTimeValidator>
 

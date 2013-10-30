@@ -42,7 +42,7 @@
     <msg>
       <referential-integrity>ソースフォルダから読めないか、目的のカテゴリはサブカテゴリです。</referential-integrity>
       <no-taxonomy-selected>少なくとも一つのカテゴリのコピーかカットをする必要があります。</no-taxonomy-selected>
-      <node-is-cutting>ここに貼付けることができません。恐らく、分類ノード '{0}' はカットされています。</node-is-cutting>
+      <node-is-cutting>ここに貼付けることができません。恐らく、分類ノード ''{0}'' はカットされています。</node-is-cutting>
       <can-not-paste>貼付けるためのクリップボードにデータがありません。</can-not-paste>
       <reference-exception>Cannot delete this category  because it is currently referenced by a content.</reference-exception>
       <path-error>分類ノードが削除されたので問題が発生している可能性があります。</path-error>
@@ -249,7 +249,7 @@
     </header>
     <msg>
       <confirm-delete>本当に削除したいですか?</confirm-delete>
-      <delete-successful>'{0}' のテンプレートは削除されました。</delete-successful>
+      <delete-successful>''{0}'' のテンプレートは削除されました。</delete-successful>
       <path-not-found-exception>このメタデータは、削除または変更されました。[更新] ボタンをクリックしてください。</path-not-found-exception>
     </msg>
     <action>
@@ -560,12 +560,12 @@
       <Close>#{word.close}</Close>
     </action>
     <msg>
-      <register-successfully>ノードタイプ '{0}' は登録されました。</register-successfully>
+      <register-successfully>ノードタイプ ''{0}'' は登録されました。</register-successfully>
       <supertype-is-madatory>Superタイプは新しいノードタイプを登録するのに必須です。少なくとも一つのSuperタイプを選択してください。</supertype-is-madatory>
       <register-failed>ノードタイプ登録に失敗しました。存在するか、Superタイプが無効です。</register-failed>
       <nodeType-name>ノードタイプ名は必須です。</nodeType-name>
       <fileName-invalid>名前に無効な文字が含まれます。</fileName-invalid>
-      <node-type-exists>ノードタイプ '{0}' は既に存在します。</node-type-exists>
+      <node-type-exists>ノードタイプ ''{0}'' は既に存在します。</node-type-exists>
       <node-type-name>ノードタイプ名は無効です。</node-type-name>
       <values-error>デフォルトプライマリタイプの為に一つのノードを選択</values-error>
       <confirm-delete-child>子ノードを削除しますか？</confirm-delete-child>
@@ -668,8 +668,8 @@
       <filename-error>インポートの為にノードタイプファイルをブラウズ</filename-error>
       <data-file-error>XMLファイルもしくはZIPファイルのみインポートすることがサポートされます。</data-file-error>
       <data-invalid>タンプノードをインポートする際の無効なデータ</data-invalid>
-      <nodetype-exist>無効なデータ：ノードタイプは存在します : '{0}'</nodetype-exist>
-      <namespace-invalid>無効なデータ:  不明なネームスペース : '{0}'</namespace-invalid>
+      <nodetype-exist>無効なデータ：ノードタイプは存在します : ''{0}''</nodetype-exist>
+      <namespace-invalid>無効なデータ:  不明なネームスペース : ''{0}''</namespace-invalid>
     </msg>
   </UINodeTypeUpload>
   <!--
@@ -767,9 +767,9 @@
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <action-type-added>'{0}' は追加されます。.</action-type-added>
+      <action-type-added>''{0}'' は追加されます。.</action-type-added>
       <action-type-create-error>アクションタイプを作成できません！</action-type-create-error>
-      <action-name-invalid>'{0}' は無効です。名前は 'exo:' で始める必要があります。</action-name-invalid>
+      <action-name-invalid>''{0}'' は無効です。名前は ''exo:'' で始める必要があります。</action-name-invalid>
       <action-exist>このアクションはECMシステム内に存在します。</action-exist>
       <fileName-invalid>アクション名の中に無効な文字があります。</fileName-invalid>
     </msg>
@@ -910,7 +910,7 @@
  <userOrGroup>ユーザorグループ</userOrGroup>
 </label>
 <msg>
- <permission-exist>アクセス権限 '{0}' は、既に存在しています。</permission-exist>
+ <permission-exist>アクセス権限 ''{0}'' は、既に存在しています。</permission-exist>
 </msg>
 </UIViewPermissionForm>
 
@@ -1058,7 +1058,7 @@
       <template-in-use>{0} を削除できません: テンプレートは利用されています。</template-in-use>
       <confirm-delete>本当に削除したいですか?</confirm-delete>
       <access-denied>アクセスできません！権限がありません</access-denied>
-      <delete-permission-denied>'{0}' テンプレートを削除する権限がありません。</delete-permission-denied>
+      <delete-permission-denied>''{0}'' テンプレートを削除する権限がありません。</delete-permission-denied>
     </msg>
   </UIECMTemplateList>
   <!--
@@ -1077,9 +1077,9 @@
     <msg>
       <version-restored>バージョン {0} はリストアされました。</version-restored>
       <role-require>権限を選択する必要があります</role-require>
-      <template-name-exist>テンプレート名 '{0}' は存在します。</template-name-exist>
+      <template-name-exist>テンプレート名 ''{0}'' は存在します。</template-name-exist>
       <add-permission-denied>You do not have permission to add new template.</add-permission-denied>
-      <edit-permission-denied>'{0}' テンプレートを変更する権限がありません。</edit-permission-denied>
+      <edit-permission-denied>''{0}'' テンプレートを変更する権限がありません。</edit-permission-denied>
     </msg>
     <tab>
       <label>
@@ -1191,7 +1191,7 @@
     <msg>
       <version-restored>バージョン {0} のリストアに成功しました。</version-restored>
       <name-null>スクリプト名を入力してください。</name-null>
-      <name-exist>スクリプト '{0}' は既に存在します。</name-exist>
+      <name-exist>スクリプト ''{0}'' は既に存在します。</name-exist>
       <fileName-invalid>無効な文字がスクリプト名にあります。</fileName-invalid>
     </msg>
   </UIScriptForm>
@@ -1465,7 +1465,7 @@
       <selectUser>ユーザの選択</selectUser>
     </label>
     <msg>
-      <not-change-owner>'{0}' はこのノードのオーナーで全てのコントロール権限を持ちます。</not-change-owner>
+      <not-change-owner>''{0}'' はこのノードのオーナーで全てのコントロール権限を持ちます。</not-change-owner>
     </msg>
   </UIGroupSelector>
   <UIPermissionForm>
@@ -1820,7 +1820,7 @@
       <action>アクション</action>
     </header>
     <msg>
-      <undeletable>'{0}' は削除できません。デフォルトです。</undeletable>
+      <undeletable>''{0}'' は削除できません。デフォルトです。</undeletable>
       <confirm-delete>本当に削除したいですか?</confirm-delete>
     </msg>
     <action>
@@ -1843,7 +1843,7 @@
       <action>アクション</action>
     </header>
     <msg>
-      <undeletable>'{0}' は削除できません。デフォルトです。</undeletable>
+      <undeletable>''{0}'' は削除できません。デフォルトです。</undeletable>
       <confirm-delete>本当に削除したいですか ?</confirm-delete>
     </msg>
     <action>
@@ -1869,7 +1869,7 @@
       <name-invalid>フィールド名は、特殊文字を含むことができません。</name-invalid>
       <roles-invalid>権限フィールドは空にできません。</roles-invalid>
       <version-restored>バージョン {0} はリストアに成功しました。</version-restored>
-      <name-exist>名前 '{0}' は存在します。'nt:file'に存在する同じ名前のファイルはアップロード出来ません。</name-exist>
+      <name-exist>名前 ''{0}'' は存在します。''nt:file''に存在する同じ名前のファイルはアップロード出来ません。</name-exist>
     </msg>
     <title>
       <AddPermission>権限の追加</AddPermission>
@@ -2018,13 +2018,13 @@
   -->
   <ECMNameValidator>
     <msg>
-      <Invalid-char>無効な文字列がフィールド '{0}' にあります。</Invalid-char>
-      <empty-input>フィールド '{0}' の値はnullか空です。</empty-input>
+      <Invalid-char>無効な文字列がフィールド ''{0}'' にあります。</Invalid-char>
+      <empty-input>フィールド ''{0}'' の値はnullか空です。</empty-input>
     </msg>
   </ECMNameValidator>
   <EmptyFieldValidator>
     <msg>
-      <empty-input>フィードル '{0}' に値を入力してください。</empty-input>
+      <empty-input>フィードル ''{0}'' に値を入力してください。</empty-input>
     </msg>
   </EmptyFieldValidator>
   <!--
@@ -2034,7 +2034,7 @@
   -->
   <PermissionValidator>
   <msg>
-      <permission-path-invalid>アクセス権限 '{0}' は無効です。</permission-path-invalid>
+      <permission-path-invalid>アクセス権限 ''{0}'' は無効です。</permission-path-invalid>
   </msg>
   </PermissionValidator>
   <!--
@@ -2355,7 +2355,7 @@
       <action>アクション</action>
     </header>
     <msg>
-      <undeletable>'{0}' は削除する事が出来ません。デフォルトです。</undeletable>
+      <undeletable>''{0}'' は削除する事が出来ません。デフォルトです。</undeletable>
       <confirm-delete>本当に削除しますか？</confirm-delete>
     </msg>
     <action>
@@ -2419,7 +2419,7 @@
 <NextViewTree>次へ</NextViewTree>
 </action>
   <msg>
-    <xss-vulnerability-character>フィールド'{0}'は、クロスサイトスクリプティングの脆弱性文字が含まれています。</xss-vulnerability-character>
+    <xss-vulnerability-character>フィールド''{0}''は、クロスサイトスクリプティングの脆弱性文字が含まれています。</xss-vulnerability-character>
 <xss-vulnerability-character-wo-label>Your input may contain XSS vulnerability characters</xss-vulnerability-character-wo-label>
   </msg>
 </UIActionForm>
@@ -2496,7 +2496,7 @@
   </NodeTypeNameValidator>
   <UIActionForm>
     <msg>
-      <constraint-violation-exception>ワークスペース'{2}'の'{1}に'{0}'を追加できません。</constraint-violation-exception>
+      <constraint-violation-exception>ワークスペース''{2}''の''{1}に''{0}''を追加できません。</constraint-violation-exception>
     </msg>
   </UIActionForm>
   
@@ -2543,7 +2543,7 @@
   </UINodeTypeSelector>
   <UIScriptForm>
     <msg>
-      <PathNotFoundException>スクリプトは '{0}' フォルダに既に存在します。</PathNotFoundException>      
+      <PathNotFoundException>スクリプトは ''{0}'' フォルダに既に存在します。</PathNotFoundException>      
     </msg>
   </UIScriptForm>
  <UINodeTypeList>
