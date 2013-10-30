@@ -9,7 +9,7 @@
       <not-support>Vorlage für "{0}" kann nicht geladen werden.</not-support>
       <not-add-folder>Diesem Ordner können nur Dateien hinzugefügt werden.</not-add-folder>
       <access-denied>Zugriff verweigert. Sie haben nicht die Berechtigung etwas bei "{0}" hinzuzufügen.</access-denied>
-      <path-not-found>Der Pfad '{0}' wurde gelöscht oder ist ungültig.</path-not-found>
+      <path-not-found>Der Pfad ''{0}'' wurde gelöscht oder ist ungültig.</path-not-found>
       <node-locked>Der Knoten "{0}" ist gesperrt. Bitte entsperren Sie diesen Knoten vor dem Erstellen von Dokumenten.</node-locked>
       <node-isExist>Dieser Knoten ist in "{0}" bereits vorhanden und es ist nicht erlaubt, den gleichen Namen wie dort zu verwenden.</node-isExist>
       <get-dialog-path>Fehler beim Abrufen des Dialogpfads.</get-dialog-path>
@@ -70,7 +70,7 @@
       <empty>Keine Aktionen</empty>
       <remove-popup-first>Sie müssen das Bearbeiten-Popup-Fenster schließen, vor dem Löschen dieses Knotens.</remove-popup-first>
       <confirm-delete-action>Möchten Sie diese Aktion wirklich löschen?</confirm-delete-action>
-      <template-empty>Die Vorlage von '{0}' ist unbekannt oder leer.</template-empty>
+      <template-empty>Die Vorlage von ''{0}'' ist unbekannt oder leer.</template-empty>
       <template-null>Die Vorlage ist unbekannt oder leer, oder Sie haben keine Berechtigung auf diese Vorlage zuzugreifen.</template-null>
       <access-denied>Zugriff verweigert. Sie haben keine Berechtigung, diesen Vorgang durchzuführen.</access-denied>
     </msg>
@@ -140,7 +140,7 @@
     </label>
     <msg>
       <not-support>Die Vorlage von "{0}" kann nicht geladen werden.</not-support>
-      <do-not-permission>Sie haben keine Berechtigung zum Laden der Vorlage '{0}'.</do-not-permission>
+      <do-not-permission>Sie haben keine Berechtigung zum Laden der Vorlage ''{0}''.</do-not-permission>
     </msg>
   </UIFCCActionTypeForm>
 
