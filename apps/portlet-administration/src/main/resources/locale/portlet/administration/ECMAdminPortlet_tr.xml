@@ -42,7 +42,7 @@
     <msg>
       <referential-integrity>Kaynak dosyadan okunamıyor veya hedef katagori bir alt katagori.</referential-integrity>
       <no-taxonomy-selected>Kopyalama veya kesmek için en az bir kategori gerekir.</no-taxonomy-selected>
-      <node-is-cutting>Buraya yapıştırılamıyor. '{0}' Kategori düğümü kesilmiş olabilir.</node-is-cutting>
+      <node-is-cutting>Buraya yapıştırılamıyor. ''{0}'' Kategori düğümü kesilmiş olabilir.</node-is-cutting>
       <can-not-paste>Panoya yapıştırmak için herhangi bir veri yok.</can-not-paste>
       <reference-exception>Bu katagori silinemiyor çünkü bir içerikte başvuru yapılmış.</reference-exception>
       <path-error>Bu kategori düğümü kaldırılırken bir hata oluştu.</path-error>
@@ -249,7 +249,7 @@
     </header>
     <msg>
       <confirm-delete>Bu metaverileri silmek istediğinizden emin misiniz?</confirm-delete>
-      <delete-successful>'{0}' Şablonu başarıyla silindi.</delete-successful>
+      <delete-successful>''{0}'' Şablonu başarıyla silindi.</delete-successful>
       <path-not-found-exception>Bu metaveriler değiştirildi veya silindi. Lütfen Yenile düğmesini tıklatın.</path-not-found-exception>
     </msg>
     <action>
@@ -560,12 +560,12 @@
       <Close>#{word.close}</Close>
     </action>
     <msg>
-      <register-successfully>'{0}' Düğüm türü başarıyla kaydedildi.</register-successfully>
+      <register-successfully>''{0}'' Düğüm türü başarıyla kaydedildi.</register-successfully>
       <supertype-is-madatory>Yeni bir öğe türü kaydettiğinizde süper tür zorunludur.Lütfen en az bir süper tür seçin.</supertype-is-madatory>
       <register-failed>Düğüm türü kaydı başarısız oldu. Ya zaten var veya süper türü geçersiz.</register-failed>
       <nodeType-name>Düğüm türü adı gereklidir.</nodeType-name>
       <fileName-invalid>Dosya adında geçersiz bir karakter var.</fileName-invalid>
-      <node-type-exists>'{0}' Düğüm türü zaten var.</node-type-exists>
+      <node-type-exists>''{0}'' Düğüm türü zaten var.</node-type-exists>
       <node-type-name>Düğüm türü adı geçerli değil.</node-type-name>
       <values-error>Lütfen varsayılan birincil türü için yalnızca tek bir düğüm türü seçin.</values-error>
       <confirm-delete-child>Bu alt düğümü silmek istediğinizden emin misiniz?</confirm-delete-child>
@@ -668,8 +668,8 @@
       <filename-error>İçe aktarmak için bir düğüm türü bulun.</filename-error>
       <data-file-error>Sadece .zip veya .xml dosyaları içe aktarılabilir.</data-file-error>
       <data-invalid>Verileri geçersiz. Lütfen dosya türünü denetleyin ve yeniden deneyin.</data-invalid>
-      <nodetype-exist>'{0}' Düğüm türü zaten var.</nodetype-exist>
-      <namespace-invalid>'{0}' namespace geçersiz.</namespace-invalid>
+      <nodetype-exist>''{0}'' Düğüm türü zaten var.</nodetype-exist>
+      <namespace-invalid>''{0}'' namespace geçersiz.</namespace-invalid>
     </msg>
   </UINodeTypeUpload>
   <!--
@@ -767,9 +767,9 @@
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <action-type-added>'{0}' Eylemi türü başarıyla eklendi.</action-type-added>
+      <action-type-added>''{0}'' Eylemi türü başarıyla eklendi.</action-type-added>
       <action-type-create-error>Eylem türü oluşturulurken bir hata oluştu.</action-type-create-error>
-      <action-name-invalid>'{0}' geçersiz. 'exo:' adı ile başlamalıdır.</action-name-invalid>
+      <action-name-invalid>''{0}'' geçersiz. ''exo:'' adı ile başlamalıdır.</action-name-invalid>
       <action-exist>Bu eylem zaten ECM sistemi bulunmaktadır.</action-exist>
       <fileName-invalid>Eylem adı bazı geçersiz karakterler içeriyor.</fileName-invalid>
     </msg>
@@ -910,7 +910,7 @@
  <userOrGroup>Kullanıcı veya Grup</userOrGroup>
 </label>
 <msg>
- <permission-exist>'{0}' İzni zaten listede var.</permission-exist>
+ <permission-exist>''{0}'' İzni zaten listede var.</permission-exist>
 </msg>
 </UIViewPermissionForm>
 
@@ -1058,7 +1058,7 @@
       <template-in-use>{0} Silemezsiniz. Şu anda kullanımda.</template-in-use>
       <confirm-delete>Bu şablonu silmek istediğinizden emin misiniz?</confirm-delete>
       <access-denied>Erişim engellendi. Bu işlevi kullanmak için izniniz yok.</access-denied>
-      <delete-permission-denied>'{0}' Şablonu silmek için izniniz yok.</delete-permission-denied>
+      <delete-permission-denied>''{0}'' Şablonu silmek için izniniz yok.</delete-permission-denied>
     </msg>
   </UIECMTemplateList>
   <!--
@@ -1077,9 +1077,9 @@
     <msg>
       <version-restored>Sürüm {0} başarıyla geri yüklendi.</version-restored>
       <role-require>Lütfen bir izin seçin.</role-require>
-      <template-name-exist>Şablon adı '{0}' zaten var.</template-name-exist>
+      <template-name-exist>Şablon adı ''{0}'' zaten var.</template-name-exist>
       <add-permission-denied>Yeni şablonu eklemek için izniniz yok.</add-permission-denied>
-      <edit-permission-denied>'{0}' Şablonu üzerinde değişiklik yapma izniniz yok.</edit-permission-denied>
+      <edit-permission-denied>''{0}'' Şablonu üzerinde değişiklik yapma izniniz yok.</edit-permission-denied>
     </msg>
     <tab>
       <label>
@@ -1191,7 +1191,7 @@
     <msg>
       <version-restored>Sürüm {0} başarıyla geri yüklendi.</version-restored>
       <name-null>Lütfen script adını girin.</name-null>
-      <name-exist>Script adı '{0}' zaten.</name-exist>
+      <name-exist>Script adı ''{0}'' zaten.</name-exist>
       <fileName-invalid>Script adında geçersiz bir karakter var.</fileName-invalid>
     </msg>
   </UIScriptForm>
@@ -1465,7 +1465,7 @@
       <selectUser>Kullanıcı Seçin</selectUser>
     </label>
     <msg>
-      <not-change-owner>'{0}' Bu düğümün sahibidir ve tam kontrol iznine sahiptir.</not-change-owner>
+      <not-change-owner>''{0}'' Bu düğümün sahibidir ve tam kontrol iznine sahiptir.</not-change-owner>
     </msg>
   </UIGroupSelector>
   <UIPermissionForm>
@@ -1820,7 +1820,7 @@
       <action>Eylemler</action>
     </header>
     <msg>
-      <undeletable>'{0}' Varsayılan olduğundan silemezsiniz.</undeletable>
+      <undeletable>''{0}'' Varsayılan olduğundan silemezsiniz.</undeletable>
       <confirm-delete>Bu iletişim kutusunu silmek istediğinizden emin misiniz?</confirm-delete>
     </msg>
     <action>
@@ -1843,7 +1843,7 @@
       <action>Eylemler</action>
     </header>
     <msg>
-      <undeletable>'{0}' silinemez, o varsayılan.</undeletable>
+      <undeletable>''{0}'' silinemez, o varsayılan.</undeletable>
       <confirm-delete>Gerçekten silmek istiyor musunuz?</confirm-delete>
     </msg>
     <action>
@@ -2018,13 +2018,13 @@
   -->
   <ECMNameValidator>
     <msg>
-      <Invalid-char>'{0}' Alanında geçersiz bir karakter olabilir. Lütfen başka bir değer yazın.</Invalid-char>
-      <empty-input>'{0}' Alanının değeri boş.</empty-input>
+      <Invalid-char>''{0}'' Alanında geçersiz bir karakter olabilir. Lütfen başka bir değer yazın.</Invalid-char>
+      <empty-input>''{0}'' Alanının değeri boş.</empty-input>
     </msg>
   </ECMNameValidator>
   <EmptyFieldValidator>
     <msg>
-      <empty-input>Lütfen '{0}' alana değer girin.</empty-input>
+      <empty-input>Lütfen ''{0}'' alana değer girin.</empty-input>
     </msg>
   </EmptyFieldValidator>
   <!--
@@ -2034,7 +2034,7 @@
   -->
   <PermissionValidator>
   <msg>
-      <permission-path-invalid>'{0}' izni geçersiz.</permission-path-invalid>
+      <permission-path-invalid>''{0}'' izni geçersiz.</permission-path-invalid>
   </msg>
   </PermissionValidator>
   <!--
@@ -2203,7 +2203,7 @@
   
   <UIDriveForm>
 <msg>
-  <permission-path-invalid>'{0}' izni geçersiz.</permission-path-invalid>
+  <permission-path-invalid>''{0}'' izni geçersiz.</permission-path-invalid>
   </msg>
   </UIDriveForm>
   
@@ -2355,7 +2355,7 @@
       <action>Eylemler</action>
     </header>
     <msg>
-      <undeletable>Varsayılan olduğundan '{0}' silemezsiniz.</undeletable>
+      <undeletable>Varsayılan olduğundan ''{0}'' silemezsiniz.</undeletable>
       <confirm-delete>Bu giydirmeyi silmek istediğinizden emin misiniz?</confirm-delete>
     </msg>
     <action>
@@ -2419,7 +2419,7 @@
 <NextViewTree>Sonraki</NextViewTree>
 </action>
   <msg>
-    <xss-vulnerability-character>'{0}' Alanı XSS açığı karakterler içeriyor</xss-vulnerability-character>
+    <xss-vulnerability-character>''{0}'' Alanı XSS açığı karakterler içeriyor</xss-vulnerability-character>
 <xss-vulnerability-character-wo-label>Giridikleriniz XSS açığı karakterler içeriyor olabilir</xss-vulnerability-character-wo-label>
   </msg>
 </UIActionForm>
@@ -2496,7 +2496,7 @@
   </NodeTypeNameValidator>
   <UIActionForm>
     <msg>
-      <constraint-violation-exception>Düğüm '{0}'  '{2}' çalışma alanındaki '{1}'  eklenemiyor.  İzinler veya kısıtlamalar koşulu ile ilgili bir sorun vardır.</constraint-violation-exception>
+      <constraint-violation-exception>Düğüm ''{0}''  ''{2}'' çalışma alanındaki ''{1}''  eklenemiyor.  İzinler veya kısıtlamalar koşulu ile ilgili bir sorun vardır.</constraint-violation-exception>
     </msg>
   </UIActionForm>
   
@@ -2543,7 +2543,7 @@
   </UINodeTypeSelector>
   <UIScriptForm>
     <msg>
-      <PathNotFoundException>Bu scirpt '{0}' klasöründe zaten var.</PathNotFoundException>      
+      <PathNotFoundException>Bu scirpt ''{0}'' klasöründe zaten var.</PathNotFoundException>      
     </msg>
   </UIScriptForm>
  <UINodeTypeList>

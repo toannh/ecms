@@ -269,12 +269,12 @@
   </EmailAddressValidator>
   <EmptyFieldValidator>
     <msg>
-      <empty-input>'{0}' Alanı gereklidir. Lütfen bir değer girin.</empty-input>
+      <empty-input>''{0}'' Alanı gereklidir. Lütfen bir değer girin.</empty-input>
     </msg>
   </EmptyFieldValidator>
   <NumberFormatValidator>
     <msg>
-      <Invalid-number>'{0}' Alanı geçersiz.</Invalid-number>
+      <Invalid-number>''{0}'' Alanı geçersiz.</Invalid-number>
     </msg>
   </NumberFormatValidator>
   <!--
