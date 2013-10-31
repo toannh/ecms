@@ -935,7 +935,7 @@
     <label>
       <viewName>Nome</viewName>
       <template>Modelo</template>
-<version>Restore Version</version>
+<version>Restaurar versão</version>
       <enableVersion>Ativar a versão</enableVersion>
       <hideExplorerPanel>Esconder painel de visualização na barra lateral</hideExplorerPanel>
     </label>
@@ -947,7 +947,7 @@
       <fileName-invalid>O nome da aba contém caracteres inválidos.</fileName-invalid>
     </msg>
     <label>
-      <version>Restore Version</version>
+      <version>Restaurar versão</version>
       <viewName>Nome</viewName>
       <tabName>Nome da aba</tabName>
       <permission>Permissão</permission>
@@ -982,12 +982,12 @@
       <comment>Comentário</comment>
       <vote>Votar</vote>  
       <addCategory>Adicionar Categoria</addCategory>
-      <addLocalizationLink>Add Translation</addLocalizationLink>
+      <addLocalizationLink>Adicionar tradução</addLocalizationLink>
       <publicationRequestApproval>Requer aprovação</publicationRequestApproval>
       <publicationApproveContent>Aprovar conteúdo</publicationApproveContent>
       <publicationPublish>Publicar</publicationPublish>
 <contentNavigation>Navegação do conteúdo</contentNavigation>
-<addSymLink>Add Symlink</addSymLink>
+<addSymLink>Adicionar link simbólico</addSymLink>
     </label>
     <action>
       <Save>#{word.save}</Save>      
@@ -2154,13 +2154,13 @@
   
   <UIMDriveAnyPermission>
     <label>
-      <anyPermission>Any Permission</anyPermission>
+      <anyPermission>Qualquer permissão</anyPermission>
     </label>
   </UIMDriveAnyPermission>
   
   <UIQueriesAnyPermission>
     <label>
-      <anyPermission>Any Permission</anyPermission>
+      <anyPermission>Qualquer permissão</anyPermission>
     </label>
   </UIQueriesAnyPermission>
   
@@ -2275,7 +2275,7 @@
     <label>
       <name>Título</name>      
       <permissions>Permissões</permissions>
-      <PermissionButton>UI Unlock Form</PermissionButton>
+      <PermissionButton>UIUnLockForm</PermissionButton>
     </label>
     <action>
       <Save>#{word.save}</Save>
@@ -2507,7 +2507,7 @@
   </UIWorkspaceWizard>
   <UIRepositoryForm>
     <msg>
-      <not-complete-repository>The repository is being created. You need to wait a few minutes before creating another one.</not-complete-repository>
+      <not-complete-repository>O repositório está sendo criado. Você precisa esperar alguns minutos para criar outro novo repositório</not-complete-repository>
     </msg>
   </UIRepositoryForm>
   
