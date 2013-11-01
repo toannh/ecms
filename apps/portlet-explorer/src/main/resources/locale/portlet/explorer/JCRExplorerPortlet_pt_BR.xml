@@ -541,19 +541,19 @@
       <path-not-found>This element was deleted or changed. Please click the Refresh button.</path-not-found>
     </msg>
     <tooltip>
-      <remove-attachment>Remove this attachment file</remove-attachment>
-      <remove-comment>Remove this comment</remove-comment>
+      <remove-attachment>Remover este arquivo anexado</remove-attachment>
+      <remove-comment>Remover este comentário</remove-comment>
     </tooltip>
   </UIDocumentInfo>
   <ListView>
     <view>
       <label>
-        <name>Name</name>
-        <versionable>Versionable</versionable>
-        <exo_owner>Owner</exo_owner>
-        <auditing>Auditing</auditing>
-        <exo_dateCreated>Date Created</exo_dateCreated>
-        <exo_dateModified>Date Modifed</exo_dateModified>
+        <name>Nome</name>
+        <versionable>Versionável</versionable>
+        <exo_owner>Dono</exo_owner>
+        <auditing>Auditoria</auditing>
+        <exo_dateCreated>Data de criação</exo_dateCreated>
+        <exo_dateModified>Data de modificação</exo_dateModified>
       </label>
     </view>
   </ListView>
@@ -567,30 +567,30 @@
       <Lock>Bloquear</Lock>
       <Unlock>Desbloquear</Unlock>
       <EditDocument>Editar</EditDocument>
-      <Copy>Copy</Copy>
-      <Rename>Rename</Rename>
+      <Copy>Copiar</Copy>
+      <Rename>Renomear</Rename>
       <Delete>Excluir</Delete>
       <Save>Salvar</Save>
-      <Cut>Cut</Cut>
-      <Paste>Paste</Paste>
+      <Cut>Recortar</Cut>
+      <Paste>Colar</Paste>
       <CheckOut>Reservado</CheckOut>
       <CheckIn>Liberar da reserva</CheckIn>
-      <WebDAV>View WebDAV</WebDAV>
-      <autoversion>Auto Versioning</autoversion>
-      <Custom>Custom</Custom>
+      <WebDAV>Ver em WebDAV</WebDAV>
+      <autoversion>Auto versionamento</autoversion>
+      <Custom>Customizado</Custom>
       <AddFolder>Adicionar pasta</AddFolder>
-      <AddDocument>New Content</AddDocument>
-      <Upload>Upload Files</Upload>
+      <AddDocument>Adicionar documento</AddDocument>
+      <Upload>Enviar arquivos</Upload>
       <MoveNode>Mover</MoveNode>
       <UnLock>Desbloquear</UnLock>
-      <ViewProperties>View Properties</ViewProperties>
+      <ViewProperties>Ver propriedades</ViewProperties>
       <GetURL>Copy URL To Clipboard</GetURL>
       <AddThumbnail>Adicionar/Remover miniatura</AddThumbnail>
       <AddToFavourite>Adicionar aos favoritos</AddToFavourite>
-      <RemoveFromFavourite>Remove From Favorite</RemoveFromFavourite>
-      <MoveToTrash>Move to Trash</MoveToTrash>
-      <RestoreFromTrash>Restore from Trash</RestoreFromTrash>
-      <EmptyTrash>Empty Trash</EmptyTrash>
+      <RemoveFromFavourite>Remover dos favoritos</RemoveFromFavourite>
+      <MoveToTrash>Mover para a Lixeira</MoveToTrash>
+      <RestoreFromTrash>Restaurar da Lixeira</RestoreFromTrash>
+      <EmptyTrash>Esvaziar a lixeira</EmptyTrash>
       <WebDavView>Download and Allow Editing</WebDavView>
     </event>
   </ECMContextMenu>
@@ -624,7 +624,7 @@
       <UIPublicationSchedule>Agendado</UIPublicationSchedule>
       <UIPublicationPagesContainer>Páginas</UIPublicationPagesContainer>
       <UIPublicationHistory>História</UIPublicationHistory>
-      <UIVersionViewer>Version Viewer</UIVersionViewer>
+      <UIVersionViewer>Visualizador de versões</UIVersionViewer>
 
       <UIPropertyTab>Propripedades</UIPropertyTab>
       <UIMetadataTab>Metadados</UIMetadataTab>
@@ -633,26 +633,26 @@
       <UIJCRAdvancedSearch>Nova consulta</UIJCRAdvancedSearch>
       <UISavedQuery>Consulta salva</UISavedQuery>
       <AdvancedSearchResult>Procurar Resultados</AdvancedSearchResult>
-      <UISimpleSearch>Simple Search</UISimpleSearch>
-      <UISearchContainer>Advanced Search</UISearchContainer>
+      <UISimpleSearch>Busca simples</UISimpleSearch>
+      <UISearchContainer>Busca avançada</UISearchContainer>
       <UICategoryManagerSearch>Adicionar categoria para busca</UICategoryManagerSearch>
-      <UIConstraintsForm>Constraints Form</UIConstraintsForm>
-      <UIViewSearchResult>View Content</UIViewSearchResult>
-      <UIContentNameSearch>Search by Name</UIContentNameSearch>
-      <UINodeInfo>Version Info</UINodeInfo>
-      <UINodeProperty>Node Property</UINodeProperty>
+      <UIConstraintsForm>Formulário de restrições</UIConstraintsForm>
+      <UIViewSearchResult>Ver conteúdo</UIViewSearchResult>
+      <UIContentNameSearch>Busca por nome</UIContentNameSearch>
+      <UINodeInfo>Informação sobre a versão</UINodeInfo>
+      <UINodeProperty>Propriedade do nó</UINodeProperty>
       <UIActionListContainer>Ações disponíveis</UIActionListContainer>
       <UIActionContainer>Adicionar ação</UIActionContainer>
       <UIActionViewContainer>Informações sobre a ação</UIActionViewContainer>
-      <UIMultiLanguageForm>View Language</UIMultiLanguageForm>
-      <UIAddLanguageContainer>Add Language</UIAddLanguageContainer>
+      <UIMultiLanguageForm>Ver idioma</UIMultiLanguageForm>
+      <UIAddLanguageContainer>Adicionar língua</UIAddLanguageContainer>
       <UINonPublishedForm>Estado</UINonPublishedForm>
       <UIPublishedForm>Estado</UIPublishedForm>
       <UIPublicationLogList>Histórico</UIPublicationLogList>
-      <UIDocumentWithTree>File View</UIDocumentWithTree>
-      <UIDocumentInfo>Document View</UIDocumentInfo>
+      <UIDocumentWithTree>Visualização de arquivos</UIDocumentWithTree>
+      <UIDocumentInfo>Visualização de documentos</UIDocumentInfo>
       <UICategoriesSelectPanel>Selecionar categorias</UICategoriesSelectPanel>
-      <UISelectedCategoriesGrid>Referenced Categories</UISelectedCategoriesGrid>
+      <UISelectedCategoriesGrid>Categorias referenciadas</UISelectedCategoriesGrid>
       <UIWorkflowPublicationActionForm>Workflow Publication Action</UIWorkflowPublicationActionForm>
       <UIWorkflowPublicationViewForm>Workflow Publication View</UIWorkflowPublicationViewForm>
       <metadatasitemetadata>Metadado do site</metadatasitemetadata>
@@ -661,11 +661,11 @@
   </UITabPane>
   <UIPropertyTab>
     <title>
-      <edit>Edit this property</edit>
+      <edit>Editar esta propriedade</edit>
       <delete>Remover esta propriedade</delete>
     </title>
     <confirm>
-      <remove-property>Are you sure you want to remove this property?</remove-property>
+      <remove-property>Você deseja remover esta propriedade?</remove-property>
     </confirm>
     <header>
       <name>Nome</name>
@@ -879,7 +879,7 @@
     <msg>
       <keyword-null>Please enter your keyword.</keyword-null>
       <not-found>Nenhum resultado encontrado.</not-found>
-      <keyword-not-allow>This keyword is not allowed.</keyword-not-allow>
+      <keyword-not-allow>Esta palavra chave não é permitida.</keyword-not-allow>
       <value-null>Please enter your keyword or constraints.</value-null>
       <value-save-null>Please enter a keyword or constraints before saving this query.</value-save-null>
       <inputSearch-invalid>There are invalid characters in the search input.</inputSearch-invalid>
@@ -941,10 +941,10 @@
     <title>
       <typeASC>Ordenar por tipo de documento na ordem ascendente</typeASC>
       <typeDESC>Ordenar por tipo de documento na ordem descendente</typeDESC>
-      <scoreASC>Sort by score in ascending order</scoreASC>
-      <scoreDESC>Sort by score in descending order</scoreDESC>
-      <nameASC>Sort by name in ascending order</nameASC>
-      <nameDESC>Sort by name in descending order</nameDESC>
+      <scoreASC>Ordenar por pontuação ascendente</scoreASC>
+      <scoreDESC>Ordenar por pontuação descendente</scoreDESC>
+      <nameASC>Ordenar por nome ascendente</nameASC>
+      <nameDESC>Ordenar por nome descendente</nameDESC>
       <datecreatedASC>Sort by Created date in ascending order</datecreatedASC>
       <datecreatedDESC>Sort by Created date in descending order</datecreatedDESC>
     </title>
@@ -970,14 +970,14 @@
       <score>Pontuação</score>
     </header>
     <title>
-      <typeASC>Sort by document type in ascending order</typeASC>
-      <typeDESC>Sort by document type in descending order</typeDESC>
-      <scoreASC>Sort by score in ascending order</scoreASC>
-      <scoreDESC>Sort by score in descending order</scoreDESC>
-      <nameASC>Sort by name in ascending order</nameASC>
-      <nameDESC>Sort by name in descending order</nameDESC>
-      <datecreatedASC>Sort by created date in ascending order</datecreatedASC>
-      <datecreatedDESC>Sort by created date in descending order</datecreatedDESC>
+      <typeASC>Ordenar por tipo de documento ascendente</typeASC>
+      <typeDESC>Ordenar por tipo de documento descendente</typeDESC>
+      <scoreASC>Ordenar por pontuação ascendente</scoreASC>
+      <scoreDESC>Ordenar por pontuação descendente</scoreDESC>
+      <nameASC>Ordenar por nome ascendente</nameASC>
+      <nameDESC>Ordenar por nome descendente</nameDESC>
+      <datecreatedASC>Ordenar por data de criação ascendente</datecreatedASC>
+      <datecreatedDESC>Ordenar por data de criação descendente</datecreatedDESC>
     </title>
     <tooltip>
       <View>View this Node</View>
@@ -997,22 +997,22 @@
       <action>Ação</action>
       <shortcutPath>Caminho</shortcutPath>
       <type>Tipo</type>
-      <dateCreated>Date Created</dateCreated>
+      <dateCreated>Data de criação</dateCreated>
       <score>Pontuação</score>
       <AddRemoveFavourite>Add/Remove to Favorite</AddRemoveFavourite>
     </header>
     <title>
-      <typeASC>Sort by document type in ascending order</typeASC>
-      <typeDESC>Sort by document type in descending order</typeDESC>
-      <scoreASC>Sort by score in ascending order</scoreASC>
-      <scoreDESC>Sort by score in descending order</scoreDESC>
-      <nameASC>Sort by name in ascending order</nameASC>
-      <nameDESC>Sort by name in descending order</nameDESC>
-      <datecreatedASC>Sort by created date in ascending order</datecreatedASC>
-      <datecreatedDESC>Sort by created date in descending order</datecreatedDESC>
+      <typeASC>Ordenar por tipo de documento ascendente</typeASC>
+      <typeDESC>Ordenar por tipo de documento descendente</typeDESC>
+      <scoreASC>Ordenar por pontuação ascendente</scoreASC>
+      <scoreDESC>Ordenar por pontuação descendente</scoreDESC>
+      <nameASC>Ordenar por nome ascendente</nameASC>
+      <nameDESC>Ordenar por nome descendente</nameDESC>
+      <datecreatedASC>Ordenar por data de criação ascendente</datecreatedASC>
+      <datecreatedDESC>Ordenar por data de criação descendente</datecreatedDESC>
     </title>
     <tooltip>
-      <View>View this Node</View>
+      <View>Ver este nó</View>
       <OpenFolder>Ir para pasta</OpenFolder>
       <RemoveHiddenAttribute>Remove Hidden Attribute</RemoveHiddenAttribute>
     </tooltip>
@@ -1034,17 +1034,17 @@
       <score>Pontuação</score>
     </header>
     <title>
-      <typeASC>Sort by document type in ascending order</typeASC>
-      <typeDESC>Sort by document type in descending order</typeDESC>
-      <scoreASC>Sort by score in ascending order</scoreASC>
-      <scoreDESC>Sort by score in descending order</scoreDESC>
-      <nameASC>Sort by name in ascending order</nameASC>
-      <nameDESC>Sort by name in descending order</nameDESC>
-      <datecreatedASC>Sort by created date in ascending order</datecreatedASC>
-      <datecreatedDESC>Sort by created date in descending order</datecreatedDESC>
+      <typeASC>Ordenar por tipo de documento ascendente</typeASC>
+      <typeDESC>Ordenar por tipo de documento descendente</typeDESC>
+      <scoreASC>Ordenar por pontuação ascendente</scoreASC>
+      <scoreDESC>Ordenar por pontuação descendente</scoreDESC>
+      <nameASC>Ordenar por nome ascendente</nameASC>
+      <nameDESC>Ordenar por nome descendente</nameDESC>
+      <datecreatedASC>Ordenar por data de criação ascendente</datecreatedASC>
+      <datecreatedDESC>Ordenar por data de criação descendente</datecreatedDESC>
     </title>
     <tooltip>
-      <View>View this Node</View>
+      <View>Ver este nó</View>
       <OpenFolder>Ir para pasta</OpenFolder>
       <DeletePermanently>Excluir permanentemente</DeletePermanently>
       <RestoreFromTrash>Restaurar da lixeira</RestoreFromTrash>
