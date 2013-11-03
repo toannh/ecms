@@ -208,7 +208,7 @@
       <version-exception>Esse nó (ou o predecessor dele) não foi reservado.</version-exception>
       <lock-exception>Este nó está bloqueado. Por favor, desbloqueie antes de renomeá-lo.</lock-exception>
       <constraintViolation-exception>Erro ao renomear o nó ''{0}''. Por favor, tente novamente.</constraintViolation-exception>
-      <unknown-prefix>Prefix ''{0}'' has not been registered yet.</unknown-prefix>
+      <unknown-prefix>O Prefixo ''{0}'' não foi registrado ainda.</unknown-prefix>
       <rename-error>Ocorreu um erro ao renomear este nó. Por favor, verifique novamente.</rename-error>
     </msg>
   </UIRenameForm>
@@ -221,7 +221,7 @@
       <UIReferencesList>Lista de referências</UIReferencesList>
       <UIExportNode>Exportar Node</UIExportNode>
       <UINodeTypeInfo>Informação de tipo de nó</UINodeTypeInfo>
-      <UIVersionInfo>Version Info</UIVersionInfo>
+      <UIVersionInfo>Informação de versão</UIVersionInfo>
       <UIActivateVersion>Ativar versão</UIActivateVersion>
       <UIAuditingInfo>Informação de auditoria</UIAuditingInfo>
       <UIActivateAuditing>Ativar auditoria</UIActivateAuditing>
@@ -373,30 +373,30 @@
       <no-node>Por favor, selecione ao menos um nó antes de colar.</no-node>
       <can-not-paste-node>Você não possui permissão para mover para este nó. Por favor, contate o adiministrador para ter a permissão correta.</can-not-paste-node>
       <can-not-move-node>Você não tem permissão para mover este nó. Entre em contato com o administrador.</can-not-move-node>
-      <does-not-support-versioning>You do not have permission to move to this node. Please contact the administrator.</does-not-support-versioning>
-      <path-not-found>This element was deleted or changed. Please click the Refresh button.</path-not-found>
-      <paste-lock-exception>You cannot paste ''{0}'' to this node because the source or the destination node is locked or is related to the locked node.</paste-lock-exception>
+      <does-not-support-versioning>Você não tem permissão para mover esse nó. Por favor, entre em contato com o administrador.</does-not-support-versioning>
+      <path-not-found>Este elemento foi excluído ou modificado. Por favor, clique no botão Atualizar.</path-not-found>
+      <paste-lock-exception>Você não pode colar ''{0}'' neste nó, porque a origem ou destino dele está bloqueado ou relacionado ao nó bloqueado.</paste-lock-exception>
       <can-not-checkin-node>Você não pode liberar da reserva esse nó. Por favor, verifique se você possui as permissões necessárias.</can-not-checkin-node>
       <can-not-checkout-node>Você não pode reservar o nó. Por favor, verifique se você tem as permissões necessárias.</can-not-checkout-node>
-      <move-constraint-exception>An error occurred while moving the node.</move-constraint-exception>
-      <not-lock-owner>You cannot unlock this node because you are not the lock owner.</not-lock-owner>
+      <move-constraint-exception>Algum erro ocorreu enquanto movia o nó.</move-constraint-exception>
+      <not-lock-owner>Você não pode desbloquear este node porque não foi você que o bloqueou.</not-lock-owner>
       <is-checked-in>Por favor, reserve esse nó antes de renomeá-lo.</is-checked-in>
       <is-checked-in-lock>Por favor, reserve esse nó antes de bloqueá-lo.</is-checked-in-lock>
-      <cant-lock>You cannot lock this node.</cant-lock>
-      <node-locked>The item with the path {0} or upper level is locked.</node-locked>
-      <can-not-delete>Please close this node before deleting.</can-not-delete>
-      <can-not-delete-version>You cannot delete this node. It is versioning.</can-not-delete-version>
-      <not-support>You cannot delete the selected node. Please select another node.</not-support>
-      <current-node-not-allow-paste>You cannot paste the copied node type on the current node.</current-node-not-allow-paste>
-      <copied-node-in-versioning>You cannot paste the copied node. It is versioning.</copied-node-in-versioning>
-      <parent-node-locked>You do not have permission to unlock node ''{0}''.</parent-node-locked>
-      <this-node-locked-by-parent>You cannot unlock this node. It is locked by the parent or ancestor node.</this-node-locked-by-parent>
+      <cant-lock>Você não pode bloquear este node.</cant-lock>
+      <node-locked>O item com caminho {0} ou de nível superior está bloqueado.</node-locked>
+      <can-not-delete>Feche este nó antes de excluí-lo.</can-not-delete>
+      <can-not-delete-version>Não é possível excluir este nó, ele está versionado.</can-not-delete-version>
+      <not-support>Você não pode excluir o nó selecionado. Por favor, selecione outro nó.</not-support>
+      <current-node-not-allow-paste>Você não pode colar o tipo de nó copiado no nó atual.</current-node-not-allow-paste>
+      <copied-node-in-versioning>Você não pode colar o nó copiado. Ele está versionado.</copied-node-in-versioning>
+      <parent-node-locked>Você não tem permissão para desbloquear o nó ''{0}''.</parent-node-locked>
+      <this-node-locked-by-parent>Você não pode desbloquear este nó. Ele está bloqueado por um nó antecessor ou um nó pai.</this-node-locked-by-parent>
       <paste-node-same-name>Você não pode colar um nó com o mesmo nome de um nó que já existe na pasta de destino.</paste-node-same-name>
-      <has-not-add-permission>You do not have permission to add a new node.</has-not-add-permission>
-      <node-cutting>Node is being cut. You cannot paste it here.</node-cutting>
-      <access-denied>Access denied. You may not have permission in this node.</access-denied>
+      <has-not-add-permission>Você não possui permissão para adicionar novo nó.</has-not-add-permission>
+      <node-cutting>O nó está sendo recortado. Você não pode colá-lo aqui.</node-cutting>
+      <access-denied>Acesso negado. Talvez você não tenha permissão neste nó.</access-denied>
       <remove-verion-exception>Você não pode remover este nó porque ele (ou seu antecessor) não está reservado.</remove-verion-exception>
-      <remove-referentialIntegrityException>You cannot delete this node because it is currently the target of a Reference property.</remove-referentialIntegrityException>
+      <remove-referentialIntegrityException>Você não pode excluir este nó porque ele está sendo o alvo de uma propriedade de referência.</remove-referentialIntegrityException>
       <constraintviolation-exception>The mandatory item jcr:uuid was not found. The node may have been deleted or changed. Please click the Refresh button.</constraintviolation-exception>
       <path-not-found-exception>This node was deleted or changed. Please click the Refresh button.</path-not-found-exception>
       <not-exist-categories>A categoria não existe</not-exist-categories>
@@ -510,9 +510,9 @@
     </label>
     <msg>
       <unable-save-node>Node ''{0}'' has been newly created. Please save session before performing this action.</unable-save-node>
-      <save-node-success>Node ''{0}'' has been saved.</save-node-success>
-      <node-copied>Node ''{0}'' has been copied.</node-copied>
-      <node-cut>Node ''{0}'' has been cut.</node-cut>
+      <save-node-success>O nó ''{0}'' foi salvo.</save-node-success>
+      <node-copied>O nó ''{0}'' foi copiado.</node-copied>
+      <node-cut>O nó ''{0}'' foi recortado.</node-cut>
       <remove-root>You cannot remove the root node.</remove-root>
       <node-remove-success>Node ''{0}'' has been removed.</node-remove-success>
     </msg>
@@ -628,8 +628,8 @@
 
       <UIPropertyTab>Propripedades</UIPropertyTab>
       <UIMetadataTab>Metadados</UIMetadataTab>
-      <UIPropertyForm>Add New Property</UIPropertyForm>
-      <UIUploadContent>Information of uploaded file</UIUploadContent>
+      <UIPropertyForm>Adicionar nova propriedade</UIPropertyForm>
+      <UIUploadContent>Informação do arquivo enviado</UIUploadContent>
       <UIJCRAdvancedSearch>Nova consulta</UIJCRAdvancedSearch>
       <UISavedQuery>Consulta salva</UISavedQuery>
       <AdvancedSearchResult>Procurar Resultados</AdvancedSearchResult>
@@ -955,9 +955,9 @@
   </UIShowAllOwnedByUserResult>
   <UIShowAllFavouriteResult>
     <msg>
-      <not-support>There is no View template for this node</not-support>
+      <not-support>Não há modelo de visualização para este nó</not-support>
       <empty>No results found</empty>
-      <access-denied>You cannot view this node, either because this template is not supported or because access is denied.</access-denied>
+      <access-denied>Você não pode ver este nó, porque este modelo não é suportado ou o acesso foi negado.</access-denied>
       <query-invalid>A consulta é inválida</query-invalid>
     </msg>
     <header>
@@ -986,9 +986,9 @@
   </UIShowAllFavouriteResult>
   <UIShowAllHiddenResult>
     <msg>
-      <not-support>There is no View template for this node.</not-support>
+      <not-support>Não há modelo de visualização para este nó.</not-support>
       <empty>Nenhum resultado encontrado.</empty>
-      <access-denied>You cannot view this node, either because this template is not supported or because access is denied.</access-denied>
+      <access-denied>Você não pode ver este nó, porque este modelo não é suportado ou o acesso foi negado.</access-denied>
       <query-invalid>A consulta é inválida</query-invalid>
     </msg>
     <header>
@@ -1019,7 +1019,7 @@
   </UIShowAllHiddenResult>
   <UIShowAllTrashResult>
     <msg>
-      <not-support>There is no View template for this node.</not-support>
+      <not-support>Não há modelo de visualização para este nó.</not-support>
       <empty>Nenhum resultado encontrado.</empty>
       <access-denied>You cannot view this node, either because this template is not supported or because access is denied.</access-denied>
       <query-invalid>A consulta é inválida</query-invalid>
@@ -1215,7 +1215,7 @@
   </UISelectPropertyForm>
   <ExactlyFormPopup>
     <title>
-      <UICompareExactlyForm>Filter Form</UICompareExactlyForm>
+      <UICompareExactlyForm>Formulário de filtro</UICompareExactlyForm>
     </title>
   </ExactlyFormPopup>
   <UIECMSearch>
@@ -1366,8 +1366,8 @@
       <e_32768>Restaurar</e_32768>
       <e_65536>Mesclar</e_65536>
       <e_131072>Cancelar mesclagem</e_131072>
-      <e_262144>Done Merge</e_262144>
-      <e_524288>Add Version Label</e_524288>
+      <e_262144>Mesclagem pronta</e_262144>
+      <e_524288>Adicionar etiqueta de versão</e_524288>
       <e_1048576>Remove Version Label</e_1048576>
       <e_2097152>Remover versão</e_2097152>
       <e_4194304>Bloquear</e_4194304>
@@ -1485,16 +1485,16 @@
   -->
   <UILabelForm>
     <label>
-      <label>Label</label>
+      <label>Etiqueta</label>
     </label>
     <action>
       <Save>#{word.save}</Save>
       <Cancel>Cancelar</Cancel>
     </action>
-    <title>Add Label</title>
+    <title>Adicionar Etiqueta</title>
     <msg>
-      <label-invalid>The label contains some invalid characters.</label-invalid>
-      <label-exist>''{0}'' already exists.</label-exist>
+      <label-invalid>Há alguns caracteres inválidos na etiqueta.</label-invalid>
+      <label-exist>''{0}'' já existe.</label-exist>
     </msg>
   </UILabelForm>
   <!--
@@ -1503,9 +1503,9 @@
   ###############################################################################
   -->
   <UIRemoveLabelForm>
-    <title>Remove Label</title>
+    <title>Remover etiqueta</title>
     <label>
-      <label>Select Label</label>
+      <label>Selecionar etiqueta</label>
     </label>
     <action>
       <Remove>Remover</Remove>
@@ -1518,24 +1518,24 @@
   ###############################################################################
   -->
   <UIVersionTree>
-    <title>Children Tree</title>
+    <title>Árvore de filhos</title>
   </UIVersionTree>
   <UIViewVersion>
     <label>
-      <nodeType>Node Type</nodeType>
-      <nodeName>Node Name</nodeName>
-      <VersionNumber>Version Number</VersionNumber>
-      <VersionLabels>Version Labels</VersionLabels>
-      <VersionDate>Version Date</VersionDate>
-      <PropertyName>Property Name</PropertyName>
-      <PropertyValue>Property Values</PropertyValue>
+      <nodeType>Tipo de nó</nodeType>
+      <nodeName>Nome do nó</nodeName>
+      <VersionNumber>Número de versão</VersionNumber>
+      <VersionLabels>Etiqueta de versão</VersionLabels>
+      <VersionDate>Data da versão</VersionDate>
+      <PropertyName>Nome da propriedade</PropertyName>
+      <PropertyValue>Valores da propriedade</PropertyValue>
     </label>
     <msg>
-      <not-supported>This function is not supported for versioning.</not-supported>
+      <not-supported>Esta função não suporta versionamento.</not-supported>
     </msg>
   </UIViewVersion>
   <UIVersionList>
-    <title>Children Name</title>
+    <title>Nome dos filhos</title>
   </UIVersionList>
   <!--
   ################################################################################
@@ -1679,7 +1679,7 @@
       <cannot-save>An error occurred while saving the document.</cannot-save>
       <in-versioning>Por favor, reserve o nó atual antes de adicionar um novo nó.</in-versioning>
       <not-support>Cannot load the template of ''{0}''.</not-support>
-      <value-invalid>''{0}'' is a needed value.</value-invalid>
+      <value-invalid>''{0}'' é um valor obrigatório.</value-invalid>
       <repository-exception>An error occurred while saving the document.</repository-exception>
       <!--DMS 2.4.x; ECM-3543-->
       <repository-exception-permission>You do not have permission to add a new document to this node.</repository-exception-permission>
@@ -1696,7 +1696,7 @@
   <UIViewDocumentController>
     <tab>
       <label>
-        <UIViewDocumentInfo>Information</UIViewDocumentInfo>
+        <UIViewDocumentInfo>Informação</UIViewDocumentInfo>
       </label>
     </tab>
     <action>
@@ -1972,12 +1972,12 @@
   -->
   <UIPublicationForm>
     <label>
-      <published>Published</published>
-      <non-published>Unpublished</non-published>
-      <public>Public</public>
+      <published>Publicado</published>
+      <non-published>Não publicado</non-published>
+      <public>Público</public>
       <private>Privado</private>
       <state>Estado</state>
-      <visibility>Visibility</visibility>
+      <visibility>Visibilidade</visibility>
       <nodeName>Node Name:</nodeName>
       <lifecycleName>Lifecycle Name</lifecycleName>
       <stateName>State Name</stateName>
@@ -2328,7 +2328,7 @@
 
   <ECMContextMenu>
     <event>
-      <CreateLink>Create Link</CreateLink>
+      <CreateLink>Criar link</CreateLink>
     </event>
   </ECMContextMenu>
 
@@ -2343,21 +2343,21 @@
 
   <UIPopupTaxonomy>
     <title>
-      <UIOneTaxonomySelector>Add Categories</UIOneTaxonomySelector>
+      <UIOneTaxonomySelector>Adicionar categorias</UIOneTaxonomySelector>
     </title>
   </UIPopupTaxonomy>
 
   <UITreeTaxonomyList>
     <label>
       <taxonomyTree>Árvore de categorias:</taxonomyTree>
-      <rootNodePath>Root Tree:</rootNodePath>
+      <rootNodePath>Árvore raíz:</rootNodePath>
       <rootNodeInfo>UITreeTaxonomyList</rootNodeInfo>
     </label>
   </UITreeTaxonomyList>
 
   <UIActionBar>
     <tooltip>
-      <ManageSimpleCategories>Manage Simple Categories</ManageSimpleCategories>
+      <ManageSimpleCategories>Gerenciar categorias simples</ManageSimpleCategories>
     </tooltip>
   </UIActionBar>
 
@@ -2397,10 +2397,10 @@
   <UIConfirmMessage>
     <label>
       <Close>#{word.cancel}</Close>
-      <OK>Delete</OK>
-      <ReplaceData>Replace Data</ReplaceData>
-      <Back>Back to Rename</Back>
-      <Keepfile>Keep both files</Keepfile>
+      <OK>Excluir</OK>
+      <ReplaceData>Substituir dado</ReplaceData>
+      <Back>Voltar para renomear</Back>
+      <Keepfile>Manter ambos arquivos</Keepfile>
     </label>
   </UIConfirmMessage>
 
@@ -2408,16 +2408,16 @@
     <label>
       <Close>#{word.close}</Close>
       <OK>OK</OK>
-      <ReplaceData>Replace Data</ReplaceData>
-      <Back>Back to Rename</Back>
-      <Keepfile>Keep both files</Keepfile>
+      <ReplaceData>Substituir dado</ReplaceData>
+      <Back>Voltar para renomear</Back>
+      <Keepfile>Manter ambos arquivos</Keepfile>
     </label>
   </UIRestoreConfirmMessage>
 
 
   <PopupComponent>
     <title>
-      <UIOneTaxonomySelector>Add Categories</UIOneTaxonomySelector>
+      <UIOneTaxonomySelector>Adicionar categorias</UIOneTaxonomySelector>
     </title>
   </PopupComponent>
 
@@ -2430,8 +2430,8 @@
 
   <UIImportNode>
     <label>
-      <behavior>UUID Behavior</behavior>
-      <versionHistory>Version History</versionHistory>
+      <behavior>Comportamento do UUID</behavior>
+      <versionHistory>Histórico de versões</versionHistory>
     </label>
     <msg>
       <history-invalid-type>Invalid file type in the version history. Only .zip files are supported.</history-invalid-type>
@@ -2441,16 +2441,16 @@
 
   <Import>
     <Behavior>
-      <type0>Create New</type0>
+      <type0>Criar novo</type0>
       <type1>Remover existentes</type1>
-      <type2>Replace Existing</type2>
+      <type2>Substituir existentes</type2>
       <type3>Lançar exceção</type3>
     </Behavior>
   </Import>
 
   <UIExportNode>
     <action>
-      <ExportHistory>Export Version History</ExportHistory>
+      <ExportHistory>Expotar histórico de versão</ExportHistory>
     </action>
   </UIExportNode>
 
@@ -2484,8 +2484,8 @@
       <Admin>Administrador</Admin>
       <Info>Informação</Info>
       <Actions>Ações</Actions>
-      <Collaboration>Collaboration</Collaboration>
-      <Search>Search</Search>
+      <Collaboration>Colaboração</Collaboration>
+      <Search>Buscar</Search>
     </obtion>
   </UIActionBar>
 
@@ -2521,7 +2521,7 @@
 
   <UIActionForm>
     <msg>
-      <name-not-allowed>This action name is not allowed.</name-not-allowed>
+      <name-not-allowed>Este nome de ação não é permitido.</name-not-allowed>
     </msg>
   </UIActionForm>
 
@@ -2644,13 +2644,13 @@
 
   <UIDocumentFilterForm>
     <label>
-      <Images>Image</Images>
+      <Images>Imagens</Images>
       <Video>Video</Video>
       <Music>Music</Music>
       <Documents>Document</Documents>
       <Content>Conteúdo</Content>
     </label>
-    <title>Set Up Filter Preferences</title>
+    <title>Definir preferências de filtro</title>
     <action>
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
@@ -2660,25 +2660,25 @@
   <UIAllItemsByType>
     <label>
     <ByType>Filter by Type</ByType>
-      <DocumentFilterConfiguration>Set Up Filter Preferences</DocumentFilterConfiguration>
+      <DocumentFilterConfiguration>Definir preferências de filtro</DocumentFilterConfiguration>
     </label>
     <title>
-      <ShowVideo>Show all video files</ShowVideo>
-      <ShowMusic>Show all music files</ShowMusic>
-      <ShowImages>Show all image files</ShowImages>
-      <ShowDocuments>Show all document files</ShowDocuments>
+      <ShowVideo>Mostrar todos os arquivos de vídeo</ShowVideo>
+      <ShowMusic>Mostrar todos os arquivos de música</ShowMusic>
+      <ShowImages>Mostrar todos os arquivos de imagem</ShowImages>
+      <ShowDocuments>Mostrar todos os arquivos de documento</ShowDocuments>
       <ShowContent>Mostrar todos os tipos de documento</ShowContent>
     </title>
   </UIAllItemsByType>
 
   <Views>
     <label>
-      <slide-show>Slide Show</slide-show>
+      <slide-show>Slide show</slide-show>
     </label>
   </Views>
   <ECMContextMenu>
     <event>
-      <PlayMedia>Play Media</PlayMedia>
+      <PlayMedia>Executar mídia</PlayMedia>
     </event>
   </ECMContextMenu>
   <UIPopupWindow>
@@ -2689,10 +2689,10 @@
 
   <UIAllItemsPreferenceForm>
     <label>
-      <showOwnedByUser>Owned by me</showOwnedByUser>
-      <showFavourites>Favorites</showFavourites>
-      <showHiddens>Hidden</showHiddens>
-      <showTrash>Trash</showTrash>
+      <showOwnedByUser>Minha propriedade</showOwnedByUser>
+      <showFavourites>Favoritos</showFavourites>
+      <showHiddens>Oculto</showHiddens>
+      <showTrash>Lixeira</showTrash>
     </label>
     <action>
       <Save>#{word.save}</Save>
@@ -2727,8 +2727,8 @@
 
    <UITaggingForm>
     <label>
-      <Public>Public</Public>
-      <Private>Private</Private>
+      <Public>Público</Public>
+      <Private>Privado</Private>
       <tagScopes>Escopo de tags</tagScopes>
     </label>
    </UITaggingForm>
@@ -2772,8 +2772,8 @@
       <Cancel>#{word.close}</Cancel>
     </action>
     <label>
-      <tagName>Tag Name:</tagName>
-      <relatedDocuments>Related Documents</relatedDocuments>
+      <tagName>Nome de tag:</tagName>
+      <relatedDocuments>Documentos relacionados</relatedDocuments>
     </label>
   </UITagForm>
 
@@ -2796,7 +2796,7 @@
 
   <UIPopupMenu>
     <msg>
-      <editTagAccessDenied>Access denied.</editTagAccessDenied>
+      <editTagAccessDenied>Acesso negado.</editTagAccessDenied>
     </msg>
   </UIPopupMenu>
 
@@ -2808,20 +2808,20 @@
 
     <PopupComponent>
     <title>
-      <UINodeTypeSelector>Select Node Type</UINodeTypeSelector>
+      <UINodeTypeSelector>Selecionar tipo de nó</UINodeTypeSelector>
     </title>
   </PopupComponent>
 
     <UIActionForm>
     <title>
-      <ShowComponent>Show Component</ShowComponent>
+      <ShowComponent>Mostrar componente</ShowComponent>
       <removeReference>Remover</removeReference>
     </title>
   </UIActionForm>
 
   <EditFormAction>
     <title>
-      <ShowComponent>Show Component</ShowComponent>
+      <ShowComponent>Mostrar componente</ShowComponent>
       <removeReference>Remover</removeReference>
     </title>
   </EditFormAction>
