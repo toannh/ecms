@@ -1241,7 +1241,7 @@
     </action>
     <title>Adicionar categoria</title>
     <label>
-      <taxonomyName>Category Name</taxonomyName>
+      <taxonomyName>Nome da categoria</taxonomyName>
       <parentPath>Pais</parentPath>
     </label>
     <msg>
