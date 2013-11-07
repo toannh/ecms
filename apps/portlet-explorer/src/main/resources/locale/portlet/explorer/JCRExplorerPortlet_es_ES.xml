@@ -1070,8 +1070,8 @@
       <must-choose-one>Debe seleccionar al menos un tipo.</must-choose-one>
       <properties-null>Seleccionar propiedades primero y luego filtrar.</properties-null>
       <exactly-require>Debe llenar el valor exacto antes de guardar esta restricción.</exactly-require>
-      <fromDate-invalid>Tipo no válido en el campo 'Desde'. Por favor, vuelva a seleccionar o escribir correctamente.</fromDate-invalid>
-      <toDate-invalid>Tipo no válido en el campo 'A'. Por favor, vuelva a seleccionar o escribir correctamente.</toDate-invalid>
+      <fromDate-invalid>Tipo no válido en el campo ''Desde''. Por favor, vuelva a seleccionar o escribir correctamente.</fromDate-invalid>
+      <toDate-invalid>Tipo no válido en el campo ''A''. Por favor, vuelva a seleccionar o escribir correctamente.</toDate-invalid>
     </msg>
     <button>
       <label-Add>Añadir</label-Add>
@@ -1470,7 +1470,7 @@
     <title>Importar Nodo</title>
     <msg>
       <import-successful>Importe exitoso.</import-successful>
-      <filename-invalid>Buscar un archivo .xml para importarlo al campo 'Subir archivo'.</filename-invalid>
+      <filename-invalid>Buscar un archivo .xml para importarlo al campo ''Subir archivo''.</filename-invalid>
       <filetype-error>No se puede importar el archivo cargado. Tal vez, el archivo .xml no es válido.</filetype-error>
       <mimetype-invalid>Sólo los archivos .xml o .zip son compatibles para importar.</mimetype-invalid>
       <access-denied>¡Acceso denegado! No está autorizado a importar allí.</access-denied>
@@ -2022,12 +2022,12 @@
   </UIFormInputSetWithAction>
   <RepeatCountValidator>
     <msg>
-      <invalid-value>El valor del campo 'Repetir Cuenta' no es válido. Sólo está permitido el tipo íntegro o -1.</invalid-value>
+      <invalid-value>El valor del campo ''Repetir Cuenta'' no es válido. Sólo está permitido el tipo íntegro o -1.</invalid-value>
     </msg>
   </RepeatCountValidator>
   <RepeatIntervalValidator>
     <msg>
-      <invalid-value>El valor del campo 'Intervalo de Tiempo' no es válido. Sólo el tipo Long está permitido.</invalid-value>
+      <invalid-value>El valor del campo ''Intervalo de Tiempo'' no es válido. Sólo el tipo Long está permitido.</invalid-value>
     </msg>
   </RepeatIntervalValidator>
   <UIPermissionSelector>
@@ -2057,11 +2057,11 @@
     <msg>
       <empty-input>El valor de este campo es nulo o vacío.</empty-input>
       <Invalid-char>Este campo contiene algunos caracteres no válidos.  Por favor, introduzca otro valor.</Invalid-char>
-      <Invalid-char2>El número debe ser seguido por el carácter '^'.</Invalid-char2>
-      <Invalid-char1>El número siguiendo el caracter '~' debe estar entre 0 a 1.</Invalid-char1>
-      <Invalid-char3>Número debe ser seguido por el carácter '^'.</Invalid-char3>
-      <Invalid-char4>No se permiten espacios cerca del caracter '~'.</Invalid-char4>
-      <Invalid-char5>No se permiten espacios cerca del caracter '^'.</Invalid-char5>
+      <Invalid-char2>El número debe ser seguido por el carácter ''^''.</Invalid-char2>
+      <Invalid-char1>El número siguiendo el caracter ''~'' debe estar entre 0 a 1.</Invalid-char1>
+      <Invalid-char3>Número debe ser seguido por el carácter ''^''.</Invalid-char3>
+      <Invalid-char4>No se permiten espacios cerca del caracter ''~''.</Invalid-char4>
+      <Invalid-char5>No se permiten espacios cerca del caracter ''^''.</Invalid-char5>
     </msg>
   </SearchValidator>
   <!--
@@ -3112,7 +3112,7 @@
     <AbortAll>Abortar todos</AbortAll>
     <AbortAllFiles>Cancelar todos los archivos</AbortAllFiles>
     <MaxFileSize>Tamaño máximo de archivo es</MaxFileSize>
-    <InvalidCharacters>Los caracteres no válidos se cambian por '-'</InvalidCharacters>
+    <InvalidCharacters>Los caracteres no válidos se cambian por ''-''</InvalidCharacters>
     <DropFileMessage>Deja aquí tus archivos en la carpeta actual</DropFileMessage>
     <Close>Cerrar</Close>
     <in>en</in>
