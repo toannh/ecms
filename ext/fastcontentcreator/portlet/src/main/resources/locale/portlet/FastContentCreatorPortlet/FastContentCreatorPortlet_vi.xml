@@ -120,7 +120,7 @@
     </action>
     <msg>
       <repository-exception>Tên hành động có ký tự đặc biệt.</repository-exception>
-      <numberformat-exception>Tên hành động không được có ký tự [' hoặc '.</numberformat-exception>
+      <numberformat-exception>Tên hành động không được có ký tự ['' hoặc ''.</numberformat-exception>
       <existed-action>Hành động ''{0}'' đã tồn tại. Vui lòng chọn tên khác.</existed-action>
       <unable-add-action>Không thể thêm hành động này.</unable-add-action>
       <unable-add>Không thể thêm hành động này. Đây có thể là nút gốc hoặc bạn không đủ quyền.</unable-add>

@@ -1070,8 +1070,8 @@
       <must-choose-one>Bạn phải chọn ít nhất một kiểu.</must-choose-one>
       <properties-null>Hãy chọn các thuộc tính trước, sau đó lọc.</properties-null>
       <exactly-require>Bạn phải điền chính xác vào trường Giá trị trước khi lưu điều kiện ràng buộc này.</exactly-require>
-      <fromDate-invalid>Kiểu không hợp lệ trong trường 'Ngày Bắt đầu'. Vui lòng chọn lại hoặc nhập chính xác.</fromDate-invalid>
-      <toDate-invalid>Kiểu không hợp lệ trong trường 'Ngày Kết thúc'. Vui lòng chọn lại hoặc nhập chính xác.</toDate-invalid>
+      <fromDate-invalid>Kiểu không hợp lệ trong trường ''Ngày Bắt đầu''. Vui lòng chọn lại hoặc nhập chính xác.</fromDate-invalid>
+      <toDate-invalid>Kiểu không hợp lệ trong trường ''Ngày Kết thúc''. Vui lòng chọn lại hoặc nhập chính xác.</toDate-invalid>
     </msg>
     <button>
       <label-Add>Thêm</label-Add>
@@ -1470,7 +1470,7 @@
     <title>Nhập Nút</title>
     <msg>
       <import-successful>Đã nhập thành công.</import-successful>
-      <filename-invalid>Duyệt tệp tin .xml cho trường 'Tải tệp tin' để nhập vào.</filename-invalid>
+      <filename-invalid>Duyệt tệp tin .xml cho trường ''Tải tệp tin'' để nhập vào.</filename-invalid>
       <filetype-error>Không thể nhập tệp tin đã tải lên. Tệp tin .xml này có thể không hợp lệ.</filetype-error>
       <mimetype-invalid>Bạn chỉ có thể nhập các tệp tin dạng .xml hoặc .zip.</mimetype-invalid>
       <access-denied>Truy nhập bị từ chối. Bạn không được phép nhập ở đây.</access-denied>
@@ -1752,7 +1752,7 @@
     <msg>
       <remove-popup-first>Bạn phải đóng cửa sổ trước khi xóa nút.</remove-popup-first>
       <confirm-delete-action>Bạn có thực sự muốn xóa thao tác này?</confirm-delete-action>
-      <template-empty>Mẫu của '(0)' là null hoặc rỗng.</template-empty>
+      <template-empty>Mẫu của ''(0)'' là null hoặc rỗng.</template-empty>
       <template-null>Mẫu rỗng hoặc bạn không có quyền truy cập mẫu này.</template-null>
       <access-denied>Truy nhập bị hủy bỏ!Bạn không có quyền để thực hiện thao tác này.</access-denied>
     </msg>
@@ -2022,12 +2022,12 @@
   </UIFormInputSetWithAction>
   <RepeatCountValidator>
     <msg>
-      <invalid-value>Giá trị không hợp lệ trong trường 'Repeat count'. Chỉ cho phép gõ kiểu số nguyên hoặc -1.</invalid-value>
+      <invalid-value>Giá trị không hợp lệ trong trường ''Repeat count''. Chỉ cho phép gõ kiểu số nguyên hoặc -1.</invalid-value>
     </msg>
   </RepeatCountValidator>
   <RepeatIntervalValidator>
     <msg>
-      <invalid-value>Các giá trị trong các trường 'Khoảng thời gian' không hợp lệ. Chỉ cho phép kiểu Long.</invalid-value>
+      <invalid-value>Các giá trị trong các trường ''Khoảng thời gian'' không hợp lệ. Chỉ cho phép kiểu Long.</invalid-value>
     </msg>
   </RepeatIntervalValidator>
   <UIPermissionSelector>
@@ -2057,11 +2057,11 @@
     <msg>
       <empty-input>Giá trị trường này là null hoặc rỗng!</empty-input>
       <Invalid-char>Có một số kí tự không hợp lệ trong trường này. Vui lòng nhập giá trị khác.</Invalid-char>
-      <Invalid-char2>Số phải được theo sau ký tự '~'.</Invalid-char2>
-      <Invalid-char1>Kiểu số theo sau ký tự '~' phải nằm trong khoảng 0 đến 1.</Invalid-char1>
-      <Invalid-char3>Kiểu số phải được theo sau ký tự '^'.</Invalid-char3>
-      <Invalid-char4>Dấu cách được phép gán ký tự '~'</Invalid-char4>
-      <Invalid-char5>Dấu cách được phép gán ký tự '^'</Invalid-char5>
+      <Invalid-char2>Số phải được theo sau ký tự ''~''.</Invalid-char2>
+      <Invalid-char1>Kiểu số theo sau ký tự ''~'' phải nằm trong khoảng 0 đến 1.</Invalid-char1>
+      <Invalid-char3>Kiểu số phải được theo sau ký tự ''^''.</Invalid-char3>
+      <Invalid-char4>Dấu cách được phép gán ký tự ''~''</Invalid-char4>
+      <Invalid-char5>Dấu cách được phép gán ký tự ''^''</Invalid-char5>
     </msg>
   </SearchValidator>
   <!--
@@ -3112,7 +3112,7 @@
     <AbortAll>Hủy bỏ tất cả</AbortAll>
     <AbortAllFiles>Hủy bỏ tất cả các tập tin</AbortAllFiles>
     <MaxFileSize>Kích thước tối đa của tập tin là</MaxFileSize>
-    <InvalidCharacters>Ký tự không hợp lệ sẽ được thay đổi bằng '-'</InvalidCharacters>
+    <InvalidCharacters>Ký tự không hợp lệ sẽ được thay đổi bằng ''-''</InvalidCharacters>
     <DropFileMessage>Kéo thả tập tin vào đây để tải lên</DropFileMessage>
     <Close>Đóng</Close>
     <in>Trong</in>
