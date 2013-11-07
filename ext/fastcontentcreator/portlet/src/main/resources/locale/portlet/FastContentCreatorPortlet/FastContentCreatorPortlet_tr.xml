@@ -120,7 +120,7 @@
     </action>
     <msg>
       <repository-exception>Bu eylem kaydedemezsiniz. Verilen adı, onun son öğesi bir dizin olması gerekir.</repository-exception>
-      <numberformat-exception>Bu eylem kaydedilemiyor. Verilen ad içinde  '[' veya ']' olmamalıdır.</numberformat-exception>
+      <numberformat-exception>Bu eylem kaydedilemiyor. Verilen ad içinde  ''['' veya '']'' olmamalıdır.</numberformat-exception>
       <existed-action>Eylem adı ''{0}'' zaten var. Lütfen başka bir ad seçin.</existed-action>
       <unable-add-action>Bu eylem eklenemiyor.</unable-add-action>
       <unable-add>Bu eylem eklenemiyor. Bu düğüm kök veya yetkiniz yok.</unable-add>

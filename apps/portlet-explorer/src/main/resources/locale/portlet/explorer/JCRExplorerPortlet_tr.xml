@@ -162,7 +162,7 @@
       <showHiddenNode>Gizli düğümleri göster:</showHiddenNode>
       <showNonDocument>Belge olmayan düğümleri göster:</showNonDocument>
       <showRefDocuments>Başvurulan Belgeleri Görüntüle:</showRefDocuments>
-      <enableDragAndDrop>Sürükle &amp; Bırak' ı etkinleştir:</enableDragAndDrop>
+      <enableDragAndDrop>Sürükle &amp; Bırak'' ı etkinleştir:</enableDragAndDrop>
       <sortBy>Sıralama:</sortBy>
       <order>Tarafından sipariş:</order>
       <nodesPerPage>Sayfa başına düğüm:</nodesPerPage>
@@ -252,8 +252,8 @@
       <UIThumbnailForm>Küçük Resim Ekle</UIThumbnailForm>
       <UIAllItemsPreferenceForm>Tercih Ayarları</UIAllItemsPreferenceForm>
       <UISelectRestorePath>Geri yükleme yolunu seçin</UISelectRestorePath>
-      <UISEOForm>SEO' yu yönet</UISEOForm>
-      <UISEOToolbarForm>SEO' yu yönet</UISEOToolbarForm>
+      <UISEOForm>SEO'' yu yönet</UISEOForm>
+      <UISEOToolbarForm>SEO'' yu yönet</UISEOToolbarForm>
     </title>
     <header>
       <workspace>Çalışma Alanı</workspace>
@@ -588,7 +588,7 @@
       <AddThumbnail>Küçük Resim Ekle/Kaldır</AddThumbnail>
       <AddToFavourite>Favoriye Ekle</AddToFavourite>
       <RemoveFromFavourite>Favoriden Kaldır</RemoveFromFavourite>
-      <MoveToTrash>Çöp Kutusu'na Taşıyın</MoveToTrash>
+      <MoveToTrash>Çöp Kutusu''na Taşıyın</MoveToTrash>
       <RestoreFromTrash>Çöp kutusundan geri yükleyin</RestoreFromTrash>
       <EmptyTrash>Çöpü Boşalt</EmptyTrash>
       <WebDavView>İndir ve Düzenlemeye İzin Ver</WebDavView>
@@ -1070,8 +1070,8 @@
       <must-choose-one>You have to select at least one type.</must-choose-one>
       <properties-null>Select properties first, then filter.</properties-null>
       <exactly-require>You have to fill in the Value exactly before saving this constraint.</exactly-require>
-      <fromDate-invalid>Invalid type in the 'From' field. Please reselect or type correctly.</fromDate-invalid>
-      <toDate-invalid>Invalid type in the 'To' field. Please reselect or type correctly.</toDate-invalid>
+      <fromDate-invalid>Invalid type in the ''From'' field. Please reselect or type correctly.</fromDate-invalid>
+      <toDate-invalid>Invalid type in the ''To'' field. Please reselect or type correctly.</toDate-invalid>
     </msg>
     <button>
       <label-Add>Ekle</label-Add>
@@ -1629,7 +1629,7 @@
       <action>Eylem</action>
     </header>
     <label>
-      <nocommand>Pano'da hiçbir öğe yoktur.</nocommand>
+      <nocommand>Pano''da hiçbir öğe yoktur.</nocommand>
     </label>
     <action>
       <clearall>Tümünü Temizle</clearall>
@@ -1871,7 +1871,7 @@
       <tagName-invalid>Etiket adı bazı geçersiz karakterler içeriyor.</tagName-invalid>
       <tag-name-empty>Etiket adı yok</tag-name-empty>
       <tag-name-duplicate>Girilen etiket adı çift.</tag-name-duplicate>
-      <tagName-too-long>Girilen etiketlerden biri çok uzun. Etiket adı 30'dan az karakter olmalıdır.</tagName-too-long>
+      <tagName-too-long>Girilen etiketlerden biri çok uzun. Etiket adı 30''dan az karakter olmalıdır.</tagName-too-long>
       <path-not-found>Bu etiket silinmiş veya değiştirilmiş. Lütfen Yenile düğmesini tıklatın.</path-not-found>
     </msg>
     <introduction>
@@ -2022,12 +2022,12 @@
   </UIFormInputSetWithAction>
   <RepeatCountValidator>
     <msg>
-      <invalid-value>'Yineleme sayısı' alanı değeri geçersiz. Yalnızca tamsayılara veya -1 izin verilir.</invalid-value>
+      <invalid-value>''Yineleme sayısı'' alanı değeri geçersiz. Yalnızca tamsayılara veya -1 izin verilir.</invalid-value>
     </msg>
   </RepeatCountValidator>
   <RepeatIntervalValidator>
     <msg>
-      <invalid-value>'Zaman aralığı' alanındaki değeri geçersiz. Sadece uzun türlerine izin verilir.</invalid-value>
+      <invalid-value>''Zaman aralığı'' alanındaki değeri geçersiz. Sadece uzun türlerine izin verilir.</invalid-value>
     </msg>
   </RepeatIntervalValidator>
   <UIPermissionSelector>
@@ -2057,11 +2057,11 @@
     <msg>
       <empty-input>Bu alanın değeri, null veya boş.</empty-input>
       <Invalid-char>''{0}'' Alanı geçersiz bir karakter içeriyor. Lütfen başka bir değer girin.</Invalid-char>
-      <Invalid-char2>Sayı '~' tarafından takip edilmelidir.</Invalid-char2>
-      <Invalid-char1>Karakteri aşağıdaki numarayı ' ~' 0 ile 1 arasında olmalıdır.</Invalid-char1>
-      <Invalid-char3>Sayı '^' tarafından takip edilmelidir.</Invalid-char3>
-      <Invalid-char4>' ~' karakteri yanında boşlık karakterine izin verilmez.</Invalid-char4>
-      <Invalid-char5>' ^' karakteri yanında boşlık karakterine izin verilmez.</Invalid-char5>
+      <Invalid-char2>Sayı ''~'' tarafından takip edilmelidir.</Invalid-char2>
+      <Invalid-char1>Karakteri aşağıdaki numarayı '' ~'' 0 ile 1 arasında olmalıdır.</Invalid-char1>
+      <Invalid-char3>Sayı ''^'' tarafından takip edilmelidir.</Invalid-char3>
+      <Invalid-char4>'' ~'' karakteri yanında boşlık karakterine izin verilmez.</Invalid-char4>
+      <Invalid-char5>'' ^'' karakteri yanında boşlık karakterine izin verilmez.</Invalid-char5>
     </msg>
   </SearchValidator>
   <!--
@@ -3112,7 +3112,7 @@
     <AbortAll>Tümünü iptal et</AbortAll>
     <AbortAllFiles>Tüm dosyaları iptal</AbortAllFiles>
     <MaxFileSize>En büyük dosya boyutu</MaxFileSize>
-    <InvalidCharacters>Geçersiz karakterler tarafından değiştirildi '-'</InvalidCharacters>
+    <InvalidCharacters>Geçersiz karakterler tarafından değiştirildi ''-''</InvalidCharacters>
     <DropFileMessage>Geçerli klasördeki dosyalarınızı buraya bırakın</DropFileMessage>
     <Close>Kapat</Close>
     <in>içinde</in>

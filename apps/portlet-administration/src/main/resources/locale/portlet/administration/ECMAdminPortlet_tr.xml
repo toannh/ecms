@@ -259,7 +259,7 @@
   </UIMetadataList>
   <MetadataPopupAddNew>
     <title>
-      <UIMetadataForm>Add New Metadata's Template</UIMetadataForm>
+      <UIMetadataForm>Add New Metadata''s Template</UIMetadataForm>
     </title>
   </MetadataPopupAddNew>
   <MetadataPopupEdit>
@@ -1248,7 +1248,7 @@
       <exist>"{0}" Kategori zaten var.</exist>
       <name-null>Lütfen kategori adını belirtin.</name-null>
       <name-invalid>Kategori adı geçersiz bir karakter var.</name-invalid>
-      <name-too-long>Kategori adında 30'dan az karakter olmalıdır.</name-too-long>
+      <name-too-long>Kategori adında 30''dan az karakter olmalıdır.</name-too-long>
     </msg>
   </UITaxonomyForm>
     
