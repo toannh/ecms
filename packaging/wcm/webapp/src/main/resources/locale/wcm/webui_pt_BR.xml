@@ -202,7 +202,7 @@
     <msg>
       <time-to-late>O tempo de busca está demorando muito.</time-to-late>
       <empty-field>Por favor coloque uma palavra chave válida para a busca</empty-field>
-      <invalid-format>Formato de data/hora inválido no campo ''{0}''</invalid-format>
+      <invalid-format>Formato de data/hora inválido no campo '{0}'</invalid-format>
       <invalid-date>"Data final" deve ser maior que a "Data inicial"</invalid-date>
       <invalid-nodeType>O tipo de nó "{0}" é inválido! Por favor verifique novamente.</invalid-nodeType>
       <invalid-keyword>A palavra-chave é inválida. Alguns caracteres não são autorizados.</invalid-keyword>
@@ -339,7 +339,7 @@ Não é possível pré-visualizar este conteúdo. Este modelo não é suportado<
 
   <ZeroValidator>
     <msg>
-      <Invalid-number>Zero não é aceito no campo ''{0}''</Invalid-number>
+      <Invalid-number>Zero não é aceito no campo '{0}'</Invalid-number>
     </msg>
   </ZeroValidator>
 
