@@ -201,7 +201,7 @@
       <Back>#{word.back}</Back>
     </action>
     <msg>
-      <rename-successfull>Der Knoten ''{0}'' wurde erfolgreich zu ''{1}'' umbenannt.</rename-successfull>
+      <rename-successfull>Der Knoten '{0}' wurde erfolgreich zu '{1}' umbenannt.</rename-successfull>
       <rename-denied>Zugriff verweigert. Dieser Knoten kann nicht umbenannt werden.</rename-denied>
       <fileName-invalid>Der neue Name enthält ungültigen Zeichen.</fileName-invalid>
       <newName-same-oldName>Der neue Name ist bereits vorhanden. Bitte überprüfen Sie erneut.</newName-same-oldName>
@@ -323,15 +323,15 @@
       <access-false>Der Knoten ist kein Artikel oder nicht eingecheckt !</access-false>
       <unsupported-action>Diese Aktion wird nicht unterstützt.</unsupported-action>
       <not-relationable>Dieser Knoten hatte bis jetzt noch keine verwandten Links zu einem anderen Knoten.</not-relationable>
-      <node-pasted>Der Knoten ''{0}'' wurde an Ort ''{1}'' eingefügt. Dieser Vorgang wurde bereits gespeichert.</node-pasted>
+      <node-pasted>Der Knoten '{0}' wurde an Ort '{1}' eingefügt. Dieser Vorgang wurde bereits gespeichert.</node-pasted>
       <no-node-selected>Kein Knoten kopiert.</no-node-selected>
-      <unable-edit>Der Knoten: ''{0}'' mit Knotentyp ''{1}'' unterstützt keine Änderungsaktion.</unable-edit>
+      <unable-edit>Der Knoten: '{0}' mit Knotentyp '{1}' unterstützt keine Änderungsaktion.</unable-edit>
       <not-support>Der ausgewählte Knoten kann nicht bearbeitet werden.</not-support>
       <template-null>Dieser Knoten verfügt über keinen Bearbeitungsdialog.</template-null>
       <keyword-null>Es gibt keinen Suchbegriff.</keyword-null>
       <not-found>Keine Ergebnisse gefunden.</not-found>
       <keyword-not-allow>Dieser Suchbegriff ist nicht erlaubt.</keyword-not-allow>
-      <is-not-referenable>Knoten ''{0}'' ist nicht referenzierbar</is-not-referenable>
+      <is-not-referenable>Knoten '{0}' ist nicht referenzierbar</is-not-referenable>
       <access-denied>Zugang verweigert. Ihnen fehlt die Berechtigung, diesen Knoten zu bearbeiten.</access-denied>
       <access-add-denied>Zugang verweigert. Ihnen fehlt die Berechtigung, in diesem Knoten hinzuzufügen.</access-add-denied>
       <item-existed>Es existiert bereits ein Knoten der mit den Namen assoziiert ist.</item-existed>
@@ -375,7 +375,7 @@
       <can-not-move-node>Sie haben keine Berechtigung, diesen Knoten zu verschieben. Bitte kontaktieren Sie den Administrator.</can-not-move-node>
       <does-not-support-versioning>Ihnen fehlt die Berechtigung, diesen Knoten zu verschieben. Bitte kontaktieren Sie den Administrator.</does-not-support-versioning>
       <path-not-found>Dieses Element wurde gelöscht oder geändert. Bitte klicken Sie auf die Schaltfläche "aktualisieren".</path-not-found>
-      <paste-lock-exception>Sie können nicht ''{0}'' zu diesem Knoten einfügen, da die Quelle oder den Zielknoten gesperrt ist oder mit dem gesperrten Knoten verwandt ist.</paste-lock-exception>
+      <paste-lock-exception>Sie können nicht '{0}' zu diesem Knoten einfügen, da die Quelle oder den Zielknoten gesperrt ist oder mit dem gesperrten Knoten verwandt ist.</paste-lock-exception>
       <can-not-checkin-node>Dieser Knoten kann nicht eingecheckt werden. Überprüfen Sie, ob Sie über die richtigen Berechtigungen verfügen.</can-not-checkin-node>
       <can-not-checkout-node>Dieser Knoten kann nicht ausgecheckt werden. Überprüfen Sie, ob Sie über die richtigen Berechtigungen verfügen.</can-not-checkout-node>
       <move-constraint-exception>Fehler beim Verschieben des Knotens.</move-constraint-exception>
@@ -389,7 +389,7 @@
       <not-support>Der ausgewählte Knoten kann nicht gelöscht werden. Bitte wählen Sie einen anderen Knoten.</not-support>
       <current-node-not-allow-paste>Sie können den kopierten Knotentyp nicht in den aktuellen Knoten einfügen.</current-node-not-allow-paste>
       <copied-node-in-versioning>Sie können nicht den kopierten Knoten einfügen. Er wird versioniert.</copied-node-in-versioning>
-      <parent-node-locked>Ihnen fehlt die Berechtigung, den Knoten ''{0}'' zu entsperren.</parent-node-locked>
+      <parent-node-locked>Ihnen fehlt die Berechtigung, den Knoten '{0}' zu entsperren.</parent-node-locked>
       <this-node-locked-by-parent>Sie können diesen Knoten nicht entsperren. Es wird von dem übergeordneten Knoten gesperrt.</this-node-locked-by-parent>
       <paste-node-same-name>Sie können keinen Knoten mit dem gleichen Namen wie ein Knoten im Zielordner einfügen.</paste-node-same-name>
       <has-not-add-permission>Ihnen fehlt die Berechtigung, einen neuen Knoten hinzuzufügen.</has-not-add-permission>
@@ -423,7 +423,7 @@
       <title-invalid>Bitte geben Sie den Ordnertitel ein.</title-invalid>
       <name-not-allowed>Dieser Name ist nicht erlaubt.</name-not-allowed>
       <fileName-error>Der Dateiname ist ungültig.</fileName-error>
-      <constraint-violation>Der aktuelle Knoten erlaubt kein Hinzufügen des Knotentyps ''{0}''</constraint-violation>
+      <constraint-violation>Der aktuelle Knoten erlaubt kein Hinzufügen des Knotentyps '{0}'</constraint-violation>
       <repository-exception>Ein unerwarteter Fehler ist aufgetreten. Kontaktieren Sie bitte Ihren Administrator für weitere Informationen.</repository-exception>
       <repository-exception-permission>Ihnen fehlt die Berechtigung, einen neuen Ordner auf diesem Knoten hinzuzufügen.</repository-exception-permission>
       <numberformat-exception>Dieser Ordner kann nicht gespeichert werden. Der angegebene Name muss im numerischen Format sein.</numberformat-exception>
@@ -497,10 +497,10 @@
       
       <confirm-restore>Ein Knoten mit dem gleichen Namen ist bereits im alten Speicherort des Knotens "{0}" vorhanden. Möchten Sie diesen Knoten wirklich wiederherstellen?</confirm-restore>
       <confirm-move>Möchten Sie diese(n) Knoten wirklich verschieben?</confirm-move>
-      <node-cut>Der Knoten ''{0}'' wurde ausgeschnitten.</node-cut>
-      <execute-successfully>Die benutzerdefinierte Aktion ''{0}'' wurde ausgeführt.</execute-successfully>
-      <save-node-success>Der Knoten ''{0}'' wurde gespeichert.</save-node-success>
-      <move-problem>Sie können den Knoten ''{0}'' nicht nach ''{1}'' verschieben, weil ein Problem mit der Berechtigung oder erzwungenen Bedingungen vorliegt.</move-problem>
+      <node-cut>Der Knoten '{0}' wurde ausgeschnitten.</node-cut>
+      <execute-successfully>Die benutzerdefinierte Aktion '{0}' wurde ausgeführt.</execute-successfully>
+      <save-node-success>Der Knoten '{0}' wurde gespeichert.</save-node-success>
+      <move-problem>Sie können den Knoten '{0}' nicht nach '{1}' verschieben, weil ein Problem mit der Berechtigung oder erzwungenen Bedingungen vorliegt.</move-problem>
     </msg>
   </UIWorkingArea>
   <UIDocumentWorkspace>
@@ -509,12 +509,12 @@
       <no-children-but-has-hidden>Dieser Knoten hat keine Unterknoten aber es sind versteckte Dateien vorhanden.</no-children-but-has-hidden>
     </label>
     <msg>
-      <unable-save-node>Der Knoten ''{0}'' ist neu . Die Sitzung muss gespeichert werden bevor die Aktion durchgeführt werden kann.</unable-save-node>
-      <save-node-success>Der Knoten ''{0}'' wurde gespeichert.</save-node-success>
-      <node-copied>Der Knoten ''{0}'' wurde kopiert.</node-copied>
-      <node-cut>Der Knoten ''{0}'' wurde ausgeschnitten.</node-cut>
+      <unable-save-node>Der Knoten '{0}' ist neu . Die Sitzung muss gespeichert werden bevor die Aktion durchgeführt werden kann.</unable-save-node>
+      <save-node-success>Der Knoten '{0}' wurde gespeichert.</save-node-success>
+      <node-copied>Der Knoten '{0}' wurde kopiert.</node-copied>
+      <node-cut>Der Knoten '{0}' wurde ausgeschnitten.</node-cut>
       <remove-root>Sie können den Wurzelknoten nicht löschen.</remove-root>
-      <node-remove-success>Der Knoten ''{0}'' wurde entfernt.</node-remove-success>
+      <node-remove-success>Der Knoten '{0}' wurde entfernt.</node-remove-success>
     </msg>
     <tooltip>
       <Rename>Umbenennen</Rename>
@@ -533,7 +533,7 @@
   </UIDocumentWorkspace>
   <UIDocumentInfo>
     <msg>
-      <access-denied>Zugriff verweigert! Sie können den Knoten ''{0}'' nicht einsehen.</access-denied>
+      <access-denied>Zugriff verweigert! Sie können den Knoten '{0}' nicht einsehen.</access-denied>
       <null-exception>Element nicht gefunden. Es wurde entweder entfernt oder geändert, oder Ihnen fehlt die Berechtigung, auf diesem Knoten zuzugreifen.</null-exception>
       <confirm-deleteattachment>Möchten Sie den Anhang wirklich entfernen?</confirm-deleteattachment>
       <confirm-deleteattcomment>Möchten Sie diesen Kommentar wirklich entfernen?</confirm-deleteattcomment>
@@ -774,7 +774,7 @@
       <selectUser>Benutzer auswählen</selectUser>
     </label>
     <msg>
-      <not-change-owner>''{0}'' is the owner of this node and has full control permission.</not-change-owner>
+      <not-change-owner>'{0}' is the owner of this node and has full control permission.</not-change-owner>
     </msg>
   </UIGroupSelector>
   <UIPermissionForm>
@@ -1070,8 +1070,8 @@
       <must-choose-one>You have to select at least one type.</must-choose-one>
       <properties-null>Select properties first, then filter.</properties-null>
       <exactly-require>You have to fill in the Value exactly before saving this constraint.</exactly-require>
-      <fromDate-invalid>Invalid type in the ''From'' field. Please reselect or type correctly.</fromDate-invalid>
-      <toDate-invalid>Invalid type in the ''To'' field. Please reselect or type correctly.</toDate-invalid>
+      <fromDate-invalid>Invalid type in the 'From' field. Please reselect or type correctly.</fromDate-invalid>
+      <toDate-invalid>Invalid type in the 'To' field. Please reselect or type correctly.</toDate-invalid>
     </msg>
     <button>
       <label-Add>Hinzufügen</label-Add>
@@ -1679,7 +1679,7 @@
       <cannot-save>Während des Speicherns des Dokuments ist es zu einem Fehler gekommen.</cannot-save>
       <in-versioning>Bitte checken Sie den aktuellen Knoten aus bevor Sie einen neuen hinzufügen.</in-versioning>
       <not-support>Die Vorlage von "{0}" kann nicht geladen werden.</not-support>
-      <value-invalid>''{0}'' ist ein benötigter Wert.</value-invalid>
+      <value-invalid>'{0}' ist ein benötigter Wert.</value-invalid>
       <repository-exception>Während des Speicherns des Dokuments ist es zu einem Fehler gekommen.</repository-exception>
       <!--DMS 2.4.x; ECM-3543-->
       <repository-exception-permission>Ihnen fehlt die Berechtigung, ein neues Dokument auf diesem Knoten hinzuzufügen.</repository-exception-permission>
@@ -1752,7 +1752,7 @@
     <msg>
       <remove-popup-first>Sie müssen das Bearbeiten-Popup schliessen bevor Sie den Knoten löschen können.</remove-popup-first>
       <confirm-delete-action>Wollen Sie diese Aktion wirklich löschen?</confirm-delete-action>
-      <template-empty>Die Vorlage ''{0}'' ist null oder leer.</template-empty>
+      <template-empty>Die Vorlage '{0}' ist null oder leer.</template-empty>
       <template-null>Die Vorlage ist entweder ungültig oder Sie haben keine Zugriffsberechtigung für diese Vorlage.</template-null>
       <access-denied>Zugriff verweigert. Sie haben keine Berechtigung für diese Aktion.</access-denied>
     </msg>
@@ -1777,7 +1777,7 @@
       <existed-action>Der Aktionsname "{0}" ist bereits vorhanden. Wählen Sie bitte einen anderen Namen.</existed-action>
       <unable-add-action>Diese Aktion kann nicht hinzugefügt werden.</unable-add-action>
       <unable-add>Kann diese Aktion nicht hinzufügen. Bei diesem Knoten handelt es sich entweder um den Stammknoten oder Sie haben keine Berechtigung.</unable-add>
-      <not-support>Der Dialog ''{0}'' wird nicht unterstützt</not-support>
+      <not-support>Der Dialog '{0}' wird nicht unterstützt</not-support>
       <no-permission-add>Zugriff verweigert ! Sie haben kein Recht hier eine Aktion hinzuzufügen.</no-permission-add>
       <access-denied>Zugriff verweigert. Sie haben keine Zugriffsberechtigung für diese Vorlage.</access-denied>
       <lifecycle-invalid>Sie können diese Aktion nicht hinzufügen. Die Lebenszyklusphase dieser Aktion ist ungültig.</lifecycle-invalid>
@@ -1917,13 +1917,13 @@
   -->
   <ECMNameValidator>
     <msg>
-      <Invalid-char>Das Feld ''{0} enthält ungültige Zeichen. Bitte einen anderen Wert eingeben.</Invalid-char>
-      <empty-input>Der Wert im Feld ''{0}'' ist nichts oder leer.</empty-input>
+      <Invalid-char>Das Feld '{0} enthält ungültige Zeichen. Bitte einen anderen Wert eingeben.</Invalid-char>
+      <empty-input>Der Wert im Feld '{0}' ist nichts oder leer.</empty-input>
     </msg>
   </ECMNameValidator>
   <DateTimeValidator>
     <msg>
-      <Invalid-input>Das Feld ''{0}'' mit dem Wert ''{1}'' ist ungültig.</Invalid-input>
+      <Invalid-input>Das Feld '{0}' mit dem Wert '{1}' ist ungültig.</Invalid-input>
     </msg>
   </DateTimeValidator>
   <CronExpressionValidator>
@@ -2044,8 +2044,8 @@
   -->
   <ECMStandardPropertyNameValidator>
     <msg>
-      <empty-input>Der Wert im Feld ''{0}'' ist nichts oder leer.</empty-input>
-      <Invalid-char>Das feld ''{0}'' enthält ungültige Zeichen. Bitte geben Sie einen anderen Wert ein.</Invalid-char>
+      <empty-input>Der Wert im Feld '{0}' ist nichts oder leer.</empty-input>
+      <Invalid-char>Das feld '{0}' enthält ungültige Zeichen. Bitte geben Sie einen anderen Wert ein.</Invalid-char>
     </msg>
   </ECMStandardPropertyNameValidator>
   <!--
@@ -2057,11 +2057,11 @@
     <msg>
       <empty-input>Der Wert dieses Feldes ist ungültig oder leer.</empty-input>
       <Invalid-char>Das Feld enthält einige ungültige Zeichen. Bitte geben Sie einen anderen Wert ein.</Invalid-char>
-      <Invalid-char2>Der Zahl muss das Zeichen ''~'' folgen.</Invalid-char2>
-      <Invalid-char1>Die Zahl die dem Zeichen ''~'' folgt muss zwischen 0 und 1 sein.</Invalid-char1>
-      <Invalid-char3>Der Zahl muss das Zeichen ''^'' folgen.</Invalid-char3>
-      <Invalid-char4>Leerzeichen sind um das Zeichen ''~'' nicht erlaubt.</Invalid-char4>
-      <Invalid-char5>Leerzeichen sind neben dem Zeichen ''^'' nicht erlaubt.</Invalid-char5>
+      <Invalid-char2>Der Zahl muss das Zeichen '~' folgen.</Invalid-char2>
+      <Invalid-char1>Die Zahl die dem Zeichen '~' folgt muss zwischen 0 und 1 sein.</Invalid-char1>
+      <Invalid-char3>Der Zahl muss das Zeichen '^' folgen.</Invalid-char3>
+      <Invalid-char4>Leerzeichen sind um das Zeichen '~' nicht erlaubt.</Invalid-char4>
+      <Invalid-char5>Leerzeichen sind neben dem Zeichen '^' nicht erlaubt.</Invalid-char5>
     </msg>
   </SearchValidator>
   <!--
@@ -2253,11 +2253,11 @@
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <addFolder-successful>Die symbolische Verknüpfung ''{0}'' wurde erfolgreich hinzugefügt.</addFolder-successful>
+      <addFolder-successful>Die symbolische Verknüpfung '{0}' wurde erfolgreich hinzugefügt.</addFolder-successful>
       <name-invalid>Bitte geben Sie den Namen der symbolischen Verknüpfung ein.</name-invalid>
       <name-not-allowed>Dieser Name ist nicht erlaubt.</name-not-allowed>
       <fileName-error>Der Dateiname ist ungültig.</fileName-error>
-      <constraint-violation>Sie können den Knotentyp ''{0}'' nicht zum aktuellen Knoten hinzufügen.</constraint-violation>
+      <constraint-violation>Sie können den Knotentyp '{0}' nicht zum aktuellen Knoten hinzufügen.</constraint-violation>
       <repository-exception>Zugriff verweigert! Sie haben nicht die Berechtigung symbolische Verknüfungen zu diesem Knoten hinzuzufügen.</repository-exception>
       <numberformat-exception>Sie können diesen Ordner nicht speichern. Der übergebene Name muss in nummerischem Format sein.</numberformat-exception>
       <path-node-invalid>Bitte geben Sie den Pfad zum Knoten ein.</path-node-invalid>
@@ -2282,7 +2282,7 @@
       <SelectDocument>Dokument auswählen</SelectDocument>
     </action>
     <msg>
-      <addFolder-successful>Symbolische Verknüpfung ''{0}'' erfolgreich hinzugefügt.</addFolder-successful>
+      <addFolder-successful>Symbolische Verknüpfung '{0}' erfolgreich hinzugefügt.</addFolder-successful>
       <name-invalid>Bitte geben Sie den symbolischen Verknüpfungsname (Symlink) ein.</name-invalid>
       <name-not-allowed>Dieser Name ist nicht erlaubt.</name-not-allowed>
       <fileName-error>Der Dateiname ist ungültig.</fileName-error>
@@ -2319,7 +2319,7 @@
 
   <UIWorkingArea>
     <msg>
-      <create-link-problem>Sie können keine Verknüpfung für den Knoten ''{0}'' in  ''{1}'' erstellen.</create-link-problem>
+      <create-link-problem>Sie können keine Verknüpfung für den Knoten '{0}' in  '{1}' erstellen.</create-link-problem>
       <dest-node-is-link>Der Zielknoten "{0}" ist bereits eine symbolische Verknüpfung, daher können Sie darin keine weitere erstellen.</dest-node-is-link>
       <selected-is-link>Der ausgewählte Knoten "{0}" ist bereits eine Verknüpfung. Sie können keine Verknüpfung erstellen, die auf eine Verknüpfung verweist.</selected-is-link>
       <confirm-create-link>Möchten Sie eine Verknüpfung zu diesem Ort erstellen?</confirm-create-link>
@@ -2469,7 +2469,7 @@
 
   <UIDocumentForm>
     <msg>
-      <do-not-permission>Sie haben keine Berechtigung zum Laden der Vorlage ''{0}''.</do-not-permission>
+      <do-not-permission>Sie haben keine Berechtigung zum Laden der Vorlage '{0}'.</do-not-permission>
     </msg>
   </UIDocumentForm>
 
@@ -2491,7 +2491,7 @@
 
   <UIPopupMenu>
     <msg>
-      <can-not-unlock-node-is-checked-in>Sie können die Sperre nicht aufheben weil der Knoten ''{0}'' (oder sein Vorfahre) eingecheckt ist.</can-not-unlock-node-is-checked-in>
+      <can-not-unlock-node-is-checked-in>Sie können die Sperre nicht aufheben weil der Knoten '{0}' (oder sein Vorfahre) eingecheckt ist.</can-not-unlock-node-is-checked-in>
     </msg>
   </UIPopupMenu>
 

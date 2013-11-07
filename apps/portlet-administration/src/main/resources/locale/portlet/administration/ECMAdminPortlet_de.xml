@@ -769,7 +769,7 @@
     <msg>
       <action-type-added>Der Aktionstyp"{0}" wurde erfolgreich hinzugefügt.</action-type-added>
       <action-type-create-error>Fehler beim Erstellen des Aktionstyps.</action-type-create-error>
-      <action-name-invalid>"{0}" ist ungültig. Der Name muss mit ''exo:'' beginnen.</action-name-invalid>
+      <action-name-invalid>"{0}" ist ungültig. Der Name muss mit 'exo:' beginnen.</action-name-invalid>
       <action-exist>Diese Aktion existiert schon in dem ECM-System.</action-exist>
       <fileName-invalid>Der Aktionsname enthält ungültigen Zeichen.</fileName-invalid>
     </msg>
@@ -2018,8 +2018,8 @@
   -->
   <ECMNameValidator>
     <msg>
-      <Invalid-char>Das Feld ''{0}'' enthält ungültigen Zeichen. Bitte geben Sie einen anderen Wert ein.</Invalid-char>
-      <empty-input>Der Wert im Feld ''{0}'' ist null oder leer.</empty-input>
+      <Invalid-char>Das Feld '{0}' enthält ungültigen Zeichen. Bitte geben Sie einen anderen Wert ein.</Invalid-char>
+      <empty-input>Der Wert im Feld '{0}' ist null oder leer.</empty-input>
     </msg>
   </ECMNameValidator>
   <EmptyFieldValidator>
