@@ -205,7 +205,7 @@
       <rename-denied>Accesso negato! Non puoi rinominare questo nodo.</rename-denied>
       <fileName-invalid>Il nuovo nome contiene caratteri non validi.</fileName-invalid>
       <newName-same-oldName>Il nuovo nome esiste giÃ . Controlla di nuovo.</newName-same-oldName>
-      <version-exception>Questo nodo o l'antenato di questo nodo non sono in check out.</version-exception>
+      <version-exception>Questo nodo o l''antenato di questo nodo non sono in check out.</version-exception>
       <lock-exception>Nodo bloccato. Sblocca prima di rinominare.</lock-exception>
       <constraintViolation-exception>Errore rinominando il nodo ''{0}''. Ricontrolla.</constraintViolation-exception>
       <unknown-prefix>Prefix ''{0}'' has not been registered yet.</unknown-prefix>
@@ -335,7 +335,7 @@
       <access-denied>Accesso negato. Non hai permessi di modifica per questo nodo.</access-denied>
       <access-add-denied>Accesso negato. Non hai permessi di aggiunta per questo nodo.</access-add-denied>
       <item-existed>Il nodo esiste giÃ  e non Ãš permesso dare lo stesso nome a nodi fratelli.</item-existed>
-      <removed-hidden-mixin>E' stato rimosso il mixin nascosto con successo.</removed-hidden-mixin>
+      <removed-hidden-mixin>E'' stato rimosso il mixin nascosto con successo.</removed-hidden-mixin>
       <added-hidden-mixin>Hai aggiunto il mixin nascosto con successo.</added-hidden-mixin>
       <not-supported>Questa funzione Ãš supportata solo nei nodi di tipo documento.</not-supported>
       <empty-file-type>Non puoi aggiungere un documento per questo nodo.</empty-file-type>
@@ -358,20 +358,20 @@
   <UIPopupMenu>
     <msg>
       <has-not-permission>Accesso negato. Non hai permesso di aggiungere in questo nodo.</has-not-permission>
-      <has-not-edit-permission>Accesso negato. Non hai il permesso di modifica per il nodo. Contatta l'amministratore per vare i giusti diritti.</has-not-edit-permission>
+      <has-not-edit-permission>Accesso negato. Non hai il permesso di modifica per il nodo. Contatta l''amministratore per vare i giusti diritti.</has-not-edit-permission>
       <cannot-login-node>Nnon puoi accedere e incollare il nodo qui.</cannot-login-node>
       <cannot-paste-nodetype>Non puoi incolllare il nodo qui.</cannot-paste-nodetype>
       <has-not-permission-unlok>Non hai il permesso di sbloccare questo nodo.</has-not-permission-unlok>
       <bound-exception>Non puoi tagliare e incollare nel suo sotto-nodo.</bound-exception>
       <bound-move-exception>Non puoi spostare il ndo su se stesso o in un suo sottonodo.</bound-move-exception>
       <does-not-support-auditing>Non puoi attivare la revisione su questo nodo.</does-not-support-auditing>
-      <can-not-rename-node>Non hai permessi di rinominare questo nodo. Contatta l'amministratore per avere i diritti corretti.</can-not-rename-node>
-      <can-not-cut-node>Non hai permessi per tagliare questo nodo. Contatta l'amministratore per avere i diritti corretti.</can-not-cut-node>
-      <can-not-remove-node>Non hai i permessi per rimuovere questo nodo. Contatta l'amministratore per avere i diritti corretti.</can-not-remove-node>
-      <can-not-lock-node>Non hai i permessi di bloccare questo nodo. Contatta l'amministratore per avere i diritti corretti.</can-not-lock-node>
-      <can-not-unlock-node>Non hai i permessi di sbloccare questo nodo. Contatta l'amministratore per avere i diritti corretti.</can-not-unlock-node>
+      <can-not-rename-node>Non hai permessi di rinominare questo nodo. Contatta l''amministratore per avere i diritti corretti.</can-not-rename-node>
+      <can-not-cut-node>Non hai permessi per tagliare questo nodo. Contatta l''amministratore per avere i diritti corretti.</can-not-cut-node>
+      <can-not-remove-node>Non hai i permessi per rimuovere questo nodo. Contatta l''amministratore per avere i diritti corretti.</can-not-remove-node>
+      <can-not-lock-node>Non hai i permessi di bloccare questo nodo. Contatta l''amministratore per avere i diritti corretti.</can-not-lock-node>
+      <can-not-unlock-node>Non hai i permessi di sbloccare questo nodo. Contatta l''amministratore per avere i diritti corretti.</can-not-unlock-node>
       <no-node>Seleziona almeno un nodo prima di incollare.</no-node>
-      <can-not-paste-node>Non hai i permessi di incollare in questo nodo. Contatta l'amministratore per avere i diritti corretti.</can-not-paste-node>
+      <can-not-paste-node>Non hai i permessi di incollare in questo nodo. Contatta l''amministratore per avere i diritti corretti.</can-not-paste-node>
       <can-not-move-node>You do not have permission to move this node. Please contact the administrator.</can-not-move-node>
       <does-not-support-versioning>Gestione versioni non supportata per questo nodo.</does-not-support-versioning>
       <path-not-found>Elemento cancellato o cambiato. Clicca il bottone Aggiorna.</path-not-found>
@@ -385,12 +385,12 @@
       <cant-lock>Non puoi bloccare questo nodo.</cant-lock>
       <node-locked>L''elemento con percorso {0} o livello superiore Ãš bloccato.</node-locked>
       <can-not-delete>Chiudi questo nodo prima di cancellarlo.</can-not-delete>
-      <can-not-delete-version>Impossibile eliminare questo nodo. E' versionato.</can-not-delete-version>
+      <can-not-delete-version>Impossibile eliminare questo nodo. E'' versionato.</can-not-delete-version>
       <not-support>Impossibile eliminare questo nodo. Selezionane un altro.</not-support>
       <current-node-not-allow-paste>Impossibile incollare il tipo di nodo copiato nel nodo corrente.</current-node-not-allow-paste>
-      <copied-node-in-versioning>Impossible incollare il nodo copiato. E' versionato.</copied-node-in-versioning>
+      <copied-node-in-versioning>Impossible incollare il nodo copiato. E'' versionato.</copied-node-in-versioning>
       <parent-node-locked>Non hai il permesso di sbloccare il nodo ''{0}''.</parent-node-locked>
-      <this-node-locked-by-parent>Impossible sbloccare questo nodo. E' bloccato dal nodo padre o da qualche nodo superiore.</this-node-locked-by-parent>
+      <this-node-locked-by-parent>Impossible sbloccare questo nodo. E'' bloccato dal nodo padre o da qualche nodo superiore.</this-node-locked-by-parent>
       <paste-node-same-name>Impossibile incollare un nodo con lo stesso nome di un nodo nella cartella di destinazione.</paste-node-same-name>
       <has-not-add-permission>Non hai permessi di aggiungere un nuovo nodo.</has-not-add-permission>
       <node-cutting>Il nodo Ãš stato tagliato. Non puoi incollarlo qui.</node-cutting>
@@ -424,7 +424,7 @@
       <name-not-allowed>Nome non autorizzato.</name-not-allowed>
       <fileName-error>Nome file non valido.</fileName-error>
       <constraint-violation>Il nodo non consente di aggiungere il tipo di nodo ''{0}''.</constraint-violation>
-      <repository-exception>Errore sconosciuto. Contatta l'amministratore per maggiori dettagli.</repository-exception>
+      <repository-exception>Errore sconosciuto. Contatta l''amministratore per maggiori dettagli.</repository-exception>
       <repository-exception-permission>Non hai i permessi di aggiungere una cartella in questo nodo.</repository-exception-permission>
       <numberformat-exception>Impossibile salvare questa cartella. Il nome fornito deve essere in formato numerico.</numberformat-exception>
       <!--DMS 2.4.x; ECM-3553-->
@@ -534,7 +534,7 @@
   <UIDocumentInfo>
     <msg>
       <access-denied>Accesso negato. Non puoi accedere al nodo ''{0}''.</access-denied>
-      <null-exception>Elemento non trovato. E' stato rimosso o cambiato o non hai il permesso per accedere a questo nodo</null-exception>
+      <null-exception>Elemento non trovato. E'' stato rimosso o cambiato o non hai il permesso per accedere a questo nodo</null-exception>
       <confirm-deleteattachment>Sei sicuro di voler rimuovere il file allegato?</confirm-deleteattachment>
       <confirm-deleteattcomment>Sei sicuro di voler rimuovere questo commento?</confirm-deleteattcomment>
       <access-denied-exception>Accesso negato! Forse, non hai privilegi di lettura o il nodo Ãš stato rimosso o cambiato.</access-denied-exception>
@@ -713,7 +713,7 @@
       <unable-create>Impossible aggiungere proprietÃ .</unable-create>
       <value-invalid>Inserisci il valore.</value-invalid>
       <node-checkedin>Devi fare il checkout del nodo prima di aggiungere una proprietÃ .</node-checkedin>
-      <can-not-add>Non Ãš possible aggiunger proprietÃ  a questo nodo. E' permesso solo per il tipo di nodo nt:unstructured.</can-not-add>
+      <can-not-add>Non Ãš possible aggiunger proprietÃ  a questo nodo. E'' permesso solo per il tipo di nodo nt:unstructured.</can-not-add>
       <propertyName-invalid>Il nome proprietÃ  deve includere il namespace (e.g. namespace:nome).</propertyName-invalid>
       <propertyName-exist>La proprietÃ  ''{0}'' esiste giÃ .</propertyName-exist>
       <propertyValu-null>Forse, alcuni valori sono nulli.</propertyValu-null>
@@ -882,7 +882,7 @@
       <keyword-not-allow>Parola chiave non permessa.</keyword-not-allow>
       <value-null>Inserisci parole chiavi o vincoli.</value-null>
       <value-save-null>Inserisci parole chiavi o vincoli prima di salvare la query.</value-save-null>
-      <inputSearch-invalid>Ci sono caratteri non validi nell'input di ricerca.</inputSearch-invalid>
+      <inputSearch-invalid>Ci sono caratteri non validi nell''input di ricerca.</inputSearch-invalid>
       <query-invalid>Query non valida. Controlla il vincolo.</query-invalid>
     </msg>
   </UISimpleSearch>
@@ -895,7 +895,7 @@
     <msg>
       <not-support>Non ci sono template di Visualizzazione per questo nodo.</not-support>
       <empty>Nessun risultato trovato.</empty>
-      <access-denied>Non puoi visualizzare il nodo perchÃš il template non Ãš supportato o l'accesso Ãš negato.</access-denied>
+      <access-denied>Non puoi visualizzare il nodo perchÃš il template non Ãš supportato o l''accesso Ãš negato.</access-denied>
       <query-invalid>Query non valida.</query-invalid>
     </msg>
     <header>
@@ -924,7 +924,7 @@
   </UISearchResult>
   <UIShowAllOwnedByUserResult>
     <msg>
-      <not-support>Non c'Ãš un template di visualizzazione per questo nodo</not-support>
+      <not-support>Non c''Ãš un template di visualizzazione per questo nodo</not-support>
       <empty>Nessun risultato trovato.</empty>
       <access-denied>Non puoi visualizzare questo nodo perchÃš questo template non Ãš supportato o accesso negato.</access-denied>
       <query-invalid>Query non valida</query-invalid>
@@ -955,7 +955,7 @@
   </UIShowAllOwnedByUserResult>
   <UIShowAllFavouriteResult>
     <msg>
-      <not-support>Non c'Ãš template di visualizzazione per questo nodo</not-support>
+      <not-support>Non c''Ãš template di visualizzazione per questo nodo</not-support>
       <empty>Nessun risultato trovato!</empty>
       <access-denied>Non puo visualizzare questo nodo perchÃš questo template non Ãš supportato o accesso negato!</access-denied>
       <query-invalid>Query non valida</query-invalid>
@@ -986,7 +986,7 @@
   </UIShowAllFavouriteResult>
   <UIShowAllHiddenResult>
     <msg>
-      <not-support>Non c'Ãš un template di visualizzazzione per questo nodo.</not-support>
+      <not-support>Non c''Ãš un template di visualizzazzione per questo nodo.</not-support>
       <empty>Nessun risultato trovato.</empty>
       <access-denied>Non puoi visualizzare questo nodo perchÃš questo template non Ãš supportato o accesso negato.</access-denied>
       <query-invalid>Query non valida.</query-invalid>
@@ -1019,7 +1019,7 @@
   </UIShowAllHiddenResult>
   <UIShowAllTrashResult>
     <msg>
-      <not-support>Non c'Ãš template di visualizzazione per questo nodo.</not-support>
+      <not-support>Non c''Ãš template di visualizzazione per questo nodo.</not-support>
       <empty>Nessun risultato trovato.</empty>
       <access-denied>Non puoi visualizzare questo nodo perchÃš questo template non Ãš supportato o accesso negato.</access-denied>
       <query-invalid>Query non valida.</query-invalid>
@@ -1069,7 +1069,7 @@
       <fromDate-required>Data di Inizio richiesta.</fromDate-required>
       <must-choose-one>Devi selezionare almeno un tipo.</must-choose-one>
       <properties-null>Seleziona proprietÃ  prima, poi filtra.</properties-null>
-      <exactly-require>Devi compilare l'esatto valore prima di salvare il vincolo.</exactly-require>
+      <exactly-require>Devi compilare l''esatto valore prima di salvare il vincolo.</exactly-require>
       <fromDate-invalid>Tipo non valido nel campo "Da". Riseleziona o riscrivi correttamente.</fromDate-invalid>
       <toDate-invalid>Tipo non valido nel campo "A". Riseleziona o riscrivi correttamente.</toDate-invalid>
     </msg>
@@ -1331,7 +1331,7 @@
       <cannot-remove-version>Impossibile rimuovere versione base.</cannot-remove-version>
       <confirm-delete>Sei sicuro di voler rimuovere questa versione?</confirm-delete>
       <not-checked-out>Devi fare il check out del nodo prima di ripristinarlo.</not-checked-out>
-      <invalid-item-state>Non puoi ripristinare questa versione. Forse, uno o piÃ¹ elementi cancellati o spostati in un'altra sessione.</invalid-item-state>
+      <invalid-item-state>Non puoi ripristinare questa versione. Forse, uno o piÃ¹ elementi cancellati o spostati in un''altra sessione.</invalid-item-state>
     </msg>
     <action>
       <close>Chiudi</close>
@@ -1470,9 +1470,9 @@
     <title>Importa Nodo</title>
     <msg>
       <import-successful>Importa avvenuta con successo.</import-successful>
-      <filename-invalid>Scegli un file .xml da importare per il campo 'Carica File'.</filename-invalid>
+      <filename-invalid>Scegli un file .xml da importare per il campo ''Carica File''.</filename-invalid>
       <filetype-error>Impossibile caricare il file importato. Forse, il file .xml non Ãš valido.</filetype-error>
-      <mimetype-invalid>Solo file .xml o .zip sono supportati per l'importazione.</mimetype-invalid>
+      <mimetype-invalid>Solo file .xml o .zip sono supportati per l''importazione.</mimetype-invalid>
       <access-denied>Accesso negato! Non sei autorizzato a importare.</access-denied>
       <constraint-violation-exception>Impossible to import data. The type ''{0}'' is not allowed in this location.</constraint-violation-exception>
       <item-exists-exception>Un nodo referenziato ha lo stesso UUID di un nodo giÃ  esistente nel workspace.</item-exists-exception>
@@ -1493,7 +1493,7 @@
     </action>
     <title>Aggiungi Etichetta</title>
     <msg>
-      <label-invalid>L'etichetta contiene caratteri non validi.</label-invalid>
+      <label-invalid>L''etichetta contiene caratteri non validi.</label-invalid>
       <label-exist>''{0}'' esiste giÃ .</label-exist>
     </msg>
   </UILabelForm>
@@ -1750,7 +1750,7 @@
       <action>Azione</action>
     </header>
     <msg>
-      <remove-popup-first>E' necessario chiudere il popup di modifica prima di eliminare il nodo.</remove-popup-first>
+      <remove-popup-first>E'' necessario chiudere il popup di modifica prima di eliminare il nodo.</remove-popup-first>
       <confirm-delete-action>Sei sicuro di voler eliminare questa azione?</confirm-delete-action>
       <template-empty>Il template di ''{0}'' Ãš nullo o vuoto.</template-empty>
       <template-null>Il template Ãš nullo o non hai il permesso di accedere a questo template.</template-null>
@@ -1778,9 +1778,9 @@
       <unable-add-action>Impossibile aggiungere questa azione.</unable-add-action>
       <unable-add>Impossibile aggiungere questa azione. Il nodo Ãš root o non ha abbastanza permessi.</unable-add>
       <not-support>Il dialogo ''{0}'' non Ãš supportato.</not-support>
-      <no-permission-add>Accesso negato. Non hai diritti per aggiungere un'azione.</no-permission-add>
+      <no-permission-add>Accesso negato. Non hai diritti per aggiungere un''azione.</no-permission-add>
       <access-denied>Accesso negato. Non hai permessi di accedere a questo template.</access-denied>
-      <lifecycle-invalid>Imposbbile aggiungere questa azione. La fase del ciclo di vita dell'azione non Ãš valida.</lifecycle-invalid>
+      <lifecycle-invalid>Imposbbile aggiungere questa azione. La fase del ciclo di vita dell''azione non Ãš valida.</lifecycle-invalid>
     </msg>
     <title>Aggiungi/Modifica Azione</title>
     <validator>
@@ -2022,12 +2022,12 @@
   </UIFormInputSetWithAction>
   <RepeatCountValidator>
     <msg>
-      <invalid-value>Il valore nel campo 'Ripeti Conto' non Ãš valido. Solo tipi intero o -1 consentiti.</invalid-value>
+      <invalid-value>Il valore nel campo ''Ripeti Conto'' non Ãš valido. Solo tipi intero o -1 consentiti.</invalid-value>
     </msg>
   </RepeatCountValidator>
   <RepeatIntervalValidator>
     <msg>
-      <invalid-value>Il valore nel campo 'Intervallo Tempo' non Ãš valido. Solo tipo Long consentito.</invalid-value>
+      <invalid-value>Il valore nel campo ''Intervallo Tempo'' non Ãš valido. Solo tipo Long consentito.</invalid-value>
     </msg>
   </RepeatIntervalValidator>
   <UIPermissionSelector>
@@ -2057,11 +2057,11 @@
     <msg>
       <empty-input>Il valore del campo Ãš nullo o vuoto.</empty-input>
       <Invalid-char>Il campo contiene alcuni caratteri non validi. Inserisci un altro valore.</Invalid-char>
-      <Invalid-char2>Il numero deve essere seguito dal carattere '~'.</Invalid-char2>
-      <Invalid-char1>Il numero dopo '~' deve essere compreso tra 0 e 1.</Invalid-char1>
-      <Invalid-char3>Il numero deve essere seguito dal carattere '^'.</Invalid-char3>
-      <Invalid-char4>Spazi non ammessi vicino al carattere '~'.</Invalid-char4>
-      <Invalid-char5>Spazi non ammessi vicino al carattere '^'.</Invalid-char5>
+      <Invalid-char2>Il numero deve essere seguito dal carattere ''~''.</Invalid-char2>
+      <Invalid-char1>Il numero dopo ''~'' deve essere compreso tra 0 e 1.</Invalid-char1>
+      <Invalid-char3>Il numero deve essere seguito dal carattere ''^''.</Invalid-char3>
+      <Invalid-char4>Spazi non ammessi vicino al carattere ''~''.</Invalid-char4>
+      <Invalid-char5>Spazi non ammessi vicino al carattere ''^''.</Invalid-char5>
     </msg>
   </SearchValidator>
   <!--
@@ -2111,7 +2111,7 @@
     <msg>
       <mimetype-incorrect>Tipo file non corretto. Le anteprima possono essere create solo da file .JPG, .PNG or .GIF.</mimetype-incorrect>
       <access-denied>Accesso negato. Non hai permessi di aggiungere anteprime al nodo.</access-denied>
-      <confirm-delete>Sei sicuro di voler rimuovere l'anteprima dal nodo?</confirm-delete>
+      <confirm-delete>Sei sicuro di voler rimuovere l''anteprima dal nodo?</confirm-delete>
       <is-checked-in>Questo nodo Ãš in checked in. Fare il check oput prima di eseguire qualsiasi azione.</is-checked-in>
       <fileName-error>Please select a file to upload.</fileName-error>
     </msg>
@@ -2166,7 +2166,7 @@
   Access directly a JCR FE drive
   -->
   <UIJCRExplorerPortlet>
-    <nopermission>Non c'Ãš un drive o non hai permessi di accedere al drive.</nopermission>
+    <nopermission>Non c''Ãš un drive o non hai permessi di accedere al drive.</nopermission>
   </UIJCRExplorerPortlet>
 
   <UIJcrExplorerEditForm>
@@ -2202,7 +2202,7 @@
       <DriveNameInput>UIJcrExplorerEditForm</DriveNameInput>
     </label>
     <msg>
-      <personal-usecase>Il drive privato dell'utente attuale sarÃ  usato quando scegli il caso d'uso Personale.</personal-usecase>
+      <personal-usecase>Il drive privato dell''utente attuale sarÃ  usato quando scegli il caso d''uso Personale.</personal-usecase>
       <drive-edit-permission>Impossibile modificare il nome del drive. Clicca il bottone Modifica.</drive-edit-permission>
       <path-edit-permission>Impossibile modificare il percorso. Clicca il bottone Modifica.</path-edit-permission>
     </msg>
@@ -2920,7 +2920,7 @@
       <none>Nessuna revisione</none>
       <seeall>Vedi tutte le versioni</seeall>
       <currentVersion>revisione attuale</currentVersion>
-      <confirm>Perderai tutti i labvori in bozza. Sei sicuro di voler ripristinare questa revisione e sostituire l'attuale?</confirm>
+      <confirm>Perderai tutti i labvori in bozza. Sei sicuro di voler ripristinare questa revisione e sostituire l''attuale?</confirm>
     </revisions>
     <status>
       <version>Revisione</version>
@@ -3112,7 +3112,7 @@
     <AbortAll>Abort all</AbortAll>
     <AbortAllFiles>Abort all files</AbortAllFiles>
     <MaxFileSize>Maximal file size is</MaxFileSize>
-    <InvalidCharacters>Invalid characters will be changed by '-'</InvalidCharacters>
+    <InvalidCharacters>Invalid characters will be changed by ''-''</InvalidCharacters>
     <DropFileMessage>Drop your files here in the current folder</DropFileMessage>
     <Close>Chiuso</Close>
     <in>in</in>
