@@ -338,7 +338,7 @@
 
   <ZeroValidator>
     <msg>
-      <Invalid-number>Giá trị 0 không được chấp nhận ở trường ''{0}''</Invalid-number>
+      <Invalid-number>Giá trị 0 không được chấp nhận ở trường '{0}'</Invalid-number>
     </msg>
   </ZeroValidator>
 

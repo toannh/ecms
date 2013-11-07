@@ -269,12 +269,12 @@
   </EmailAddressValidator>
   <EmptyFieldValidator>
     <msg>
-      <empty-input>Bắt buộc phải có trường ''{0}''. Vui lòng nhập giá trị của bạn vào.</empty-input>
+      <empty-input>Bắt buộc phải có trường '{0}'. Vui lòng nhập giá trị của bạn vào.</empty-input>
     </msg>
   </EmptyFieldValidator>
   <NumberFormatValidator>
     <msg>
-      <Invalid-number>Trường ''{0}'' không hợp lệ.</Invalid-number>
+      <Invalid-number>Trường '{0}' không hợp lệ.</Invalid-number>
     </msg>
   </NumberFormatValidator>
   <!--

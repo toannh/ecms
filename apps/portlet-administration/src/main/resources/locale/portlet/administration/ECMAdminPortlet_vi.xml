@@ -42,7 +42,7 @@
     <msg>
       <referential-integrity>Không thể đọc được từ tệp tin nguồn hoặc danh mục điểm đến là một danh mục con.</referential-integrity>
       <no-taxonomy-selected>Bạn phải sao chép hoặc cắt ít nhất một danh mục.</no-taxonomy-selected>
-      <node-is-cutting>Bạn không thể dán vào đây vì node danh mục ''{0}'' có thể đã bị cắt.</node-is-cutting>
+      <node-is-cutting>Bạn không thể dán vào đây vì node danh mục '{0}' có thể đã bị cắt.</node-is-cutting>
       <can-not-paste>Không có dữ liệu nào trong bộ nhớ tạm để dán vào.</can-not-paste>
       <reference-exception>Không thể xoá danh mục này bởi vì nó hiện đang được tham chiếu bởi một nội dung.</reference-exception>
       <path-error>Một lỗi đã xảy ra khi đang gỡ bỏ node danh mục này.</path-error>
@@ -249,7 +249,7 @@
     </header>
     <msg>
       <confirm-delete>Bạn có chắc chắn muốn xóa siêu dữ liệu này không?</confirm-delete>
-      <delete-successful>Đã xóa thành công các mẫu thiết kế của ''{0}''.</delete-successful>
+      <delete-successful>Đã xóa thành công các mẫu thiết kế của '{0}'.</delete-successful>
       <path-not-found-exception>Siêu dữ liệu này đã bị xóa hoặc thay đổi. Hãy nhấp nút Làm mới.</path-not-found-exception>
     </msg>
     <action>
@@ -560,12 +560,12 @@
       <Close>Đóng</Close>
     </action>
     <msg>
-      <register-successfully>Kiểu nút ''{0}'' đã được đăng kí thành công.</register-successfully>
+      <register-successfully>Kiểu nút '{0}' đã được đăng kí thành công.</register-successfully>
       <supertype-is-madatory>Kiểu kế thừa là trường bắt buộc khi bạn đăng ký kiểu nút mới. Vui lòng chọn ít nhất một kiểu kế thừa.</supertype-is-madatory>
       <register-failed>Không đăng ký được kiểu nút này. Kiểu này đã tồn tại hoặc kiểu kế thừa không hợp lệ.</register-failed>
       <nodeType-name>Yêu cầu phải có tên kiểu nút.</nodeType-name>
       <fileName-invalid>Tên tệp tin chứa một vài ký tự không hợp lệ.</fileName-invalid>
-      <node-type-exists>Kiểu nút ''{0}'' đã tồn tại.</node-type-exists>
+      <node-type-exists>Kiểu nút '{0}' đã tồn tại.</node-type-exists>
       <node-type-name>Tên kiểu nút không hợp lệ.</node-type-name>
       <values-error>Vui lòng chỉ chọn một kiểu nút cho kiểu chính mặc định.</values-error>
       <confirm-delete-child>Bạn có chắc chắn muốn xóa nút này không?</confirm-delete-child>
@@ -668,8 +668,8 @@
       <filename-error>Chọn tệp để nhập</filename-error>
       <data-file-error>Chỉ hỗ trợ những tệp dạng xml hoặc tệp nén.</data-file-error>
       <data-invalid>Dữ liệu không phù hợp. Xin vui lòng kiểm tra lại kiểu tệp và thử lại.</data-invalid>
-      <nodetype-exist>Kiểu nút ''{0}'' đã tồn tại.</nodetype-exist>
-      <namespace-invalid>Tên miền ''{0}'' không hợp lệ.</namespace-invalid>
+      <nodetype-exist>Kiểu nút '{0}' đã tồn tại.</nodetype-exist>
+      <namespace-invalid>Tên miền '{0}' không hợp lệ.</namespace-invalid>
     </msg>
   </UINodeTypeUpload>
   <!--
@@ -767,9 +767,9 @@
       <Cancel>Hủy bỏ</Cancel>
     </action>
     <msg>
-      <action-type-added>Kiểu hành động ''{0}'' đã được thêm mới thành công.</action-type-added>
+      <action-type-added>Kiểu hành động '{0}' đã được thêm mới thành công.</action-type-added>
       <action-type-create-error>Lỗi đã xảy ra khi đang khởi tạo kiểu hành động.</action-type-create-error>
-      <action-name-invalid>''{0}'' không hợp lệ. Tên phải bắt đầu bằng ''exo:''.</action-name-invalid>
+      <action-name-invalid>'{0}' không hợp lệ. Tên phải bắt đầu bằng 'exo:'.</action-name-invalid>
       <action-exist>Hành động này đã tồn tại trong hệ thống ECM.</action-exist>
       <fileName-invalid>Tên hành động chứa một vài ký tự không hợp lệ.</fileName-invalid>
     </msg>
@@ -910,7 +910,7 @@
  <userOrGroup>Người dùng hoặc Nhóm người dùng</userOrGroup>
 </label>
 <msg>
- <permission-exist>Phân quyền ''{0}'' đã tồn tại trong danh sách.</permission-exist>
+ <permission-exist>Phân quyền '{0}' đã tồn tại trong danh sách.</permission-exist>
 </msg>
 </UIViewPermissionForm>
 
@@ -1058,7 +1058,7 @@
       <template-in-use>Không thể xóa {0} vì nó hiện đang được sử dụng.</template-in-use>
       <confirm-delete>Bạn có chắc chắn muốn xóa mẫu thiết kế này không?</confirm-delete>
       <access-denied>Truy cập bị từ chối. Bạn không được phân quyền để sử dụng chức năng này.</access-denied>
-      <delete-permission-denied>Bạn không được phân quyền để xóa mẫu thiết kế ''{0}''.</delete-permission-denied>
+      <delete-permission-denied>Bạn không được phân quyền để xóa mẫu thiết kế '{0}'.</delete-permission-denied>
     </msg>
   </UIECMTemplateList>
   <!--
@@ -1077,9 +1077,9 @@
     <msg>
       <version-restored>Phiên bản {0} đã được khôi phục thành công.</version-restored>
       <role-require>Vui lòng chọn phân quyền.</role-require>
-      <template-name-exist>Tên của mẫu thiết kế ''{0}'' đã tồn tại.</template-name-exist>
+      <template-name-exist>Tên của mẫu thiết kế '{0}' đã tồn tại.</template-name-exist>
       <add-permission-denied>Bạn không được phân quyền để thêm mẫu thiết kế mới.</add-permission-denied>
-      <edit-permission-denied>Bạn không được phân quyền để sửa đổi mẫu thiết kế ''{0}''.</edit-permission-denied>
+      <edit-permission-denied>Bạn không được phân quyền để sửa đổi mẫu thiết kế '{0}'.</edit-permission-denied>
     </msg>
     <tab>
       <label>
@@ -1191,7 +1191,7 @@
     <msg>
       <version-restored>Phiên bản {0} đã được khôi phục.</version-restored>
       <name-null>Vui lòng nhập tên kịch bản.</name-null>
-      <name-exist>Tên tập lệnh ''{0}'' đã tồn tại.</name-exist>
+      <name-exist>Tên tập lệnh '{0}' đã tồn tại.</name-exist>
       <fileName-invalid>Tên tập lệnh chứa một số ký tự không hợp lệ.</fileName-invalid>
     </msg>
   </UIScriptForm>
@@ -1465,7 +1465,7 @@
       <selectUser>Chọn Người dùng</selectUser>
     </label>
     <msg>
-      <not-change-owner>''{0}'' là người sở hữu của node này và có mọi phân quyền điều khiển.</not-change-owner>
+      <not-change-owner>'{0}' là người sở hữu của node này và có mọi phân quyền điều khiển.</not-change-owner>
     </msg>
   </UIGroupSelector>
   <UIPermissionForm>
@@ -1820,7 +1820,7 @@
       <action>Hành động</action>
     </header>
     <msg>
-      <undeletable>Bạn không thể xóa ''{0}''  vì nó là mặc định.</undeletable>
+      <undeletable>Bạn không thể xóa '{0}'  vì nó là mặc định.</undeletable>
       <confirm-delete>Bạn có chắc chắn muốn xóa hộp thoại này không?</confirm-delete>
     </msg>
     <action>
@@ -1843,7 +1843,7 @@
       <action>Hành động</action>
     </header>
     <msg>
-      <undeletable>Không thể xóa ''{0}'' vì nó là mặc định.</undeletable>
+      <undeletable>Không thể xóa '{0}' vì nó là mặc định.</undeletable>
       <confirm-delete>Bạn có thực sự muốn xóa không?</confirm-delete>
     </msg>
     <action>
@@ -1869,7 +1869,7 @@
       <name-invalid>Tên tệp tin không được chứa kí tự đặc biệt.</name-invalid>
       <roles-invalid>Yêu cầu phải cung cấp giá trị vào trường Phân quyền.</roles-invalid>
       <version-restored>Phiên bản {0} đã được khôi phục thành công.</version-restored>
-      <name-exist>Tên ''{0}'' đã tồn tại.</name-exist>
+      <name-exist>Tên '{0}' đã tồn tại.</name-exist>
     </msg>
     <title>
       <AddPermission>Thêm Phân quyền</AddPermission>
@@ -2018,13 +2018,13 @@
   -->
   <ECMNameValidator>
     <msg>
-      <Invalid-char>Trường ''{0}'' chứa một số ký tự không hợp lệ. Vui lòng nhập giá trị khác.</Invalid-char>
-      <empty-input>Giá trị của trường ''{0}'' bị bỏ trống.</empty-input>
+      <Invalid-char>Trường '{0}' chứa một số ký tự không hợp lệ. Vui lòng nhập giá trị khác.</Invalid-char>
+      <empty-input>Giá trị của trường '{0}' bị bỏ trống.</empty-input>
     </msg>
   </ECMNameValidator>
   <EmptyFieldValidator>
     <msg>
-      <empty-input>Hãy nhập giá trị vào trường ''{0}''.</empty-input>
+      <empty-input>Hãy nhập giá trị vào trường '{0}'.</empty-input>
     </msg>
   </EmptyFieldValidator>
   <!--
@@ -2034,7 +2034,7 @@
   -->
   <PermissionValidator>
   <msg>
-      <permission-path-invalid>Phân quyền ''{0}'' không hợp lệ.</permission-path-invalid>
+      <permission-path-invalid>Phân quyền '{0}' không hợp lệ.</permission-path-invalid>
   </msg>
   </PermissionValidator>
   <!--
@@ -2203,7 +2203,7 @@
   
   <UIDriveForm>
 <msg>
-  <permission-path-invalid>Phân quyền ''{0}'' không hợp lệ.</permission-path-invalid>
+  <permission-path-invalid>Phân quyền '{0}' không hợp lệ.</permission-path-invalid>
   </msg>
   </UIDriveForm>
   
@@ -2355,7 +2355,7 @@
       <action>Hành động</action>
     </header>
     <msg>
-      <undeletable>Bạn không thể xóa ''{0}'' vì nó là mặc định.</undeletable>
+      <undeletable>Bạn không thể xóa '{0}' vì nó là mặc định.</undeletable>
       <confirm-delete>Bạn có chắc chắn muốn xóa không?</confirm-delete>
     </msg>
     <action>
@@ -2419,7 +2419,7 @@
 <NextViewTree>Kế tiếp</NextViewTree>
 </action>
   <msg>
-    <xss-vulnerability-character>Trường ''{0}'' có chứa các ký tự không hợp lệ</xss-vulnerability-character>
+    <xss-vulnerability-character>Trường '{0}' có chứa các ký tự không hợp lệ</xss-vulnerability-character>
 <xss-vulnerability-character-wo-label>Chuỗi này có thể chứa kí tự không an toàn</xss-vulnerability-character-wo-label>
   </msg>
 </UIActionForm>
@@ -2496,7 +2496,7 @@
   </NodeTypeNameValidator>
   <UIActionForm>
     <msg>
-      <constraint-violation-exception>Không thể thêm nút ''{0}'' vào ''{1}'' trong không gian lưu trữ ''{2}'' do phân quyền hoặc điều kiện ràng buộc.</constraint-violation-exception>
+      <constraint-violation-exception>Không thể thêm nút '{0}' vào '{1}' trong không gian lưu trữ '{2}' do phân quyền hoặc điều kiện ràng buộc.</constraint-violation-exception>
     </msg>
   </UIActionForm>
   
@@ -2543,7 +2543,7 @@
   </UINodeTypeSelector>
   <UIScriptForm>
     <msg>
-      <PathNotFoundException>Tập lệnh đã tồn tại trong thư mục ''{0}''.</PathNotFoundException>      
+      <PathNotFoundException>Tập lệnh đã tồn tại trong thư mục '{0}'.</PathNotFoundException>      
     </msg>
   </UIScriptForm>
  <UINodeTypeList>
