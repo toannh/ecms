@@ -42,7 +42,7 @@
     <msg>
       <referential-integrity>No se puede leer desde el archivo de origen o la categoría de destino es una subcategoría.</referential-integrity>
       <no-taxonomy-selected>Debe copiar o cortar al menos una categoría.</no-taxonomy-selected>
-      <node-is-cutting>No se puede pegar aquí. Podría ser que se está cortando el nodo de la categoría ''{0}''.</node-is-cutting>
+      <node-is-cutting>No se puede pegar aquí. Podría ser que se está cortando el nodo de la categoría '{0}'.</node-is-cutting>
       <can-not-paste>No hay datos en el portapapeles para pegar.</can-not-paste>
       <reference-exception>No se puede eliminar esta categoría, porque actualmente está referenciada por un contenido.</reference-exception>
       <path-error>Error al eliminar este nodo de categoría.</path-error>
@@ -249,7 +249,7 @@
     </header>
     <msg>
       <confirm-delete>¿Está seguro que desea eliminar estos metadatos?</confirm-delete>
-      <delete-successful>Las plantillas de ''{0}'' se han eliminado correctamente.</delete-successful>
+      <delete-successful>Las plantillas de '{0}' se han eliminado correctamente.</delete-successful>
       <path-not-found-exception>Estos metadatos han sido eliminados o cambiados. Por favor, haga clic en el botón Actualizar.</path-not-found-exception>
     </msg>
     <action>
@@ -560,12 +560,12 @@
       <Close>#{word.close}</Close>
     </action>
     <msg>
-      <register-successfully>El tipo de nodo ''{0}'' se registró correctamente.</register-successfully>
+      <register-successfully>El tipo de nodo '{0}' se registró correctamente.</register-successfully>
       <supertype-is-madatory>El super tipo es obligatorio cuando se registre un nuevo tipo de nodo. Por favor, seleccione al menos un super tipo.</supertype-is-madatory>
       <register-failed>El registro del tipo de nodo no tuvo éxito. Ya existe o no es válido el supertipo.</register-failed>
       <nodeType-name>Se requiere el nombre del tipo de nodo.</nodeType-name>
       <fileName-invalid>El nombre de la carpeta contiene algunos caracteres no válidos.</fileName-invalid>
-      <node-type-exists>El tipo de nodo ''{0}'' ya existe.</node-type-exists>
+      <node-type-exists>El tipo de nodo '{0}' ya existe.</node-type-exists>
       <node-type-name>El nombre del tipo de nodo no es válido.</node-type-name>
       <values-error>Por favor seleccione un único tipo del nodo para el tipo principal predeterminado.</values-error>
       <confirm-delete-child>¿Está seguro que desea eliminar este nodo secundario?</confirm-delete-child>
@@ -668,8 +668,8 @@
       <filename-error>Examinar un archivo de tipo de nodo para importar.</filename-error>
       <data-file-error>Sólo los archivos .xml o .zip son compatibles para importar.</data-file-error>
       <data-invalid>Los datos no están válidos. Por favor, compruebe el tipo de archivo y vuelva a intentarlo.</data-invalid>
-      <nodetype-exist>El tipo de nodo ''{0}'' ya existe.</nodetype-exist>
-      <namespace-invalid>El espacio de nombre ''{0}'' no es válido.</namespace-invalid>
+      <nodetype-exist>El tipo de nodo '{0}' ya existe.</nodetype-exist>
+      <namespace-invalid>El espacio de nombre '{0}' no es válido.</namespace-invalid>
     </msg>
   </UINodeTypeUpload>
   <!--
@@ -767,9 +767,9 @@
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <action-type-added>El tipo de acción ''{0}'' se agregó correctamente.</action-type-added>
+      <action-type-added>El tipo de acción '{0}' se agregó correctamente.</action-type-added>
       <action-type-create-error>Error al crear el tipo de acción.</action-type-create-error>
-      <action-name-invalid>''{0}'' no es válido. El nombre debe empezar con ''exo:''.</action-name-invalid>
+      <action-name-invalid>'{0}' no es válido. El nombre debe empezar con 'exo:'.</action-name-invalid>
       <action-exist>Esta acción ya existe en el sistema de ECM.</action-exist>
       <fileName-invalid>El nombre de acción contiene algunos caracteres no válidos.</fileName-invalid>
     </msg>
@@ -910,7 +910,7 @@
  <userOrGroup>Usuario o Grupo</userOrGroup>
 </label>
 <msg>
- <permission-exist>El permiso ''{0}'' ya existe en la lista.</permission-exist>
+ <permission-exist>El permiso '{0}' ya existe en la lista.</permission-exist>
 </msg>
 </UIViewPermissionForm>
 
@@ -1058,7 +1058,7 @@
       <template-in-use>No se puede eliminar {0} Está actualmente en uso.</template-in-use>
       <confirm-delete>¿Está seguro de querer eliminar esta plantilla?</confirm-delete>
       <access-denied>Acceso denegado. No tiene permiso para utilizar esta función.</access-denied>
-      <delete-permission-denied>No tiene permiso para eliminar laplantilla ''{0}''.</delete-permission-denied>
+      <delete-permission-denied>No tiene permiso para eliminar laplantilla '{0}'.</delete-permission-denied>
     </msg>
   </UIECMTemplateList>
   <!--
@@ -1077,9 +1077,9 @@
     <msg>
       <version-restored>Versión {0} fue restaurada con éxito.</version-restored>
       <role-require>Por favor, seleccione un permiso.</role-require>
-      <template-name-exist>El nombre de la plantilla ''{0}'' ya existe.</template-name-exist>
+      <template-name-exist>El nombre de la plantilla '{0}' ya existe.</template-name-exist>
       <add-permission-denied>No tiene permiso para añadir una nueva plantilla.</add-permission-denied>
-      <edit-permission-denied>No tiene permiso para modificar la ''{0}'' plantilla.</edit-permission-denied>
+      <edit-permission-denied>No tiene permiso para modificar la '{0}' plantilla.</edit-permission-denied>
     </msg>
     <tab>
       <label>
@@ -1191,7 +1191,7 @@
     <msg>
       <version-restored>Versión {0} fue restaurada con éxito.</version-restored>
       <name-null>Por favor ingrese el nombre del script.</name-null>
-      <name-exist>El nombre del script ''{0}'' ya existe.</name-exist>
+      <name-exist>El nombre del script '{0}' ya existe.</name-exist>
       <fileName-invalid>El nombre del script tiene algunos caracteres no válidos.</fileName-invalid>
     </msg>
   </UIScriptForm>
@@ -1465,7 +1465,7 @@
       <selectUser>Seleccionar Usuario</selectUser>
     </label>
     <msg>
-      <not-change-owner>''{0}'' es el propietario de este nodo y tiene el permiso del control total .</not-change-owner>
+      <not-change-owner>'{0}' es el propietario de este nodo y tiene el permiso del control total .</not-change-owner>
     </msg>
   </UIGroupSelector>
   <UIPermissionForm>
@@ -1820,7 +1820,7 @@
       <action>Acciones</action>
     </header>
     <msg>
-      <undeletable>No puede eliminar ''{0}'' porque es el predeterminado.</undeletable>
+      <undeletable>No puede eliminar '{0}' porque es el predeterminado.</undeletable>
       <confirm-delete>¿Está seguro que desea eliminar este diálogo?</confirm-delete>
     </msg>
     <action>
@@ -1843,7 +1843,7 @@
       <action>Acciones</action>
     </header>
     <msg>
-      <undeletable>''{0}'' no puede ser borrado, es el que se utiliza por defecto.</undeletable>
+      <undeletable>'{0}' no puede ser borrado, es el que se utiliza por defecto.</undeletable>
       <confirm-delete>¿Está seguro de querer borrar?</confirm-delete>
     </msg>
     <action>
@@ -1869,7 +1869,7 @@
       <name-invalid>El nombre del campo no debe contener caracteres especiales.</name-invalid>
       <roles-invalid>El campo de permiso es obligatorio.</roles-invalid>
       <version-restored>Versión {0} fue restaurada con éxito.</version-restored>
-      <name-exist>El nombre ''{0}'' ya existe.</name-exist>
+      <name-exist>El nombre '{0}' ya existe.</name-exist>
     </msg>
     <title>
       <AddPermission>Añadir Permisos</AddPermission>
@@ -2018,13 +2018,13 @@
   -->
   <ECMNameValidator>
     <msg>
-      <Invalid-char>El campo ''{0}'' tiene algunos caracteres no válidos. Por favor escriba otro valor.</Invalid-char>
-      <empty-input>El valor del campo ''{0}'' está vacío.</empty-input>
+      <Invalid-char>El campo '{0}' tiene algunos caracteres no válidos. Por favor escriba otro valor.</Invalid-char>
+      <empty-input>El valor del campo '{0}' está vacío.</empty-input>
     </msg>
   </ECMNameValidator>
   <EmptyFieldValidator>
     <msg>
-      <empty-input>Por favor, introduzca el valor en el campo ''{0}''.</empty-input>
+      <empty-input>Por favor, introduzca el valor en el campo '{0}'.</empty-input>
     </msg>
   </EmptyFieldValidator>
   <!--
@@ -2034,7 +2034,7 @@
   -->
   <PermissionValidator>
   <msg>
-      <permission-path-invalid>El permiso ''{0}'' no es válido.</permission-path-invalid>
+      <permission-path-invalid>El permiso '{0}' no es válido.</permission-path-invalid>
   </msg>
   </PermissionValidator>
   <!--
@@ -2203,7 +2203,7 @@
   
   <UIDriveForm>
 <msg>
-  <permission-path-invalid>El permiso ''{0}'' no es válido.</permission-path-invalid>
+  <permission-path-invalid>El permiso '{0}' no es válido.</permission-path-invalid>
   </msg>
   </UIDriveForm>
   
@@ -2355,7 +2355,7 @@
       <action>Acciones</action>
     </header>
     <msg>
-      <undeletable>No puede eliminar ''{0}'' porque es el predeterminado.</undeletable>
+      <undeletable>No puede eliminar '{0}' porque es el predeterminado.</undeletable>
       <confirm-delete>¿Está seguro de querer eliminar esta hoja de estilo?</confirm-delete>
     </msg>
     <action>
@@ -2419,7 +2419,7 @@
 <NextViewTree>Siguiente</NextViewTree>
 </action>
   <msg>
-    <xss-vulnerability-character>El campo ''{0}'' contiene caracteres de vulnerabilidad XSS</xss-vulnerability-character>
+    <xss-vulnerability-character>El campo '{0}' contiene caracteres de vulnerabilidad XSS</xss-vulnerability-character>
 <xss-vulnerability-character-wo-label>Su campo de entrada puede contenr carácteres de vulnerabilidad XSS</xss-vulnerability-character-wo-label>
   </msg>
 </UIActionForm>
@@ -2496,7 +2496,7 @@
   </NodeTypeNameValidator>
   <UIActionForm>
     <msg>
-      <constraint-violation-exception>El nodo ''{0}'' no se puede agregar a ''{1}'' en el espacio de trabajo ''{2}''.  Hay un problema con los permisos o la condición de restricciones.</constraint-violation-exception>
+      <constraint-violation-exception>El nodo '{0}' no se puede agregar a '{1}' en el espacio de trabajo '{2}'.  Hay un problema con los permisos o la condición de restricciones.</constraint-violation-exception>
     </msg>
   </UIActionForm>
   
@@ -2543,7 +2543,7 @@
   </UINodeTypeSelector>
   <UIScriptForm>
     <msg>
-      <PathNotFoundException>El script ya existe en la carpeta ''{0}''.</PathNotFoundException>      
+      <PathNotFoundException>El script ya existe en la carpeta '{0}'.</PathNotFoundException>      
     </msg>
   </UIScriptForm>
  <UINodeTypeList>
