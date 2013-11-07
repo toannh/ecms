@@ -269,12 +269,12 @@
   </EmailAddressValidator>
   <EmptyFieldValidator>
     <msg>
-      <empty-input>المجال ''{0}'' مطلوب. الرجاء ادخال القيمة</empty-input>
+      <empty-input>المجال '{0}' مطلوب. الرجاء ادخال القيمة</empty-input>
     </msg>
   </EmptyFieldValidator>
   <NumberFormatValidator>
     <msg>
-      <Invalid-number>المجال ''{0}'' غير صحيح</Invalid-number>
+      <Invalid-number>المجال '{0}' غير صحيح</Invalid-number>
     </msg>
   </NumberFormatValidator>
   <!--

@@ -42,7 +42,7 @@
     <msg>
       <referential-integrity>لا يمكن قراءة الملف من المصدر أو رُبّما يكون المقصد فئة فرعية.</referential-integrity>
       <no-taxonomy-selected>يجب عليك نسخ أو قص فئة واحدة على الأقل.</no-taxonomy-selected>
-      <node-is-cutting>لا يمكنك اللصق هنا. ربما تمّ قطع فئة العقدة ''{0}''</node-is-cutting>
+      <node-is-cutting>لا يمكنك اللصق هنا. ربما تمّ قطع فئة العقدة '{0}'</node-is-cutting>
       <can-not-paste>لا توجد بيانات في الحافظة تستطيع لصقها.</can-not-paste>
       <reference-exception>لا يمكن حذف هذه الفئة. حاليّا هي مُشار إليها بواسطة محتوى.</reference-exception>
       <path-error>ربما، هناك مشكل عند حذف هذا التصنيف.</path-error>
@@ -198,7 +198,7 @@
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <register-unsuccessfull>إسم فضاء او ''URI'' موجود مُسبقا !</register-unsuccessfull>
+      <register-unsuccessfull>إسم فضاء او 'URI' موجود مُسبقا !</register-unsuccessfull>
       <prefix-null>يُرجى ادخال بادئة لاسم الفضاء</prefix-null>
       <uri-null>يُرجى تحديد الـURI الخاص باسم الفضاء</uri-null>
     </msg>
@@ -249,7 +249,7 @@
     </header>
     <msg>
       <confirm-delete>هل تؤكّد عمليّة الحذف؟</confirm-delete>
-      <delete-successful>تم حذف القالب ''{0}'' بنجاح</delete-successful>
+      <delete-successful>تم حذف القالب '{0}' بنجاح</delete-successful>
       <path-not-found-exception>تمّ حذف أو تغيير بيانات التعريف. يُرجى النقر فوق زر التّحديث.</path-not-found-exception>
     </msg>
     <action>
@@ -315,7 +315,7 @@
       <name>اسم العنصر</name>
       <type>النوع</type>
       <description>الوصف</description>
-      <isMixin>نوعه ''Mixin''</isMixin>
+      <isMixin>نوعه 'Mixin'</isMixin>
       <orderable>ترتيب الفروع</orderable>
     </header>
     <info>
@@ -428,7 +428,7 @@
   
   <UIRepositoryList>
     <titlebar>
-      <label>إدارة مهام الـ''ECM''</label>
+      <label>إدارة مهام الـ'ECM'</label>
     </titlebar>
   </UIRepositoryList>
   
@@ -460,7 +460,7 @@
     <header>
       <icon>أيقونة</icon>
       <nodeType>نوع العقدة</nodeType>
-      <mixinType>نوع ''Mixin''</mixinType>
+      <mixinType>نوع 'Mixin'</mixinType>
       <orderable>أبناء العقد مرتبة</orderable>
       <action>عمل</action>
     </header>
@@ -517,7 +517,7 @@
       <namespace>اسم الفضاء</namespace>
       <propertyNamespace>اسم الفضاء</propertyNamespace>
       <nodeTypeName>اسم نوع العقدة</nodeTypeName>
-      <mixinType>نوعه ''Mixin''</mixinType>
+      <mixinType>نوعه 'Mixin'</mixinType>
       <hasOrderableChildNodes>الفروع مرتبة</hasOrderableChildNodes>
       <primaryItemName>اسم العنصر الرئيسي</primaryItemName>
       <superTypes>الانواع السوبر</superTypes>
@@ -560,12 +560,12 @@
       <Close>#{word.close}</Close>
     </action>
     <msg>
-      <register-successfully>نوع العقدة ''{0}'' تم تسجيله بنجاح</register-successfully>
+      <register-successfully>نوع العقدة '{0}' تم تسجيله بنجاح</register-successfully>
       <supertype-is-madatory>النوع السوبر إجباري لتسجيل نوع عقدة جديد. يجب اختيار نوع سوبر واحد على الاقل</supertype-is-madatory>
       <register-failed>تسجيل نوع العقدة لم يتم بنجاح. اما انه موجود من قبل او ان الانواع السوبر غير صحيحة</register-failed>
       <nodeType-name>اسم نوع العقدة ضروري</nodeType-name>
       <fileName-invalid>هناك بعض احرف في الاسم غير صحيحة</fileName-invalid>
-      <node-type-exists>نوع العقدة ''{0}'' موجود من قبل</node-type-exists>
+      <node-type-exists>نوع العقدة '{0}' موجود من قبل</node-type-exists>
       <node-type-name>اسم نوع العقدة غير صحيح</node-type-name>
       <values-error>اختر نوع عقدة واحد بالنسبة لالنوع الرئيسي الافتراضي</values-error>
       <confirm-delete-child>هل ترغب حقا في حذف العقدة الفرع ؟</confirm-delete-child>
@@ -663,13 +663,13 @@
       <Cancel>#{word.cancel}</Cancel>
       <Upload>تحميل</Upload>
     </action>
-    <title>''XML'' إستيراد  نوع عقدة من ملف ذات نوع</title>
+    <title>'XML' إستيراد  نوع عقدة من ملف ذات نوع</title>
     <msg>
       <filename-error>استعراض الملف نوع عقدة للاستيراد</filename-error>
       <data-file-error>معتمدة فقط أكس ملف أو ملف مضغوط لاستيراد.</data-file-error>
       <data-invalid>صيغة هذه البيانات غيرصحيحة. يُرجى التثبّت من نوع الملفّ ثمّ اعادة المحاولة</data-invalid>
-      <nodetype-exist>''{0}'' : بيانات غير صالحة : نوع نقطة التقاطع موجودة</nodetype-exist>
-      <namespace-invalid>''{0}'' : بيانات غير صالحة : مساحة الاسم غير معروف :</namespace-invalid>
+      <nodetype-exist>'{0}' : بيانات غير صالحة : نوع نقطة التقاطع موجودة</nodetype-exist>
+      <namespace-invalid>'{0}' : بيانات غير صالحة : مساحة الاسم غير معروف :</namespace-invalid>
     </msg>
   </UINodeTypeUpload>
   <!--
@@ -696,7 +696,7 @@
   </UINodeTypeImport>
   <NodeTypeImportPopup>
     <title>
-      <UINodeTypeImportPopup>إستيراد  نوع عقدة من ملف من نوع ''XML''</UINodeTypeImportPopup>
+      <UINodeTypeImportPopup>إستيراد  نوع عقدة من ملف من نوع 'XML'</UINodeTypeImportPopup>
     </title>
   </NodeTypeImportPopup>
   <!--
@@ -754,11 +754,11 @@
     <title>إضافة/تغيير نوع العمل</title>
     <label>
       <actionType>نوع الاجراء متوارث</actionType>
-      <name>الإسم (يبدأ ب ''exo:'')</name>
+      <name>الإسم (يبدأ ب 'exo:')</name>
       <isMove>العمل مع التحرك</isMove>
       <variables>المتغيرات:</variables>
       <exo_businessProcessAction>طريقة العمل:</exo_businessProcessAction>
-      <exo_scriptAction>السكريبتات ''Groovy''</exo_scriptAction>
+      <exo_scriptAction>السكريبتات 'Groovy'</exo_scriptAction>
       <exo_ruleAction>القواعد</exo_ruleAction>
       <script>السكريبت:</script>
     </label>
@@ -767,9 +767,9 @@
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <action-type-added>تم اضافة نوع الاجراء ''{0}'' بنجاح</action-type-added>
+      <action-type-added>تم اضافة نوع الاجراء '{0}' بنجاح</action-type-added>
       <action-type-create-error>طرأ خطأ أثناء القيام بصنع نوع الاجراء.</action-type-create-error>
-      <action-name-invalid>''{0}'' غير صحيح، يجب أن يبدأ الاسم بـ'':exo''</action-name-invalid>
+      <action-name-invalid>'{0}' غير صحيح، يجب أن يبدأ الاسم بـ':exo'</action-name-invalid>
       <action-exist>هذا الاجراء موجود مُسبقـا.</action-exist>
       <fileName-invalid>هناك بعض الأحرف الغير مُتاحة في هذا الاسم.</fileName-invalid>
     </msg>
@@ -782,7 +782,7 @@
   <UITabPane>
     <title>
       <UIViewContainer>المشاهد</UIViewContainer>
-      <ECMTemplate>قوالب الـ ''ECM''</ECMTemplate>
+      <ECMTemplate>قوالب الـ 'ECM'</ECMTemplate>
       <UIScriptForm>سكريبتات</UIScriptForm>
       <UIDialogTab>واجهة المستخدم</UIDialogTab>
       <UIViewTab>عرض</UIViewTab>
@@ -827,7 +827,7 @@
     </action>
     <msg>
       <access-denied>.غير مسموح بالدخول!  ليس لديك الصلاحيّات الكافية لاستخدام هذه المُهمّة.</access-denied>
-      <template-in-use>لا يمكن حذف ''{0}''. هو الآن بحالة إستخدام.</template-in-use>
+      <template-in-use>لا يمكن حذف '{0}'. هو الآن بحالة إستخدام.</template-in-use>
       <confirm-delete>هل ترغب حقــا بتأكيد عملية الحذف؟</confirm-delete>
     </msg>
   </UIViewList>
@@ -910,7 +910,7 @@
  <userOrGroup>مستخدم أو مجموعة</userOrGroup>
 </label>
 <msg>
- <permission-exist>الصلاحيّة ''{0}'' موجودة مُسبقـا في القائمة.</permission-exist>
+ <permission-exist>الصلاحيّة '{0}' موجودة مُسبقـا في القائمة.</permission-exist>
 </msg>
 </UIViewPermissionForm>
 
@@ -1058,7 +1058,7 @@
       <template-in-use>.لا يمكن الحذف {0} : القالب في حالة إستعمال</template-in-use>
       <confirm-delete>هل تريد حقا أن تحذف؟</confirm-delete>
       <access-denied>.غير مسموح بالدخول. ليس لديك الصلاحيّة لاستعمال هذه الخدمة.</access-denied>
-      <delete-permission-denied>ليس لديك الصلاحيّات الكافية لحذف ''{0}'' النموذج.</delete-permission-denied>
+      <delete-permission-denied>ليس لديك الصلاحيّات الكافية لحذف '{0}' النموذج.</delete-permission-denied>
     </msg>
   </UIECMTemplateList>
   <!--
@@ -1077,9 +1077,9 @@
     <msg>
       <version-restored>إستعادة الإصدار {0} بنجاح.</version-restored>
       <role-require>يجب إختيار الصلاحية</role-require>
-      <template-name-exist>إسم القالب ''{0}''  موجود مُسبقــا.</template-name-exist>
+      <template-name-exist>إسم القالب '{0}'  موجود مُسبقــا.</template-name-exist>
       <add-permission-denied>ليس لديك الصلاحيّات الكافية لاضافة قالب جديد.</add-permission-denied>
-      <edit-permission-denied>ليس لديك الصلاحيّات الكافية لتغيير ''{0}'' النموذج.</edit-permission-denied>
+      <edit-permission-denied>ليس لديك الصلاحيّات الكافية لتغيير '{0}' النموذج.</edit-permission-denied>
     </msg>
     <tab>
       <label>
@@ -1176,7 +1176,7 @@
   -->
   <uiECMScriptsPopup>
     <title>
-      <ecmScriptForm>سكريبت الـ''ECM''</ecmScriptForm>
+      <ecmScriptForm>سكريبت الـ'ECM'</ecmScriptForm>
     </title>
   </uiECMScriptsPopup>
 
@@ -1191,7 +1191,7 @@
     <msg>
       <version-restored>إستعادة الإصدار {0} بنجاح</version-restored>
       <name-null>يُرجى ادخال اسم السكريبت.</name-null>
-      <name-exist>اسم السكريبت ''{0}'' موجود مُسبقًـا</name-exist>
+      <name-exist>اسم السكريبت '{0}' موجود مُسبقًـا</name-exist>
       <fileName-invalid>اسم السكريبت يحتوي على أحرف غير متاحة.</fileName-invalid>
     </msg>
   </UIScriptForm>
@@ -1245,7 +1245,7 @@
       <parentPath>الأصل</parentPath>
     </label>
     <msg>
-      <exist>الفئة ''{0}'' موجودة مُسبقا!</exist>
+      <exist>الفئة '{0}' موجودة مُسبقا!</exist>
       <name-null>يُرجى تحديد اسم الفئة.</name-null>
       <name-invalid>.هناك بعض الأحرف غير متاحة في هذا الاسم.</name-invalid>
       <name-too-long>إسم الفئة يجب أن يحتوي على أقلّ من 30 حرفا.</name-too-long>
@@ -1465,7 +1465,7 @@
       <selectUser>اختيار مستخدم</selectUser>
     </label>
     <msg>
-      <not-change-owner>''{0}'' هو صاحب العقدة و له كل الصلاحيات</not-change-owner>
+      <not-change-owner>'{0}' هو صاحب العقدة و له كل الصلاحيات</not-change-owner>
     </msg>
   </UIGroupSelector>
   <UIPermissionForm>
@@ -1820,7 +1820,7 @@
       <action>الاجراءات</action>
     </header>
     <msg>
-      <undeletable>لا يمكن حذف ''{0}'' لانه الافتراضي.</undeletable>
+      <undeletable>لا يمكن حذف '{0}' لانه الافتراضي.</undeletable>
       <confirm-delete>هل تؤكّد عمليّة الحذف؟</confirm-delete>
     </msg>
     <action>
@@ -1843,7 +1843,7 @@
       <action>الاجراءات</action>
     </header>
     <msg>
-      <undeletable>لا يمكن حذف ''{0}'' لانه الإفتراضي.</undeletable>
+      <undeletable>لا يمكن حذف '{0}' لانه الإفتراضي.</undeletable>
       <confirm-delete>هل تريد حقا أن تحذف؟</confirm-delete>
     </msg>
     <action>
@@ -1869,7 +1869,7 @@
       <name-invalid>هناك بعض الأحرف الغير متاحة في مجال الاسم.</name-invalid>
       <roles-invalid>المجال الخاص بالصلاحية لا يمكن أن يكون فارغا.</roles-invalid>
       <version-restored>تمّ إستعادة الإصدار {0} بنجاح.</version-restored>
-      <name-exist>الاسم ''{0}'' موجود مُسبقـا.</name-exist>
+      <name-exist>الاسم '{0}' موجود مُسبقـا.</name-exist>
     </msg>
     <title>
       <AddPermission>اضافة صلاحية</AddPermission>
@@ -1994,14 +1994,14 @@
     <label>
       <styleName>اختيار الاسم:</styleName>
       <documentRange>عدد التكرارات:</documentRange>
-      <styleHTML>نمط الـ ''HTML'':</styleHTML>
+      <styleHTML>نمط الـ 'HTML':</styleHTML>
     </label>
     <action>
       <UpdateStyle>تحديث</UpdateStyle>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <range-validator>عدد الوصلات غير صحيح. الشكل الصحيح هو: أ..بحيث تكون "أ" و "ب" أعدادا صحيحة موجبة.يمكنك إستعمال ''*'' للإشارة عوضاً عن "ب" للإشارة بأن القيمة غير محدودة.</range-validator>
+      <range-validator>عدد الوصلات غير صحيح. الشكل الصحيح هو: أ..بحيث تكون "أ" و "ب" أعدادا صحيحة موجبة.يمكنك إستعمال '*' للإشارة عوضاً عن "ب" للإشارة بأن القيمة غير محدودة.</range-validator>
       <error-update>أثناء عملية التحديث. هذه المعلومات غير صحيحة.</error-update>
       <item-not-existing>لا يمكنك حفظ التغييرات الخاصة بهذه العلامة و التي لم تعد موجودة في قاعدة البينات.</item-not-existing>
     </msg>
@@ -2018,13 +2018,13 @@
   -->
   <ECMNameValidator>
     <msg>
-      <Invalid-char>هناك بعض الأحرف الغير متاحة في المجال ''{0}''.يرجى ادخال قيمة أخرى.</Invalid-char>
-      <empty-input>المجال ''{0}'' فارغ.</empty-input>
+      <Invalid-char>هناك بعض الأحرف الغير متاحة في المجال '{0}'.يرجى ادخال قيمة أخرى.</Invalid-char>
+      <empty-input>المجال '{0}' فارغ.</empty-input>
     </msg>
   </ECMNameValidator>
   <EmptyFieldValidator>
     <msg>
-      <empty-input>رجاء أدخل قيمة في المجال ''{0}'' .</empty-input>
+      <empty-input>رجاء أدخل قيمة في المجال '{0}' .</empty-input>
     </msg>
   </EmptyFieldValidator>
   <!--
@@ -2034,7 +2034,7 @@
   -->
   <PermissionValidator>
   <msg>
-      <permission-path-invalid>الصلاحية''{0}'' غير صحيحة.</permission-path-invalid>
+      <permission-path-invalid>الصلاحية'{0}' غير صحيحة.</permission-path-invalid>
   </msg>
   </PermissionValidator>
   <!--
@@ -2203,7 +2203,7 @@
   
   <UIDriveForm>
 <msg>
-  <permission-path-invalid>الصلاحية''{0}'' غير صحيحة.</permission-path-invalid>
+  <permission-path-invalid>الصلاحية'{0}' غير صحيحة.</permission-path-invalid>
   </msg>
   </UIDriveForm>
   
@@ -2355,7 +2355,7 @@
       <action>الإجراءات</action>
     </header>
     <msg>
-      <undeletable>لا يمكن حذف ''{0}'' لأنّه افتراضي.</undeletable>
+      <undeletable>لا يمكن حذف '{0}' لأنّه افتراضي.</undeletable>
       <confirm-delete>هل تؤكّد فعلا عمليّة الحذف؟</confirm-delete>
     </msg>
     <action>
@@ -2419,7 +2419,7 @@
 <NextViewTree>التالي</NextViewTree>
 </action>
   <msg>
-    <xss-vulnerability-character>يحتوي المجال ''{0}'' على أحرف XSS</xss-vulnerability-character>
+    <xss-vulnerability-character>يحتوي المجال '{0}' على أحرف XSS</xss-vulnerability-character>
 <xss-vulnerability-character-wo-label>القيمة التي تمّ ادخالها في هذا المجال قد تحتوي على أحرف XSS</xss-vulnerability-character-wo-label>
   </msg>
 </UIActionForm>
@@ -2496,7 +2496,7 @@
   </NodeTypeNameValidator>
   <UIActionForm>
     <msg>
-      <constraint-violation-exception>لا يمكن إضافة العقدة ''{0}'' إلى ''{1}'' في مساحة العمل ''{2}''. توجد مشكلة مع الصلاحيّات أو مع بعض القيود المفروضة.</constraint-violation-exception>
+      <constraint-violation-exception>لا يمكن إضافة العقدة '{0}' إلى '{1}' في مساحة العمل '{2}'. توجد مشكلة مع الصلاحيّات أو مع بعض القيود المفروضة.</constraint-violation-exception>
     </msg>
   </UIActionForm>
   
@@ -2543,7 +2543,7 @@
   </UINodeTypeSelector>
   <UIScriptForm>
     <msg>
-      <PathNotFoundException>السكريبت موجود بالفعل في المجلد ''{0}''.</PathNotFoundException>      
+      <PathNotFoundException>السكريبت موجود بالفعل في المجلد '{0}'.</PathNotFoundException>      
     </msg>
   </UIScriptForm>
  <UINodeTypeList>
