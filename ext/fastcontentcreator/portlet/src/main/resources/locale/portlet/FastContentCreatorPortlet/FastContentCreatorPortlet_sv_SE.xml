@@ -120,7 +120,7 @@
     </action>
     <msg>
       <repository-exception>Kan inte spara den här åtgärden. Det namn som används får inte ha ett index som sitt sista element.</repository-exception>
-      <numberformat-exception>Kan inte spara den här åtgärden. Det namn som används får inte '' ['' eller ''] ".</numberformat-exception>
+      <numberformat-exception>Kan inte spara den här åtgärden. Det namn som används får inte ' [' eller '] ".</numberformat-exception>
       <existed-action>Namnet på {0} finns redan. Välj ett annat namn.</existed-action>
       <unable-add-action>Det går inte att lägga till denna åtgärd.</unable-add-action>
       <unable-add>Det går inte att lägga till denna åtgärd. Den här noden är roten eller du har inte rättigheten.</unable-add>
@@ -154,7 +154,7 @@
 
   <DateTimeValidator>
     <msg>
-      <Invalid-input>Fältet {0} med värdet ''{1}'' är ogiltigt.</Invalid-input>
+      <Invalid-input>Fältet {0} med värdet '{1}' är ogiltigt.</Invalid-input>
     </msg>
   </DateTimeValidator>
 

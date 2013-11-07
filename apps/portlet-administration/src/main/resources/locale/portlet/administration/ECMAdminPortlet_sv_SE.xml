@@ -769,7 +769,7 @@
     <msg>
       <action-type-added>Åtgärdstypen {0} har lagts till.</action-type-added>
       <action-type-create-error>Ett fel inträffade under genereringen åtgärdstypen.</action-type-create-error>
-      <action-name-invalid>{0} är ogiltig. Namnet måste börja med '' exo: ".</action-name-invalid>
+      <action-name-invalid>{0} är ogiltig. Namnet måste börja med ' exo: ".</action-name-invalid>
       <action-exist>Denna åtgärd finns redan i ECM-systemet.</action-exist>
       <fileName-invalid>Aktivitetsnamnet innehåller ogiltiga tecken.</fileName-invalid>
     </msg>
