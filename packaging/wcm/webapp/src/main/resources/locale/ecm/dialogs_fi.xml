@@ -269,12 +269,12 @@
   </EmailAddressValidator>
   <EmptyFieldValidator>
     <msg>
-      <empty-input>The field ''{0}'' is required. Please enter your value.</empty-input>
+      <empty-input>The field '{0}' is required. Please enter your value.</empty-input>
     </msg>
   </EmptyFieldValidator>
   <NumberFormatValidator>
     <msg>
-      <Invalid-number>The field ''{0}'' is invalid.</Invalid-number>
+      <Invalid-number>The field '{0}' is invalid.</Invalid-number>
     </msg>
   </NumberFormatValidator>
   <!--
