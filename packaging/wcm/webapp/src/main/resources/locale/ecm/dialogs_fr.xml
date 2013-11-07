@@ -10,7 +10,7 @@
         <start-time>Heure de début</start-time>
         <lifecycle>Cycle de vie</lifecycle>
         <mimeType>Type Mime</mimeType>
-        <repeat-count>Nombre d''essais</repeat-count>
+        <repeat-count>Nombre d'essais</repeat-count>
         <time-interval>Intervalle entre 2 essais</time-interval>
         <query-items>Eléments de la requête</query-items>
         <schedule-type>Type de planification</schedule-type>
@@ -55,7 +55,7 @@
         <categories>Catégories</categories>
         <mimeType>#{Ecm.dialog.label.mimeType}</mimeType>
         <content>#{word.content}</content>
-        <re-upload>Un fichier existe déjà. Vous pouvez le supprimer et envoyer un autre fichier à partir d''ici.</re-upload>
+        <re-upload>Un fichier existe déjà. Vous pouvez le supprimer et envoyer un autre fichier à partir d'ici.</re-upload>
       </label>
     </dialog>
   </File>
@@ -236,7 +236,7 @@
   <Versionable>
     <dialog>
       <label>
-        <version-history>L''historique des versions</version-history>
+        <version-history>L'historique des versions</version-history>
         <base-version>Version de base</base-version>
         <is-checked-out>Est extrait</is-checked-out>
         <predecessors>Prédécesseurs</predecessors>
@@ -264,17 +264,17 @@
   -->
   <EmailAddressValidator>
     <msg>
-      <Invalid-input>L''adresse Email est invalide.</Invalid-input>
+      <Invalid-input>L'adresse Email est invalide.</Invalid-input>
     </msg>
   </EmailAddressValidator>
   <EmptyFieldValidator>
     <msg>
-      <empty-input>Le champ ''{0}'' est requis. Veuillez saisir une valeur.</empty-input>
+      <empty-input>Le champ '{0}' est requis. Veuillez saisir une valeur.</empty-input>
     </msg>
   </EmptyFieldValidator>
   <NumberFormatValidator>
     <msg>
-      <Invalid-number>Le champs ''{0}'' est invalid.</Invalid-number>
+      <Invalid-number>Le champs '{0}' est invalid.</Invalid-number>
     </msg>
   </NumberFormatValidator>
   <!--
@@ -380,7 +380,7 @@
 		<help>
 			<CaptionsHelp>Les sous-titres communiquent le contenu des dialogues mais aussi toutes informations audio importantes.</CaptionsHelp>
 			<AudioDescriptionHelp>Narration ajoutée à une piste sonore pour décrire les détails visuels importants.</AudioDescriptionHelp>
-<AlternativeTextHelp>Fournir une alternative accessible pour présenter l''information</AlternativeTextHelp>
+<AlternativeTextHelp>Fournir une alternative accessible pour présenter l'information</AlternativeTextHelp>
 		</help>
 	</AccessibleMedia>
   

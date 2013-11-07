@@ -30,7 +30,7 @@
       <UIFolksonomyManager>Tags</UIFolksonomyManager>      
     </label>
     <msg>
-      <access-denied>Accès refusé. Vous n''avez pas les droits suffisants.</access-denied>
+      <access-denied>Accès refusé. Vous n'avez pas les droits suffisants.</access-denied>
     </msg>
   </UIECMAdminControlPanel>
   <!--
@@ -42,7 +42,7 @@
     <msg>
       <referential-integrity>Lecture impossible à partir du fichier source ou la catégorie de destination est une sous-catégorie</referential-integrity>
       <no-taxonomy-selected>Vous devez copier ou couper au moins une catégorie</no-taxonomy-selected>
-      <node-is-cutting>Impossible de copier ici. La catégorie sélectionnée (''{0}'') a probablement été déplacée ou supprimée.</node-is-cutting>
+      <node-is-cutting>Impossible de copier ici. La catégorie sélectionnée ('{0}') a probablement été déplacée ou supprimée.</node-is-cutting>
       <can-not-paste>Le presse-papier ne contient aucune donnée à copier.</can-not-paste>
       <reference-exception>Impossible de supprimer cette catégorie car elle est actuellement référencée par un contenu.</reference-exception>
       <path-error>Un problème est survenu lors de la suppression de cette catégorie.</path-error>
@@ -70,13 +70,13 @@
 		<tab>
 			<info>
         <UITaxonomyTreeMainForm>Choisir un nom de catégorie  choisir un espace de stockage et choisir le chemin de la racine de la catégorie.</UITaxonomyTreeMainForm>
-        <UIPermissionTreeManager>Choisir les droits d''accès à l''arbre de catégories.</UIPermissionTreeManager>
-        <UIActionTaxonomyManager>Ajoutez une action à l''arbre des catégories pour terminer.</UIActionTaxonomyManager>
-        <UITaxonomyTreeCreateChild>Modifier l''arbre de catégories et choisir les permissions</UITaxonomyTreeCreateChild>
+        <UIPermissionTreeManager>Choisir les droits d'accès à l'arbre de catégories.</UIPermissionTreeManager>
+        <UIActionTaxonomyManager>Ajoutez une action à l'arbre des catégories pour terminer.</UIActionTaxonomyManager>
+        <UITaxonomyTreeCreateChild>Modifier l'arbre de catégories et choisir les permissions</UITaxonomyTreeCreateChild>
 			</info>
 		</tab>
 		<msg>
-      <not-exist-tree>L''arbre de catégories n''existe pas encore</not-exist-tree>
+      <not-exist-tree>L'arbre de catégories n'existe pas encore</not-exist-tree>
 		</msg>
 	</UITaxonomyTreeContainer>
   
@@ -91,7 +91,7 @@
 		</action>
 		<msg>
   		<name-not-allowed>Nom non autorisé</name-not-allowed>
-      <name-emty>Le nom de l''arbre de catégories est requis.</name-emty>
+      <name-emty>Le nom de l'arbre de catégories est requis.</name-emty>
       <homePath-emty>Le chemin de la racine est obligatoire.</homePath-emty>
   		<targetPath-emty>Le chemin cible est vide</targetPath-emty>
       <taxonomytree-existed>Un arbre de catégories du même nom existe déjà.</taxonomytree-existed>
@@ -152,7 +152,7 @@
 	-->
 	
 	<UIActionForm>
-    <title>Ajouter une action pour l''arbre de catégories</title>
+    <title>Ajouter une action pour l'arbre de catégories</title>
 		<action>
 			<Save>Enregistrer</Save>
 		</action>
@@ -161,8 +161,8 @@
       <path-invalid>Le chemin est incorrect.</path-invalid>
       <taxonomy-existed>Un arbre de catégories du même nom existe déjà</taxonomy-existed>
       <taxonomy-node-existed>Ce noeud de taxonomie existe déjà.</taxonomy-node-existed>
-      <no-permission-add>Vous n''avez pas le droit d''ajouter une action.</no-permission-add>
-      <not-created-tree>L''arbre de catégories n''a pas encore été créé.</not-created-tree>
+      <no-permission-add>Vous n'avez pas le droit d'ajouter une action.</no-permission-add>
+      <not-created-tree>L'arbre de catégories n'a pas encore été créé.</not-created-tree>
 		</msg>
 	</UIActionForm>
 
@@ -188,7 +188,7 @@
     </title>
   </NameSpacePopup>
   <UINamespaceForm>
-    <title>Enregistrement d''un espace de nommage</title>
+    <title>Enregistrement d'un espace de nommage</title>
     <label>
       <namespace>Préfixe</namespace>
       <uri>Uri</uri>
@@ -198,7 +198,7 @@
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <register-unsuccessfull>Le préfixe ou l''uri existe déjà.</register-unsuccessfull>
+      <register-unsuccessfull>Le préfixe ou l'uri existe déjà.</register-unsuccessfull>
       <prefix-null>Veuillez saisir un préfixe.</prefix-null>
       <uri-null>Veuillez saisir un uri.</uri-null>
     </msg>
@@ -211,7 +211,7 @@
   <UINamespaceList>
     <header>
       <prefix>Préfixe</prefix>
-      <uri>Uri de l''espace de nommage</uri>
+      <uri>Uri de l'espace de nommage</uri>
       <action>Action</action>
     </header>
     <action>
@@ -220,7 +220,7 @@
   </UINamespaceList>
   <NamespacePopup>
     <title>
-      <UINamespaceForm>Enregistrement d''un espace de nommage</UINamespaceForm>
+      <UINamespaceForm>Enregistrement d'un espace de nommage</UINamespaceForm>
     </title>
   </NamespacePopup>
   <!--
@@ -249,8 +249,8 @@
     </header>
     <msg>
       <confirm-delete>Confirmez-vous la suppression?</confirm-delete>
-      <delete-successful>Les formulaires de ''{0}'' ont été supprimés avec succès.</delete-successful>
-      <path-not-found-exception>Ces métadonnées ont été supprimées ou modifiées. S''il vous plaît cliquez sur le bouton Actualiser.</path-not-found-exception>
+      <delete-successful>Les formulaires de '{0}' ont été supprimés avec succès.</delete-successful>
+      <path-not-found-exception>Ces métadonnées ont été supprimées ou modifiées. S'il vous plaît cliquez sur le bouton Actualiser.</path-not-found-exception>
     </msg>
     <action>
       <Add>Ajouter des Métadonnées</Add>
@@ -269,7 +269,7 @@
   </MetadataPopupEdit>
   <MetataPermissionPopup>
     <title>
-      <MetadataPermission>Sélection d''une permission</MetadataPermission>
+      <MetadataPermission>Sélection d'une permission</MetadataPermission>
       <QueriesPermissionBrowse>Ajout de permissions</QueriesPermissionBrowse>
     </title>
   </MetataPermissionPopup>
@@ -291,7 +291,7 @@
     </header>
     <label>
       <dialogTemplate>Formulaire de Saisie:</dialogTemplate>
-      <viewTemplate>Gabarit d''Affichage</viewTemplate>
+      <viewTemplate>Gabarit d'Affichage</viewTemplate>
       <metadataName>Nom du jeu de Metdonnées</metadataName>
       <viewPermission>Permission:</viewPermission>
       <permission>UIMetadataForm</permission>
@@ -301,7 +301,7 @@
       <label>
         <metadataTypeTab>Type de Métadonnées</metadataTypeTab>
         <dialogTab>Formulaire de Saisie</dialogTab>
-        <viewTab>Gabarit d''Affichage</viewTab>
+        <viewTab>Gabarit d'Affichage</viewTab>
       </label>
     </tab>
   </UIMetadataForm>
@@ -312,7 +312,7 @@
   -->
   <UIMetadataView>
     <header>
-      <name>Nom de l''élement</name>
+      <name>Nom de l'élement</name>
       <type>Type</type>
       <description>Description</description>
       <isMixin>Mixin</isMixin>
@@ -519,7 +519,7 @@
       <nodeTypeName>Nom</nodeTypeName>
       <mixinType>Mixin</mixinType>
       <hasOrderableChildNodes>Sous-Noeuds Ordonnables</hasOrderableChildNodes>
-      <primaryItemName>Nom de l''Element Primaire</primaryItemName>
+      <primaryItemName>Nom de l'Element Primaire</primaryItemName>
       <superTypes>Super Types</superTypes>
       <propertyname>Nom</propertyname>
       <requiredType>Type</requiredType>
@@ -560,12 +560,12 @@
       <Close>#{word.close}</Close>
     </action>
     <msg>
-      <register-successfully>Type de noeud ''{0}'' enregistré avec succès</register-successfully>
+      <register-successfully>Type de noeud '{0}' enregistré avec succès</register-successfully>
       <supertype-is-madatory>Un super type est obligatoire pour créer un nouveau type de noeud. Vous devez en sélectionner au moins un.</supertype-is-madatory>
       <register-failed>Enregistrement du type de noeud impossible. Ce type de noeud existe déjà, ou le super type est invalide</register-failed>
       <nodeType-name>Nom du type de noeud requis</nodeType-name>
       <fileName-invalid>Caractères invalides dans le nom.</fileName-invalid>
-      <node-type-exists>Le type de noeud ''{0}'' existe déjà.</node-type-exists>
+      <node-type-exists>Le type de noeud '{0}' existe déjà.</node-type-exists>
       <node-type-name>Nom du type de noeud invalide.</node-type-name>
       <values-error>Veuillez sélectionner un seul type de noeud pour le type primaire par défaut</values-error>
       <confirm-delete-child>Confirmez-vous la suppression de ce sous-noeud?</confirm-delete-child>
@@ -600,7 +600,7 @@
   </defaultPrimaryTypePopup>
   <requiredPrimaryTypePopup>
     <title>
-      <FormrequiredPrimaryTypePopup>Sélection d''un type primaire</FormrequiredPrimaryTypePopup>
+      <FormrequiredPrimaryTypePopup>Sélection d'un type primaire</FormrequiredPrimaryTypePopup>
     </title>
   </requiredPrimaryTypePopup>
   <superTypesPopup>
@@ -615,7 +615,7 @@
   </NodeTypePopup>
   <ViewNodeTypePopup>
     <title>
-      <UINodeTypeForm>Visualisation des informations d''un type de noeud</UINodeTypeForm>
+      <UINodeTypeForm>Visualisation des informations d'un type de noeud</UINodeTypeForm>
     </title>
   </ViewNodeTypePopup>
   <!--
@@ -663,13 +663,13 @@
       <Cancel>#{word.cancel}</Cancel>
       <Upload>Envoyer un Fichier</Upload>
     </action>
-    <title>Import des types de noeud à partir d''un fichier XML</title>
+    <title>Import des types de noeud à partir d'un fichier XML</title>
     <msg>
-      <filename-error>Parcourir les fichiers pour l''import</filename-error>
-      <data-file-error>Seuls les fichiers XML ou ZIP sont supportés pour l''import</data-file-error>
+      <filename-error>Parcourir les fichiers pour l'import</filename-error>
+      <data-file-error>Seuls les fichiers XML ou ZIP sont supportés pour l'import</data-file-error>
             <data-invalid>Les données importées sont invalides</data-invalid>
-      <nodetype-exist>Données invalides: Le type de noeud ''{0}'' existe déjà</nodetype-exist>
-      <namespace-invalid>Données invalides:  L''espace de nommage ''{0}'' est inconnu</namespace-invalid>
+      <nodetype-exist>Données invalides: Le type de noeud '{0}' existe déjà</nodetype-exist>
+      <namespace-invalid>Données invalides:  L'espace de nommage '{0}' est inconnu</namespace-invalid>
     </msg>
   </UINodeTypeUpload>
   <!--
@@ -688,7 +688,7 @@
       <label>Nom</label>
       <input>Action</input>
     </header>
-    <title>Sélection d''un type de noeud à importer</title>
+    <title>Sélection d'un type de noeud à importer</title>
     <msg>
       <no-nodetype-registered>Aucun type de noeud enregistré.</no-nodetype-registered>
       <nodetype-registered>Enregistrement du type réussi.</nodetype-registered>
@@ -696,7 +696,7 @@
   </UINodeTypeImport>
   <NodeTypeImportPopup>
     <title>
-      <UINodeTypeImportPopup>Import des types de noeud à partir d''un fichier XML</UINodeTypeImportPopup>
+      <UINodeTypeImportPopup>Import des types de noeud à partir d'un fichier XML</UINodeTypeImportPopup>
     </title>
   </NodeTypeImportPopup>
   <!--
@@ -736,8 +736,8 @@
       <AddAction>Ajouter</AddAction>
     </action>
 				<msg>
- <confirm-delete>Êtes-vous sûr de vouloir supprimer ce type d''action?</confirm-delete>
-<cannot-delete>Vous ne pouvez pas supprimer ce type d''action car il est utilisé par le système.</cannot-delete>
+ <confirm-delete>Êtes-vous sûr de vouloir supprimer ce type d'action?</confirm-delete>
+<cannot-delete>Vous ne pouvez pas supprimer ce type d'action car il est utilisé par le système.</cannot-delete>
 				</msg>			
   </UIActionTypeList>
   <!--
@@ -747,13 +747,13 @@
   -->
   <ActionPopup>
     <title>
-      <UIActionTypeForm>Type d''action</UIActionTypeForm>
+      <UIActionTypeForm>Type d'action</UIActionTypeForm>
     </title>
   </ActionPopup>
   <UIActionTypeForm>
-    <title>Ajout/Modification d''un type d''action</title>
+    <title>Ajout/Modification d'un type d'action</title>
     <label>
-      <actionType>Types d''action hérités</actionType>
+      <actionType>Types d'action hérités</actionType>
       <name>Nom</name>
       <isMove>Action avec déplacement</isMove>
       <variables>Variables</variables>
@@ -767,11 +767,11 @@
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <action-type-added>''{0}'' a été ajouté.</action-type-added>
-      <action-type-create-error>Création du type d''action impossible.</action-type-create-error>
-      <action-name-invalid>''{0}'' invalide! Le nom doit débuter par ''exo:''</action-name-invalid>
-      <action-exist>Ce type d''action existe déjà</action-exist>
-      <fileName-invalid>Le nom de l''action comporte des caractères invalides</fileName-invalid>
+      <action-type-added>'{0}' a été ajouté.</action-type-added>
+      <action-type-create-error>Création du type d'action impossible.</action-type-create-error>
+      <action-name-invalid>'{0}' invalide! Le nom doit débuter par 'exo:'</action-name-invalid>
+      <action-exist>Ce type d'action existe déjà</action-exist>
+      <fileName-invalid>Le nom de l'action comporte des caractères invalides</fileName-invalid>
     </msg>
   </UIActionTypeForm>
   <!--
@@ -818,7 +818,7 @@
     <header>
       <name>Nom</name>
       <permissions>Permissions</permissions>
-      <tabList>Barres d''Outils</tabList>
+      <tabList>Barres d'Outils</tabList>
       <baseVersion>Version de base</baseVersion>
       <action>Action</action>
     </header>
@@ -826,8 +826,8 @@
       <AddView>Ajouter une vue</AddView>
     </action>
     <msg>
-      <access-denied>Accès refusé. Vous n''avez pas les droits requis pour utiliser cette fonction.</access-denied>
-      <template-in-use>Suppression impossible de la vue ''{0}'' (probablement en cours d''utilisation)</template-in-use>
+      <access-denied>Accès refusé. Vous n'avez pas les droits requis pour utiliser cette fonction.</access-denied>
+      <template-in-use>Suppression impossible de la vue '{0}' (probablement en cours d'utilisation)</template-in-use>
       <confirm-delete>Confirmez-vous la suppression?</confirm-delete>
     </msg>
   </UIViewList>
@@ -838,13 +838,13 @@
   </ViewPopup>
   <AddPopup>
     <title>
-      <UIViewFormTabPane>Ajout d''une Vue</UIViewFormTabPane>
+      <UIViewFormTabPane>Ajout d'une Vue</UIViewFormTabPane>
       <AddPopup>Ajouter un formulaire</AddPopup>
     </title>
   </AddPopup>
   <EditPopup>
     <title>
-      <UIViewFormTabPane>Modification d''une vue</UIViewFormTabPane>
+      <UIViewFormTabPane>Modification d'une vue</UIViewFormTabPane>
     </title>
   </EditPopup>
 		
@@ -866,13 +866,13 @@
 				</msg>
 				<grid>
 					 <msg>
-  <empty>Il n''y a pas d''onglet sur cette vue</empty>
+  <empty>Il n'y a pas d'onglet sur cette vue</empty>
 					 </msg>
 				</grid>				
 		</UITabList>
 		
 		<UIViewPermissionList>
- <title>Sélectionnez propriétaire disposant d''autorisations sur cette vue :</title>
+ <title>Sélectionnez propriétaire disposant d'autorisations sur cette vue :</title>
 				<label>
  <permission>{0} dans {1}</permission>
 				</label>
@@ -897,7 +897,7 @@
 				</action>
 				<grid>
 					 <msg>
-  <empty>Il n''y a pas de permissions sur cette vue</empty>
+  <empty>Il n'y a pas de permissions sur cette vue</empty>
 					 </msg>
 				</grid>
 		</UIViewPermissionList>	
@@ -910,7 +910,7 @@
  <userOrGroup>Utilisateur ou Groupe</userOrGroup>
 				</label>
 				<msg>
- <permission-exist>La permission ''{0}'' est déjà présente dans la liste.</permission-exist>
+ <permission-exist>La permission '{0}' est déjà présente dans la liste.</permission-exist>
 				</msg>					
 		</UIViewPermissionForm>		
 						
@@ -928,7 +928,7 @@
       <view-name-invalid>Le nom de la vue est obligatoire.</view-name-invalid>
       <fileName-invalid>Caractères invalides détectés dans le nom.</fileName-invalid>
       <permission-not-empty>Veuillez sélectionner une permission.</permission-not-empty>      
-      <mustbe-add-tab>Vous devez ajouter au moins une barre d''outils.</mustbe-add-tab>
+      <mustbe-add-tab>Vous devez ajouter au moins une barre d'outils.</mustbe-add-tab>
 <mustbe-add-permission>Sélectionnez une permission pour cette vue</mustbe-add-permission>
       <view-exist>Ce nom de vue existe déjà.</view-exist>
     </msg>
@@ -937,13 +937,13 @@
       <template>Modèle</template>
 <version>Restaurer cette version</version>
       <enableVersion>Activer les Versions</enableVersion>
-      <hideExplorerPanel>Masquez l''arbre dans le panneau latéral</hideExplorerPanel>
+      <hideExplorerPanel>Masquez l'arbre dans le panneau latéral</hideExplorerPanel>
     </label>				
   </UIViewForm>
   <UITabForm>
     <msg>
       <button-select-error>Vous devez sélectionner au moins une fonction de la liste.</button-select-error>
-      <tab-name-error>Veuillez saisir un nom de barre d''outils.</tab-name-error>
+      <tab-name-error>Veuillez saisir un nom de barre d'outils.</tab-name-error>
       <fileName-invalid>Caractères invalides détectés dans le nom.</fileName-invalid>
     </msg>
 	    <label>
@@ -951,7 +951,7 @@
       <viewName>Nom</viewName>
       <tabName>Nom</tabName>
       <permission>Permission</permission>
-      <tabs>Barres d''Outils</tabs>
+      <tabs>Barres d'Outils</tabs>
       <template>Formulaires</template>
       <enableVersion>Activer le Versionnage</enableVersion>
       <addFolder>Ajouter un dossier</addFolder>
@@ -1002,7 +1002,7 @@
   <UIViewFormTabPane>
     <tab>
       <label>
-        <UITabContainer>Barre d''Outils</UITabContainer>
+        <UITabContainer>Barre d'Outils</UITabContainer>
         <UIViewForm>Aperçu</UIViewForm>
 								<UIViewPermissionContainer>Permission</UIViewPermissionContainer>
       </label>
@@ -1017,13 +1017,13 @@
   </UIViewFormTabPane>
   <PopupViewPermission>
     <title>
-      <UIPermissionSelector>Sélection d''une permission</UIPermissionSelector>
+      <UIPermissionSelector>Sélection d'une permission</UIPermissionSelector>
     </title>
   </PopupViewPermission>
 		
 		<TabForm_Popup>
 			 <title>
-  <UITabForm>Onglet de la Barre d''Outils</UITabForm>
+  <UITabForm>Onglet de la Barre d'Outils</UITabForm>
 			 </title>
 		</TabForm_Popup>	
 		
@@ -1055,10 +1055,10 @@
       <Add>Ajouter</Add>
     </action>
     <msg>
-      <template-in-use>Suppresion impossible du formulaire ''{0}'' (probablement en cours d''utilisation)</template-in-use>
+      <template-in-use>Suppresion impossible du formulaire '{0}' (probablement en cours d'utilisation)</template-in-use>
       <confirm-delete>Confirmez-vous la suppression?</confirm-delete>
-      <access-denied>Accès refusé. Vous n''avez pas les droits suffisants pour utiliser cette fonction.</access-denied>
-      <delete-permission-denied>Vous n''avez pas les droits pour supprimer le gabarit ''{0}''.</delete-permission-denied>
+      <access-denied>Accès refusé. Vous n'avez pas les droits suffisants pour utiliser cette fonction.</access-denied>
+      <delete-permission-denied>Vous n'avez pas les droits pour supprimer le gabarit '{0}'.</delete-permission-denied>
     </msg>
   </UIECMTemplateList>
   <!--
@@ -1075,10 +1075,10 @@
       <Refresh>#{word.refresh}</Refresh>
     </action>
     <msg>
-      <version-restored>La version ''{0}'' a été restaurée avec succès.</version-restored>
+      <version-restored>La version '{0}' a été restaurée avec succès.</version-restored>
       <role-require>Veuillez sélectionner une permission.</role-require>
-      <template-name-exist>Le formulaire ''{0}'' existe déjà.</template-name-exist>
-      <add-permission-denied>Vous n''avez pas les droits pour ajouter un nouveau formulaire.</add-permission-denied>
+      <template-name-exist>Le formulaire '{0}' existe déjà.</template-name-exist>
+      <add-permission-denied>Vous n'avez pas les droits pour ajouter un nouveau formulaire.</add-permission-denied>
       <edit-permission-denied>Document:</edit-permission-denied>
     </msg>
     <tab>
@@ -1105,7 +1105,7 @@
   -->
   <ecmTempForm>
     <label>
-      <version>Sélection d''une version</version>
+      <version>Sélection d'une version</version>
       <content>Code du formulaire</content>
       <name>Nom:</name>
       <homeTemplate>Type:</homeTemplate>
@@ -1114,18 +1114,18 @@
   </ecmTempForm>
   <ecmTempFormPopup>
     <title>
-      <ecmTempForm>Ajout/Modification du Gabarit d''Affichage</ecmTempForm>
+      <ecmTempForm>Ajout/Modification du Gabarit d'Affichage</ecmTempForm>
     </title>
   </ecmTempFormPopup>
   <ecmTempFormAdd>
     <title>
-      <ecmTempForm>Ajout de Gabarit d''Explorateur</ecmTempForm>
-      <ecmTempFormAdd>Ajout de Gabarit d''Explorateur</ecmTempFormAdd>
+      <ecmTempForm>Ajout de Gabarit d'Explorateur</ecmTempForm>
+      <ecmTempFormAdd>Ajout de Gabarit d'Explorateur</ecmTempFormAdd>
     </title>
   </ecmTempFormAdd>
   <ecmTempFormEdit>
     <title>
-      <ecmTempForm>Modification de Gabarit d''Explorateur</ecmTempForm>
+      <ecmTempForm>Modification de Gabarit d'Explorateur</ecmTempForm>
     </title>
   </ecmTempFormEdit>
 
@@ -1191,7 +1191,7 @@
     <msg>
       <version-restored>la version {0} a été restaurée avec succès.</version-restored>
       <name-null>Veuillez saisir un nom de script.</name-null>
-      <name-exist>Le script ''{0}'' existe déjà.</name-exist>
+      <name-exist>Le script '{0}' existe déjà.</name-exist>
       <fileName-invalid>Caractères invalides détectés dans le nom du script.</fileName-invalid>
     </msg>
   </UIScriptForm>
@@ -1254,7 +1254,7 @@
     
   <EditTaxonomyTreePopup>
     <title>
-      <UITaxonomyTreeContainer>Modifier l''Arbre de Catégories</UITaxonomyTreeContainer>
+      <UITaxonomyTreeContainer>Modifier l'Arbre de Catégories</UITaxonomyTreeContainer>
     </title>
   </EditTaxonomyTreePopup>
 
@@ -1266,7 +1266,7 @@
   
   <TaxonomyPopupCreateChild>
     <title>
-      <UITaxonomyTreeCreateChildForm>Modifier l''Arbre de Catégories</UITaxonomyTreeCreateChildForm>
+      <UITaxonomyTreeCreateChildForm>Modifier l'Arbre de Catégories</UITaxonomyTreeCreateChildForm>
     </title>
   </TaxonomyPopupCreateChild>
 
@@ -1282,7 +1282,7 @@
     <msg>
       <name-null>Le nom est vide.</name-null>
       <name-invalid>Le nom est invalide.</name-invalid>
-      <name-too-long>Le nom de la catégorie ne peut excéder ''{0}'' caractères.</name-too-long>
+      <name-too-long>Le nom de la catégorie ne peut excéder '{0}' caractères.</name-too-long>
       <exist>Le nom existe déjà.</exist>
 		</msg>
 	</UITaxonomyTreeCreateChildForm>
@@ -1336,12 +1336,12 @@
       <AddTaxonomyTree>Ajouter un Arbre de Catégories</AddTaxonomyTree>
     </action>
     <tooltip>
-      <EditTaxonomyTree>Modifier l''Arbre de Catégories</EditTaxonomyTree>
-      <Delete>Supprimer l''Arbre de Catégories</Delete>
+      <EditTaxonomyTree>Modifier l'Arbre de Catégories</EditTaxonomyTree>
+      <Delete>Supprimer l'Arbre de Catégories</Delete>
     </tooltip>
-    <title>Parcourir l''Arbre de Catégories</title>
+    <title>Parcourir l'Arbre de Catégories</title>
     <msg>
-      <no-list>Aucun arbre catégories n''existe.</no-list>
+      <no-list>Aucun arbre catégories n'existe.</no-list>
       <confirm-delete>Confirmez-vous la suppression?</confirm-delete>
       <is-in-trash>Cet arbre de catégories à été déplacé à la Corbeille.</is-in-trash>
     </msg>
@@ -1382,8 +1382,8 @@
     </action>
     <msg>
       <checkbox-require>Vous devez choisir au moins une permission.</checkbox-require>
-      <userOrGroup-required>Vous devez choisir un groupe ou un utilisateur avant d''enregistrer la permission</userOrGroup-required>
-      <not-change-permission>Vous n''avez pas le droit d''ajouter une permission.</not-change-permission>
+      <userOrGroup-required>Vous devez choisir un groupe ou un utilisateur avant d'enregistrer la permission</userOrGroup-required>
+      <not-change-permission>Vous n'avez pas le droit d'ajouter une permission.</not-change-permission>
       <access-denied>Accès refusé. Vous ne pouvez pas supprimer cette permission.</access-denied>
     </msg>
   </UIPermissionTreeForm>
@@ -1435,8 +1435,8 @@
     </header>
     <msg>
       <confirm-delete-permission>Souhaitez-vous supprimer cette permission?</confirm-delete-permission>
-      <no-permission-tochange>Vous n''avez pas les droits requis pour supprimer la permission.</no-permission-tochange>
-      <no-permission-remove>Vous ne pouvez pas supprimer le propriétaire ni l''utilisateur "system".</no-permission-remove>
+      <no-permission-tochange>Vous n'avez pas les droits requis pour supprimer la permission.</no-permission-tochange>
+      <no-permission-remove>Vous ne pouvez pas supprimer le propriétaire ni l'utilisateur "system".</no-permission-remove>
       <access-denied>Accès refusé. Vous ne pouvez pas supprimer cette permission.</access-denied>
     </msg>
   </UIPermissionInfo>
@@ -1465,7 +1465,7 @@
       <selectUser>Sélectionner un utilisateur</selectUser>
     </label>
     <msg>
-      <not-change-owner>''{0}'' est le propriétaire du noeud et a l''accès total.</not-change-owner>
+      <not-change-owner>'{0}' est le propriétaire du noeud et a l'accès total.</not-change-owner>
     </msg>
   </UIGroupSelector>
   <UIPermissionForm>
@@ -1485,8 +1485,8 @@
     </action>
     <msg>
       <checkbox-require>Vous devez selectionner au moins une propriété.</checkbox-require>
-      <userOrGroup-required>Vous devez choisir un utilisateur ou un groupe avant d''enregistrer cette permission.</userOrGroup-required>
-      <not-change-permission>Vous n''avez pas les droits requis pour ajouter une permission.</not-change-permission>
+      <userOrGroup-required>Vous devez choisir un utilisateur ou un groupe avant d'enregistrer cette permission.</userOrGroup-required>
+      <not-change-permission>Vous n'avez pas les droits requis pour ajouter une permission.</not-change-permission>
       <access-denied>Accès refusé. Vous ne pouvez pas supprimer cette permission.</access-denied>
     </msg>
   </UIPermissionForm>
@@ -1519,9 +1519,9 @@
     </action>
     <msg>
       <confirm-delete>Confirmez-vous la suppression?</confirm-delete>
-      <access-denied>Accès refusé. Vous n''avez pas les droits suffisants pour utiliser cette fonction.</access-denied>
+      <access-denied>Accès refusé. Vous n'avez pas les droits suffisants pour utiliser cette fonction.</access-denied>
       <editing-template>Accès refusé. Vous ne pouvez pas supprimer et modifier le gabarit en même temps.</editing-template>
-      <template-not-exist>Le gabarit que vous tentez de supprimer n''existe pas.</template-not-exist>
+      <template-not-exist>Le gabarit que vous tentez de supprimer n'existe pas.</template-not-exist>
     </msg>
   </UITemplateList>
   
@@ -1537,9 +1537,9 @@
     </action>
     <msg>
       <confirm-delete>Confirmez-vous la suppression?</confirm-delete>
-      <access-denied>Accès refusé. Vous n''avez pas les droits d''utiliser cette fonction.</access-denied>
+      <access-denied>Accès refusé. Vous n'avez pas les droits d'utiliser cette fonction.</access-denied>
       <editing-template>Accès refusé. Vous ne pouvez pas supprimer et modifier un gabarit en même temps.</editing-template>
-      <template-not-exist>Le gabarit que vous tentez de supprimer n''existe pas.</template-not-exist>
+      <template-not-exist>Le gabarit que vous tentez de supprimer n'existe pas.</template-not-exist>
     </msg>
   </UIActionsTemplateList>
   
@@ -1555,9 +1555,9 @@
     </action>
     <msg>
       <confirm-delete>Confirmez-vous la suppression?</confirm-delete>
-      <access-denied>Accès refusé. Vous n''avez pas les droits d''utiliser cette fonction.</access-denied>
+      <access-denied>Accès refusé. Vous n'avez pas les droits d'utiliser cette fonction.</access-denied>
       <editing-template>Accès refusé. Vous ne pouvez pas supprimer et modifier ce gabarit en même temps.</editing-template>
-      <template-not-exist>Le gabarit que vous tentez de supprimer n''existe pas.</template-not-exist>
+      <template-not-exist>Le gabarit que vous tentez de supprimer n'existe pas.</template-not-exist>
     </msg>
   </UIOthersTemplateList>
 
@@ -1592,9 +1592,9 @@
     </action>
     <msg>
       <confirm-delete>Êtes-vous sûr de que vouloir supprimer ce gabarit ?</confirm-delete>
-      <access-denied>Accès refusé. Vous n''avez pas les droits d''utiliser cette fonction.</access-denied>
+      <access-denied>Accès refusé. Vous n'avez pas les droits d'utiliser cette fonction.</access-denied>
       <editing-template>Accès refusé. Vous ne pouvez pas supprimer et modifier ce gabarit en même temps.</editing-template>
-      <template-not-exist>Le gabarit que vous tentez de supprimer n''existe pas.</template-not-exist>
+      <template-not-exist>Le gabarit que vous tentez de supprimer n'existe pas.</template-not-exist>
     </msg>
   </UICLVTemplateList>
 
@@ -1723,7 +1723,7 @@
   -->
   <AddNewTemplatePermission>
     <title>
-      <UIPermissionSelector>Sélection d''une permission</UIPermissionSelector>
+      <UIPermissionSelector>Sélection d'une permission</UIPermissionSelector>
     </title>
   </AddNewTemplatePermission>
   <TemplatePermission>
@@ -1747,7 +1747,7 @@
       <viewPermission>Permission</viewPermission>
       <enableVersion>Versioning activé</enableVersion>
     </label>
-    <title>Ajout/Modification d''un formulaire de visualisation</title>
+    <title>Ajout/Modification d'un formulaire de visualisation</title>
   </ViewForm>
   <DialogForm>
     <label>
@@ -1760,16 +1760,16 @@
       <viewPermission>Permission</viewPermission>
       <enableVersion>Activer le Versioning</enableVersion>
     </label>
-    <title>Ajout/Modification d''un formulaire d''édition</title>
+    <title>Ajout/Modification d'un formulaire d'édition</title>
   </DialogForm>
   <DialogFormTemplatePermission>
     <title>
-      <UIPermissionSelector>Sélection d''une permission</UIPermissionSelector>
+      <UIPermissionSelector>Sélection d'une permission</UIPermissionSelector>
     </title>
   </DialogFormTemplatePermission>
   <ViewFormTemplatePermission>
     <title>
-      <UIPermissionSelector>Sélection d''une permission</UIPermissionSelector>
+      <UIPermissionSelector>Sélection d'une permission</UIPermissionSelector>
     </title>
   </ViewFormTemplatePermission>
   <TemplateContainerPopup>
@@ -1820,7 +1820,7 @@
       <action>Actions</action>
     </header>
     <msg>
-      <undeletable>''{0}'' est le formulaire par défaut. Suppression interdite.</undeletable>
+      <undeletable>'{0}' est le formulaire par défaut. Suppression interdite.</undeletable>
       <confirm-delete>Confirmez-vous la suppression?</confirm-delete>
     </msg>
     <action>
@@ -1843,7 +1843,7 @@
       <action>Actions</action>
     </header>
     <msg>
-      <undeletable>''{0}'' est le formulaire par défaut. Suppression interdite.</undeletable>
+      <undeletable>'{0}' est le formulaire par défaut. Suppression interdite.</undeletable>
       <confirm-delete>Confirmez-vous la suppression?</confirm-delete>
     </msg>
     <action>
@@ -1869,7 +1869,7 @@
       <name-invalid>Le nom contient des caractères invalides.</name-invalid>
       <roles-invalid>Veuillez saisir au moins une permission.</roles-invalid>
       <version-restored>Version {0} restaurée avec succès.</version-restored>
-      <name-exist>Le document ''{0}'' existe déjà.</name-exist>
+      <name-exist>Le document '{0}' existe déjà.</name-exist>
     </msg>
     <title>
       <AddPermission>Ajouter une Permission</AddPermission>
@@ -1923,8 +1923,8 @@
     </tooltip>
     <msg>
       <confirm-delete>Confirmez-vous la suppression?</confirm-delete>
-      <query-not-existed>La requête n''existe plus.</query-not-existed>
-      <can-not-remove>Vous ne pouvez pas supprimer cette requête. Veuillez contacter l''administrateur pour plus d''information.</can-not-remove>
+      <query-not-existed>La requête n'existe plus.</query-not-existed>
+      <can-not-remove>Vous ne pouvez pas supprimer cette requête. Veuillez contacter l'administrateur pour plus d'information.</can-not-remove>
     </msg>
   </UIQueriesList>
   <UIQueriesForm>
@@ -1945,17 +1945,17 @@
       <name-invalid>Caractères invalides détectés dans le nom de la requête.</name-invalid>
       <name-existing>Une requête du même nom existe déjà.</name-existing>
       <invalid-query>Requête invalide. Veuillez vérifier le code de votre requête.</invalid-query>
-      <access-denied>Accès refusé. Vous n''avez pas les droits suffisants.</access-denied>
+      <access-denied>Accès refusé. Vous n'avez pas les droits suffisants.</access-denied>
     </msg>
   </UIQueriesForm>
   <AddQueryForm>
     <title>
-      <UIQueriesForm>Ajout d''une requête</UIQueriesForm>
+      <UIQueriesForm>Ajout d'une requête</UIQueriesForm>
     </title>
   </AddQueryForm>
   <EditQueryForm>
     <title>
-      <UIQueriesForm>Modification d''une requête</UIQueriesForm>
+      <UIQueriesForm>Modification d'une requête</UIQueriesForm>
     </title>
   </EditQueryForm>
 <PermissionPopup>
@@ -2001,9 +2001,9 @@
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <range-validator>Nombre de références invalide. Le format est le suivant : a..b (a et b entiers positifs). Utiliser ''*'' à la place de b pour indiquer un nombre illimité.</range-validator>
+      <range-validator>Nombre de références invalide. Le format est le suivant : a..b (a et b entiers positifs). Utiliser '*' à la place de b pour indiquer un nombre illimité.</range-validator>
       <error-update>Erreur lors de la mise à jour.</error-update>
-      <item-not-existing>Vous ne pouvez pas enregistrer les modifications à ce tag qui n''existe plus dans la base de données</item-not-existing>
+      <item-not-existing>Vous ne pouvez pas enregistrer les modifications à ce tag qui n'existe plus dans la base de données</item-not-existing>
     </msg>
   </UITagStyleForm>
   <FolksonomyPopup>
@@ -2018,13 +2018,13 @@
   -->
   <ECMNameValidator>
     <msg>
-      <Invalid-char>Caractères invalides détectés dans le champ ''{0}''.</Invalid-char>
-      <empty-input>La valeur du champ ''{0}'' est nulle ou vide.</empty-input>
+      <Invalid-char>Caractères invalides détectés dans le champ '{0}'.</Invalid-char>
+      <empty-input>La valeur du champ '{0}' est nulle ou vide.</empty-input>
     </msg>
   </ECMNameValidator>
   <EmptyFieldValidator>
     <msg>
-      <empty-input>Veuillez saisir une valeur pour le champ ''{0}''.</empty-input>
+      <empty-input>Veuillez saisir une valeur pour le champ '{0}'.</empty-input>
     </msg>
   </EmptyFieldValidator>
   <!--
@@ -2034,7 +2034,7 @@
   -->
   <PermissionValidator>
   	<msg>
-      <permission-path-invalid>La permission ''{0}'' est invalide.</permission-path-invalid>
+      <permission-path-invalid>La permission '{0}' est invalide.</permission-path-invalid>
   	</msg>
   </PermissionValidator>
   <!--
@@ -2046,7 +2046,7 @@
     <label>
       <workspaceName>Espace de stockage:</workspaceName>
       <rootNodeInfo>UIWorkspaceList</rootNodeInfo>
-      <rootNodePath>Racine de l''arborescence:</rootNodePath>
+      <rootNodePath>Racine de l'arborescence:</rootNodePath>
     </label>
   </UIWorkspaceList>
   <!--
@@ -2203,13 +2203,13 @@
   
   <UIDriveForm>
 		<msg>
-  <permission-path-invalid>La permission de ''{0}'' est invalide.</permission-path-invalid>
+  <permission-path-invalid>La permission de '{0}' est invalide.</permission-path-invalid>
   	</msg>
   </UIDriveForm>
   
   <UITaxonomyTreeMainForm>
     <msg>
-      <homepath-emty>Le chemin d''accueil est vide.</homepath-emty>
+      <homepath-emty>Le chemin d'accueil est vide.</homepath-emty>
       <targetpath-emty>Le chemin cible est obligatoire.</targetpath-emty>
     </msg>
   </UITaxonomyTreeMainForm>
@@ -2255,12 +2255,12 @@
   <UIPermissionTreeInfo>
   	<msg>
       <confirm-delete-permission>Souhaitez-vous vraiment supprimer cette permission?</confirm-delete-permission>
-      <no-permission-remove>Impossible de supprimer le propriétaire ou l''utilisateur "system"</no-permission-remove>  
+      <no-permission-remove>Impossible de supprimer le propriétaire ou l'utilisateur "system"</no-permission-remove>  
   	</msg>
   </UIPermissionTreeInfo>
   <UITaxonomyTreeMainForm>
 		<msg>
-      <no-right-target-path>Vous devez choisir un autre chemin d''accueil</no-right-target-path>
+      <no-right-target-path>Vous devez choisir un autre chemin d'accueil</no-right-target-path>
 		</msg>
 	</UITaxonomyTreeMainForm>
 	
@@ -2307,7 +2307,7 @@
 				<UnLock>Déverouiller</UnLock>			
   	</tooltip>
   	<msg>
-  <access-denied-exception>Vous n''avez pas la permission d''accéder au noeud {0} ou ce noeud a été supprimé.</access-denied-exception>
+  <access-denied-exception>Vous n'avez pas la permission d'accéder au noeud {0} ou ce noeud a été supprimé.</access-denied-exception>
   	</msg>
   </UILockNodeList>
   <EditUnLockForm>
@@ -2355,7 +2355,7 @@
       <action>Actions</action>
     </header>
     <msg>
-      <undeletable>''{0}'' ne peut pas être supprimé, celui-ci est utilisé par défaut.</undeletable>
+      <undeletable>'{0}' ne peut pas être supprimé, celui-ci est utilisé par défaut.</undeletable>
       <confirm-delete>Souhaitez vous réellement supprimer?</confirm-delete>
     </msg>
     <action>
@@ -2419,7 +2419,7 @@
 				<NextViewTree>Suivant</NextViewTree>
 			</action>
   <msg>
-    <xss-vulnerability-character>Le champ ''{0}'' contient des caractères vulnérables aux attaques XSS</xss-vulnerability-character>
+    <xss-vulnerability-character>Le champ '{0}' contient des caractères vulnérables aux attaques XSS</xss-vulnerability-character>
 <xss-vulnerability-character-wo-label>Votre saisie peut contenir les caractères de vulnérabilité XSS</xss-vulnerability-character-wo-label>
   </msg>
 		</UIActionForm>
@@ -2496,7 +2496,7 @@
   </NodeTypeNameValidator>
   <UIActionForm>
   		<msg>
-      <constraint-violation-exception>Impossible d''ajouter le noeud ''{0}'' à ''{1}'' dans l''espace de stockage ''{2}'' à cause d''un problème de droit d''accès ou d''une violation de contrainte.</constraint-violation-exception>
+      <constraint-violation-exception>Impossible d'ajouter le noeud '{0}' à '{1}' dans l'espace de stockage '{2}' à cause d'un problème de droit d'accès ou d'une violation de contrainte.</constraint-violation-exception>
   		</msg>	
   </UIActionForm>
   
@@ -2520,7 +2520,7 @@
 
 	<UIDriveForm>
 		<label>
-<allowNodeTypesOnTree>Type de noeud autorisés dans l''arborescence de gauche</allowNodeTypesOnTree>
+<allowNodeTypesOnTree>Type de noeud autorisés dans l'arborescence de gauche</allowNodeTypesOnTree>
 		</label>
 	</UIDriveForm>
 	<DriveInputSet>
@@ -2543,17 +2543,17 @@
 	</UINodeTypeSelector>
 	<UIScriptForm>
  		<msg>
-      <PathNotFoundException>Le script existe déjà dans le dossier ''{0}.</PathNotFoundException>      
+      <PathNotFoundException>Le script existe déjà dans le dossier '{0}.</PathNotFoundException>      
    </msg>
  </UIScriptForm>
  <UINodeTypeList>
    <msg>
-   <no-list>Il n''y a aucun type de nœud correspondant à votre recherche.</no-list>
+   <no-list>Il n'y a aucun type de nœud correspondant à votre recherche.</no-list>
    </msg>
  </UINodeTypeList>
  <UIActionForm>
  	<msg>
-      <canotChangeActionId>Impossible de changer l''identifiant de l''action.</canotChangeActionId>
+      <canotChangeActionId>Impossible de changer l'identifiant de l'action.</canotChangeActionId>
  	</msg>
  </UIActionForm>
  <PopupComponent>
@@ -2568,7 +2568,7 @@
  </UIPageIterator>
  <UILockNodeList>
     <msg>
-      <can-not-unlock-node>Vous n''avez pas les droits suffisants pour déverrouiller ce noeud.</can-not-unlock-node>
+      <can-not-unlock-node>Vous n'avez pas les droits suffisants pour déverrouiller ce noeud.</can-not-unlock-node>
     </msg>
  </UILockNodeList>
 </bundle>
