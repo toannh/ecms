@@ -1070,8 +1070,8 @@
       <must-choose-one>You have to select at least one type.</must-choose-one>
       <properties-null>Select properties first, then filter.</properties-null>
       <exactly-require>You have to fill in the Value exactly before saving this constraint.</exactly-require>
-      <fromDate-invalid>Invalid type in the 'From' field. Please reselect or type correctly.</fromDate-invalid>
-      <toDate-invalid>Invalid type in the 'To' field. Please reselect or type correctly.</toDate-invalid>
+      <fromDate-invalid>Invalid type in the ''From'' field. Please reselect or type correctly.</fromDate-invalid>
+      <toDate-invalid>Invalid type in the ''To'' field. Please reselect or type correctly.</toDate-invalid>
     </msg>
     <button>
       <label-Add>Hinzufügen</label-Add>
@@ -2057,11 +2057,11 @@
     <msg>
       <empty-input>Der Wert dieses Feldes ist ungültig oder leer.</empty-input>
       <Invalid-char>Das Feld enthält einige ungültige Zeichen. Bitte geben Sie einen anderen Wert ein.</Invalid-char>
-      <Invalid-char2>Der Zahl muss das Zeichen '~' folgen.</Invalid-char2>
-      <Invalid-char1>Die Zahl die dem Zeichen '~' folgt muss zwischen 0 und 1 sein.</Invalid-char1>
-      <Invalid-char3>Der Zahl muss das Zeichen '^' folgen.</Invalid-char3>
-      <Invalid-char4>Leerzeichen sind um das Zeichen '~' nicht erlaubt.</Invalid-char4>
-      <Invalid-char5>Leerzeichen sind neben dem Zeichen '^' nicht erlaubt.</Invalid-char5>
+      <Invalid-char2>Der Zahl muss das Zeichen ''~'' folgen.</Invalid-char2>
+      <Invalid-char1>Die Zahl die dem Zeichen ''~'' folgt muss zwischen 0 und 1 sein.</Invalid-char1>
+      <Invalid-char3>Der Zahl muss das Zeichen ''^'' folgen.</Invalid-char3>
+      <Invalid-char4>Leerzeichen sind um das Zeichen ''~'' nicht erlaubt.</Invalid-char4>
+      <Invalid-char5>Leerzeichen sind neben dem Zeichen ''^'' nicht erlaubt.</Invalid-char5>
     </msg>
   </SearchValidator>
   <!--

@@ -120,7 +120,7 @@
     </action>
     <msg>
       <repository-exception>Diese Aktion kann nicht gespeichert werden. Der angegebene Name darf keinen Index als sein letztes Element besitzen.</repository-exception>
-      <numberformat-exception>Diese Aktion kann nicht gespeichert werden. Der angegebene Name darf ' [' oder ']' nicht enthalten.</numberformat-exception>
+      <numberformat-exception>Diese Aktion kann nicht gespeichert werden. Der angegebene Name darf '' ['' oder '']'' nicht enthalten.</numberformat-exception>
       <existed-action>Der Aktionsname "{0}" ist bereits vorhanden. Wählen Sie bitte einen anderen Namen.</existed-action>
       <unable-add-action>Diese Aktion kann nicht hinzugefügt werden.</unable-add-action>
       <unable-add>Diese Aktion kann nicht hinzugefügt werden. Dieser Knoten ist ein Wurzelknoten oder Sie haben keine Berechtigung.</unable-add>
