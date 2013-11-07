@@ -1521,7 +1521,7 @@
       <confirm-delete>本当に削除したいですか?</confirm-delete>
       <access-denied>アクセスできません。この機能を使う権限がありません。</access-denied>
       <editing-template>アクセスできません。テンプレートの削除と編集はできません。</editing-template>
-      <template-not-exist>The template that you attempt to delete doesn't exist.</template-not-exist>
+      <template-not-exist>The template that you attempt to delete doesn''t exist.</template-not-exist>
     </msg>
   </UITemplateList>
   
@@ -1537,9 +1537,9 @@
     </action>
     <msg>
       <confirm-delete>本当に削除したいですか?</confirm-delete>
-      <access-denied>Access denied! You haven't got permission to use this function.</access-denied>
-      <editing-template>Access denied! You can't delete and edit template simultaneously.</editing-template>
-      <template-not-exist>The template that you attempt to delete doesn't exist.</template-not-exist>
+      <access-denied>Access denied! You haven''t got permission to use this function.</access-denied>
+      <editing-template>Access denied! You can''t delete and edit template simultaneously.</editing-template>
+      <template-not-exist>The template that you attempt to delete doesn''t exist.</template-not-exist>
     </msg>
   </UIActionsTemplateList>
   
@@ -1555,9 +1555,9 @@
     </action>
     <msg>
       <confirm-delete>本当に削除したいですか?</confirm-delete>
-      <access-denied>Access denied! You haven't got permission to use this function.</access-denied>
-      <editing-template>Access denied! You can't delete and edit template simultaneously.</editing-template>
-      <template-not-exist>The template that you attempt to delete doesn't exist.</template-not-exist>
+      <access-denied>Access denied! You haven''t got permission to use this function.</access-denied>
+      <editing-template>Access denied! You can''t delete and edit template simultaneously.</editing-template>
+      <template-not-exist>The template that you attempt to delete doesn''t exist.</template-not-exist>
     </msg>
   </UIOthersTemplateList>
 
@@ -1593,8 +1593,8 @@
     <msg>
       <confirm-delete>本当に削除したいですか?</confirm-delete>
       <access-denied>アクセスできません！この機能を使うための権限がありません。</access-denied>
-      <editing-template>Access denied! You can't delete and edit template simultaneously.</editing-template>
-      <template-not-exist>The template that you attempt to delete doesn't exist.</template-not-exist>
+      <editing-template>Access denied! You can''t delete and edit template simultaneously.</editing-template>
+      <template-not-exist>The template that you attempt to delete doesn''t exist.</template-not-exist>
     </msg>
   </UICLVTemplateList>
 

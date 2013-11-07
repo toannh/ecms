@@ -120,7 +120,7 @@
     </action>
     <msg>
       <repository-exception>アクションを保存できません。名前の最後の要素にインデックスを付けないでください。</repository-exception>
-      <numberformat-exception>アクションを保存できません。名前には '[' や ']' を含まないでください。</numberformat-exception>
+      <numberformat-exception>アクションを保存できません。名前には ''['' や '']'' を含まないでください。</numberformat-exception>
       <existed-action>アクション名 ''{0}'' は既に存在します。別の名前を選んでください！</existed-action>
       <unable-add-action>アクションを追加することができません。</unable-add-action>
       <unable-add>アクションを追加することができません！ ルートノードである、もしくは権限が不足しています。</unable-add>
