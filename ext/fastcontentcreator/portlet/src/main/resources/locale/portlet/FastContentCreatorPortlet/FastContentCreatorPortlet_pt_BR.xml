@@ -120,7 +120,7 @@
     </action>
     <msg>
       <repository-exception>Não foi possível salvar esta ação. O nome fornecido não deve conter um índice em seu elemento final.</repository-exception>
-      <numberformat-exception>Não foi possível salvar esta ação. O nome fornecido não deve ter '[' ou ']'.</numberformat-exception>
+      <numberformat-exception>Não foi possível salvar esta ação. O nome fornecido não deve ter ''['' ou '']''.</numberformat-exception>
       <existed-action>O nome da ação ''{0}'' já existe. Por favor, escolha outro nome.</existed-action>
       <unable-add-action>Não foi possível adicionar esta ação</unable-add-action>
       <unable-add>Não foi possível adicionar esta ação! Este nó é raiz ou você não tem permissão suficiente.</unable-add>
