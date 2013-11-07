@@ -149,7 +149,7 @@
   <UICLVContentSelectedGrid>
     <action>
       <SaveCategories>Save</SaveCategories>
-      <Cancel>Cancel</Cancel>
+      <Cancel>取消</Cancel>
     </action>
   </UICLVContentSelectedGrid>
 
@@ -218,7 +218,7 @@
   <UIContentPropertySelector>
     <action>
       <Add>Add</Add>
-      <Cancel>Cancel</Cancel>
+      <Cancel>取消</Cancel>
     </action>
     <label>
       <metadataType>Metadata Type</metadataType>
@@ -235,7 +235,7 @@
   <UIContentNodeTypeSelector>
     <action>
       <Save>Save</Save>
-      <Cancel>Cancel</Cancel>
+      <Cancel>取消</Cancel>
     </action>
   </UIContentNodeTypeSelector>
 

@@ -82,7 +82,7 @@
     </help>
     <action>
       <Save>Save</Save>
-      <Cancel>Cancel</Cancel>
+      <Cancel>取消</Cancel>
       <delete>Delete</delete>
     </action>
     <msg>
