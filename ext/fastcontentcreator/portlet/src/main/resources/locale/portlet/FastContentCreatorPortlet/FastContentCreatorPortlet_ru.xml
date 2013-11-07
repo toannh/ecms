@@ -120,7 +120,7 @@
     </action>
     <msg>
       <repository-exception>Cannot save this action. The name provided must not have an index as its final element.</repository-exception>
-      <numberformat-exception>Cannot save this action. The name provided must not have '[' or ']'.</numberformat-exception>
+      <numberformat-exception>Cannot save this action. The name provided must not have ''['' or '']''.</numberformat-exception>
       <existed-action>The action name ''{0}'' already exists. Please select another name.</existed-action>
       <unable-add-action>Unable to add this action.</unable-add-action>
       <unable-add>Unable to add this action. This node is root or you do not have permision.</unable-add>
