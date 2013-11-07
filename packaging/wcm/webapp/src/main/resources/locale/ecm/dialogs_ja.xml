@@ -269,12 +269,12 @@
   </EmailAddressValidator>
   <EmptyFieldValidator>
     <msg>
-      <empty-input>フィールド ''{0}'' は必須です。</empty-input>
+      <empty-input>フィールド '{0}' は必須です。</empty-input>
     </msg>
   </EmptyFieldValidator>
   <NumberFormatValidator>
     <msg>
-      <Invalid-number>フィールド ''{0}'' が不正です。</Invalid-number>
+      <Invalid-number>フィールド '{0}' が不正です。</Invalid-number>
     </msg>
   </NumberFormatValidator>
   <!--

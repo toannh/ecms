@@ -114,9 +114,9 @@
       <GeneralDrives>General drives</GeneralDrives>
     </title>
     <msg>
-      <no-view-found>There is no view available according to your access permissions in drive ''{0}''.</no-view-found>
-      <access-denied>Access denied. You may not have permission in the workspace of drive ''{0}''.</access-denied>
-      <workspace-not-exist>Drive ''{0}'' was stored in one unrecognized workspace. Please reconfigure this drive.</workspace-not-exist>
+      <no-view-found>There is no view available according to your access permissions in drive '{0}'.</no-view-found>
+      <access-denied>Access denied. You may not have permission in the workspace of drive '{0}'.</access-denied>
+      <workspace-not-exist>Drive '{0}' was stored in one unrecognized workspace. Please reconfigure this drive.</workspace-not-exist>
     </msg>
   </UIDrivesBrowser>
 
@@ -201,14 +201,14 @@
       <Back>#{word.back}</Back>
     </action>
     <msg>
-      <rename-successfull>ノード ''{0}'' は ''{1}'' への置き換えに成功しました</rename-successfull>
+      <rename-successfull>ノード '{0}' は '{1}' への置き換えに成功しました</rename-successfull>
       <rename-denied>アクセスできません。このノードの置き換えができません。</rename-denied>
       <fileName-invalid>新しい名前の中に無効な文字があります</fileName-invalid>
       <newName-same-oldName>新しい名前は古い名前と同じです。もう一度確認してください。</newName-same-oldName>
       <version-exception>このノードはチェックアウトされていない可能性があります。</version-exception>
       <lock-exception>このノードはロックされています。このノードを置き換える前にロックを解除してください。</lock-exception>
-      <constraintViolation-exception>''{0}'' は親ノードタイプのため子ノードタイプとしてゆるされていません。</constraintViolation-exception>
-      <unknown-prefix>接頭辞''{0}''はまだ登録されていません。</unknown-prefix>
+      <constraintViolation-exception>'{0}' は親ノードタイプのため子ノードタイプとしてゆるされていません。</constraintViolation-exception>
+      <unknown-prefix>接頭辞'{0}'はまだ登録されていません。</unknown-prefix>
       <rename-error>エラーは、名前の変更は、このノード中に発生しました。もう一度確認してください。</rename-error>
     </msg>
   </UIRenameForm>
@@ -323,17 +323,17 @@
       <access-false>ノードは記事でないかチェックインされていません。</access-false>
       <unsupported-action>このノードは関連をサポートしていません。</unsupported-action>
       <not-relationable>このノードはまだ関連可能ではありません。</not-relationable>
-      <node-pasted>ノード ''{0}'' はロケーション ''{1}''に貼り付けられました。このオペレーションは既に保存されており、フロッピーアイコンを押下する必要はありません。</node-pasted>
+      <node-pasted>ノード '{0}' はロケーション '{1}'に貼り付けられました。このオペレーションは既に保存されており、フロッピーアイコンを押下する必要はありません。</node-pasted>
       <no-node-selected>コピーされたノードなし</no-node-selected>
-      <unable-edit>ノードタイプ ''{1}''のこのノード ''{0}''は編集アクションをサポートしていません。</unable-edit>
+      <unable-edit>ノードタイプ '{1}'のこのノード '{0}'は編集アクションをサポートしていません。</unable-edit>
       <not-support>選択されたノードは編集できません。</not-support>
       <template-null>このノードは有効なダイアログをもっていません。</template-null>
       <keyword-null>検索のためのキーワードはありません。</keyword-null>
       <not-found>検索結果なし！</not-found>
       <keyword-not-allow>このキーワードは許されていません。</keyword-not-allow>
-      <is-not-referenable>ノード ''{0}''は参照可能ではありません。</is-not-referenable>
+      <is-not-referenable>ノード '{0}'は参照可能ではありません。</is-not-referenable>
       <access-denied>アクセス出来ません. このノードの編集権限がありません。</access-denied>
-      <access-add-denied>アクセス出来ません. このノードの''追加''権限がありません。</access-add-denied>
+      <access-add-denied>アクセス出来ません. このノードの'追加'権限がありません。</access-add-denied>
       <item-existed>このノードは既に存在しています。ノード内で同じ名前を持つことはできません。</item-existed>
       <removed-hidden-mixin>隠し mixinの削除に成功しました！</removed-hidden-mixin>
       <added-hidden-mixin>隠し mixinの追加に成功しました！</added-hidden-mixin>
@@ -357,7 +357,7 @@
   </UIActionBar>
   <UIPopupMenu>
     <msg>
-      <has-not-permission>アクセス出来ません. このノードの''追加''権限を持っていません。</has-not-permission>
+      <has-not-permission>アクセス出来ません. このノードの'追加'権限を持っていません。</has-not-permission>
       <has-not-edit-permission>アクセス出来ません。このノードの編集権限を持っていません。正しい権限を得る為に管理者にコンタクトしてください。</has-not-edit-permission>
       <cannot-login-node>このノードにアクセスおよび貼り付けることは出来ません。</cannot-login-node>
       <cannot-paste-nodetype>ここにノードを貼付ける事ができません。</cannot-paste-nodetype>
@@ -375,7 +375,7 @@
       <can-not-move-node>You do not have permission to move this node. Please contact the administrator.</can-not-move-node>
       <does-not-support-versioning>バージョンニングはこのノードでサポートされていません。</does-not-support-versioning>
       <path-not-found>このノードは削除されたか変更されました。リフレッシュボタンをクリックしてください。</path-not-found>
-      <paste-lock-exception>ソース・ノードまたは転送先のノードはロックされているか、ロックされたノードとの関連があるため、ノードに''{0}''を貼付けることができません。</paste-lock-exception>
+      <paste-lock-exception>ソース・ノードまたは転送先のノードはロックされているか、ロックされたノードとの関連があるため、ノードに'{0}'を貼付けることができません。</paste-lock-exception>
       <can-not-checkin-node>このノードにチェックインできません。正しい権限をチェックしてください！</can-not-checkin-node>
       <can-not-checkout-node>このノードをチェックアウトできません。正しい権限をチェックしてください！</can-not-checkout-node>
       <move-constraint-exception>ノードを移動する際の制限に関する問題が発生しました。ソースノードと転送先のノードをチェックしてください。</move-constraint-exception>
@@ -389,7 +389,7 @@
       <not-support>選択されたノードは編集できません。他のものを選択してください！</not-support>
       <current-node-not-allow-paste>コピーされたノードタイプはこのノードに貼り付けることを許されていませんでした。</current-node-not-allow-paste>
       <copied-node-in-versioning>バージョニング中のコピーされたノードは貼り付け出来ません。</copied-node-in-versioning>
-      <parent-node-locked>ノード ''{0}''をロック解除する為の権限がありません。</parent-node-locked>
+      <parent-node-locked>ノード '{0}'をロック解除する為の権限がありません。</parent-node-locked>
       <this-node-locked-by-parent>親もしくは他のノードにロックされたノードはロック解除できません。</this-node-locked-by-parent>
       <paste-node-same-name>目標のフォルダは同じ名前の2つのノードを許しません。</paste-node-same-name>
       <has-not-add-permission>新しいノードを追加するための権限を持っていません。</has-not-add-permission>
@@ -418,12 +418,12 @@
     </label>
     <title>フォルダの追加/編集</title>
     <msg>
-      <addFolder-successful>新しいフォルダ ''{0}'' の追加に成功</addFolder-successful>
+      <addFolder-successful>新しいフォルダ '{0}' の追加に成功</addFolder-successful>
       <name-invalid>フォルダ名を入力してください!</name-invalid>
       <title-invalid>タイトルを入力してください!</title-invalid>
       <name-not-allowed>この名前は許されていません。</name-not-allowed>
       <fileName-error>無効なファイル名</fileName-error>
-      <constraint-violation>現在のノードは ''{0}'' ノードタイプを追加することが許されていません。</constraint-violation>
+      <constraint-violation>現在のノードは '{0}' ノードタイプを追加することが許されていません。</constraint-violation>
       <repository-exception>アクセス出来ません！このフォルダに権限を追加できません。</repository-exception>
       <repository-exception-permission>このノードに新しいフォルダを追加するための権限がありません。</repository-exception-permission>
       <numberformat-exception>フォルダを保存できません。与えられた名前はナンバーフォーマットである必要があります。</numberformat-exception>
@@ -446,19 +446,19 @@
     </title>
     <msg>
       <!-- Delte one node is not in trash and have no relation -->
-      <confirm-delete>項目 ''{0}'' を削除してもよろしいですか？</confirm-delete>
-      <confirm-delete-file>ファイル ''{0}'' を削除してもよろしいですか？</confirm-delete-file>
-      <confirm-delete-folder>フォルダー ''{0}'' とすべてのサブフォルダーを削除してもよろしいですか？</confirm-delete-folder>
+      <confirm-delete>項目 '{0}' を削除してもよろしいですか？</confirm-delete>
+      <confirm-delete-file>ファイル '{0}' を削除してもよろしいですか？</confirm-delete-file>
+      <confirm-delete-folder>フォルダー '{0}' とすべてのサブフォルダーを削除してもよろしいですか？</confirm-delete-folder>
       
       <!-- Delte one node is in trash and have no relation -->
-      <confirm-delete-permanently>Are you sure you want to remove permanently the item ''{0}''?</confirm-delete-permanently>
-      <confirm-delete-file-permanently>Are you sure you want to remove permanently the file ''{0}''?</confirm-delete-file-permanently>
-      <confirm-delete-folder-permanently>Are you sure you want to remove permanently the folder ''{0}'' and all subfolders?</confirm-delete-folder-permanently>
+      <confirm-delete-permanently>Are you sure you want to remove permanently the item '{0}'?</confirm-delete-permanently>
+      <confirm-delete-file-permanently>Are you sure you want to remove permanently the file '{0}'?</confirm-delete-file-permanently>
+      <confirm-delete-folder-permanently>Are you sure you want to remove permanently the folder '{0}' and all subfolders?</confirm-delete-folder-permanently>
       
       <!-- Delte one node is not in trash and have relations -->
-      <confirm-delete-has-relations>項目 ''{0}'' とその参照を削除してもよろしいですか？</confirm-delete-has-relations>
-      <confirm-delete-file-has-relations>項目 ''{0}'' とその参照を削除してもよろしいですか？</confirm-delete-file-has-relations>
-      <confirm-delete-folder-has-relations>項目 ''{0}'' とその参照を削除してもよろしいですか？</confirm-delete-folder-has-relations>
+      <confirm-delete-has-relations>項目 '{0}' とその参照を削除してもよろしいですか？</confirm-delete-has-relations>
+      <confirm-delete-file-has-relations>項目 '{0}' とその参照を削除してもよろしいですか？</confirm-delete-file-has-relations>
+      <confirm-delete-folder-has-relations>項目 '{0}' とその参照を削除してもよろしいですか？</confirm-delete-folder-has-relations>
       
       <!-- Delte multiple nodes, not in Trash, have no relations -->
       <confirm-delete-multi-nodes-generic>選択した {0} アイテムを削除してもよろしいですか？</confirm-delete-multi-nodes-generic>  
@@ -487,20 +487,20 @@
       <confirm-delete-multi-nodes-file-and-folder-have-relations>選択した {0}ファイル 、フォルダーおよびすべてのサブフォルダーを削除してもよろしいですか？</confirm-delete-multi-nodes-file-and-folder-have-relations>
       <confirm-delete-multi-nodes-generic-and-file-and-folder-have-relations>選択した {0}ファイル 、フォルダーおよびすべてのサブフォルダーを削除してもよろしいですか？</confirm-delete-multi-nodes-generic-and-file-and-folder-have-relations>
       
-      <feedback-delete>''{0}'' は、正常に削除されました。</feedback-delete>
+      <feedback-delete>'{0}' は、正常に削除されました。</feedback-delete>
       <feedback-delete-multi>{0} アイテムは、正常に削除されました。</feedback-delete-multi>      
-      <feedback-delete-permanently>''{0}'' は、完全に削除されました。</feedback-delete-permanently>
+      <feedback-delete-permanently>'{0}' は、完全に削除されました。</feedback-delete-permanently>
       <feedback-delete-permanently-multi>{0} アイテムは、完全に削除されました。</feedback-delete-permanently-multi>
       <undo-delete>元に戻す</undo-delete>
-      <feedback-restore>''{0}'' は、正常に復元されました。</feedback-restore>
+      <feedback-restore>'{0}' は、正常に復元されました。</feedback-restore>
       <feedback-restore-multi>{0} アイテムは、正常に復元されました。</feedback-restore-multi>
       
-      <confirm-restore>同じ名前のノードがノード''{0}'' の古いロケーションにも存在します。このノードをリストアしますか？</confirm-restore>
+      <confirm-restore>同じ名前のノードがノード'{0}' の古いロケーションにも存在します。このノードをリストアしますか？</confirm-restore>
       <confirm-move>移動しますか？</confirm-move>
-      <node-cut>ノード ''{0}'' を切取ります。</node-cut>
-      <execute-successfully>カスタムアクション ''{0}'' は実行されます。</execute-successfully>
-      <save-node-success>ノード ''{0}'' は保存されます。</save-node-success>
-      <move-problem>ノード ''{0}'' を ''{1}'' に移動する事が出来ません。権限もしくは、制約の条件に問題があります。</move-problem>
+      <node-cut>ノード '{0}' を切取ります。</node-cut>
+      <execute-successfully>カスタムアクション '{0}' は実行されます。</execute-successfully>
+      <save-node-success>ノード '{0}' は保存されます。</save-node-success>
+      <move-problem>ノード '{0}' を '{1}' に移動する事が出来ません。権限もしくは、制約の条件に問題があります。</move-problem>
     </msg>
   </UIWorkingArea>
   <UIDocumentWorkspace>
@@ -509,12 +509,12 @@
       <no-children-but-has-hidden>このノードは子を持っていませんが、いくつかの隠しファイルがあります。</no-children-but-has-hidden>
     </label>
     <msg>
-      <unable-save-node>ノード ''{0}'' は新しく作成された物です。このアクションを実行する前にセッションを保存する必要があります。</unable-save-node>
-      <save-node-success>ノード ''{0}'' は保存されました。</save-node-success>
-      <node-copied>ノード ''{0}''はコピーされています。.</node-copied>
-      <node-cut>ノード ''{0}'' は切り取られています。</node-cut>
+      <unable-save-node>ノード '{0}' は新しく作成された物です。このアクションを実行する前にセッションを保存する必要があります。</unable-save-node>
+      <save-node-success>ノード '{0}' は保存されました。</save-node-success>
+      <node-copied>ノード '{0}'はコピーされています。.</node-copied>
+      <node-cut>ノード '{0}' は切り取られています。</node-cut>
       <remove-root>ルートノードを取り除くことができません。</remove-root>
-      <node-remove-success>ノード ''{0}'' は取り除かれます。</node-remove-success>
+      <node-remove-success>ノード '{0}' は取り除かれます。</node-remove-success>
     </msg>
     <tooltip>
       <Rename>名前変更</Rename>
@@ -533,7 +533,7 @@
   </UIDocumentWorkspace>
   <UIDocumentInfo>
     <msg>
-      <access-denied>アクセス出来ません！ノード''{0}''にアクセスできません。</access-denied>
+      <access-denied>アクセス出来ません！ノード'{0}'にアクセスできません。</access-denied>
       <null-exception>アイテムは見つかりません！削除されたかアイテムは変更された、もしくはこのノードにアクセスするための権限がありません。</null-exception>
       <confirm-deleteattachment>この添付ファイルを削除しますか？</confirm-deleteattachment>
       <confirm-deleteattcomment>このコメントを削除しますか？</confirm-deleteattcomment>
@@ -715,7 +715,7 @@
       <node-checkedin>プロパティを追加する前にこのノードをチェックアウトする必要があります。</node-checkedin>
       <can-not-add>このノードのためにプロパティを追加することはできません。ノードタイプは nt:unstructured です。</can-not-add>
       <propertyName-invalid>プロパティ名はnamespace(ex: namespace:name)を含みます。</propertyName-invalid>
-      <propertyName-exist>プロパティ ''{0}'' は存在します。</propertyName-exist>
+      <propertyName-exist>プロパティ '{0}' は存在します。</propertyName-exist>
       <propertyValu-null>いくつかの値がnullの可能性があります。</propertyValu-null>
       <valueFormatEx>複数値を持つ値を、単一値のプロパティに割り当てることはできません。</valueFormatEx>
       <number-format-exception>入力された値は間違ったフォーマットです。</number-format-exception>
@@ -774,7 +774,7 @@
       <selectUser>ユーザの選択</selectUser>
     </label>
     <msg>
-      <not-change-owner>''{0}'' はノードのオーナーであり、すべてのコントロール権限を持っています。</not-change-owner>
+      <not-change-owner>'{0}' はノードのオーナーであり、すべてのコントロール権限を持っています。</not-change-owner>
     </msg>
   </UIGroupSelector>
   <UIPermissionForm>
@@ -1070,8 +1070,8 @@
       <must-choose-one>少なくとも一つのタイプを選択する必要があります。</must-choose-one>
       <properties-null>初めに、プロパティを選択してください。</properties-null>
       <exactly-require>制約を保存する前に全ての値を入力してください。</exactly-require>
-      <fromDate-invalid>''From データ'' フィールドは間違ったタイプです。正しいタイプを選択してください。</fromDate-invalid>
-      <toDate-invalid>''To データ'' フィールドは間違ったタイプです。正しいタイプを選択してください。</toDate-invalid>
+      <fromDate-invalid>'From データ' フィールドは間違ったタイプです。正しいタイプを選択してください。</fromDate-invalid>
+      <toDate-invalid>'To データ' フィールドは間違ったタイプです。正しいタイプを選択してください。</toDate-invalid>
     </msg>
     <button>
       <label-Add>追加</label-Add>
@@ -1470,12 +1470,12 @@
     <title>ノードインポート</title>
     <msg>
       <import-successful>インポートに成功！</import-successful>
-      <filename-invalid>インポートするための''アップロードファイル'' フィールドの為のXMLファイルをブラウズ</filename-invalid>
+      <filename-invalid>インポートするための'アップロードファイル' フィールドの為のXMLファイルをブラウズ</filename-invalid>
       <filetype-error>アップロードされたファイルからノードをインポートできません。無効なファイルの可能性があります。</filetype-error>
       <mimetype-invalid>XMLファイルもしくはZIPファイルのみがインポートすることをサポートされています。</mimetype-invalid>
       <access-denied>アクセス出来ません! インポートする事が許されていません。</access-denied>
-      <constraint-violation-exception>Impossible to import data. The type ''{0}'' is not allowed in this location.</constraint-violation-exception>
-      <item-exists-exception>An incoming referenceable node has the same UUID as a node existing in the workspace! UUID: ''{0}''</item-exists-exception>
+      <constraint-violation-exception>Impossible to import data. The type '{0}' is not allowed in this location.</constraint-violation-exception>
+      <item-exists-exception>An incoming referenceable node has the same UUID as a node existing in the workspace! UUID: '{0}'</item-exists-exception>
     </msg>
   </UIImportNode>
   <!--
@@ -1494,7 +1494,7 @@
     <title>ラベル追加</title>
     <msg>
       <label-invalid>ラベル内に無効な文字を含む</label-invalid>
-      <label-exist>''{0}'' は既に存在します。</label-exist>
+      <label-exist>'{0}' は既に存在します。</label-exist>
     </msg>
   </UILabelForm>
   <!--
@@ -1678,8 +1678,8 @@
     <msg>
       <cannot-save>制約はアクションの最中に破棄されました。</cannot-save>
       <in-versioning>新しいノードを追加する前に現在のノードをチェックアウトする必要</in-versioning>
-      <not-support>''{0}'' のテンプレートをロード出来ませんでした。</not-support>
-      <value-invalid>''{0}'' は必要とされる値です。</value-invalid>
+      <not-support>'{0}' のテンプレートをロード出来ませんでした。</not-support>
+      <value-invalid>'{0}' は必要とされる値です。</value-invalid>
       <repository-exception>このドキュメントを保存できません。制約はアクションの最中に破棄されました。</repository-exception>
       <!--DMS 2.4.x; ECM-3543-->
       <repository-exception-permission>ノード上で新しいドキュメントを追加するための権限がありません。</repository-exception-permission>
@@ -1752,7 +1752,7 @@
     <msg>
       <remove-popup-first>このノードを削除する前に編集ポップアップを閉じる必要があります。</remove-popup-first>
       <confirm-delete-action>このアクションを削除したいですか？</confirm-delete-action>
-      <template-empty>''{0}'' のテンプレートはnullか空です。</template-empty>
+      <template-empty>'{0}' のテンプレートはnullか空です。</template-empty>
       <template-null>テンプレートはnullか、このテンプレートにアクセスするための十分な権限がありません。</template-null>
       <access-denied>アクセス出来ません! このアクションを実行するための十分な権限がありません。</access-denied>
     </msg>
@@ -1774,10 +1774,10 @@
     <msg>
       <repository-exception>このアクションを保存できません。提供された名前は特別な文字を含みます。</repository-exception>
       <numberformat-exception>このアクションを保存できません。 提供された名前はナンバーフォーマットで無ければなりません。</numberformat-exception>
-      <existed-action>アクション名 ''{0}'' は存在するため別の名前を選択してください。</existed-action>
+      <existed-action>アクション名 '{0}' は存在するため別の名前を選択してください。</existed-action>
       <unable-add-action>このアクションを追加できません</unable-add-action>
       <unable-add>このアクションを追加できません! このノードはrootもしくは十分な権限がありません。</unable-add>
-      <not-support>ダイアログ ''{0}'' はサポートされません。</not-support>
+      <not-support>ダイアログ '{0}' はサポートされません。</not-support>
       <no-permission-add>アクセス出来ません! アクションを追加する権限がありません。</no-permission-add>
       <access-denied>アクセス出来ません! このテンプレートにアクセスするための権限がありません。</access-denied>
       <lifecycle-invalid>このアクションを追加することはできません。アクションのライフ サイクル フェーズは無効です。</lifecycle-invalid>
@@ -1867,7 +1867,7 @@
       <Cancel>#{word.close}</Cancel>
     </action>
     <msg>
-      <name-exist>タグ名 ''{0}'' は存在します。</name-exist>
+      <name-exist>タグ名 '{0}' は存在します。</name-exist>
       <tagName-invalid>タグ名は無効な文字を含みます。</tagName-invalid>
       <tag-name-empty>タグ名は空です。</tag-name-empty>
       <tag-name-duplicate>入力されたタグ名が重複しています。</tag-name-duplicate>
@@ -1907,7 +1907,7 @@
   </metadataForm>
   <UIViewMetadataTemplate>
     <msg>
-      <access-denied>アクセス出来ません! オーナーでないか、このノードの''編集''権限がありません。</access-denied>
+      <access-denied>アクセス出来ません! オーナーでないか、このノードの'編集'権限がありません。</access-denied>
     </msg>
   </UIViewMetadataTemplate>
   <!--
@@ -1917,13 +1917,13 @@
   -->
   <ECMNameValidator>
     <msg>
-      <Invalid-char>フィールド''{0}''に無効な文字があります。他の値を入力してください。</Invalid-char>
-      <empty-input>フィールド''{0}''の値はnullか空です！</empty-input>
+      <Invalid-char>フィールド'{0}'に無効な文字があります。他の値を入力してください。</Invalid-char>
+      <empty-input>フィールド'{0}'の値はnullか空です！</empty-input>
     </msg>
   </ECMNameValidator>
   <DateTimeValidator>
     <msg>
-      <Invalid-input>値''{1}''のフィールド''{0}''は無効です。</Invalid-input>
+      <Invalid-input>値'{1}'のフィールド'{0}'は無効です。</Invalid-input>
     </msg>
   </DateTimeValidator>
   <CronExpressionValidator>
@@ -1931,7 +1931,7 @@
   </CronExpressionValidator>
   <EmptyFieldValidator>
     <msg>
-      <empty-input>フィールド ''{0}'' を記入してください。</empty-input>
+      <empty-input>フィールド '{0}' を記入してください。</empty-input>
     </msg>
   </EmptyFieldValidator>
   <CategoryValidator>
@@ -2022,12 +2022,12 @@
   </UIFormInputSetWithAction>
   <RepeatCountValidator>
     <msg>
-      <invalid-value>フィールド ''Repeat count''は無効な値です。Integerタイプか-1のみ許されます。</invalid-value>
+      <invalid-value>フィールド 'Repeat count'は無効な値です。Integerタイプか-1のみ許されます。</invalid-value>
     </msg>
   </RepeatCountValidator>
   <RepeatIntervalValidator>
     <msg>
-      <invalid-value>フィールド ''Time interval''は無効な値です。Longタイプのみ許されます。</invalid-value>
+      <invalid-value>フィールド 'Time interval'は無効な値です。Longタイプのみ許されます。</invalid-value>
     </msg>
   </RepeatIntervalValidator>
   <UIPermissionSelector>
@@ -2044,8 +2044,8 @@
   -->
   <ECMStandardPropertyNameValidator>
     <msg>
-      <empty-input>フィールド''{0}''の値はnullか空です！</empty-input>
-      <Invalid-char>フィールド''{0}''に無効な文字があります。他の値を入力してください。</Invalid-char>
+      <empty-input>フィールド'{0}'の値はnullか空です！</empty-input>
+      <Invalid-char>フィールド'{0}'に無効な文字があります。他の値を入力してください。</Invalid-char>
     </msg>
   </ECMStandardPropertyNameValidator>
   <!--
@@ -2057,11 +2057,11 @@
     <msg>
       <empty-input>このフィールドの値はnullか空です！</empty-input>
       <Invalid-char>フィールドに無効な文字があります。他の値を入力してください！</Invalid-char>
-      <Invalid-char2>数値はchar型''~''に続いている必要があります。</Invalid-char2>
-      <Invalid-char1>char型''~''に続いている数値は0から1の間である必要があります。</Invalid-char1>
-      <Invalid-char3>数値はchar型''^''に続いている必要があります。</Invalid-char3>
-      <Invalid-char4>char型 ''~''付近でスペースは許されません。</Invalid-char4>
-      <Invalid-char5>char型 ''^''付近でスペースは許されません。</Invalid-char5>
+      <Invalid-char2>数値はchar型'~'に続いている必要があります。</Invalid-char2>
+      <Invalid-char1>char型'~'に続いている数値は0から1の間である必要があります。</Invalid-char1>
+      <Invalid-char3>数値はchar型'^'に続いている必要があります。</Invalid-char3>
+      <Invalid-char4>char型 '~'付近でスペースは許されません。</Invalid-char4>
+      <Invalid-char5>char型 '^'付近でスペースは許されません。</Invalid-char5>
     </msg>
   </SearchValidator>
   <!--
@@ -2253,11 +2253,11 @@
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <addFolder-successful>Symbolicリンク ''{0}'' の追加に成功</addFolder-successful>
+      <addFolder-successful>Symbolicリンク '{0}' の追加に成功</addFolder-successful>
       <name-invalid>Symbolicリンク名を入力してください。</name-invalid>
       <name-not-allowed>この名前は許されていません。.</name-not-allowed>
       <fileName-error>無効なファイル名</fileName-error>
-      <constraint-violation>現在のノードは ''{0}'' ノードタイプを追加することを許していません。</constraint-violation>
+      <constraint-violation>現在のノードは '{0}' ノードタイプを追加することを許していません。</constraint-violation>
       <repository-exception>アクセスが拒否されました！このノードへのシンボリックリンクを追加する権限がありません。</repository-exception>
       <numberformat-exception>このフォルダを保存できません。名前は数字である必要があります。</numberformat-exception>
       <path-node-invalid>パスノードを入力してください！</path-node-invalid>
@@ -2282,11 +2282,11 @@
       <SelectDocument>ドキュメントを選択</SelectDocument>
     </action>
     <msg>
-      <addFolder-successful>Symlink リンク ''{0}'' の追加に成功しました</addFolder-successful>
+      <addFolder-successful>Symlink リンク '{0}' の追加に成功しました</addFolder-successful>
       <name-invalid>Symbolicリンク名を入力してください。</name-invalid>
       <name-not-allowed>この名前は許されていません。</name-not-allowed>
       <fileName-error>無効なファイル名</fileName-error>
-      <constraint-violation>現在のノードは ''{0}'' ノードタイプを追加することを許していません。</constraint-violation>
+      <constraint-violation>現在のノードは '{0}' ノードタイプを追加することを許していません。</constraint-violation>
       <repository-exception>アクセスが拒否されました！このノードへのシンボリックリンクを追加する権限がありません。</repository-exception>
       <numberformat-exception>フォルダを保存できません。与えられた名前はナンバーフォーマットである必要があります。</numberformat-exception>
       <path-node-invalid>パスノードを入力してください！</path-node-invalid>
@@ -2319,9 +2319,9 @@
 
   <UIWorkingArea>
     <msg>
-      <create-link-problem>''{1}'' にノード ''{0}'' のリンクを作成することができません。</create-link-problem>
-      <dest-node-is-link>ノード ''{0}'' は既にSymリンクです。このためSymリンクを作成できません。</dest-node-is-link>
-      <selected-is-link>選択されたノード ''{0}'' は既にリンクです。他のリンクにリンクポイントを作成することは出来ません。</selected-is-link>
+      <create-link-problem>'{1}' にノード '{0}' のリンクを作成することができません。</create-link-problem>
+      <dest-node-is-link>ノード '{0}' は既にSymリンクです。このためSymリンクを作成できません。</dest-node-is-link>
+      <selected-is-link>選択されたノード '{0}' は既にリンクです。他のリンクにリンクポイントを作成することは出来ません。</selected-is-link>
       <confirm-create-link>本当にこのロケーションのためのリンクを作成しますか？</confirm-create-link>
     </msg>
   </UIWorkingArea>
@@ -2469,7 +2469,7 @@
 
   <UIDocumentForm>
     <msg>
-      <do-not-permission>''{0}'' のテンプレートをロードするための権限がありません。</do-not-permission>
+      <do-not-permission>'{0}' のテンプレートをロードするための権限がありません。</do-not-permission>
     </msg>
   </UIDocumentForm>
 
@@ -2491,7 +2491,7 @@
 
   <UIPopupMenu>
     <msg>
-      <can-not-unlock-node-is-checked-in>ノード ''{0}'' もしくは ''{0}'' の原型はチェックインできないためロック解除できませんでした。</can-not-unlock-node-is-checked-in>
+      <can-not-unlock-node-is-checked-in>ノード '{0}' もしくは '{0}' の原型はチェックインできないためロック解除できませんでした。</can-not-unlock-node-is-checked-in>
     </msg>
   </UIPopupMenu>
 
@@ -3104,7 +3104,7 @@
   </UIWatchDocumentForm>   
   <UIActionForm>
     <msg>
-      <xss-vulnerability-character>フィールド''{0}''は、クロスサイトスクリプティングの脆弱性文字が含まれています。</xss-vulnerability-character>
+      <xss-vulnerability-character>フィールド'{0}'は、クロスサイトスクリプティングの脆弱性文字が含まれています。</xss-vulnerability-character>
     </msg>
   </UIActionForm>
   <UIMultiUpload>
@@ -3112,7 +3112,7 @@
     <AbortAll>すべて中止</AbortAll>
     <AbortAllFiles>Abort all files</AbortAllFiles>
     <MaxFileSize>Maximal file size is</MaxFileSize>
-    <InvalidCharacters>無効な文字は、''-''に変換されます</InvalidCharacters>
+    <InvalidCharacters>無効な文字は、'-'に変換されます</InvalidCharacters>
     <DropFileMessage>あなたのファイルを現在のフォルダーにドロップします。</DropFileMessage>
     <Close>閉じる</Close>
     <in>で</in>
