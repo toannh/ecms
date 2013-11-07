@@ -42,7 +42,7 @@
     <msg>
       <referential-integrity>Impossibile leggere dal file di origine, o la categoria di destinazione è una sottocategoria.</referential-integrity>
       <no-taxonomy-selected>Devi copiare o tagliare almeno una categoria.</no-taxonomy-selected>
-      <node-is-cutting>Non puoi incollare qui. Il nodo categoria ''{0}'' può essere stato tagliato.</node-is-cutting>
+      <node-is-cutting>Non puoi incollare qui. Il nodo categoria '{0}' può essere stato tagliato.</node-is-cutting>
       <can-not-paste>Non ci sono dati negli appunti da incolare.</can-not-paste>
       <reference-exception>Non è possibile eliminare questa categoria perché attualmente viene fatto riferimento da un contenuto.</reference-exception>
       <path-error>Errore rimuovendo il nodo categoria.</path-error>
@@ -70,13 +70,13 @@
     <tab>
       <info>
         <UITaxonomyTreeMainForm>Specifica il nome categoria, spazio di lavoro e percorso della home.</UITaxonomyTreeMainForm>
-        <UIPermissionTreeManager>Imposta permessi per l''albero categoria.</UIPermissionTreeManager>
-        <UIActionTaxonomyManager>Aggiungi un''azione per l''albero delle categorie per completare la creazione o l''aggiornamento.</UIActionTaxonomyManager>
-        <UITaxonomyTreeCreateChild>Modificare l''albero tassonomia aggiungendo, copiando, tagliando e selezionando i permessi.</UITaxonomyTreeCreateChild>
+        <UIPermissionTreeManager>Imposta permessi per l'albero categoria.</UIPermissionTreeManager>
+        <UIActionTaxonomyManager>Aggiungi un'azione per l'albero delle categorie per completare la creazione o l'aggiornamento.</UIActionTaxonomyManager>
+        <UITaxonomyTreeCreateChild>Modificare l'albero tassonomia aggiungendo, copiando, tagliando e selezionando i permessi.</UITaxonomyTreeCreateChild>
       </info>
     </tab>
     <msg>
-      <not-exist-tree>L''albero categoria non esiste.</not-exist-tree>
+      <not-exist-tree>L'albero categoria non esiste.</not-exist-tree>
     </msg>
   </UITaxonomyTreeContainer>
   
@@ -94,7 +94,7 @@
       <name-emty>Nome albero richiesto.</name-emty>
       <homePath-emty>Percorso home richiesto.</homePath-emty>
       <targetPath-emty>Percorso destinazione richiesto.</targetPath-emty>
-      <taxonomytree-existed>Il nome dell''albero categoria esiste già.</taxonomytree-existed>
+      <taxonomytree-existed>Il nome dell'albero categoria esiste già.</taxonomytree-existed>
     </msg>
   </UITaxonomyTreeMainForm>
 
@@ -152,17 +152,17 @@
 -->
 
   <UIActionForm>
-    <title>Aggiungi un''azione per l''albero delle categorie</title>
+    <title>Aggiungi un'azione per l'albero delle categorie</title>
     <action>
       <Save>Salva</Save>
     </action>
     <msg>
       <name-not-allowed>Nome vietato.</name-not-allowed>
       <path-invalid>Percorso non valido.</path-invalid>
-      <taxonomy-existed>L''albero delle categorie esiste già.</taxonomy-existed>
+      <taxonomy-existed>L'albero delle categorie esiste già.</taxonomy-existed>
       <taxonomy-node-existed>Il nodo categoria esiste già.</taxonomy-node-existed>
       <no-permission-add>You do not have the right to add an action.</no-permission-add>
-      <not-created-tree>L''albero delle categorie non è ancora stato creato.</not-created-tree>
+      <not-created-tree>L'albero delle categorie non è ancora stato creato.</not-created-tree>
     </msg>
   </UIActionForm>
 
@@ -200,7 +200,7 @@
     <msg>
       <register-unsuccessfull>Namespace o URI già esistente.</register-unsuccessfull>
       <prefix-null>Specifica il prefisso del namespace.</prefix-null>
-      <uri-null>Specify l''URI del namespace.</uri-null>
+      <uri-null>Specify l'URI del namespace.</uri-null>
     </msg>
   </UINamespaceForm>
   <!--
@@ -249,7 +249,7 @@
     </header>
     <msg>
       <confirm-delete>Sei sicuro di voler eliminare questo metadato?</confirm-delete>
-      <delete-successful>I template di ''{0}'' sono stati eliminati con successo.</delete-successful>
+      <delete-successful>I template di '{0}' sono stati eliminati con successo.</delete-successful>
       <path-not-found-exception>Questi metadati sono stati eliminati o modificati. Fare clic sul pulsante Aggiorna.</path-not-found-exception>
     </msg>
     <action>
@@ -315,7 +315,7 @@
       <name>Nome Elemento</name>
       <type>Type</type>
       <description>Descrizione</description>
-      <isMixin>E'' Mixin Type</isMixin>
+      <isMixin>E' Mixin Type</isMixin>
       <orderable>Figlio ordinabile</orderable>
     </header>
     <info>
@@ -517,25 +517,25 @@
       <namespace>Nome Spazio</namespace>
       <propertyNamespace>Nome Spazio</propertyNamespace>
       <nodeTypeName>Nome Tipo Nodo</nodeTypeName>
-      <mixinType>E'' Mixin Type</mixinType>
+      <mixinType>E' Mixin Type</mixinType>
       <hasOrderableChildNodes>Nodi Figlio Ordinabile</hasOrderableChildNodes>
       <primaryItemName>Nome Elemento Primario</primaryItemName>
       <superTypes>Super Tipi</superTypes>
       <propertyname>Nome Definizione</propertyname>
       <requiredType>Tipo Richiesto</requiredType>
-      <multiple>E'' Multiplo</multiple>
-      <mandatory>E'' Obbligatorio</mandatory>
-      <autoCreated>E'' auto-creato</autoCreated>
+      <multiple>E' Multiplo</multiple>
+      <mandatory>E' Obbligatorio</mandatory>
+      <autoCreated>E' auto-creato</autoCreated>
       <parentversion>Nella Versione Superiore</parentversion>
-      <protected>E'' Protetto</protected>
+      <protected>E' Protetto</protected>
       <constraints>Valori</constraints>
       <UIFormTableInputSet>UIFormTableInputSet</UIFormTableInputSet>
       <sameNameSiblings>Ha lo stesso nome del fratello</sameNameSiblings>
       <childNamespace>Nome Spazio</childNamespace>
-      <childMandatory>E'' obbligatorio</childMandatory>
-      <childAutocreated>E'' auto-creato</childAutocreated>
+      <childMandatory>E' obbligatorio</childMandatory>
+      <childAutocreated>E' auto-creato</childAutocreated>
       <childParentversion>Nella Versione Superiore</childParentversion>
-      <childProtected>E'' protetto</childProtected>
+      <childProtected>E' protetto</childProtected>
       <childNodename>Nome Definizione</childNodename>
       <requiredPrimaryType>Tipo Primario Richiesto</requiredPrimaryType>
       <defaultPrimaryType>Tipo Primario Predefinito</defaultPrimaryType>
@@ -560,12 +560,12 @@
       <Close>#{word.close}</Close>
     </action>
     <msg>
-      <register-successfully>Tipo nodo ''{0}'' registrato con successo.</register-successfully>
+      <register-successfully>Tipo nodo '{0}' registrato con successo.</register-successfully>
       <supertype-is-madatory>Il super tipo è obbligatorio quando registri un nuovo tipo di nodo. Seleziona almeno un super tipo.</supertype-is-madatory>
       <register-failed>Registrazione tipo di nodo non avvenuta. Esiste già o il super tipo non è valido.</register-failed>
       <nodeType-name>Nome tipo nodo richiesto.</nodeType-name>
       <fileName-invalid>Il nome file ha alcuni caratteri non validi.</fileName-invalid>
-      <node-type-exists>Il tipo nodo ''{0}''esiste già.</node-type-exists>
+      <node-type-exists>Il tipo nodo '{0}'esiste già.</node-type-exists>
       <node-type-name>Nome tipo nodo non valido.</node-type-name>
       <values-error>Seleziona almeno un tipo di nodo per il tipo primario predefinito.</values-error>
       <confirm-delete-child>Sei sicuro di voler eliminare questo nodo figlio?</confirm-delete-child>
@@ -666,10 +666,10 @@
     <title>Importa Tipo Nodo da File XML</title>
     <msg>
       <filename-error>Scegli il file del tipo di nodo che vuoi importare.</filename-error>
-      <data-file-error>Solo file .xml o .zip sono supportati per l''importazione.</data-file-error>
+      <data-file-error>Solo file .xml o .zip sono supportati per l'importazione.</data-file-error>
       <data-invalid>Dato non valido. Controlla il tipo di file e riprova.</data-invalid>
-      <nodetype-exist>Il tipo di nodo ''{0}'' esiste già.</nodetype-exist>
-      <namespace-invalid>Il namespace ''{0}'' non è valido.</namespace-invalid>
+      <nodetype-exist>Il tipo di nodo '{0}' esiste già.</nodetype-exist>
+      <namespace-invalid>Il namespace '{0}' non è valido.</namespace-invalid>
     </msg>
   </UINodeTypeUpload>
   <!--
@@ -767,11 +767,11 @@
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <action-type-added>Tipo azione ''{0}'' aggiunto con successo.</action-type-added>
+      <action-type-added>Tipo azione '{0}' aggiunto con successo.</action-type-added>
       <action-type-create-error>Errore creando il tipo di azione.</action-type-create-error>
-      <action-name-invalid>''{0}'' non è valido. Il nome deve iniziare con ''exo:''.</action-name-invalid>
+      <action-name-invalid>'{0}' non è valido. Il nome deve iniziare con 'exo:'.</action-name-invalid>
       <action-exist>Questa azione esiste già nel sistema ECM.</action-exist>
-      <fileName-invalid>Il nome dell''azione contiene alcuni caratteri non validi.</fileName-invalid>
+      <fileName-invalid>Il nome dell'azione contiene alcuni caratteri non validi.</fileName-invalid>
     </msg>
   </UIActionTypeForm>
   <!--
@@ -827,7 +827,7 @@
     </action>
     <msg>
       <access-denied>Accesso negato. Non hai il permesso di usare questa funzione.</access-denied>
-      <template-in-use>Impossibile eliminare {0}. E'' in uso.</template-in-use>
+      <template-in-use>Impossibile eliminare {0}. E' in uso.</template-in-use>
       <confirm-delete>Sei sicuro di voler eliminare questa vista?</confirm-delete>
     </msg>
   </UIViewList>
@@ -866,7 +866,7 @@
 </msg>
 <grid>
  <msg>
-  <empty>Non non c''è nessuna scheda su questa vista</empty>
+  <empty>Non non c'è nessuna scheda su questa vista</empty>
  </msg>
 </grid>
 </UITabList>
@@ -897,7 +897,7 @@
 </action>
 <grid>
  <msg>
-  <empty>Non c''è nessuna autorizzazione su questa vista</empty>
+  <empty>Non c'è nessuna autorizzazione su questa vista</empty>
  </msg>
 </grid>
 </UIViewPermissionList>
@@ -910,7 +910,7 @@
  <userOrGroup>Utente O Gruppo</userOrGroup>
 </label>
 <msg>
- <permission-exist>The permission ''{0}'' already exists in the list.</permission-exist>
+ <permission-exist>The permission '{0}' already exists in the list.</permission-exist>
 </msg>
 </UIViewPermissionForm>
 
@@ -929,7 +929,7 @@
       <fileName-invalid>Il nome della vista contiene caratteri non validi.</fileName-invalid>
       <permission-not-empty>Seleziona un permesso per la vista.</permission-not-empty>      
       <mustbe-add-tab>Aggiungi un tab.</mustbe-add-tab>
-<mustbe-add-permission>Si prega di selezionare l''autorizzazione per questa visualizzazione</mustbe-add-permission>
+<mustbe-add-permission>Si prega di selezionare l'autorizzazione per questa visualizzazione</mustbe-add-permission>
       <view-exist>Il nome vista esiste già.</view-exist>
     </msg>
     <label>
@@ -1055,10 +1055,10 @@
       <Add>Aggiungi</Add>
     </action>
     <msg>
-      <template-in-use>Impossibile eliminare {0}. E'' in uso.</template-in-use>
+      <template-in-use>Impossibile eliminare {0}. E' in uso.</template-in-use>
       <confirm-delete>Sei sicuro di voler eliminare questo template?</confirm-delete>
       <access-denied>Accesso negato. Non hai il permsso di usare questa funzione.</access-denied>
-      <delete-permission-denied>You do not have permission to delete ''{0}'' template.</delete-permission-denied>
+      <delete-permission-denied>You do not have permission to delete '{0}' template.</delete-permission-denied>
     </msg>
   </UIECMTemplateList>
   <!--
@@ -1077,9 +1077,9 @@
     <msg>
       <version-restored>Versione {0} ripristinata con successo.</version-restored>
       <role-require>Seleziona un permesso.</role-require>
-      <template-name-exist>Il nome template ''{0}'' esiste già.</template-name-exist>
+      <template-name-exist>Il nome template '{0}' esiste già.</template-name-exist>
       <add-permission-denied>Non hai il permesso di aggiungere un nuovo template.</add-permission-denied>
-      <edit-permission-denied>You do not have permission to modify ''{0}'' template.</edit-permission-denied>
+      <edit-permission-denied>You do not have permission to modify '{0}' template.</edit-permission-denied>
     </msg>
     <tab>
       <label>
@@ -1191,7 +1191,7 @@
     <msg>
       <version-restored>Versione {0} ripristinata con successo.</version-restored>
       <name-null>Inserisci il nome dello script.</name-null>
-      <name-exist>Il nome script ''{0}'' esiste già.</name-exist>
+      <name-exist>Il nome script '{0}' esiste già.</name-exist>
       <fileName-invalid>Il nome script ha alcuni caratteri non validi.</fileName-invalid>
     </msg>
   </UIScriptForm>
@@ -1465,7 +1465,7 @@
       <selectUser>Seleziona Utente</selectUser>
     </label>
     <msg>
-      <not-change-owner>''{0}'' è il proprietario di questo nodo e hai i permessi di pieno controllo.</not-change-owner>
+      <not-change-owner>'{0}' è il proprietario di questo nodo e hai i permessi di pieno controllo.</not-change-owner>
     </msg>
   </UIGroupSelector>
   <UIPermissionForm>
@@ -1521,7 +1521,7 @@
       <confirm-delete>Vuoi davvero eliminare?</confirm-delete>
       <access-denied>Accesso negato! Non hai permessi di usare questa funzione.</access-denied>
       <editing-template>Accesso negato! Non puoi eliminare e modificare il template simultaneamente.</editing-template>
-      <template-not-exist>The template that you are trying to delete doesn''t exist.</template-not-exist>
+      <template-not-exist>The template that you are trying to delete doesn't exist.</template-not-exist>
     </msg>
   </UITemplateList>
   
@@ -1537,9 +1537,9 @@
     </action>
     <msg>
       <confirm-delete>Vuoi davvero eliminare?</confirm-delete>
-      <access-denied>Access denied! You haven''t got permission to use this function.</access-denied>
-      <editing-template>Access denied! You can''t delete and edit template simultaneously.</editing-template>
-      <template-not-exist>The template that you attempt to delete doesn''t exist.</template-not-exist>
+      <access-denied>Access denied! You haven't got permission to use this function.</access-denied>
+      <editing-template>Access denied! You can't delete and edit template simultaneously.</editing-template>
+      <template-not-exist>The template that you attempt to delete doesn't exist.</template-not-exist>
     </msg>
   </UIActionsTemplateList>
   
@@ -1555,9 +1555,9 @@
     </action>
     <msg>
       <confirm-delete>Vuoi davvero eliminare?</confirm-delete>
-      <access-denied>Access denied! You haven''t got permission to use this function.</access-denied>
-      <editing-template>Access denied! You can''t delete and edit template simultaneously.</editing-template>
-      <template-not-exist>The template that you attempt to delete doesn''t exist.</template-not-exist>
+      <access-denied>Access denied! You haven't got permission to use this function.</access-denied>
+      <editing-template>Access denied! You can't delete and edit template simultaneously.</editing-template>
+      <template-not-exist>The template that you attempt to delete doesn't exist.</template-not-exist>
     </msg>
   </UIOthersTemplateList>
 
@@ -1593,8 +1593,8 @@
     <msg>
       <confirm-delete>Sei sicuro di voler eliminare questo template?</confirm-delete>
       <access-denied>Accesso negato. Non hai il permesso di usare questa funzione.</access-denied>
-      <editing-template>Access denied! You can''t delete and edit template simultaneously.</editing-template>
-      <template-not-exist>The template that you are trying to delete doesn''t exist.</template-not-exist>
+      <editing-template>Access denied! You can't delete and edit template simultaneously.</editing-template>
+      <template-not-exist>The template that you are trying to delete doesn't exist.</template-not-exist>
     </msg>
   </UICLVTemplateList>
 
@@ -1820,7 +1820,7 @@
       <action>Azioni</action>
     </header>
     <msg>
-      <undeletable>Non puoi eliminare ''{0}'' perchè è quello predefinito.</undeletable>
+      <undeletable>Non puoi eliminare '{0}' perchè è quello predefinito.</undeletable>
       <confirm-delete>Sei sicuro di voler eliminare questo dialogo?</confirm-delete>
     </msg>
     <action>
@@ -1843,7 +1843,7 @@
       <action>Azioni</action>
     </header>
     <msg>
-      <undeletable>''{0}'' non può essere eliminato, è quello predefinito!</undeletable>
+      <undeletable>'{0}' non può essere eliminato, è quello predefinito!</undeletable>
       <confirm-delete>Vuoi davvero eliminare?</confirm-delete>
     </msg>
     <action>
@@ -1869,7 +1869,7 @@
       <name-invalid>Il nome campo non deve contenere caratteri speciali.</name-invalid>
       <roles-invalid>Campo Permesso richiesto.</roles-invalid>
       <version-restored>Versione {0} ripristinata con successo.</version-restored>
-      <name-exist>Il nome ''{0}'' esiste giÃ .</name-exist>
+      <name-exist>Il nome '{0}' esiste giÃ .</name-exist>
     </msg>
     <title>
       <AddPermission>Aggiungi Permesso</AddPermission>
@@ -1924,7 +1924,7 @@
     <msg>
       <confirm-delete>Sei sicuro di voler eliminare questa query?</confirm-delete>
       <query-not-existed>La query non esiste più.</query-not-existed>
-      <can-not-remove>Si verificato un errore durante l''eliminazione della query. Per informazioni, contattare l''amministratore.</can-not-remove>
+      <can-not-remove>Si verificato un errore durante l'eliminazione della query. Per informazioni, contattare l'amministratore.</can-not-remove>
     </msg>
   </UIQueriesList>
   <UIQueriesForm>
@@ -2018,13 +2018,13 @@
   -->
   <ECMNameValidator>
     <msg>
-      <Invalid-char>Il campo ''{0}'' ha alcuni caratteri non validi. Inserisci altro valore.</Invalid-char>
-      <empty-input>Il valore del campo ''{0}'' è vuoto.</empty-input>
+      <Invalid-char>Il campo '{0}' ha alcuni caratteri non validi. Inserisci altro valore.</Invalid-char>
+      <empty-input>Il valore del campo '{0}' è vuoto.</empty-input>
     </msg>
   </ECMNameValidator>
   <EmptyFieldValidator>
     <msg>
-      <empty-input>Inserisci il valore nel campo ''{0}''.</empty-input>
+      <empty-input>Inserisci il valore nel campo '{0}'.</empty-input>
     </msg>
   </EmptyFieldValidator>
   <!--
@@ -2034,7 +2034,7 @@
   -->
   <PermissionValidator>
   <msg>
-      <permission-path-invalid>Il permesso ''{0}'' non è valido.</permission-path-invalid>
+      <permission-path-invalid>Il permesso '{0}' non è valido.</permission-path-invalid>
   </msg>
   </PermissionValidator>
   <!--
@@ -2203,7 +2203,7 @@
   
   <UIDriveForm>
 <msg>
-  <permission-path-invalid>Il permesso ''{0}'' non è valido.</permission-path-invalid>
+  <permission-path-invalid>Il permesso '{0}' non è valido.</permission-path-invalid>
   </msg>
   </UIDriveForm>
   
@@ -2255,7 +2255,7 @@
   <UIPermissionTreeInfo>
   <msg>
       <confirm-delete-permission>Sei sicuro di voler eliminare questo permesso?</confirm-delete-permission>
-      <no-permission-remove>Non puoi rimuovere il proprietario dell''utente di sistema.</no-permission-remove>  
+      <no-permission-remove>Non puoi rimuovere il proprietario dell'utente di sistema.</no-permission-remove>  
   </msg>
   </UIPermissionTreeInfo>  
   <UITaxonomyTreeMainForm>
@@ -2355,7 +2355,7 @@
       <action>Azioni</action>
     </header>
     <msg>
-      <undeletable>Non puoi eliminare ''{0}'' perchè è quello predefinito.</undeletable>
+      <undeletable>Non puoi eliminare '{0}' perchè è quello predefinito.</undeletable>
       <confirm-delete>Sei sicuro di voler eliminare questo skin?</confirm-delete>
     </msg>
     <action>
@@ -2419,7 +2419,7 @@
 <NextViewTree>Prossimo</NextViewTree>
 </action>
   <msg>
-    <xss-vulnerability-character>Field ''{0}'' contains XSS vulnerability characters</xss-vulnerability-character>
+    <xss-vulnerability-character>Field '{0}' contains XSS vulnerability characters</xss-vulnerability-character>
 <xss-vulnerability-character-wo-label>Your input may contain XSS vulnerability characters</xss-vulnerability-character-wo-label>
   </msg>
 </UIActionForm>
@@ -2461,7 +2461,7 @@
       <userOrGroup>Membership:</userOrGroup>
     </label>
     <msg>
-      <userOrGroup-alreadyExists>La membership esiste già. Selezionane un''altra.</userOrGroup-alreadyExists>
+      <userOrGroup-alreadyExists>La membership esiste già. Selezionane un'altra.</userOrGroup-alreadyExists>
     </msg>    
   </UITagPermissionForm>
   
@@ -2496,7 +2496,7 @@
   </NodeTypeNameValidator>
   <UIActionForm>
     <msg>
-      <constraint-violation-exception>Il nodo ''{0}'' non  può essere aggiunto a ''{1}'' nel workspace ''{2}''.  C''è un problema con le autorizzazioni o le condizioni delle costanti.</constraint-violation-exception>
+      <constraint-violation-exception>Il nodo '{0}' non  può essere aggiunto a '{1}' nel workspace '{2}'.  C'è un problema con le autorizzazioni o le condizioni delle costanti.</constraint-violation-exception>
     </msg>
   </UIActionForm>
   
@@ -2520,7 +2520,7 @@
 
 <UIDriveForm>
 <label>
-<allowNodeTypesOnTree>Permessi tipi di nodo nell''albero a sinistra</allowNodeTypesOnTree>
+<allowNodeTypesOnTree>Permessi tipi di nodo nell'albero a sinistra</allowNodeTypesOnTree>
 </label>
 </UIDriveForm>
 <DriveInputSet>
@@ -2543,7 +2543,7 @@
   </UINodeTypeSelector>
   <UIScriptForm>
     <msg>
-      <PathNotFoundException>Lo script esiste già nella cartella ''{0}''.</PathNotFoundException>      
+      <PathNotFoundException>Lo script esiste già nella cartella '{0}'.</PathNotFoundException>      
     </msg>
   </UIScriptForm>
  <UINodeTypeList>
@@ -2553,7 +2553,7 @@
  </UINodeTypeList>
   <UIActionForm>
     <msg>
-      <canotChangeActionId>Non puoi modificare l''Id Azione.</canotChangeActionId>
+      <canotChangeActionId>Non puoi modificare l'Id Azione.</canotChangeActionId>
     </msg>
   </UIActionForm>
   <PopupComponent>
@@ -2568,7 +2568,7 @@
   </UIPageIterator>
   <UILockNodeList>
     <msg>
-      <can-not-unlock-node>Non hai i permessi di sbloccare questo nodo. Contatta l''amministratore per avere i diritti corretti.</can-not-unlock-node>
+      <can-not-unlock-node>Non hai i permessi di sbloccare questo nodo. Contatta l'amministratore per avere i diritti corretti.</can-not-unlock-node>
     </msg>
  </UILockNodeList>
 </bundle>

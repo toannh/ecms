@@ -6,13 +6,13 @@
       <in-versioning>Prego faccia il checkout del nodo corrente prima di aggiungere un nodo nuovo.</in-versioning>
       <cannot-save>Errore riscontrato durante il salvataggio del nodo.</cannot-save>
       <saved-successfully>{0}</saved-successfully>
-      <not-support>Impossibile caricare il template di ''{0}''.</not-support>
+      <not-support>Impossibile caricare il template di '{0}'.</not-support>
       <not-add-folder>Only files can be added to this folder.</not-add-folder>
-      <access-denied>Accesso negato. Non ha permessi adeguati per aggiungere su ''{0}''.</access-denied>
-      <path-not-found>Il path ''{0}'' è stato eliminato o non è valido.</path-not-found>
-      <node-locked>Il nodo ''{0}'' è bloccato. Prego di sbloccarlo prima di creare documenti.</node-locked>
-      <node-isExist>Questo nodo esiste già dentro ''{0}'' e non è consentito di avere nodi allo stesso livello con lo stesso nome.</node-isExist>
-      <get-dialog-path>Errore riscontrato durante l''accesso al path di dialogo.</get-dialog-path>
+      <access-denied>Accesso negato. Non ha permessi adeguati per aggiungere su '{0}'.</access-denied>
+      <path-not-found>Il path '{0}' è stato eliminato o non è valido.</path-not-found>
+      <node-locked>Il nodo '{0}' è bloccato. Prego di sbloccarlo prima di creare documenti.</node-locked>
+      <node-isExist>Questo nodo esiste già dentro '{0}' e non è consentito di avere nodi allo stesso livello con lo stesso nome.</node-isExist>
+      <get-dialog-path>Errore riscontrato durante l'accesso al path di dialogo.</get-dialog-path>
       <new-jcr-template>Errore riscontrato durante creazione del nuovo template.</new-jcr-template>
     </msg>
     <action>
@@ -42,7 +42,7 @@
       <action-empty>Prego scelga una cartella con un azione.</action-empty>
       <message-empty>Il campo "Messaggio Salvato Personalizzato" è richiesto nel caso non abbia scelto opzione Reindirizzamento, oppure il path reindirizzamento è vuoto.</message-empty>
       <get-template>Errore riscontrato durante caricamento del template.</get-template>
-      <set-template-option>Errore riscontrato durante impostazione dell''opzione del template.</set-template-option>
+      <set-template-option>Errore riscontrato durante impostazione dell'opzione del template.</set-template-option>
       <do-select>Errore riscontrato durante la selezione di location.</do-select>
       </msg>
     <action>
@@ -70,7 +70,7 @@
       <empty>Nessun azione</empty>
       <remove-popup-first>Deve chiudere il pop-up modifica prima di cancellare il nodo.</remove-popup-first>
       <confirm-delete-action>È sicuro di voler eliminare questa azione?</confirm-delete-action>
-      <template-empty>Il template di ''{0}'' è null o vuoto.</template-empty>
+      <template-empty>Il template di '{0}' è null o vuoto.</template-empty>
       <template-null>Il template è null o vuoto; Oppure non ha permessi adeguati per poterlo accedere.</template-null>
       <access-denied>Accesso negato. Non ha permessi adeguati per eseguire questa azione.</access-denied>
     </msg>
@@ -119,12 +119,12 @@
       <Close>Chiudi</Close>
     </action>
     <msg>
-      <repository-exception>Impossibile salvare quest''azione. Il nome fornito non deve avere un indice o il suo elemento finale dentro.</repository-exception>
-      <numberformat-exception>Impossibile salvare azione. Il nome fornito non deve avere ''['' o '']''.</numberformat-exception>
-      <existed-action>Il nome azione ''{0}'' esiste già. Prego ne specifichi un''altro.</existed-action>
-      <unable-add-action>Impossibile aggiungere quest''azione.</unable-add-action>
-      <unable-add>Impossibile aggiungere quest''azione. Questo nodo è root o non ha permessi adeguati.</unable-add>
-      <not-support>Il dialogo ''{0}'' non è supportato.</not-support>
+      <repository-exception>Impossibile salvare quest'azione. Il nome fornito non deve avere un indice o il suo elemento finale dentro.</repository-exception>
+      <numberformat-exception>Impossibile salvare azione. Il nome fornito non deve avere '[' o ']'.</numberformat-exception>
+      <existed-action>Il nome azione '{0}' esiste già. Prego ne specifichi un'altro.</existed-action>
+      <unable-add-action>Impossibile aggiungere quest'azione.</unable-add-action>
+      <unable-add>Impossibile aggiungere quest'azione. Questo nodo è root o non ha permessi adeguati.</unable-add>
+      <not-support>Il dialogo '{0}' non è supportato.</not-support>
       <no-permission-add>Accesso negato. No ha permessi adeguati per poter aggiungere un azione qui.</no-permission-add>
       <access-denied>Accesso negato. Non ha permessi adeguati per poter accedere questo template.</access-denied>
     </msg>
@@ -136,11 +136,11 @@
 
   <UIFCCActionTypeForm>
     <label>
-      <actionType>Crea un''Azione del Tipo</actionType>
+      <actionType>Crea un'Azione del Tipo</actionType>
     </label>
     <msg>
-      <not-support>Impossibile caricare il template di ''{0}''.</not-support>
-      <do-not-permission>Non ha permessi adeguati per caricare il template di ''{0}''.</do-not-permission>
+      <not-support>Impossibile caricare il template di '{0}'.</not-support>
+      <do-not-permission>Non ha permessi adeguati per caricare il template di '{0}'.</do-not-permission>
     </msg>
   </UIFCCActionTypeForm>
 
@@ -154,7 +154,7 @@
 
   <DateTimeValidator>
     <msg>
-      <Invalid-input>IL campo ''{0}'' con valore ''{1}'' non è valido.</Invalid-input>
+      <Invalid-input>IL campo '{0}' con valore '{1}' non è valido.</Invalid-input>
     </msg>
   </DateTimeValidator>
 

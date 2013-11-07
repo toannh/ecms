@@ -202,8 +202,8 @@
     <msg>
       <time-to-late>Il tempo di ricerca è troppo lungo.</time-to-late>
       <empty-field>Prego inserire una chiave di ricerca valida.</empty-field>
-      <invalid-format>Formato data/tempo non valido nel campo ''{0}''.</invalid-format>
-      <invalid-date>"A Data" dev''essere maggiore della "Da Date"</invalid-date>
+      <invalid-format>Formato data/tempo non valido nel campo '{0}'.</invalid-format>
+      <invalid-date>"A Data" dev'essere maggiore della "Da Date"</invalid-date>
       <invalid-nodeType>Tipo nodo "{0}" non è valido. Prego controlla di nuovo.</invalid-nodeType>
       <invalid-keyword>Parola chiave non è valida. Alcuni caratteri non sono supportati.</invalid-keyword>
     </msg>
@@ -251,7 +251,7 @@
       <View>Mostra</View>
     </title>
     <msg>
-    <template-not-support>Impossibile vedere l''anteprima del contenuto. Il template non è supportato.</template-not-support>
+    <template-not-support>Impossibile vedere l'anteprima del contenuto. Il template non è supportato.</template-not-support>
     </msg>
   </UIContentSearchResult>
 
@@ -264,7 +264,7 @@
     </action>
     <msg>
       <access-denied>Non hai permessi adeguati per aggiungere categorie a questo documento.</access-denied>
-      <exception>Errore riscontrato durante l''addizione delle categorie a questo documento.</exception>
+      <exception>Errore riscontrato durante l'addizione delle categorie a questo documento.</exception>
       <non-categories>Categorie sbagliate Prego selezioni categorie appropriate.</non-categories>
     </msg>
   </UIContentDialogForm>
@@ -338,7 +338,7 @@
 
   <ZeroValidator>
     <msg>
-      <Invalid-number>Zero non è accettabile nel campo ''{0}''.</Invalid-number>
+      <Invalid-number>Zero non è accettabile nel campo '{0}'.</Invalid-number>
     </msg>
   </ZeroValidator>
 

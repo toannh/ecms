@@ -55,7 +55,7 @@
         <categories>Categorie</categories>
         <mimeType>#{Ecm.dialog.label.mimeType}</mimeType>
         <content>#{word.content}</content>
-        <re-upload>Il file esiste già. Può eliminarlo o caricare un''altro file.</re-upload>
+        <re-upload>Il file esiste già. Può eliminarlo o caricare un'altro file.</re-upload>
       </label>
     </dialog>
   </File>
@@ -269,12 +269,12 @@
   </EmailAddressValidator>
   <EmptyFieldValidator>
     <msg>
-      <empty-input>Il campo ''{0}'' è richiesto. Prego inserisca un''altro valore.</empty-input>
+      <empty-input>Il campo '{0}' è richiesto. Prego inserisca un'altro valore.</empty-input>
     </msg>
   </EmptyFieldValidator>
   <NumberFormatValidator>
     <msg>
-      <Invalid-number>Il campo ''{0}'' è valido.</Invalid-number>
+      <Invalid-number>Il campo '{0}' è valido.</Invalid-number>
     </msg>
   </NumberFormatValidator>
   <!--
@@ -296,7 +296,7 @@
   </ScriptAction>
   <UIDialogForm>
    <form>
-   <DialogFormException>Impossibile salvare questo documento. Forse c''è un problema con intercettazione pre-salvataggio.</DialogFormException>
+   <DialogFormException>Impossibile salvare questo documento. Forse c'è un problema con intercettazione pre-salvataggio.</DialogFormException>
    </form>
   </UIDialogForm>
 
