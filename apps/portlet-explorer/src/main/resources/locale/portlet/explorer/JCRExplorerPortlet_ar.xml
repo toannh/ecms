@@ -314,11 +314,11 @@
       <cannot-enable-version-rootnode>لا يمكن اتاحة تعدّد الإصدارات للعقدة الجذر.</cannot-enable-version-rootnode>
       <cannot-enable-publication-rootnode>لا يمكن نشر العقدة الجذر.</cannot-enable-publication-rootnode>
       <manage-publication>
-        <not-supported-nodetype>لا يمكن نشر إلا العقد من نوع 'وثيقة'</not-supported-nodetype>
+        <not-supported-nodetype>لا يمكن نشر إلا العقد من نوع ''وثيقة''</not-supported-nodetype>
         <no-publication-lifecycle>دورة حياة النشر غير مهيئة.</no-publication-lifecycle>
       </manage-publication>
       <unsubcriber-lifecycle>تمّ بالفعل إلغاء الاشتراك من هذه العقدة.</unsubcriber-lifecycle>
-      <not-supported-nodetype>الغاء التسجيل في دورة حياة للنشر لا يدعم إلا العقد من نوع 'وثيقة'.</not-supported-nodetype>
+      <not-supported-nodetype>الغاء التسجيل في دورة حياة للنشر لا يدعم إلا العقد من نوع ''وثيقة''.</not-supported-nodetype>
       <unsubcriber-lifecycle-finish>تم محو التسجيل من دورة حياة النشر بنجاح.</unsubcriber-lifecycle-finish>
       <access-false>العقدة ليست من نوع وثيقة أو ربّما تكون في حالة معالجة!</access-false>
       <unsupported-action>هذا الاجراء غير مدعوم.</unsupported-action>
@@ -335,8 +335,8 @@
       <access-denied>غير مسموح بالدخول. ليس لديك الصلاحية الكافية لتغيير هذه العقدة.</access-denied>
       <access-add-denied>غير مسموح بالدخول. ليس لديك الصلاحية الكافية للإضافة تحت هذه العقدة.</access-add-denied>
       <item-existed>هذه العقدة موجودة مُسبقًـا. لا يمكن استعمال نفس الاسم مرّتين.</item-existed>
-      <removed-hidden-mixin>تم حذف الميكسين المخفي ('hidden mixin') بنجاح.</removed-hidden-mixin>
-      <added-hidden-mixin>تم إضافة الميكسين المخفي('hidden mixin') بنجاح.</added-hidden-mixin>
+      <removed-hidden-mixin>تم حذف الميكسين المخفي (''hidden mixin'') بنجاح.</removed-hidden-mixin>
+      <added-hidden-mixin>تم إضافة الميكسين المخفي(''hidden mixin'') بنجاح.</added-hidden-mixin>
       <not-supported>هذه المهمة لا يمكن استعمالها إلا للوثائق فقط.</not-supported>
       <empty-file-type>لا يمكنك زيادة وثائق إلى هذه العقدة.</empty-file-type>
       <unsupported-watch>لا يمكن تتبّع إلا الوثائق فقط.</unsupported-watch>
@@ -397,7 +397,7 @@
       <access-denied>غير مسموح بالدخول، ربما ليس لديك الصلاحية في هذه العقدة.</access-denied>
       <remove-verion-exception>لا يمكنك حذف هذه العقدة لأنها هي (أو أحد فروعها) في حالة مراجعة.</remove-verion-exception>
       <remove-referentialIntegrityException>لا يمكن حذف هذه العقدة لأنها موصولة بعقدة أخرى.</remove-referentialIntegrityException>
-      <constraintviolation-exception>لم يتمّ العثور على العنصر 'jcr:uuid'. رُبّما تم تغيير أو حذف العقدة. يرجى الضغط على زرّ التّحديث.</constraintviolation-exception>
+      <constraintviolation-exception>لم يتمّ العثور على العنصر ''jcr:uuid''. رُبّما تم تغيير أو حذف العقدة. يرجى الضغط على زرّ التّحديث.</constraintviolation-exception>
       <path-not-found-exception>تمّ حذف أو تغيير هذه العقدة. يرجى الضغط على زرّ التّحديث.</path-not-found-exception>
       <not-exist-categories>هذه الفئة لا وجود لها.</not-exist-categories>
     </msg>
@@ -1070,8 +1070,8 @@
       <must-choose-one>يجب عليك اختيار نوع واحد على الأقل.</must-choose-one>
       <properties-null>اختر الخاصيّات أولا ، ثم الفلتر.</properties-null>
       <exactly-require>يجب عليك أن تضع محتوى قبل حفظ هذا الشرط</exactly-require>
-      <fromDate-invalid>صيغة القيمة 'تاريخ البدأ' أو 'منذ' غير صحيحة. يُرجى اعادة الاختيار أو أدخل قيمة صحيحة.</fromDate-invalid>
-      <toDate-invalid>صيغة 'تاريخ الإنهاء' غير صحيحة. يُرجى اعادة الاختيار أو ادخال قيمة صحيحة.</toDate-invalid>
+      <fromDate-invalid>صيغة القيمة ''تاريخ البدأ'' أو ''منذ'' غير صحيحة. يُرجى اعادة الاختيار أو أدخل قيمة صحيحة.</fromDate-invalid>
+      <toDate-invalid>صيغة ''تاريخ الإنهاء'' غير صحيحة. يُرجى اعادة الاختيار أو ادخال قيمة صحيحة.</toDate-invalid>
     </msg>
     <button>
       <label-Add>إضافة</label-Add>
@@ -1470,9 +1470,9 @@
     <title>استيراد عقدة</title>
     <msg>
       <import-successful>تمّت عمليّة الاستيراد بنجاح.</import-successful>
-      <filename-invalid>اختر ملف من نوع 'xml' قصد استيراده.</filename-invalid>
+      <filename-invalid>اختر ملف من نوع ''xml'' قصد استيراده.</filename-invalid>
       <filetype-error>لا يمكن الاستيراد. ربّما طرأ خطأ أثناء تحميل الملفّ.</filetype-error>
-      <mimetype-invalid>يمكن استيراد ملفات من نوع 'xml' أو 'zip' فحسب.</mimetype-invalid>
+      <mimetype-invalid>يمكن استيراد ملفات من نوع ''xml'' أو ''zip'' فحسب.</mimetype-invalid>
       <access-denied>غير مسموح. لا يمكنك الاستيراد هناك.</access-denied>
       <constraint-violation-exception>Impossible to import data. The type ''{0}'' is not allowed in this location.</constraint-violation-exception>
       <item-exists-exception>وردت عقدة ذات مرجع تحتوي على نفس الـمعرّف (UUID) مع عقدة موجودة مُسبقا في فضاء التخزين.</item-exists-exception>
@@ -2022,12 +2022,12 @@
   </UIFormInputSetWithAction>
   <RepeatCountValidator>
     <msg>
-      <invalid-value>صيغة القيمة الخاصّة بـ 'تكرار العد' غير صحيحة. يُرجى ادخال أعداد صحيحة أكبر من 0 أو 1- للأرقام اللانهائيّة.</invalid-value>
+      <invalid-value>صيغة القيمة الخاصّة بـ ''تكرار العد'' غير صحيحة. يُرجى ادخال أعداد صحيحة أكبر من 0 أو 1- للأرقام اللانهائيّة.</invalid-value>
     </msg>
   </RepeatCountValidator>
   <RepeatIntervalValidator>
     <msg>
-      <invalid-value>صيغة 'الفترة الزمنية' غير صحيحة. يُرجى ادخال عدد صحيح.</invalid-value>
+      <invalid-value>صيغة ''الفترة الزمنية'' غير صحيحة. يُرجى ادخال عدد صحيح.</invalid-value>
     </msg>
   </RepeatIntervalValidator>
   <UIPermissionSelector>
@@ -2057,11 +2057,11 @@
     <msg>
       <empty-input>محتوى هذا المجال فارغ.</empty-input>
       <Invalid-char>هناك بعض الحروف غير متاحة في هذا المجال. يُرجى ادخال محتوى آخر.</Invalid-char>
-      <Invalid-char2>يجب أن تكون الأعداد متبوعة بـ '~'.</Invalid-char2>
-      <Invalid-char1>العدد الذي يتبع '~' يجب أن يكون بين 0 و 1.</Invalid-char1>
-      <Invalid-char3>يجب أن تكون الأعداد متبوعة بـ '^'.</Invalid-char3>
-      <Invalid-char4>يجب أن لا تكون هناك فراغات قرب '~'.</Invalid-char4>
-      <Invalid-char5>يجب أن لا تكون هناك فراغات قرب '^'.</Invalid-char5>
+      <Invalid-char2>يجب أن تكون الأعداد متبوعة بـ ''~''.</Invalid-char2>
+      <Invalid-char1>العدد الذي يتبع ''~'' يجب أن يكون بين 0 و 1.</Invalid-char1>
+      <Invalid-char3>يجب أن تكون الأعداد متبوعة بـ ''^''.</Invalid-char3>
+      <Invalid-char4>يجب أن لا تكون هناك فراغات قرب ''~''.</Invalid-char4>
+      <Invalid-char5>يجب أن لا تكون هناك فراغات قرب ''^''.</Invalid-char5>
     </msg>
   </SearchValidator>
   <!--
@@ -3112,7 +3112,7 @@
     <AbortAll>وضع حدّ لجميع العمليات</AbortAll>
     <AbortAllFiles>وضع حدّ لجميع الملفّات</AbortAllFiles>
     <MaxFileSize>الحجم الأقصى للملفّ هو</MaxFileSize>
-    <InvalidCharacters>سيتمّ تغيير الأحرف الغير مرغوب فيها  بـ '-'</InvalidCharacters>
+    <InvalidCharacters>سيتمّ تغيير الأحرف الغير مرغوب فيها  بـ ''-''</InvalidCharacters>
     <DropFileMessage>إسقاط الملفات الخاصة بك في المجلد الحالي</DropFileMessage>
     <Close>إغلاق</Close>
     <in>في</in>

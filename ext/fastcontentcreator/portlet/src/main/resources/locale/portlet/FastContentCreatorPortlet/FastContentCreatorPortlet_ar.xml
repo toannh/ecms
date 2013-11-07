@@ -120,7 +120,7 @@
     </action>
     <msg>
       <repository-exception>لا يمكن تأكيد الحفظ. لا يجب أن يحتوي الاسم الذي تمّ ادخاله على مؤشّر أو دليل نحو آخر عنصر لديه.</repository-exception>
-      <numberformat-exception>لا يمكن حفظ هذا الاجراء. يجب ألا يكون أن يحتوي الاسم على '[' أو ']'.</numberformat-exception>
+      <numberformat-exception>لا يمكن حفظ هذا الاجراء. يجب ألا يكون أن يحتوي الاسم على ''['' أو '']''.</numberformat-exception>
       <existed-action>اسم الاجراء ''{0}'' '' موجود مُسبقــا. يُرجى اختيار اسما آخرا.</existed-action>
       <unable-add-action>غير قادر على إضافة هذا الإجراء</unable-add-action>
       <unable-add>لا يمكن إضافة هذا الاجراء! هذه العقدة هي الجذر أو ربّما ليس لديك الصلاحيّات الكافية.</unable-add>

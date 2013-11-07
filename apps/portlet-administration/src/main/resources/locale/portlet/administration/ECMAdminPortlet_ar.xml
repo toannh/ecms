@@ -198,7 +198,7 @@
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <register-unsuccessfull>إسم فضاء او 'URI' موجود مُسبقا !</register-unsuccessfull>
+      <register-unsuccessfull>إسم فضاء او ''URI'' موجود مُسبقا !</register-unsuccessfull>
       <prefix-null>يُرجى ادخال بادئة لاسم الفضاء</prefix-null>
       <uri-null>يُرجى تحديد الـURI الخاص باسم الفضاء</uri-null>
     </msg>
@@ -315,7 +315,7 @@
       <name>اسم العنصر</name>
       <type>النوع</type>
       <description>الوصف</description>
-      <isMixin>نوعه 'Mixin'</isMixin>
+      <isMixin>نوعه ''Mixin''</isMixin>
       <orderable>ترتيب الفروع</orderable>
     </header>
     <info>
@@ -428,7 +428,7 @@
   
   <UIRepositoryList>
     <titlebar>
-      <label>إدارة مهام الـ'ECM'</label>
+      <label>إدارة مهام الـ''ECM''</label>
     </titlebar>
   </UIRepositoryList>
   
@@ -460,7 +460,7 @@
     <header>
       <icon>أيقونة</icon>
       <nodeType>نوع العقدة</nodeType>
-      <mixinType>نوع 'Mixin'</mixinType>
+      <mixinType>نوع ''Mixin''</mixinType>
       <orderable>أبناء العقد مرتبة</orderable>
       <action>عمل</action>
     </header>
@@ -517,7 +517,7 @@
       <namespace>اسم الفضاء</namespace>
       <propertyNamespace>اسم الفضاء</propertyNamespace>
       <nodeTypeName>اسم نوع العقدة</nodeTypeName>
-      <mixinType>نوعه 'Mixin'</mixinType>
+      <mixinType>نوعه ''Mixin''</mixinType>
       <hasOrderableChildNodes>الفروع مرتبة</hasOrderableChildNodes>
       <primaryItemName>اسم العنصر الرئيسي</primaryItemName>
       <superTypes>الانواع السوبر</superTypes>
@@ -663,7 +663,7 @@
       <Cancel>#{word.cancel}</Cancel>
       <Upload>تحميل</Upload>
     </action>
-    <title>'XML' إستيراد  نوع عقدة من ملف ذات نوع</title>
+    <title>''XML'' إستيراد  نوع عقدة من ملف ذات نوع</title>
     <msg>
       <filename-error>استعراض الملف نوع عقدة للاستيراد</filename-error>
       <data-file-error>معتمدة فقط أكس ملف أو ملف مضغوط لاستيراد.</data-file-error>
@@ -696,7 +696,7 @@
   </UINodeTypeImport>
   <NodeTypeImportPopup>
     <title>
-      <UINodeTypeImportPopup>إستيراد  نوع عقدة من ملف من نوع 'XML'</UINodeTypeImportPopup>
+      <UINodeTypeImportPopup>إستيراد  نوع عقدة من ملف من نوع ''XML''</UINodeTypeImportPopup>
     </title>
   </NodeTypeImportPopup>
   <!--
@@ -754,11 +754,11 @@
     <title>إضافة/تغيير نوع العمل</title>
     <label>
       <actionType>نوع الاجراء متوارث</actionType>
-      <name>الإسم (يبدأ ب 'exo:')</name>
+      <name>الإسم (يبدأ ب ''exo:'')</name>
       <isMove>العمل مع التحرك</isMove>
       <variables>المتغيرات:</variables>
       <exo_businessProcessAction>طريقة العمل:</exo_businessProcessAction>
-      <exo_scriptAction>السكريبتات 'Groovy'</exo_scriptAction>
+      <exo_scriptAction>السكريبتات ''Groovy''</exo_scriptAction>
       <exo_ruleAction>القواعد</exo_ruleAction>
       <script>السكريبت:</script>
     </label>
@@ -782,7 +782,7 @@
   <UITabPane>
     <title>
       <UIViewContainer>المشاهد</UIViewContainer>
-      <ECMTemplate>قوالب الـ 'ECM'</ECMTemplate>
+      <ECMTemplate>قوالب الـ ''ECM''</ECMTemplate>
       <UIScriptForm>سكريبتات</UIScriptForm>
       <UIDialogTab>واجهة المستخدم</UIDialogTab>
       <UIViewTab>عرض</UIViewTab>
@@ -1176,7 +1176,7 @@
   -->
   <uiECMScriptsPopup>
     <title>
-      <ecmScriptForm>سكريبت الـ'ECM'</ecmScriptForm>
+      <ecmScriptForm>سكريبت الـ''ECM''</ecmScriptForm>
     </title>
   </uiECMScriptsPopup>
 
@@ -1994,14 +1994,14 @@
     <label>
       <styleName>اختيار الاسم:</styleName>
       <documentRange>عدد التكرارات:</documentRange>
-      <styleHTML>نمط الـ 'HTML':</styleHTML>
+      <styleHTML>نمط الـ ''HTML'':</styleHTML>
     </label>
     <action>
       <UpdateStyle>تحديث</UpdateStyle>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <range-validator>عدد الوصلات غير صحيح. الشكل الصحيح هو: أ..بحيث تكون "أ" و "ب" أعدادا صحيحة موجبة.يمكنك إستعمال '*' للإشارة عوضاً عن "ب" للإشارة بأن القيمة غير محدودة.</range-validator>
+      <range-validator>عدد الوصلات غير صحيح. الشكل الصحيح هو: أ..بحيث تكون "أ" و "ب" أعدادا صحيحة موجبة.يمكنك إستعمال ''*'' للإشارة عوضاً عن "ب" للإشارة بأن القيمة غير محدودة.</range-validator>
       <error-update>أثناء عملية التحديث. هذه المعلومات غير صحيحة.</error-update>
       <item-not-existing>لا يمكنك حفظ التغييرات الخاصة بهذه العلامة و التي لم تعد موجودة في قاعدة البينات.</item-not-existing>
     </msg>
