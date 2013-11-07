@@ -22,7 +22,7 @@
 <bundle>
   <UIExoStart>
     <tooltip>
-      <homepage>Page d'accueil</homepage>
+      <homepage>Page d''accueil</homepage>
     </tooltip>
   </UIExoStart>
 
@@ -204,7 +204,7 @@
       <empty-field>La valeur de ce champ est nulle ou vide!</empty-field>
       <invalid-format>Blancs datetime format dans le champ ''{0}''</invalid-format>
       <invalid-date>"To Date" have to greater than "From Date"</invalid-date>
-      <invalid-nodeType>Type de noeud "(0)" n'est pas valide! S'il vous plaît vérifiez à nouveau.</invalid-nodeType>
+      <invalid-nodeType>Type de noeud "(0)" n''est pas valide! S''il vous plaît vérifiez à nouveau.</invalid-nodeType>
       <invalid-keyword>Le mot clé est invalide. Certains caractères ne sont pas autorisés.</invalid-keyword>
     </msg>
   </UIContentSearchForm>
@@ -251,7 +251,7 @@
       <View>Affichage</View>
     </title>
     <msg>
-    	<template-not-support>Vous ne pouvez pas voir ce contenu en avant-permière. Ce masque de saisie n'est pas supporté</template-not-support>
+    <template-not-support>Vous ne pouvez pas voir ce contenu en avant-permière. Ce masque de saisie n''est pas supporté</template-not-support>
     </msg>
   </UIContentSearchResult>
 
@@ -263,16 +263,16 @@
       <Close>Fermer</Close>
     </action>
     <msg>
-      <access-denied>Vous n'avez pas la permission ajouter des catégories pour ce document.</access-denied>
+      <access-denied>Vous n''avez pas la permission ajouter des catégories pour ce document.</access-denied>
       <exception>Pour toute exception élever tout accomplir ajouter des catégories pour ce document.</exception>
-      <non-categories>Les catégories sont faux. S'il vous plaît sélectionner des catégories bien.</non-categories>
+      <non-categories>Les catégories sont faux. S''il vous plaît sélectionner des catégories bien.</non-categories>
     </msg>
   </UIContentDialogForm>
 
   <UIPermissionManager>
     <label>
       <UIPermissionInputSetWithAction>Permission</UIPermissionInputSetWithAction>
-      <UIAccessibleCheckboxInput>Droit d'accès</UIAccessibleCheckboxInput>
+      <UIAccessibleCheckboxInput>Droit d''accès</UIAccessibleCheckboxInput>
       <UIEditableCheckboxInput>Droit de modifier</UIEditableCheckboxInput>
     </label>
     <action>
@@ -294,7 +294,7 @@
     </header>
     <msg>
       <confirm-delete-permission>Confirmez-vous vouloir supprimer cette permission ?</confirm-delete-permission>
-      <no-permission-remove>Il n'y a pas de permission à supprimer.</no-permission-remove>
+      <no-permission-remove>Il n''y a pas de permission à supprimer.</no-permission-remove>
       <access-denied>Accès refusé.</access-denied>
       <node-locked>L''élément de chemin {0} ou l''un de ses parents est verrouillé.</node-locked>
       <userOrGroup-required>Vous devez sélectionner un utilisateur ou un groupe.</userOrGroup-required>
@@ -305,7 +305,7 @@
 
   <UIPermissionInputSetWithAction>
     <title>
-      <SelectUser>Sélectionner l'utilisateur</SelectUser>
+      <SelectUser>Sélectionner l''utilisateur</SelectUser>
       <SelectMember>Sélectionner le membre</SelectMember>
       <AddAny>Toutes</AddAny>
     </title>
@@ -313,7 +313,7 @@
 
   <UIUserSelectorPopupWindow>
     <title>
-      <UIUserContainer>Sélecteur d'Utilisateur</UIUserContainer>
+      <UIUserContainer>Sélecteur d''Utilisateur</UIUserContainer>
     </title>
   </UIUserSelectorPopupWindow>
 
@@ -375,7 +375,7 @@
     <login>Connexion</login>
     <logout>Déconnexion</logout>
     <language>Changer de Langue</language>
-    <register>S'inscrire</register>
+    <register>S''inscrire</register>
   </Signin>
   <UIDriveForm>
 	<label>
@@ -416,7 +416,7 @@
  
   <UIDocumentInfo>
     <msg>
-      <access-denied-exception>Accès refusé. Veuillez vérifier vos droits d'accès à ce noeud.</access-denied-exception>
+      <access-denied-exception>Accès refusé. Veuillez vérifier vos droits d''accès à ce noeud.</access-denied-exception>
     </msg>
   </UIDocumentInfo>
   <UIPortalApplication>
