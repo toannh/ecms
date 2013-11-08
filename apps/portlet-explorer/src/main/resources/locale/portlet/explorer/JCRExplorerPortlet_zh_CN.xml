@@ -1221,7 +1221,7 @@
   <UIECMSearch>
     <header>
       <name>Name</name>
-      <language>Language</language>
+      <language>语言</language>
       <query>Query</query>
       <action>Actions</action>
       <path>Path</path>
