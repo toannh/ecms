@@ -795,7 +795,7 @@
   <UIWidgetScriptContainer>Widgets</UIWidgetScriptContainer>
 <UIInterceptorScriptContainer>Interceptadores</UIInterceptorScriptContainer>
 
-<nodeTypeDefinition>Node Type</nodeTypeDefinition>
+<nodeTypeDefinition>Tipo de nó</nodeTypeDefinition>
       <propertyDefinition>Propriedade</propertyDefinition>
       <childNodeDefinition>Nó filho</childNodeDefinition>
       <SuperTypeTab>Super tipos</SuperTypeTab>
@@ -1030,7 +1030,7 @@
 <tab_permission>
  <title>
   <SelectUser>Selecionar usuário</SelectUser>
-<SelectMember>Select Member</SelectMember>
+<SelectMember>Selecionar membro</SelectMember>
 <AddAny>Qualquer um</AddAny>
  </title>
 </tab_permission>

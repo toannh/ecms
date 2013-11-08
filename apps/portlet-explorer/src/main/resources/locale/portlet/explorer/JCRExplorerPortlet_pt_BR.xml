@@ -764,7 +764,7 @@
   <SelectUserOrGroup>
     <title>
       <UIGroupSelector>Selecionar usuário</UIGroupSelector>
-      <UIPermissionSelector>Select Member</UIPermissionSelector>
+      <UIPermissionSelector>Selecionar membro</UIPermissionSelector>
       <UIGroupMemberSelector>Selecionar associação de cargo</UIGroupMemberSelector>
     </title>
   </SelectUserOrGroup>
@@ -1475,7 +1475,7 @@
       <mimetype-invalid>Apenas arquivos .xml ou .zip são suportados na importação.</mimetype-invalid>
       <access-denied>Acesso negado. Você não está habilitado a importar aí.</access-denied>
       <constraint-violation-exception>Impossível importar dados. O tipo '{0}' não é permitido neste local.</constraint-violation-exception>
-      <item-exists-exception>An incoming referenceable node has the same UUID as an existing node in the workspace.</item-exists-exception>
+      <item-exists-exception>Um nó referenciável de entrada tem o mesmo UUID que um nó existente no espaço de trabalho.</item-exists-exception>
     </msg>
   </UIImportNode>
   <!--
@@ -1559,7 +1559,7 @@
       <action>Ações</action>
     </header>
     <msg>
-      <access-denied>Access denied. You do not have access permission in this node.</access-denied>
+      <access-denied>Acesso negado. Você não possui permissão suficiente neste nó.</access-denied>
       <confirm-delete>Você realmente deseja excluir esta referência?</confirm-delete>
     </msg>
     <action>
@@ -1579,7 +1579,7 @@
       <action>Ação</action>
     </header>
     <info>
-      <child-not-found>This node does not have any child nodes.</child-not-found>
+      <child-not-found>Este nó não tem nenhum nó filho.</child-not-found>
     </info>
   </UITreeList>
   <!--
@@ -1629,14 +1629,14 @@
       <action>Ação</action>
     </header>
     <label>
-      <nocommand>There are no items in the clipboard.</nocommand>
+      <nocommand>Não há itens na área de transferência.</nocommand>
     </label>
     <action>
       <clearall>Limpar todos</clearall>
     </action>
     <msg>
       <unable-pasted>Não pode colar este nó.</unable-pasted>
-      <node-pasted>Node {0} has been pasted at location {1}. This operation has already been saved.</node-pasted>
+      <node-pasted>O nó {0} foi colado em {1}. Esta operação já foi salva e você não precisa apertar o botão salvar.</node-pasted>
     </msg>
   </UIClipboard>
   <!--
@@ -1651,7 +1651,7 @@
   -->
   <UISelectDocumentForm>
     <label>
-      <selectTemplate>Select your template from the list below</selectTemplate>
+      <selectTemplate>Selecione seu modelo da lista abaixo.</selectTemplate>
       <ThumbnailView>Ver miniaturas</ThumbnailView>
       <ListView>Lista de exibição</ListView>
       <Cancel>#{word.cancel}</Cancel>
@@ -1663,7 +1663,7 @@
   #######################################################################
   -->
   <UIDocumentForm>
-    <title>Add New Document</title>
+    <title>Adicionar novo documento</title>
     <action>
       <Save>Salvar</Save>
       <SaveAndClose>Salvar &amp; Fechar</SaveAndClose>
@@ -1676,15 +1676,15 @@
 <FullScreen>Maximizar/minimizar</FullScreen>
 </tooltip>
     <msg>
-      <cannot-save>An error occurred while saving the document.</cannot-save>
+      <cannot-save>Erro enquanto salvava o documento.</cannot-save>
       <in-versioning>Por favor, reserve o nó atual antes de adicionar um novo nó.</in-versioning>
-      <not-support>Cannot load the template of '{0}'.</not-support>
+      <not-support>Não foi possível carregar o modelo de '{0}'.</not-support>
       <value-invalid>'{0}' é um valor obrigatório.</value-invalid>
-      <repository-exception>An error occurred while saving the document.</repository-exception>
+      <repository-exception>Erro enquanto salvava o documento.</repository-exception>
       <!--DMS 2.4.x; ECM-3543-->
-      <repository-exception-permission>You do not have permission to add a new document to this node.</repository-exception-permission>
-      <not-allowed-same-name-sibling>You cannot save this document. It is not allowed to have the same name as its sibling.</not-allowed-same-name-sibling>
-      <numberformat-exception>You cannot save this document. The name provided must be in numerical format.</numberformat-exception>
+      <repository-exception-permission>Você não tem permissão para adicionar um novo documento neste nó.</repository-exception-permission>
+      <not-allowed-same-name-sibling>Você não pode salvar este documento. Não é possível ter o mesmo nome que seu irmão.</not-allowed-same-name-sibling>
+      <numberformat-exception>Não é possível salvar este documento. O nome provido deve ser numérico.</numberformat-exception>
       <item-not-found>Item não encontrado. Talvez este nó (ou seu antecessor) foi excluído. Por favor, clique no botão Atualizar.</item-not-found>
     </msg>
   </UIDocumentForm>
@@ -1776,10 +1776,10 @@
       <numberformat-exception>Não pode salvar esta ação. O nome provido deve ser numérico.</numberformat-exception>
       <existed-action>O nome da ação '{0}' existe. Escolha outro nome, por favor.</existed-action>
       <unable-add-action>Não é possível adicionar esta ação.</unable-add-action>
-      <unable-add>Cannot add this action. This node is either root or you do not have permision.</unable-add>
-      <not-support>Dialog '{0}' is not supported.</not-support>
-      <no-permission-add>Access denied. You do not have the right to add an action here.</no-permission-add>
-      <access-denied>Access denied. You do not have permission to access this template.</access-denied>
+      <unable-add>Incapaz de adicionar esta ação. Este nó é o raiz ou você não tem permissão suficiente.</unable-add>
+      <not-support>A janela de criação/edição '{0}' não é suportada.</not-support>
+      <no-permission-add>Acesso negado. Você não tem permissão para adicionar uma ação aqui.</no-permission-add>
+      <access-denied>Acesso negado. Você não tem permissão para acessar este modelo.</access-denied>
       <lifecycle-invalid>Você não pode adicionar essa ação. A fase do ciclo de vida de ação é inválida.</lifecycle-invalid>
     </msg>
     <title>Adicionar/Editar uma ação</title>
@@ -1796,8 +1796,8 @@
   <PopupComponent>
     <title>
       <UIOneNodePathSelector>Selecionar local</UIOneNodePathSelector>
-      <UIPermissionSelector>Permission Browser</UIPermissionSelector>
-      <UICategoriesSelector>Add Categories</UICategoriesSelector>
+      <UIPermissionSelector>Seletor de permissões</UIPermissionSelector>
+      <UICategoriesSelector>Adicionar categorias</UICategoriesSelector>
     </title>
   </PopupComponent>
   <EditFormAction>
@@ -1815,7 +1815,7 @@
   <UIAddressBar>
     <msg>
       <path-not-found>Caminho não encontrado.</path-not-found>
-      <access-denied>Access denied. You do not have the right to read the node.</access-denied>
+      <access-denied>Acesso negado. Você não tem permissão de leitura para este nó.</access-denied>
       <keyword-not-support>A palavra-chave é inválida. Alguns caracteres não são suportados.</keyword-not-support>
     </msg>
     <label>
@@ -1824,8 +1824,8 @@
     </label>
     <title>
       <exeButton>Ir</exeButton>
-      <backButton>Back to the previous node</backButton>
-      <showHistory>Show the history address</showHistory>
+      <backButton>Voltar para o nó anterior</backButton>
+      <showHistory>Mostrar histórico de endereço</showHistory>
       <changeNode>Alterar nó</changeNode>
     </title>
   </UIAddressBar>
@@ -1867,8 +1867,8 @@
       <Cancel>#{word.close}</Cancel>
     </action>
     <msg>
-      <name-exist>The tag name '{0}' already exists.</name-exist>
-      <tagName-invalid>The tag name contains some invalid characters.</tagName-invalid>
+      <name-exist>Nome da tag '{0}' existe.</name-exist>
+      <tagName-invalid>Há alguns caracteres inválidos no nome da tag.</tagName-invalid>
       <tag-name-empty>Seu nome de tag está vazio</tag-name-empty>
       <tag-name-duplicate>Você informou tags duplicadas.</tag-name-duplicate>
       <tagName-too-long>Uma das tags inseridas é muito longa. As tags devem ter menos de 30 caracteres.</tagName-too-long>
@@ -1886,7 +1886,7 @@
   -->
   <UIViewMetadataContainer>
     <msg>
-      <path-not-found>Node does not support this view.</path-not-found>
+      <path-not-found>O nó não suporta esta visualização.</path-not-found>
     </msg>
   </UIViewMetadataContainer>
   <!--
@@ -1902,12 +1902,12 @@
   </UIViewMetadataForm>
   <metadataForm>
     <title>
-      <UIViewMetadataForm>Add/Edit Properties</UIViewMetadataForm>
+      <UIViewMetadataForm>Adicionar/Editar propriedades</UIViewMetadataForm>
     </title>
   </metadataForm>
   <UIViewMetadataTemplate>
     <msg>
-      <access-denied>Access denied. You are either not the owner or do not have edit permission in this node.</access-denied>
+      <access-denied>Acesso negado. Você não é o dono ou não tem permissão de editar neste nó.</access-denied>
     </msg>
   </UIViewMetadataTemplate>
   <!--
@@ -1917,13 +1917,13 @@
   -->
   <ECMNameValidator>
     <msg>
-      <Invalid-char>The field '{0}' contains some invalid characters. Please enter another value.</Invalid-char>
-      <empty-input>The value of the field '{0}' is null or empty.</empty-input>
+      <Invalid-char>Há alguns caracteres inválidos no campo '{0}'. Coloque outro valor, por favor.</Invalid-char>
+      <empty-input>O valor do campo '{0}' está nulo ou vazio.</empty-input>
     </msg>
   </ECMNameValidator>
   <DateTimeValidator>
     <msg>
-      <Invalid-input>Field '{0}' with value '{1}' is invalid.</Invalid-input>
+      <Invalid-input>O campo '{0}' com valor '{1}' é inválido.</Invalid-input>
     </msg>
   </DateTimeValidator>
   <CronExpressionValidator>
@@ -1931,7 +1931,7 @@
   </CronExpressionValidator>
   <EmptyFieldValidator>
     <msg>
-      <empty-input>Please fill in the field '{0}'.</empty-input>
+      <empty-input>Por favor, preencha o campo '{0}'.</empty-input>
     </msg>
   </EmptyFieldValidator>
   <CategoryValidator>
@@ -1945,25 +1945,25 @@
   ###################################################################################
   -->
   <ReferentialIntegrityException>
-    <msg>Action failed. There are still some reference items in the workspace.</msg>
+    <msg>A ação falhou. Ainda há alguns itens no espaço de trabalho.</msg>
   </ReferentialIntegrityException>
   <ItemExistsException>
-    <msg>This item already exists.</msg>
+    <msg>Este item já existe.</msg>
   </ItemExistsException>
   <AccessControlException>
-    <msg>Access denied. You do not have permission to perform this action.</msg>
+    <msg>Acesso negado. Você não tem permissão suficiente para executar essa ação.</msg>
   </AccessControlException>
   <AccessDeniedException>
-    <msg>Access denied.</msg>
+    <msg>Acesso negado.</msg>
   </AccessDeniedException>
   <ItemNotFoundException>
-    <msg>Item not found. It may have been removed or changed.</msg>
+    <msg>Item não encontrado. Talvez ele foi removido ou modificado.</msg>
   </ItemNotFoundException>
   <PathNotFoundException>
-    <msg>Path not found. It may have been removed or changed.</msg>
+    <msg>Caminho não encontrado. Talvez ele foi removido ou alterado.</msg>
   </PathNotFoundException>
   <ConstraintViolationException>
-    <msg>You cannot perform this action due to some constraints.</msg>
+    <msg>Você não pode executar essa ação porque há algumas restrições.</msg>
   </ConstraintViolationException>
   <!--
   ###################################################################################
@@ -1978,9 +1978,9 @@
       <private>Privado</private>
       <state>Estado</state>
       <visibility>Visibilidade</visibility>
-      <nodeName>Node Name:</nodeName>
-      <lifecycleName>Lifecycle Name</lifecycleName>
-      <stateName>State Name</stateName>
+      <nodeName>Nome do nó:</nodeName>
+      <lifecycleName>Nome do ciclo de vida</lifecycleName>
+      <stateName>Nome do estado</stateName>
     </label>
     <action>
       <Save>Salvar</Save>
@@ -2002,7 +2002,7 @@
   </UIWorkspaceList>
   <pathSelector>
     <title>
-      <UIOneNodePathSelector>Node Selector</UIOneNodePathSelector>
+      <UIOneNodePathSelector>Seletor de nó</UIOneNodePathSelector>
     </title>
   </pathSelector>
   <!--
@@ -2012,7 +2012,7 @@
   -->
   <EmailAddressValidator>
     <msg>
-      <Invalid-input>The email address is invalid.</Invalid-input>
+      <Invalid-input>Endereço de email é inválido.</Invalid-input>
     </msg>
   </EmailAddressValidator>
   <UIFormInputSetWithAction>
@@ -2022,12 +2022,12 @@
   </UIFormInputSetWithAction>
   <RepeatCountValidator>
     <msg>
-      <invalid-value>The value in the field 'Repeat Count' is invalid. Only integers or -1 are allowed.</invalid-value>
+      <invalid-value>Valor inválido no campo 'Repetir contagem'. Somente inteiros ou -1 são suportados.</invalid-value>
     </msg>
   </RepeatCountValidator>
   <RepeatIntervalValidator>
     <msg>
-      <invalid-value>The value in the field 'Time Interval' is invalid. Only long types are allowed.</invalid-value>
+      <invalid-value>Valor do campo 'Intervalo de tempo' é inválido. Só são aceitos tipos longos (Long Types).</invalid-value>
     </msg>
   </RepeatIntervalValidator>
   <UIPermissionSelector>
@@ -2044,8 +2044,8 @@
   -->
   <ECMStandardPropertyNameValidator>
     <msg>
-      <empty-input>The value of the field '{0}' is null or empty.</empty-input>
-      <Invalid-char>The field '{0}'contains some invalid characters. Please enter another value.</Invalid-char>
+      <empty-input>O valor do campo '{0}' é nulo ou vazio.</empty-input>
+      <Invalid-char>Há algum caractere inválido no campo '{0}'. Coloque outro valor, por favor.</Invalid-char>
     </msg>
   </ECMStandardPropertyNameValidator>
   <!--
@@ -2055,12 +2055,12 @@
   -->
   <SearchValidator>
     <msg>
-      <empty-input>The value of this field is null or empty.</empty-input>
-      <Invalid-char>This field contains some invalid characters. Please enter another value.</Invalid-char>
-      <Invalid-char2>The number must be followed by the character '~'.</Invalid-char2>
-      <Invalid-char1>The number following the character '~' must between 0 and 1.</Invalid-char1>
-      <Invalid-char3>The number must be followed by the character '^'.</Invalid-char3>
-      <Invalid-char4>Spaces are not allowed near the character '~'.</Invalid-char4>
+      <empty-input>O valor deste campo é nulo ou vazio.</empty-input>
+      <Invalid-char>Há algum caractere inválido neste campo. Coloque outro valor, por favor.</Invalid-char>
+      <Invalid-char2>O número deve ser seguido pelo caractere '~'.</Invalid-char2>
+      <Invalid-char1>O número seguido por '~' deve ser entre 0 e 1.</Invalid-char1>
+      <Invalid-char3>O número deve ser seguido pelo caractere '^'.</Invalid-char3>
+      <Invalid-char4>Espaços não são permitidos perto do caractere '~'.</Invalid-char4>
       <Invalid-char5>Espaços não são permitidos perto do caractere '^'.</Invalid-char5>
     </msg>
   </SearchValidator>
