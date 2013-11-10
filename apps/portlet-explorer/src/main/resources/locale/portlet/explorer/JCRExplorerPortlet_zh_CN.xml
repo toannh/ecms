@@ -1167,7 +1167,7 @@
     <label>
       <name>Name</name>
       <selectBox>Select Query Style</selectBox>
-      <query>Query</query>
+      <query>查询</query>
     </label>
     <action>
       <Save>#{word.save}</Save>
@@ -1190,12 +1190,12 @@
   </UIMetadataSelectForm>
   <property1MetadataPopup>
     <title>
-      <UISelectPropertyForm>Select Property</UISelectPropertyForm>
+      <UISelectPropertyForm>选择属性</UISelectPropertyForm>
     </title>
   </property1MetadataPopup>
   <property2MetadataPopup>
     <title>
-      <UISelectPropertyForm>Select Property</UISelectPropertyForm>
+      <UISelectPropertyForm>选择属性</UISelectPropertyForm>
     </title>
   </property2MetadataPopup>
   <property3MetadataPopup>
@@ -1222,7 +1222,7 @@
     <header>
       <name>Name</name>
       <language>语言</language>
-      <query>Query</query>
+      <query>查询</query>
       <action>Actions</action>
       <path>Path</path>
     </header>
@@ -1378,7 +1378,7 @@
       <operation>Operation</operation>
       <userName>Username</userName>
       <date>Date</date>
-      <version>Version</version>
+      <version>版本</version>
     </label>
   </UIAuditingInfo>
 
@@ -1391,7 +1391,7 @@
     <label>
       <note>Versioning has not been activated for this node.</note>
       <question>Are you sure you want to activate it?</question>
-      <button-active>Activate</button-active>
+      <button-active>激活</button-active>
       <button-cancel>取消</button-cancel>
     </label>
     <msg>
@@ -1433,7 +1433,7 @@
       <question>Are you sure you want to activate?</question>
     </label>
     <action>
-      <activate>Activate</activate>
+      <activate>激活</activate>
       <cancel>取消</cancel>
     </action>
   </UIActivateAuditing>
@@ -1447,7 +1447,7 @@
       <diffTitle>Compare between two versions</diffTitle>
       <noChange>No change between two versions</noChange>
       <baseVerion>Base Version</baseVerion>
-      <compareVerion>Version</compareVerion>
+      <compareVerion>版本</compareVerion>
       <can-not-compare>Failed to compare two versions</can-not-compare>
     </label>
   </UIDiff>
@@ -1716,7 +1716,7 @@
   <UIQuerySaveForm>
     <title>Save Query Form</title>
     <label>
-      <query>Query</query>
+      <query>查询</query>
       <name>Query Name</name>
     </label>
     <action>
@@ -2075,7 +2075,7 @@
       <newState>New State</newState>
       <user>User</user>
       <description>说明</description>
-      <version>Version</version>
+      <version>版本</version>
       <visibility>Visibility</visibility>
     </header>
     <action>
@@ -2089,7 +2089,7 @@
   -->
   <UIVersionTreeList>
     <header>
-      <version>Version</version>
+      <version>版本</version>
       <state>State</state>
     </header>
   </UIVersionTreeList>
