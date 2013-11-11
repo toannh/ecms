@@ -796,7 +796,7 @@
 <UIInterceptorScriptContainer>Interceptors</UIInterceptorScriptContainer>
 
 <nodeTypeDefinition>Node Type</nodeTypeDefinition>
-      <propertyDefinition>Property</propertyDefinition>
+      <propertyDefinition>属性</propertyDefinition>
       <childNodeDefinition>Child Node</childNodeDefinition>
       <SuperTypeTab>Super Types</SuperTypeTab>
       <DefaultTypeTab>Default Primary</DefaultTypeTab>
@@ -935,7 +935,7 @@
     <label>
       <viewName>Name</viewName>
       <template>Template</template>
-<version>Restore Version</version>
+<version>还原的版本</version>
       <enableVersion>启用版本</enableVersion>
       <hideExplorerPanel>Hide explorer panel in side bar</hideExplorerPanel>
     </label>
@@ -947,7 +947,7 @@
       <fileName-invalid>The tab name contains some invalid characters.</fileName-invalid>
     </msg>
     <label>
-      <version>Restore Version</version>
+      <version>还原的版本</version>
       <viewName>Name</viewName>
       <tabName>Tab Name</tabName>
       <permission>Permission</permission>
@@ -970,7 +970,7 @@
       <manageCategories>Manage Categories</manageCategories>
       <manageRelations>Manage Relations</manageRelations>
       <manageActions>Manage Actions</manageActions>
-      <exportNode>Export Node</exportNode>
+      <exportNode>出口节点</exportNode>
       <importNode>Import Node</importNode>
       <viewRelations>View Relations</viewRelations>
       <showJCRStructure>Show JCR Structure</showJCRStructure>

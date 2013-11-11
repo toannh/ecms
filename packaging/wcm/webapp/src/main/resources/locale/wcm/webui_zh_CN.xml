@@ -180,11 +180,11 @@
       <Location>Site Name</Location>
       <SearchByName>Search by Name</SearchByName>
       <Fulltext>A word or phrase in context</Fulltext>
-      <Property>Property</Property>
-      <Contain>Contain</Contain>
+      <Property>属性</Property>
+      <Contain>包含</Contain>
       <FromDate>From Date</FromDate>
       <ToDate>To Date</ToDate>
-      <DocumentType>Document Type</DocumentType>
+      <DocumentType>文档类型</DocumentType>
     </title>
     <tooltip>
       <AddMetadataType>Add Property</AddMetadataType>
@@ -192,8 +192,8 @@
     </tooltip>    
     <label>
       <option>
-        <CREATED>Created</CREATED>
-        <MODIFIED>Modified</MODIFIED>
+        <CREATED>创建时间</CREATED>
+        <MODIFIED>修改时间</MODIFIED>
       </option>
     </label>
     <action>
@@ -222,7 +222,7 @@
     </action>
     <label>
       <metadataType>Metadata Type</metadataType>
-      <property_select>Property</property_select>
+      <property_select>属性</property_select>
     </label>
   </UIContentPropertySelector>
 
