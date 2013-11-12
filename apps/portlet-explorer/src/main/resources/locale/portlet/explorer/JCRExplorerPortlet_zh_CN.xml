@@ -520,7 +520,7 @@
       <Rename>Rename</Rename>
       <Cut>剪切</Cut>
       <Copy>复制</Copy>
-      <Save>Save</Save>
+      <Save>#{word.save}</Save>
       <RemoveNode>Delete</RemoveNode>
       <Checkin>Checkin</Checkin>
       <Checkout>Checkout</Checkout>
@@ -570,7 +570,7 @@
       <Copy>Copy</Copy>
       <Rename>Rename</Rename>
       <Delete>Delete</Delete>
-      <Save>Save</Save>
+      <Save>#{word.save}</Save>
       <Cut>Cut</Cut>
       <Paste>Paste</Paste>
       <CheckOut>CheckOut</CheckOut>
@@ -609,7 +609,7 @@
       <path>Path</path>
     </header>
     <action>
-      <Close>关闭</Close>
+      <Close>#{word.close}</Close>
     </action>
   </UIReferencesList>
   <!--
@@ -705,7 +705,7 @@
     </label>
     <action>
       <Save>#{word.save}</Save>
-      <Cancel>取消</Cancel>
+      <Cancel>#{word.cancel}</Cancel>
       <Reset>重置</Reset>
     </action>
     <msg>
@@ -831,7 +831,7 @@
       <node-def-dnt>DNT</node-def-dnt>
     </label>
     <action>
-      <Close>关闭</Close>
+      <Close>#{word.close}</Close>
     </action>
   </UINodeTypeInfo>
   <!--
@@ -846,7 +846,7 @@
       </label>
     </tab>
     <action>
-      <Close>关闭</Close>
+      <Close>#{word.close}</Close>
     </action>
   </UICategoryManagerSearch>
   <UIContentNameSearch>
@@ -1075,7 +1075,7 @@
     </msg>
     <button>
       <label-Add>添加</label-Add>
-      <label-Cancel>Cancel</label-Cancel>
+      <label-Cancel>#{word.cancel}</label-Cancel>
     </button>
   </UIConstraintsForm>
   <UIConstraintForm>
@@ -1122,8 +1122,8 @@
   </SaveQueryPopup>
   <UINodeTypeSelectForm>
     <action>
-      <Cancel>Cancel</Cancel>
-      <Save>Save</Save>
+      <Cancel>#{word.cancel}</Cancel>
+      <Save>#{word.save}</Save>
     </action>
   </UINodeTypeSelectForm>
   <UICompareExactlyForm>
@@ -1136,7 +1136,7 @@
     </title>
     <button>
       <label-Select>请选择</label-Select>
-      <label-Cancel>Cancel</label-Cancel>
+      <label-Cancel>#{word.cancel}</label-Cancel>
     </button>
     <msg>
       <not-result-found>没有找到结果。</not-result-found>
@@ -1210,7 +1210,7 @@
     <pLabel>属性：</pLabel>
     <action>
       <Add>Add</Add>
-      <Cancel>取消</Cancel>
+      <Cancel>#{word.cancel}</Cancel>
     </action>
   </UISelectPropertyForm>
   <ExactlyFormPopup>
@@ -1334,7 +1334,7 @@
       <invalid-item-state>You cannot restore this version, either because one or more items were deleted or moved during another session.</invalid-item-state>
     </msg>
     <action>
-      <close>关闭</close>
+      <close>#{word.close}</close>
       <close-view>Close View</close-view>
     </action>
   </UIVersionInfo>
@@ -1353,7 +1353,7 @@
       <e_4>Property Added</e_4>
       <e_16>Property Changed</e_16>
       <e_8>Property Removed</e_8>
-      <e_32>Save</e_32>
+      <e_32>#{word.save}</e_32>
       <e_64>Move</e_64>
       <e_128>复制</e_128>
       <e_256>Add Mixin</e_256>
@@ -1392,7 +1392,7 @@
       <note>不激活此节点的版本控制。</note>
       <question>确实想激活它吗?</question>
       <button-active>激活</button-active>
-      <button-cancel>取消</button-cancel>
+      <button-cancel>#{word.cancel}</button-cancel>
     </label>
     <msg>
       <access-denied>您没有权限来激活此节点上的版本控制</access-denied>
@@ -1410,7 +1410,7 @@
       <action>Action</action>
     </header>
     <action>
-      <Cancel>关闭</Cancel>
+      <Cancel>#{word.close}</Cancel>
     </action>
     <grid>
       <msg>
@@ -1434,7 +1434,7 @@
     </label>
     <action>
       <activate>激活</activate>
-      <cancel>取消</cancel>
+      <cancel>#{word.cancel}</cancel>
     </action>
   </UIActivateAuditing>
   <!--
@@ -1489,7 +1489,7 @@
     </label>
     <action>
       <Save>#{word.save}</Save>
-      <Cancel>取消</Cancel>
+      <Cancel>#{word.cancel}</Cancel>
     </action>
     <title>添加标签</title>
     <msg>
@@ -1544,7 +1544,7 @@
   -->
   <UICategoryManager>
     <action>
-      <Close>关闭</Close>
+      <Close>#{word.close}</Close>
     </action>
     <tab>
       <label>
@@ -1589,7 +1589,7 @@
   -->
   <UIRelationManager>
     <action>
-      <Close>关闭</Close>
+      <Close>#{word.close}</Close>
     </action>
     <tab>
       <label>
@@ -1665,7 +1665,7 @@
   <UIDocumentForm>
     <title>Add New Document</title>
     <action>
-      <Save>Save</Save>
+      <Save>#{word.save}</Save>
       <SaveAndClose>保存 &amp; 关闭</SaveAndClose>
       <ChangeType>更改内容类型</ChangeType>
       <Fullscreen>全屏显示</Fullscreen>
@@ -1985,7 +1985,7 @@
     <action>
       <Save>Save</Save>
       <UnsubcriberLifeCycle>Unsubscriber</UnsubcriberLifeCycle>
-      <Cancel>取消</Cancel>
+      <Cancel>#{word.cancel}</Cancel>
     </action>
   </UIPublicationForm>
   <!--
@@ -2032,7 +2032,7 @@
   </RepeatIntervalValidator>
   <UIPermissionSelector>
     <label>
-      <selectGroup>Select Group</selectGroup>
+      <selectGroup>选择组</selectGroup>
       <selectUser>选择用户</selectUser>
       <selectMembership>选择成员身份</selectMembership>
     </label>
@@ -2079,7 +2079,7 @@
       <visibility>Visibility</visibility>
     </header>
     <action>
-      <Close>关闭</Close>
+      <Close>#{word.close}</Close>
     </action>
   </UIPublicationLogList>
   <!--
@@ -2142,7 +2142,7 @@
   -->
   <UICategoriesSelector>
     <action>
-      <close>关闭</close>
+      <close>#{word.close}</close>
     </action>
   </UICategoriesSelector>
   <!--
@@ -2152,7 +2152,7 @@
   -->
   <UIGroupMemberSelector>
     <label>
-      <selectGroup>Select Group</selectGroup>
+      <selectGroup>选择组</selectGroup>
       <selectUser>选择用户</selectUser>
       <selectMembership>选择成员身份</selectMembership>
     </label>
@@ -2166,7 +2166,7 @@
   Access directly a JCR FE drive
   -->
   <UIJCRExplorerPortlet>
-    <nopermission>There is either no drive or you do not have permission to access this drive.</nopermission>
+    <nopermission>没有驱动器或您没有权限访问此驱动器。</nopermission>
   </UIJCRExplorerPortlet>
 
   <UIJcrExplorerEditForm>
@@ -2174,25 +2174,25 @@
     <action>
       <Edit>Edit</Edit>
       <Save>Save</Save>
-      <Cancel>取消</Cancel>
+      <Cancel>#{word.cancel}</Cancel>
     </action>
     <label>
       <uploadFileSizeLimitMB>The size limit of the uploaded file (MB)</uploadFileSizeLimitMB>
       <isDirectlyDrive>直接驱动</isDirectlyDrive>
-      <driveName>Drive Name</driveName>
+      <driveName>驱动器的名称</driveName>
       <usecase>Select Type</usecase>
-      <SelectNodePath>Select Path</SelectNodePath>
+      <SelectNodePath>选择路径</SelectNodePath>
       <showTopBar>Show Top Bar</showTopBar>
       <showActionBar>Show Action Bar</showActionBar>
       <showSideBar>Show Left Bar</showSideBar>
       <showFilterBar>Show Filter Bar</showFilterBar>
-      <nodePath>Select Path</nodePath>
+      <nodePath>选择路径</nodePath>
     </label>
   </UIJcrExplorerEditForm>
 
   <UIDriveSelector>
     <label>
-      <driveName>Drive Name</driveName>
+      <driveName>驱动器的名称</driveName>
       <action>Action</action>
       <adddrives>Add Drives</adddrives>
     </label>
@@ -2210,7 +2210,7 @@
 
   <PopUpSelectDrive>
     <title>
-      <UIDriveSelector>Select Drive</UIDriveSelector>
+      <UIDriveSelector>选择驱动器</UIDriveSelector>
     </title>
   </PopUpSelectDrive>
 
@@ -2222,7 +2222,7 @@
 
   <DriveNameInput>
     <title>
-      <SelectDrive>Select Drive</SelectDrive>
+      <SelectDrive>选择驱动器</SelectDrive>
     </title>
   </DriveNameInput>
 
@@ -2380,7 +2380,7 @@
 
   <UISimpleCategoryManager>
     <action>
-      <Close>关闭</Close>
+      <Close>#{word.close}</Close>
     </action>
   </UISimpleCategoryManager>
   <UIPopupWindow>
@@ -2398,9 +2398,9 @@
     <label>
       <Close>#{word.cancel}</Close>
       <OK>删除</OK>
-      <ReplaceData>Replace Data</ReplaceData>
-      <Back>Back to Rename</Back>
-      <Keepfile>Keep both files</Keepfile>
+      <ReplaceData>替换数据</ReplaceData>
+      <Back>返回重命名</Back>
+      <Keepfile>保持这两个文件</Keepfile>
     </label>
   </UIConfirmMessage>
 
@@ -2408,9 +2408,9 @@
     <label>
       <Close>#{word.close}</Close>
       <OK>OK</OK>
-      <ReplaceData>Replace Data</ReplaceData>
-      <Back>Back to Rename</Back>
-      <Keepfile>Keep both files</Keepfile>
+      <ReplaceData>替换数据</ReplaceData>
+      <Back>返回重命名</Back>
+      <Keepfile>保持这两个文件</Keepfile>
     </label>
   </UIRestoreConfirmMessage>
 
@@ -2707,11 +2707,11 @@
   </EmptyTrashManageComponent>
   <UICategoryForm>
     <label>
-      <name>Category Name</name>
+      <name>类别名称</name>
     </label>
     <action>
       <Save>Save</Save>
-      <Cancel>取消</Cancel>
+      <Cancel>#{word.cancel}</Cancel>
     </action>
   </UICategoryForm>
   <UIPopupWindow>
@@ -2843,30 +2843,30 @@
 
   <UIDocumentInfo>
     <msg>
-      <repository-error>An error occurred. The information about the repository was lost.</repository-error>
+      <repository-error>出现了一个错误。与存储库有关的信息丢失了。</repository-error>
     </msg>
   </UIDocumentInfo>
 
   <UITreeExplorer>
     <msg>
-      <repository-error>An error occurred. The information about the repository was lost.</repository-error>
+      <repository-error>出现了一个错误。与存储库有关的信息丢失了。</repository-error>
     </msg>
   </UITreeExplorer>
   <UIDocumentForm>
     <msg>
-      <constraintviolation-exception>You cannot save the document. The input data are missing or invalid.</constraintviolation-exception>
+      <constraintviolation-exception>您不能保存文档。丢失的或无效的输入的数据。</constraintviolation-exception>
     </msg>
   </UIDocumentForm>
   <UIActionForm>
     <msg>
-      <constraintviolation-exception>You cannot save the document. The input data are missing or invalid.</constraintviolation-exception>
+      <constraintviolation-exception>您不能保存文档。丢失的或无效的输入的数据。</constraintviolation-exception>
     </msg>
   </UIActionForm>
 
   <UISelectRestorePath>
     <action>
       <Save>Save</Save>
-      <Cancel>取消</Cancel>
+      <Cancel>#{word.cancel}</Cancel>
     </action>
     <label>
       <formInput>The previous path was lost. Please select a new one.</formInput>
@@ -2908,13 +2908,13 @@
 
   <UIPublicationPanel>
     <button>
-      <Close>关闭</Close>
+      <Close>#{word.close}</Close>
     </button>
     <revisions>
       <version>Revisions</version>
       <date>Date</date>
       <author>Author</author>
-      <status>Status</status>
+      <status>状态</status>
       <action>Action</action>
       <label>Revision</label>
       <none>No revisions</none>
@@ -2924,13 +2924,13 @@
     </revisions>
     <status>
       <version>Revision</version>
-      <title>Status</title>
+      <title>状态</title>
       <archived>Archived</archived>
       <obsolete>Obsolete</obsolete>
       <unpublished>Unpublished</unpublished>
       <enrolled>Enrolled</enrolled>
       <draft>Draft</draft>
-      <pending>Pending</pending>
+      <pending>等待中</pending>
       <approved>Approved</approved>
       <inreview>In Review</inreview>
       <staged>Staged</staged>
@@ -3114,7 +3114,7 @@
     <MaxFileSize>最大文件大小是</MaxFileSize>
     <InvalidCharacters>Invalid characters will be changed by '-'</InvalidCharacters>
     <DropFileMessage>Drop your files here in the current folder</DropFileMessage>
-    <Close>关闭</Close>
+    <Close>#{word.close}</Close>
     <in>在中</in>
     <MaxFileSizeAlert>The file size exceeds the size limit of</MaxFileSizeAlert>
     <Waiting>等待中</Waiting>
@@ -3124,7 +3124,7 @@
     <Keep>Keep both</Keep>
     <Replace>替换</Replace>
     <Canceled>已取消</Canceled>
-    <Cancel>取消</Cancel>
+    <Cancel>#{word.cancel}</Cancel>
     <AbortAllConfirmation>你想要中止进展中的所有文件吗？</AbortAllConfirmation>
   </label>
   </UIMultiUpload>
@@ -3144,7 +3144,7 @@
       <sortBy>Sort by:</sortBy>
       <filesAreSelected>文件已被选定</filesAreSelected>
       <ClearSelection>Clear selection</ClearSelection>
-      <more>More</more>
+      <more>更多</more>
     </label>
   </FileView>
   <UIPropertyForm>

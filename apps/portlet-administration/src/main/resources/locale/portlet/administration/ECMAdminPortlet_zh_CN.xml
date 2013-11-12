@@ -154,7 +154,7 @@
   <UIActionForm>
     <title>Add an action to the category tree</title>
     <action>
-      <Save>Save</Save>
+      <Save>#{word.save}</Save>
     </action>
     <msg>
       <name-not-allowed>Empty name or special characters are not allowed in the action name.</name-not-allowed>
@@ -326,7 +326,7 @@
       <metadataView>Metadata Information</metadataView>
     </tab>
     <action>
-      <Cancel>Close</Cancel>
+      <Cancel>#{word.close}</Cancel>
       <Back>#{word.back}</Back>
     </action>
   </UIMetadataView>
@@ -1315,7 +1315,7 @@
   
   <TaxoTreeSelectUserOrGroup>
     <label>
-      <selectGroup>Select Group</selectGroup>
+      <selectGroup>选择组</selectGroup>
       <selectMembership>Select Membership</selectMembership>
     </label>
   </TaxoTreeSelectUserOrGroup>
@@ -1461,7 +1461,7 @@
   </SelectUserOrGroup>
   <UIGroupSelector>
     <label>
-      <selectGroup>Select Group</selectGroup>
+      <selectGroup>选择组</selectGroup>
       <selectUser>Select User</selectUser>
     </label>
     <msg>
@@ -2132,7 +2132,7 @@
   </step3>
   <UIDrivePermissionSelector>
     <label>
-      <selectGroup>Select Group</selectGroup>
+      <selectGroup>选择组</selectGroup>
       <selectUser>Select User</selectUser>
       <selectMembership>Select Membership</selectMembership>
     </label>
@@ -2140,7 +2140,7 @@
   
   <UIPermissionSelector>
     <label>
-      <selectGroup>Select Group</selectGroup>
+      <selectGroup>选择组</selectGroup>
       <selectUser>Select User</selectUser>
       <selectMembership>Select Membership</selectMembership>
     </label>
@@ -2166,7 +2166,7 @@
   
   <MetadataPermission>
     <label>
-      <selectGroup>Select Group</selectGroup>
+      <selectGroup>选择组</selectGroup>
     </label>
   </MetadataPermission>  
   <MetadataPermission>
@@ -2184,7 +2184,7 @@
   -->
   <QueriesPermissionBrowse>
     <label>
-      <selectGroup>Select Group</selectGroup>
+      <selectGroup>选择组</selectGroup>
       <selectUser>Select User</selectUser>
       <selectMembership>Select Membership</selectMembership>
     </label>
@@ -2317,7 +2317,7 @@
   </EditUnLockForm>  
   <UITabPane>
     <action>
-      <Close>关闭</Close>
+      <Close>#{word.close}</Close>
     </action>
     <title>
     <UILockHolderContainer>管理锁</UILockHolderContainer>
@@ -2328,7 +2328,7 @@
   <UIViewFormTabPane>
     <action>
       <AddTabForm>Add Tab</AddTabForm>
-      <AddTab>Save</AddTab>
+      <AddTab>#{word.save}</AddTab>
       <BackViewForm>Back</BackViewForm>
     </action>
   </UIViewFormTabPane>
@@ -2394,7 +2394,7 @@
 
 <UITaxonomyTreeContainer>
 <action>
-<Cancel>关闭</Cancel>
+<Cancel>#{word.close}</Cancel>
 </action>
 </UITaxonomyTreeContainer>
 <UITaxonomyTreeMainForm>
@@ -2454,7 +2454,7 @@
   <UITagPermissionForm>
     <title>Add Permission</title>
     <action>
-      <Save>Save</Save>
+      <Save>#{word.save}</Save>
       <Add>Add</Add>
     </action>
     <label>
@@ -2467,7 +2467,7 @@
   
   <UIGroupMemberSelector>
     <label>
-      <selectGroup>Select Group</selectGroup>
+      <selectGroup>选择组</selectGroup>
       <selectMembership>Select Membership</selectMembership>
     </label>
   </UIGroupMemberSelector>

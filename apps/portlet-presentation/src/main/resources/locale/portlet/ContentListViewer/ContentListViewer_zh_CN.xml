@@ -81,8 +81,8 @@
       <ContentsVisibilityHelp>"受限制的身份验证"将筛选的基础进行身份验证的内容。如果你没有登录，您将看到仅公共内容。如果您登录，您看到的所有内容可见的 intranet 用户 （但所有共享）。"受限制的用户角色"意味着你将看到的内容取决于您的权利。在大多数情况下，这应不使用选项，因为它减少了总体性能。</ContentsVisibilityHelp>
     </help>
     <action>
-      <Save>Save</Save>
-      <Cancel>取消</Cancel>
+      <Save>#{word.save}</Save>
+      <Cancel>#{word.cancel}</Cancel>
       <delete>删除</delete>
     </action>
     <msg>
@@ -174,7 +174,7 @@
     <unpublished>未发布</unpublished>
     <enrolled>注册</enrolled>
     <draft>草稿</draft>
-    <pending>Pending</pending>
+    <pending>等待中</pending>
     <approved>核准</approved>
     <inreview>在审查中</inreview>
     <staged>上演</staged>
