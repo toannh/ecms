@@ -81,8 +81,8 @@
       <ContentsVisibilityHelp>Limitato da autenticazione "filtrerà i contenuti in base all'autenticazione. Se non accedi, si vede solo il contenuto pubblico. Se si è effettuato l'accesso, si vede tutto il contenuto visibile dagli utenti intranet (ma condiviso da tutti)." Ristretto da ruoli utente "significa vedere i contenuti a seconda dei Suoi diritti. Nella maggior parte dei casi, questa opzione non deve essere utilizzato in quanto riduce le prestazioni globali.</ContentsVisibilityHelp>
     </help>
     <action>
-      <Save>Salva</Save>
-      <Cancel>Annulla</Cancel>
+      <Save>#{word.save}</Save>
+      <Cancel>#{word.cancel}</Cancel>
       <delete>Elimina</delete>
     </action>
     <msg>

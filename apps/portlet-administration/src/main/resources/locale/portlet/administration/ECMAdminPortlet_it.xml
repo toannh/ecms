@@ -154,7 +154,7 @@
   <UIActionForm>
     <title>Aggiungi un'azione per l'albero delle categorie</title>
     <action>
-      <Save>Salva</Save>
+      <Save>#{word.save}</Save>
     </action>
     <msg>
       <name-not-allowed>Nome vietato.</name-not-allowed>
@@ -326,7 +326,7 @@
       <metadataView>Informazioni Metadati</metadataView>
     </tab>
     <action>
-      <Cancel>Chiudi</Cancel>
+      <Cancel>#{word.close}</Cancel>
       <Back>#{word.back}</Back>
     </action>
   </UIMetadataView>
@@ -855,7 +855,7 @@
                   </title>       
  <header>
   <tabName>Scheda</tabName>
-  <localizeButtons>Description</localizeButtons>
+  <localizeButtons>Descrizione</localizeButtons>
 <action>Azioni</action>
 </header>
 <action>
@@ -2317,7 +2317,7 @@
   </EditUnLockForm>  
   <UITabPane>
     <action>
-      <Close>Chiudi</Close>
+      <Close>#{word.close}</Close>
     </action>
     <title>
     <UILockHolderContainer>Gestione Blocco</UILockHolderContainer>
@@ -2328,7 +2328,7 @@
   <UIViewFormTabPane>
     <action>
       <AddTabForm>Aggiungi Tab</AddTabForm>
-      <AddTab>Salva</AddTab>
+      <AddTab>#{word.save}</AddTab>
       <BackViewForm>Indietro</BackViewForm>
     </action>
   </UIViewFormTabPane>
@@ -2394,7 +2394,7 @@
 
 <UITaxonomyTreeContainer>
 <action>
-<Cancel>Chiudi</Cancel>
+<Cancel>#{word.close}</Cancel>
 </action>
 </UITaxonomyTreeContainer>
 <UITaxonomyTreeMainForm>
@@ -2454,7 +2454,7 @@
   <UITagPermissionForm>
     <title>Aggiungi Permesso</title>
     <action>
-      <Save>Salva</Save>
+      <Save>#{word.save}</Save>
       <Add>Add</Add>
     </action>
     <label>

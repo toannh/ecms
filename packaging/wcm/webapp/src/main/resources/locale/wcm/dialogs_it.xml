@@ -28,7 +28,7 @@
         <jsFile>default.js</jsFile>
         <Advanced>Avanzato</Advanced>
         <Summary>Sommario</Summary>
-        <name>Nome</name>
+        <name>#{word.name}</name>
         <title>Titolo</title>
         <ContentCSS>Dati CSS</ContentCSS>
         <hintCSS>You can specify the main style sheet for your web content. This style will override the style sheets defined at the site level and at the shared level.</hintCSS>
@@ -51,7 +51,7 @@
   <CSSFile>
     <dialog>
       <label>
-        <name>Nome</name>
+        <name>#{word.name}</name>
         <active>Attiva</active>
         <priority>Priorità</priority>
         <content>Dati CSS</content>
@@ -62,7 +62,7 @@
   <JSFile>
     <dialog>
       <label>
-        <name>Nome</name>
+        <name>#{word.name}</name>
         <active>Attiva</active>
         <priority>Priorità</priority>
         <content>Dati JavaScript</content>
@@ -73,7 +73,7 @@
   <WebLink>
     <dialog>
       <label>
-        <name>NOme</name>
+        <name>#{word.name}</name>
         <url>URL</url>
         <description>Descrizione</description>
       </label>

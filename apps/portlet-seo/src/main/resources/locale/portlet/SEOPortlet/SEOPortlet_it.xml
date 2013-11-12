@@ -27,8 +27,8 @@
   <priority>Valori validi da 0.0 a 1.0</priority>
   </tip>   
     <action>
-      <Save>Salva</Save>
-      <Cancel>Annulla</Cancel>
+      <Save>#{word.save}</Save>
+      <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
       <repository-exception>Errore salvando i metadati della pagina.</repository-exception>
