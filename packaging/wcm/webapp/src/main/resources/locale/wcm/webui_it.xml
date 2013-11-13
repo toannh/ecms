@@ -48,7 +48,7 @@
       <list-view>Elenco</list-view>
       <authoring-view>Authoring</authoring-view>
       <wcm-category-view>Categorie</wcm-category-view>
-      <file-view>File Management View</file-view>
+      <file-view>Vista di Gestione di file</file-view>
     </label>
   </Views>
 
@@ -80,8 +80,8 @@
 
   <UITabPane>
     <title>
-      <UIContentBrowsePanelOne>Content Browser</UIContentBrowsePanelOne>
-      <UIContentBrowsePanelMulti>Content Browser</UIContentBrowsePanelMulti>
+      <UIContentBrowsePanelOne>Browser di Contenuto</UIContentBrowsePanelOne>
+      <UIContentBrowsePanelMulti>Browser di Contenuto</UIContentBrowsePanelMulti>
       <UIContentBrowsePanelFolder>Sfoglia Cartella</UIContentBrowsePanelFolder>
       <UIContentSearchForm>Form Cerca Contenuti</UIContentSearchForm>
       <UIContentSearchResult>Risultati Ricerca</UIContentSearchResult>

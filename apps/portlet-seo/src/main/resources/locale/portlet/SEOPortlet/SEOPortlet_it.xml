@@ -12,7 +12,7 @@
     <isInherited>Ereditato dalla pagina superiore</isInherited>
       <priority>Priorità:</priority>
       <frequency>Frequenza:</frequency>
-      <select-language>Select a language</select-language>
+      <select-language>Seleziona una lingua</select-language>
       <option>
         <Always>Sempre</Always>
         <Hourly>Ogni ora</Hourly>
@@ -35,7 +35,7 @@
       <confirm-delete>Sei sicuro di voler cancellare questi dati SEO?</confirm-delete>      
     </msg>
     <title>
-    <seo-delete>Delete</seo-delete>
+    <seo-delete>Cancella</seo-delete>
     </title>
   <help> 
   <priority>Intervallo di valori validi da 0.0 a 1.0.</priority>
