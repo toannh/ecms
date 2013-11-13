@@ -1983,7 +1983,7 @@
       <stateName>Läges namn</stateName>
     </label>
     <action>
-      <Save>Spara</Save>
+      <Save>#{word.save}</Save>
       <UnsubcriberLifeCycle>Avsluta prenumeration</UnsubcriberLifeCycle>
       <Cancel>#{word.cancel}</Cancel>
     </action>
@@ -2173,7 +2173,7 @@
     <title>Redigera fil utforskare</title>
     <action>
       <Edit>Redigera</Edit>
-      <Save>Spara</Save>
+      <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <label>
@@ -2710,7 +2710,7 @@
       <name>Kategorinamn</name>
     </label>
     <action>
-      <Save>Spara</Save>
+      <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
   </UICategoryForm>
@@ -2865,7 +2865,7 @@
 
   <UISelectRestorePath>
     <action>
-      <Save>Spara</Save>
+      <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <label>
