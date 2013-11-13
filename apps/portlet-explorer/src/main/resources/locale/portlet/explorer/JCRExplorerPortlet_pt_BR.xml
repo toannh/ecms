@@ -1983,7 +1983,7 @@
       <stateName>Nome do estado</stateName>
     </label>
     <action>
-      <Save>Salvar</Save>
+      <Save>#{word.save}</Save>
       <UnsubcriberLifeCycle>Desfazer inscrição</UnsubcriberLifeCycle>
       <Cancel>#{word.cancel}</Cancel>
     </action>
@@ -2173,7 +2173,7 @@
     <title>Edição do Explorador de Arquivo</title>
     <action>
       <Edit>Editar</Edit>
-      <Save>Salvar</Save>
+      <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <label>
@@ -2710,7 +2710,7 @@
       <name>Nome da categoria</name>
     </label>
     <action>
-      <Save>Salvar</Save>
+      <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
   </UICategoryForm>
@@ -2865,7 +2865,7 @@
 
   <UISelectRestorePath>
     <action>
-      <Save>Salvar</Save>
+      <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <label>
