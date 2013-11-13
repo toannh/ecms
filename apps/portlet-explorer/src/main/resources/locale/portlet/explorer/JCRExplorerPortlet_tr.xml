@@ -1983,7 +1983,7 @@
       <stateName>Durum Adı</stateName>
     </label>
     <action>
-      <Save>Kaydet</Save>
+      <Save>#{word.save}</Save>
       <UnsubcriberLifeCycle>Unsubscriber</UnsubcriberLifeCycle>
       <Cancel>#{word.cancel}</Cancel>
     </action>
@@ -2173,7 +2173,7 @@
     <title>Dosya Gezgini Düzenle</title>
     <action>
       <Edit>Düzenle</Edit>
-      <Save>Kaydet</Save>
+      <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <label>
@@ -2710,7 +2710,7 @@
       <name>Kategori Adı</name>
     </label>
     <action>
-      <Save>Kaydet</Save>
+      <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
   </UICategoryForm>
@@ -2865,7 +2865,7 @@
 
   <UISelectRestorePath>
     <action>
-      <Save>Kaydet</Save>
+      <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <label>
