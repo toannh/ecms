@@ -1983,7 +1983,7 @@
       <stateName>Zustandsname</stateName>
     </label>
     <action>
-      <Save>Speichern</Save>
+      <Save>#{word.save}</Save>
       <UnsubcriberLifeCycle>Abmelder</UnsubcriberLifeCycle>
       <Cancel>#{word.cancel}</Cancel>
     </action>
@@ -2173,7 +2173,7 @@
     <title>Datei-Explorer bearbeiten</title>
     <action>
       <Edit>Bearbeiten</Edit>
-      <Save>Speichern</Save>
+      <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <label>
@@ -2710,7 +2710,7 @@
       <name>Kategoriename</name>
     </label>
     <action>
-      <Save>Speichern</Save>
+      <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
   </UICategoryForm>
@@ -2865,7 +2865,7 @@
 
   <UISelectRestorePath>
     <action>
-      <Save>Speichern</Save>
+      <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <label>
