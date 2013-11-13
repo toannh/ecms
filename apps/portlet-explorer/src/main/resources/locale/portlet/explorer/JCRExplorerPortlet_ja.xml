@@ -1983,7 +1983,7 @@
       <stateName>状態名</stateName>
     </label>
     <action>
-      <Save>保存</Save>
+      <Save>#{word.save}</Save>
       <UnsubcriberLifeCycle>Unsubcriber</UnsubcriberLifeCycle>
       <Cancel>#{word.cancel}</Cancel>
     </action>
@@ -2173,7 +2173,7 @@
     <title>ファイルエクスプローラフォーム</title>
     <action>
       <Edit>編集</Edit>
-      <Save>保存</Save>
+      <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <label>
@@ -2710,7 +2710,7 @@
       <name>カテゴリ名</name>
     </label>
     <action>
-      <Save>保存</Save>
+      <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
   </UICategoryForm>
@@ -2865,7 +2865,7 @@
 
   <UISelectRestorePath>
     <action>
-      <Save>保存</Save>
+      <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <label>
