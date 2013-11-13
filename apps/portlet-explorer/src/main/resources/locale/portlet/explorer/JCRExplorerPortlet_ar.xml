@@ -1983,7 +1983,7 @@
       <stateName>اسم الحالة</stateName>
     </label>
     <action>
-      <Save>حفظ</Save>
+      <Save>#{word.save}</Save>
       <UnsubcriberLifeCycle>الغاء التسجيل</UnsubcriberLifeCycle>
       <Cancel>#{word.cancel}</Cancel>
     </action>
@@ -2173,7 +2173,7 @@
     <title>تغيير مُستكشف الملفات</title>
     <action>
       <Edit>تغيير</Edit>
-      <Save>حفظ</Save>
+      <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <label>
@@ -2710,7 +2710,7 @@
       <name>اسم الفئة</name>
     </label>
     <action>
-      <Save>حفظ</Save>
+      <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
   </UICategoryForm>
@@ -2865,7 +2865,7 @@
 
   <UISelectRestorePath>
     <action>
-      <Save>حفظ</Save>
+      <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <label>
