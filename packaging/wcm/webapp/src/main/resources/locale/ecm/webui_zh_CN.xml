@@ -7,8 +7,8 @@
   -->
   <UITreeList>
     <header>
-      <name>Name</name>
-      <action>Add</action>
+      <name>姓名</name>
+      <action>新增</action>
     </header>
     <info>
       <child-not-found>Child not found!</child-not-found>

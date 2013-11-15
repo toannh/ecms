@@ -18,7 +18,7 @@
     </action>
     <msg>
       <not-support>你不能评论此文档类型。</not-support>
-      <not-checkedout>You must check out the node before commenting on it.</not-checkedout>
+      <not-checkedout>您必须签出该节点之前对其进行评论。</not-checkedout>
       <content-null>你不能发布一个空的评论。</content-null>
     </msg>
   </UICommentForm>
@@ -144,9 +144,9 @@
     <label>
       <languages-list>翻译</languages-list>
       <relation-list>关系</relation-list>
-      <references-list>References</references-list>
-      <no-related-document>No Related Document</no-related-document>
-      <related-document>Related Documents</related-document>
+      <references-list>引用</references-list>
+      <no-related-document>没有相关文档</no-related-document>
+      <related-document>相关的文件</related-document>
     </label>
   </UIViewRelationList>
   <!--
@@ -155,17 +155,17 @@
   #########################################################################################
   -->
   <UIPreferencesForm>
-    <title>Set up your browsing preferences</title>
+    <title>设置您的浏览喜好</title>
     <label>
-      <enableStructure>Enable DMS Structure:</enableStructure>
-      <showSideBar>Show Sidebar:</showSideBar>
-      <showHiddenNode>Show Hidden Nodes:</showHiddenNode>
-      <showNonDocument>Show Non-document Nodes:</showNonDocument>
-      <showRefDocuments>Show Referenced Documents:</showRefDocuments>
-      <enableDragAndDrop>Enable Drag &amp; Drop:</enableDragAndDrop>
-      <sortBy>Sort by:</sortBy>
-      <order>Order by:</order>
-      <nodesPerPage>Nodes Per Page:</nodesPerPage>
+      <enableStructure>启用 DMS 结构：</enableStructure>
+      <showSideBar>显示侧栏：</showSideBar>
+      <showHiddenNode>显示隐藏的节点：</showHiddenNode>
+      <showNonDocument>显示非文档节点：</showNonDocument>
+      <showRefDocuments>显示引用的文档：</showRefDocuments>
+      <enableDragAndDrop>启用拖 &amp; 拖放：</enableDragAndDrop>
+      <sortBy>排序依据:</sortBy>
+      <order>顺序:</order>
+      <nodesPerPage>每页的节点：</nodesPerPage>
     </label>
     <action>
       <Back>#{word.close}</Back>
@@ -178,7 +178,7 @@
   #########################################################################################
   -->
   <UIAllItemsPreferenceForm>
-    <title>Set Up Filter Preferences</title>
+    <title>将筛选器偏好设置</title>
     <action>
       <Cancel>#{word.cancel}</Cancel>
       <Save>#{word.save}</Save>
@@ -192,8 +192,8 @@
   <UIRenameForm>
     <title>重命名</title>
     <label>
-      <nameField>Name</nameField>
-      <titleField>Title</titleField>
+      <nameField>名称</nameField>
+      <titleField>标题</titleField>
     </label>
     <action>
       <Cancel>#{word.cancel}</Cancel>
@@ -201,63 +201,63 @@
       <Back>#{word.back}</Back>
     </action>
     <msg>
-      <rename-successfull>Node '{0}' was renamed to '{1}' successfully.</rename-successfull>
-      <rename-denied>Access denied. You cannot rename this node.</rename-denied>
-      <fileName-invalid>The new name contains some invalid characters.</fileName-invalid>
-      <newName-same-oldName>The new name already exists. Please check again.</newName-same-oldName>
-      <version-exception>This node (or the ancestor of this node) is not checked out.</version-exception>
-      <lock-exception>This node is locked. Please unlock it before renaming.</lock-exception>
-      <constraintViolation-exception>An error occurred while renaming node '{0}'. Please check again.</constraintViolation-exception>
-      <unknown-prefix>Prefix '{0}' has not been registered yet.</unknown-prefix>
-      <rename-error>An error occurred while renaming this node. Please check again.</rename-error>
+      <rename-successfull>节点"{0}"成功更名为 '{1}'。</rename-successfull>
+      <rename-denied>访问被拒绝。您不能重命名此节点。</rename-denied>
+      <fileName-invalid>新名称中包含一些无效的字符。</fileName-invalid>
+      <newName-same-oldName>新的名称已经存在。请再次检查。</newName-same-oldName>
+      <version-exception>此节点 （或此节点的祖先） 未签出。</version-exception>
+      <lock-exception>此节点将被锁定。请在重命名之前解锁。</lock-exception>
+      <constraintViolation-exception>重命名节点"{0}"时出错。请再次检查。</constraintViolation-exception>
+      <unknown-prefix>前缀 '{0}' 尚未尚未注册。</unknown-prefix>
+      <rename-error>重命名此节点时出错。请再次检查。</rename-error>
     </msg>
   </UIRenameForm>
   <UIPopupWindow>
     <title>
-      <UIRenameForm>Rename</UIRenameForm>
-      <UIActionContainer>Edit Action</UIActionContainer>
-      <UIFolderForm>New Folder</UIFolderForm>
-      <UIUploadManager>Upload File</UIUploadManager>
-      <UIReferencesList>References List</UIReferencesList>
-      <UIExportNode>Export</UIExportNode>
-      <UINodeTypeInfo>Node Type Information</UINodeTypeInfo>
-      <UIVersionInfo>Version Info</UIVersionInfo>
-      <UIActivateVersion>Activate Version</UIActivateVersion>
-      <UIAuditingInfo>Auditing Information</UIAuditingInfo>
-      <UIActivateAuditing>Activate Auditing</UIActivateAuditing>
-      <UIPermissionManager>Permission Management</UIPermissionManager>
-      <UIPropertiesManager>Properties Management</UIPropertiesManager>
-      <UIECMSearch>Advanced Search</UIECMSearch>
-      <UISavedQuery>Saved Queries List</UISavedQuery>
-      <UIWatchDocumentForm>Watch Document</UIWatchDocumentForm>
-      <UIActionManager>Manage Actions</UIActionManager>
-      <UIDocumentForm>Edit Document</UIDocumentForm>
-      <UIDocumentFormController>Add New Document</UIDocumentFormController>
-      <EditFormController>Edit Document</EditFormController>
-      <UIRelationManager>Add Relation</UIRelationManager>
-      <UICategoryManager>Add Category</UICategoryManager>
-      <UIImportNode>Import</UIImportNode>
-      <UIViewMetadataManager>View Metadata</UIViewMetadataManager>
-      <UIVoteForm>Vote Document</UIVoteForm>
-      <UICommentForm>Comment</UICommentForm>
-      <UIPreferencesForm>Preferences</UIPreferencesForm>
-      <UIPublicationManager>Manage Publication</UIPublicationManager>
-      <UIConfirmMessage>Delete ?</UIConfirmMessage>
-      <UIDeleteFileConfirmMessage>Delete File ?</UIDeleteFileConfirmMessage>
-      <UIDeleteFolderConfirmMessage>Delete Folder ?</UIDeleteFolderConfirmMessage>
-      <UIDeleteItemsConfirmMessage>Delete Items ?</UIDeleteItemsConfirmMessage>
-      <UIRestoreConfirmMessage>Confirm Restore</UIRestoreConfirmMessage>
-      <UIActivePublication>Enroll to Publication Lifecycle</UIActivePublication>
-      <UITaggingForm>Tag Document</UITaggingForm>
-      <UIThumbnailForm>Add Thumbnail Image</UIThumbnailForm>
-      <UIAllItemsPreferenceForm>Preference Settings</UIAllItemsPreferenceForm>
-      <UISelectRestorePath>Select Restore Path</UISelectRestorePath>
-      <UISEOForm>Manage SEO</UISEOForm>
-      <UISEOToolbarForm>Manage SEO</UISEOToolbarForm>
+      <UIRenameForm>重命名</UIRenameForm>
+      <UIActionContainer>编辑操作</UIActionContainer>
+      <UIFolderForm>新的文件夹</UIFolderForm>
+      <UIUploadManager>上传文件</UIUploadManager>
+      <UIReferencesList>引用列表</UIReferencesList>
+      <UIExportNode>导出</UIExportNode>
+      <UINodeTypeInfo>节点类型信息</UINodeTypeInfo>
+      <UIVersionInfo>版本信息</UIVersionInfo>
+      <UIActivateVersion>激活版本</UIActivateVersion>
+      <UIAuditingInfo>审计信息</UIAuditingInfo>
+      <UIActivateAuditing>激活的审核</UIActivateAuditing>
+      <UIPermissionManager>权限管理</UIPermissionManager>
+      <UIPropertiesManager>属性管理</UIPropertiesManager>
+      <UIECMSearch>高级搜索</UIECMSearch>
+      <UISavedQuery>保存的查询列表</UISavedQuery>
+      <UIWatchDocumentForm>观看文档</UIWatchDocumentForm>
+      <UIActionManager>管理操作</UIActionManager>
+      <UIDocumentForm>编辑文档</UIDocumentForm>
+      <UIDocumentFormController>添加新的文档</UIDocumentFormController>
+      <EditFormController>编辑文档</EditFormController>
+      <UIRelationManager>添加关系</UIRelationManager>
+      <UICategoryManager>添加类别</UICategoryManager>
+      <UIImportNode>导入</UIImportNode>
+      <UIViewMetadataManager>查看元数据</UIViewMetadataManager>
+      <UIVoteForm>表决文档</UIVoteForm>
+      <UICommentForm>评论</UICommentForm>
+      <UIPreferencesForm>首选项</UIPreferencesForm>
+      <UIPublicationManager>管理出版物</UIPublicationManager>
+      <UIConfirmMessage>删除吗？</UIConfirmMessage>
+      <UIDeleteFileConfirmMessage>删除文件？</UIDeleteFileConfirmMessage>
+      <UIDeleteFolderConfirmMessage>删除文件夹？</UIDeleteFolderConfirmMessage>
+      <UIDeleteItemsConfirmMessage>删除项目？</UIDeleteItemsConfirmMessage>
+      <UIRestoreConfirmMessage>确认还原</UIRestoreConfirmMessage>
+      <UIActivePublication>注册到出版物生命周期</UIActivePublication>
+      <UITaggingForm>标记文档</UITaggingForm>
+      <UIThumbnailForm>添加缩略图图像</UIThumbnailForm>
+      <UIAllItemsPreferenceForm>首选项设置</UIAllItemsPreferenceForm>
+      <UISelectRestorePath>选择恢复路径</UISelectRestorePath>
+      <UISEOForm>管理 SEO</UISEOForm>
+      <UISEOToolbarForm>管理 SEO</UISEOToolbarForm>
     </title>
     <header>
-      <workspace>Workspace</workspace>
-      <path>Path</path>
+      <workspace>工作区</workspace>
+      <path>路径</path>
     </header>
   </UIPopupWindow>
   <!--
@@ -266,11 +266,11 @@
   #########################################################################################
   -->
   <UIResourceForm>
-    <title>Edit File Content</title>
+    <title>编辑文件的内容</title>
     <label>
-      <name>Name</name>
-      <textToModify>Text to modify</textToModify>
-      <fileToUpload>Upload new content for that document (must be the same mime-type)</fileToUpload>
+      <name>名称</name>
+      <textToModify>要修改的文本</textToModify>
+      <fileToUpload>为该文档上传新内容 （必须是相同的 mime-type）</fileToUpload>
     </label>
   </UIResourceForm>
   <!--
@@ -280,126 +280,126 @@
   -->
   <UIActionBar>
     <tooltip>
-      <AddFolder>New Folder</AddFolder>
-      <AddDocument>New Content</AddDocument>
-      <EditDocument>Edit</EditDocument>
-      <Upload>Upload</Upload>
+      <AddFolder>新文件夹</AddFolder>
+      <AddDocument>新内容</AddDocument>
+      <EditDocument>编辑</EditDocument>
+      <Upload>上传</Upload>
       <Paste>粘贴</Paste>
-      <Search>Search</Search>
-      <WatchDocument>Watch/Unwatch</WatchDocument>
-      <TaggingDocument>Tag</TaggingDocument>
-      <Vote>Vote</Vote>
+      <Search>搜索</Search>
+      <WatchDocument>观看/未观看</WatchDocument>
+      <TaggingDocument>标记</TaggingDocument>
+      <Vote>投票</Vote>
       <Comment>评论</Comment>
-      <ManageVersions>Versions</ManageVersions>
-      <ManageAuditing>Audit</ManageAuditing>
-      <ManagePublications>Publications</ManagePublications>
-      <ManageCategories>Categories</ManageCategories>
+      <ManageVersions>版本</ManageVersions>
+      <ManageAuditing>审计</ManageAuditing>
+      <ManagePublications>出版物</ManagePublications>
+      <ManageCategories>类别</ManageCategories>
       <ManageRelations>关系</ManageRelations>
-      <ManageActions>Actions</ManageActions>
-      <ExportNode>Export</ExportNode>
-      <ImportNode>Import</ImportNode>
-      <OverloadThumbnail>Overload Thumbnail</OverloadThumbnail>
-      <ManageHidden>Show/Hide Content</ManageHidden>
-      <ViewReferences>References</ViewReferences>
-      <ViewNodeType>Types</ViewNodeType>
-      <ViewPermissions>Permissions</ViewPermissions>
+      <ManageActions>操作</ManageActions>
+      <ExportNode>导出</ExportNode>
+      <ImportNode>导入</ImportNode>
+      <OverloadThumbnail>超载的缩略图</OverloadThumbnail>
+      <ManageHidden>显示/隐藏内容</ManageHidden>
+      <ViewReferences>引用</ViewReferences>
+      <ViewNodeType>类型</ViewNodeType>
+      <ViewPermissions>权限</ViewPermissions>
       <ViewProperties>Properties</ViewProperties>
-      <ViewMetadatas>Metadata</ViewMetadatas>
-      <ViewRelations>Show/Hide Relations</ViewRelations>
-      <ShowJCRStructure>Show/Hide Content Structure</ShowJCRStructure>
+      <ViewMetadatas>元数据</ViewMetadatas>
+      <ViewRelations>显示/隐藏关系</ViewRelations>
+      <ShowJCRStructure>显示/隐藏内容结构</ShowJCRStructure>
     </tooltip>
     <msg>
-      <cannot-action-in-rootnode>You cannot perform this action in the root node.</cannot-action-in-rootnode>
-      <node-checkedin>You must check out first.</node-checkedin>
-      <cannot-enable-version-rootnode>Cannot enable versioning for the root node.</cannot-enable-version-rootnode>
-      <cannot-enable-publication-rootnode>Cannot enable publication for the root node.</cannot-enable-publication-rootnode>
+      <cannot-action-in-rootnode>您不能在根节点中执行此操作。</cannot-action-in-rootnode>
+      <node-checkedin>您必须先签出。</node-checkedin>
+      <cannot-enable-version-rootnode>不能启用根节点的版本控制。</cannot-enable-version-rootnode>
+      <cannot-enable-publication-rootnode>不能启用用于根节点的出版物。</cannot-enable-publication-rootnode>
       <manage-publication>
-        <not-supported-nodetype>The publication supports the document node only.</not-supported-nodetype>
-        <no-publication-lifecycle>No publication lifecycle is configured.</no-publication-lifecycle>
+        <not-supported-nodetype>发布功能支持仅限于文档节点。</not-supported-nodetype>
+        <no-publication-lifecycle>没有配置任何发布生命周期</no-publication-lifecycle>
       </manage-publication>
-      <unsubcriber-lifecycle>The node was already unsubscribed.</unsubcriber-lifecycle>
-      <not-supported-nodetype>The unsubscriber lifecycle supports the document node only.</not-supported-nodetype>
-      <unsubcriber-lifecycle-finish>The node was unsubscribed successfully.</unsubcriber-lifecycle-finish>
-      <access-false>The node is not an article or checked in.</access-false>
-      <unsupported-action>This action is not supported.</unsupported-action>
-      <not-relationable>This node has not yet had any related links to another node.</not-relationable>
-      <node-pasted>Node '{0}' has been pasted at the location '{1}'. This operation has already been saved.</node-pasted>
-      <no-node-selected>No node copied.</no-node-selected>
-      <unable-edit>Node'{0}' with nodetype '{1}' is not supported to edit.</unable-edit>
-      <not-support>Cannot edit the selected node.</not-support>
-      <template-null>This node has no dialog available.</template-null>
-      <keyword-null>There are no keywords to search.</keyword-null>
-      <not-found>No results found.</not-found>
-      <keyword-not-allow>This keyword is not allowed.</keyword-not-allow>
-      <is-not-referenable>Node '{0}' cannot be referenceable.</is-not-referenable>
-      <access-denied>Access denied. You do not have edit permission in this node.</access-denied>
-      <access-add-denied>Access denied. You do not have add permission in this node.</access-add-denied>
-      <item-existed>This node already exists. It cannot have the same name as its sibling.</item-existed>
-      <removed-hidden-mixin>You removed the hidden mixin successfully.</removed-hidden-mixin>
-      <added-hidden-mixin>You added the hidden mixin successfully.</added-hidden-mixin>
-      <not-supported>This function is supported for the document type only.</not-supported>
-      <empty-file-type>You cannot add a document to this node.</empty-file-type>
-      <unsupported-watch>Only the document node can be watched.</unsupported-watch>
-      <watch-checkedin>You must check out the node before watching.</watch-checkedin>
-      <unsupported-tagging>Only the document node can be tagged.</unsupported-tagging>
-      <tagnode-checkedin>You must check out the node before tagging.</tagnode-checkedin>
+      <unsubcriber-lifecycle>该节点已经被取消订阅。</unsubcriber-lifecycle>
+      <not-supported-nodetype>退订器生命周期支持仅限于文档节点。</not-supported-nodetype>
+      <unsubcriber-lifecycle-finish>该节点已被成功取消订阅。</unsubcriber-lifecycle-finish>
+      <access-false>该节点不是一篇文章或签入。</access-false>
+      <unsupported-action>不支持此操作。</unsupported-action>
+      <not-relationable>此节点尚未有任何相关的链接到另一个节点。</not-relationable>
+      <node-pasted>节点 {0} 已粘贴到位置 {1}。已经保存了此操作。</node-pasted>
+      <no-node-selected>没有节点被复制。</no-node-selected>
+      <unable-edit>节点 '{0}' 与节点类型 '{1}' 不支持编辑。</unable-edit>
+      <not-support>不能编辑选定的节点。</not-support>
+      <template-null>此节点没有可用的对话窗体。</template-null>
+      <keyword-null>没有搜索的关键字。</keyword-null>
+      <not-found>没有找到结果。</not-found>
+      <keyword-not-allow>不允许使用此关键字。</keyword-not-allow>
+      <is-not-referenable>节点"{0}"不能是能被引用。</is-not-referenable>
+      <access-denied>访问被拒绝。你在此节点中没有编辑权限。</access-denied>
+      <access-add-denied>访问被拒绝。你在此节点中没有添加权限。</access-add-denied>
+      <item-existed>此节点已存在。它不能有相同的名称作为其兄弟。</item-existed>
+      <removed-hidden-mixin>您删除成功隐藏米心。</removed-hidden-mixin>
+      <added-hidden-mixin>您添加成功隐藏mixin。</added-hidden-mixin>
+      <not-supported>此功能只支持文档类型。</not-supported>
+      <empty-file-type>您不能将文档添加到此节点。</empty-file-type>
+      <unsupported-watch>只有文档节点可以看。</unsupported-watch>
+      <watch-checkedin>在看之前，您必须签出该节点。</watch-checkedin>
+      <unsupported-tagging>只能给文档节点加标记。</unsupported-tagging>
+      <tagnode-checkedin>在加标记前，您必须签出该节点。</tagnode-checkedin>
     </msg>
     <title>
-      <select-tab>Select Tab</select-tab>
+      <select-tab>选择选项卡</select-tab>
       <SimpleSearch>Quick Search</SimpleSearch>
-      <AdvanceSearch>Advanced Search</AdvanceSearch>
-      <SavedQueries>Saved Queries</SavedQueries>
-      <ShowAllOwnedByUser>Show All My Items</ShowAllOwnedByUser>
-      <ShowAllFavourite>Show All Favorite Items</ShowAllFavourite>
-      <ShowAllHidden>Show All Hidden Items</ShowAllHidden>
-      <ShowAllFromTrash>Show All Items From Trash</ShowAllFromTrash>
+      <AdvanceSearch>高级搜索</AdvanceSearch>
+      <SavedQueries>保存的查询</SavedQueries>
+      <ShowAllOwnedByUser>显示我的所有项目</ShowAllOwnedByUser>
+      <ShowAllFavourite>显示所有收藏夹项目</ShowAllFavourite>
+      <ShowAllHidden>显示所有隐藏的项目</ShowAllHidden>
+      <ShowAllFromTrash>显示垃圾箱中所有项目</ShowAllFromTrash>
     </title>
   </UIActionBar>
   <UIPopupMenu>
     <msg>
-      <has-not-permission>Access denied. You do not have add permission in this node.</has-not-permission>
-      <has-not-edit-permission>Access denied. You do not have edit permission in this node. Please contact the administrator.</has-not-edit-permission>
-      <cannot-login-node>You cannot access and paste the node here.</cannot-login-node>
-      <cannot-paste-nodetype>You cannot paste the node here.</cannot-paste-nodetype>
-      <has-not-permission-unlok>You do not have permission to unlock this node.</has-not-permission-unlok>
-      <bound-exception>You do not have permission to rename this node. Please contact the administrator.</bound-exception>
-      <bound-move-exception>You cannot move the node to itself or in its sub-node.</bound-move-exception>
-      <does-not-support-auditing>You cannot activate auditing on this node.</does-not-support-auditing>
-      <can-not-rename-node>You do not have permission to rename this node. Please contact the administrator to get the correct right.</can-not-rename-node>
-      <can-not-cut-node>You do not have permission to cut this node. Please contact the administrator.</can-not-cut-node>
-      <can-not-remove-node>You do not have permission to remove this node. Please contact the administrator.</can-not-remove-node>
-      <can-not-lock-node>You do not have permission to lock node {0}. Please contact the administrator.</can-not-lock-node>
-      <can-not-unlock-node>You do not have permission to unlock this node. Please contact the administrator.</can-not-unlock-node>
-      <no-node>Please select at least one node before pasting.</no-node>
-      <can-not-paste-node>You do not have permission to move to this node. Please contact the administrator.</can-not-paste-node>
-      <can-not-move-node>You do not have permission to move this node. Please contact the administrator.</can-not-move-node>
-      <does-not-support-versioning>You do not have permission to move to this node. Please contact the administrator.</does-not-support-versioning>
-      <path-not-found>This element was deleted or changed. Please click the Refresh button.</path-not-found>
-      <paste-lock-exception>You cannot paste '{0}' to this node because the source or the destination node is locked or is related to the locked node.</paste-lock-exception>
-      <can-not-checkin-node>You cannot check in this node. Please check that you have the right permissions.</can-not-checkin-node>
-      <can-not-checkout-node>You cannot check out this node. Please check that you have the right permissions.</can-not-checkout-node>
-      <move-constraint-exception>An error occurred while moving the node.</move-constraint-exception>
-      <not-lock-owner>You cannot unlock this node because you are not the lock owner.</not-lock-owner>
-      <is-checked-in>Please check out this node before renaming.</is-checked-in>
-      <is-checked-in-lock>Please check out this node before locking.</is-checked-in-lock>
-      <cant-lock>You cannot lock this node.</cant-lock>
-      <node-locked>The item with the path {0} or upper level is locked.</node-locked>
-      <can-not-delete>Please close this node before deleting.</can-not-delete>
-      <can-not-delete-version>You cannot delete this node. It is versioning.</can-not-delete-version>
-      <not-support>You cannot delete the selected node. Please select another node.</not-support>
-      <current-node-not-allow-paste>You cannot paste the copied node type on the current node.</current-node-not-allow-paste>
-      <copied-node-in-versioning>You cannot paste the copied node. It is versioning.</copied-node-in-versioning>
-      <parent-node-locked>You do not have permission to unlock node '{0}'.</parent-node-locked>
-      <this-node-locked-by-parent>You cannot unlock this node. It is locked by the parent or ancestor node.</this-node-locked-by-parent>
-      <paste-node-same-name>You cannot paste a node with the same name as a node in the destination folder.</paste-node-same-name>
-      <has-not-add-permission>You do not have permission to add a new node.</has-not-add-permission>
-      <node-cutting>Node is being cut. You cannot paste it here.</node-cutting>
-      <access-denied>Access denied. You may not have permission in this node.</access-denied>
-      <remove-verion-exception>You cannot remove this node because it (or its ancestor) is checked in.</remove-verion-exception>
-      <remove-referentialIntegrityException>You cannot delete this node because it is currently the target of a Reference property.</remove-referentialIntegrityException>
-      <constraintviolation-exception>The mandatory item jcr:uuid was not found. The node may have been deleted or changed. Please click the Refresh button.</constraintviolation-exception>
-      <path-not-found-exception>This node was deleted or changed. Please click the Refresh button.</path-not-found-exception>
-      <not-exist-categories>The category does not exist.</not-exist-categories>
+      <has-not-permission>访问被拒绝。你不能在此节点中添加权限。</has-not-permission>
+      <has-not-edit-permission>访问被拒绝。此节点中你没有编辑权限。请与管理员联系。</has-not-edit-permission>
+      <cannot-login-node>您不能访问并粘贴在这里的节点。</cannot-login-node>
+      <cannot-paste-nodetype>不能粘贴在这里的节点。</cannot-paste-nodetype>
+      <has-not-permission-unlok>您没有权限来解锁此节点。</has-not-permission-unlok>
+      <bound-exception>你并没有重命名此节点的权限。请与管理员联系。</bound-exception>
+      <bound-move-exception>对本身或它的子节点中，您不能移动节点。</bound-move-exception>
+      <does-not-support-auditing>您不能激活此节点上的审核。</does-not-support-auditing>
+      <can-not-rename-node>你并没有重命名此节点的权限。请与管理员联系以获取正确的权利。</can-not-rename-node>
+      <can-not-cut-node>你并没有重命名此节点的权限。请与管理员联系。</can-not-cut-node>
+      <can-not-remove-node>你并没有重命名此节点的权限。请与管理员联系。</can-not-remove-node>
+      <can-not-lock-node>你并没有锁定节点 {0} 的权限。请与管理员联系。</can-not-lock-node>
+      <can-not-unlock-node>你并没有重命名此节点的权限。请与管理员联系。</can-not-unlock-node>
+      <no-node>请选择至少一个节点在粘贴之前。</no-node>
+      <can-not-paste-node>你并没有将移到此节点的权限。请与管理员联系。</can-not-paste-node>
+      <can-not-move-node>你并没有重命名此节点的权限。请与管理员联系。</can-not-move-node>
+      <does-not-support-versioning>你并没有将移到此节点的权限。请与管理员联系。</does-not-support-versioning>
+      <path-not-found>此元素被删除或更改。请单击刷新按钮。</path-not-found>
+      <paste-lock-exception>你不能粘贴 '{0}' 到此节点，因为源或目标节点处于锁定状态或有关的锁定节点。</paste-lock-exception>
+      <can-not-checkin-node>您不能签入此节点。请检查您具有正确的权限。</can-not-checkin-node>
+      <can-not-checkout-node>您不能签入此节点。请检查您具有正确的权限。</can-not-checkout-node>
+      <move-constraint-exception>移动节点时出错。</move-constraint-exception>
+      <not-lock-owner>因为你不是锁的所有者，您无法解锁此节点。</not-lock-owner>
+      <is-checked-in>请在重命名之前查阅此节点。</is-checked-in>
+      <is-checked-in-lock>请锁定前签出此节点。</is-checked-in-lock>
+      <cant-lock>您不能锁定此节点。</cant-lock>
+      <node-locked>具有路径 {0} 或上部级别的项被锁定。</node-locked>
+      <can-not-delete>请在删除之前，关闭此节点。</can-not-delete>
+      <can-not-delete-version>您不能删除此节点。这是版本控制。</can-not-delete-version>
+      <not-support>您不能删除选定的节点。请选择另一个节点。</not-support>
+      <current-node-not-allow-paste>您不能在当前节点上粘贴复制的节点类型。</current-node-not-allow-paste>
+      <copied-node-in-versioning>不能粘贴复制的节点。这是版本控制。</copied-node-in-versioning>
+      <parent-node-locked>您没有权限来解锁节点"{0}"。</parent-node-locked>
+      <this-node-locked-by-parent>你不能解锁此节点。由父或祖先节点将被锁定。</this-node-locked-by-parent>
+      <paste-node-same-name>您不能在目标文件夹中粘贴具有相同的名称作为一个节点的节点。</paste-node-same-name>
+      <has-not-add-permission>您没有权限添加一个新节点。</has-not-add-permission>
+      <node-cutting>节点正被削减。您不能将其粘贴在这里。</node-cutting>
+      <access-denied>访问被拒绝。您可能没有权限在此节点中。</access-denied>
+      <remove-verion-exception>您无法删除此节点，因为它 （或其祖先） 已签入。</remove-verion-exception>
+      <remove-referentialIntegrityException>不能删除此节点，因为它当前引用的属性的目标。</remove-referentialIntegrityException>
+      <constraintviolation-exception>找不到强制性项目 jcr:uuid。该节点可能已删除或更改。请单击刷新按钮。</constraintviolation-exception>
+      <path-not-found-exception>此节点已被删除或更改。请单击刷新按钮。</path-not-found-exception>
+      <not-exist-categories>该类别不存在。</not-exist-categories>
     </msg>
   </UIPopupMenu>
   <!--
@@ -410,29 +410,29 @@
   <UIFolderForm>
     <action>
       <Cancel>#{word.cancel}</Cancel>
-      <Save>Create Folder</Save>
+      <Save>创建文件夹</Save>
     </action>
     <label>
-      <titleTextBox>Folder Name:</titleTextBox>
-      <customTypeCheckBox>Use a custom type of folder</customTypeCheckBox>
+      <titleTextBox>文件夹的名称：</titleTextBox>
+      <customTypeCheckBox>使用自定义类型的文件夹</customTypeCheckBox>
     </label>
-    <title>Add/Edit Folder</title>
+    <title>添加/编辑文件夹</title>
     <msg>
-      <addFolder-successful>The folder '{0}' was added successfully.</addFolder-successful>
-      <name-invalid>Please enter the folder name.</name-invalid>
-      <title-invalid>Please enter the folder title.</title-invalid>
-      <name-not-allowed>This name is not allowed.</name-not-allowed>
-      <fileName-error>The file name is invalid.</fileName-error>
-      <constraint-violation>The current node does not allow you to add the node type '{0}'.</constraint-violation>
-      <repository-exception>An unexpected error occurred. Please contact your administrator for more details.</repository-exception>
-      <repository-exception-permission>You do not have permission to add a new folder to this node.</repository-exception-permission>
-      <numberformat-exception>You cannot save this folder. The name provided must be in numerical format.</numberformat-exception>
+      <addFolder-successful>已成功添加的文件夹 '{0}'。</addFolder-successful>
+      <name-invalid>请输入文件夹名称。</name-invalid>
+      <title-invalid>请输入文件夹的标题。</title-invalid>
+      <name-not-allowed>此名称不是允许的。</name-not-allowed>
+      <fileName-error>文件的名称是无效的。</fileName-error>
+      <constraint-violation>当前节点不允许您添加的节点类型 '{0}'。</constraint-violation>
+      <repository-exception>出现意外的错误。为了更多详细信息，请与您的管理员联系。</repository-exception>
+      <repository-exception-permission>你没有将此节点添加一个新的文件夹的权限。</repository-exception-permission>
+      <numberformat-exception>您不能保存此文件夹。提供的名称必须是数值格式。</numberformat-exception>
       <!--DMS 2.4.x; ECM-3553-->
-      <not-allow-sameNameSibling>You cannot save the folder. This node does not accept two nodes with the same name.</not-allow-sameNameSibling>
-      <ntFolder-not-avaiable>You must select a custom type of folder</ntFolder-not-avaiable>
+      <not-allow-sameNameSibling>您不能保存该文件夹。此节点不接受两个节点具有相同的名称。</not-allow-sameNameSibling>
+      <ntFolder-not-avaiable>您必须选择文件夹的自定义类型</ntFolder-not-avaiable>
     </msg>
     <help>
-      <customTypeCheckBoxHelp>Check if you intend to store web contents or custom document types in this folder</customTypeCheckBoxHelp>
+      <customTypeCheckBoxHelp>单击是否您打算在此文件夹中存储网页内容或自定义的文档类型</customTypeCheckBoxHelp>
     </help>
   </UIFolderForm>
   <!--
@@ -442,118 +442,118 @@
   -->
   <UIWorkingArea>
     <title>
-      <Icon>Icon</Icon>
+      <Icon>图标</Icon>
     </title>
     <msg>
       <!-- Delte one node is not in trash and have no relation -->
-      <confirm-delete>Are you sure you want to delete the item '{0}'?</confirm-delete>
-      <confirm-delete-file>Are you sure you want to delete the file '{0}'?</confirm-delete-file>
-      <confirm-delete-folder>Are you sure you want to delete the folder '{0}' and all subfolders?</confirm-delete-folder>
+      <confirm-delete>确实要删除项目 '{0}'?</confirm-delete>
+      <confirm-delete-file>确实要删除文件 '{0}'?</confirm-delete-file>
+      <confirm-delete-folder>确实要删除 '{0}' 文件夹及其所有子文件夹吗?</confirm-delete-folder>
       
       <!-- Delte one node is in trash and have no relation -->
-      <confirm-delete-permanently>Are you sure you want to permanently remove the item '{0}'?</confirm-delete-permanently>
-      <confirm-delete-file-permanently>Are you sure you want to permanently remove the file '{0}'?</confirm-delete-file-permanently>
-      <confirm-delete-folder-permanently>Are you sure you want to permanently remove the folder '{0}' and all subfolders?</confirm-delete-folder-permanently>
+      <confirm-delete-permanently>你确定你要永久删除该项目 '{0}'吗？</confirm-delete-permanently>
+      <confirm-delete-file-permanently>你确定你要永久删除该文件 '{0}'吗？</confirm-delete-file-permanently>
+      <confirm-delete-folder-permanently>您确实要永久删除文件夹 '{0}' 和所有子文件夹吗?</confirm-delete-folder-permanently>
       
       <!-- Delte one node is not in trash and have relations -->
-      <confirm-delete-has-relations>Are you sure you want to delete the item '{0}' and its references?</confirm-delete-has-relations>
-      <confirm-delete-file-has-relations>Are you sure you want to delete the file '{0}' and its references?</confirm-delete-file-has-relations>
-      <confirm-delete-folder-has-relations>Are you sure you want to delete the folder '{0}' and its references?</confirm-delete-folder-has-relations>
+      <confirm-delete-has-relations>您确定要删除项目 '{0}' 及其引用吗?</confirm-delete-has-relations>
+      <confirm-delete-file-has-relations>您确定要删除文件 '{0}' 及其引用吗?</confirm-delete-file-has-relations>
+      <confirm-delete-folder-has-relations>您确定要删除文件夹 '{0}' 及其引用吗?</confirm-delete-folder-has-relations>
       
       <!-- Delte multiple nodes, not in Trash, have no relations -->
-      <confirm-delete-multi-nodes-generic>Are you sure you want to delete the {0} selected items?</confirm-delete-multi-nodes-generic>  
-      <confirm-delete-multi-nodes-file>Are you sure you want to delete the {0} selected files?</confirm-delete-multi-nodes-file>
-      <confirm-delete-multi-nodes-folder>Are you sure you want to delete the {0} selected folders and all subfolders?</confirm-delete-multi-nodes-folder>
-      <confirm-delete-multi-nodes-generic-and-file>Are you sure you want to delete the {0} selected items and files?</confirm-delete-multi-nodes-generic-and-file>
-      <confirm-delete-multi-nodes-generic-and-folder>Are you sure you want to delete the {0} selected items, folders and all subfolders?</confirm-delete-multi-nodes-generic-and-folder>
-      <confirm-delete-multi-nodes-file-and-folder>Are you sure you want to delete the {0} selected files, folders and all subfolders?</confirm-delete-multi-nodes-file-and-folder>
-      <confirm-delete-multi-nodes-generic-and-file-and-folder>Are you sure you want to delete the {0} selected items, files, folders and all subfolders?</confirm-delete-multi-nodes-generic-and-file-and-folder>
+      <confirm-delete-multi-nodes-generic>您确定要删除 {0} 个选定的项目吗?</confirm-delete-multi-nodes-generic>  
+      <confirm-delete-multi-nodes-file>确实要删除 {0} 个选定文件吗?</confirm-delete-multi-nodes-file>
+      <confirm-delete-multi-nodes-folder>确实要删除 {0} 个选定文件夹和所有子文件夹吗?</confirm-delete-multi-nodes-folder>
+      <confirm-delete-multi-nodes-generic-and-file>确实要删除 {0}个选定的 项目和文件吗？</confirm-delete-multi-nodes-generic-and-file>
+      <confirm-delete-multi-nodes-generic-and-folder>确实要删除 {0} 个选定的项、 文件夹和所有子文件夹吗?</confirm-delete-multi-nodes-generic-and-folder>
+      <confirm-delete-multi-nodes-file-and-folder>确实要删除 {0} 个选定的文件、 文件夹和所有子文件夹吗?</confirm-delete-multi-nodes-file-and-folder>
+      <confirm-delete-multi-nodes-generic-and-file-and-folder>确实要删除 {0} 个选定的项、 文件夹和所有子文件夹吗?</confirm-delete-multi-nodes-generic-and-file-and-folder>
       
       <!-- Delte multiple nodes, in Trash -->
-      <confirm-delete-multi-nodes-generic-permanently>Are you sure you want to permanently remove the {0} selected items?</confirm-delete-multi-nodes-generic-permanently>  
-      <confirm-delete-multi-nodes-file-permanently>Are you sure you want to permanently remove the {0} selected files?</confirm-delete-multi-nodes-file-permanently>
-      <confirm-delete-multi-nodes-folder-permanently>Are you sure you want to permanently remove the {0} selected folders and all subfolders?</confirm-delete-multi-nodes-folder-permanently>
-      <confirm-delete-multi-nodes-generic-and-file-permanently>Are you sure you want to permanently remove the {0} selected items and files?</confirm-delete-multi-nodes-generic-and-file-permanently>
-      <confirm-delete-multi-nodes-generic-and-folder-permanently>Are you sure you want to permanently remove the {0} selected items, folders and all subfolders?</confirm-delete-multi-nodes-generic-and-folder-permanently>
-      <confirm-delete-multi-nodes-file-and-folder-permanently>Are you sure you want to permanently remove the {0} selected files, folders and all subfolders?</confirm-delete-multi-nodes-file-and-folder-permanently>
-      <confirm-delete-multi-nodes-generic-and-file-and-folder-permanently>Are you sure you want to permanently remove the {0} selected items, files, folders and all subfolders?</confirm-delete-multi-nodes-generic-and-file-and-folder-permanently>
+      <confirm-delete-multi-nodes-generic-permanently>确实要永久删除 {0} 个选定的项目吗?</confirm-delete-multi-nodes-generic-permanently>  
+      <confirm-delete-multi-nodes-file-permanently>确实要永久删除 {0} 个选定文件吗?</confirm-delete-multi-nodes-file-permanently>
+      <confirm-delete-multi-nodes-folder-permanently>确实要永久删除 {0} 个选定文件夹和所有子文件夹吗?</confirm-delete-multi-nodes-folder-permanently>
+      <confirm-delete-multi-nodes-generic-and-file-permanently>确定要永久删除 {0} 个选定的项目和文件吗？</confirm-delete-multi-nodes-generic-and-file-permanently>
+      <confirm-delete-multi-nodes-generic-and-folder-permanently>确实要永久删除 {0} 个选定的项、 文件夹和所有子文件夹吗?</confirm-delete-multi-nodes-generic-and-folder-permanently>
+      <confirm-delete-multi-nodes-file-and-folder-permanently>确实要永久删除 {0} 个选定的项、 文件夹和所有子文件夹吗?</confirm-delete-multi-nodes-file-and-folder-permanently>
+      <confirm-delete-multi-nodes-generic-and-file-and-folder-permanently>确实要永久删除 {0} 个选定的项、 文件夹和所有子文件夹吗?</confirm-delete-multi-nodes-generic-and-file-and-folder-permanently>
       
       <!-- Delte multiple nodes, have relations -->
-      <confirm-delete-multi-nodes-generic-have-relations>Are you sure you want to delete the {0} selected items and their references?</confirm-delete-multi-nodes-generic-have-relations>  
-      <confirm-delete-multi-nodes-file-have-relations>Are you sure you want to delete the {0} selected files and their references?</confirm-delete-multi-nodes-file-have-relations>
-      <confirm-delete-multi-nodes-folder-have-relations>Are you sure you want to delete the {0} selected folders, all subfolders and their references?</confirm-delete-multi-nodes-folder-have-relations>
-      <confirm-delete-multi-nodes-generic-and-file-have-relations>Are you sure you want to delete the {0} selected items, files and their references?</confirm-delete-multi-nodes-generic-and-file-have-relations>
-      <confirm-delete-multi-nodes-generic-and-folder-have-relations>Are you sure you want to delete the {0} selected items, their references, folders and all subfolders?</confirm-delete-multi-nodes-generic-and-folder-have-relations>
-      <confirm-delete-multi-nodes-file-and-folder-have-relations>Are you sure you want to delete the {0} selected files, their references, folders and all subfolders?</confirm-delete-multi-nodes-file-and-folder-have-relations>
-      <confirm-delete-multi-nodes-generic-and-file-and-folder-have-relations>Are you sure you want to delete the {0} selected items, files, their references, folders and all subfolders?</confirm-delete-multi-nodes-generic-and-file-and-folder-have-relations>
+      <confirm-delete-multi-nodes-generic-have-relations>确实要删除 {0} 个选定项目和它们的引用吗?</confirm-delete-multi-nodes-generic-have-relations>  
+      <confirm-delete-multi-nodes-file-have-relations>确实要删除 {0} 个选定项目和它们的引用吗?</confirm-delete-multi-nodes-file-have-relations>
+      <confirm-delete-multi-nodes-folder-have-relations>确实要删除 {0} 个选定文件夹、 所有子文件夹和它们的引用吗?</confirm-delete-multi-nodes-folder-have-relations>
+      <confirm-delete-multi-nodes-generic-and-file-have-relations>确实要删除 {0} 个选定的项目、 文件和它们的引用吗?</confirm-delete-multi-nodes-generic-and-file-have-relations>
+      <confirm-delete-multi-nodes-generic-and-folder-have-relations>确实要删除 {0} 个选定的项目、 它们的引用、 文件夹和所有子文件夹吗?</confirm-delete-multi-nodes-generic-and-folder-have-relations>
+      <confirm-delete-multi-nodes-file-and-folder-have-relations>确实要删除 {0} 个选定的文件、 它们的引用、 文件夹和所有子文件夹吗?</confirm-delete-multi-nodes-file-and-folder-have-relations>
+      <confirm-delete-multi-nodes-generic-and-file-and-folder-have-relations>确实要删除 {0} 个选定的项目、文件、 它们的引用、 文件夹和所有子文件夹吗?</confirm-delete-multi-nodes-generic-and-file-and-folder-have-relations>
       
-      <feedback-delete>'{0}' was deleted succesfully.</feedback-delete>
-      <feedback-delete-multi>{0} items were deleted succesfully.</feedback-delete-multi>      
-      <feedback-delete-permanently>'{0}' was removed permanently.</feedback-delete-permanently>
-      <feedback-delete-permanently-multi>{0} items were removed permanently.</feedback-delete-permanently-multi>
-      <undo-delete>Undo</undo-delete>
-      <feedback-restore>'{0}' was successfully restored.</feedback-restore>
-      <feedback-restore-multi>{0} items were succesfully restored.</feedback-restore-multi>
+      <feedback-delete>'{0}' 删除成功。</feedback-delete>
+      <feedback-delete-multi>{0} 项目个删除成功。</feedback-delete-multi>      
+      <feedback-delete-permanently>'{0}' 永久删除。</feedback-delete-permanently>
+      <feedback-delete-permanently-multi>{0} 个项目永久删除。</feedback-delete-permanently-multi>
+      <undo-delete>复原</undo-delete>
+      <feedback-restore>'{0}' 成功恢复。</feedback-restore>
+      <feedback-restore-multi>{0} 项目成功恢复。</feedback-restore-multi>
       
-      <confirm-restore>A node with the same name already exists in the old location of node'{0}'. Are you sure you want to restore this node?</confirm-restore>
-      <confirm-move>Are you sure you want to move?</confirm-move>
-      <node-cut>Node '{0}' has been cut.</node-cut>
-      <execute-successfully>The custom action '{0}' has been executed.</execute-successfully>
-      <save-node-success>Node '{0}' has been saved.</save-node-success>
-      <move-problem>You cannot move node '{0}' to '{1}' because there was a problem with permission or constraint conditions.</move-problem>
+      <confirm-restore>节点"{0}"的旧位置已存在具有相同名称的节点。是否确实要恢复此节点?</confirm-restore>
+      <confirm-move>确实要移动吗?</confirm-move>
+      <node-cut>节点"{0}"已被削减。</node-cut>
+      <execute-successfully>已执行自定义操作 '{0}'。</execute-successfully>
+      <save-node-success>节点"{0}"已被保存。</save-node-success>
+      <move-problem>因为没有权限或约束条件的问题，不能移动到 '{1}' 节点"{0}"。</move-problem>
     </msg>
   </UIWorkingArea>
   <UIDocumentWorkspace>
     <label>
-      <no-children>This node does not have any child nodes.</no-children>
-      <no-children-but-has-hidden>This node does not have any child nodes, but there are some hidden files.</no-children-but-has-hidden>
+      <no-children>此节点不具有任何子部分。</no-children>
+      <no-children-but-has-hidden>此节点不具有任何子节点，但有一些隐藏的文件。</no-children-but-has-hidden>
     </label>
     <msg>
-      <unable-save-node>Node '{0}' has been newly created. Please save session before performing this action.</unable-save-node>
-      <save-node-success>Node '{0}' has been saved.</save-node-success>
-      <node-copied>Node '{0}' has been copied.</node-copied>
-      <node-cut>Node '{0}' has been cut.</node-cut>
-      <remove-root>You cannot remove the root node.</remove-root>
-      <node-remove-success>Node '{0}' has been removed.</node-remove-success>
+      <unable-save-node>已新创建节点"{0}"。请保存会话之前执行此操作。</unable-save-node>
+      <save-node-success>节点"{0}"已被保存。</save-node-success>
+      <node-copied>已复制节点"{0}"。</node-copied>
+      <node-cut>节点"{0}"已被削减。</node-cut>
+      <remove-root>您不能删除的根节点。</remove-root>
+      <node-remove-success>节点"{0}"已被删除。</node-remove-success>
     </msg>
     <tooltip>
-      <Rename>Rename</Rename>
+      <Rename>重命名</Rename>
       <Cut>剪切</Cut>
       <Copy>复制</Copy>
       <Save>#{word.save}</Save>
-      <RemoveNode>Delete</RemoveNode>
-      <Checkin>Checkin</Checkin>
-      <Checkout>Checkout</Checkout>
-      <Lock>Lock</Lock>
-      <Unlock>Unlock</Unlock>
-      <EditDocument>Edit</EditDocument>
-      <Paste>Paste</Paste>
-      <LockedBy>Locked by</LockedBy>
+      <RemoveNode>删除</RemoveNode>
+      <Checkin>签入</Checkin>
+      <Checkout>签出</Checkout>
+      <Lock>锁</Lock>
+      <Unlock>解锁​​​​</Unlock>
+      <EditDocument>编辑</EditDocument>
+      <Paste>粘贴</Paste>
+      <LockedBy>被锁定</LockedBy>
     </tooltip>
   </UIDocumentWorkspace>
   <UIDocumentInfo>
     <msg>
-      <access-denied>Access denied. You cannot access node '{0}'.</access-denied>
-      <null-exception>Item not found. It was either removed or changed, or you do not have permission to access this node.</null-exception>
-      <confirm-deleteattachment>Are you sure you want to remove this attachment file?</confirm-deleteattachment>
-      <confirm-deleteattcomment>Are you sure you want to remove this comment?</confirm-deleteattcomment>
-      <access-denied-exception>Access denied. You may not have reading privileges, or the node may have been removed or changed.</access-denied-exception>
-      <path-not-found>This element was deleted or changed. Please click the Refresh button.</path-not-found>
+      <access-denied>访问被拒绝。您不能访问节点"{0}"。</access-denied>
+      <null-exception>找不到项。它是在移除或更改，或您没有权限访问此节点。</null-exception>
+      <confirm-deleteattachment>确实要删除此附件文件吗?</confirm-deleteattachment>
+      <confirm-deleteattcomment>是否确实要删除此注释?</confirm-deleteattcomment>
+      <access-denied-exception>访问被拒绝。您可能没有读取权限，或者该节点可能已删除或更改。</access-denied-exception>
+      <path-not-found>此元素被删除或更改。请单击刷新按钮。</path-not-found>
     </msg>
     <tooltip>
-      <remove-attachment>Remove this attachment file</remove-attachment>
-      <remove-comment>Remove this comment</remove-comment>
+      <remove-attachment>删除此附件文件</remove-attachment>
+      <remove-comment>删除此注释</remove-comment>
     </tooltip>
   </UIDocumentInfo>
   <ListView>
     <view>
       <label>
-        <name>Name</name>
-        <versionable>Versionable</versionable>
-        <exo_owner>Owner</exo_owner>
-        <auditing>Auditing</auditing>
-        <exo_dateCreated>Date Created</exo_dateCreated>
-        <exo_dateModified>Date Modifed</exo_dateModified>
+        <name>名称</name>
+        <versionable>可版本化</versionable>
+        <exo_owner>所有者</exo_owner>
+        <auditing>审核</auditing>
+        <exo_dateCreated>创建日期</exo_dateCreated>
+        <exo_dateModified>日期修饰</exo_dateModified>
       </label>
     </view>
   </ListView>
@@ -564,34 +564,34 @@
   -->
   <ECMContextMenu>
     <event>
-      <Lock>Lock</Lock>
-      <Unlock>UnLock</Unlock>
-      <EditDocument>Edit</EditDocument>
-      <Copy>Copy</Copy>
-      <Rename>Rename</Rename>
-      <Delete>Delete</Delete>
+      <Lock>锁定</Lock>
+      <Unlock>解锁</Unlock>
+      <EditDocument>编辑</EditDocument>
+      <Copy>复制</Copy>
+      <Rename>重命名</Rename>
+      <Delete>删除</Delete>
       <Save>#{word.save}</Save>
-      <Cut>Cut</Cut>
-      <Paste>Paste</Paste>
-      <CheckOut>CheckOut</CheckOut>
-      <CheckIn>CheckIn</CheckIn>
-      <WebDAV>View WebDAV</WebDAV>
-      <autoversion>Auto Versioning</autoversion>
-      <Custom>Custom</Custom>
-      <AddFolder>New Folder</AddFolder>
-      <AddDocument>New Content</AddDocument>
-      <Upload>Upload Files</Upload>
-      <MoveNode>Move</MoveNode>
-      <UnLock>Unlock</UnLock>
-      <ViewProperties>View Properties</ViewProperties>
-      <GetURL>Copy URL To Clipboard</GetURL>
-      <AddThumbnail>Add/Remove Thumbnail</AddThumbnail>
-      <AddToFavourite>Add To Favorite</AddToFavourite>
-      <RemoveFromFavourite>Remove From Favorite</RemoveFromFavourite>
-      <MoveToTrash>Move to Trash</MoveToTrash>
-      <RestoreFromTrash>Restore from Trash</RestoreFromTrash>
-      <EmptyTrash>Empty Trash</EmptyTrash>
-      <WebDavView>Download and Allow Editing</WebDavView>
+      <Cut>剪切</Cut>
+      <Paste>粘贴</Paste>
+      <CheckOut>签出</CheckOut>
+      <CheckIn>签入</CheckIn>
+      <WebDAV>视图 WebDAV</WebDAV>
+      <autoversion>自动版本控制</autoversion>
+      <Custom>定制：</Custom>
+      <AddFolder>新的文件夹</AddFolder>
+      <AddDocument>新内容</AddDocument>
+      <Upload>上传文件</Upload>
+      <MoveNode>移动</MoveNode>
+      <UnLock>解锁​​​​</UnLock>
+      <ViewProperties>查看属性</ViewProperties>
+      <GetURL>将 URL 复制到剪贴板</GetURL>
+      <AddThumbnail>添加/删除缩略图</AddThumbnail>
+      <AddToFavourite>添加到收藏夹</AddToFavourite>
+      <RemoveFromFavourite>从收藏夹中删除</RemoveFromFavourite>
+      <MoveToTrash>移到垃圾桶</MoveToTrash>
+      <RestoreFromTrash>从垃圾桶中还原</RestoreFromTrash>
+      <EmptyTrash>倾倒垃圾桶</EmptyTrash>
+      <WebDavView>下载并允许编辑</WebDavView>
     </event>
   </ECMContextMenu>
  
@@ -602,11 +602,11 @@
   -->
   <UIReferencesList>
     <msg>
-      <no-references>References not found</no-references>
+      <no-references>找不到参考文献</no-references>
     </msg>
     <header>
-      <workspace>Workspace</workspace>
-      <path>Path</path>
+      <workspace>工作区</workspace>
+      <path>路径</path>
     </header>
     <action>
       <Close>#{word.close}</Close>
@@ -620,26 +620,26 @@
   <UITabPane>
     <title>
       <UIPublishingPanel>Publication Pane</UIPublishingPanel>
-      <UIPublicationPanel>Revision</UIPublicationPanel>
-      <UIPublicationSchedule>Scheduled</UIPublicationSchedule>
-      <UIPublicationPagesContainer>Pages</UIPublicationPagesContainer>
+      <UIPublicationPanel>修订</UIPublicationPanel>
+      <UIPublicationSchedule>预定</UIPublicationSchedule>
+      <UIPublicationPagesContainer>页</UIPublicationPagesContainer>
       <UIPublicationHistory>历史</UIPublicationHistory>
-      <UIVersionViewer>Version Viewer</UIVersionViewer>
+      <UIVersionViewer>版本查看器</UIVersionViewer>
 
       <UIPropertyTab>Properties</UIPropertyTab>
-      <UIMetadataTab>Metadata</UIMetadataTab>
-      <UIPropertyForm>Add New Property</UIPropertyForm>
-      <UIUploadContent>Information of uploaded file</UIUploadContent>
-      <UIJCRAdvancedSearch>New Query</UIJCRAdvancedSearch>
-      <UISavedQuery>Saved Query</UISavedQuery>
-      <AdvancedSearchResult>Search Results</AdvancedSearchResult>
+      <UIMetadataTab>元数据</UIMetadataTab>
+      <UIPropertyForm>添加新的属性</UIPropertyForm>
+      <UIUploadContent>上载的文件信息</UIUploadContent>
+      <UIJCRAdvancedSearch>新的查询</UIJCRAdvancedSearch>
+      <UISavedQuery>保存的查询</UISavedQuery>
+      <AdvancedSearchResult>搜索结果</AdvancedSearchResult>
       <UISimpleSearch>简单搜索</UISimpleSearch>
       <UISearchContainer>高级的搜索</UISearchContainer>
       <UICategoryManagerSearch>将类别添加到搜索</UICategoryManagerSearch>
       <UIConstraintsForm>限制窗体</UIConstraintsForm>
       <UIViewSearchResult>查看内容</UIViewSearchResult>
       <UIContentNameSearch>Search by Name</UIContentNameSearch>
-      <UINodeInfo>Version Info</UINodeInfo>
+      <UINodeInfo>版本信息</UINodeInfo>
       <UINodeProperty>节点属性</UINodeProperty>
       <UIActionListContainer>可用的操作</UIActionListContainer>
       <UIActionContainer>添加操作</UIActionContainer>
@@ -879,7 +879,7 @@
     <msg>
       <keyword-null>Please enter your keyword.</keyword-null>
       <not-found>没有找到结果。</not-found>
-      <keyword-not-allow>This keyword is not allowed.</keyword-not-allow>
+      <keyword-not-allow>不允许使用此关键字。</keyword-not-allow>
       <value-null>Please enter your keyword or constraints.</value-null>
       <value-save-null>Please enter a keyword or constraints before saving this query.</value-save-null>
       <inputSearch-invalid>There are invalid characters in the search input.</inputSearch-invalid>
@@ -894,17 +894,17 @@
   <UISearchResult>
     <msg>
       <not-support>There is no View template for this node.</not-support>
-      <empty>No results found.</empty>
+      <empty>没有找到结果。</empty>
       <access-denied>You cannot open this folder, either because it no longer exists or because you do not have the right to access it.</access-denied>
       <query-invalid>The query is invalid.</query-invalid>
     </msg>
     <header>
       <name>#{word.name}</name>
-      <path>Path</path>
-      <action>Action</action>
-      <shortcutPath>Path</shortcutPath>
-      <type>Type</type>
-      <dateCreated>Date Created</dateCreated>
+      <path>路径</path>
+      <action>操作</action>
+      <shortcutPath>路径</shortcutPath>
+      <type>类型</type>
+      <dateCreated>创建日期</dateCreated>
       <score>Score</score>
     </header>
     <title>
@@ -925,110 +925,110 @@
   <UIShowAllOwnedByUserResult>
     <msg>
       <not-support>There is no View template for this node</not-support>
-      <empty>No results found.</empty>
+      <empty>没有找到结果。</empty>
       <access-denied>You cannot view this node, either because this template is not supported or because access is denied.</access-denied>
       <query-invalid>The query is invalid</query-invalid>
     </msg>
     <header>
       <name>#{word.name}</name>
-      <path>Path</path>
-      <action>Action</action>
-      <shortcutPath>Path</shortcutPath>
-      <type>Type</type>
-      <dateCreated>Date Created</dateCreated>
-      <score>Score</score>
+      <path>路径</path>
+      <action>操作</action>
+      <shortcutPath>路径</shortcutPath>
+      <type>类型</type>
+      <dateCreated>创建日期</dateCreated>
+      <score>得分</score>
     </header>
     <title>
-      <typeASC>Sort by document type in ascending order</typeASC>
-      <typeDESC>Sort by document type in descending order</typeDESC>
-      <scoreASC>Sort by score in ascending order</scoreASC>
-      <scoreDESC>Sort by score in descending order</scoreDESC>
-      <nameASC>Sort by name in ascending order</nameASC>
-      <nameDESC>Sort by name in descending order</nameDESC>
+      <typeASC>按文件类型在按升序排序</typeASC>
+      <typeDESC>按文件类型在按升序排序</typeDESC>
+      <scoreASC>按积分升序排序</scoreASC>
+      <scoreDESC>按分数降序排序</scoreDESC>
+      <nameASC>按名称升序排序</nameASC>
+      <nameDESC>按名称降序排序</nameDESC>
       <datecreatedASC>Sort by Created date in ascending order</datecreatedASC>
       <datecreatedDESC>Sort by Created date in descending order</datecreatedDESC>
     </title>
     <tooltip>
-      <View>View this node</View>
+      <View>查看此节点</View>
       <OpenFolder>Go to Folder</OpenFolder>
     </tooltip>
   </UIShowAllOwnedByUserResult>
   <UIShowAllFavouriteResult>
     <msg>
-      <not-support>There is no View template for this node</not-support>
+      <not-support>没有为此节点的视图模板</not-support>
       <empty>No results found</empty>
-      <access-denied>You cannot view this node, either because this template is not supported or because access is denied.</access-denied>
-      <query-invalid>The query is invalid</query-invalid>
+      <access-denied>您不能查看此节点，因为此模板不受支持，或由于访问被拒绝。</access-denied>
+      <query-invalid>查询无效</query-invalid>
     </msg>
     <header>
       <name>#{word.name}</name>
-      <path>Path</path>
-      <action>Action</action>
-      <shortcutPath>Path</shortcutPath>
-      <type>Type</type>
-      <dateCreated>Date Created</dateCreated>
-      <score>Score</score>
+      <path>路径</path>
+      <action>操作</action>
+      <shortcutPath>路径</shortcutPath>
+      <type>类型</type>
+      <dateCreated>创建日期</dateCreated>
+      <score>分数</score>
     </header>
     <title>
-      <typeASC>Sort by document type in ascending order</typeASC>
-      <typeDESC>Sort by document type in descending order</typeDESC>
-      <scoreASC>Sort by score in ascending order</scoreASC>
-      <scoreDESC>Sort by score in descending order</scoreDESC>
-      <nameASC>Sort by name in ascending order</nameASC>
-      <nameDESC>Sort by name in descending order</nameDESC>
-      <datecreatedASC>Sort by created date in ascending order</datecreatedASC>
-      <datecreatedDESC>Sort by created date in descending order</datecreatedDESC>
+      <typeASC>按文件类型升序排序</typeASC>
+      <typeDESC>按文档类型降序排序</typeDESC>
+      <scoreASC>按分数升序排序</scoreASC>
+      <scoreDESC>按分数降序排序</scoreDESC>
+      <nameASC>按名称升序排序</nameASC>
+      <nameDESC>按名称降序排序</nameDESC>
+      <datecreatedASC>按创建日期升序排序</datecreatedASC>
+      <datecreatedDESC>按创建日期降序排序</datecreatedDESC>
     </title>
     <tooltip>
       <View>View this Node</View>
-      <OpenFolder>Go to Folder</OpenFolder>
+      <OpenFolder>转到文件夹</OpenFolder>
     </tooltip>
   </UIShowAllFavouriteResult>
   <UIShowAllHiddenResult>
     <msg>
-      <not-support>There is no View template for this node.</not-support>
-      <empty>No results found.</empty>
-      <access-denied>You cannot view this node, either because this template is not supported or because access is denied.</access-denied>
-      <query-invalid>The query is invalid.</query-invalid>
+      <not-support>没有为此节点的视图模板。</not-support>
+      <empty>没有找到结果。</empty>
+      <access-denied>您不能查看此节点，因为此模板不受支持，或由于访问被拒绝。</access-denied>
+      <query-invalid>查询无效</query-invalid>
     </msg>
     <header>
       <name>#{word.name}</name>
-      <path>Path</path>
-      <action>Action</action>
-      <shortcutPath>Path</shortcutPath>
-      <type>Type</type>
-      <dateCreated>Date Created</dateCreated>
-      <score>Score</score>
+      <path>路径</path>
+      <action>操作</action>
+      <shortcutPath>路径</shortcutPath>
+      <type>类型</type>
+      <dateCreated>创建日期</dateCreated>
+      <score>分数</score>
       <AddRemoveFavourite>Add/Remove to Favorite</AddRemoveFavourite>
     </header>
     <title>
-      <typeASC>Sort by document type in ascending order</typeASC>
-      <typeDESC>Sort by document type in descending order</typeDESC>
-      <scoreASC>Sort by score in ascending order</scoreASC>
-      <scoreDESC>Sort by score in descending order</scoreDESC>
-      <nameASC>Sort by name in ascending order</nameASC>
-      <nameDESC>Sort by name in descending order</nameDESC>
-      <datecreatedASC>Sort by created date in ascending order</datecreatedASC>
-      <datecreatedDESC>Sort by created date in descending order</datecreatedDESC>
+      <typeASC>按文件类型升序排序</typeASC>
+      <typeDESC>按文档类型降序排序</typeDESC>
+      <scoreASC>按分数升序排序</scoreASC>
+      <scoreDESC>按分数降序排序</scoreDESC>
+      <nameASC>按名称升序排序</nameASC>
+      <nameDESC>按名称降序排序</nameDESC>
+      <datecreatedASC>按创建日期升序排序</datecreatedASC>
+      <datecreatedDESC>按创建日期降序排序</datecreatedDESC>
     </title>
     <tooltip>
-      <View>View this Node</View>
-      <OpenFolder>Go to Folder</OpenFolder>
+      <View>查看此节点</View>
+      <OpenFolder>转到文件夹</OpenFolder>
       <RemoveHiddenAttribute>Remove Hidden Attribute</RemoveHiddenAttribute>
     </tooltip>
   </UIShowAllHiddenResult>
   <UIShowAllTrashResult>
     <msg>
-      <not-support>There is no View template for this node.</not-support>
-      <empty>No results found</empty>
+      <not-support>没有为此节点的视图模板</not-support>
+      <empty>未找到任何结果</empty>
       <access-denied>您不能查看此节点，因为此模板不受支持，或由于访问被拒绝。</access-denied>
       <query-invalid>该查询是无效的。</query-invalid>
     </msg>
     <header>
       <name>#{word.name}</name>
-      <path>Path</path>
-      <action>Action</action>
-      <shortcutPath>Path</shortcutPath>
+      <path>路径</path>
+      <action>操作</action>
+      <shortcutPath>路径</shortcutPath>
       <type>类型</type>
       <dateCreated>创建日期</dateCreated>
       <score>分数</score>
@@ -1087,9 +1087,9 @@
     </tooltip>
     <label>
       <colon>:</colon>
-      <operator>Operator</operator>
+      <operator>运算符</operator>
       <exactlyPro-properties>属性</exactlyPro-properties>
-      <exactlyPro-ContainExactly>Contain Exactly</exactlyPro-ContainExactly>
+      <exactlyPro-ContainExactly>确切地包含</exactlyPro-ContainExactly>
       <containPro-properties>属性</containPro-properties>
       <containPro-Contain>包含</containPro-Contain>
       <notContainPro-properties>属性</notContainPro-properties>
@@ -1117,7 +1117,7 @@
   </CategoryPopup>
   <SaveQueryPopup>
     <title>
-      <UISaveQueryForm>Query Form</UISaveQueryForm>
+      <UISaveQueryForm>查询窗体</UISaveQueryForm>
     </title>
   </SaveQueryPopup>
   <UINodeTypeSelectForm>
@@ -1165,7 +1165,7 @@
   </UIJCRAdvancedSearch>
   <EditQueryForm>
     <label>
-      <name>Name</name>
+      <name>姓名</name>
       <selectBox>选择查询样式</selectBox>
       <query>查询</query>
     </label>
@@ -1185,7 +1185,7 @@
     </label>
     <action>
       <Cancel>#{word.cancel}</Cancel>
-      <Add>Add</Add>
+      <Add>新增</Add>
     </action>
   </UIMetadataSelectForm>
   <property1MetadataPopup>
@@ -1209,7 +1209,7 @@
     </label>
     <pLabel>属性：</pLabel>
     <action>
-      <Add>Add</Add>
+      <Add>新增</Add>
       <Cancel>#{word.cancel}</Cancel>
     </action>
   </UISelectPropertyForm>
@@ -1220,11 +1220,11 @@
   </ExactlyFormPopup>
   <UIECMSearch>
     <header>
-      <name>Name</name>
+      <name>姓名</name>
       <language>语言</language>
       <query>查询</query>
-      <action>Actions</action>
-      <path>Path</path>
+      <action>操作</action>
+      <path>路径</path>
     </header>
   </UIECMSearch>
   <UIResult>
@@ -1232,7 +1232,7 @@
       <not-found>未找到数据。</not-found>
     </msg>
     <header>
-      <action>Action</action>
+      <action>操作</action>
     </header>
   </UIResult>
   <UISaveQueryForm>
@@ -1251,15 +1251,15 @@
   </UISaveQueryForm>
   <UISavedQuery>
     <header>
-      <name>Name</name>
-      <type>Type</type>
+      <name>姓名</name>
+      <type>类型</type>
       <statement>声明</statement>
-      <permission>Permissions</permission>
-      <action>Actions</action>
+      <permission>权限</permission>
+      <action>操作</action>
     </header>
     <tooltip>
       <Execute>执行</Execute>
-      <Edit>Edit</Edit>
+      <Edit>编辑</Edit>
       <Delete>删除</Delete>
     </tooltip>
     <label>
@@ -1267,7 +1267,7 @@
     </label>
     <msg>
       <confirm-delete-query>确实要删除此查询吗?</confirm-delete-query>
-      <not-result-found>No results found.</not-result-found>
+      <not-result-found>没有找到结果。</not-result-found>
     </msg>
   </UISavedQuery>
   <UIQueryResultPageIterator>
@@ -1331,11 +1331,11 @@
       <cannot-remove-version>您不能删除的基版本。</cannot-remove-version>
       <confirm-delete>是否确实要删除此版本?</confirm-delete>
       <not-checked-out>您必须在恢复之前签出此节点。</not-checked-out>
-      <invalid-item-state>You cannot restore this version, either because one or more items were deleted or moved during another session.</invalid-item-state>
+      <invalid-item-state>你不能还原此版本，因为在运行阶段一个或多个项目被删除或移动。</invalid-item-state>
     </msg>
     <action>
       <close>#{word.close}</close>
-      <close-view>Close View</close-view>
+      <close-view>关闭视图</close-view>
     </action>
   </UIVersionInfo>
   <!--
@@ -1345,23 +1345,23 @@
   -->
   <UIAuditingInfo>
     <msg>
-      <noVersion>No Version</noVersion>
+      <noVersion>没有版本</noVersion>
     </msg>
     <eventName>
-      <e_1>Node Added</e_1>
-      <e_2>Node Removed</e_2>
-      <e_4>Property Added</e_4>
-      <e_16>Property Changed</e_16>
-      <e_8>Property Removed</e_8>
+      <e_1>添加节点</e_1>
+      <e_2>删除节点</e_2>
+      <e_4>添加属性</e_4>
+      <e_16>属性更改</e_16>
+      <e_8>删除属性</e_8>
       <e_32>#{word.save}</e_32>
-      <e_64>Move</e_64>
+      <e_64>移动</e_64>
       <e_128>复制</e_128>
-      <e_256>Add Mixin</e_256>
-      <e_512>Remove Mixin</e_512>
-      <e_1024>Clone</e_1024>
-      <e_2048>Update</e_2048>
-      <e_4096>Import</e_4096>
-      <e_8192>Check in</e_8192>
+      <e_256>添加mixin</e_256>
+      <e_512>删除mixin</e_512>
+      <e_1024>模仿</e_1024>
+      <e_2048>更新</e_2048>
+      <e_4096>导入</e_4096>
+      <e_8192>签入</e_8192>
       <e_16384>签出</e_16384>
       <e_32768>恢复</e_32768>
       <e_65536>合并</e_65536>
@@ -1370,8 +1370,8 @@
       <e_524288>添加版本标签</e_524288>
       <e_1048576>删除版本标签</e_1048576>
       <e_2097152>删除版本</e_2097152>
-      <e_4194304>Lock</e_4194304>
-      <e_8388608>Unlock</e_8388608>
+      <e_4194304>锁</e_4194304>
+      <e_8388608>解锁​​​​</e_8388608>
       <e_16777216>读取</e_16777216>
     </eventName>
     <label>
@@ -1405,9 +1405,9 @@
   -->
   <UIActivePublication>
     <header>
-      <LifecycleName>Name</LifecycleName>
+      <LifecycleName>姓名</LifecycleName>
       <LifecycleDesc>说明</LifecycleDesc>
-      <action>Action</action>
+      <action>操作</action>
     </header>
     <action>
       <Cancel>#{word.close}</Cancel>
@@ -1429,7 +1429,7 @@
   -->
   <UIActivateAuditing>
     <label>
-      <note>Auditing has not been activated for this node.</note>
+      <note>节点审核功能尚未激活。</note>
       <question>确实需要激活它吗?</question>
     </label>
     <action>
@@ -1448,7 +1448,7 @@
       <noChange>两个版本之间没有变化</noChange>
       <baseVerion>基本版本</baseVerion>
       <compareVerion>版本</compareVerion>
-      <can-not-compare>Failed to compare two versions</can-not-compare>
+      <can-not-compare>未能比较两个版本</can-not-compare>
     </label>
   </UIDiff>
   <!--
@@ -1461,21 +1461,21 @@
       <format>Format</format>
       <systemView>系统视图</systemView>
       <documentView>文档视图</documentView>
-      <upload>Upload File</upload>
+      <upload>上传文件</upload>
     </label>
     <action>
       <Cancel>#{word.cancel}</Cancel>
-      <Import>Import</Import>
+      <Import>导入</Import>
     </action>
     <title>导入节点</title>
     <msg>
       <import-successful>已成功导入。</import-successful>
-      <filename-invalid>Browse an .xml file for the 'Upload File' field to import.</filename-invalid>
+      <filename-invalid>浏览要导入的上载文件字段的.xml 文件。</filename-invalid>
       <filetype-error>不能导入已上载的文件。.Xml 文件可能无效。</filetype-error>
       <mimetype-invalid>您只可以导入.xml 或.zip 文件。</mimetype-invalid>
       <access-denied>访问被拒绝。你无权在这里导入。</access-denied>
       <constraint-violation-exception>无法导入数据。在此位置不允许类型 '{0}'。</constraint-violation-exception>
-      <item-exists-exception>An incoming referenceable node has the same UUID as an existing node in the workspace.</item-exists-exception>
+      <item-exists-exception>传入的可引用节点在工作区中有同一个 UUID 作为现有的节点。</item-exists-exception>
     </msg>
   </UIImportNode>
   <!--
@@ -1493,8 +1493,8 @@
     </action>
     <title>添加标签</title>
     <msg>
-      <label-invalid>The label contains some invalid characters.</label-invalid>
-      <label-exist>'{0}' already exists.</label-exist>
+      <label-invalid>该标签包含一些无效的字符。</label-invalid>
+      <label-exist>'{0}' 已存在。</label-exist>
     </msg>
   </UILabelForm>
   <!--
@@ -1505,7 +1505,7 @@
   <UIRemoveLabelForm>
     <title>移除标签</title>
     <label>
-      <label>Select Label</label>
+      <label>选择标签</label>
     </label>
     <action>
       <Remove>删除</Remove>
@@ -1518,24 +1518,24 @@
   ###############################################################################
   -->
   <UIVersionTree>
-    <title>Children Tree</title>
+    <title>子树</title>
   </UIVersionTree>
   <UIViewVersion>
     <label>
-      <nodeType>Node Type</nodeType>
-      <nodeName>Node Name</nodeName>
-      <VersionNumber>Version Number</VersionNumber>
-      <VersionLabels>Version Labels</VersionLabels>
-      <VersionDate>Version Date</VersionDate>
-      <PropertyName>Property Name</PropertyName>
-      <PropertyValue>Property Values</PropertyValue>
+      <nodeType>节点类型</nodeType>
+      <nodeName>节点名称</nodeName>
+      <VersionNumber>版本编号</VersionNumber>
+      <VersionLabels>版本标签</VersionLabels>
+      <VersionDate>版本日期</VersionDate>
+      <PropertyName>属性名称</PropertyName>
+      <PropertyValue>属性值</PropertyValue>
     </label>
     <msg>
-      <not-supported>This function is not supported for versioning.</not-supported>
+      <not-supported>此功能不支持版本控制。</not-supported>
     </msg>
   </UIViewVersion>
   <UIVersionList>
-    <title>Children Name</title>
+    <title>子名</title>
   </UIVersionList>
   <!--
   ################################################################################
@@ -1549,18 +1549,18 @@
     <tab>
       <label>
         <UICategoriesAddedList>引用的类别</UICategoriesAddedList>
-        <UIOneNodePathSelector>Select Category</UIOneNodePathSelector>
+        <UIOneNodePathSelector>选择类别</UIOneNodePathSelector>
       </label>
     </tab>
   </UICategoryManager>
   <UICategoriesAddedList>
     <header>
       <path>Category</path>
-      <action>Actions</action>
+      <action>操作</action>
     </header>
     <msg>
-      <access-denied>Access denied. You do not have access permission in this node.</access-denied>
-      <confirm-delete>Are you sure you want to delete this reference?</confirm-delete>
+      <access-denied>访问被拒绝。你没有访问此节点的权限。</access-denied>
+      <confirm-delete>是否确实要删除此引用?</confirm-delete>
     </msg>
     <action>
       <title>
@@ -1569,17 +1569,17 @@
     </action>
     <label>
       <category>Category</category>
-      <actions>Action</actions>
+      <actions>操作</actions>
       <delete>删除</delete>
     </label>
   </UICategoriesAddedList>
   <UITreeList>
     <header>
-      <name>Name</name>
-      <action>Action</action>
+      <name>姓名</name>
+      <action>操作</action>
     </header>
     <info>
-      <child-not-found>This node does not have any child nodes.</child-not-found>
+      <child-not-found>此节点不具有任何子部分。</child-not-found>
     </info>
   </UITreeList>
   <!--
@@ -1605,7 +1605,7 @@
   <UIRelationsAddedList>
     <header>
       <path>关系</path>
-      <action>Actions</action>
+      <action>操作</action>
     </header>
     <action>
       <title>
@@ -1624,9 +1624,9 @@
   -->
   <UIClipboard>
     <header>
-      <path>Path</path>
+      <path>路径</path>
       <command>Cm</command>
-      <action>Action</action>
+      <action>操作</action>
     </header>
     <label>
       <nocommand>在剪贴板中没有任何项目。</nocommand>
@@ -1663,7 +1663,7 @@
   #######################################################################
   -->
   <UIDocumentForm>
-    <title>Add New Document</title>
+    <title>添加新的文档</title>
     <action>
       <Save>#{word.save}</Save>
       <SaveAndClose>保存 &amp; 关闭</SaveAndClose>
@@ -1677,15 +1677,15 @@
 </tooltip>
     <msg>
       <cannot-save>保存文档时出错。</cannot-save>
-      <in-versioning>Please check out the current node before adding a new node.</in-versioning>
+      <in-versioning>请添加一个新的节点前，签出当前节点。</in-versioning>
       <not-support>无法加载 '{0}'的模板。</not-support>
       <value-invalid>'{0}' 是所需的值。</value-invalid>
       <repository-exception>保存文档时出错。</repository-exception>
       <!--DMS 2.4.x; ECM-3543-->
-      <repository-exception-permission>You do not have permission to add a new document to this node.</repository-exception-permission>
-      <not-allowed-same-name-sibling>You cannot save this document. It is not allowed to have the same name as its sibling.</not-allowed-same-name-sibling>
-      <numberformat-exception>You cannot save this document. The name provided must be in numerical format.</numberformat-exception>
-      <item-not-found>Item not found. This node (or its ancestor) may have been deleted. Please click the Refresh button.</item-not-found>
+      <repository-exception-permission>你并没有将此节点添加一个新的文档的权限。</repository-exception-permission>
+      <not-allowed-same-name-sibling>您不能保存此文档。它不被允许具有相同的名称作为其兄弟。</not-allowed-same-name-sibling>
+      <numberformat-exception>您不能保存此文档。提供的名称必须是数值格式。</numberformat-exception>
+      <item-not-found>找不到项。此节点 （或其祖先） 可能已被删除。请单击刷新按钮。</item-not-found>
     </msg>
   </UIDocumentForm>
   <!--
@@ -1731,8 +1731,8 @@
   -->
   <editActionPopup>
     <title>
-      <UIActionForm>Edit Action</UIActionForm>
-      <EditFormAction>Edit Action</EditFormAction>
+      <UIActionForm>编辑操作</UIActionForm>
+      <EditFormAction>编辑操作</EditFormAction>
     </title>
   </editActionPopup>
   <UIActionViewContainer>
@@ -1744,22 +1744,22 @@
     <header>
       <name>#{word.name}</name>
       <description>说明</description>
-  <lifecycle>Life Cycle</lifecycle>
-  <triggeredaction>Triggered Action</triggeredaction>
-      <instanceOf>Instance of Action Type</instanceOf>
-      <action>Action</action>
+  <lifecycle>生命周期</lifecycle>
+  <triggeredaction>触发的动作</triggeredaction>
+      <instanceOf>行动类型的情况</instanceOf>
+      <action>操作</action>
     </header>
     <msg>
-      <remove-popup-first>You must close the edit pop-up before deleting this node.</remove-popup-first>
-      <confirm-delete-action>Are you sure you want to delete this action?</confirm-delete-action>
-      <template-empty>The '{0}' template is null or empty.</template-empty>
-      <template-null>The template is either null or you do not have permission to access this template.</template-null>
-      <access-denied>Access denied. You do not have permission to perform this action.</access-denied>
+      <remove-popup-first>您必须在删除此节点之前关闭编辑弹出窗口。</remove-popup-first>
+      <confirm-delete-action>是否确实要删除此操作?</confirm-delete-action>
+      <template-empty>'{0}' 模板是无效或为空。</template-empty>
+      <template-null>该模板为空或者您没有权限访问此模板。</template-null>
+      <access-denied>访问被拒绝。您没有权限来执行此操作。</access-denied>
     </msg>
     <action>
       <Close>#{word.close}</Close>
-      <View>View</View>
-      <Edit>Edit</Edit>
+      <View>查看</View>
+      <Edit>编辑</Edit>
       <Delete>删除</Delete>
     </action>
   </UIActionList>
@@ -1769,23 +1769,23 @@
       <Back>#{word.back}</Back>
     </action>
     <label>
-      <name>Action Form</name>
+      <name>操作窗体</name>
     </label>
     <msg>
-      <repository-exception>You cannot save this action. The name provided has some special characters.</repository-exception>
-      <numberformat-exception>You cannot save this action. The name provided must be in numerical format.</numberformat-exception>
-      <existed-action>The action name '{0}' already exists. Please select another one.</existed-action>
+      <repository-exception>您不能保存此操作。提供的名称有一些特殊的字符。</repository-exception>
+      <numberformat-exception>您不能保存此操作。提供的名称必须是数值格式。</numberformat-exception>
+      <existed-action>操作 '{0}'已存在. 请选择另外名称.</existed-action>
       <unable-add-action>不能添加此操作。</unable-add-action>
-      <unable-add>Cannot add this action. This node is either root or you do not have permision.</unable-add>
-      <not-support>Dialog '{0}' is not supported.</not-support>
-      <no-permission-add>Access denied. You do not have the right to add an action here.</no-permission-add>
-      <access-denied>Access denied. You do not have permission to access this template.</access-denied>
-      <lifecycle-invalid>You cannot add this action. The lifecycle phase of action is invalid.</lifecycle-invalid>
+      <unable-add>不能添加此操作。此节点是根或您没有权限。</unable-add>
+      <not-support>不支持对话框的 '{0}'。</not-support>
+      <no-permission-add>访问被拒绝。你并没有在这里添加行动的权利。</no-permission-add>
+      <access-denied>访问被拒绝。您没有权限访问此模板。</access-denied>
+      <lifecycle-invalid>您不能添加此操作。行动生命周期阶段是的无效的。</lifecycle-invalid>
     </msg>
     <title>添加/编辑操作</title>
     <validator>
-      <validator>Validator</validator>
-      <destPath>With Path</destPath>
+      <validator>验证程序</validator>
+      <destPath>与路径</destPath>
     </validator>
   </UIActionForm>
   <UIActionTypeForm>
@@ -1796,7 +1796,7 @@
   <PopupComponent>
     <title>
       <UIOneNodePathSelector>选择位置</UIOneNodePathSelector>
-      <UIPermissionSelector>Permission Browser</UIPermissionSelector>
+      <UIPermissionSelector>权限的浏览器</UIPermissionSelector>
       <UICategoriesSelector>添加类别</UICategoriesSelector>
     </title>
   </PopupComponent>
@@ -1819,11 +1819,11 @@
       <keyword-not-support>关键字是无效的。不支持某些字符。</keyword-not-support>
     </msg>
     <label>
-      <exeButton>Go</exeButton>
+      <exeButton>前进</exeButton>
       <address>地址：</address>
     </label>
     <title>
-      <exeButton>Go</exeButton>
+      <exeButton>前进</exeButton>
       <backButton>返回到前一个节点</backButton>
       <showHistory>显示历史记录地址</showHistory>
       <changeNode>更改节点</changeNode>
@@ -1845,10 +1845,10 @@
       <notificationType>通知类型：</notificationType>
     </label>
     <msg>
-      <not-support>This notification type is not supported. Please select another type.</not-support>
-      <watching-successfully>You are watching this document.</watching-successfully>
-      <unwatching-successfully>You have left the watchers list successfully.</unwatching-successfully>
-      <node-iswatching>This document is watched.</node-iswatching>
+      <not-support>这种通知类型不受支持。请选择另一种类型。</not-support>
+      <watching-successfully>您正在观看此文档。</watching-successfully>
+      <unwatching-successfully>你已经成功离开观看列表。</unwatching-successfully>
+      <node-iswatching>此文档被观看。</node-iswatching>
     </msg>
   </UIWatchDocumentForm>
   <!--
@@ -1863,7 +1863,7 @@
       <tagSet>UITaggingForm</tagSet>
     </label>
     <action>
-      <AddTag>Add</AddTag>
+      <AddTag>新增</AddTag>
       <Cancel>#{word.close}</Cancel>
     </action>
     <msg>
@@ -1907,7 +1907,7 @@
   </metadataForm>
   <UIViewMetadataTemplate>
     <msg>
-      <access-denied>Access denied. You are either not the owner or do not have edit permission in this node.</access-denied>
+      <access-denied>访问被拒绝。你不是所有者或没有节点中的编辑权限。</access-denied>
     </msg>
   </UIViewMetadataTemplate>
   <!--
@@ -1917,26 +1917,26 @@
   -->
   <ECMNameValidator>
     <msg>
-      <Invalid-char>The field '{0}' contains some invalid characters. Please enter another value.</Invalid-char>
-      <empty-input>The value of the field '{0}' is null or empty.</empty-input>
+      <Invalid-char>字段"{0}"包含一些无效的字符。请输入另一个值。</Invalid-char>
+      <empty-input>字段"{0}"的值是无效或为空。</empty-input>
     </msg>
   </ECMNameValidator>
   <DateTimeValidator>
     <msg>
-      <Invalid-input>Field '{0}' with value '{1}' is invalid.</Invalid-input>
+      <Invalid-input>值 '{1}' 的字段 '{0}' 是无效的。</Invalid-input>
     </msg>
   </DateTimeValidator>
   <CronExpressionValidator>
-    <invalid-input>Your cron expression is invalid. Please check the syntax.</invalid-input>
+    <invalid-input>Cron 表达式是无效的。请检查语法。</invalid-input>
   </CronExpressionValidator>
   <EmptyFieldValidator>
     <msg>
-      <empty-input>Please fill in the field '{0}'.</empty-input>
+      <empty-input>请填写字段"{0}"。</empty-input>
     </msg>
   </EmptyFieldValidator>
   <CategoryValidator>
     <msg>
-      <non-categories>Categories are wrong. Please select good categories.</non-categories>
+      <non-categories>类别是错误的。请选择适当的类别。</non-categories>
     </msg>
   </CategoryValidator>
   <!--
@@ -1945,25 +1945,25 @@
   ###################################################################################
   -->
   <ReferentialIntegrityException>
-    <msg>Action failed. There are still some reference items in the workspace.</msg>
+    <msg>操作失败。在工作区中仍有一些引用项。</msg>
   </ReferentialIntegrityException>
   <ItemExistsException>
-    <msg>This item already exists.</msg>
+    <msg>这一项目已经存在。</msg>
   </ItemExistsException>
   <AccessControlException>
-    <msg>Access denied. You do not have permission to perform this action.</msg>
+    <msg>访问被拒绝。您没有权限来执行此操作。</msg>
   </AccessControlException>
   <AccessDeniedException>
-    <msg>Access denied.</msg>
+    <msg>访问被拒绝。</msg>
   </AccessDeniedException>
   <ItemNotFoundException>
-    <msg>Item not found. It may have been removed or changed.</msg>
+    <msg>找不到项。它可能已删除或更改。</msg>
   </ItemNotFoundException>
   <PathNotFoundException>
-    <msg>Path not found. It may have been removed or changed.</msg>
+    <msg>项目未找到。它可能已被删除或更改。</msg>
   </PathNotFoundException>
   <ConstraintViolationException>
-    <msg>You cannot perform this action due to some constraints.</msg>
+    <msg>您不能执行此操作由于特定限制。</msg>
   </ConstraintViolationException>
   <!--
   ###################################################################################
@@ -1972,19 +1972,19 @@
   -->
   <UIPublicationForm>
     <label>
-      <published>Published</published>
-      <non-published>Unpublished</non-published>
-      <public>Public</public>
-      <private>Private</private>
+      <published>已发布</published>
+      <non-published>未发布</non-published>
+      <public>公开</public>
+      <private>私人</private>
       <state>状态</state>
       <visibility>Visibility</visibility>
-      <nodeName>Node Name:</nodeName>
-      <lifecycleName>Lifecycle Name</lifecycleName>
-      <stateName>State Name</stateName>
+      <nodeName>节点名称：</nodeName>
+      <lifecycleName>生命周期名称</lifecycleName>
+      <stateName>状态名称</stateName>
     </label>
     <action>
       <Save>#{word.save}</Save>
-      <UnsubcriberLifeCycle>Unsubscriber</UnsubcriberLifeCycle>
+      <UnsubcriberLifeCycle>退订器</UnsubcriberLifeCycle>
       <Cancel>#{word.cancel}</Cancel>
     </action>
   </UIPublicationForm>
@@ -1995,9 +1995,9 @@
   -->
   <UIWorkspaceList>
     <label>
-      <workspaceName>Workspace:</workspaceName>
-      <rootNodeInfo>Root Path:</rootNodeInfo>
-      <rootPath>Root Path:</rootPath>
+      <workspaceName>工作区：</workspaceName>
+      <rootNodeInfo>根路径：</rootNodeInfo>
+      <rootPath>根路径：</rootPath>
     </label>
   </UIWorkspaceList>
   <pathSelector>
@@ -2012,7 +2012,7 @@
   -->
   <EmailAddressValidator>
     <msg>
-      <Invalid-input>The email address is invalid.</Invalid-input>
+      <Invalid-input>电子邮件地址是无效的。</Invalid-input>
     </msg>
   </EmailAddressValidator>
   <UIFormInputSetWithAction>
@@ -2057,11 +2057,11 @@
     <msg>
       <empty-input>此字段的值是无效或为空。</empty-input>
       <Invalid-char>此字段包含一些无效的字符。请输入另一个值。</Invalid-char>
-      <Invalid-char2>The number must be followed by the character '~'.</Invalid-char2>
-      <Invalid-char1>The number following the character '~' must between 0 and 1.</Invalid-char1>
-      <Invalid-char3>The number must be followed by the character '^'.</Invalid-char3>
-      <Invalid-char4>Spaces are not allowed near the character '~'.</Invalid-char4>
-      <Invalid-char5>Spaces are not allowed near the character '^'.</Invalid-char5>
+      <Invalid-char2>数量必须遵循由字符 ' ^'。</Invalid-char2>
+      <Invalid-char1>字符后面的字符数 ' ~' 必须介于 0 和 1 之间。</Invalid-char1>
+      <Invalid-char3>数量必须遵循由字符 ' ^'。</Invalid-char3>
+      <Invalid-char4>不允许在 ' ~'附近有空格字符。</Invalid-char4>
+      <Invalid-char5>不允许在 ' ^'附近有空格的字符</Invalid-char5>
     </msg>
   </SearchValidator>
   <!--
@@ -2072,8 +2072,8 @@
   <UIPublicationLogList>
     <header>
       <date>Date</date>
-      <newState>New State</newState>
-      <user>User</user>
+      <newState>新的状态</newState>
+      <user>用户</user>
       <description>说明</description>
       <version>版本</version>
       <visibility>Visibility</visibility>
@@ -2172,20 +2172,20 @@
   <UIJcrExplorerEditForm>
     <title>编辑文件资源管理器</title>
     <action>
-      <Edit>Edit</Edit>
-      <Save>#{word.save}</Save>
+      <Edit>编辑</Edit>
+      <Save># {词.保存}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <label>
-      <uploadFileSizeLimitMB>The size limit of the uploaded file (MB)</uploadFileSizeLimitMB>
+      <uploadFileSizeLimitMB>(MB) 的上载文件的大小限制</uploadFileSizeLimitMB>
       <isDirectlyDrive>直接驱动</isDirectlyDrive>
       <driveName>驱动器的名称</driveName>
-      <usecase>Select Type</usecase>
+      <usecase>选择类型</usecase>
       <SelectNodePath>选择路径</SelectNodePath>
-      <showTopBar>Show Top Bar</showTopBar>
-      <showActionBar>Show Action Bar</showActionBar>
-      <showSideBar>Show Left Bar</showSideBar>
-      <showFilterBar>Show Filter Bar</showFilterBar>
+      <showTopBar>显示顶部栏</showTopBar>
+      <showActionBar>显示操作栏</showActionBar>
+      <showSideBar>显示左边栏</showSideBar>
+      <showFilterBar>显示筛选器栏</showFilterBar>
       <nodePath>选择路径</nodePath>
     </label>
   </UIJcrExplorerEditForm>
@@ -2193,8 +2193,8 @@
   <UIDriveSelector>
     <label>
       <driveName>驱动器的名称</driveName>
-      <action>Action</action>
-      <adddrives>Add Drives</adddrives>
+      <action>操作</action>
+      <adddrives>添加驱动器</adddrives>
     </label>
   </UIDriveSelector>
   <UIJcrExplorerEditForm>
@@ -2202,9 +2202,9 @@
       <DriveNameInput>UI JCR Explorer Edit Form</DriveNameInput>
     </label>
     <msg>
-      <personal-usecase>The private drive of the current user will be used when you select the Personal usecase.</personal-usecase>
-      <drive-edit-permission>You cannot edit the drive name. Please click the Edit button.</drive-edit-permission>
-      <path-edit-permission>You cannot edit the path. Please click the Edit button.</path-edit-permission>
+      <personal-usecase>当您选择个人用例时，将使用当前用户的专用驱动器。</personal-usecase>
+      <drive-edit-permission>您不能编辑该驱动器的名称。请单击编辑按钮。</drive-edit-permission>
+      <path-edit-permission>您不能编辑的路径。请单击编辑按钮。</path-edit-permission>
     </msg>
   </UIJcrExplorerEditForm>
 
@@ -2216,7 +2216,7 @@
 
   <PopupSelectPath>
     <title>
-      <UIOneNodePathSelector>Select Node</UIOneNodePathSelector>
+      <UIOneNodePathSelector>选择节点</UIOneNodePathSelector>
     </title>
   </PopupSelectPath>
 
@@ -2231,29 +2231,29 @@
   -->
   <UIActionBar>
     <tooltip>
-      <AddSymLink>Add Symlink</AddSymLink>
-      <AddLocalizationLink>Add Translation</AddLocalizationLink>
+      <AddSymLink>添加符号链接</AddSymLink>
+      <AddLocalizationLink>添加翻译</AddLocalizationLink>
     </tooltip>
   </UIActionBar>
 
   <UIPopupWindow>
     <title>
-      <UISymLinkManager>Symlink Manager</UISymLinkManager>
-      <UIAddTranslationManager>Add Translation</UIAddTranslationManager>
+      <UISymLinkManager>符号连接管理器</UISymLinkManager>
+      <UIAddTranslationManager>添加翻译</UIAddTranslationManager>
     </title>
   </UIPopupWindow>
 
   <UISymLinkForm>
     <label>
-      <symLinkName>Symlink Name</symLinkName>
-      <pathNode>Path Node</pathNode>
+      <symLinkName>符号链接名称</symLinkName>
+      <pathNode>路径节点</pathNode>
     </label>
     <action>
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <addFolder-successful>The symlink '{0}' was added successfully.</addFolder-successful>
+      <addFolder-successful>符号链接 '{0}' 添加成功。</addFolder-successful>
       <name-invalid>请输入符号链接名称。</name-invalid>
       <name-not-allowed>此名称不允许。</name-not-allowed>
       <fileName-error>文件的名称无效。</fileName-error>
@@ -2261,11 +2261,11 @@
       <repository-exception>访问被拒绝。你并没有将符号链接添加到此节点的权限。</repository-exception>
       <numberformat-exception>您不能保存此文件夹。提供的名称必须是数值格式。</numberformat-exception>
       <path-node-invalid>请输入路径节点。</path-node-invalid>
-      <path-node-not-allowed>This name is not allowed.</path-node-not-allowed>
+      <path-node-not-allowed>此名称不是允许的。</path-node-not-allowed>
       <non-node>请选择信任目标节点 ；您可能没有读取此节点的权限。</non-node>
       <cannot-save>您不能将此节点类型添加符号链接。</cannot-save>
       <item-exists-exception>节点名称已存在。</item-exists-exception>
-      <translation-node-same-language-default>The translation node has the same language as the default language of current node.</translation-node-same-language-default>
+      <translation-node-same-language-default>翻译的节点跟当前节点的默认语言具有相同的语言。</translation-node-same-language-default>
       <UnsupportedRepositoryOperationException>没有提到此目标节点。</UnsupportedRepositoryOperationException>
     </msg>
   </UISymLinkForm>
@@ -2274,7 +2274,7 @@
     <label>
       <symLinkName>符号链接名称</symLinkName>
       <pathNode>文件路径:</pathNode>
-      <note>Select another document that will serve as the translation</note>
+      <note>选择将担任翻译的另一个文档</note>
     </label>
     <action>
       <Save>#{word.save}</Save>
@@ -2284,17 +2284,17 @@
     <msg>
       <addFolder-successful>符号链接 '{0}' 添加成功。</addFolder-successful>
       <name-invalid>请输入符号链接名称。</name-invalid>
-      <name-not-allowed>This name is not allowed.</name-not-allowed>
-      <fileName-error>The file name is invalid.</fileName-error>
+      <name-not-allowed>此名称不是允许的。</name-not-allowed>
+      <fileName-error>文件的名称是无效的。</fileName-error>
       <constraint-violation>不能将 '{0}' 节点类型添加到当前节点。</constraint-violation>
       <repository-exception>访问被拒绝。你并没有将符号链接添加到此节点的权限。</repository-exception>
       <numberformat-exception>您不能保存此文件夹。提供的名称必须是数值格式。</numberformat-exception>
       <path-node-invalid>请输入路径节点。</path-node-invalid>
-      <path-node-not-allowed>This name is not allowed.</path-node-not-allowed>
+      <path-node-not-allowed>此名称不是允许的。</path-node-not-allowed>
       <non-node>请选择信任目标节点 ；您可能没有读取此节点的权限。</non-node>
       <cannot-save>创建符号链接时出错。</cannot-save>
       <item-exists-exception>节点名称已存在。</item-exists-exception>
-      <translation-node-same-language-default>The translation node has the same language as the default language of current node.</translation-node-same-language-default>
+      <translation-node-same-language-default>翻译的节点跟当前节点的默认语言具有相同的语言。</translation-node-same-language-default>
       <UnsupportedRepositoryOperationException>没有提到此目标节点。</UnsupportedRepositoryOperationException>
     </msg>
   </UIAddTranslationForm>
@@ -2319,10 +2319,10 @@
 
   <UIWorkingArea>
     <msg>
-      <create-link-problem>You cannot create a link for node '{0}' at '{1}'.</create-link-problem>
+      <create-link-problem>您不能在 '{1}' 创建节点"{0}"的链接。</create-link-problem>
       <dest-node-is-link>目标节点"{0}"已经是一个符号连接，所以您不能创建一个符号连接里面。</dest-node-is-link>
-      <selected-is-link>The selected node '{0}' is already a link, so you cannot create a link point to another link.</selected-is-link>
-      <confirm-create-link>Do you want to create a link to this location?</confirm-create-link>
+      <selected-is-link>在选定的节点 '{0}' 已经是一个链接，因此您无法创建到另一个链接的链接点。</selected-is-link>
+      <confirm-create-link>你想要创建一个链接到此位置吗？</confirm-create-link>
     </msg>
   </UIWorkingArea>
 
@@ -2357,7 +2357,7 @@
 
   <UIActionBar>
     <tooltip>
-      <ManageSimpleCategories>Manage Simple Categories</ManageSimpleCategories>
+      <ManageSimpleCategories>管理简单的类别</ManageSimpleCategories>
     </tooltip>
   </UIActionBar>
 
@@ -2365,7 +2365,7 @@
     <tab>
       <label>
         <UICategoriesAddedList>引用的类别</UICategoriesAddedList>
-        <UIOneNodePathSelector>Select Category</UIOneNodePathSelector>
+        <UIOneNodePathSelector>选择类别</UIOneNodePathSelector>
       </label>
     </tab>
   </UISimpleCategoryManager>
@@ -2373,7 +2373,7 @@
   <UICategoryManager>
     <tab>
       <label>
-        <UIOneTaxonomySelector>Select Category</UIOneTaxonomySelector>
+        <UIOneTaxonomySelector>选择类别</UIOneTaxonomySelector>
       </label>
     </tab>
   </UICategoryManager>
@@ -2385,12 +2385,12 @@
   </UISimpleCategoryManager>
   <UIPopupWindow>
     <title>
-      <UISimpleCategoryManager>Add Category</UISimpleCategoryManager>
+      <UISimpleCategoryManager>添加类别</UISimpleCategoryManager>
     </title>
   </UIPopupWindow>
   <UICategoriesAddedList>
     <msg>
-      <ItemExistsException>The category name already exists.</ItemExistsException>
+      <ItemExistsException>类别名称已经存在。</ItemExistsException>
     </msg>
   </UICategoriesAddedList>
 
@@ -2423,28 +2423,28 @@
 
   <UIWorkingArea>
     <msg>
-      <can-not-move-to-itself>You cannot move the file, because the destination folder is the same as the source folder.</can-not-move-to-itself>
-      <is-editing>You cannot move a document while it is being edited. Please close it first.</is-editing>
+      <can-not-move-to-itself>您不能移动该文件，因为目标文件夹与源文件夹相同。</can-not-move-to-itself>
+      <is-editing>当文档被编辑时你不能移动它。请先关闭它。</is-editing>
     </msg>
   </UIWorkingArea>
 
   <UIImportNode>
     <label>
-      <behavior>UUID Behavior</behavior>
-      <versionHistory>Version History</versionHistory>
+      <behavior>UUID 行为</behavior>
+      <versionHistory>版本历史记录</versionHistory>
     </label>
     <msg>
-      <history-invalid-type>Invalid file type in the version history. Only .zip files are supported.</history-invalid-type>
-      <history-invalid-content>Invalid content in the version history data. Please select a supported file type to import.</history-invalid-content>
+      <history-invalid-type>无效的文件类型中的版本历史记录。支持仅.zip 文件。</history-invalid-type>
+      <history-invalid-content>版本历史记录数据中有无效内容。请选择要导入的受支持的文件类型。</history-invalid-content>
     </msg>
   </UIImportNode>
 
   <Import>
     <Behavior>
-      <type0>Create New</type0>
-      <type1>Remove Existing</type1>
-      <type2>Replace Existing</type2>
-      <type3>Throw Exception</type3>
+      <type0>创建新的</type0>
+      <type1>删除现有的</type1>
+      <type2>替换现有的</type2>
+      <type3>引发的异常</type3>
     </Behavior>
   </Import>
 
@@ -2483,9 +2483,9 @@
     <obtion>
       <Admin>管理员</Admin>
       <Info>信息</Info>
-      <Actions>Actions</Actions>
+      <Actions>操作</Actions>
       <Collaboration>合作</Collaboration>
-      <Search>Search</Search>
+      <Search>搜索</Search>
     </obtion>
   </UIActionBar>
 
@@ -2532,7 +2532,7 @@
   </UISaveQueryForm>
   <UISimpleSearch>
     <msg>
-      <name-not-allowed>A word or phrase in the content is not allowed.</name-not-allowed>
+      <name-not-allowed>内容中的单词或短语是不允许的。</name-not-allowed>
     </msg>
   </UISimpleSearch>
 
@@ -2563,7 +2563,7 @@
 
   <Comments>
     <tooltip>
-      <remove-comment>Remove this comment</remove-comment>
+      <remove-comment>删除此注释</remove-comment>
       <edit-comment>编辑此注释</edit-comment>
     </tooltip>
   </Comments>
@@ -2580,36 +2580,36 @@
  </UIExportNode>
  <Taxonomy>
     <msg>
-      <AccessDeniedException>You do not have permission to access these category trees.</AccessDeniedException>
+      <AccessDeniedException>您没有权限访问这些类别树。</AccessDeniedException>
     </msg>
   </Taxonomy>
 
   <UIJcrExplorerEditForm>
     <msg>
-      <notNullDriveName>The Drive Name is null or empty. Please fill out the Drive Name field.</notNullDriveName>
-      <notNullPath>The path is null or empty. Please fill out the path.</notNullPath>
+      <notNullDriveName>驱动器名称为无效或为空。请填写驱动器名称字段。</notNullDriveName>
+      <notNullPath>该路径是无效或为空。请填写该路径。</notNullPath>
     </msg>
   </UIJcrExplorerEditForm>
 
   <UIViewSearchResult>
     <tooltip>
-      <remove-attachment>Are you sure you want to remove this attachment file?</remove-attachment>
+      <remove-attachment>确实要删除此附件文件吗?</remove-attachment>
     </tooltip>
   </UIViewSearchResult>
 
   <SameNamePopup>
     <title>
-      <UIUploadBehaviorWithSameName>Upload File</UIUploadBehaviorWithSameName>
+      <UIUploadBehaviorWithSameName>上传文件</UIUploadBehaviorWithSameName>
     </title>
   </SameNamePopup>
 
   <UIAllItems>
     <label>
-      <OwnedByMe>Owned by me</OwnedByMe>
-      <Favourites>Favorites</Favourites>
-      <Hidden>Hidden</Hidden>
-      <Trash>Trash</Trash>
-      <Configuration>Set Up Preferences</Configuration>
+      <OwnedByMe>由我负责</OwnedByMe>
+      <Favourites>收藏夹</Favourites>
+      <Hidden>隐藏</Hidden>
+      <Trash>垃圾桶</Trash>
+      <Configuration>设置首选项</Configuration>
     </label>
     <title>
       <allItems>所有项目</allItems>
@@ -2618,8 +2618,8 @@
 
   <UIPreferencesForm>
       <label>
-          <Alphabetic>Alphabetical</Alphabetic>
-          <Type>Type</Type>
+          <Alphabetic>按字母顺序排列</Alphabetic>
+          <Type>类型</Type>
           <CreatedDate>创建日期</CreatedDate>
           <ModifiedDate>修改日期</ModifiedDate>
           <Ascending>升序</Ascending>
@@ -2637,8 +2637,8 @@
        <Images>图像</Images>
        <Video>视频</Video>
        <Music>音乐</Music>
-       <Documents>Document</Documents>
-       <Content>Content</Content>
+       <Documents>文档</Documents>
+       <Content>内容</Content>
     </label>
   </DocumentType>
 
@@ -2647,10 +2647,10 @@
       <Images>图像</Images>
       <Video>视频</Video>
       <Music>音乐</Music>
-      <Documents>Document</Documents>
-      <Content>Content</Content>
+      <Documents>文档</Documents>
+      <Content>内容</Content>
     </label>
-    <title>Set Up Filter Preferences</title>
+    <title>将筛选器偏好设置</title>
     <action>
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
@@ -2659,40 +2659,40 @@
 
   <UIAllItemsByType>
     <label>
-    <ByType>Filter by Type</ByType>
-      <DocumentFilterConfiguration>Set Up Filter Preferences</DocumentFilterConfiguration>
+    <ByType>按类型筛选</ByType>
+      <DocumentFilterConfiguration>将筛选器偏好设置</DocumentFilterConfiguration>
     </label>
     <title>
-      <ShowVideo>Show all video files</ShowVideo>
-      <ShowMusic>Show all music files</ShowMusic>
-      <ShowImages>Show all image files</ShowImages>
-      <ShowDocuments>Show all document files</ShowDocuments>
-      <ShowContent>Show all document types</ShowContent>
+      <ShowVideo>显示所有视频文件</ShowVideo>
+      <ShowMusic>显示所有音乐文件</ShowMusic>
+      <ShowImages>显示所有图像文件</ShowImages>
+      <ShowDocuments>显示所有文档文件</ShowDocuments>
+      <ShowContent>显示所有文件类型</ShowContent>
     </title>
   </UIAllItemsByType>
 
   <Views>
     <label>
-      <slide-show>Slide Show</slide-show>
+      <slide-show>幻灯片放映</slide-show>
     </label>
   </Views>
   <ECMContextMenu>
     <event>
-      <PlayMedia>Play Media</PlayMedia>
+      <PlayMedia>播放媒体</PlayMedia>
     </event>
   </ECMContextMenu>
   <UIPopupWindow>
     <title>
-      <UIDocumentFilterForm>Filter Documents Type</UIDocumentFilterForm>
+      <UIDocumentFilterForm>筛选器文件类型</UIDocumentFilterForm>
     </title>
   </UIPopupWindow>
 
   <UIAllItemsPreferenceForm>
     <label>
-      <showOwnedByUser>Owned by me</showOwnedByUser>
-      <showFavourites>Favorites</showFavourites>
-      <showHiddens>Hidden</showHiddens>
-      <showTrash>Trash</showTrash>
+      <showOwnedByUser>由我负责</showOwnedByUser>
+      <showFavourites>收藏夹</showFavourites>
+      <showHiddens>隐藏</showHiddens>
+      <showTrash>垃圾桶</showTrash>
     </label>
     <action>
       <Save>#{word.save}</Save>
@@ -2702,7 +2702,7 @@
 
   <EmptyTrashManageComponent>
     <msg>
-      <confirm-delete>Are you sure you want to empty all items from trash?</confirm-delete>
+      <confirm-delete>你确定你要清空垃圾桶中的所有项目吗？</confirm-delete>
     </msg>
   </EmptyTrashManageComponent>
   <UICategoryForm>
@@ -2716,18 +2716,18 @@
   </UICategoryForm>
   <UIPopupWindow>
     <title>
-      <UICategoryForm>Add Category</UICategoryForm>
+      <UICategoryForm>添加类别</UICategoryForm>
     </title>
   </UIPopupWindow>
   <UIActionBar>
     <tooltip>
-      <AddCategory>Add Category</AddCategory>
+      <AddCategory>添加类别</AddCategory>
     </tooltip>
    </UIActionBar>
 
    <UITaggingForm>
     <label>
-      <Public>Public</Public>
+      <Public>公开</Public>
       <Private>私有</Private>
       <tagScopes>标记范围</tagScopes>
     </label>
@@ -2743,9 +2743,9 @@
 
   <UIEditingTagsForm>
     <header>
-      <name>Name</name>
-      <relatedDocuments>Related Documents</relatedDocuments>
-      <action>Action</action>
+      <name>姓名</name>
+      <relatedDocuments>相关的文件</relatedDocuments>
+      <action>操作</action>
     </header>
     <action>
       <title>
@@ -2773,24 +2773,24 @@
     </action>
     <label>
       <tagName>标签名称：</tagName>
-      <relatedDocuments>Related Documents</relatedDocuments>
+      <relatedDocuments>相关的文件</relatedDocuments>
     </label>
   </UITagForm>
 
   <TagPopup>
     <title>
-      <UITagForm>Tag</UITagForm>
+      <UITagForm>标记</UITagForm>
     </title>
   </TagPopup>
 
     <UIPopupMenu>
     <msg>
-      <node-locked-editing>You cannot edit this node with the path {0}. It is being locked by another user.</node-locked-editing>
+      <node-locked-editing>您不能编辑此路径 {0}的节点。它正被另一用户锁定。</node-locked-editing>
     </msg>
   </UIPopupMenu>
   <UITagStyleForm>
     <msg>
-      <error-update>An error occurred while updating the tag style.</error-update>
+      <error-update>更新标记样式时出错。</error-update>
     </msg>
   </UITagStyleForm>
 
@@ -2828,14 +2828,14 @@
 
   <NodeTypeNameValidator>
     <msg>
-      <Invalid-char>There are some invalid characters. Please type another value.</Invalid-char>
-      <empty-input>The value of the field is null or empty.</empty-input>
+      <Invalid-char>有一些无效的字符。请键入另一个值。</Invalid-char>
+      <empty-input>此字段的值是无效或为空。</empty-input>
     </msg>
   </NodeTypeNameValidator>
 
   <UIPreferencesForm>
       <label>
-            <queryType>Query Type:</queryType>
+            <queryType>查询类型：</queryType>
             <SQL>SQL</SQL>
             <XPATH>XPATH</XPATH>
       </label>
@@ -2869,12 +2869,12 @@
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <label>
-      <formInput>The previous path was lost. Please select a new one.</formInput>
+      <formInput>失去了先前的路径。请选择一个新的。</formInput>
     </label>
   </UISelectRestorePath>
   <PathNode>
     <title>
-      <Add>Add</Add>
+      <Add>新增</Add>
     </title>
   </PathNode>
   <UIPopupPathFoRestore>
@@ -2911,50 +2911,50 @@
       <Close>#{word.close}</Close>
     </button>
     <revisions>
-      <version>Revisions</version>
+      <version>修订版本</version>
       <date>Date</date>
-      <author>Author</author>
+      <author>作者</author>
       <status>状态</status>
-      <action>Action</action>
-      <label>Revision</label>
-      <none>No revisions</none>
-      <seeall>See all versions</seeall>
-      <currentVersion>Current Revision</currentVersion>
-      <confirm>You will lose your draft work. Are you sure you want to replace the current revision?</confirm>
+      <action>操作</action>
+      <label>修订</label>
+      <none>没有修订</none>
+      <seeall>查看所有版本</seeall>
+      <currentVersion>当前修订版本</currentVersion>
+      <confirm>您将丢失您的草案工作。确实要替换当前修订版本吗?</confirm>
     </revisions>
     <status>
-      <version>Revision</version>
+      <version>修订</version>
       <title>状态</title>
-      <archived>Archived</archived>
-      <obsolete>Obsolete</obsolete>
-      <unpublished>Unpublished</unpublished>
-      <enrolled>Enrolled</enrolled>
-      <draft>Draft</draft>
+      <archived>存档</archived>
+      <obsolete>已过时的</obsolete>
+      <unpublished>未发布</unpublished>
+      <enrolled>注册</enrolled>
+      <draft>草稿</draft>
       <pending>等待中</pending>
-      <approved>Approved</approved>
-      <inreview>In Review</inreview>
-      <staged>Staged</staged>
-      <published>Published</published>
-      <live>Published</live>
+      <approved>核准</approved>
+      <inreview>在审查中</inreview>
+      <staged>等待发布</staged>
+      <published>已发布</published>
+      <live>已发布</live>
     </status>
     <scheduled>
-      <title>Scheduled</title>
+      <title>预定</title>
       <from>从</from>
       <to>到</to>
     </scheduled>
     <title>
       <preview>预览</preview>
-      <restore>Restore</restore>
+      <restore>还原</restore>
     </title>
     <msg>
-      <have-no-view-template>The View template is not supported.</have-no-view-template>
-      <restore-complete>Restore completed.</restore-complete>
+      <have-no-view-template>不支持视图模板。</have-no-view-template>
+      <restore-complete>还原已完成。</restore-complete>
     </msg>
   </UIPublicationPanel>
   <UIPublicationHistory>
     <header>
       <date>Date</date>
-      <versionName>Revision Name</versionName>
+      <versionName>修改名称</versionName>
       <currentState>当前状态</currentState>
       <user>作者</user>
       <description>说明</description>
@@ -2963,11 +2963,11 @@
   
   <UIPublicationSchedule>
     <label>
-      <introduction>You can schedule the publication of your document. Select the dates you would like to see your document published</introduction>
-      <no-schedule-info>There is no publication schedule for your document</no-schedule-info>
+      <introduction>你可以安排您的文档的发布。选择你想看到您发布的文档的日期</introduction>
+      <no-schedule-info>您的文档没有发布时间表</no-schedule-info>
     </label>
     <msg>
-      <save-finished>Your new publication schedule was saved successfully.</save-finished>
+      <save-finished>您新的发布时间表已成功保存。</save-finished>
     </msg>
     <action>
       <Save>#{word.save}</Save>
@@ -2978,32 +2978,32 @@
   <UIPublicationPanel>
     <label>
       <header>出版日期</header>
-      <start>Start Publication</start>
-      <end>End Publication</end>
+      <start>开始发布</start>
+      <end>结束发布</end>
     </label>
     <msg>
-      <invalid-format>The date format is invalid. Please check again.</invalid-format>
-      <fromDate-after-toDate>The From date has to be earlier than the To date.</fromDate-after-toDate>
+      <invalid-format>日期格式无效。请再次检查。</invalid-format>
+      <fromDate-after-toDate>开始日期必须早于结束日期。</fromDate-after-toDate>
     </msg>
   </UIPublicationPanel>
   <UIPopupWindow>
     <title>
-      <UIPublicationContainer>Manage Publication</UIPublicationContainer>
-      <UIPublishingPanel>Manage Publication</UIPublishingPanel>
+      <UIPublicationContainer>管理出版物</UIPublicationContainer>
+      <UIPublishingPanel>管理出版物</UIPublishingPanel>
     </title>
   </UIPopupWindow>
   <WCMContentView>
     <header>
       <status>状态</status>
-      <author>Author</author>
+      <author>作者</author>
       <date>创建日期</date>
-      <title>Document Title</title>
-      <lastUser>Last User</lastUser>
+      <title>文档标题</title>
+      <lastUser>最后一位用户</lastUser>
     </header>
   </WCMContentView>
   <UITagForm>
     <msg>
-      <NameAlreadyExist>The tag name already exists.</NameAlreadyExist>
+      <NameAlreadyExist>标记名称已经存在。</NameAlreadyExist>
     </msg>
   </UITagForm>
 
@@ -3013,62 +3013,62 @@
   <UICategoryManagerSearch>
     <tab>
       <label>
-        <UIOneTaxonomySelector>Select Category</UIOneTaxonomySelector>
+        <UIOneTaxonomySelector>选择类别</UIOneTaxonomySelector>
       </label>
     </tab>
   </UICategoryManagerSearch>
 
   <UIPreferencesForm>
    <action>
-     <HideAdvance>Hide Advanced</HideAdvance>
-     <ShowAdvance>Show Advanced</ShowAdvance>
+     <HideAdvance>隐藏高级</HideAdvance>
+     <ShowAdvance>显示高级</ShowAdvance>
     </action>
     <label>
-    <Advance>Advanced</Advance>
+    <Advance>高级设置</Advance>
     </label>
   </UIPreferencesForm>
 
   <UIJCRExplorerPortlet>
 <msg>
-  <file-access-denied>File access denied.</file-access-denied>
-  <anonymous-access-denied>Anonymous user does not have permission to use this function.</anonymous-access-denied>
+  <file-access-denied>文件访问被拒绝。</file-access-denied>
+  <anonymous-access-denied>匿名用户没有使用此功能的权限。</anonymous-access-denied>
 </msg>
   </UIJCRExplorerPortlet>
   <UIDrivesArea>
     <DrivesArea>
-      <ShowDrives>Show Drives</ShowDrives>
+      <ShowDrives>显示驱动器</ShowDrives>
     </DrivesArea>
   </UIDrivesArea>
   <UIJcrExplorerEditForm>
     <msg>
-      <fields-saved>All field values saved.</fields-saved>
-      <fields-cancelled>All field values canceled.</fields-cancelled>
+      <fields-saved>保存所有字段值。</fields-saved>
+      <fields-cancelled>取消所有的字段值。</fields-cancelled>
     </msg>
   </UIJcrExplorerEditForm>
   <UIDocumentForm>
   <msg>
-  <confirm-close>The changes you made will be lost if you close this form.</confirm-close>
-  <confirm-changeType>The changes you made will be lost if you change the content type.</confirm-changeType>
-  <confirm-navigate>The changes you made will be lost if you navigate away from this page.</confirm-navigate>
+  <confirm-close>如果您关闭此窗体，你所做的更改将会丢失。</confirm-close>
+  <confirm-changeType>如果您更改内容类型，您所做的更改将会丢失。</confirm-changeType>
+  <confirm-navigate>如果您导航到其他页面，你所做的更改将会丢失。</confirm-navigate>
   </msg>
   </UIDocumentForm>
   <UploadFileMimeTypesValidator>
     <msg>
-      <wrong-mimetype>Mime type {0} is not allowed for field {1}. Please upload another file</wrong-mimetype>
+      <wrong-mimetype>Mime 类型 {0} 在字段 {1}不被允许。请上传另一个文件</wrong-mimetype>
     </msg>
   </UploadFileMimeTypesValidator>
   <lifecyclePhase>
     <label>
     <no>No</no>
   <yes>Yes</yes>
-  <true>True</true>
-  <false>False</false>
-  <Electronic>Electronic</Electronic>
+  <true>对</true>
+  <false>错</false>
+  <Electronic>电子</Electronic>
   <Paper>Paper</Paper>
-  <NONE>None</NONE>
+  <NONE>无</NONE>
   <CLASSIFIED>Classified</CLASSIFIED>
-  <UNCLASSIFIED>Unclassified</UNCLASSIFIED>
-  <NOCONTRACT>No Contract</NOCONTRACT>
+  <UNCLASSIFIED>未分类</UNCLASSIFIED>
+  <NOCONTRACT>没有合同</NOCONTRACT>
   <one-minute>一分钟</one-minute>
   <hourly>每小时</hourly>
   <daily>每天</daily>
@@ -3112,16 +3112,16 @@
     <AbortAll>中止所有</AbortAll>
     <AbortAllFiles>中止所有文件</AbortAllFiles>
     <MaxFileSize>最大文件大小是</MaxFileSize>
-    <InvalidCharacters>Invalid characters will be changed by '-'</InvalidCharacters>
-    <DropFileMessage>Drop your files here in the current folder</DropFileMessage>
+    <InvalidCharacters>无效的字符将被更改成 '-'</InvalidCharacters>
+    <DropFileMessage>在当前文件夹中掉下您的文件</DropFileMessage>
     <Close>#{word.close}</Close>
     <in>在中</in>
-    <MaxFileSizeAlert>The file size exceeds the size limit of</MaxFileSizeAlert>
+    <MaxFileSizeAlert>文件大小超出大小限制于</MaxFileSizeAlert>
     <Waiting>等待中</Waiting>
     <Error>错误</Error>
     <or>或</or>
     <AlreadyInUse>已在使用中</AlreadyInUse>
-    <Keep>Keep both</Keep>
+    <Keep>留着两个</Keep>
     <Replace>替换</Replace>
     <Canceled>已取消</Canceled>
     <Cancel>#{word.cancel}</Cancel>
@@ -3138,12 +3138,12 @@
   </UIDocumentNodeList>
   <FileView>
     <label>
-      <name>Name</name>
+      <name>姓名</name>
       <date>Date</date>
       <size>大小</size>
-      <sortBy>Sort by:</sortBy>
+      <sortBy>排序依据:</sortBy>
       <filesAreSelected>文件已被选定</filesAreSelected>
-      <ClearSelection>Clear selection</ClearSelection>
+      <ClearSelection>清除选定内容</ClearSelection>
       <more>更多</more>
     </label>
   </FileView>
