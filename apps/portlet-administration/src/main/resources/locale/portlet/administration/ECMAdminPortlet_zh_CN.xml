@@ -2394,7 +2394,7 @@
 
 <UITaxonomyTreeContainer>
 <action>
-<Cancel># {词.关闭}</Cancel>
+<Cancel>#{word.close}</Cancel>
 </action>
 </UITaxonomyTreeContainer>
 <UITaxonomyTreeMainForm>
