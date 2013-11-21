@@ -149,7 +149,7 @@
   <UICLVContentSelectedGrid>
     <action>
       <SaveCategories>#{word.save}</SaveCategories>
-      <Cancel>Hủy</Cancel>
+      <Cancel>Hủy bỏ</Cancel>
     </action>
   </UICLVContentSelectedGrid>
 
