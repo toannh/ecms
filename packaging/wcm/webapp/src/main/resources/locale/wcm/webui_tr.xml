@@ -218,7 +218,7 @@
   <UIContentPropertySelector>
     <action>
       <Add>Ekle</Add>
-      <Cancel>İptal</Cancel>
+      <Cancel>#{word.cancel}</Cancel>
     </action>
     <label>
       <metadataType>Meta veri türü</metadataType>
