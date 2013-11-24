@@ -235,7 +235,7 @@
   <UIContentNodeTypeSelector>
     <action>
       <Save>#{word.save}</Save>
-      <Cancel>Cancelar</Cancel>
+      <Cancel>#{word.cancel}</Cancel>
     </action>
   </UIContentNodeTypeSelector>
 
