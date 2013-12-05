@@ -1711,6 +1711,11 @@
 <list>Nội dung</list>
 <navigation>Điều hướng</navigation>
   </label>
+                          <action>
+                            <Save>#{word.save}</Save>
+                            <Reset>Reset</Reset> 
+                            <Cancel>#{word.cancel}</Cancel> 
+                          </action> 
   <msg>
   <template-existing>Tên mẫu này đã tồn tại. Vui lòng chọn tên khác.</template-existing>
   </msg>
