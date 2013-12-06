@@ -87,7 +87,7 @@
 -->
   <UITaxonomyTreeMainForm>
     <action>
-      <Reset>Làm lại</Reset>
+      <Reset>Thiết lập lại</Reset>
     </action>
     <msg>
       <name-not-allowed>Tên không hợp lệ</name-not-allowed>
@@ -1713,7 +1713,7 @@
   </label>
                           <action>
                             <Save>#{word.save}</Save>
-                            <Reset>Reset</Reset> 
+                            <Reset>Làm lại</Reset> 
                             <Cancel>#{word.cancel}</Cancel> 
                           </action> 
   <msg>
