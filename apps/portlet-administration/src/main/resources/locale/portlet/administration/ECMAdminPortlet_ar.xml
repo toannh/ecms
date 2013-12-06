@@ -1713,7 +1713,7 @@
   </label>
                           <action>
                             <Save>#{word.save}</Save>
-                            <Reset>Reset</Reset> 
+                            <Reset>إعادة تعيين</Reset> 
                             <Cancel>#{word.cancel}</Cancel> 
                           </action> 
   <msg>

@@ -1080,7 +1080,7 @@
   </UIConstraintsForm>
   <ConstraintsForm>
     <action>
-      <Add>Add</Add>
+      <Add>إضافة</Add>
       <Cancel>#{word.cancel}</Cancel>
     </action>
   </ConstraintsForm>
