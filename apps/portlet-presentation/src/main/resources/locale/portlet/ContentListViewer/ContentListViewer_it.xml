@@ -29,18 +29,17 @@
       <option>
         <exo:title>Titolo</exo:title>
         <exo:dateCreated>Data di Creazione</exo:dateCreated>
-        <exo:dateModified>Data di Modifica</exo:dateModified>
-        <publication:liveDate>Published Date</publication:liveDate>
+        <exo:lastModifiedDate>Data di Modifica</exo:lastModifiedDate>
+        <publication:liveDate>Data di pubblicazione</publication:liveDate>
         <exo:startEvent>Data Evento</exo:startEvent>
         <exo:index>Indice</exo:index>
-        <DESC>Descendant</DESC>
-        <ASC>Ascendant</ASC>
+        <DESC>Discendente</DESC>
+        <ASC>Ascendente</ASC>
       </option>
       <DisplaySettingBlock>Impostazioni visualizzazione</DisplaySettingBlock>
-      <UICLVConfigHeaderFormStringInput>Header</UICLVConfigHeaderFormStringInput>
+      <UICLVConfigHeaderFormStringInput>Intestazione</UICLVConfigHeaderFormStringInput>
       <UICLVConfigDisplayTemplateFormSelectBox>Template</UICLVConfigDisplayTemplateFormSelectBox>
       <UICLVConfigPaginatorTemplateFormSelectBox>Paginatore</UICLVConfigPaginatorTemplateFormSelectBox>
-      <UICLVConfigTargetPageFormStringInput/>
       <UICLVConfigItemsPerPageFormStringInput>Elementi per Pagina</UICLVConfigItemsPerPageFormStringInput>
       <UICLVConfigShowIllustrationFormCheckboxInput>Mostra Immagine</UICLVConfigShowIllustrationFormCheckboxInput>
       <UICLVConfigShowSummaryFormCheckboxInput>Mostra Sommario</UICLVConfigShowSummaryFormCheckboxInput>
@@ -65,7 +64,7 @@
       <Down>Giù</Down>
       <UICLVConfigCacheManagementLabel>Visibilità Contenuto</UICLVConfigCacheManagementLabel>
       <UICLVContentByQueryLabel>Contenuti per Query</UICLVContentByQueryLabel>
-      <UICLVConfigWorkspaceFormSelectBox>Workspace</UICLVConfigWorkspaceFormSelectBox>
+      <UICLVConfigWorkspaceFormSelectBox>WorkSpace</UICLVConfigWorkspaceFormSelectBox>
       <UICLVConfigContentByQueryTextArea>da query</UICLVConfigContentByQueryTextArea>
       <UICLVConfigCacheEnableRadioBoxInput>Condividi contenuti tra utenti</UICLVConfigCacheEnableRadioBoxInput>
     </label>
@@ -82,8 +81,8 @@
       <ContentsVisibilityHelp>Limitato da autenticazione "filtrerà i contenuti in base all'autenticazione. Se non accedi, si vede solo il contenuto pubblico. Se si è effettuato l'accesso, si vede tutto il contenuto visibile dagli utenti intranet (ma condiviso da tutti)." Ristretto da ruoli utente "significa vedere i contenuti a seconda dei Suoi diritti. Nella maggior parte dei casi, questa opzione non deve essere utilizzato in quanto riduce le prestazioni globali.</ContentsVisibilityHelp>
     </help>
     <action>
-      <Save>Salva</Save>
-      <Cancel>Annulla</Cancel>
+      <Save>#{word.save}</Save>
+      <Cancel>#{word.cancel}</Cancel>
       <delete>Elimina</delete>
     </action>
     <msg>
@@ -107,6 +106,7 @@
   <UICLVConfigItemPathFormInputSet>
     <title>
       <SelectFolderPath>Seleziona Percorso Cartella</SelectFolderPath>
+      <AddPath>Aggiungi Percorso</AddPath>
     </title>
   </UICLVConfigItemPathFormInputSet>
   <FolderPathSelectorPopupWindow>
@@ -117,8 +117,8 @@
   <UICLVConfigOrderTypeFormSelectBox>
     <label>
       <option>
-        <OrderDesc>Descendant</OrderDesc>
-        <OrderAsc>Ascendant</OrderAsc>
+        <OrderDesc>Discendente</OrderDesc>
+        <OrderAsc>Ascendente</OrderAsc>
       </option>
     </label>
   </UICLVConfigOrderTypeFormSelectBox>
@@ -134,6 +134,10 @@
     </title>
   </UICLVBasePathPopupWindow>
   <UICLVPresentation>
+    <msg>
+      <confirm-delete>È sicuro di che volere cancellare questo contenuto?</confirm-delete>
+      <delete-content-successfully>Contenuto cancellato con successo.</delete-content-successfully>
+    </msg>
     <label>
       <readmore>Leggi avanzate</readmore>
       <rssFeed>Feed RSS</rssFeed>

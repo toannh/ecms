@@ -150,7 +150,15 @@ public class FileUploadHandler {
     cacheControl.setNoCache(true);
     cacheControl.setNoStore(true);
     DateFormat dateFormat = new SimpleDateFormat(IF_MODIFIED_SINCE_DATE_FORMAT);
-    return Response.ok(null, MediaType.TEXT_XML)
+    
+    //create ret
+    DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+    DocumentBuilder builder = factory.newDocumentBuilder();
+    Document doc = builder.newDocument();
+    Element rootElement = doc.createElement("<html><head></head><body></body></html");
+    doc.appendChild(rootElement);
+    
+    return Response.ok(new DOMSource(doc), MediaType.TEXT_XML)
                    .cacheControl(cacheControl)
                    .header(LAST_MODIFIED_PROPERTY, dateFormat.format(new Date()))
                    .build();
@@ -258,6 +266,7 @@ public class FileUploadHandler {
     DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
     DocumentBuilder builder = factory.newDocumentBuilder();
     Document fileExistence = builder.newDocument();
+    fileName = Text.escapeIllegalJcrChars(fileName);
     Element rootElement = fileExistence.createElement(
                               parent.hasNode(fileName) ? "Existed" : "NotExisted");
     fileExistence.appendChild(rootElement);

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bundle>
+  <UIDefaultSearchForm>
+    <label>
+      <keyword>Anahtar Kelime</keyword>
+      <portal>Portal</portal>
+      <Page>Sayfa</Page>
+      <Document>Belge</Document>
+    </label>
+    <action>
+      <Search>Ara</Search>
+    </action>
+  </UIDefaultSearchForm>
+
+  <UIDefaultSearchResult>
+    <label>
+      <Page>Sayfa</Page>
+      <Document>Belge</Document>
+      <DocumentAndPage>Belge ve Sayfa</DocumentAndPage>
+      <documentandpage>Belge ve Sayfa Sayfa</documentandpage>
+      <resutlsCaption>Sonuçlar</resutlsCaption>
+      <ofAboutCaption>yaklaşık</ofAboutCaption>
+      <forCaption>için</forCaption>
+      <timeUnitCaption>saniye</timeUnitCaption>
+      <similar>Aynı içeriğin görüntülendiği sayfalar</similar>
+      <editor>Düzenleyen</editor>
+    </label>
+    <action>
+      <edit>Düzenle</edit>
+    </action>
+    <msg>
+      <your-search>Sizin aramanız</your-search>
+      <did-not-match>eşleşme bulunamadı</did-not-match>
+      <new-suggestion>öneri</new-suggestion>
+    </msg>
+  </UIDefaultSearchResult>
+  <UISearchPageLayoutManager>
+    <label>
+      <itemsPerPageSelector>Sayfa Başına Öğe</itemsPerPageSelector>
+      <searchFormSelector>Arama Formu Şablonu</searchFormSelector>
+      <searchResultSelector>Arama Sonucu Şablonu</searchResultSelector>
+      <searchPaginatorSelector>Arama Sayfalandırma Şablonu</searchPaginatorSelector>
+      <searchPageLayoutSelector>Arama Sayfası Yerleşim Şablonu</searchPageLayoutSelector>
+      <searchResultBasePathInputSetAction>Ana Yol</searchResultBasePathInputSetAction>
+      <pageMode>Sayfa Modu</pageMode>
+      <option>
+        <none>Hiçbiri</none>
+        <more>Daha</more>
+        <pagination>Sayfalandırma</pagination>
+      </option>
+    </label>
+    <action>
+      <Save>#{word.save}</Save>
+      <Cancel>#{word.cancel}</Cancel>
+    </action>
+  </UISearchPageLayoutManager>
+  <searchResultBasePathInputSetAction>
+    <title>
+      <SelectBasePath>Ana Yolu Seçin</SelectBasePath>
+    </title>
+  </searchResultBasePathInputSetAction>  
+  <UISearchForm>  
+   <message>
+     <keyword-not-support>Anahtar geçersiz. Bazı karakterler desteklenmez.</keyword-not-support>
+     <not-checked>Lütfen arama türü seçin.</not-checked>
+     <keyword-not-empty>Lütfen bir anahtar kelime girin.</keyword-not-empty>
+   </message>
+  </UISearchForm>
+  <UIPaginatorDefault>
+    <label>
+      <next>Sonraki</next>
+      <previous>Önceki</previous>
+      <more>Daha</more>
+    </label>
+  </UIPaginatorDefault>
+  <UISearchPageLayoutDefault>
+    <label>
+      <quickEditTitle>Hızlı Düzenle</quickEditTitle>
+    </label>
+  </UISearchPageLayoutDefault>
+  <searchOption>
+    <label>
+      <pageCheckBox>Sayfaları</pageCheckBox>
+      <documentCheckBox>İçeriği</documentCheckBox>
+    </label>
+  </searchOption>
+  <ViewMode>
+    <label>
+      <option>
+        <all>tüm sitelerde ara</all>
+      </option>  
+    </label>  
+  </ViewMode>
+</bundle>

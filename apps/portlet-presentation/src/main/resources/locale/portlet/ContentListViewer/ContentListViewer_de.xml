@@ -29,7 +29,7 @@
       <option>
         <exo:title>Titel</exo:title>
         <exo:dateCreated>Erstellungsdatum</exo:dateCreated>
-        <exo:dateModified>Bearbeitungsdatum</exo:dateModified>
+        <exo:lastModifiedDate>Bearbeitungsdatum</exo:lastModifiedDate>
         <publication:liveDate>Veröffentlichungsdatum</publication:liveDate>
         <exo:startEvent>Veranstaltungsdatum</exo:startEvent>
         <exo:index>Index</exo:index>
@@ -40,7 +40,6 @@
       <UICLVConfigHeaderFormStringInput>Kopfzeile</UICLVConfigHeaderFormStringInput>
       <UICLVConfigDisplayTemplateFormSelectBox>Vorlage</UICLVConfigDisplayTemplateFormSelectBox>
       <UICLVConfigPaginatorTemplateFormSelectBox>Paginierung</UICLVConfigPaginatorTemplateFormSelectBox>
-      <UICLVConfigTargetPageFormStringInput/>
       <UICLVConfigItemsPerPageFormStringInput>Elemente pro Seite</UICLVConfigItemsPerPageFormStringInput>
       <UICLVConfigShowIllustrationFormCheckboxInput>Bild anzeigen</UICLVConfigShowIllustrationFormCheckboxInput>
       <UICLVConfigShowSummaryFormCheckboxInput>Zusammenfassung anzeigen</UICLVConfigShowSummaryFormCheckboxInput>
@@ -82,8 +81,8 @@
       <ContentsVisibilityHelp>"Durch Authentifizierung eingeschränkt" filtert den Inhalt basierend auf der Authentifizierung. Wenn Sie sich nicht anmelden, sehen Sie nur öffentliche Inhalte. Wenn Sie eingeloggt sind, sehen Sie alle sichtbaren Inhalt von Intranetbenutzern (geteilt mit allen). "Eingeschränkt durch Benutzerrollen" bedeutet, dass Sie Inhalte entsprechend Ihrer Benutzerrolen sehen werden. In den meisten Fällen sollte diese Option nicht verwendet werden, da sie die Gesamtleistung reduziert.</ContentsVisibilityHelp>
     </help>
     <action>
-      <Save>Speichern</Save>
-      <Cancel>Abbrechen</Cancel>
+      <Save>#{word.save}</Save>
+      <Cancel>#{word.cancel}</Cancel>
       <delete>Löschen</delete>
     </action>
     <msg>
@@ -107,6 +106,7 @@
   <UICLVConfigItemPathFormInputSet>
     <title>
       <SelectFolderPath>einen Ordnerpfad auswählen</SelectFolderPath>
+      <AddPath>Pfad hinzufügen</AddPath>
     </title>
   </UICLVConfigItemPathFormInputSet>
   <FolderPathSelectorPopupWindow>
@@ -134,6 +134,10 @@
     </title>
   </UICLVBasePathPopupWindow>
   <UICLVPresentation>
+    <msg>
+      <confirm-delete>Sind Sie sicher, dass Sie diesen Inhalt löschen wollen?</confirm-delete>
+      <delete-content-successfully>Inhalt erfolgreich gelöscht.</delete-content-successfully>
+    </msg>
     <label>
       <readmore>Mehr lesen</readmore>
       <rssFeed>RSS-Feed</rssFeed>

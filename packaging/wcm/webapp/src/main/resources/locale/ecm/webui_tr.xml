@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bundle>
+  <!--
+  #####################################################################
+  # org.exoplatform.ecm.webui.tree.selectmany.UICategoriesSelectPanel #
+  #####################################################################
+  -->
+  <UITreeList>
+    <header>
+      <name>Ad</name>
+      <action>Ekle</action>
+    </header>
+    <info>
+      <child-not-found>Alt öğe bulunamadı!</child-not-found>
+    </info>
+  </UITreeList>
+  <!--
+  ######################################################################
+  # org.exoplatform.ecm.webui.tree.selectmany.UISelectedCategoriesGrid #
+  ######################################################################
+  -->
+  <UISelectedCategoriesGrid>
+    <header>
+      <categoryName>Kategori adı</categoryName>
+      <categoryPath>Kategori yolu</categoryPath>
+      <action>#{word.action}</action>
+    </header>
+    <action>
+      <SaveCategories>#{word.save}</SaveCategories>
+      <Cancel>#{word.cancel}</Cancel>
+    </action>
+    <msg>
+      <cannot-save>Kategoriler kaydedilmedi.</cannot-save>
+      <have-saved>Kategoriler başarıyla kaydedildi</have-saved>
+      <non-categories>Kategoriler yanlış. Lütfen uygun kategorileri seçin.</non-categories>
+      <confirm-delete>Bu kategoriyi silmek istiyor musunuz?</confirm-delete>
+    </msg>
+  </UISelectedCategoriesGrid>
+  <!--
+  ######################################################################
+  # org.exoplatform.ecm.webui.selector.UIPermissionSelector           #
+  ######################################################################
+  -->
+  <SelectUserOrGroup>
+    <title>
+      <UIPermissionUser>Kullanıcı Seçin</UIPermissionUser>
+      <UIPermissionMembership>Üye Seçin</UIPermissionMembership>
+    </title>
+  </SelectUserOrGroup>
+  <UIPermissionUser>
+    <label>
+      <selectUser>Kullanıcı Seçin</selectUser>
+      <selectGroup>Göz Atın ve Bir Grup Seçin</selectGroup>
+    </label>
+  </UIPermissionUser>
+  <UIPermissionMembership>
+    <label>
+      <selectUser>Üye Seçin</selectUser>
+      <selectGroup>Göz Atın ve Bir Grup Seçin</selectGroup>
+    </label>
+  </UIPermissionMembership>
+</bundle>

@@ -10,7 +10,6 @@
       <name>Nome</name>
       <action>Aggiungi</action>
     </header>
-    <action/>
     <info>
       <child-not-found>Figlio non trovato!</child-not-found>
     </info>
@@ -24,11 +23,11 @@
     <header>
       <categoryName>Nome categoria</categoryName>
       <categoryPath>Path Categoria</categoryPath>
-      <action>Azione</action>
+      <action>#{word.action}</action>
     </header>
     <action>
-      <SaveCategories>Salva</SaveCategories>
-      <Cancel>Annulla</Cancel>
+      <SaveCategories>#{word.save}</SaveCategories>
+      <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
       <cannot-save>Categorie non sono state salvate.</cannot-save>

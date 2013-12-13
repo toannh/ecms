@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bundle>
+  <ContentSelector>
+    <msg>
+      <no-file-selected>Seçinlen içerik yok. Lütfen en az bir tane seçin.</no-file-selected>
+    </msg>
+  </ContentSelector>
+  <RenameConnector>
+    <label>
+      <rename>Yeniden Adlandır</rename>
+      <cancel>#{word.cancel}</cancel>
+    </label>
+    <msg>
+      <renaming>Yeniden adlandırılıyor...</renaming>
+    </msg>
+  </RenameConnector>
+</bundle>

@@ -1,24 +1,42 @@
 <%
   	import org.exoplatform.wcm.webui.scv.UISingleContentViewerPortlet;
   	import org.exoplatform.wcm.webui.Utils;
+  	import java.util.Locale;
   	import org.exoplatform.wcm.webui.dialog.UIContentDialogForm;
   	import org.exoplatform.ecm.utils.lock.LockUtil;
   	import org.exoplatform.services.jcr.core.ManageableRepository;
   	import org.exoplatform.wcm.webui.administration.UIEditingForm;
   	import org.exoplatform.portal.application.PortalRequestContext;
   	import org.exoplatform.portal.webui.util.Util;
+  	import org.exoplatform.webui.application.WebuiRequestContext;
 
 		def rcontext = _ctx.getRequestContext();
     def jsManager = rcontext.getJavascriptManager();
     jsManager.loadScriptResource("quick-edit");
     jsManager.require("SHARED/jquery", "gj").addScripts("gj(document).ready(function() { gj(\"*[rel='tooltip']\").tooltip();});");
     
+    def draftMsg = _ctx.appRes("PublicationStates.draft");
+    def publishedMsg = _ctx.appRes("PublicationStates.published");
+    
     String portletId = Utils.getRealPortletId(rcontext);
 		def quickEditingBlockId = portletId + "-QuickEditingBlock";
 		def hoverClass = Utils.isShowQuickEdit() ? " containerHoverClass" : "";
 		def node = uicomponent.getNodeView();
 		def currentState = uicomponent.getCurrentState();
+		def repo = "";
+	  def workspace = "";
+	  def uuid = "";
+	  def propertyName = "exo:title";
+	  def siteName = org.exoplatform.portal.webui.util.Util.getPortalRequestContext().getPortalOwner();
+	  Locale locale = WebuiRequestContext.getCurrentInstance().getLocale();
+    def language = locale.getLanguage();
+	    
 		if (node != null) {
+			
+			repo = ((ManageableRepository)node.getSession().getRepository()).getConfiguration().getName();
+		  workspace = node.getSession().getWorkspace().getName();
+		  uuid = node.getUUID();
+		    
 			def isShowOptionBar = uicomponent.isShowOptionBar(); 
 			def isShowTitle = uicomponent.isShowTitle();
 			def isShowDate  = uicomponent.isShowDate();
@@ -32,13 +50,11 @@
 			def edittingStyle = "z-index: 5";
 			if (isShowInfoBar)
 				edittingStyle = "z-index: 5; top:20px";
-			%>
-			<div class="UIPresentationContainer" id="$uicomponent.id">
-			<%
-			  //jsManager.require("SHARED/wcm-utils", "wcmutil").
-        //addScripts("wcmutil.WCMUtils.addEvent('${uicomponent.id}','mouseover',function() {eXo.ecm.WCMUtils.changeStyleClass('$uicomponent.id','UIPresentationContainer $hoverClass')});").
-        //addScripts("wcmutil.WCMUtils.addEvent('${uicomponent.id}','mouseout',function() {eXo.ecm.WCMUtils.changeStyleClass('$uicomponent.id','UIPresentationContainer')});");
+			%>			
 			
+			<div class="UIPresentationContainer" id="$uicomponent.id">
+			
+			<%		
 			
 			  jsManager.require("SHARED/wcm-utils", "wcmutil");      
 		    jsManager.require("SHARED/jquery", "gj").addScripts("gj('#"+uicomponent.id+"').mouseenter( function() {eXo.ecm.WCMUtils.changeStyleClass('$uicomponent.id','UIPresentationContainer $hoverClass');});").
@@ -106,16 +122,14 @@
 				%>
 					  <% if (isShowTitle) {
   					  if (uicomponent.isViewMode() ){
-                %><div class="Title"><%= uicomponent.getTitle(node) %></div><%
+                %><h4 class="title"><%= uicomponent.getTitle(node) %></h4><%
   					  }else {
   					   def orgNode =uicomponent.getOriginalNode();    					  
-    					  %>
-    					  <%= uicomponent.getInlineEditingField(orgNode, "exo:title") %>    						  
-                <%            
+  					   %><h4 class="title WCMInlineEditable" contenteditable="true" propertyName="<%=propertyName%>" repo="<%=repo%>" workspace="<%=workspace%>" uuid="<%=uuid%>" siteName="<%=siteName%>" publishedmsg="<%=publishedMsg%>" draftmsg="<%=draftMsg%>" fastpublishlink="<%=uicomponent.event('FastPublish')%>" language="<%=language%>" ><%= uicomponent.getTitle(node) %></h4><%             
               }
             } %>
 						<% if (isShowDate) { %>
-						<div class="DateAndMail"><%= uicomponent.getCreatedDate(node) %></div>
+						<div class="dateAndMail"><%= uicomponent.getCreatedDate(node) %></div>
 						<% } %>
 				<%
 			}
@@ -124,15 +138,13 @@
       
 			if (!Utils.isPortalEditMode() && isShowOptionBar && !uicomponent.isPrinting()) { 
 				%>
-				<div class="UIOptionBar">
+				<div class="uiOptionBar clearfix">
         <% if (urlSearch != null) { %>  
-          <a href="$urlSearch">
-             <div class="BackButton" title="<%= _ctx.appRes("UISCVPreferences.label.Back") %>" ><span></span></div>
-          </a>
+           <a  href="$urlSearch" class="actionIcon" title="<%= _ctx.appRes("UISCVPreferences.label.Back") %>" ><i class="uiIconEcmsReturn uiIconLightGray"></i></a>
         <% } else {%>
-             <div class="BackButton" title="<%= _ctx.appRes("UISCVPreferences.label.Back") %>" onclick="history.go(-1)" ><span></span></div>
+             <a class="actionIcon" title="<%= _ctx.appRes("UISCVPreferences.label.Back") %>" onclick="history.go(-1)" ><i class="uiIconEcmsReturn uiIconLightGray"></i></a>
         <% } %>
-            <a class="ActionIcon PrintIcon" href="javascript: void(0);" onclick="window.open('<%= uicomponent.getPrintUrl(node) %>')" title="<%= _ctx.appRes("UIPresentationContainer.label.print");%>"><%= _ctx.appRes("UIPresentationContainer.label.print") %></a>
+            <a class="pull-right" href="javascript: void(0);" onclick="window.open('<%= uicomponent.getPrintUrl(node) %>')" title="<%= _ctx.appRes("UIPresentationContainer.label.print");%>"><i class="uiIconPrint uiIconLightGray"></i>  <%= _ctx.appRes("UIPresentationContainer.label.print") %></a>
         </div>
 				<% 
 			} 

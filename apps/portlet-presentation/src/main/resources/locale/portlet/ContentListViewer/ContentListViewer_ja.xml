@@ -29,7 +29,7 @@
       <option>
         <exo:title>タイトル</exo:title>
         <exo:dateCreated>作成日</exo:dateCreated>
-        <exo:dateModified>変更日</exo:dateModified>
+        <exo:lastModifiedDate>変更日</exo:lastModifiedDate>
         <publication:liveDate>公開日</publication:liveDate>
         <exo:startEvent>イベント日</exo:startEvent>
         <exo:index>目次</exo:index>
@@ -40,7 +40,6 @@
       <UICLVConfigHeaderFormStringInput>ヘッダ</UICLVConfigHeaderFormStringInput>
       <UICLVConfigDisplayTemplateFormSelectBox>テンプレート</UICLVConfigDisplayTemplateFormSelectBox>
       <UICLVConfigPaginatorTemplateFormSelectBox>改ページ</UICLVConfigPaginatorTemplateFormSelectBox>
-      <UICLVConfigTargetPageFormStringInput/>
       <UICLVConfigItemsPerPageFormStringInput>ページ毎アイテム数</UICLVConfigItemsPerPageFormStringInput>
       <UICLVConfigShowIllustrationFormCheckboxInput>画像の表示</UICLVConfigShowIllustrationFormCheckboxInput>
       <UICLVConfigShowSummaryFormCheckboxInput>サマリーの表示</UICLVConfigShowSummaryFormCheckboxInput>
@@ -82,8 +81,8 @@
       <ContentsVisibilityHelp>”権限でフィルター”は、権限レベルに応じてコンテンツをフィルタリングします。サイトにログインしていない時には、一般公開されているコンテンツしか参照することが出来ません。サイトにログインした後は、インターネットユーザに許可されているコンテンツまで参照することができます。”ユーザロールでフォルター”は、コンテンツをユーザが持つ権限毎に参照するものです。システムのパフォーマンスを消費するため、通常は使われません。</ContentsVisibilityHelp>
     </help>
     <action>
-      <Save>保存</Save>
-      <Cancel>キャンセル</Cancel>
+      <Save>#{word.save}</Save>
+      <Cancel>#{word.cancel}</Cancel>
       <delete>削除</delete>
     </action>
     <msg>
@@ -107,6 +106,7 @@
   <UICLVConfigItemPathFormInputSet>
     <title>
       <SelectFolderPath>フォルダパスの選択</SelectFolderPath>
+      <AddPath>パスの追加</AddPath>
     </title>
   </UICLVConfigItemPathFormInputSet>
   <FolderPathSelectorPopupWindow>
@@ -134,6 +134,10 @@
     </title>
   </UICLVBasePathPopupWindow>
   <UICLVPresentation>
+    <msg>
+      <confirm-delete>Are you sure you want to delete this content?</confirm-delete>
+      <delete-content-successfully>Content deleted successfully.</delete-content-successfully>
+    </msg>
     <label>
       <readmore>もっと読む</readmore>
       <rssFeed>RSS フィード</rssFeed>

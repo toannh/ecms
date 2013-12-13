@@ -86,14 +86,23 @@
 						<label class="control-label" for="<%=uicomponent.DESCRIPTION%>"><%=uicomponent.getLabel(uicomponent.DESCRIPTION) %></label>
 						<div class="controls">
 							<% uiform.renderField(uicomponent.DESCRIPTION) %>
-							<a class="actionIcon" data-placement="bottom" rel="tooltip" data-original-title="<%= _ctx.appRes("UISEOForm.help.description") %>"><i class="uiIconQuestion" id="DescriptionHelp" ></i></a>
+							
+							<div style="display:inline-block;" onmouseover="(function(elm) {eXo.ecm.WCMUtils.showPopover(elm);})(this)"
+					                onmouseout="(function(elm) {eXo.ecm.WCMUtils.hidePopover(elm);})(this)" data-toggle="popover" data-placement="left" data-content="<%= _ctx.appRes("UISEOForm.help.description") %>">
+					          <i class="uiIconQuestion uiIconLightGray" id="DescriptionHelp"></i>          
+					        </div>
+							
 						</div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="<%=uicomponent.KEYWORDS%>"><%=uicomponent.getLabel(uicomponent.KEYWORDS) %></label>
 						<div class="controls">
 							<% uiform.renderField(uicomponent.KEYWORDS) %>
-							<a class="actionIcon" data-placement="bottom" rel="tooltip" data-original-title="<%= _ctx.appRes("UISEOForm.help.keywords") %>"><i class="uiIconQuestion" id="DescriptionHelp" ></i></a>
+							<div style="display:inline-block;" onmouseover="(function(elm) {eXo.ecm.WCMUtils.showPopover(elm);})(this)"
+					                onmouseout="(function(elm) {eXo.ecm.WCMUtils.hidePopover(elm);})(this)" data-toggle="popover" data-placement="left" data-content="<%= _ctx.appRes("UISEOForm.help.keywords") %>">
+					          <i class="uiIconQuestion uiIconLightGray" id="DescriptionHelp"></i>          
+					        </div>
+							
 						</div>
 					</div>	
 					 
@@ -120,7 +129,11 @@
 							<label class="control-label" for="<%=uicomponent.PRIORITY%>"><%=uicomponent.getLabel(uicomponent.PRIORITY) %></label>
 							<div class="controls">
 								<% uiform.renderField(uicomponent.PRIORITY) %>
-								<a class="actionIcon" data-placement="bottom" rel="tooltip" data-original-title="<%= _ctx.appRes("UISEOForm.help.priority") %>"><i class="uiIconQuestion" id="PriorityHelp" ></i></a>
+								<div style="display:inline-block;" onmouseover="(function(elm) {eXo.ecm.WCMUtils.showPopover(elm);})(this)"
+					                onmouseout="(function(elm) {eXo.ecm.WCMUtils.hidePopover(elm);})(this)" data-toggle="popover" data-placement="left" data-content="<%= _ctx.appRes("UISEOForm.help.priority") %>">
+						          <i class="uiIconQuestion uiIconLightGray" id="PriorityHelp"></i>          
+						        </div>
+								
 							</div>
 						</div>			
 					<%}%>		   

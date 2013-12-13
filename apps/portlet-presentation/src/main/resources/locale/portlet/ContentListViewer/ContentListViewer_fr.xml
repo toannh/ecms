@@ -29,7 +29,7 @@
       <option>
         <exo:title>Titre</exo:title>
         <exo:dateCreated>Date de création</exo:dateCreated>
-        <exo:dateModified>Date de modification</exo:dateModified>
+        <exo:lastModifiedDate>Date de Modification</exo:lastModifiedDate>
         <publication:liveDate>Date de publication</publication:liveDate>
         <exo:startEvent>Date d'événement</exo:startEvent>
         <exo:index>Index</exo:index>
@@ -40,7 +40,6 @@
       <UICLVConfigHeaderFormStringInput>En-tête</UICLVConfigHeaderFormStringInput>
       <UICLVConfigDisplayTemplateFormSelectBox>Modèle</UICLVConfigDisplayTemplateFormSelectBox>
       <UICLVConfigPaginatorTemplateFormSelectBox>Pagination</UICLVConfigPaginatorTemplateFormSelectBox>
-      <UICLVConfigTargetPageFormStringInput/>
       <UICLVConfigItemsPerPageFormStringInput>Contenus par page</UICLVConfigItemsPerPageFormStringInput>
       <UICLVConfigShowIllustrationFormCheckboxInput>Afficher l'Illustration</UICLVConfigShowIllustrationFormCheckboxInput>
       <UICLVConfigShowSummaryFormCheckboxInput>Afficher le Résumé</UICLVConfigShowSummaryFormCheckboxInput>
@@ -82,8 +81,8 @@
       <ContentsVisibilityHelp>"Par Authentification" filtrera le contenu en se basant sur l'authentification. Si vous n'êtes pas connecté, vous verrez uniquement le contenu public. Si vous êtes connecté, vous voyez tout le contenu visible par les utilisateurs de l'intranet (mais partagé par tous). "Par Role" signifie que vous verrez le contenu selon vos droits. Dans la plupart des cas, cette option ne devrait pas être utilisée car elle réduit les performances globales.</ContentsVisibilityHelp>
     </help>
     <action>
-      <Save>Enregistrer</Save>
-      <Cancel>Annuler</Cancel>
+      <Save>#{word.save}</Save>
+      <Cancel>#{word.cancel}</Cancel>
       <delete>Supprimer</delete>
     </action>
     <msg>
@@ -107,6 +106,7 @@
   <UICLVConfigItemPathFormInputSet>
     <title>
       <SelectFolderPath>Sélectionner le Dossier</SelectFolderPath>
+      <AddPath>Ajouter un chemin</AddPath>
     </title>
   </UICLVConfigItemPathFormInputSet>
   <FolderPathSelectorPopupWindow>
@@ -134,6 +134,10 @@
     </title>
   </UICLVBasePathPopupWindow>
   <UICLVPresentation>
+    <msg>
+      <confirm-delete>Etes-vous sur de vouloir supprimer ce contenu?</confirm-delete>
+      <delete-content-successfully>Contenu supprimé avec succès.</delete-content-successfully>
+    </msg>
     <label>
       <readmore>Lire la Suite</readmore>
       <rssFeed>Flux RSS</rssFeed>

@@ -113,7 +113,7 @@
 	.uiSelectbox {
 		width: 123px;
 		.selectbox {
-			width: 148px;
+			width: 126px;
 		}
 	}
 }
@@ -224,7 +224,6 @@
 
 .containerHoverClassInner:hover {
   border:1px solid @blueLight !important;
-	
 	.edittingContent {
 		display: block;
 	}
@@ -397,27 +396,119 @@
 	margin-left: 250px;
 }
 
-.InlineEditing {
-	.EditContent {
-	    display: none;
-	    height: 100%;
-	    padding: 2px 7px 2px 2px;
-	    width: 98%;
-	 }
+.uiWaitting {
+  	width: 32px;
+  	height: 32px;
+  	display: block;
+  	position: absolute;
+  	background: url("/eXoWCMResources/skin/images/Icons/loading_24x24.gif") no-repeat center;
+  	top: 50%;
+  	left: 50%;
+  	z-index: 15;
+  	margin: -12px 0 0 -12px;
 }
 
-.UIWCMSearchPortlet {
+.markLayerInline {
+  	background: black;
+	opacity: 0.3;
+	position: absolute;
+	z-index: 10;
+	border-radius: 5px;
+}
+
+.cke_editable ul li {
+  list-style: disc;
+}
+.cke_editable ol li {
+  list-style: decimal;
+}
+
+
+.permission{
+	.controls{
+		.PemissionInputset{
+			overflow: hidden;
+			padding-right: 10px;
+			input{
+				width: 100%;
+			}
+		}
+	}
+}
+
+.UIWCMSearchPortlet{
+	.result{
+		border-top: 1px solid #D7D7D7;
+    	padding: 10px 20px;
+    	.resultSort{
+    		line-height: 28px;
+    		.uiDropdownWithIcon {
+    			margin-left: 6px;
+    		}
+    	}
+	}
+
+	.showMore{
+		padding: 15px 0;
+		.btn{
+			display: block;
+		    margin: 0;
+		    width: 100%;
+		}
+	}
 	.UIAdvanceSearchResultDefault {
-	    border: 1px solid @borderColor;
-	    margin: 10px;
+	    padding: 10px;
 	    .ResultHeader {
 		    border-bottom: 1px solid @borderColor;
 		    line-height: 25px;
 		    overflow: hidden;
 		    padding: 0 5px;
-		}
+		  }
 		p {
 			padding: 0px 10px;
 		}
+		.resultBox {
+			padding: 0 20px 20px;
+			.content {
+		    	margin-left: 85px;
+		    	h6{
+		    		margin: 0px;
+		    	}
+		    	.detail{
+		    		color:@grayLight;
+		    	}
+		    }
+		}
 	} 
+	.UISearchForm{
+		.controls{
+			line-height: 25px;
+		}
+	}
+}
+
+.UISingleContentViewerPortlet{
+	.UIPresentationContainer{
+		.title{
+			color: #262626;
+		    padding: 20px 0 0 0;
+		    margin: 0 0 2px 0;
+		}
+		.dateAndMail {
+		    color: #444;
+		    padding: 5px 0 0 0;
+		}
+		.uiOptionBar{
+			background: none repeat scroll 0 0 #F8F8F8;
+		    border: 1px solid #ECECEC;
+		    padding: 4px 8px 4px 4px;
+		    margin: 8px 0;
+		    a{color:#262626;}
+		}
+		.BigNews{
+			.Title{
+			    padding: 0px;
+			}
+		}
+	}
 }

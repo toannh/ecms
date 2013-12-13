@@ -29,7 +29,7 @@
       <option>
         <exo:title>Tiêu đề</exo:title>
         <exo:dateCreated>Ngày Tạo</exo:dateCreated>
-        <exo:dateModified>Ngày Sửa</exo:dateModified>
+        <exo:lastModifiedDate>Ngày cập nhật</exo:lastModifiedDate>
         <publication:liveDate>Ngày Đăng tải</publication:liveDate>
         <exo:startEvent>Ngày diễn ra Sự kiện</exo:startEvent>
         <exo:index>Chỉ số</exo:index>
@@ -40,7 +40,6 @@
       <UICLVConfigHeaderFormStringInput>Đầu mục</UICLVConfigHeaderFormStringInput>
       <UICLVConfigDisplayTemplateFormSelectBox>Mẫu thiết kế</UICLVConfigDisplayTemplateFormSelectBox>
       <UICLVConfigPaginatorTemplateFormSelectBox>Phân trang</UICLVConfigPaginatorTemplateFormSelectBox>
-      <UICLVConfigTargetPageFormStringInput/>
       <UICLVConfigItemsPerPageFormStringInput>Số lượng tài liệu/1 trang</UICLVConfigItemsPerPageFormStringInput>
       <UICLVConfigShowIllustrationFormCheckboxInput>Hiện Hình ảnh</UICLVConfigShowIllustrationFormCheckboxInput>
       <UICLVConfigShowSummaryFormCheckboxInput>Hiện Tóm tắt</UICLVConfigShowSummaryFormCheckboxInput>
@@ -82,8 +81,8 @@
       <ContentsVisibilityHelp>"Giới hạn bằng xác thực" sẽ lọc nội dung dựa trên việc xác thực. Nếu bạn không đăng nhập, bạn sẽ chỉ thấy những nội dung được công khai. Nếu bạn đã đăng nhập, bạn thấy tất cả các nội dung có thể nhìn thấy dành cho người sử dụng mạng nội bộ (nhưng được mọi người chia sẻ). "Giới hạn theo vai trò người dùng" nghĩa là bạn sẽ thấy nội dung tùy thuộc vào quyền hạn của bạn. Trong hầu hết trường hợp, tùy chọn này không nên được dùng, vì nó làm giảm hiệu năng chung của hệ thống.</ContentsVisibilityHelp>
     </help>
     <action>
-      <Save>Lưu</Save>
-      <Cancel>Hủy bỏ</Cancel>
+      <Save>#{word.save}</Save>
+      <Cancel>#{word.cancel}</Cancel>
       <delete>Xóa</delete>
     </action>
     <msg>
@@ -107,6 +106,7 @@
   <UICLVConfigItemPathFormInputSet>
     <title>
       <SelectFolderPath>Chọn Đường dẫn Thư mục</SelectFolderPath>
+      <AddPath>Thêm Đường dẫn</AddPath>
     </title>
   </UICLVConfigItemPathFormInputSet>
   <FolderPathSelectorPopupWindow>
@@ -134,6 +134,10 @@
     </title>
   </UICLVBasePathPopupWindow>
   <UICLVPresentation>
+    <msg>
+      <confirm-delete>Bạn có chắc chắn muốn xóa nội dung này không?</confirm-delete>
+      <delete-content-successfully>Đã xóa thành công nội dung.</delete-content-successfully>
+    </msg>
     <label>
       <readmore>Đọc thêm</readmore>
       <rssFeed>Nguồn cấp dữ liệu RSS</rssFeed>

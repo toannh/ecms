@@ -435,7 +435,7 @@
 
 		ECMUtils.prototype.generateWebDAVUrl = function (serverInfo, restContextName, repository, workspace, nodePath, mimetype) {
 			my_window = window.open("");
-			var downloadLink = serverInfo + "/" + restContextName + "/jcr/" + repository + "/" + workspace + nodePath;
+			var downloadLink = serverInfo + "/" + restContextName + "/private/jcr/" + repository + "/" + workspace + nodePath;
 			my_window.document.write('<script> window.location.href = "' + downloadLink + '"; </script>');
 		};
 
@@ -1352,7 +1352,7 @@
 		ECMUtils.prototype.getMinimumWidthOfUIListGrid = function (listGrid) {
 		  if (!listGrid) return 0;
 		  var titleTable = gj(listGrid).find("div.titleTable:first")[0];
-		  var uiClearFix = gj(listGrid).find("div.ClearFix")[0];
+		  var uiClearFix = gj(listGrid).find("div.clearfix")[0];
 		  var chidrenItems = gj(uiClearFix).children("div");
 
 		  var minimumWidth = 0;
@@ -1469,6 +1469,34 @@
 				}
 			}, 1*1000);
 		});
+	};
+	
+	ECMUtils.prototype.onLoadNodeTypeInfo = function() {
+		var uiNodeTypeInfo = gj("#UINodeTypeInfoPopup");
+		var nav = gj(uiNodeTypeInfo).find("ul.nav-tabs:first")[0];
+		var listHiddenTabsContainer = gj(nav).find("li.listHiddenTabsContainer:first")[0];
+		var uiDropdownContainer   = gj(listHiddenTabsContainer).find("ul.dropdown-menu:first")[0];
+		var navPaddingLeft = gj(nav).css("padding-left").replace("px","");
+		var navPaddingRight = gj(nav).css("padding-right").replace("px","");
+		var allowedSpace  = nav.offsetWidth - navPaddingLeft - navPaddingRight - gj(listHiddenTabsContainer).width();
+		var totalNavsLength = 0;
+		
+		// Total length of navigation items
+		gj(nav).children("li").not(".dropdown").each(function(i) {
+		  totalNavsLength += gj(this).width();
+		});
+
+		// Remove dropdown if only a few node types avaiable
+		if (totalNavsLength < allowedSpace) {
+			gj(listHiddenTabsContainer).hide();
+		}
+		
+		// Move navigation item to dropdown menu if there are too many nav items
+		while (totalNavsLength > allowedSpace) {
+		  var lastNavItem = gj(nav).children("li").not(".dropdown").last()[0];
+		  totalNavsLength = totalNavsLength - gj(lastNavItem).width();
+		  gj(uiDropdownContainer).prepend(lastNavItem);
+		}
 	};
 
 	eXo.ecm.ECMUtils = new ECMUtils();

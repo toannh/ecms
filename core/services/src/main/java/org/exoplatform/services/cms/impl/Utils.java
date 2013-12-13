@@ -93,6 +93,10 @@ public class Utils {
 
   public static final String EXO_SYMLINK = "exo:symlink";
 
+  public static final String PRIVATE = "Private";
+
+  public static final String PUBLIC = "Public";
+
   public static final long KB = 1024L;
   public static final long MB = 1024L*KB;
   public static final long GB = 1024L*MB;
@@ -371,6 +375,19 @@ public class Utils {
     return ret;
   }
 
+	/**
+	 * Remove the symlink of a deleted node
+	 * @param node The deleted node
+	 * @throws Exception
+	 */
+	public static void removeSymlinks(Node node) throws Exception {
+		LinkManager linkManager = WCMCoreUtils.getService(LinkManager.class);
+		List<Node> symlinks = linkManager.getAllLinks(node, EXO_SYMLINK);
+		for (Node symlink : symlinks) {
+			symlink.remove();
+		}
+	}
+
   /**
    * Remove all the link of a deleted node
    * @param     : node
@@ -379,6 +396,7 @@ public class Utils {
    */
   public static void removeDeadSymlinks(Node node, boolean keepInTrash) throws Exception {
     if (isInTrash(node)) {
+
       return;
     }
     LinkManager linkManager = WCMCoreUtils.getService(LinkManager.class);
@@ -442,6 +460,7 @@ public class Utils {
       sessionProvider.close();
     }
   }
+
   public static void removeDeadSymlinks(Node node) throws Exception {
     removeDeadSymlinks(node, true);
   }
@@ -471,11 +490,11 @@ public class Utils {
    * @return
    * @throws Exception
    */
-  public static Node getServiceLogContentNode(String serviceName, String logType) throws Exception {
+  private static Node getServiceLogContentNode(SessionProvider systemProvider, String serviceName, String logType) throws Exception {
     // Get workspace and session where store service log
     ManageableRepository repository = WCMCoreUtils.getRepository();
     Session session =
-        WCMCoreUtils.getSystemSessionProvider().getSession(repository.getConfiguration().getDefaultWorkspaceName(), repository);
+        systemProvider.getSession(repository.getConfiguration().getDefaultWorkspaceName(), repository);
     Node serviceLogContentNode = null;
 
     if (session.getRootNode().hasNode("exo:services")) {
@@ -505,29 +524,55 @@ public class Utils {
     session.save();
     return serviceLogContentNode;
   }
-  
-  public static Set<String> getAllEditedConfiguredDatas(String className, String id, boolean skipActivities) throws Exception {
-    DocumentContext.getCurrent().getAttributes().put(DocumentContext.IS_SKIP_RAISE_ACT, skipActivities);
-    HashSet<String> editedConfigTemplates = new HashSet<String>();
-    Node serviceLogContentNode= getServiceLogContentNode(className, id);
-    if (serviceLogContentNode != null) {
-      String logData = serviceLogContentNode.getProperty(NodetypeConstant.JCR_DATA).getString();
-      editedConfigTemplates.addAll(Arrays.asList(logData.split(";")));
+
+  /**
+   * Get all the templates which have been added into the system
+   * @param className Simple name of class.
+   * @param id The unique value which used to build service log name.
+   * @param skipActivities To skip raising activities on activity stream.
+   * @return A Set of templates name which have been added.
+   * @throws Exception
+  */
+  public static Set<String> getAllEditedConfiguredData(String className, String id, boolean skipActivities) throws Exception {
+    SessionProvider systemProvider = SessionProvider.createSystemProvider();
+    try {
+      DocumentContext.getCurrent().getAttributes().put(DocumentContext.IS_SKIP_RAISE_ACT, skipActivities);
+      HashSet<String> editedConfigTemplates = new HashSet<String>();
+      Node serviceLogContentNode= getServiceLogContentNode(systemProvider, className, id);
+      if (serviceLogContentNode != null) {
+        String logData = serviceLogContentNode.getProperty(NodetypeConstant.JCR_DATA).getString();
+        editedConfigTemplates.addAll(Arrays.asList(logData.split(";")));
+      }
+      return editedConfigTemplates;
+    } finally {
+      systemProvider.close();
     }
-    return editedConfigTemplates;
-  }  
-  
-  public static void addEditedConfiguredDatas(String template, String className, String id, boolean skipActivities) throws Exception {
-    DocumentContext.getCurrent().getAttributes().put(DocumentContext.IS_SKIP_RAISE_ACT, skipActivities);
-    Node serviceLogContentNode = getServiceLogContentNode(className, id);
-    if (serviceLogContentNode != null) {
-      String logData = serviceLogContentNode.getProperty(NodetypeConstant.JCR_DATA).getString();
-      if (StringUtils.isEmpty(logData)) logData = template;
-      else if (logData.indexOf(template) == -1) logData = logData.concat(";").concat(template);
-      serviceLogContentNode.setProperty(NodetypeConstant.JCR_DATA, logData);
-      serviceLogContentNode.getSession().save();
+  }
+
+  /**
+   * Keep the name of templates in jcr:data property at the first time loaded.
+   * @param template Name of template which will be kept in jcr:data property
+   * @param className A simple class name
+   * @param id The unique value which used to build service log name.
+   * @param skipActivities To skip raising activities on activity stream.
+   * @throws Exception
+ */
+  public static void addEditedConfiguredData(String template, String className, String id, boolean skipActivities) throws Exception {
+    SessionProvider systemProvider = SessionProvider.createSystemProvider();
+    try {
+      DocumentContext.getCurrent().getAttributes().put(DocumentContext.IS_SKIP_RAISE_ACT, skipActivities);
+      Node serviceLogContentNode = getServiceLogContentNode(systemProvider, className, id);
+      if (serviceLogContentNode != null) {
+        String logData = serviceLogContentNode.getProperty(NodetypeConstant.JCR_DATA).getString();
+        if (StringUtils.isEmpty(logData)) logData = template;
+        else if (logData.indexOf(template) == -1) logData = logData.concat(";").concat(template);
+        serviceLogContentNode.setProperty(NodetypeConstant.JCR_DATA, logData);
+        serviceLogContentNode.getSession().save();
+      }
+    } finally {
+      systemProvider.close();
     }
-  }   
+  }
 
   public static String getObjectId(String nodePath) throws UnsupportedEncodingException {
     return URLEncoder.encode(nodePath.replaceAll("'", "\\\\'"), "utf-8");
@@ -576,14 +621,11 @@ public class Utils {
   }
 
   public static List<String> getMemberships() throws Exception {
-    String userId = ConversationState.getCurrent().getIdentity().getUserId();
     List<String> userMemberships = new ArrayList<String>();
-    userMemberships.add(userId);
-    // here we must retrieve memberships of the user using the
-    // IdentityRegistry Service instead of Organization Service to
-    // allow JAAS based authorization
-    Collection<MembershipEntry> memberships = getUserMembershipsFromIdentityRegistry(userId);
-    if (memberships != null) {
+    String userId = ConversationState.getCurrent().getIdentity().getUserId();
+    if (StringUtils.isNotEmpty(userId)) {
+      userMemberships.add(userId);
+      Collection<MembershipEntry> memberships = getUserMembershipsFromIdentityRegistry(userId);
       for (MembershipEntry membership : memberships) {
         String role = membership.getMembershipType() + ":" + membership.getGroup();
         userMemberships.add(role);
@@ -603,12 +645,15 @@ public class Utils {
   private static Collection<MembershipEntry> getUserMembershipsFromIdentityRegistry(String authenticatedUser) {
     IdentityRegistry identityRegistry = WCMCoreUtils.getService(IdentityRegistry.class);
     Identity currentUserIdentity = identityRegistry.getIdentity(authenticatedUser);
-    return currentUserIdentity.getMemberships();
+    if (currentUserIdentity == null) {
+      return Collections.<MembershipEntry>emptySet();
+    } else {
+      return currentUserIdentity.getMemberships();
+    }
   }
 
   public static String getNodeTypeIcon(Node node, String appended, String mode)
       throws RepositoryException {
-    StringBuilder str = new StringBuilder();
     if (node == null)
       return "";
 
@@ -616,9 +661,8 @@ public class Utils {
     String nodeType = node.getPrimaryNodeType().getName();
 
     // Get real node if node is symlink
-    if (node.isNodeType(EXO_SYMLINK)) {
-      LinkManager linkManager = Util.getUIPortal().getApplicationComponent(
-                                                                           LinkManager.class);
+    LinkManager linkManager = WCMCoreUtils.getService(LinkManager.class);
+    if (linkManager.isLink(node)) {
       try {
         nodeType = node.getProperty(NodetypeConstant.EXO_PRIMARYTYPE).getString();
         node = linkManager.getTarget(node);
@@ -636,10 +680,15 @@ public class Utils {
       nodeType = NodetypeConstant.EXO_FAVOURITE_FOLDER;
     }
     else if (nodeType.equals(NodetypeConstant.NT_UNSTRUCTURED) || nodeType.equals(NodetypeConstant.NT_FOLDER)) {
-      for (String specificFolder : NodetypeConstant.SPECIFIC_FOLDERS) {
-        if (node.isNodeType(specificFolder)) {
-          nodeType = specificFolder;
-          break;
+      if ((PRIVATE.equals(node.getName()) || PUBLIC.equals(node.getName()))
+           && node.getParent().isNodeType("exo:userFolder")) {
+          nodeType = String.format("exo:%sFolder", node.getName().toLowerCase());
+      } else {
+        for (String specificFolder : NodetypeConstant.SPECIFIC_FOLDERS) {
+          if (node.isNodeType(specificFolder)) {
+            nodeType = specificFolder;
+            break;
+          }
         }
       }
     }
@@ -657,6 +706,7 @@ public class Utils {
     }
     defaultCssClass = defaultCssClass.concat("Default");
 
+    StringBuilder str = new StringBuilder();
     str.append(appended);
     str.append(defaultCssClass);
     str.append(" ");

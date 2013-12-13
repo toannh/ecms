@@ -28,8 +28,8 @@
       <UICLVConfigOrderByFormSelectBox>Ordenar por</UICLVConfigOrderByFormSelectBox>
       <option>
         <exo:title>Título</exo:title>
-        <exo:dateCreated>Created Date</exo:dateCreated>
-        <exo:dateModified>Modified Date</exo:dateModified>
+        <exo:dateCreated>Fecha de creación</exo:dateCreated>
+        <exo:lastModifiedDate>Fecha modificada</exo:lastModifiedDate>
         <publication:liveDate>Fecha de Publicación</publication:liveDate>
         <exo:startEvent>Fecha del evento</exo:startEvent>
         <exo:index>Índice</exo:index>
@@ -40,7 +40,6 @@
       <UICLVConfigHeaderFormStringInput>Encabezado</UICLVConfigHeaderFormStringInput>
       <UICLVConfigDisplayTemplateFormSelectBox>Plantilla</UICLVConfigDisplayTemplateFormSelectBox>
       <UICLVConfigPaginatorTemplateFormSelectBox>Paginación</UICLVConfigPaginatorTemplateFormSelectBox>
-      <UICLVConfigTargetPageFormStringInput/>
       <UICLVConfigItemsPerPageFormStringInput>Elementos por Página</UICLVConfigItemsPerPageFormStringInput>
       <UICLVConfigShowIllustrationFormCheckboxInput>Mostrar imagen</UICLVConfigShowIllustrationFormCheckboxInput>
       <UICLVConfigShowSummaryFormCheckboxInput>Mostrar resúmen</UICLVConfigShowSummaryFormCheckboxInput>
@@ -82,8 +81,8 @@
       <ContentsVisibilityHelp>"Restringido por autentificación" filtrará el contenido basado en la autentificación. Si no se registra, sólo verá el contenido público. Si está registrado, verá todo el contenido visible por usuarios de la intranet (pero compartidos por todos). "Restringido por roles de usuario" significa que verá el contenido dependiendo de sus derechos. En la mayoría de los casos esta opción no debería ser usada ya que reduce el rendimiento general.</ContentsVisibilityHelp>
     </help>
     <action>
-      <Save>Guardar</Save>
-      <Cancel>Cancelar</Cancel>
+      <Save>#{word.save}</Save>
+      <Cancel>#{word.cancel}</Cancel>
       <delete>Eliminar</delete>
     </action>
     <msg>
@@ -100,18 +99,19 @@
   </UICLVConfig>
   <UICLVConfigDisplayModeFormRadioBoxInput>
     <label>
-      <AutoViewerMode>By Folder</AutoViewerMode>
-      <ManualViewerMode>By Content</ManualViewerMode>
+      <AutoViewerMode>Por Archivo</AutoViewerMode>
+      <ManualViewerMode>Por contenido</ManualViewerMode>
     </label>
   </UICLVConfigDisplayModeFormRadioBoxInput>
   <UICLVConfigItemPathFormInputSet>
     <title>
       <SelectFolderPath>Seleccione la ruta de la carpeta</SelectFolderPath>
+      <AddPath>Agregar Ruta</AddPath>
     </title>
   </UICLVConfigItemPathFormInputSet>
   <FolderPathSelectorPopupWindow>
     <title>
-      <UIContentSelectorFolder>Folder Browser</UIContentSelectorFolder>
+      <UIContentSelectorFolder>Explorador de carpetas</UIContentSelectorFolder>
     </title>
   </FolderPathSelectorPopupWindow>
   <UICLVConfigOrderTypeFormSelectBox>
@@ -130,32 +130,36 @@
   </UICLVConfigTargetPageFormInputSet>
   <UICLVBasePathPopupWindow>
     <title>
-      <UIPageSelector>Page Selector</UIPageSelector>
+      <UIPageSelector>Selector Página</UIPageSelector>
     </title>
   </UICLVBasePathPopupWindow>
   <UICLVPresentation>
+    <msg>
+      <confirm-delete>¿Está seguro de que desea eliminar este contenido?</confirm-delete>
+      <delete-content-successfully>Contenido eliminado satisfactoriamente.</delete-content-successfully>
+    </msg>
     <label>
-      <readmore>Read more</readmore>
-      <rssFeed>RSS Feed</rssFeed>
+      <readmore>Leer más</readmore>
+      <rssFeed>Flujo de RSS</rssFeed>
     </label>
     <action>
       <refresh>Actualizar</refresh>
       <edit>Editar en el explorador de contenido</edit>
-      <delete>Delete</delete>
+      <delete>Borrar</delete>
       <publish>Publicar</publish>
     </action>
     <label>
-      <draft>Draft</draft>
+      <draft>Borrador</draft>
     </label>
   </UICLVPresentation>
   <CorrectContentSelectorPopupWindow>
     <title>
-      <UIContentSelectorMulti>Multiple Content Selector Pane</UIContentSelectorMulti>
+      <UIContentSelectorMulti>Panel Selector de contenido múltiple</UIContentSelectorMulti>
     </title>
   </CorrectContentSelectorPopupWindow>
   <UIContentDialogFormPopupWindow>
     <title>
-      <UIContentDialogForm>Web Content Form</UIContentDialogForm>
+      <UIContentDialogForm>Formulario de contenido web</UIContentDialogForm>
     </title>
   </UIContentDialogFormPopupWindow>
   <UICLVConfigContextualFolderRadioBoxInput>
@@ -165,16 +169,16 @@
     </label>
   </UICLVConfigContextualFolderRadioBoxInput>
   <PublicationStates>
-    <archived>Archived</archived>
-    <obsolete>Obsolete</obsolete>
-    <unpublished>Unpublished</unpublished>
-    <enrolled>Enrolled</enrolled>
-    <draft>Draft</draft>
+    <archived>Archivado</archived>
+    <obsolete>Obsoleto</obsolete>
+    <unpublished>Inédito</unpublished>
+    <enrolled>Inscrito</enrolled>
+    <draft>Borrador</draft>
     <pending>Pendiente</pending>
-    <approved>Approved</approved>
-    <inreview>In Review</inreview>
-    <staged>Staged</staged>
-    <published>Published</published>
+    <approved>Aprobado</approved>
+    <inreview>En Revisión</inreview>
+    <staged>Escenificado</staged>
+    <published>Publicado</published>
   </PublicationStates>
   <UICLVConfigCacheEnableRadioBoxInput>
     <label>

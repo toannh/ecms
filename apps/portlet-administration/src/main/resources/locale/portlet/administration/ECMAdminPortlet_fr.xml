@@ -154,14 +154,14 @@
 	<UIActionForm>
     <title>Ajouter une action pour l'arbre de catégories</title>
 		<action>
-			<Save>Enregistrer</Save>
+      <Save>#{word.save}</Save>
 		</action>
 		<msg>
   		<name-not-allowed>Nom non autorisé</name-not-allowed>
       <path-invalid>Le chemin est incorrect.</path-invalid>
       <taxonomy-existed>Un arbre de catégories du même nom existe déjà</taxonomy-existed>
       <taxonomy-node-existed>Ce noeud de taxonomie existe déjà.</taxonomy-node-existed>
-      <no-permission-add>Vous n'avez pas les droits d'ajout.</no-permission-add>
+      <no-permission-add>Vous n'avez pas le droit d'ajouter une action.</no-permission-add>
       <not-created-tree>L'arbre de catégories n'a pas encore été créé.</not-created-tree>
 		</msg>
 	</UIActionForm>
@@ -326,7 +326,7 @@
       <metadataView>Métadonnées</metadataView>
     </tab>
     <action>
-      <Cancel>Fermer</Cancel>
+      <Cancel>#{word.close}</Cancel>
       <Back>#{word.back}</Back>
     </action>
   </UIMetadataView>
@@ -728,6 +728,10 @@
       <label>Nom</label>
 <action>Actions</action>
     </header>
+    <title>
+      <Edit>Modifier</Edit>
+      <Delete>Supprimer</Delete>
+    </title>
     <action>
       <AddAction>Ajouter</AddAction>
     </action>
@@ -845,6 +849,10 @@
   </EditPopup>
 		
 		<UITabList>
+                  <title>
+                    <Edit>Modifier</Edit>
+                    <Delete>Supprimer</Delete>
+                  </title>       
 			 <header>
   <tabName>Onglet</tabName>
 			 	 <localizeButtons>Description</localizeButtons>
@@ -875,6 +883,9 @@
 		</UIViewPermissionList>
 		
 		<UIViewPermissionList>
+                         <title>
+                           <Delete>Supprimer</Delete>
+                         </title>
 			 <header>
 			 	 <friendlyPermission>Permissions</friendlyPermission>
 			 	 <action>Action</action>
@@ -1065,7 +1076,7 @@
     </action>
     <msg>
       <version-restored>La version '{0}' a été restaurée avec succès.</version-restored>
-      <role-require>Document:</role-require>
+      <role-require>Veuillez sélectionner une permission.</role-require>
       <template-name-exist>Le formulaire '{0}' existe déjà.</template-name-exist>
       <add-permission-denied>Vous n'avez pas les droits pour ajouter un nouveau formulaire.</add-permission-denied>
       <edit-permission-denied>Document:</edit-permission-denied>
@@ -1565,6 +1576,10 @@
 </UITabPane>
 
   <UICLVTemplateList>
+    <title>
+      <Edit>Modifier</Edit>
+      <Delete>Supprimer</Delete>
+    </title>
     <header>
       <title>Nom</title>
       <action>Action</action>
@@ -1589,6 +1604,10 @@
       <action>Action</action>
       <template>Gabarit</template>
     </header>
+    <title>
+      <Edit>Modifier</Edit>
+      <Delete>Supprimer</Delete>
+    </title>
     <action>
       <AddTemplate>Ajouter un Gabarit</AddTemplate>
 <Edit>Modifier</Edit>
@@ -1962,6 +1981,11 @@
       <tagHTML>Style du tag</tagHTML>
       <action>Action</action>
     </header>
+    <title>
+      <Edit>Modifier</Edit>
+      <Delete>Supprimer</Delete>
+      <Remove>Supprimer</Remove>
+    </title>
     <action>
       <AddStyle>Ajouter un style</AddStyle>
     </action>
@@ -2293,7 +2317,7 @@
   </EditUnLockForm>  
   <UITabPane>
     <action>
-      <Close>Fermer</Close>
+      <Close>#{word.close}</Close>
     </action>
     <title>
     		<UILockHolderContainer>Gestion des verrous</UILockHolderContainer>
@@ -2304,7 +2328,7 @@
   <UIViewFormTabPane>
     <action>
       <AddTabForm>Ajouter un Onglet</AddTabForm>
-      <AddTab>Enregistrer</AddTab>
+      <AddTab>#{word.save}</AddTab>
       <BackViewForm>Précédent</BackViewForm>
     </action>
   </UIViewFormTabPane>
@@ -2370,7 +2394,7 @@
 		
 <UITaxonomyTreeContainer>
 		<action>
-			<Cancel>Fermer</Cancel>
+<Cancel>#{word.close}</Cancel>
 		</action>
 	</UITaxonomyTreeContainer>
 	 <UITaxonomyTreeMainForm>			
@@ -2430,11 +2454,11 @@
   <UITagPermissionForm>
     <title>Ajouter une permission</title>
     <action>
-      <Save>Enregistrer</Save>
+      <Save>#{word.save}</Save>
+      <Add>Ajouter</Add>
     </action>
     <label>
       <userOrGroup>Rôles: </userOrGroup>
-      <permission/>
     </label>
     <msg>
       <userOrGroup-alreadyExists>Ce rôle existe déjà. Veuillez en choisir un autre.</userOrGroup-alreadyExists>
@@ -2524,7 +2548,7 @@
  </UIScriptForm>
  <UINodeTypeList>
    <msg>
-   <no-list>Aucun type de noeud correspondant à cette recherche.</no-list>
+   <no-list>Il n'y a aucun type de nœud correspondant à votre recherche.</no-list>
    </msg>
  </UINodeTypeList>
  <UIActionForm>

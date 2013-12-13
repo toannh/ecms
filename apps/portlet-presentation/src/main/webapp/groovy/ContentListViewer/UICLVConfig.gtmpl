@@ -19,7 +19,7 @@
 	jsManager.require("SHARED/jquery", "gj").addScripts("gj(document).ready(function() { gj(\"*[rel='tooltip']\").tooltip();});");
 %>
 
-<div class="uiFormTabPane uiTabNormal">
+<div class="uiFormTabPane uiTabNormal" style="position: relative;">
 
 			 	<ul class="nav nav-tabs">
 					<%
@@ -40,7 +40,7 @@
 				</ul>
 				<%uiform.begin()%>
 				<div><input type="hidden" id="<%=uicomponent.RENDER_TAB%>" name="<%=uicomponent.RENDER_TAB%>" value="$uicomponent.selectedTabId"/></div>
-				<div class="tab-content">
+				<div class="tab-content" >
 						<%
 							for(formInput in uicomponent.getChildren()) {
 								if(!formInput.isRendered()) continue;
@@ -57,7 +57,13 @@
 												<div class="form-horizontal" >  
 													<div class="control-group">  
 													  <label class="control-label"><%=uicomponent.getLabel(uicomponent.DISPLAY_MODE_FORM_RADIO_BOX_INPUT) %>: </label>
-													  <a class="actionIcon pull-right" title="<%= _ctx.appRes("UICLVConfig.help.ModeSelectionHelp") %>" data-placement="left" rel="tooltip"><i class="uiIconQuestion uiIconLightGray" id="" ></i></a>
+													  <div style="display:inline-block;" class="parentPosition pull-right" onmouseover="(function(elm) {eXo.ecm.WCMUtils.showPopover(elm);})(this)"
+											                onmouseout="(function(elm) {eXo.ecm.WCMUtils.hidePopover(elm);})(this)" data-toggle="popover" data-placement="left" data-content="<%= _ctx.appRes("UICLVConfig.help.ModeSelectionHelp") %>">
+												          <i class="uiIconQuestion uiIconLightGray"></i>          
+												      </div> 
+													  
+																	  
+													  
 													  <div class="controls">
 														<% uiform.renderField(uicomponent.DISPLAY_MODE_FORM_RADIO_BOX_INPUT) %>
 													  </div>
@@ -66,14 +72,18 @@
 													  <label class="control-label" for="<%=uicomponent.ITEM_PATH_FORM_INPUT_SET%>">											  
 													    <%=uicomponent.getLabel(uicomponent.ITEM_PATH_FORM_INPUT_SET) %>: 
 													  </label>
-													  <a class="actionIcon pull-right"  title="<%= _ctx.appRes("UICLVConfig.help.FolderPathHelp") %>" data-placement="left" rel="tooltip"><i class="uiIconQuestion uiIconLightGray" id=""></i></a>
-													  <div class="controls" <% if (uicomponent.getSavedPath() != null) { %>title="<%=uicomponent.getSavedPath()%>" <% }%> >
+													  <div style="display:inline-block;" class="parentPosition pull-right" onmouseover="(function(elm) {eXo.ecm.WCMUtils.showPopover(elm);})(this)"
+											                onmouseout="(function(elm) {eXo.ecm.WCMUtils.hidePopover(elm);})(this)" data-toggle="popover" data-placement="left" data-content="<%= _ctx.appRes("UICLVConfig.help.FolderPathHelp") %>">
+												          <i class="uiIconQuestion uiIconLightGray"></i>          
+												      </div> 
+													  
+													  <div class="controls">
 													    <% uiform.renderField(uicomponent.ITEM_PATH_FORM_INPUT_SET) %>
 													  </div>
 													</div>
 													<div class="control-group">                  
 													  <label class="control-label" for="<%=uicomponent.ORDER_BY_FORM_SELECT_BOX%>"><%=uicomponent.getLabel(uicomponent.ORDER_BY_FORM_SELECT_BOX) %>: </label>
-													  <div class="controls" <% if (uicomponent.getSavedPath() != null) { %>title="<%=uicomponent.getSavedPath()%>" <% }%> >
+													  <div class="controls">
 														<% uiform.renderField(uicomponent.ORDER_BY_FORM_SELECT_BOX) %>
 													  <% uiform.renderField(uicomponent.ORDER_TYPE_FORM_SELECT_BOX) %>
 													  </div>
@@ -126,7 +136,12 @@
 											  <div class="form-horizontal" >  
 													<div class="control-group">  
 													  <label class="control-label" for="<%=uicomponent.HEADER_FORM_STRING_INPUT%>"><%=uicomponent.getLabel(uicomponent.HEADER_FORM_STRING_INPUT) %>: </label>
-													  <a class="actionIcon pull-right" title="<%= _ctx.appRes("UICLVConfig.help.HeaderOptionHelp") %>" data-placement="left" rel="tooltip"><i class="uiIconQuestion uiIconLightGray" id="" ></i></a>
+													  	<div style="display:inline-block;" class="parentPosition pull-right" onmouseover="(function(elm) {eXo.ecm.WCMUtils.showPopover(elm);})(this)"
+											                onmouseout="(function(elm) {eXo.ecm.WCMUtils.hidePopover(elm);})(this)" data-toggle="popover" data-placement="left" data-content="<%= _ctx.appRes("UICLVConfig.help.HeaderOptionHelp") %>">
+												          <i class="uiIconQuestion uiIconLightGray"></i>          
+												      </div> 
+													  	
+													  
 													  <div class="controls clearfix">
 														<div class="pull-left"> <% uiform.renderField(uicomponent.HEADER_FORM_STRING_INPUT) %></div>
 														<label class="checkbox pull-left">
@@ -209,9 +224,14 @@
 											  } else if(formInput.getName().equals(uicomponent.ADVANCED_TAB)) {
 											  %>
 												<div class="form-horizontal" >  
-													<h6 class="clearfix"> 
-														<a class="actionIcon pull-right" title="<%= _ctx.appRes("UICLVConfig.help.ContextualHelp") %>" data-placement="left" rel="tooltip"><i class="uiIconQuestion uiIconLightGray" id="" ></i></a><%=uicomponent.getLabel(uicomponent.DYNAMIC_NAVIGATION_LABEL) %>
-													</h6>
+													<div class="clearfix"> 
+														<div style="display:inline-block;" class="parentPosition pull-right" onmouseover="(function(elm) {eXo.ecm.WCMUtils.showPopover(elm);})(this)"
+											                onmouseout="(function(elm) {eXo.ecm.WCMUtils.hidePopover(elm);})(this)" data-toggle="popover" data-placement="left" data-content="<%= _ctx.appRes("UICLVConfig.help.ContextualHelp") %>">
+												          <i class="uiIconQuestion uiIconLightGray"></i>          
+												      </div> 
+														
+														<h6><%=uicomponent.getLabel(uicomponent.DYNAMIC_NAVIGATION_LABEL) %></h6>
+													</div>
 													<div class="control-group">  
 													  <label class="control-label"><%=uicomponent.getLabel(uicomponent.CONTEXTUAL_FOLDER_RADIOBOX_INPUT) %>: </label>
 													  <div class="controls">
@@ -255,13 +275,22 @@
 														<% uiform.renderField(uicomponent.SHOW_SCV_WITH_STRING_INPUT) %>
 													  </div>
 													</div>
-													<h6 class="clearfix"> <a class="actionIcon pull-right" title='<%= _ctx.appRes("UICLVConfig.help.ContentsVisibilityHelp") %>' data-placement="left" rel="tooltip"><i class="uiIconQuestion uiIconLightGray" id="" ></i></a><%=uicomponent.getLabel(uicomponent.CACHE_MANAGEMENT_LABEL)%></h6>
+													<div class="clearfix"> 
+														
+														<div style="display:inline-block;" class="parentPosition pull-right" onmouseover="(function(elm) {eXo.ecm.WCMUtils.showPopover(elm);})(this)"
+											                onmouseout="(function(elm) {eXo.ecm.WCMUtils.hidePopover(elm);})(this)" data-toggle="popover" data-placement="left" data-content='<%= _ctx.appRes("UICLVConfig.help.ContentsVisibilityHelp") %>'>
+												          <i class="uiIconQuestion uiIconLightGray"></i>          
+												      </div> 
+														
+														
+														<h6><%=uicomponent.getLabel(uicomponent.CACHE_MANAGEMENT_LABEL)%></h6>
+													</div>
 													<div class="control-group">                  
 													  <% uiform.renderField(uicomponent.CACHE_ENABLE_RADIOBOX_INPUT) %>
 													</div>
 												</div>
 
-											  <%
+											  <% 
 											  } else uicomponent.renderUIComponent(formInput);
 											%>
 										</div>

@@ -154,14 +154,14 @@
   <UIActionForm>
     <title>إضافة اجراء إلى فئة الشّجرة</title>
     <action>
-      <Save>حفظ</Save>
+      <Save>#{word.save}</Save>
     </action>
     <msg>
       <name-not-allowed>اسم محظور</name-not-allowed>
       <path-invalid>مسار غير صالح</path-invalid>
       <taxonomy-existed>شجرة الفئات موجودة مُسبقا</taxonomy-existed>
       <taxonomy-node-existed>فئة العقدة موجودة مُسبقا</taxonomy-node-existed>
-      <no-permission-add>ليس لك الحق في الإضافة</no-permission-add>
+      <no-permission-add>ليس لديك الحق في إضافة إجراء.</no-permission-add>
       <not-created-tree>لم يتمّ بعد انشاء شجرة الفئات</not-created-tree>
     </msg>
   </UIActionForm>
@@ -326,7 +326,7 @@
       <metadataView>قالب المعلومات القياسية</metadataView>
     </tab>
     <action>
-      <Cancel>غلق</Cancel>
+      <Cancel>#{word.close}</Cancel>
       <Back>#{word.back}</Back>
     </action>
   </UIMetadataView>
@@ -728,6 +728,10 @@
       <label>الاسم</label>
 <action>الإجراءات</action>
     </header>
+    <title>
+      <Edit>تغيير</Edit>
+      <Delete>حذف</Delete>
+    </title>
     <action>
       <AddAction>أضف</AddAction>
     </action>
@@ -845,6 +849,10 @@
   </EditPopup>
 
 <UITabList>
+                  <title>
+                    <Edit>تغيير</Edit>
+                    <Delete>حذف</Delete>
+                  </title>       
  <header>
   <tabName>التبويب</tabName>
   <localizeButtons>الوصف</localizeButtons>
@@ -875,6 +883,9 @@
 </UIViewPermissionList>
 
 <UIViewPermissionList>
+                         <title>
+                           <Delete>حذف</Delete>
+                         </title>
  <header>
 <friendlyPermission>الصلاحيات</friendlyPermission>
      <action>اجراء</action>
@@ -1265,8 +1276,8 @@
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <label>
-      <parentPath>Parent:</parentPath>
-      <taxonomyName>Category Name:</taxonomyName>
+      <parentPath>الأصل:</parentPath>
+      <taxonomyName>اسم الفئة:</taxonomyName>
     </label>
     <msg>
       <name-null>اسم الفئة فارغ.</name-null>
@@ -1565,6 +1576,10 @@
 </UITabPane>
 
   <UICLVTemplateList>
+    <title>
+      <Edit>تغيير</Edit>
+      <Delete>حذف</Delete>
+    </title>
     <header>
       <title>الاسم</title>
       <action>اجراء</action>
@@ -1589,6 +1604,10 @@
       <action>اجراء</action>
       <template>قالب</template>
     </header>
+    <title>
+      <Edit>تغيير</Edit>
+      <Delete>حذف</Delete>
+    </title>
     <action>
       <AddTemplate>إضافة قالب</AddTemplate>
 <Edit>تغيير</Edit>
@@ -1962,6 +1981,11 @@
       <tagHTML>نمط العلامة</tagHTML>
       <action>اجراء</action>
     </header>
+    <title>
+      <Edit>تغيير</Edit>
+      <Delete>حذف</Delete>
+      <Remove>حذف</Remove>
+    </title>
     <action>
       <AddStyle>اضافة نمط</AddStyle>
     </action>
@@ -2293,7 +2317,7 @@
   </EditUnLockForm>  
   <UITabPane>
     <action>
-      <Close>غلق</Close>
+      <Close>#{word.close}</Close>
     </action>
     <title>
     <UILockHolderContainer>إدارة عملية التأمين</UILockHolderContainer>
@@ -2304,7 +2328,7 @@
   <UIViewFormTabPane>
     <action>
       <AddTabForm>إضافة علامة تبويب</AddTabForm>
-      <AddTab>حفظ</AddTab>
+      <AddTab>#{word.save}</AddTab>
       <BackViewForm>السابق</BackViewForm>
     </action>
   </UIViewFormTabPane>
@@ -2370,7 +2394,7 @@
 
 <UITaxonomyTreeContainer>
 <action>
-<Cancel>إلغاء</Cancel>
+<Cancel>#{word.close}</Cancel>
 </action>
 </UITaxonomyTreeContainer>
 <UITaxonomyTreeMainForm>
@@ -2430,11 +2454,11 @@
   <UITagPermissionForm>
     <title>أضف صلاحيّة</title>
     <action>
-      <Save>حفظ</Save>
+      <Save>#{word.save}</Save>
+      <Add>إضافة</Add>
     </action>
     <label>
       <userOrGroup>العضويات:</userOrGroup>
-      <permission/>
     </label>
     <msg>
       <userOrGroup-alreadyExists>هذه العضوية موجودة مُسبقا. الرجاء اختيار واحدة أخرى.</userOrGroup-alreadyExists>
@@ -2524,7 +2548,7 @@
   </UIScriptForm>
  <UINodeTypeList>
    <msg>
-   <no-list>ليس هناك أي نوع عقدة تخضع إلى شرط البحث هذا.</no-list>
+   <no-list>لا يوجد أي نوع عقدة يطابق بحثك.</no-list>
    </msg>
  </UINodeTypeList>
   <UIActionForm>

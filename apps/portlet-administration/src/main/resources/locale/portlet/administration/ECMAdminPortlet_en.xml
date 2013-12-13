@@ -140,14 +140,6 @@
 	##########################################################################################
 	-->
   <UIPermissionTreeForm>
-    <title>Add a permission to that node</title>
-    <label>
-      <userOrGroup>User Or Group</userOrGroup>
-      <read>Read Right</read>
-      <add_node>Add Node Right</add_node>
-      <set_property>Set Property Right</set_property>
-      <remove>Remove Right</remove>
-    </label>
     <msg>
       <have-not-any-permission>Please specify at least one permission for this node.</have-not-any-permission>
     </msg>
@@ -162,14 +154,14 @@
   <UIActionForm>
     <title>Add an action to the category tree</title>
     <action>
-      <Save>Save</Save>
+      <Save>#{word.save}</Save>
     </action>
     <msg>
       <name-not-allowed>Empty name or special characters are not allowed in the action name.</name-not-allowed>
       <path-invalid>The path is invalid.</path-invalid>
       <taxonomy-existed>The category tree already exists.</taxonomy-existed>
       <taxonomy-node-existed>The category node already exists.</taxonomy-node-existed>
-      <no-permission-add>You do not have the right to add.</no-permission-add>
+      <no-permission-add>You do not have the right to add an action.</no-permission-add>
       <not-created-tree>The category tree has not yet been created.</not-created-tree>
     </msg>
   </UIActionForm>
@@ -334,7 +326,7 @@
       <metadataView>Metadata Information</metadataView>
     </tab>
     <action>
-      <Cancel>Close</Cancel>
+      <Cancel>#{word.close}</Cancel>
       <Back>#{word.back}</Back>
     </action>
   </UIMetadataView>
@@ -372,12 +364,6 @@
       <permission>{0} in {1}</permission>
     </label>
   </UIDriveList>
-  <PopupDrivePermission>
-    <title>
-      <AddDrivePermissionSelector>Add Permission</AddDrivePermissionSelector>
-      <UIDrivePermissionSelector>Set Permissions</UIDrivePermissionSelector>
-    </title>
-  </PopupDrivePermission>
   <UIDriveForm>
     <action>
       <Cancel>#{word.cancel}</Cancel>
@@ -740,8 +726,12 @@
     <header>
       <name>Script</name>
       <label>Name</label>
-						<action>Actions</action>
+      <action>Actions</action>
     </header>
+    <title>
+      <Edit>Edit</Edit>
+      <Delete>Delete</Delete>
+    </title>
     <action>
       <AddAction>Add Action Type</AddAction>
     </action>
@@ -859,10 +849,14 @@
   </EditPopup>
 		
 		<UITabList>
+                  <title>
+                    <Edit>Edit</Edit>
+                    <Delete>Delete</Delete>
+                  </title>       
 			 <header>
 			 	 <tabName>Tab</tabName>
 			 	 <localizeButtons>Description</localizeButtons>
-						<action>Actions</action>
+				<action>Actions</action>
 				</header>
 				<action>
 					 <AddTab>Add</AddTab>
@@ -889,6 +883,9 @@
 		</UIViewPermissionList>
 		
 		<UIViewPermissionList>
+                         <title>
+                           <Delete>Delete</Delete>
+                         </title>
 			 <header>
 						<friendlyPermission>Permissions</friendlyPermission>
 			 	    <action>Action</action>
@@ -1211,9 +1208,9 @@
   <UIScriptForm>
     <label>
       <selectVersion>Versions</selectVersion>
-      <scriptContent>Content</scriptContent>
-      <scriptLabel>Name</scriptLabel>
-      <scriptName>Script</scriptName>
+      <scriptContent>Content:</scriptContent>
+      <scriptLabel>Name:</scriptLabel>
+      <scriptName>Script:</scriptName>
       <enableVersion>Enable Versioning</enableVersion>
     </label>
   </UIScriptForm>
@@ -1380,7 +1377,7 @@
     <title>Add a permission to that node</title>
     <action>
       <Close>#{word.close}</Close>
-      <Save>Save</Save>
+      <Save>#{word.save}</Save>
       <Reset>Reset</Reset>
     </action>
     <msg>
@@ -1579,6 +1576,10 @@
 		</UITabPane>
 		
   <UICLVTemplateList>
+    <title>
+      <Edit>Edit</Edit>
+      <Delete>Delete</Delete>
+    </title>
     <header>
       <title>Name</title>
       <action>Action</action>
@@ -1603,6 +1604,10 @@
       <action>Action</action>
       <template>Template</template>
     </header>
+    <title>
+      <Edit>Edit</Edit>
+      <Delete>Delete</Delete>
+    </title>
     <action>
       <AddTemplate>Add Template</AddTemplate>
 						<Edit>Edit</Edit>
@@ -1924,11 +1929,11 @@
   </UIQueriesList>
   <UIQueriesForm>
     <label>
-      <name>Query Name</name>
-      <type>Query Type</type>
-      <statement>Statement</statement>
-      <cache>Enable Cache Results</cache>
-      <permissions>Permissions</permissions>
+      <name>Query Name:</name>
+      <type>Query Type:</type>
+      <statement>Statement:</statement>
+      <cache>Enable Cache Results:</cache>
+      <permissions>Permissions:</permissions>
       <PermissionButton>UIQueriesForm</PermissionButton>
     </label>
     <action>
@@ -1976,6 +1981,11 @@
       <tagHTML>Tag Style</tagHTML>
       <action>Action</action>
     </header>
+    <title>
+      <Edit>Edit</Edit>
+      <Delete>Delete</Delete>
+      <Remove>Remove</Remove>
+    </title>
     <action>
       <AddStyle>Add Style</AddStyle>
     </action>
@@ -2307,7 +2317,7 @@
   </EditUnLockForm>  
   <UITabPane>
     <action>
-      <Close>Close</Close>
+      <Close>#{word.close}</Close>
     </action>
     <title>
     		<UILockHolderContainer>Manage Lock</UILockHolderContainer>
@@ -2318,7 +2328,7 @@
   <UIViewFormTabPane>
     <action>
       <AddTabForm>Add Tab</AddTabForm>
-      <AddTab>Save</AddTab>
+      <AddTab>#{word.save}</AddTab>
       <BackViewForm>Back</BackViewForm>
     </action>
   </UIViewFormTabPane>
@@ -2384,7 +2394,7 @@
 
 <UITaxonomyTreeContainer>
 		<action>
-			<Cancel>Close</Cancel>
+<Cancel>#{word.close}</Cancel>
 		</action>
 	</UITaxonomyTreeContainer>
 	<UITaxonomyTreeMainForm>
@@ -2444,11 +2454,11 @@
   <UITagPermissionForm>
     <title>Add Permission</title>
     <action>
-      <Save>Save</Save>
+      <Save>#{word.save}</Save>
+      <Add>Add</Add>
     </action>
     <label>
       <userOrGroup>Memberships: </userOrGroup>
-      <permission/>
     </label>
     <msg>
       <userOrGroup-alreadyExists>This membership already exists. Please select another one.</userOrGroup-alreadyExists>
@@ -2538,7 +2548,7 @@
   </UIScriptForm>
  <UINodeTypeList>
    <msg>
-   		<no-list>There isn't any node type with condition search.</no-list>
+   <no-list>There is no node type matching your search.</no-list>
    </msg>
  </UINodeTypeList>
   <UIActionForm>

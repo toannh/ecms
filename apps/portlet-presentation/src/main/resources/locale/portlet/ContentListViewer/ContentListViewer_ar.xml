@@ -29,7 +29,7 @@
       <option>
         <exo:title>عنوان</exo:title>
         <exo:dateCreated>تاريخ الإنشاء</exo:dateCreated>
-        <exo:dateModified>تاريخ التغيير</exo:dateModified>
+        <exo:lastModifiedDate>تاريخ التغيير</exo:lastModifiedDate>
         <publication:liveDate>تاريخ النشر</publication:liveDate>
         <exo:startEvent>تاريخ الحدث</exo:startEvent>
         <exo:index>الفهرس</exo:index>
@@ -40,7 +40,6 @@
       <UICLVConfigHeaderFormStringInput>نموذج</UICLVConfigHeaderFormStringInput>
       <UICLVConfigDisplayTemplateFormSelectBox>عرض نموذج</UICLVConfigDisplayTemplateFormSelectBox>
       <UICLVConfigPaginatorTemplateFormSelectBox>ترحيل النموذجي</UICLVConfigPaginatorTemplateFormSelectBox>
-      <UICLVConfigTargetPageFormStringInput/>
       <UICLVConfigItemsPerPageFormStringInput>عناصر بكل صفحة</UICLVConfigItemsPerPageFormStringInput>
       <UICLVConfigShowIllustrationFormCheckboxInput>عرض الصورة</UICLVConfigShowIllustrationFormCheckboxInput>
       <UICLVConfigShowSummaryFormCheckboxInput>عرض الموجز</UICLVConfigShowSummaryFormCheckboxInput>
@@ -82,8 +81,8 @@
       <ContentsVisibilityHelp>"مقيّدة بتسجيل الدّخول" سيتم تصفية المحتوى استنادا إلى المصادقة. إذا لم تقم بتسجيل الدخول، سترى المحتوى العام فقط. إذا قمت بتسجيل الدخول،سترى كل المحتوى المرئي من قبل مستخدمي الإنترنت. "مقيدة بأدوار المستخدمين" سيتم تصفية المحتوى اعتمادا على صلاحيّاتك. في معظم الحالات، ينبغي عدم استخدام هذا الخيار، لأنه يقلل من الأداء العام.</ContentsVisibilityHelp>
     </help>
     <action>
-      <Save>حفظ</Save>
-      <Cancel>إلغاء</Cancel>
+      <Save>#{word.save}</Save>
+      <Cancel>#{word.cancel}</Cancel>
       <delete>حذف</delete>
     </action>
     <msg>
@@ -107,6 +106,7 @@
   <UICLVConfigItemPathFormInputSet>
     <title>
       <SelectFolderPath>حدد مسار المجلد</SelectFolderPath>
+      <AddPath>اضافة مسار</AddPath>
     </title>
   </UICLVConfigItemPathFormInputSet>
   <FolderPathSelectorPopupWindow>
@@ -134,6 +134,10 @@
     </title>
   </UICLVBasePathPopupWindow>
   <UICLVPresentation>
+    <msg>
+      <confirm-delete>هل أنت متأكد من أنك تريد حذف هذا المحتوى؟</confirm-delete>
+      <delete-content-successfully>تم حذف المحتوى بنجاح.</delete-content-successfully>
+    </msg>
     <label>
       <readmore>قراءة المزيد</readmore>
       <rssFeed>تدفــّـق آر إس إس RSS</rssFeed>

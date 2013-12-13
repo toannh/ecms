@@ -37,7 +37,6 @@
   <!-- Twitter Bootstrap bootstrap-typeahead plugin -->
   <module>
     <name>wcm_bts_typeahead</name>
-    <load-group>bts</load-group>
     <script>
       <adapter>
         (function($) {
@@ -107,6 +106,9 @@
     <depends>
       <module>base</module>
     </depends>
+    <depends>
+      <module>bts_popover</module>
+    </depends>
   </module>
   
   <module>
@@ -162,14 +164,7 @@
     </depends>
   </module>
   
-  <module>
-    <name>ckeditor-loader</name>
-    <as>ckeditor_loader</as>
-    <script>
-      <path>/ckeditor/ckeditor.js</path>
-    </script>
-  </module>
-  
+
   <module>
     <name>wcm-navigation</name>
     <as>wcm_navigation</as>

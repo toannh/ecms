@@ -104,6 +104,24 @@
 
   <!--
   #############################################################################
+  #             org.exoplatform.ecm.webui.component.explorer.UIDrivesArea  #
+  #############################################################################
+  -->
+  <UIDrivesBrowser>
+    <title>
+      <PersonalDrives>Lecteurs personnels</PersonalDrives>
+      <GroupDrives>Lecteurs de vos groupes</GroupDrives>
+      <GeneralDrives>Lecteurs principaux</GeneralDrives>
+    </title>
+    <msg>
+      <no-view-found>Il n'y a pas de vue disponible par rapport à vos droits d'accès sur le lecteur '{0}'.</no-view-found>
+      <access-denied>Accès refusé. Vous n'avez peut-être pas les droits suffisants pour accéder à l'espace de stockage du lecteur '{0}'.</access-denied>
+      <workspace-not-exist>Le lecteur '{0}' a été sauvegardé dans un espace de stockage inconnu. Veuillez reconfigurer le lecteur.</workspace-not-exist>
+    </msg>
+  </UIDrivesBrowser>
+
+  <!--
+  #############################################################################
   #             org.exoplatform.ecm.webui.component.explorer.UITreeExplorer    #
   #############################################################################
   -->
@@ -502,7 +520,7 @@
       <Rename>Renommer</Rename>
       <Cut>Couper</Cut>
       <Copy>Copier</Copy>
-      <Save>Enregistrer</Save>
+      <Save>#{word.save}</Save>
       <RemoveNode>Supprimer</RemoveNode>
       <Checkin>Checkin</Checkin>
       <Checkout>Checkout</Checkout>
@@ -552,7 +570,7 @@
       <Copy>Copier</Copy>
       <Rename>Renommer</Rename>
       <Delete>Supprimer</Delete>
-      <Save>Enregistrer</Save>
+      <Save>#{word.save}</Save>
       <Cut>Couper</Cut>
       <Paste>Coller</Paste>
       <CheckOut>CheckOut</CheckOut>
@@ -591,7 +609,7 @@
       <path>Chemin</path>
     </header>
     <action>
-      <Close>Fermer</Close>
+      <Close>#{word.close}</Close>
     </action>
   </UIReferencesList>
   <!--
@@ -650,7 +668,6 @@
       <remove-property>Etes-vous sûr de vouloir supprimer cette propriété?</remove-property>
     </confirm>
     <header>
-      <icon />
       <name>Nom</name>
       <multiValue>Multi-valuée</multiValue>
       <value>Valeur</value>
@@ -688,7 +705,7 @@
     </label>
     <action>
       <Save>#{word.save}</Save>
-      <Cancel>Annuler</Cancel>
+      <Cancel>#{word.cancel}</Cancel>
       <Reset>Nouvelle Propriété</Reset>
     </action>
     <msg>
@@ -814,7 +831,7 @@
       <node-def-dnt>DNT</node-def-dnt>
     </label>
     <action>
-      <Close>Fermer</Close>
+      <Close>#{word.close}</Close>
     </action>
   </UINodeTypeInfo>
   <!--
@@ -829,7 +846,7 @@
       </label>
     </tab>
     <action>
-      <Close>Fermer</Close>
+      <Close>#{word.close}</Close>
     </action>
   </UICategoryManagerSearch>
   <UIContentNameSearch>
@@ -1105,8 +1122,8 @@
   </SaveQueryPopup>
   <UINodeTypeSelectForm>
     <action>
-      <Cancel>Annuler</Cancel>
-      <Save>Enregistrer</Save>
+      <Cancel>#{word.cancel}</Cancel>
+      <Save>#{word.save}</Save>
     </action>
   </UINodeTypeSelectForm>
   <UICompareExactlyForm>
@@ -1119,7 +1136,7 @@
     </title>
     <button>
       <label-Select>Sélectionner</label-Select>
-      <label-Cancel>Annuler</label-Cancel>
+      <label-Cancel>#{word.cancel}</label-Cancel>
     </button>
     <msg>
       <not-result-found>Aucun résultat trouvé.</not-result-found>
@@ -1193,7 +1210,7 @@
     <pLabel>Propriétés:</pLabel>
     <action>
       <Add>Ajouter</Add>
-      <Cancel>Annuler</Cancel>
+      <Cancel>#{word.cancel}</Cancel>
     </action>
   </UISelectPropertyForm>
   <ExactlyFormPopup>
@@ -1317,7 +1334,7 @@
       <invalid-item-state>Vous ne pouvez pas restaurer cette version. Probablement un ou plusieurs éléments ont été déplacés ou supprimés par une autre session.</invalid-item-state>
     </msg>
     <action>
-      <close>Fermer</close>
+      <close>#{word.close}</close>
       <close-view>Fermer la vue</close-view>
     </action>
   </UIVersionInfo>
@@ -1336,7 +1353,7 @@
       <e_4>Propriété ajoutée</e_4>
       <e_16>Propriété modifiée</e_16>
       <e_8>Propriété supprimée</e_8>
-      <e_32>Enregistrer</e_32>
+      <e_32>#{word.save}</e_32>
       <e_64>Déplacer</e_64>
       <e_128>Copier</e_128>
       <e_256>Ajouter un mixin</e_256>
@@ -1375,7 +1392,7 @@
       <note>Le versionnage n'a pas été activé pour ce noeud.</note>
       <question>Confirmez-vous l'activation?</question>
       <button-active>Activer</button-active>
-      <button-cancel>Annuler</button-cancel>
+      <button-cancel>#{word.cancel}</button-cancel>
     </label>
     <msg>
       <access-denied>Vous n'avez pas l'autorisation pour activer le versionnage sur ce nœud</access-denied>
@@ -1393,7 +1410,7 @@
       <action>Action</action>
     </header>
     <action>
-      <Cancel>Fermer</Cancel>
+      <Cancel>#{word.close}</Cancel>
     </action>
     <grid>
       <msg>
@@ -1417,7 +1434,7 @@
     </label>
     <action>
       <activate>Activer</activate>
-      <cancel>Annuler</cancel>
+      <cancel>#{word.cancel}</cancel>
     </action>
   </UIActivateAuditing>
   <!--
@@ -1457,7 +1474,7 @@
       <filetype-error>Import impossible. Le fichier envoyé est probablement corrompu.</filetype-error>
       <mimetype-invalid>Seuls les fichier xml ou zip sont supportés pour l'import.</mimetype-invalid>
       <access-denied>Accès refusé. Vous n'avez pas les droits suffisants pour importer à cet endroit.</access-denied>
-      <constraint-violation-exception>Impossible d'importer. Le type de noeud '{0}' n'est pas autorisé</constraint-violation-exception>
+      <constraint-violation-exception>Impossible d'importer. Le type de noeud '{0}' n'est pas autorisé.</constraint-violation-exception>
       <item-exists-exception>Un noeud entrant référençable a le même UUID qu'un noeud existant dans l'espace de stockage.</item-exists-exception>
     </msg>
   </UIImportNode>
@@ -1472,7 +1489,7 @@
     </label>
     <action>
       <Save>#{word.save}</Save>
-      <Cancel>Annuler</Cancel>
+      <Cancel>#{word.cancel}</Cancel>
     </action>
     <title>Ajout d'un Libellé</title>
     <msg>
@@ -1527,7 +1544,7 @@
   -->
   <UICategoryManager>
     <action>
-      <Close>Fermer</Close>
+      <Close>#{word.close}</Close>
     </action>
     <tab>
       <label>
@@ -1572,7 +1589,7 @@
   -->
   <UIRelationManager>
     <action>
-      <Close>Fermer</Close>
+      <Close>#{word.close}</Close>
     </action>
     <tab>
       <label>
@@ -1648,7 +1665,7 @@
   <UIDocumentForm>
     <title>Ajouter un Document</title>
     <action>
-	  <Save>Enregistrer</Save>
+      <Save>#{word.save}</Save>
 	  <SaveAndClose>Enregistrer &amp; Fermer</SaveAndClose>
       <ChangeType>Changer le Type de Contenu</ChangeType>
 	  <Fullscreen>Plein écran</Fullscreen>
@@ -1966,9 +1983,9 @@
       <stateName>Etat</stateName>
     </label>
     <action>
-      <Save>Enregistrer</Save>
+      <Save>#{word.save}</Save>
       <UnsubcriberLifeCycle>Sortir du Cycle</UnsubcriberLifeCycle>
-      <Cancel>Annuler</Cancel>
+      <Cancel>#{word.cancel}</Cancel>
     </action>
   </UIPublicationForm>
   <!--
@@ -2062,7 +2079,7 @@
       <visibility>Visibilité</visibility>
     </header>
     <action>
-      <Close>Fermer</Close>
+      <Close>#{word.close}</Close>
     </action>
   </UIPublicationLogList>
   <!--
@@ -2096,6 +2113,7 @@
       <access-denied>Accès refusé. Vous n'avez pas la permission d'ajouter une vignette pour ce noeud.</access-denied>
       <confirm-delete>Voulez-vous supprimer cette vignette?</confirm-delete>
       <is-checked-in>L'état de ce noeud est checked-in. Veuillez faire un check-out avant de faire toute action.</is-checked-in>
+      <fileName-error>Veuillez sélectionner un fichier à envoyer.</fileName-error>
     </msg>
     <title>
       <remove-thumbnail>Supprimer cette vignette</remove-thumbnail>
@@ -2124,7 +2142,7 @@
   -->
   <UICategoriesSelector>
     <action>
-      <close>Fermer</close>
+      <close>#{word.close}</close>
     </action>
   </UICategoriesSelector>
   <!--
@@ -2155,8 +2173,8 @@
     <title>Modifier l'Explorateur</title>
     <action>
       <Edit>Modifier</Edit>
-      <Save>Enregistrer</Save>
-      <Cancel>Annuler</Cancel>
+      <Save>#{word.save}</Save>
+      <Cancel>#{word.cancel}</Cancel>
     </action>
     <label>
       <uploadFileSizeLimitMB>Limiter la taille des fichiers ajoutés (Mo)</uploadFileSizeLimitMB>
@@ -2362,7 +2380,7 @@
 
   <UISimpleCategoryManager>
   	<action>
-  		<Close>Fermer</Close>
+      <Close>#{word.close}</Close>
   	</action>
   </UISimpleCategoryManager>
   <UIPopupWindow>
@@ -2692,8 +2710,8 @@
 	  	<name>Nom de la catégorie</name>
 	  </label>
     <action>
-      <Save>Enregistrer</Save>
-      <Cancel>Annuler</Cancel>
+      <Save>#{word.save}</Save>
+      <Cancel>#{word.cancel}</Cancel>
     </action>
   </UICategoryForm>
   <UIPopupWindow>
@@ -2847,8 +2865,8 @@
 
    	  <UISelectRestorePath>
     <action>
-      <Save>Enregistrer</Save>
-      <Cancel>Annuler</Cancel>
+      <Save>#{word.save}</Save>
+      <Cancel>#{word.cancel}</Cancel>
     </action>
     <label>
       <formInput>Ancien chemin perdu, veuillez en choisir un autre.</formInput>
@@ -2890,7 +2908,7 @@
 
   <UIPublicationPanel>
     <button>
-      <Close>Fermer</Close>
+      <Close>#{word.close}</Close>
     </button>
     <revisions>
       <version>Versions</version>
@@ -2953,7 +2971,7 @@
     </msg>
     <action>
       <Save>#{word.save}</Save>
-      <Reset>Reset</Reset>
+      <Reset>Réinitialiser</Reset>
     </action>
   </UIPublicationSchedule>
 
@@ -3018,7 +3036,6 @@
   </UIJCRExplorerPortlet>
   <UIDrivesArea>
     <DrivesArea>
-      <allDrives>Cliquez sur le bouton "Afficher les Lecteurs" sur la barre d'action pour afficher / cacher la liste des lecteurs.</allDrives>
       <ShowDrives>Afficher les Lecteurs</ShowDrives>
     </DrivesArea>
   </UIDrivesArea>
@@ -3097,7 +3114,7 @@
     <MaxFileSize>La taille maximale des fichiers est</MaxFileSize>
     <InvalidCharacters>Les caractères invalides seront remplacés par un '-'</InvalidCharacters>
     <DropFileMessage>Déposez vos fichiers dans le dossier courant</DropFileMessage>
-      <Close>Fermer</Close>
+    <Close>#{word.close}</Close>
       <in>dans</in>
     <MaxFileSizeAlert>La taille du fichier excède la taille limite accordée de</MaxFileSizeAlert>
       <Waiting>En attente</Waiting>
@@ -3107,7 +3124,7 @@
     <Keep>Garder les deux</Keep>
     <Replace>Remplacer</Replace>
     <Canceled>Annulé</Canceled>
-    <Cancel>Annuler</Cancel>
+    <Cancel>#{word.cancel}</Cancel>
     <AbortAllConfirmation>Voulez vous annuler tous les fichiers en cours de transfert?</AbortAllConfirmation>
   	</label>
   </UIMultiUpload>    

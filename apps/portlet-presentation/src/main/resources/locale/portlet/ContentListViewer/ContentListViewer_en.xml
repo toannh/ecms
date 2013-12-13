@@ -40,7 +40,6 @@
       <UICLVConfigHeaderFormStringInput>Header</UICLVConfigHeaderFormStringInput>
       <UICLVConfigDisplayTemplateFormSelectBox>Template</UICLVConfigDisplayTemplateFormSelectBox>
       <UICLVConfigPaginatorTemplateFormSelectBox>Paginator</UICLVConfigPaginatorTemplateFormSelectBox>
-      <UICLVConfigTargetPageFormStringInput/>
       <UICLVConfigItemsPerPageFormStringInput>Items per Page</UICLVConfigItemsPerPageFormStringInput>
       <UICLVConfigShowIllustrationFormCheckboxInput>Show Image</UICLVConfigShowIllustrationFormCheckboxInput>
       <UICLVConfigShowSummaryFormCheckboxInput>Show Summary</UICLVConfigShowSummaryFormCheckboxInput>
@@ -82,8 +81,8 @@
       <ContentsVisibilityHelp> "Restricted by Authentication" will filter the content based on the authentication. If you do not sign in, you see public content only. If you are logged in, you see all the content visible by intranet users (but shared by all). "Restricted by User Roles" means you will see content depending on your rights. In most cases, this option should not be used, as it reduces the overall performance.</ContentsVisibilityHelp>
     </help>
     <action>
-      <Save>Save</Save>
-      <Cancel>Cancel</Cancel>
+      <Save>#{word.save}</Save>
+      <Cancel>#{word.cancel}</Cancel>
       <delete>Delete</delete>
     </action>
     <msg>
@@ -137,7 +136,7 @@
   <UICLVPresentation>
     <msg>
       <confirm-delete>Are you sure you want to delete this content?</confirm-delete>
-      <delete-content-successfull>Delete content successfully.</delete-content-successfull>
+      <delete-content-successfully>Content deleted successfully.</delete-content-successfully>
     </msg>
     <label>
       <readmore>Read more</readmore>
