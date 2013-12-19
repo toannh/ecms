@@ -34,7 +34,8 @@
 	    }
 	    
 	  }
-	
+
+	  if (typeof CKEDITOR != 'undefined'){for(name in CKEDITOR.instances) {CKEDITOR.instances[name].destroy();}}
 	  if (!callback) callback = null ;
 	  doRequest("Get", url, null, callback) ;
 	};
@@ -112,6 +113,8 @@
 	   }
 	  }
 
+	  if (typeof CKEDITOR != 'undefined'){for(name in CKEDITOR.instances) {CKEDITOR.instances[name].destroy();}}
+
 	  if(useAjax) {
 	    b_changed = false;
 	    this.ajaxPost(form, callback) ;
@@ -165,6 +168,7 @@
 	  if(!form.originalAction) form.originalAction = form.action ; 
 		form.action =  form.originalAction +  encodeURI(params) ;
 	  b_changed = false;
+	  if(typeof CKEDITOR != 'undefined'){for(name in CKEDITOR.instances) {CKEDITOR.instances[name].destroy();}}
 	  this.ajaxPost(form) ;
 	  
 	  if (navigator.appName == 'Microsoft Internet Explorer')
