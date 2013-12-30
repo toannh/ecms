@@ -154,7 +154,7 @@
   <UIActionForm>
     <title>إضافة اجراء إلى فئة الشّجرة</title>
     <action>
-      <Save>حفظ</Save>
+      <Save>#{word.save}</Save>
     </action>
     <msg>
       <name-not-allowed>اسم محظور</name-not-allowed>
@@ -326,7 +326,7 @@
       <metadataView>قالب المعلومات القياسية</metadataView>
     </tab>
     <action>
-      <Cancel>غلق</Cancel>
+      <Cancel>#{word.close}</Cancel>
       <Back>#{word.back}</Back>
     </action>
   </UIMetadataView>
@@ -1711,6 +1711,11 @@
 <list>المحتوى</list>
 <navigation>التصفح</navigation>
   </label>
+                          <action>
+                            <Save>#{word.save}</Save>
+                            <Reset>إعادة تعيين</Reset> 
+                            <Cancel>#{word.cancel}</Cancel> 
+                          </action> 
   <msg>
   <template-existing>اسم القالب هذا موجود مُسبقــا. الرجاء اختيار اسما آخرا.</template-existing>
   </msg>
@@ -2317,7 +2322,7 @@
   </EditUnLockForm>  
   <UITabPane>
     <action>
-      <Close>غلق</Close>
+      <Close>#{word.close}</Close>
     </action>
     <title>
     <UILockHolderContainer>إدارة عملية التأمين</UILockHolderContainer>
@@ -2328,7 +2333,7 @@
   <UIViewFormTabPane>
     <action>
       <AddTabForm>إضافة علامة تبويب</AddTabForm>
-      <AddTab>حفظ</AddTab>
+      <AddTab>#{word.save}</AddTab>
       <BackViewForm>السابق</BackViewForm>
     </action>
   </UIViewFormTabPane>
@@ -2394,7 +2399,7 @@
 
 <UITaxonomyTreeContainer>
 <action>
-<Cancel>إلغاء</Cancel>
+<Cancel>#{word.close}</Cancel>
 </action>
 </UITaxonomyTreeContainer>
 <UITaxonomyTreeMainForm>
@@ -2454,7 +2459,7 @@
   <UITagPermissionForm>
     <title>أضف صلاحيّة</title>
     <action>
-      <Save>حفظ</Save>
+      <Save>#{word.save}</Save>
       <Add>إضافة</Add>
     </action>
     <label>

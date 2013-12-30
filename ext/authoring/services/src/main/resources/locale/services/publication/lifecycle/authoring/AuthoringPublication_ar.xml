@@ -14,4 +14,11 @@
       </changeState>
     </AuthoringPublicationPlugin>
   </PublicationService>
+  <Publication>
+    <log>
+      <description>
+        <enrolled>تمّ ادراج المحتوى ضمن دورة النّشر</enrolled>
+      </description>
+    </log>
+  </Publication>
 </bundle>
