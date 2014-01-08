@@ -4,7 +4,11 @@
   <parent>
     <artifactId>ecms-packaging-wcm</artifactId>
     <groupId>org.exoplatform.ecms</groupId>
+<<<<<<< HEAD
     <version>4.1.x-ecms-skin-module-SNAPSHOT</version>
+=======
+    <version>4.1.x-ecms-stabilization-SNAPSHOT</version>
+>>>>>>> feature/stabilization
   </parent>
   <artifactId>ecms-packaging-wcm-webapp</artifactId>
   <packaging>war</packaging>
