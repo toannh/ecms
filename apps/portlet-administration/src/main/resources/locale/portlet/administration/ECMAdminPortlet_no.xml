@@ -236,7 +236,7 @@
       <False>usant</False>
     </label>
     <title>
-      <view>View</view>
+      <view>Vis</view>
       <edit>Rediger</edit>
       <delete>Slette</delete>
     </title>
@@ -347,7 +347,7 @@
       <workspace>Arbeidsområde</workspace>
       <homePath>Hjem sti</homePath>
       <permissions>Rettigheter</permissions>
-      <views>View</views>
+      <views>Vis</views>
       <action>Handling</action>
     </header>
     <tooltip>
@@ -470,7 +470,7 @@
       <Add>Legg til</Add>
     </action>
     <tooltip>
-      <View>View</View>
+      <View>Vis</View>
       <Edit>Rediger</Edit>
       <Delete>Slette</Delete>
     </tooltip>
@@ -785,9 +785,9 @@
       <ECMTemplate>Mal utforsker</ECMTemplate>
       <UIScriptForm>Skript</UIScriptForm>
       <UIDialogTab>Dialogvindu</UIDialogTab>
-      <UIViewTab>View</UIViewTab>
-      <UITemplateEditForm>Template</UITemplateEditForm>
-      <UITemplateForm>Template</UITemplateForm>
+      <UIViewTab>Vis</UIViewTab>
+      <UITemplateEditForm>Mal</UITemplateEditForm>
+      <UITemplateForm>Mal</UITemplateForm>
       <UITemplateContainer>Dokumenter</UITemplateContainer>
       <UIActionsTemplateContainer>Handlinger</UIActionsTemplateContainer>
       <UIOthersTemplateContainer>Andre</UIOthersTemplateContainer>
@@ -811,7 +811,7 @@
   -->
   <UIViewList>
    <title>
-     <View>View</View>
+     <View>Vis</View>
      <EditInfo>Rediger</EditInfo>
      <Delete>Slette</Delete>
    </title>
@@ -833,7 +833,7 @@
   </UIViewList>
   <ViewPopup>
     <title>
-      <UIViewFormTabPane>View</UIViewFormTabPane>
+      <UIViewFormTabPane>Vis</UIViewFormTabPane>
     </title>
   </ViewPopup>
   <AddPopup>
@@ -934,7 +934,7 @@
     </msg>
     <label>
       <viewName>Navn</viewName>
-      <template>Template</template>
+      <template>Mal</template>
 <version>Gjenopprett versjon</version>
       <enableVersion>Aktiver versjon</enableVersion>
       <hideExplorerPanel>Skjul utforskeren i sidestolpen</hideExplorerPanel>
@@ -963,14 +963,14 @@
       <viewReferences>Vis referanser</viewReferences>
       <viewNodeType>Vis nodetype</viewNodeType>
       <viewPermissions>Vis rettigheter</viewPermissions>
-      <viewProperties>View Properties</viewProperties>
+      <viewProperties>Vis egenskaper</viewProperties>
       <manageVersions>Administrer versjoner</manageVersions>
       <manageAuditing>Administrer revisjonering</manageAuditing>
       <managePublications>Håndter publisering</managePublications>
       <manageCategories>Administrer kategorier</manageCategories>
       <manageRelations>Administrer relasjoner</manageRelations>
       <manageActions>Administrere handlinger</manageActions>
-      <exportNode>Export Node</exportNode>
+      <exportNode>Eksporter node</exportNode>
       <importNode>Importer Node</importNode>
       <viewRelations>Vis relasjoner</viewRelations>
       <showJCRStructure>Vis JCR struktur</showJCRStructure>
@@ -1003,7 +1003,7 @@
     <tab>
       <label>
         <UITabContainer>Handling</UITabContainer>
-        <UIViewForm>View</UIViewForm>
+        <UIViewForm>Vis</UIViewForm>
         <UIViewPermissionContainer>Permission</UIViewPermissionContainer>    
       </label>
     </tab>
@@ -1041,7 +1041,7 @@
   -->
   <UIECMTemplateList>
     <title>
-      <View>View</View>
+      <View>Vis</View>
       <EditInfo>Rediger</EditInfo>
       <Delete>Slette</Delete>
     </title>
@@ -1083,9 +1083,9 @@
     </msg>
     <tab>
       <label>
-        <template>Template</template>
+        <template>Mal</template>
         <defaultDialog>Dialogvindu</defaultDialog>
-        <defaultView>View</defaultView>
+        <defaultView>Vis</defaultView>
       </label>
     </tab>
     <label>
@@ -1511,7 +1511,7 @@
     <header>
       <name>Type</name>
       <action>Handling</action>
-      <label>Template</label>
+      <label>Mal</label>
       <icon>Icon</icon>
     </header>
     <action>
@@ -1529,7 +1529,7 @@
     <header>
       <name>Type</name>
       <action>Handling</action>
-      <label>Template</label>
+      <label>Mal</label>
       <icon>Icon</icon>
     </header>
     <action>
@@ -1546,7 +1546,7 @@
   <UIOthersTemplateList>
     <header>
       <name>Type</name>
-      <label>Template</label>
+      <label>Mal</label>
       <icon>Icon</icon>
       <action>Handling</action>
     </header>
@@ -1583,7 +1583,7 @@
     <header>
       <title>Navn</title>
       <action>Handling</action>
-      <template>Template</template>
+      <template>Mal</template>
     </header>
     <action>
       <AddTemplate>Legg til mal</AddTemplate>
@@ -1602,7 +1602,7 @@
     <header>
       <title>Navn</title>
       <action>Handling</action>
-      <template>Template</template>
+      <template>Mal</template>
     </header>
     <title>
       <Edit>Rediger</Edit>
@@ -1619,7 +1619,7 @@
     <header>
       <title>Navn</title>
       <action>Handling</action>
-      <template>Template</template>
+      <template>Mal</template>
     </header>
     <action>
       <AddTemplate>Legg til mal</AddTemplate>
@@ -2051,7 +2051,7 @@
     <label>
       <workspaceName>Arbeidsområde:</workspaceName>
       <rootNodeInfo>UIWorkspaceList</rootNodeInfo>
-      <rootNodePath>Root Path:</rootNodePath>
+      <rootNodePath>Rot sti:</rootNodePath>
     </label>
   </UIWorkspaceList>
   <!--
@@ -2061,7 +2061,7 @@
   -->
   <UIFormInputSetWithAction>
     <msg>
-      <confirm-delete>Are you sure you want to delete?</confirm-delete>
+      <confirm-delete>Er du sikker på at du vil slette?</confirm-delete>
     </msg>
   </UIFormInputSetWithAction>
   <template>
@@ -2105,7 +2105,7 @@
   -->
   <UIViewContainer>
     <title>
-      <View>View</View>
+      <View>Vis</View>
       <EditInfo>Rediger</EditInfo>
       <Delete>Slette</Delete>
     </title>
@@ -2232,7 +2232,7 @@
         <firstName>#{word.firstName}</firstName>
         <email>#{word.email}</email>
       </option>
-      <group>Group</group>
+      <group>Gruppe</group>
       <searchUser>User</searchUser>
       <userName>#{word.userName}</userName>
       <lastName>#{word.lastName}</lastName>
@@ -2404,7 +2404,7 @@
 </UITaxonomyTreeContainer>
 <UITaxonomyTreeMainForm>
 <action>
-<NextViewPermission>Next</NextViewPermission>
+<NextViewPermission>Neste</NextViewPermission>
 <Reset>Reset</Reset>
 </action>
 </UITaxonomyTreeMainForm>
@@ -2413,7 +2413,7 @@
 <action>
 <Save>Save</Save>
 <Reset>Reset</Reset>
-<NextAddAction>Next</NextAddAction>
+<NextAddAction>Neste</NextAddAction>
 <Previous>Previous</Previous>
 </action>
 </UIPermissionTreeForm>
@@ -2421,10 +2421,10 @@
 <UIActionForm>
 <action>
 <PreviousViewPermission>Previous</PreviousViewPermission>
-<NextViewTree>Next</NextViewTree>
+<NextViewTree>Neste</NextViewTree>
 </action>
   <msg>
-    <xss-vulnerability-character>Field '{0}' contains XSS vulnerability characters</xss-vulnerability-character>
+    <xss-vulnerability-character>Feltet '{0}' inneholder  XSS sårbare tegn</xss-vulnerability-character>
 <xss-vulnerability-character-wo-label>Inndataene kan inneholde XSS sårbare tegn</xss-vulnerability-character-wo-label>
   </msg>
 </UIActionForm>

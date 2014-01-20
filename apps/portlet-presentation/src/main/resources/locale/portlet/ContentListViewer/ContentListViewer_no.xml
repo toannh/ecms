@@ -2,7 +2,7 @@
 <bundle>
   <UICLVContainer>
     <label>
-      <Preferences>Preferences</Preferences>
+      <Preferences>Innstillinger</Preferences>
       <AddContent>Legg til innhold</AddContent>
       <ManageContent>Administrer innhold</ManageContent>
     </label>
@@ -38,7 +38,7 @@
       </option>
       <DisplaySettingBlock>Vis innstillinger</DisplaySettingBlock>
       <UICLVConfigHeaderFormStringInput>Toppbanner</UICLVConfigHeaderFormStringInput>
-      <UICLVConfigDisplayTemplateFormSelectBox>Template</UICLVConfigDisplayTemplateFormSelectBox>
+      <UICLVConfigDisplayTemplateFormSelectBox>Mal</UICLVConfigDisplayTemplateFormSelectBox>
       <UICLVConfigPaginatorTemplateFormSelectBox>Paginator</UICLVConfigPaginatorTemplateFormSelectBox>
       <UICLVConfigItemsPerPageFormStringInput>Elementer per side</UICLVConfigItemsPerPageFormStringInput>
       <UICLVConfigShowIllustrationFormCheckboxInput>Show Image</UICLVConfigShowIllustrationFormCheckboxInput>
@@ -130,7 +130,7 @@
   </UICLVConfigTargetPageFormInputSet>
   <UICLVBasePathPopupWindow>
     <title>
-      <UIPageSelector>Page Selector</UIPageSelector>
+      <UIPageSelector>Sidevelger</UIPageSelector>
     </title>
   </UICLVBasePathPopupWindow>
   <UICLVPresentation>
