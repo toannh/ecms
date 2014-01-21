@@ -138,7 +138,7 @@
     <view>
       <label>
         <not-avaliable/>
-        <core-elements>Core Elements</core-elements>
+        <core-elements>Dublin Core</core-elements>
         <title>Titre</title>
         <creator>Créateur</creator>
         <subject>Sujet</subject>
