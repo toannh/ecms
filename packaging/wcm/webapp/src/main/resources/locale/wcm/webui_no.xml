@@ -177,8 +177,8 @@
 
   <UIContentSearchForm>
     <title>
-      <Location>Site Name</Location>
-      <SearchByName>Search by Name</SearchByName>
+      <Location>Nettsteds navn</Location>
+      <SearchByName>Søk etter navn</SearchByName>
       <Fulltext>Et ord eller uttrykk i sammenheng</Fulltext>
       <Property>Egenskap</Property>
       <Contain>Inneholder</Contain>
@@ -271,7 +271,7 @@
 
   <UIPermissionManager>
     <label>
-      <UIPermissionInputSetWithAction>Permission</UIPermissionInputSetWithAction>
+      <UIPermissionInputSetWithAction>Rettighet</UIPermissionInputSetWithAction>
       <UIAccessibleCheckboxInput>Tilgangsrettigheter</UIAccessibleCheckboxInput>
       <UIEditableCheckboxInput>Redigeringsrettigheter</UIEditableCheckboxInput>
     </label>
@@ -287,7 +287,7 @@
 
   <UIPermissionManagerGrid>
     <header>
-      <owner>Permission</owner>
+      <owner>Rettighet</owner>
       <accessible>Tilgjengelig</accessible>
       <editable>Redigerbar</editable>
       <action>Handling</action>
@@ -325,14 +325,14 @@
 
   <UIGroupMemberSelector>
     <label>
-      <selectGroup>Select Group</selectGroup>
+      <selectGroup>Velg gruppe</selectGroup>
       <selectMembership>Velg medlemskap</selectMembership>
     </label>
   </UIGroupMemberSelector>
 
   <UIContentDialogPreference>
     <action>
-      <Back>Back</Back>
+      <Back>Tilbake</Back>
     </action>
   </UIContentDialogPreference>
 
@@ -371,10 +371,10 @@
   </UIWizardPageSelectLayoutForm>
 
   <Signin>
-    <welcome>Welcome</welcome>
-    <login>Login</login>
-    <logout>Logout</logout>
-    <language>Change Language</language>
+    <welcome>Velkommen</welcome>
+    <login>Innlogging</login>
+    <logout>Logg ut</logout>
+    <language>Bytt språk</language>
     <register>Registrer</register>
   </Signin>
   <UIDriveForm>

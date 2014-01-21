@@ -8,8 +8,8 @@
   <UICommentForm>
     <label>
       <name>Navn</name>
-      <email>Email</email>
-      <website>Website</website>
+      <email>E-post</email>
+      <website>Nettsted</website>
       <comment>Kommentar</comment>
     </label>
     <action>
@@ -98,7 +98,7 @@
       <selectView>Velg visning</selectView>
       <showSideBar>Vis sidestolpe</showSideBar>
       <more>Mer</more>
-      <backTo>Back</backTo>
+      <backTo>Tilbake</backTo>
     </label>
   </UIViewBar>
 
@@ -235,7 +235,7 @@
       <UIDocumentFormController>Legg til nytt dokument</UIDocumentFormController>
       <EditFormController>Rediger dokument</EditFormController>
       <UIRelationManager>Legg til relasjon</UIRelationManager>
-      <UICategoryManager>Add Category</UICategoryManager>
+      <UICategoryManager>Legge til kategori</UICategoryManager>
       <UIImportNode>Importer</UIImportNode>
       <UIViewMetadataManager>Vis metadata</UIViewMetadataManager>
       <UIVoteForm>Stem på dokument</UIVoteForm>
@@ -303,7 +303,7 @@
       <ViewReferences>Referanser</ViewReferences>
       <ViewNodeType>Typer</ViewNodeType>
       <ViewPermissions>Rettigheter</ViewPermissions>
-      <ViewProperties>Properties</ViewProperties>
+      <ViewProperties>Egenskaper</ViewProperties>
       <ViewMetadatas>Metadata</ViewMetadatas>
       <ViewRelations>Vis/Skjul relasjoner</ViewRelations>
       <ShowJCRStructure>Vis/Skjul innholdsstruktur</ShowJCRStructure>
@@ -346,7 +346,7 @@
     </msg>
     <title>
       <select-tab>Velg fane</select-tab>
-      <SimpleSearch>Quick Search</SimpleSearch>
+      <SimpleSearch>Hurtigsøk</SimpleSearch>
       <AdvanceSearch>Avansert søk</AdvanceSearch>
       <SavedQueries>Lagrede spørringer</SavedQueries>
       <ShowAllOwnedByUser>Vis alle mine elementer</ShowAllOwnedByUser>
@@ -442,7 +442,7 @@
   -->
   <UIWorkingArea>
     <title>
-      <Icon>Icon</Icon>
+      <Icon>Symbol</Icon>
     </title>
     <msg>
       <!-- Delte one node is not in trash and have no relation -->
@@ -626,19 +626,19 @@
       <UIPublicationHistory>Historikk</UIPublicationHistory>
       <UIVersionViewer>Versjonsviser</UIVersionViewer>
 
-      <UIPropertyTab>Properties</UIPropertyTab>
+      <UIPropertyTab>Egenskaper</UIPropertyTab>
       <UIMetadataTab>Metadata</UIMetadataTab>
       <UIPropertyForm>Legg til ny egenskap</UIPropertyForm>
       <UIUploadContent>Informasjon om opplastet fil</UIUploadContent>
       <UIJCRAdvancedSearch>Ny spørring</UIJCRAdvancedSearch>
-      <UISavedQuery>Saved Query</UISavedQuery>
+      <UISavedQuery>Lagret spørring</UISavedQuery>
       <AdvancedSearchResult>Søkeresultat</AdvancedSearchResult>
       <UISimpleSearch>Enkelt søk</UISimpleSearch>
       <UISearchContainer>Avansert søk</UISearchContainer>
       <UICategoryManagerSearch>Legge kategorien til i søk</UICategoryManagerSearch>
       <UIConstraintsForm>Skjema for begrensninger</UIConstraintsForm>
       <UIViewSearchResult>Vis innhold</UIViewSearchResult>
-      <UIContentNameSearch>Search by Name</UIContentNameSearch>
+      <UIContentNameSearch>Søk etter navn</UIContentNameSearch>
       <UINodeInfo>Versjon Info</UINodeInfo>
       <UINodeProperty>Nodeegenskap</UINodeProperty>
       <UIActionListContainer>Tilgjengelige handlinger</UIActionListContainer>
@@ -706,7 +706,7 @@
     <action>
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
-      <Reset>Reset</Reset>
+      <Reset>Tilbakestill</Reset>
     </action>
     <msg>
       <name-invalid>Please enter the property name.</name-invalid>
@@ -790,7 +790,7 @@
     <action>
       <Close>#{word.close}</Close>
       <Save>#{word.save}</Save>
-      <Reset>Reset</Reset>
+      <Reset>Tilbakestill</Reset>
     </action>
     <msg>
       <checkbox-require>Please select at least one permission.</checkbox-require>
@@ -1053,7 +1053,7 @@
   <UIConstraintsForm>
     <label>
       <constraints>UIConstraintsForm</constraints>
-      <metadataProperty>Properties</metadataProperty>
+      <metadataProperty>Egenskaper</metadataProperty>
       <operator>Operator</operator>
       <contains>Contain Value</contains>
       <notcontains>Not Contain Value</notcontains>
@@ -1088,7 +1088,7 @@
     <tooltip>
       <AddMetadataType>Add Property</AddMetadataType>
       <AddNodeType>Add Node Type</AddNodeType>
-      <AddCategory>Add Category</AddCategory>
+      <AddCategory>Legge til kategori</AddCategory>
       <FindExactly>Find Exactly</FindExactly>
     </tooltip>
     <label>
@@ -1134,11 +1134,11 @@
   </UINodeTypeSelectForm>
   <UICompareExactlyForm>
     <label>
-      <filter>Filter:</filter>
+      <filter>Filtrer:</filter>
       <result>Resultater:</result>
     </label>
     <title>
-      <result>Filter</result>
+      <result>Filtrer</result>
     </title>
     <button>
       <label-Select>Velg</label-Select>
@@ -1227,7 +1227,7 @@
   <UIECMSearch>
     <header>
       <name>Navn</name>
-      <language>Language</language>
+      <language>Språk</language>
       <query>Spørring</query>
       <action>Handlinger</action>
       <path>Sti</path>
@@ -1365,11 +1365,11 @@
       <e_256>Legge til Mixin</e_256>
       <e_512>Fjerne Mixin</e_512>
       <e_1024>Klone</e_1024>
-      <e_2048>Update</e_2048>
+      <e_2048>Oppdater</e_2048>
       <e_4096>Importer</e_4096>
       <e_8192>Sjekk inn</e_8192>
       <e_16384>Sjekk ut</e_16384>
-      <e_32768>Restore</e_32768>
+      <e_32768>Gjenopprett</e_32768>
       <e_65536>Flette</e_65536>
       <e_131072>Avbryt fletting</e_131072>
       <e_262144>Fletting ferdig</e_262144>
@@ -1491,7 +1491,7 @@
   -->
   <UILabelForm>
     <label>
-      <label>Label</label>
+      <label>Etikett</label>
     </label>
     <action>
       <Save>#{word.save}</Save>
@@ -1529,7 +1529,7 @@
   <UIViewVersion>
     <label>
       <nodeType>Nodetype</nodeType>
-      <nodeName>Node Name</nodeName>
+      <nodeName>Nodenavn</nodeName>
       <VersionNumber>Versjonsnummer</VersionNumber>
       <VersionLabels>Versjonsetiketter</VersionLabels>
       <VersionDate>Versjonsdato</VersionDate>
@@ -1702,7 +1702,7 @@
   <UIViewDocumentController>
     <tab>
       <label>
-        <UIViewDocumentInfo>Information</UIViewDocumentInfo>
+        <UIViewDocumentInfo>Informasjon</UIViewDocumentInfo>
       </label>
     </tab>
     <action>
@@ -1825,11 +1825,11 @@
       <keyword-not-support>Søkeordet er ugyldig. Noen tegn er ikke støttet.</keyword-not-support>
     </msg>
     <label>
-      <exeButton>Go</exeButton>
+      <exeButton>Gå</exeButton>
       <address>Adresse:</address>
     </label>
     <title>
-      <exeButton>Go</exeButton>
+      <exeButton>Gå</exeButton>
       <backButton>Tilbake til den forrige noden</backButton>
       <showHistory>Vise adressehistorikk</showHistory>
       <changeNode>Endre node</changeNode>
@@ -1983,8 +1983,8 @@
       <public>Offentlig</public>
       <private>Privat</private>
       <state>Tilstand</state>
-      <visibility>Visibility</visibility>
-      <nodeName>Node Name:</nodeName>
+      <visibility>Synlighet</visibility>
+      <nodeName>Nodenavn:</nodeName>
       <lifecycleName>Navn på livssyklus</lifecycleName>
       <stateName>Navn på status</stateName>
     </label>
@@ -2018,7 +2018,7 @@
   -->
   <EmailAddressValidator>
     <msg>
-      <Invalid-input>The email address is invalid.</Invalid-input>
+      <Invalid-input>E-postadressen er ugyldig.</Invalid-input>
     </msg>
   </EmailAddressValidator>
   <UIFormInputSetWithAction>
@@ -2038,7 +2038,7 @@
   </RepeatIntervalValidator>
   <UIPermissionSelector>
     <label>
-      <selectGroup>Select Group</selectGroup>
+      <selectGroup>Velg gruppe</selectGroup>
       <selectUser>Velg bruker</selectUser>
       <selectMembership>Velg medlemsskap</selectMembership>
     </label>
@@ -2079,10 +2079,10 @@
     <header>
       <date>Dato</date>
       <newState>Ny tilstand</newState>
-      <user>User</user>
+      <user>Bruker</user>
       <description>Beskrivelse</description>
       <version>Versjon</version>
-      <visibility>Visibility</visibility>
+      <visibility>Synlighet</visibility>
     </header>
     <action>
       <Close>#{word.close}</Close>
@@ -2158,7 +2158,7 @@
   -->
   <UIGroupMemberSelector>
     <label>
-      <selectGroup>Select Group</selectGroup>
+      <selectGroup>Velg gruppe</selectGroup>
       <selectUser>Velg bruker</selectUser>
       <selectMembership>Velg medlemskap</selectMembership>
     </label>
@@ -2391,7 +2391,7 @@
   </UISimpleCategoryManager>
   <UIPopupWindow>
     <title>
-      <UISimpleCategoryManager>Add Category</UISimpleCategoryManager>
+      <UISimpleCategoryManager>Legge til kategori</UISimpleCategoryManager>
     </title>
   </UIPopupWindow>
   <UICategoriesAddedList>
@@ -2644,7 +2644,7 @@
        <Video>Video</Video>
        <Music>Musikk</Music>
        <Documents>Dokument</Documents>
-       <Content>Content</Content>
+       <Content>Innhold</Content>
     </label>
   </DocumentType>
 
@@ -2654,7 +2654,7 @@
       <Video>Video</Video>
       <Music>Musikk</Music>
       <Documents>Dokument</Documents>
-      <Content>Content</Content>
+      <Content>Innhold</Content>
     </label>
     <title>Definer filterinnstillinger</title>
     <action>
@@ -2722,12 +2722,12 @@
   </UICategoryForm>
   <UIPopupWindow>
     <title>
-      <UICategoryForm>Add Category</UICategoryForm>
+      <UICategoryForm>Legge til kategori</UICategoryForm>
     </title>
   </UIPopupWindow>
   <UIActionBar>
     <tooltip>
-      <AddCategory>Add Category</AddCategory>
+      <AddCategory>Legge til kategori</AddCategory>
     </tooltip>
    </UIActionBar>
 
@@ -2950,7 +2950,7 @@
     </scheduled>
     <title>
       <preview>Forhåndsvisning</preview>
-      <restore>Restore</restore>
+      <restore>Gjenopprett</restore>
     </title>
     <msg>
       <have-no-view-template>Visningsmalen er ikke støttet.</have-no-view-template>
@@ -2977,7 +2977,7 @@
     </msg>
     <action>
       <Save>#{word.save}</Save>
-      <Reset>Reset</Reset>
+      <Reset>Tilbakestill</Reset>
     </action>
   </UIPublicationSchedule>
 
@@ -3065,8 +3065,8 @@
   </UploadFileMimeTypesValidator>
   <lifecyclePhase>
     <label>
-    <no>No</no>
-  <yes>Yes</yes>
+    <no>Nei</no>
+  <yes>Ja</yes>
   <true>Sant</true>
   <false>Usant</false>
   <Electronic>Elektronisk</Electronic>
@@ -3124,7 +3124,7 @@
     <in>i</in>
     <MaxFileSizeAlert>Størrelsen på filen overskrider størrelsesbegrensningen på</MaxFileSizeAlert>
     <Waiting>Venter</Waiting>
-    <Error>Error</Error>
+    <Error>Feil</Error>
     <or>eller</or>
     <AlreadyInUse>Allerede i bruk</AlreadyInUse>
     <Keep>Behold begge</Keep>

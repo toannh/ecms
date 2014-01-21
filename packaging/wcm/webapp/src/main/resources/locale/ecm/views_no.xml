@@ -28,7 +28,7 @@
         <show-comments>Vis kommentarer</show-comments>
         <hide-comments>Skjul kommentarer</hide-comments>
         <comment-by>Kommentert av</comment-by>
-        <email>Email</email>
+        <email>E-post</email>
         <site>Nettsted</site>
       </label>
     </view>
@@ -140,8 +140,8 @@
         <not-avaliable>N/A</not-avaliable>
         <core-elements>Core Elements</core-elements>
         <title>Tittel</title>
-        <creator>Creator</creator>
-        <subject>Subject</subject>
+        <creator>Skaperen</creator>
+        <subject>Emne</subject>
         <source>Kilde</source>
         <contributor>Bidragsyter</contributor>
         <resource-type>Ressurstype</resource-type>

@@ -14,8 +14,8 @@
         <time-interval>Tidsintervall</time-interval>
         <query-items>Spørringselementer</query-items>
         <schedule-type>Tidsplan type</schedule-type>
-        <remove>Remove Item</remove>
-        <add>Add Item</add>
+        <remove>Fjern element</remove>
+        <add>Legge til element</add>
         <expand>Utvid dette</expand>
       </label>
     </dialog>
@@ -40,7 +40,7 @@
     <dialog>
       <label>
         <name>Navn</name>
-        <content>Content</content>
+        <content>Innhold</content>
       </label>
     </dialog>
   </HtmlFile>
@@ -65,7 +65,7 @@
       <description>#{word.description}</description>
       <port>Port</port>
       <userName>#{word.userName}</userName>
-      <password>Password</password>
+      <password>Passord</password>
       <link>Lenke</link>
       <to>Send mail til</to>
       <actionName>#{word.name}</actionName>
@@ -76,7 +76,7 @@
       <description>#{word.description}</description>
       <port>Port</port>
       <userName>#{word.userName}</userName>
-      <password>Password</password>
+      <password>Passord</password>
       <link>Lenke</link>
       <to>Send mail til</to>
       <actionName>#{word.name}</actionName>
@@ -255,7 +255,7 @@
         <name>Navn</name>
         <autoload>Automatisk lasting</autoload>
         <minetype>MIME-type</minetype>
-        <content>Content</content>
+        <content>Innhold</content>
       </label>
     </dialog>
   </ResouceContainer>
@@ -264,7 +264,7 @@
   -->
   <EmailAddressValidator>
     <msg>
-      <Invalid-input>The email address is invalid.</Invalid-input>
+      <Invalid-input>E-postadressen er ugyldig.</Invalid-input>
     </msg>
   </EmailAddressValidator>
   <EmptyFieldValidator>
@@ -305,8 +305,8 @@
 
   ###################### resoucebundle exo:taxonomyAction dialogs template ####
   -->
-<no>No</no>
-<yes>Yes</yes>
+<no>Nei</no>
+<yes>Ja</yes>
 <true>Sant</true>
 <false>Usant</false>
 <Electronic>Elektronisk</Electronic>

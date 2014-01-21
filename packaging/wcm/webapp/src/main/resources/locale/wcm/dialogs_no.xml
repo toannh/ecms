@@ -27,7 +27,7 @@
         <cssFile>default.css</cssFile>
         <jsFile>default.js</jsFile>
         <Advanced>Avansert</Advanced>
-        <Summary>Summary</Summary>
+        <Summary>Sammendrag</Summary>
         <name>#{word.name}</name>
         <title>Tittel</title>
         <ContentCSS>CSS Data</ContentCSS>

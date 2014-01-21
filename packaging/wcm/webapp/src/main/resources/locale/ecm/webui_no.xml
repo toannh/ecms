@@ -50,13 +50,13 @@
   <UIPermissionUser>
     <label>
       <selectUser>Velg bruker</selectUser>
-      <selectGroup>Browse and select a group</selectGroup>
+      <selectGroup>Bla gjennom og velge en gruppe</selectGroup>
     </label>
   </UIPermissionUser>
   <UIPermissionMembership>
     <label>
       <selectUser>Velg medlemsskap</selectUser>
-      <selectGroup>Browse and select a group</selectGroup>
+      <selectGroup>Bla gjennom og velge en gruppe</selectGroup>
     </label>
   </UIPermissionMembership>
 </bundle>
