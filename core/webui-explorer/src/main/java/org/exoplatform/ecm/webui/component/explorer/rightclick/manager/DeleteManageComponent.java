@@ -18,6 +18,7 @@
 package org.exoplatform.ecm.webui.component.explorer.rightclick.manager;
 
 
+import org.apache.commons.lang.StringEscapeUtils;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.Validate;
 import org.exoplatform.ecm.webui.component.explorer.UIConfirmMessage;
@@ -174,10 +175,9 @@ public class DeleteManageComponent extends UIAbstractManagerComponent {
   else {
       WCMComposer wcmComposer = WCMCoreUtils.getService(WCMComposer.class);
       List<Node> categories = WCMCoreUtils.getService(TaxonomyService.class).getAllCategories(node);
-
+      String nodeName = node.getName();
       String parentPath = node.getParent().getPath();
       String parentWSpace = node.getSession().getWorkspace().getName();
-
       wcmComposer.updateContent(parentWSpace, node.getPath(), new HashMap<String, String>());
       boolean isNodeReferenceable = Utils.isReferenceable(node);
       String nodeUUID = null;
@@ -202,7 +202,9 @@ public class DeleteManageComponent extends UIAbstractManagerComponent {
         //Broadcast the event when user move node to Trash
         ListenerService listenerService =  WCMCoreUtils.getService(ListenerService.class);
         ActivityCommonService activityService = WCMCoreUtils.getService(ActivityCommonService.class);
-        Node parent = node.getParent();
+        TrashService trashService = WCMCoreUtils.getService(TrashService.class);
+        Node parent = trashService.getTrashHomeNode();
+        node = parent.getNode(nodeName);
         if (node.getPrimaryNodeType().getName().equals(NodetypeConstant.NT_FILE)) {        
           if (activityService.isBroadcastNTFileEvents(node)) {
             listenerService.broadcast(ActivityCommonService.FILE_REMOVE_ACTIVITY, parent, node);
@@ -495,7 +497,7 @@ public class DeleteManageComponent extends UIAbstractManagerComponent {
         Node node = this.getNodeByPath(nodePath);
         if(checkToMoveToTrash) deleteNotice = "UIWorkingArea.msg.feedback-delete";
         else deleteNotice = "UIWorkingArea.msg.feedback-delete-permanently";
-        deleteNoticeParam = Utils.getTitle(node);
+        deleteNoticeParam = StringEscapeUtils.unescapeHtml(Utils.getTitle(node));
         if (node != null) {
           processRemoveOrMoveToTrash(node.getPath(), node, event, false, checkToMoveToTrash);
         }        
@@ -511,6 +513,8 @@ public class DeleteManageComponent extends UIAbstractManagerComponent {
     }
     deleteNotice = res.getString(deleteNotice);
     deleteNotice = deleteNotice.replace("{" + 0 + "}", deleteNoticeParam);
+    deleteNotice = deleteNotice.replace("\"", "'");
+    deleteNotice = StringEscapeUtils.escapeHtml(deleteNotice);
     if(checkToMoveToTrash) {
       String undoLink = getUndoLink(nodePath);      
       uiWorkingArea.setDeleteNotice(deleteNotice);
@@ -674,7 +678,7 @@ public class DeleteManageComponent extends UIAbstractManagerComponent {
     } else {    	
     	Node node = deleteManageComponent.getNodeByPath(nodePath);
       if(node != null)
-      	nodeName = Utils.getTitle(node);
+      	nodeName = StringEscapeUtils.unescapeHtml(Utils.getTitle(node));
       contentType = deleteManageComponent.getContentType(nodePath);
     	if(contentType == FILE_TYPE)
     		uiConfirmMessage.setId(DELETE_FILE_CONFIRM_TITLE);
