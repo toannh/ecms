@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright (C) 2009 eXo Platform SAS.
+    
+    This is free software; you can redistribute it and/or modify it
+    under the terms of the GNU Lesser General Public License as
+    published by the Free Software Foundation; either version 2.1 of
+    the License, or (at your option) any later version.
+    
+    This software is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+    Lesser General Public License for more details.
+    
+    You should have received a copy of the GNU Lesser General Public
+    License along with this software; if not, write to the Free
+    Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+    02110-1301 USA, or see the FSF site: http://www.fsf.org.
+
+-->
+<bundle>
+  <WebContent>
+    <dialog>
+      <label>
+        <MainContent>{crwdns6423488:0}{crwdne6423488:0}</MainContent>
+        <cssFile>default.css</cssFile>
+        <jsFile>default.js</jsFile>
+        <Advanced>{crwdns6423491:0}{crwdne6423491:0}</Advanced>
+        <Summary>{crwdns6423492:0}{crwdne6423492:0}</Summary>
+        <name>#{word.name}</name>
+        <title>{crwdns6423494:0}{crwdne6423494:0}</title>
+        <ContentCSS>{crwdns6423495:0}{crwdne6423495:0}</ContentCSS>
+        <hintCSS>{crwdns6524400:0}{crwdne6524400:0}</hintCSS>
+        <ContentJS>{crwdns6423497:0}{crwdne6423497:0}</ContentJS>
+        <hintJS>{crwdns6524401:0}{crwdne6524401:0}</hintJS>
+        <WebContentHtml>{crwdns6423499:0}{crwdne6423499:0}</WebContentHtml>
+        <Illustration>{crwdns6423500:0}{crwdne6423500:0}</Illustration>
+        <hintIllustration>{crwdns6524402:0}{crwdne6524402:0}</hintIllustration>
+        <confirm-delete>{crwdns6423502:0}{crwdne6423502:0}</confirm-delete>
+        <illustrationImage>{crwdns6423503:0}{crwdne6423503:0}</illustrationImage>
+        <imageMimeType>{crwdns6423504:0}{crwdne6423504:0}</imageMimeType>
+        <image>{crwdns6423505:0}{crwdne6423505:0}</image>
+        <imageWidth>{crwdns6423506:0}{crwdne6423506:0}</imageWidth>
+        <imageHeight>{crwdns6423507:0}{crwdne6423507:0}</imageHeight>
+        <Synchronize>{crwdns6423508:0}{crwdne6423508:0}</Synchronize>
+      </label>
+    </dialog>
+  </WebContent>
+
+  <CSSFile>
+    <dialog>
+      <label>
+        <name>#{word.name}</name>
+        <active>{crwdns6423510:0}{crwdne6423510:0}</active>
+        <priority>{crwdns6423511:0}{crwdne6423511:0}</priority>
+        <content>{crwdns6423512:0}{crwdne6423512:0}</content>
+      </label>
+    </dialog>
+  </CSSFile>
+
+  <JSFile>
+    <dialog>
+      <label>
+        <name>#{word.name}</name>
+        <active>{crwdns6423514:0}{crwdne6423514:0}</active>
+        <priority>{crwdns6423515:0}{crwdne6423515:0}</priority>
+        <content>{crwdns6423516:0}{crwdne6423516:0}</content>
+      </label>
+    </dialog>
+  </JSFile>
+
+  <WebLink>
+    <dialog>
+      <label>
+        <name>#{word.name}</name>
+        <url>{crwdns6423518:0}{crwdne6423518:0}</url>
+        <description>{crwdns6423519:0}{crwdne6423519:0}</description>
+      </label>
+    </dialog>
+  </WebLink>
+
+  <SiteMetadata>
+    <dialog>
+      <label>
+        <title>{crwdns6423520:0}{crwdne6423520:0}</title>
+        <description>{crwdns6423521:0}{crwdne6423521:0}</description>
+        <keywords>{crwdns6423522:0}{crwdne6423522:0}</keywords>
+        <robots>{crwdns6423523:0}{crwdne6423523:0}</robots>
+      </label>
+    </dialog>
+  </SiteMetadata>
+</bundle>
