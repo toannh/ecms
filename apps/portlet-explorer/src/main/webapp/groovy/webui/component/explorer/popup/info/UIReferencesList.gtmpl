@@ -16,7 +16,7 @@
   int totalPages = uicomponent.getUIPageIterator().getAvailablePage() ;
 %>
 <div class="UIReferencesList">  
-	<table class="uiGrid table table-hover table-striped">
+	<table class="uiTable uiTableHover uiTableStriped">
 	  <thead>
 	    <tr>
 	      <%if(name != null) key = name; 

@@ -26,7 +26,7 @@
   </div>
   <% } %>
 <div class = "fixTableSize">
-  <table class="uiGrid table table-hover table-striped">
+  <table class="uiTable uiTableHover uiTableStriped">
     <thead>
       <tr>
   	    <th><%=_ctx.appRes("UIDriveList.header.name")%></th>

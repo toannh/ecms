@@ -6,7 +6,7 @@
   String name = uicomponent.getId() ;
 %>
 <div id="$uicomponent.id" class="$uicomponent.id">
-	<table class="uiGrid table table-hover table-striped">
+	<table class="uiTable  uiTableHover uiTableStriped ">
 	  <thead>
 	    <tr>
 	      <%if(name != null) { %>

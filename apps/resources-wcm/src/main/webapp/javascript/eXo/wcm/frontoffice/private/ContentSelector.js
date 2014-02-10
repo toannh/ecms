@@ -639,7 +639,7 @@
 	EcmContentSelector.prototype.updateHTML = function(viewType) {
 	  var strViewPresent = "";
 		if(viewType=="list") {
-			strViewPresent = "<div class=\"listView\"><table class=\"uiGrid table table-hover table-striped\" id=\"ListRecords\">";
+			strViewPresent = "<div class=\"listView\"><table class=\"uiTable  uiTableHover uiTableStriped \" id=\"ListRecords\">";
 			strViewPresent += "<thead><tr><th userLanguage=\"UserLanguage.FileName\"> Name </th>";
 			strViewPresent += "<th class=\"span2\" userLanguage=\"UserLanguage.CreateDate\"> Date </th>";
 			strViewPresent += "<th class=\"span1\" userLanguage=\"UserLanguage.FileSize\"> Size </th></tr></thead><tbody></tbody>";
@@ -1160,7 +1160,7 @@
 	  else {
 			var strViewPresent = "";
 			if(viewType=="list") {
-				strViewPresent = "<div class=\"listView\"><table class=\"uiGrid table table-hover table-striped\" id=\"ListRecords\">";
+				strViewPresent = "<div class=\"listView\"><table class=\"uiTable  uiTableHover uiTableStriped \" id=\"ListRecords\">";
 				strViewPresent += "<thead><tr><th userLanguage=\"UserLanguage.FileName\"> Name </th>";
 				strViewPresent += "<th class=\"span2\" userLanguage=\"UserLanguage.CreateDate\"> Date </th>";
 				strViewPresent += "<th class=\"span1\" userLanguage=\"UserLanguage.FileSize\"> Size </th></tr></thead>";

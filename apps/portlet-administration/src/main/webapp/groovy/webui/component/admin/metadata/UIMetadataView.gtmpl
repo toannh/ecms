@@ -22,7 +22,7 @@
 <div class="uiMetadataView resizable" id="$uicomponent.id">
 	<h5><%=_ctx.appRes("UIMetadataView.tab.metadataView")%></h5>
 	<div class="metadataInfoDetails">
-		<table class="uiGrid table table-hover table-striped">
+		<table class="uiTable uiTableHover uiTableStriped">
 			<thead>
 				<tr>
 					<th><%=_ctx.appRes("UIMetadataList.header.name")%></th>
@@ -73,7 +73,7 @@
 	
 	<h5><%=_ctx.appRes("UIMetadataView.tab.element")%></h5>
 	<div class="metadataElements">
-		<table class="uiGrid table table-hover table-striped">
+		<table class="uiTable uiTableHover uiTableStriped">
 			<thead>
 				<tr>
 					<th><%=_ctx.appRes("UIMetadataView.header.name")%></th>

@@ -2,7 +2,7 @@
   import org.exoplatform.ecm.webui.utils.Utils ;
 %>
 <div id="$uicomponent.id">
-	<table class="uiGrid table table-hover table-striped" id="$uicomponent.id">  
+	<table class="uiTable  uiTableHover uiTableStriped " id="$uicomponent.id">  
 		<thead>
 	    <tr>
 	      <th><%=_ctx.appRes("UIDriveSelector.label.driveName")%></th>

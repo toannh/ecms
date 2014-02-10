@@ -92,7 +92,7 @@
 						              List<String> contents = uiform.getItems();
 						              if (contents != null && !contents.isEmpty()) {
 						                %>
-						                  <table class="uiGrid table table-hover table-striped">
+						                  <table class="uiTable  uiTableHover uiTableStriped ">
 						                    <thead>
 						                      <tr>
 						                        <th><%=_ctx.appRes("UICLVConfig.label.ContentPath")%></th>

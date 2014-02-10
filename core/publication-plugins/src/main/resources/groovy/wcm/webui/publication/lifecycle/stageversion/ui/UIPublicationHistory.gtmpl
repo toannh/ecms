@@ -14,7 +14,7 @@
 %>
 
 <div class="uiPublicationHistory resizable" id="$uicomponent.id">
-  <table class="uiGrid table table-hover table-striped">
+  <table class="uiTable  uiTableHover uiTableStriped ">
     <thead>
       <tr>
   	    <th><%=_ctx.appRes("UIPublicationHistory.header.date")%></th>

@@ -37,7 +37,7 @@
 %>
 <div class="UIVersionTreeList">
 	<div class="UITrees">
-    <table class="uiGrid table table-hover table-striped">
+    <table class="uiTable  uiTableHover uiTableStriped ">
 	  <thead>
 		  <tr>
 				<th width="40"></th>

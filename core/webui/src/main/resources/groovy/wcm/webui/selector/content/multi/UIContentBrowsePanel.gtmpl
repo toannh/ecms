@@ -52,7 +52,7 @@
 		<div class="rightWorkspace" id="RightWorkspace" action="<%= uicomponent.event("Select") %>" actionSaveTemp="<%= uicomponent.event("SaveTemporary") %>">
 			<div class="multiListContainer">
 				<div class="listView">
-		  			<table class="uiGrid table table-hover table-striped" id="ListRecords">
+		  			<table class="uiTable  uiTableHover uiTableStriped " id="ListRecords">
 		    			<thead>
 		    				<tr>
 			    		  		<th> Name </th>
@@ -69,7 +69,7 @@
 				  <div class="PageIterator" id="pageNavPosition"></div>
 				</div>
 				<div class="listFileContainer">
-		  			<table class="uiGrid table table-hover table-striped" id="ListFilesContent">
+		  			<table class="uiTable  uiTableHover uiTableStriped " id="ListFilesContent">
 		    			<thead>
 		    				<tr>
 			    		  		<th> List Content </th>

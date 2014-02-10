@@ -37,7 +37,7 @@
    def beanIdField = uicomponent.getBeanIdField();
 %>
 <div id="$uicomponent.id" class="permissionInfo">
-   <table class="uiGrid table table-hover table-striped" cellspacing="0">
+   <table class="uiTable  uiTableHover uiTableStriped " cellspacing="0">
       <thead>
       <tr>
          <% if (name != null)

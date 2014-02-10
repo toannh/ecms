@@ -80,7 +80,7 @@
 		<h6 class="title">
 			<i class="<%=Utils.getNodeTypeIcon(uicomponent.getCurrentNode(), "uiIcon16x16")%>"></i> <%=uicomponent.getCurrentNode().getName()%>
 		</h6>
-		<table class="uiGrid table no-border-cell table-hover table-striped">
+		<table class="uiTable uiTableWithoutBorder uiTableHover uiTableStriped">
 			<%
 				String clazz = "" ;
 				writeNodes(rootNode.getChildren(), clazz, 0 );

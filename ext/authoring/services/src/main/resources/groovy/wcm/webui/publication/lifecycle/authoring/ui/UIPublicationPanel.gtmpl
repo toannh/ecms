@@ -94,7 +94,7 @@
 			}%>
 		</ul>
   </fieldset>
-  <table class="revisionsTable uiGrid table table-hover table-striped">
+  <table class="revisionsTable uiTable  uiTableHover uiTableStriped ">
   <thead>
     <tr>
       <th class="version"><%=_ctx.appRes("UIPublicationPanel.revisions.version")%></th>

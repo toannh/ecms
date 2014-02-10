@@ -1,6 +1,6 @@
 <%def node = uicomponent.getNode() ;
 StringBuilder sB;%>
-<table class="uiGrid table table-hover table-striped">      	    
+<table class="uiTable  uiTableHover uiTableStriped ">      	    
   <tr>
     <td ><%=_ctx.appRes("EnableVersioning.view.label.action-name")%></td>
     <td>

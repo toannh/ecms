@@ -11,7 +11,7 @@
 	UIPageIterator uiIterator = uicomponent.getChild(UIGrid.class).getUIPageIterator() ;
 %>
 <div class="$uicomponent.id" id="$uicomponent.id">
-	<table class="uiGrid table table-hover table-striped">
+	<table class="uiTable  uiTableHover uiTableStriped ">
 		<thead>
 	    	<tr>
 	      		<th><%=_ctx.appRes("UIFCCActionList.header.name")%></th>

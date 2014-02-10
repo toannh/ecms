@@ -7,7 +7,7 @@
 
 <div class="uiAuditingInfo" id="$uicomponent.id">
 	<div class="resizable">
-		<table class="uiGrid table table-hover table-striped" id="$uicomponent.id">  
+		<table class="uiTable uiTableHover uiTableStriped" id="$uicomponent.id">  
 			<thead>
 				<tr>
 					<th><%=_ctx.appRes("UIAuditingInfo.label.operation")%></th>

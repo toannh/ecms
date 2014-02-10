@@ -47,7 +47,7 @@
 		<div class="rightWorkspace" id="RightWorkspace" action="<%= uicomponent.event("Select") %>">
 			<div class="multiListContainer">
 				<div class="listView">
-						<table class="uiGrid table table-hover table-striped" id="ListRecords">
+						<table class="uiTable  uiTableHover uiTableStriped " id="ListRecords">
 							<thead>
 								<tr>
 									<th> Name </th>
