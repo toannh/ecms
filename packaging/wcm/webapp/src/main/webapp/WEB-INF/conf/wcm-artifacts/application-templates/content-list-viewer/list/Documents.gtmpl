@@ -95,7 +95,7 @@
                 uuid = viewNode.getUUID();
 								
       					%>
-                <%=uicomponent.addQuickEditDiv("Column1 media " + ((i%2==1)?"odd":"even"),, viewNode)%>
+                <%=uicomponent.addQuickEditDiv("Column1 uiMedia " + ((i%2==1)?"odd":"even"),, viewNode)%>
 				<div class="media-inner">
                 <%
       			    	if (isShowImage) {
@@ -103,7 +103,7 @@
 											}
 											%>
 					<i  class="$itemIcon image pull-left"></i>
-					<div class="media-body">
+					<div class="uiMediaBody">
 												
 													<%
 
@@ -157,7 +157,7 @@
 							  <div class="readLink"><a href="$itemWebdavLink" rel="tooltip" data-placement="bottom" title="<%= _ctx.appRes("UICLVPresentation.label.readmore") %>"><%= _ctx.appRes("UICLVPresentation.label.readmore") %></a></div><%
 							}
 							%>
-						</div><!--media-body-->
+						</div><!--uiMediaBody-->
 					</div><!--media-inner-->
 					</div>
 					<%

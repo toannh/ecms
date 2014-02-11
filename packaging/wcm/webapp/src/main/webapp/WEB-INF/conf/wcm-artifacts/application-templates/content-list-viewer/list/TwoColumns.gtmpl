@@ -98,14 +98,14 @@
 										
 					%>
 
-            <%=uicomponent.addQuickEditDiv("Column2 media", viewNode)%>
+            <%=uicomponent.addQuickEditDiv("Column2 uiMedia", viewNode)%>
 							<div class="media-content">
 							<%
 							if(isShowImage) {
-							  %><a class="image pull-left" rel="tooltip" data-placement="bottom" title="$itemName"><img alt="$itemName" rel="tooltip" data-placement="bottom" title="$itemName" src="$imgSrc" class="media-object" /></a><%
+							  %><a class="image pull-left" rel="tooltip" data-placement="bottom" title="$itemName"><img alt="$itemName" rel="tooltip" data-placement="bottom" title="$itemName" src="$imgSrc" class="uiMediaObject" /></a><%
 							}
 							%>
-							<div class="media-body">
+							<div class="uiMediaBody">
 								<%
   								if (uicomponent.isViewMode()){
                     if (isShowTitle) {

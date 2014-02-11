@@ -92,14 +92,14 @@
 								
 								%>
 								
-								<%=uicomponent.addQuickEditDiv("Column1 media " + ((i%2==1)?"odd":"even"), viewNode)%>
+								<%=uicomponent.addQuickEditDiv("Column1 uiMedia " + ((i%2==1)?"odd":"even"), viewNode)%>
 								<div class="media-inner">
 										 
 											<%if (isShowImage) {
-                        %><a class="image pull-left" rel="tooltip" data-placement="bottom" title="$itemName"><img class="media-object" alt="$itemName" rel="tooltip" data-placement="bottom" title="$itemName" src="$imgSrc" /></a><%
+                        %><a class="image pull-left" rel="tooltip" data-placement="bottom" title="$itemName"><img class="uiMediaObject" alt="$itemName" rel="tooltip" data-placement="bottom" title="$itemName" src="$imgSrc" /></a><%
 											}
 											%>
-												<div class="media-body">
+												<div class="uiMediaBody">
 													<%
 													if (uicomponent.isViewMode()){
   													if (isShowTitle) {
