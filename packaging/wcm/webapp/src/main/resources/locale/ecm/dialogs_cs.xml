@@ -6,17 +6,17 @@
   <Ecm>
     <dialog>
       <label>
-        <end-time>Pabaigos laikas</end-time>
-        <start-time>Pradžios laikas</start-time>
-        <lifecycle>Gyvenimo ciklas</lifecycle>
-        <mimeType>MIME tipas</mimeType>
-        <repeat-count>Kartojimų skaičius</repeat-count>
-        <time-interval>Laiko intervalas</time-interval>
-        <query-items>Užklausos elementai</query-items>
-        <schedule-type>Tvarkaraščio tipas</schedule-type>
-        <remove>Pašalinti elementą</remove>
-        <add>Pridėti elementą</add>
-        <expand>Išplėsti šį</expand>
+        <end-time>Čas ukončení</end-time>
+        <start-time>Čas zahájení</start-time>
+        <lifecycle>Cyklus</lifecycle>
+        <mimeType>MIME typ</mimeType>
+        <repeat-count>Počet opakování</repeat-count>
+        <time-interval>Časový Interval</time-interval>
+        <query-items>Položky dotazu</query-items>
+        <schedule-type>Typ plánu</schedule-type>
+        <remove>Odstranit položku</remove>
+        <add>Přidat položku</add>
+        <expand>Rozbalit</expand>
       </label>
     </dialog>
   </Ecm>
@@ -24,12 +24,12 @@
   <UIDocumentForm>
     <label>
       <title>#{word.title}</title>
-      <link>Nuoroda</link>
+      <link>Odkaz</link>
       <contentHtml>#{word.content}</contentHtml>
       <content>#{word.content}</content>
       <contentPlain>#{word.content}</contentPlain>
-      <name>Pavadinimas</name>
-    <categories>Kategorijos</categories>
+      <name>Jméno</name>
+    <categories>Kategorie</categories>
     </label>
   </UIDocumentForm>
  
@@ -39,8 +39,8 @@
   <HtmlFile>
     <dialog>
       <label>
-        <name>Pavadinimas</name>
-        <content>Turinys</content>
+        <name>Jméno</name>
+        <content>Obsah</content>
       </label>
     </dialog>
   </HtmlFile>
@@ -52,12 +52,12 @@
     <dialog>
       <label>
         <name>#{word.name}</name>
-        <categories>Kategorijos</categories>
+        <categories>Kategorie</categories>
         <mimeType>#{Ecm.dialog.label.mimeType}</mimeType>
         <width>Width</width>
         <height>Height</height>
         <content>#{word.content}</content>
-        <re-upload>Failas jau egzistuoja. Jūs galėtumėte jį ištrinti ir įkelti kitą failą.</re-upload>
+        <re-upload>Soubor již existuje. Můžete jej odstranit a nahrát jiný soubor.</re-upload>
       </label>
     </dialog>
   </File>
@@ -65,22 +65,22 @@
   <UIActionForm>
     <label>
       <description>#{word.description}</description>
-      <port>Jungtis</port>
+      <port>Port</port>
       <userName>#{word.userName}</userName>
-      <password>Slaptažodis</password>
-      <link>Nuoroda</link>
-      <to>Siųsti laišką</to>
+      <password>Heslo</password>
+      <link>Odkaz</link>
+      <to>Poslat E-mail</to>
       <actionName>#{word.name}</actionName>
     </label>
   </UIActionForm>
   <EditFormAction>
     <label>
       <description>#{word.description}</description>
-      <port>Jungtis</port>
+      <port>Port</port>
       <userName>#{word.userName}</userName>
-      <password>Slaptažodis</password>
-      <link>Nuoroda</link>
-      <to>Siųsti laišką</to>
+      <password>Heslo</password>
+      <link>Odkaz</link>
+      <to>Poslat E-mail</to>
       <actionName>#{word.name}</actionName>
     </label>
   </EditFormAction>
@@ -94,7 +94,7 @@
         <id>ID</id>
         <name>#{word.name}</name>
         <lifecycle>#{Ecm.dialog.label.lifecycle}</lifecycle>
-        <metadata>Metaduomenys</metadata>
+        <metadata>Metadata</metadata>
         <description>#{word.description}</description>
       </label>
     </dialog>
@@ -114,7 +114,7 @@
         <end-time>#{Ecm.dialog.label.end-time}</end-time>
         <repeat-count>#{Ecm.dialog.label.repeat-count}</repeat-count>
         <time-inteval>#{Ecm.dialog.label.time-interval}</time-inteval>
-        <cron-expression>Cron išraiška</cron-expression>
+        <cron-expression>Cron výraz</cron-expression>
         <description>#{word.description}</description>
       </label>
     </dialog>
@@ -145,20 +145,20 @@
     <dialog>
       <label>
         <title>#{word.title}:</title>
-        <creator>Kūrėjas:</creator>
+        <creator>Autor:</creator>
         <subject>#{word.subject}:</subject>
-        <source>Šaltinis:</source>
-        <contributor>Talkininkas:</contributor>
-        <resource-type>Išteklių tipas:</resource-type>
+        <source>Zdroj:</source>
+        <contributor>Přispěvatel:</contributor>
+        <resource-type>Typ zdroje:</resource-type>
         <date>#{word.date}:</date>
-        <publisher>Leidėjas:</publisher>
+        <publisher>Vydavatel:</publisher>
         <description>#{word.description}:</description>
-        <rights>Teisės:</rights>
-        <relation>Ryšys:</relation>
+        <rights>Práva:</rights>
+        <relation>Vztah:</relation>
         <format>#{word.format}:</format>
-        <coverage>Aprėptis:</coverage>
-        <identifier>Identifikatorius:</identifier>
-        <language>Kalba:</language>
+        <coverage>Rozsah:</coverage>
+        <identifier>Identifikátor:</identifier>
+        <language>Jazyk:</language>
       </label>
     </dialog>
   </ElementSet>
@@ -169,8 +169,8 @@
   <Actionable>
     <dialog>
       <label>
-        <primary-type>Pagrindinis tipas</primary-type>
-        <mixin-types>"Mixin" tipas</mixin-types>
+        <primary-type>Primární typ</primary-type>
+        <mixin-types>Smíšený typ</mixin-types>
       </label>
     </dialog>
   </Actionable>
@@ -181,10 +181,10 @@
   <Move>
     <dialog>
       <label>
-        <destination-workpsace>Paskirties darbo sritis</destination-workpsace>
-        <destination-path>Paskirties kelias</destination-path>
-        <primary-type>Pagrindinis tipas</primary-type>
-        <mixin-types>"Mixin" tipas</mixin-types>
+        <destination-workpsace>Cílová pracovní plocha</destination-workpsace>
+        <destination-path>Cílová cesta</destination-path>
+        <primary-type>Primární typ</primary-type>
+        <mixin-types>Smíšený typ</mixin-types>
       </label>
     </dialog>
   </Move>
@@ -194,8 +194,8 @@
   <Published>
     <dialog>
       <label>
-        <start-publication>Pradėti paskelbimą</start-publication>
-        <end-publication>Baigti paskelbimą</end-publication>
+        <start-publication>Začít proces zveřejnění</start-publication>
+        <end-publication>Ukončit proces zveřejnění</end-publication>
       </label>
     </dialog>
   </Published>
@@ -216,7 +216,7 @@
   <Relationable>
     <dialog>
       <label>
-        <relation>Ryšys</relation>
+        <relation>Vztah</relation>
       </label>
     </dialog>
   </Relationable>
@@ -226,7 +226,7 @@
   <RssEnable>
     <dialog>
       <label>
-        <title>Pavadinimas</title>
+        <title>Popisek</title>
         <summary>#{word.summary}</summary>
       </label>
     </dialog>
@@ -238,11 +238,11 @@
   <Versionable>
     <dialog>
       <label>
-        <version-history>Versijų istorija</version-history>
-        <base-version>Bazinė versija</base-version>
-        <is-checked-out>Yra išregistruotas</is-checked-out>
-        <predecessors>Pirmtakai</predecessors>
-        <merge-failed>Sulieti nepavyko</merge-failed>
+        <version-history>Historie verzí</version-history>
+        <base-version>Základní verze</base-version>
+        <is-checked-out>Je ve stavu checked out</is-checked-out>
+        <predecessors>Předchůdci</predecessors>
+        <merge-failed>Sloučení se nezdařilo</merge-failed>
         <uuid>UUID</uuid>
       </label>
     </dialog>
@@ -254,10 +254,10 @@
   <ResouceContainer>
     <dialog>
       <label>
-        <name>Vardas</name>
-        <autoload>Automatinis krovimas</autoload>
-        <minetype>MIME tipas</minetype>
-        <content>Turinys</content>
+        <name>Jméno</name>
+        <autoload>Automatické načtění</autoload>
+        <minetype>MIME typ</minetype>
+        <content>Obsah</content>
       </label>
     </dialog>
   </ResouceContainer>
@@ -266,17 +266,17 @@
   -->
   <EmailAddressValidator>
     <msg>
-      <Invalid-input>Elektroninio pašto adresas yra neteisingas.</Invalid-input>
+      <Invalid-input>E-mailová adresa je neplatná.</Invalid-input>
     </msg>
   </EmailAddressValidator>
   <EmptyFieldValidator>
     <msg>
-      <empty-input>'{0}' yra reikalingas laukas. Įveskite savo reikšmę.</empty-input>
+      <empty-input>Je vyžadováno pole {0}. Prosím zadejte hodnotu.</empty-input>
     </msg>
   </EmptyFieldValidator>
   <NumberFormatValidator>
     <msg>
-      <Invalid-number>Laukas '{0}' yra netinkamas.</Invalid-number>
+      <Invalid-number>Pole {0} je neplatné.</Invalid-number>
     </msg>
   </NumberFormatValidator>
   <!--
@@ -288,17 +288,17 @@
     <dialog>
       <label>
         <id>ID</id>
-        <name>Vardas</name>
-        <lifecycle>Gyvenimo ciklas</lifecycle>
-        <homePath>Namų kelias</homePath>
-        <targetWorkspace>Tikslinė darbo sritis</targetWorkspace>
-        <targetPath>Tikslo kelias</targetPath>
+        <name>Jméno</name>
+        <lifecycle>Cyklus</lifecycle>
+        <homePath>Cesta domů</homePath>
+        <targetWorkspace>Cílová pracovní plocha</targetWorkspace>
+        <targetPath>Cílová cesta</targetPath>
       </label>
     </dialog>
   </ScriptAction>
   <UIDialogForm>
    <form>
-   <DialogFormException>Negalima išsaugoti šio dokumento. Gali būti problema susijusi su prieš-išsaugojimo perėmeju.</DialogFormException>
+   <DialogFormException>Tento dokument nelze uložit. Může být problém s funkcí uložení.</DialogFormException>
    </form>
   </UIDialogForm>
 
@@ -308,35 +308,35 @@
   ###################### resoucebundle exo:taxonomyAction dialogs template ####
   -->
 <no>Ne</no>
-<yes>Taip</yes>
-<true>Tiesa</true>
-<false>Netiesa</false>
-<Electronic>Elektroninis</Electronic>
-<Paper>Popierius</Paper>
-<NONE>Nėra</NONE>
-<CLASSIFIED>Klasifikuotas</CLASSIFIED>
-<UNCLASSIFIED>Neklasifikuotas</UNCLASSIFIED>
-<NOCONTRACT>Nėra sutarties</NOCONTRACT>
-<one-minute>Viena minutė</one-minute>
-<hourly>Kas valandą</hourly>
-<daily>Kasdien</daily>
-<quarterly>Kas ketvirtį</quarterly>
-<yearly>Kas metus</yearly>
-<ten-years>Dešimt metų</ten-years>
-<read>Vartotojo veiksmas</read>
-  <schedule>Planuotojas</schedule>
-  <node_added>Turinio papildymas</node_added>
-  <node_removed>Turinio pašalinimas</node_removed>
-  <property_added>Sąvybių papildymas</property_added>
-  <property_removed>Sąvybių pašalinimas</property_removed>
-  <property_changed>Sąvybių pakeitimas</property_changed>
+<yes>Ano</yes>
+<true>Pravda</true>
+<false>Nepravda</false>
+<Electronic>Elektronický</Electronic>
+<Paper>Papír</Paper>
+<NONE>Žádný</NONE>
+<CLASSIFIED>Zařazené</CLASSIFIED>
+<UNCLASSIFIED>Nezařazené</UNCLASSIFIED>
+<NOCONTRACT>Žádná smlouva</NOCONTRACT>
+<one-minute>Minuta</one-minute>
+<hourly>Každou hodinu</hourly>
+<daily>Denně</daily>
+<quarterly>Čtvrletně</quarterly>
+<yearly>Ročně</yearly>
+<ten-years>Deset let</ten-years>
+<read>Akce uživatele</read>
+  <schedule>Plánovač</schedule>
+  <node_added>Přidání obsahu</node_added>
+  <node_removed>Odstranění obsahu</node_removed>
+  <property_added>Přidání vlastnosti</property_added>
+  <property_removed>Odebrání vlastnosti</property_removed>
+  <property_changed>Změna vlastnosti</property_changed>
 
   <ScriptAction>
     <dialog>
       <label>
-        <isDeep>Yra giliai</isDeep>
-        <nodetypes>Mazgo tipai</nodetypes>
-        <affectedNodeTypeNames>Įtakoti mazgo tipai</affectedNodeTypeNames>
+        <isDeep>Je hluboké</isDeep>
+        <nodetypes>Typy uzlů</nodetypes>
+        <affectedNodeTypeNames>Ovlivněné typy uzlů</affectedNodeTypeNames>
       </label>
     </dialog>
   </ScriptAction>
@@ -344,9 +344,9 @@
   <AddMetadata>
     <dialog>
       <label>
-        <isDeep>Yra giliai</isDeep>
-        <nodetypes>Mazgo tipai</nodetypes>
-        <affectedNodeTypeNames>Įtakoti mazgo tipai</affectedNodeTypeNames>
+        <isDeep>Je hluboké</isDeep>
+        <nodetypes>Typy uzlů</nodetypes>
+        <affectedNodeTypeNames>Ovlivněné typy uzlů</affectedNodeTypeNames>
       </label>
     </dialog>
   </AddMetadata>
@@ -354,9 +354,9 @@
   <EnableVersioning>
     <dialog>
       <label>
-        <isDeep>Yra giliai</isDeep>
-        <nodetypes>Mazgo tipai</nodetypes>
-        <affectedNodeTypeNames>Įtakoti mazgo tipai</affectedNodeTypeNames>
+        <isDeep>Je hluboké</isDeep>
+        <nodetypes>Typy uzlů</nodetypes>
+        <affectedNodeTypeNames>Ovlivněné typy uzlů</affectedNodeTypeNames>
       </label>
     </dialog>
   </EnableVersioning>
@@ -364,9 +364,9 @@
   <AutoVersioning>
     <dialog>
       <label>
-        <isDeep>Yra giliai</isDeep>
-        <nodetypes>Mazgo tipai</nodetypes>
-        <affectedNodeTypeNames>Įtakoti mazgo tipai</affectedNodeTypeNames>
+        <isDeep>Je hluboké</isDeep>
+        <nodetypes>Typy uzlů</nodetypes>
+        <affectedNodeTypeNames>Ovlivněné typy uzlů</affectedNodeTypeNames>
       </label>
     </dialog>
   </AutoVersioning>
@@ -374,15 +374,15 @@
   <AccessibleMedia>
   <dialog>
   <label>
-  <captions>Nuorodinės antraštės</captions>
-<audioDescription>Garso aprašymas</audioDescription>
-<alternativeText>Alternatyvus tekstas</alternativeText>
+  <captions>Titulky</captions>
+<audioDescription>Popis audia</audioDescription>
+<alternativeText>Alternativní text</alternativeText>
 </label>
 </dialog>
 <help>
-<CaptionsHelp>Nuorodinės antraštės turi pateikti dialogo tekstą ir svarbius garsus</CaptionsHelp>
-<AudioDescriptionHelp>Garso aprašymas yra video įgarsinimo takelis</AudioDescriptionHelp>
-<AlternativeTextHelp>Pateikti prieinamą, alternatyvų informacijos pateikimo būdą</AlternativeTextHelp>
+<CaptionsHelp>Titulky by měly poskytnout text k dialogům a důležitým zvukům</CaptionsHelp>
+<AudioDescriptionHelp>Zvukový popis je vyprávěná stopa videa</AudioDescriptionHelp>
+<AlternativeTextHelp>Poskytněte přístupný, alternativní způsob prezentace informací</AlternativeTextHelp>
 </help>
 </AccessibleMedia>
   

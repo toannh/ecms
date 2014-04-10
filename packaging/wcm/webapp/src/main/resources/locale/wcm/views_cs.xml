@@ -23,8 +23,8 @@
   <WebLink>
     <view>
       <label>
-        <url>URL</url>
-        <description>Aprašymas</description>
+        <url>ADRESA URL</url>
+        <description>Popis</description>
       </label>
     </view>
   </WebLink>
@@ -32,17 +32,17 @@
   <SiteMetadata>
     <view>
       <label>
-        <title>Svetainės pavadinimas</title>
-        <description>Svetainės aprašymas</description>
-        <keywords>Svetainės raktažodžiai</keywords>
-        <robots>Paieškos variklio elgesys</robots>
+        <title>Název webu</title>
+        <description>Popis webu</description>
+        <keywords>Klíčová slova webu</keywords>
+        <robots>Chování vyhledávacího mechanismu</robots>
       </label>
       <tooltip>
-        <add-edit>Pridėti/redaguoti metaduomenis</add-edit>
+        <add-edit>Přidat či upravit Metadata</add-edit>
         <cancel>#{word.cancel}</cancel>
       </tooltip>
       <action>
-        <add-edit>Pridėti/redaguoti</add-edit>
+        <add-edit>Přidat či upravit</add-edit>
         <cancel>#{word.cancel}</cancel>
       </action>
     </view>
@@ -50,13 +50,13 @@
 
   <Category>
     <view>
-      <label>Kategorija</label>
+      <label>Kategorie</label>
     </view>
   </Category>
 
   <Tag>
     <view>
-      <label>Žymė</label>
+      <label>Tag</label>
     </view>
   </Tag>
 </bundle>
