@@ -178,7 +178,7 @@ public class UIDocumentInfo extends UIBaseNodePresentation {
 
   final protected static String CATEGORY_YEAR                      = "UIDocumentInfo.label.EarlierThisYear";
 
-  final protected static String CONTENT_PAGE_ITERATOR_ID           = "ContentPageIterator";
+  final public static String CONTENT_PAGE_ITERATOR_ID           = "ContentPageIterator";
 
   final protected static String CONTENT_TODAY_PAGE_ITERATOR_ID     = "ContentTodayPageIterator";
 
@@ -1866,7 +1866,8 @@ public class UIDocumentInfo extends UIBaseNodePresentation {
     builder.append(" isFile='" + node.isNodeType("nt:file") + "' ");
     builder.append(" isLinkWithTarget='" + Utils.targetNodeAndLinkInTrash(node) + "' ");
     builder.append(" isExoAction='" + (Utils.EXO_ACTIONS.equals(node.getName()) && Utils.isInTrash(node)) + "' ");
-    
+    builder.append(" isCheckedIn='" + !node.isCheckedOut() + "' ");
+
     return builder.toString();
   }
 
