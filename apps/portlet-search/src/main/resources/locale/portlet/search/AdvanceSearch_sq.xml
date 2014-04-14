@@ -33,9 +33,7 @@
       <edit>crwdns6424967:0crwdne6424967:0</edit>
     </action>
     <msg>
-      <your-search>crwdns6424968:0crwdne6424968:0</your-search>
-      <did-not-match>crwdns6424969:0crwdne6424969:0</did-not-match>
-      <new-suggestion>crwdns6424970:0crwdne6424970:0</new-suggestion>
+      <search-not-match-type>Your search {0} does not match any {1}.</search-not-match-type>
     </msg>
   </UIDefaultSearchResult>
   <UISearchPageLayoutManager>
