@@ -33,9 +33,7 @@
       <edit>Chỉnh sửa</edit>
     </action>
     <msg>
-      <your-search>Từ khóa</your-search>
-      <did-not-match>không khớp với bất kỳ mục nào</did-not-match>
-      <new-suggestion>đề xuất</new-suggestion>
+      <search-not-match-type>Your search {0} does not match any {1}.</search-not-match-type>
     </msg>
   </UIDefaultSearchResult>
   <UISearchPageLayoutManager>
