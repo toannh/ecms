@@ -44,7 +44,7 @@
       <no-taxonomy-selected>您必須複製或剪下至少一個類別。</no-taxonomy-selected>
       <node-is-cutting>不能在這裡貼上。類別節點 '{0}' 可能被剪下。</node-is-cutting>
       <can-not-paste>剪貼簿中沒有任何資料。</can-not-paste>
-      <reference-exception>不能刪除此類別，因為它當前引用的內容。</reference-exception>
+      <reference-exception>不能刪除此類別，因為它的內容正被引用中。</reference-exception>
       <path-error>刪除此類別節點時出錯。</path-error>
     </msg>
   </UITaxonomyWorkingArea>
@@ -230,10 +230,10 @@
   -->
   <UIMetadataList>
     <label>
-      <false>false</false>
-      <true>true</true>
-      <True>true</True>
-      <False>false</False>
+      <false>錯</false>
+      <true>對</true>
+      <True>對</True>
+      <False>錯</False>
     </label>
     <title>
       <view>查看</view>
@@ -259,7 +259,7 @@
   </UIMetadataList>
   <MetadataPopupAddNew>
     <title>
-      <UIMetadataForm>Add New Metadata's Template</UIMetadataForm>
+      <UIMetadataForm>添加新的資料範本</UIMetadataForm>
     </title>
   </MetadataPopupAddNew>
   <MetadataPopupEdit>
@@ -279,7 +279,7 @@
   ################################################################################
   -->
   <UIMetadataForm>
-    <title>映射中繼資料</title>
+    <title>核對中繼資料</title>
     <action>
       <Cancel>#{word.cancel}</Cancel>
       <Save>套用</Save>
@@ -291,7 +291,7 @@
     </header>
     <label>
       <dialogTemplate>對話方塊範本：</dialogTemplate>
-      <viewTemplate>視圖範本：</viewTemplate>
+      <viewTemplate>檢視範本：</viewTemplate>
       <metadataName>中繼資料名稱：</metadataName>
       <viewPermission>權限：</viewPermission>
       <permission>UIMetadataForm</permission>
@@ -301,7 +301,7 @@
       <label>
         <metadataTypeTab>中繼資料類型</metadataTypeTab>
         <dialogTab>對話方塊範本</dialogTab>
-        <viewTab>視圖範本</viewTab>
+        <viewTab>檢視範本：</viewTab>
       </label>
     </tab>
   </UIMetadataForm>
@@ -399,7 +399,7 @@
       <permissions>權限：</permissions>
       <showHiddenNode>顯示隱藏的節點：</showHiddenNode>
       <allowCreateFolders>允許建立資料夾：</allowCreateFolders>
-      <Admin>Admin：</Admin>
+      <Admin>管理員</Admin>
       <Categories>類別：</Categories>
       <Icons>圖示：</Icons>
       <List>清單：</List>
@@ -454,8 +454,8 @@
   -->
   <UINodeTypeList>
     <label>
-      <true>true</true>
-      <false>false</false>
+      <true>對</true>
+      <false>錯</false>
     </label>
     <header>
       <icon>圖示</icon>
@@ -526,7 +526,7 @@
       <multiple>是多個</multiple>
       <mandatory>是強制性的</mandatory>
       <autoCreated>是自動建立</autoCreated>
-      <parentversion>在母版上</parentversion>
+      <parentversion>在原始版上</parentversion>
       <protected>是受保護</protected>
       <constraints>值</constraints>
       <UIFormTableInputSet>UIFormTableInputSet</UIFormTableInputSet>
@@ -534,7 +534,7 @@
       <childNamespace>名稱空間</childNamespace>
       <childMandatory>是強制性的</childMandatory>
       <childAutocreated>是自動建立</childAutocreated>
-      <childParentversion>在母版上</childParentversion>
+      <childParentversion>在原始版上</childParentversion>
       <childProtected>是受保護</childProtected>
       <childNodename>定義名稱</childNodename>
       <requiredPrimaryType>所需的主要類型</requiredPrimaryType>
@@ -561,8 +561,8 @@
     </action>
     <msg>
       <register-successfully>'{0}' 節點類型已成功註冊。</register-successfully>
-      <supertype-is-madatory>父類型是強制性的當你註冊一個新的節點類型。請選擇至少一個父類型。</supertype-is-madatory>
-      <register-failed>節點類型註冊不成功。它已經存在或父類型無效。</register-failed>
+      <supertype-is-madatory>超級類型是強制性的當你註冊一個新的節點類型。請選擇至少一個超級類型。</supertype-is-madatory>
+      <register-failed>節點類型註冊不成功。它已經存在或超級類型無效。</register-failed>
       <nodeType-name>節點類型名稱是必填的。</nodeType-name>
       <fileName-invalid>檔案名稱中有一些不正確字元。</fileName-invalid>
       <node-type-exists>'{0}' 節點類型已經存在。</node-type-exists>
@@ -706,9 +706,9 @@
   -->
   <DriveInputSet>
     <label>
-      <both>Both</both>
-      <folderOnly>Folder</folderOnly>
-      <unstructuredFolder>Unstructured Folder</unstructuredFolder>
+      <both>兩個</both>
+      <folderOnly>資料夾</folderOnly>
+      <unstructuredFolder>非結構化的資料夾</unstructuredFolder>
     </label>
     <title>
       <AddPermission>增加權限</AddPermission>
@@ -755,7 +755,7 @@
     <label>
       <actionType>擴展操作類型：</actionType>
       <name>名稱：</name>
-      <isMove>is Action Move:</isMove>
+      <isMove>是行動移動：</isMove>
       <variables>變數：</variables>
       <exo_businessProcessAction>業務流程：</exo_businessProcessAction>
       <exo_scriptAction>Groovy 腳本：</exo_scriptAction>
@@ -785,7 +785,7 @@
       <ECMTemplate>資源管理器中的範本</ECMTemplate>
       <UIScriptForm>腳本</UIScriptForm>
       <UIDialogTab>對話</UIDialogTab>
-      <UIViewTab>查看</UIViewTab>
+      <UIViewTab>檢視</UIViewTab>
       <UITemplateEditForm>模板</UITemplateEditForm>
       <UITemplateForm>模板</UITemplateForm>
       <UITemplateContainer>文件</UITemplateContainer>
@@ -798,7 +798,7 @@
 <nodeTypeDefinition>節點類型</nodeTypeDefinition>
       <propertyDefinition>屬性</propertyDefinition>
       <childNodeDefinition>子節點</childNodeDefinition>
-      <SuperTypeTab>父類型</SuperTypeTab>
+      <SuperTypeTab>超級類型</SuperTypeTab>
       <DefaultTypeTab>主要預設</DefaultTypeTab>
       <RequiredTypeTab>主要所需</RequiredTypeTab>
       <Contraints>約束</Contraints>
@@ -811,7 +811,7 @@
   -->
   <UIViewList>
    <title>
-     <View>查看</View>
+     <View>檢視</View>
      <EditInfo>編輯</EditInfo>
      <Delete>刪除</Delete>
    </title>
@@ -833,7 +833,7 @@
   </UIViewList>
   <ViewPopup>
     <title>
-      <UIViewFormTabPane>查看</UIViewFormTabPane>
+      <UIViewFormTabPane>檢視</UIViewFormTabPane>
     </title>
   </ViewPopup>
   <AddPopup>
@@ -866,7 +866,7 @@
 </msg>
 <grid>
  <msg>
-  <empty>沒有標籤在這個視圖</empty>
+  <empty>在這個視圖上沒有標籤</empty>
  </msg>
 </grid>
 </UITabList>
@@ -974,10 +974,10 @@
       <importNode>匯入節點</importNode>
       <viewRelations>查看關係</viewRelations>
       <showJCRStructure>顯示 JCR 結構</showJCRStructure>
-      <watchDocument>觀注文檔</watchDocument>
+      <watchDocument>觀看文件</watchDocument>
       <taggingDocument>標記文件</taggingDocument>
       <viewMetadatas>查看中繼資料</viewMetadatas>
-      <overloadThumbnail>超載的縮略圖</overloadThumbnail>
+      <overloadThumbnail>超載的縮圖</overloadThumbnail>
       <manageHidden>隱藏/顯示內容</manageHidden>
       <comment>評論</comment>
       <vote>投票</vote>  
@@ -1067,6 +1067,9 @@
   ################################################################################
   -->
   <UITemplateForm>
+    <title>
+      <AddPermission>增加權限</AddPermission>
+    </title>
     <action>
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
@@ -1083,9 +1086,9 @@
     </msg>
     <tab>
       <label>
-        <template>模板</template>
+        <template>範本</template>
         <defaultDialog>對話</defaultDialog>
-        <defaultView>查看</defaultView>
+        <defaultView>檢視</defaultView>
       </label>
     </tab>
     <label>
@@ -1176,7 +1179,7 @@
   -->
   <uiECMScriptsPopup>
     <title>
-      <ecmScriptForm>ECM Script</ecmScriptForm>
+      <ecmScriptForm>ECM 腳本</ecmScriptForm>
     </title>
   </uiECMScriptsPopup>
 
@@ -1546,7 +1549,7 @@
   <UIOthersTemplateList>
     <header>
       <name>類型</name>
-      <label>模板</label>
+      <label>範本</label>
       <icon>圖示</icon>
       <action>操作</action>
     </header>
@@ -2081,7 +2084,7 @@
   </PermissionButton>
   <nodeTypeDefinition>
     <title>
-      <AddSuperType>增加父類型</AddSuperType>
+      <AddSuperType>增加超級類型</AddSuperType>
     </title>
   </nodeTypeDefinition>
   <childNodeDefinition>
@@ -2092,7 +2095,7 @@
   </childNodeDefinition>
   <propertyDefinition>
     <title>
-      <AddConstraints>Add Constraints</AddConstraints>
+      <AddConstraints>增加限制</AddConstraints>
     </title>
   </propertyDefinition>
   <authInputSet>
@@ -2240,7 +2243,7 @@
     <email>#{word.email}</email>
       <action>#{word.action}</action>
       <Add>#{word.Add}</Add>
-      <Close>#{word.Close}</Close>
+      <Close># {word.close}</Close>
     </label>
   </PermissionTreeSelectUser>
   
@@ -2512,7 +2515,7 @@
   </UIWorkspaceWizard>
   <UIRepositoryForm>
     <msg>
-      <not-complete-repository>The repository is being created. You need to wait a few minutes before creating another one.</not-complete-repository>
+      <not-complete-repository>正在創建儲存庫。你需要等待幾分鐘，然後創建另一個。</not-complete-repository>
     </msg>
   </UIRepositoryForm>
   

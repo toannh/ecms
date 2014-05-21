@@ -8,10 +8,25 @@
 		
 		this.showRightContent = true;
 	}
-
-    WCMUtils.prototype.getHostName = function() {
-		var parentLocation = window.parent.location;
-		return parentLocation.href.substring(0, parentLocation.href.indexOf(parentLocation.pathname));
+	
+	WCMUtils.prototype.getHostName = function() {
+    var hostName;
+    if(self == top){
+      var parentLocation = window.parent.location;
+       hostName = parentLocation.href.substring(0, parentLocation.href.indexOf(parentLocation.pathname));
+    } else {
+      // If window is iframe, location should be parsing from src property
+      var url; 
+      if (eXo.core.Browser.ie) {
+        url = window.frameElement.src;
+      } else {
+        url = window.src;
+      }
+      var parser = document.createElement('a');
+      parser.href = url;
+      hostName =  parser.protocol + "//" + parser.hostname + ":" + parser.port;
+    }
+    return hostName;
 	};
 	
 	WCMUtils.prototype.request = function(url) {
@@ -387,6 +402,34 @@
         var placement = Math.abs(horiz) > Math.abs(vert) ?  horizPlacement : vertPlacement;
         return placement;
     };
+
+    WCMUtils.prototype.pingUserStatus = function() {
+      var userStatus = gj("#user-status");
+      var frequency = 15;
+      var delay = 60;
+      if(userStatus.html() != undefined) {
+        frequency = gj(userStatus).attr("user-status-ping-frequency");
+        delay = gj(userStatus).attr("user-status-offline-delay");
+      }
+      var pingEvent = window.clearInterval(pingEvent);
+      pingEvent = setInterval(gj.proxy(eXo.ecm.WCMUtils.sendPing, eXo.ecm.WCMUtils), frequency*1000);
+      eXo.ecm.WCMUtils.sendPing();
+    }
+
+    WCMUtils.prototype.sendPing = function() {
+      gj.ajax({
+        url: "/rest/state/ping/",
+        dataType: "json",
+        context: this,
+        success: function(data){
+
+        },
+        error: function(){
+     
+        }
+     });
+   };
+
 
     WCMUtils.prototype.showPopover = function (element) {
         gj(element).popover({template: '<div class="popover"><div class="arrow"></div><div class="inner"><h3 class="popover-title" style="display:none;"></h3><div class="popover-content"><p></p></div></div></div>'});

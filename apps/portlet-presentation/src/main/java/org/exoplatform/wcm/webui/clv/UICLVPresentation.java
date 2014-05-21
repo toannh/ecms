@@ -382,7 +382,7 @@ public class UICLVPresentation extends UIContainer {
       Node content = node.getNode("jcr:content");
       if (content.hasProperty("dc:description")) {
         try {
-          desc = content.getProperty("dc:description").getValues()[0].getString();
+          desc = ContentReader.getXSSCompatibilityContent(content.getProperty("dc:description").getValues()[0].getString());
         } catch (Exception ex) {
           return null;
         }

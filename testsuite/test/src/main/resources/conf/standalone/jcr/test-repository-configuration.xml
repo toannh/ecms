@@ -11,15 +11,15 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA ~ 02110-1301 USA,
   or see the FSF site: http://www.fsf.org. -->
 <repository-service default-repository="repository">
-    <repositories>
-        <repository name="repository" system-workspace="system"
-                    default-workspace="collaboration">
-            <security-domain>gatein-domain</security-domain>
-            <access-control>optional</access-control>
-            <authentication-policy>
-                org.exoplatform.services.jcr.impl.core.access.JAASAuthenticator
-            </authentication-policy>
-
+  <repositories>
+    <repository name="repository" system-workspace="system"
+      default-workspace="collaboration">
+      <security-domain>gatein-domain</security-domain>
+      <access-control>optional</access-control>
+      <authentication-policy>
+        org.exoplatform.services.jcr.impl.core.access.JAASAuthenticator
+      </authentication-policy>
+      
             <!-- System -->
             <workspaces>
                 <workspace name="system">
@@ -193,6 +193,7 @@
                         <properties>
                             <property name="index-dir"
                                       value="${gatein.test.tmp.dir}/jcr/jcrlucenedb/collaboration" />
+                        <property name="indexing-configuration-path" value="jar:/conf/standalone/jcr/indexing-configuration.xml" />
                         </properties>
                     </query-handler>
                     <lock-manager

@@ -42,8 +42,8 @@ import org.apache.commons.lang.StringUtils;
 import org.exoplatform.common.http.HTTPStatus;
 import org.exoplatform.ecm.connector.fckeditor.FCKMessage;
 import org.exoplatform.ecm.connector.fckeditor.FCKUtils;
-import org.exoplatform.ecm.utils.text.Text;
 import org.exoplatform.ecm.utils.lock.LockUtil;
+import org.exoplatform.ecm.utils.text.Text;
 import org.exoplatform.services.cms.impl.Utils;
 import org.exoplatform.services.cms.jcrext.activity.ActivityCommonService;
 import org.exoplatform.services.cms.mimetype.DMSMimeTypeResolver;
@@ -57,7 +57,6 @@ import org.exoplatform.services.wcm.utils.WCMCoreUtils;
 import org.exoplatform.upload.UploadResource;
 import org.exoplatform.upload.UploadService;
 import org.exoplatform.upload.UploadService.UploadLimit;
-import org.exoplatform.upload.UploadService.UploadUnit;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
@@ -155,7 +154,11 @@ public class FileUploadHandler {
     DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
     DocumentBuilder builder = factory.newDocumentBuilder();
     Document doc = builder.newDocument();
-    Element rootElement = doc.createElement("<html><head></head><body></body></html");
+    Element rootElement = doc.createElement("html");
+    Element head = doc.createElement("head");
+    Element body = doc.createElement("body");
+    rootElement.appendChild(head);
+    rootElement.appendChild(body);
     doc.appendChild(rootElement);
     
     return Response.ok(new DOMSource(doc), MediaType.TEXT_XML)

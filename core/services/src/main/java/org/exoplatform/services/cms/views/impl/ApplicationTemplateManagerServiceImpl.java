@@ -47,8 +47,7 @@ import java.util.*;
 public class ApplicationTemplateManagerServiceImpl implements ApplicationTemplateManagerService, Startable {
 
   private static final Log LOG = ExoLogger.getLogger(ApplicationTemplateManagerServiceImpl.class.getName());
-  private static final String EDITED_CONFIGURED_TEMPLATES = "EditedConfiguredTemplates";
-  
+  public static final String EDITED_CONFIGURED_TEMPLATES = "EditedConfiguredTemplates";
   private RepositoryService repositoryService;
 
   private List<PortletTemplatePlugin> portletTemplatePlugins = new ArrayList<PortletTemplatePlugin>();
@@ -70,7 +69,6 @@ public class ApplicationTemplateManagerServiceImpl implements ApplicationTemplat
    *
    * @param repositoryService       RepositoryService
    * @param hierarchyCreator        NodeHierarchyCreator
-   * @param params                  InitParams
    * @param dmsConfiguration        DMSConfiguration
    * @see RepositoryService
    * @see NodeHierarchyCreator
@@ -190,8 +188,6 @@ public class ApplicationTemplateManagerServiceImpl implements ApplicationTemplat
    * Gets the based application templates home.
    *
    * @param sessionProvider       SessionProvider
-   * @param repository            String
-   *                              The name of repository
    * @return the based application templates home
    * @see SessionProvider
    * @throws Exception the exception

@@ -33,6 +33,8 @@ import org.exoplatform.services.wcm.publication.PublicationDefaultStates;
 import org.exoplatform.services.wcm.search.base.AbstractPageList;
 import org.exoplatform.services.wcm.search.base.BaseSearchTest;
 import org.exoplatform.services.wcm.utils.WCMCoreUtils;
+import org.junit.FixMethodOrder;
+import org.junit.runners.MethodSorters;
 
 /**
  * Created by The eXo Platform SAS
@@ -213,6 +215,7 @@ public class TestSearchService extends BaseSearchTest {
     queryCriteria.setSearchWebContent(true);
     queryCriteria.setLiveMode(false);
     queryCriteria.setSearchWebpage(false);
+    queryCriteria.setFuzzySearch(true);
     AbstractPageList<ResultNode> pageList = getSearchResult();
     assertEquals(2, pageList.getPage(1).size());
   }
@@ -235,6 +238,7 @@ public class TestSearchService extends BaseSearchTest {
     queryCriteria.setSearchWebContent(true);
     queryCriteria.setLiveMode(true);
     queryCriteria.setSearchWebpage(false);
+    queryCriteria.setFuzzySearch(true);
     AbstractPageList<ResultNode> pageList = getSearchResult();
     assertEquals(1, pageList.getPage(1).size());
     assertEquals(2, pageList.getTotalNodes());
@@ -258,6 +262,7 @@ public class TestSearchService extends BaseSearchTest {
     queryCriteria.setSearchWebContent(true);
     queryCriteria.setLiveMode(false);
     queryCriteria.setSearchWebpage(false);
+    queryCriteria.setFuzzySearch(true);
     AbstractPageList<ResultNode> pageList = getSearchResult();
     assertEquals(4, pageList.getTotalNodes());
     assertEquals(4, pageList.getPage(1).size());
@@ -281,6 +286,7 @@ public class TestSearchService extends BaseSearchTest {
     queryCriteria.setSearchWebContent(true);
     queryCriteria.setLiveMode(true);
     queryCriteria.setSearchWebpage(false);
+    queryCriteria.setFuzzySearch(true);
     AbstractPageList<ResultNode> pageList = getSearchResult();
     assertEquals(2, pageList.getPage(1).size());
     assertEquals(4, pageList.getTotalNodes());
@@ -303,6 +309,7 @@ public class TestSearchService extends BaseSearchTest {
     queryCriteria.setSearchWebContent(true);
     queryCriteria.setLiveMode(true);
     queryCriteria.setSearchWebpage(false);
+    queryCriteria.setFuzzySearch(true);
     AbstractPageList<ResultNode> pageList = getSearchResult();
     assertEquals(2, pageList.getPage(1).size());
   }
@@ -323,6 +330,7 @@ public class TestSearchService extends BaseSearchTest {
     queryCriteria.setSearchWebContent(true);
     queryCriteria.setLiveMode(false);
     queryCriteria.setSearchWebpage(false);
+    queryCriteria.setFuzzySearch(true);
     AbstractPageList<ResultNode> pageList = getSearchResult();
     assertEquals(4, pageList.getTotalNodes());
   }
@@ -343,6 +351,7 @@ public class TestSearchService extends BaseSearchTest {
     queryCriteria.setSearchWebContent(true);
     queryCriteria.setLiveMode(false);
     queryCriteria.setSearchWebpage(false);
+    queryCriteria.setFuzzySearch(true);
     AbstractPageList<ResultNode> pageList = getSearchResult();
     assertEquals(2, pageList.getTotalNodes());
   }
@@ -363,6 +372,7 @@ public class TestSearchService extends BaseSearchTest {
     queryCriteria.setSearchWebContent(true);
     queryCriteria.setLiveMode(true);
     queryCriteria.setSearchWebpage(false);
+    queryCriteria.setFuzzySearch(true);
     AbstractPageList<ResultNode> pageList = getSearchResult();
     assertEquals(1, pageList.getPage(1).size());
     assertEquals(2, pageList.getTotalNodes());
@@ -654,7 +664,7 @@ public class TestSearchService extends BaseSearchTest {
     queryCriteria.setFulltextSearchProperty(null);
     String author = "root";
     queryCriteria.setAuthors(new String[]{author});
-    assertEquals(6, siteSearchService.searchSiteContents(sessionProvider, queryCriteria, 10, true).getTotalNodes());
+    assertEquals(4, siteSearchService.searchSiteContents(sessionProvider, queryCriteria, 10, true).getTotalNodes());
   }
 
   public void testSearchByMimeTypes()throws Exception{
@@ -667,9 +677,9 @@ public class TestSearchService extends BaseSearchTest {
     queryCriteria.setSearchWebpage(false);
     queryCriteria.setFulltextSearch(true);
     queryCriteria.setFulltextSearchProperty(null);
-    queryCriteria.setMimeTypes(new String[]{"exo:webContent", " exo:siteBreadcrumb"});
+    queryCriteria.setMimeTypes(new String[]{"exo:webContent", "exo:siteBreadcrumb"});
     AbstractPageList<ResultNode> pageList = siteSearchService.searchSiteContents(sessionProvider, queryCriteria, 10, true);
-    assertEquals(6, pageList.getTotalNodes());
+    assertEquals(4, pageList.getTotalNodes());
   }
 
   public void testSearchByTagUUID() throws Exception{
@@ -682,11 +692,11 @@ public class TestSearchService extends BaseSearchTest {
     queryCriteria.setSearchWebpage(false);
     queryCriteria.setFulltextSearch(true);
     queryCriteria.setFulltextSearchProperty(null);
-    queryCriteria.setMimeTypes(new String[]{"exo:webContent", " exo:siteBreadcrumb"});
+    queryCriteria.setMimeTypes(new String[]{"exo:webContent", "exo:siteBreadcrumb"});
     Node node = (Node)session.getItem("/sites content/live/classic/web contents/webcontent0");
     String uuid = node.getUUID();
     queryCriteria.setTagUUIDs(new String[]{uuid});
-    assertEquals(6, siteSearchService.searchSiteContents(sessionProvider, queryCriteria, 10, true).getTotalNodes());
+    assertEquals(4, siteSearchService.searchSiteContents(sessionProvider, queryCriteria, 10, true).getTotalNodes());
   }
 
   public void tearDown() throws Exception {
