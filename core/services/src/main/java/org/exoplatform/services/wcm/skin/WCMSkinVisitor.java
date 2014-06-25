@@ -85,7 +85,7 @@ public class WCMSkinVisitor implements SkinVisitor{
       String currentContext = WCMCoreUtils.getRepository().getConfiguration().getName();
       String cssPath = entry.getValue().getCSSPath();
       if (cssPath.matches(XSkinService.SKIN_PATH_REGEXP)){
-        if (!cssPath.split("/")[4].split("-")[0].equals(currentContext))
+        if (!cssPath.split("/")[4].split(XSkinService.SEPARATOR)[0].equals(currentContext))
           return;
       }
       skins.add(entry.getValue());

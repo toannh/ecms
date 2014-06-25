@@ -46,15 +46,14 @@ import org.picocontainer.Startable;
  * Apr 9, 2008
  */
 public class XSkinService implements Startable {
-
-  public final static String     MODULE_NAME_PATTERN    = "{repositoryName}-{portalName}";
-  public final static String     MODULE_NAME_REGEXP    = "(.*)-(.*)";
-
+  final static String     SEPARATOR             = ":";
+  final static String     MODULE_NAME_PATTERN   = "{repositoryName}"+SEPARATOR+"{portalName}";
+  final static String     MODULE_NAME_REGEXP    = "(.*)"+SEPARATOR+"(.*)";
   /** The Constant SKIN_PATH_REGEXP. */
   public final static String      SKIN_PATH_REGEXP     = "/(.*)/css/jcr/"+MODULE_NAME_REGEXP+"/(.*)/(.*).css";
 
   /** The Constant SKIN_PATH_PATTERN. */
-  private final static String     SKIN_PATH_PATTERN    = "/{docBase}/css/jcr/{moduleName}/(.*)/Stylesheet.css";
+  private final static String     SKIN_PATH_PATTERN    = "/{docBase}/css/jcr/{moduleName}/(.*)/Stylesheet.css";  
 
   /** The log. */
   private static final Log LOG = ExoLogger.getLogger(XSkinService.class.getName());
@@ -205,7 +204,7 @@ public class XSkinService implements Startable {
   public void stop() {
   }
 
-  public static String getModuleName(String siteName){
+  static String getModuleName(String siteName){
     String repoName;
     try{
       repoName = WCMCoreUtils.getRepository().getConfiguration().getName();
@@ -216,4 +215,5 @@ public class XSkinService implements Startable {
     moduleName = StringUtils.replaceOnce(moduleName,"{portalName}",siteName);
     return moduleName;
   }
+  
 }
