@@ -45,8 +45,8 @@ import org.exoplatform.ecm.connector.fckeditor.FCKMessage;
 import org.exoplatform.ecm.connector.fckeditor.FCKUtils;
 import org.exoplatform.ecm.utils.lock.LockUtil;
 import org.exoplatform.ecm.utils.text.Text;
-import org.exoplatform.services.cms.impl.Utils;
 import org.exoplatform.services.cms.jcrext.activity.ActivityCommonService;
+import org.exoplatform.services.wcm.publication.listener.post.DocumentAutoVersionEventListener;
 import org.exoplatform.services.cms.mimetype.DMSMimeTypeResolver;
 import org.exoplatform.services.cms.templates.TemplateService;
 import org.exoplatform.services.listener.ListenerService;
@@ -103,7 +103,7 @@ public class FileUploadHandler {
   private static final String IF_MODIFIED_SINCE_DATE_FORMAT = "EEE, dd MMM yyyy HH:mm:ss z";
   
   public final static String POST_CREATE_CONTENT_EVENT = "CmsService.event.postCreate";
-  
+
   /** The upload service. */
   private UploadService uploadService;
   
@@ -411,7 +411,7 @@ public class FileUploadHandler {
           fileCreated = true;
         } catch (ItemExistsException e) {//sameNameSibling is not allowed
           nodeName = increaseName(fileName, ++count);
-        }      
+        }
       } while (!fileCreated);
       //--------------------------------------------------------
       if(!file.isNodeType(NodetypeConstant.MIX_REFERENCEABLE)) {
@@ -441,13 +441,14 @@ public class FileUploadHandler {
       parent.getSession().refresh(true); // Make refreshing data
       uploadService.removeUploadResource(uploadId);
       uploadIdTimeMap.remove(uploadId);
-      WCMPublicationService wcmPublicationService = WCMCoreUtils.getService(WCMPublicationService.class);    
+      WCMPublicationService wcmPublicationService = WCMCoreUtils.getService(WCMPublicationService.class);
       wcmPublicationService.updateLifecyleOnChangeContent(file, siteName, userId);
      
       if (activityService.isBroadcastNTFileEvents(file)) {
         listenerService.broadcast(ActivityCommonService.FILE_CREATED_ACTIVITY, null, file);
       }
       file.getSession().save();
+      listenerService.broadcast(DocumentAutoVersionEventListener.DOCUMENT_AUTO_VERSIONING_LISTENER, this, file);
       return Response.ok(createDOMResponse("Result", mimetype), MediaType.TEXT_XML)
           .cacheControl(cacheControl)
           .header(LAST_MODIFIED_PROPERTY, dateFormat.format(new Date()))
