@@ -989,7 +989,10 @@
 						<contentNavigation>Content Navigation</contentNavigation>
 						<addSymLink>Add Symlink</addSymLink>
       <checkIn>Check In</checkIn>
-      <checkOut>Check Out</checkOut>						
+      <checkOut>Check Out</checkOut>
+      <openDocument>Remote Edit</openDocument>
+      <editProperty>Edit Document Properties</editProperty>
+      <uploadNewVersion>Upload a new version</uploadNewVersion>
     </label>
     <action>
       <Save>#{word.save}</Save>      
