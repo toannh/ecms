@@ -1283,16 +1283,16 @@
 				  </object>
 				</object-param>
 
-        <!--<object-param>-->
-            <!--<name>UploadNewVersion</name>-->
-            <!--<object type="org.exoplatform.webui.ext.UIExtension">-->
-                <!--<field name="type"><string>org.exoplatform.ecm.dms.UIWorkingArea</string></field>-->
-                <!--<field name="rank"><int>100</int></field>-->
-                <!--<field name="name"><string>UploadNewVersion</string></field>-->
-                <!--<field name="category"><string>ItemContextMenu_SingleSelection</string></field>-->
-                <!--<field name="component"><string>org.exoplatform.ecm.webui.component.explorer.rightclick.manager.UploadNewVersionManageComponent</string></field>-->
-            <!--</object>-->
-        <!--</object-param>-->
+        <object-param>
+            <name>CreateNewVersion</name>
+            <object type="org.exoplatform.webui.ext.UIExtension">
+                <field name="type"><string>org.exoplatform.ecm.dms.UIWorkingArea</string></field>
+                <field name="rank"><int>100</int></field>
+                <field name="name"><string>CreateNewVersion</string></field>
+                <field name="category"><string>ItemContextMenu_SingleSelection</string></field>
+                <field name="component"><string>org.exoplatform.ecm.webui.component.explorer.rightclick.manager.CreateNewVersionManageComponent</string></field>
+            </object>
+        </object-param>
 
 
             </init-params>
