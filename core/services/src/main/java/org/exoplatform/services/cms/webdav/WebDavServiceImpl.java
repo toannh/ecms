@@ -144,11 +144,11 @@ public class WebDavServiceImpl extends org.exoplatform.services.jcr.webdav.WebDa
 
             if (driveHome.startsWith(PERSONAL_DRIVE_PREFIX) && PERSONAL_GROUP_DRIVE_WORKSPACE.equals(workspace))
             {
-               allowedAutoVersionPath.add(driveData.getWorkspace(), PERSONAL_DRIVE_PREFIX);
+               allowedAutoVersionPath.add(driveData.getWorkspace(), "/Users");
             }
             else if (driveHome.startsWith(GROUP_DRIVE_PREFIX) && PERSONAL_GROUP_DRIVE_WORKSPACE.equals(workspace))
             {
-               allowedAutoVersionPath.add(driveData.getWorkspace(), GROUP_DRIVE_PREFIX);
+               allowedAutoVersionPath.add(driveData.getWorkspace(), "/Groups");
             }
             else
             {
